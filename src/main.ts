@@ -1,14 +1,17 @@
 import { createApp } from 'vue'
 
+// VUE ROUTER
 import { createMemoryHistory, createRouter } from 'vue-router'
 import routes from './routes'
 
+// VUE I18N
 import { createI18n } from 'vue-i18n'
 import locales from './locales'
 
-
+// APP
 import App from './App.vue'
 
+// CONSTANTS
 import {
   DEFAULT_LOCALE,
   isSupportedLocale
@@ -47,5 +50,10 @@ const i18n = createI18n({
 const app = createApp(App)
 
 app.use(router)
+
 app.use(i18n)
+
+// ----------------------------------------
+// MOUNT APP
+// ----------------------------------------
 app.mount('#app')
