@@ -4,7 +4,7 @@ console.log('Hello World')
 
 <template>
   <div
-    class="bg-red-500 h-dvh w-dvw overflow-auto flex flex-col gap-4 items-center justify-center"
+    class="bg-gray-300 dark:bg-blue-900 h-dvh w-dvw overflow-auto flex flex-col gap-4 items-center justify-center"
   >
     <h1
       class="text-4xl font-Audiowide"
