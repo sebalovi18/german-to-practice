@@ -11,9 +11,12 @@ import {
 
 import { useI18n } from 'vue-i18n'
 
-const { availableLocales, locale } = useI18n() 
+const { 
+  availableLocales, 
+  locale,
+  t
+} = useI18n()
 
-console.log(availableLocales)
 </script>
 
 <template>
@@ -26,7 +29,7 @@ console.log(availableLocales)
           class="size-4"
           aria-hidden="true"
         />
-        {{ locale }}
+        {{ t(`language.${locale}`) }}
       </button>
     </DropdownMenuTrigger>
     <DropdownMenuPortal>
@@ -39,8 +42,9 @@ console.log(availableLocales)
         >
           <button
             class="btn w-full capitalize"
+            @click="locale = availableLocale"
           >
-            {{ availableLocale }}
+            {{ t(`language.${availableLocale}`) }}
           </button>
         </DropdownMenuItem>
       </DropdownMenuContent>

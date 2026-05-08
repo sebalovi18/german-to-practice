@@ -1,3 +1,11 @@
 {
-  "hello": "Hola"
+  "common": {
+    "font": "Fuente"
+  },
+  "language": {
+    "en": "Inglés",
+    "de": "Alemán",
+    "es": "Español",
+    "tr": "Turco"
+  }
 }

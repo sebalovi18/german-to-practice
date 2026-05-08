@@ -1,3 +1,11 @@
 {
-  "hello": "Merhaba"
+  "common": {
+    "font": "Yazı Tipi"
+  },
+  "language": {
+    "en": "İngilizce",
+    "de": "Almanca",
+    "es": "İspanyolca",
+    "tr": "Türkçe"
+  }
 }

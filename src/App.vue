@@ -7,59 +7,52 @@ console.log('Hello World')
 
 <template>
   <div
-    class="h-dvh w-dvw overflow-auto flex flex-col gap-4 items-center justify-center"
+    class="h-dvh w-dvw overflow-auto container mx-auto p-2 rounded-md"
   >
-    <BaseLanguageSelector />
-    <BaseFontSelector />
-    <h1
-      class="text-4xl font-Audiowide"
+    <div
+      class="flex items-center justify-end gap-4"
     >
-      You did it!
-    </h1>
-    <h1
-      class="text-4xl font-Bitcount-Grid-Double-Ink"
+      <BaseLanguageSelector />
+      <BaseFontSelector />
+    </div>
+    <div
+      class="flex flex-col gap-4 items-center justify-center"
     >
-      You did it!
-    </h1>
-    <h1
-      class="text-4xl font-Bitcount"
-    >
-      You did it!
-    </h1>
-    <h1
-      class="text-4xl font-Fontdiner-Swanky"
-    >
-      You did it!
-    </h1>
-    <h1
-      class="text-4xl font-Eater"
-    >
-      You did it!
-    </h1>
-    <h1
-      class="text-4xl font-Londrina-Shadow"
-    >
-      You did it!
-    </h1>
-    <h1
-      class="text-4xl font-Luckiest-Guy"
-    >
-      You did it!
-    </h1>
-    <h1
-      class="text-4xl font-Cinzel"
-    >
-      You did it!
-    </h1>
-    <h1
-      class="text-4xl font-Monoton"
-    >
-      You did it!
-    </h1>
-    <h1
-      class="text-4xl font-Press-Start-2P"
-    >
-      You did it!
-    </h1>
+      <h1
+        class="text-4xl font-Londrina-Shadow"
+      >
+        You did it!
+      </h1>
+      <h1
+        class="text-4xl font-Eater"
+      >
+        You did it!
+      </h1>
+      <h1
+        class="text-4xl font-Londrina-Shadow"
+      >
+        You did it!
+      </h1>
+      <h1
+        class="text-4xl font-Luckiest-Guy"
+      >
+        You did it!
+      </h1>
+      <h1
+        class="text-4xl font-Cinzel"
+      >
+        You did it!
+      </h1>
+      <h1
+        class="text-4xl font-Monoton"
+      >
+        You did it!
+      </h1>
+      <h1
+        class="text-4xl font-Press-Start-2P"
+      >
+        You did it!
+      </h1>
+    </div>
   </div>
 </template>

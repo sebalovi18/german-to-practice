@@ -9,6 +9,10 @@ import {
   DropdownMenuTrigger,
 } from 'radix-vue'
 
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n()
+
 const fonts = [
   'Audiowide',
   'Bitcount',
@@ -32,7 +36,7 @@ const fonts = [
           class="size-4"
           aria-hidden="true"
         />
-        Font
+        {{ t('common.font') }}
       </button>
     </DropdownMenuTrigger>
     <DropdownMenuPortal>

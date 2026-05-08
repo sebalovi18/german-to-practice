@@ -1,3 +1,11 @@
 {
-  "hello": "Hello"
+  "common": {
+    "font": "Font"
+  },
+  "language": {
+    "en": "English",
+    "de": "German",
+    "es": "Spanish",
+    "tr": "Turkish"
+  }
 }
