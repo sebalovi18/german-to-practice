@@ -23,36 +23,6 @@ console.log('Hello World')
       >
         You did it!
       </h1>
-      <h1
-        class="text-4xl font-Eater"
-      >
-        You did it!
-      </h1>
-      <h1
-        class="text-4xl font-Londrina-Shadow"
-      >
-        You did it!
-      </h1>
-      <h1
-        class="text-4xl font-Luckiest-Guy"
-      >
-        You did it!
-      </h1>
-      <h1
-        class="text-4xl font-Cinzel"
-      >
-        You did it!
-      </h1>
-      <h1
-        class="text-4xl font-Monoton"
-      >
-        You did it!
-      </h1>
-      <h1
-        class="text-4xl font-Press-Start-2P"
-      >
-        You did it!
-      </h1>
     </div>
   </div>
 </template>

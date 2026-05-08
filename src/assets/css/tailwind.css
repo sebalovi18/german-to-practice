@@ -21,7 +21,7 @@
   --font-Monoton: 'Monoton', cursive;
   --font-Press-Start-2P: 'Press Start 2P', cursive;
 
-  /* BACKGROUND */
+  /* BACKGROUND LIGHT MODE */
   --color-background: var(--color-gray-100);
   --color-background-hover: var(--color-gray-200);
 
@@ -29,7 +29,7 @@
   --color-background-dark: var(--color-gray-800);
   --color-background-dark-hover: var(--color-gray-700);
 
-  /* FOREGROUND */
+  /* FOREGROUND LIGHT MODE */
   --color-foreground: var(--color-gray-800);
   --color-foreground-hover: var(--color-gray-700);
 
@@ -41,12 +41,17 @@
 @layer components {
   .btn {
     @apply
+      /* LIGHT MODE */
       bg-foreground
       hover:bg-foreground-hover
       text-background
+
+      /* DARK MODE */
       dark:bg-background
       dark:hover:bg-background-hover
       dark:text-foreground
+
+      /* COMMON */
       px-4
       py-2
       rounded-md
@@ -57,7 +62,12 @@
 @layer base {
   body {
     @apply
+      /* LIGHT MODE */
       bg-background
-      dark:bg-background-dark;
+      text-foreground
+
+      /* DARK MODE */
+      dark:bg-background-dark
+      dark:text-background;
   }
 }
