@@ -1,0 +1,1 @@
+export type GermanArticle = 'der' | 'die' | 'das'

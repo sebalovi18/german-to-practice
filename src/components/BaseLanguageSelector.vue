@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { Globe } from '@lucide/vue'
+
 import {
   DropdownMenuContent,
   DropdownMenuItem,
@@ -18,8 +20,12 @@ console.log(availableLocales)
   <DropdownMenuRoot>
     <DropdownMenuTrigger>
       <button
-        class="btn min-w-32 capitalize"
+        class="btn min-w-32 capitalize flex items-center gap-2"
       >
+        <Globe
+          class="size-4"
+          aria-hidden="true"
+        />
         {{ locale }}
       </button>
     </DropdownMenuTrigger>

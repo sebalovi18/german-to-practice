@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { Type as TypeIcon } from '@lucide/vue'
+
 import {
   DropdownMenuContent,
   DropdownMenuItem,
@@ -24,8 +26,12 @@ const fonts = [
   <DropdownMenuRoot>
     <DropdownMenuTrigger>
       <button
-        class="btn min-w-32 capitalize"
+        class="btn min-w-32 capitalize flex items-center gap-2"
       >
+        <TypeIcon
+          class="size-4"
+          aria-hidden="true"
+        />
         Font
       </button>
     </DropdownMenuTrigger>

@@ -1,6 +1,5 @@
-type AvailableLanguages = 'en' | 'de' | 'es' | 'tr'
-
-type GermanArticle = 'der' | 'die' | 'das'
+import type { GermanArticle } from "@/interfaces/GermanArticle"
+import type { Language } from "@/interfaces/Language"
 
 type Noun = {
   id: string
@@ -8,7 +7,7 @@ type Noun = {
   article: GermanArticle
   singular: string
   plural: string
-  translations: Record<AvailableLanguages, string>
+  translations: Record<Language, string>
   level?: string
   category?: string
 }
