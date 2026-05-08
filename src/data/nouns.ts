@@ -1,5 +1,5 @@
-import type { GermanArticle } from "@/interfaces/GermanArticle"
-import type { Language } from "@/interfaces/Language"
+import type { GermanArticle } from '@/interfaces/GermanArticle'
+import type { Language } from '@/interfaces/Language'
 
 type Noun = {
   id: string
@@ -23,8 +23,8 @@ export const nouns: Noun[] = [
       en: 'dinner',
       de: 'Abendessen',
       es: 'cena',
-      tr: 'akşam yemeği',
-    },
+      tr: 'akşam yemeği'
+    }
   },
   {
     id: 'alter',
@@ -36,8 +36,8 @@ export const nouns: Noun[] = [
       en: 'age',
       de: 'Alter',
       es: 'edad',
-      tr: 'yaş',
-    },
+      tr: 'yaş'
+    }
   },
   {
     id: 'auto',
@@ -49,8 +49,8 @@ export const nouns: Noun[] = [
       en: 'car',
       de: 'Auto',
       es: 'coche',
-      tr: 'araba',
-    },
+      tr: 'araba'
+    }
   },
   {
     id: 'bier',
@@ -62,8 +62,8 @@ export const nouns: Noun[] = [
       en: 'beer',
       de: 'Bier',
       es: 'cerveza',
-      tr: 'bira',
-    },
+      tr: 'bira'
+    }
   },
   {
     id: 'brot',
@@ -75,8 +75,8 @@ export const nouns: Noun[] = [
       en: 'bread',
       de: 'Brot',
       es: 'pan',
-      tr: 'ekmek',
-    },
+      tr: 'ekmek'
+    }
   },
   {
     id: 'broetchen',
@@ -88,8 +88,8 @@ export const nouns: Noun[] = [
       en: 'bread roll',
       de: 'Brötchen',
       es: 'panecillo',
-      tr: 'küçük ekmek',
-    },
+      tr: 'küçük ekmek'
+    }
   },
   {
     id: 'buch',
@@ -101,8 +101,8 @@ export const nouns: Noun[] = [
       en: 'book',
       de: 'Buch',
       es: 'libro',
-      tr: 'kitap',
-    },
+      tr: 'kitap'
+    }
   },
   {
     id: 'croissant',
@@ -114,8 +114,8 @@ export const nouns: Noun[] = [
       en: 'croissant',
       de: 'Croissant',
       es: 'cruasán',
-      tr: 'kruvasan',
-    },
+      tr: 'kruvasan'
+    }
   },
   {
     id: 'deutsch',
@@ -127,8 +127,8 @@ export const nouns: Noun[] = [
       en: 'German',
       de: 'Deutsch',
       es: 'alemán',
-      tr: 'Almanca',
-    },
+      tr: 'Almanca'
+    }
   },
   {
     id: 'ei',
@@ -140,8 +140,8 @@ export const nouns: Noun[] = [
       en: 'egg',
       de: 'Ei',
       es: 'huevo',
-      tr: 'yumurta',
-    },
+      tr: 'yumurta'
+    }
   },
   {
     id: 'eis',
@@ -153,8 +153,8 @@ export const nouns: Noun[] = [
       en: 'ice cream',
       de: 'Eis',
       es: 'helado',
-      tr: 'dondurma',
-    },
+      tr: 'dondurma'
+    }
   },
   {
     id: 'englisch',
@@ -166,8 +166,8 @@ export const nouns: Noun[] = [
       en: 'English',
       de: 'Englisch',
       es: 'inglés',
-      tr: 'İngilizce',
-    },
+      tr: 'İngilizce'
+    }
   },
   {
     id: 'essen',
@@ -179,8 +179,8 @@ export const nouns: Noun[] = [
       en: 'food',
       de: 'Essen',
       es: 'comida',
-      tr: 'yemek',
-    },
+      tr: 'yemek'
+    }
   },
   {
     id: 'fahrrad',
@@ -192,8 +192,8 @@ export const nouns: Noun[] = [
       en: 'bicycle',
       de: 'Fahrrad',
       es: 'bicicleta',
-      tr: 'bisiklet',
-    },
+      tr: 'bisiklet'
+    }
   },
   {
     id: 'feuerzeug',
@@ -205,8 +205,8 @@ export const nouns: Noun[] = [
       en: 'lighter',
       de: 'Feuerzeug',
       es: 'encendedor',
-      tr: 'çakmak',
-    },
+      tr: 'çakmak'
+    }
   },
   {
     id: 'fleisch',
@@ -218,8 +218,8 @@ export const nouns: Noun[] = [
       en: 'meat',
       de: 'Fleisch',
       es: 'carne',
-      tr: 'et',
-    },
+      tr: 'et'
+    }
   },
   {
     id: 'foto',
@@ -231,8 +231,8 @@ export const nouns: Noun[] = [
       en: 'photo',
       de: 'Foto',
       es: 'foto',
-      tr: 'fotoğraf',
-    },
+      tr: 'fotoğraf'
+    }
   },
   {
     id: 'franzoesisch',
@@ -244,8 +244,8 @@ export const nouns: Noun[] = [
       en: 'French',
       de: 'Französisch',
       es: 'francés',
-      tr: 'Fransızca',
-    },
+      tr: 'Fransızca'
+    }
   },
   {
     id: 'fruehstueck',
@@ -257,8 +257,8 @@ export const nouns: Noun[] = [
       en: 'breakfast',
       de: 'Frühstück',
       es: 'desayuno',
-      tr: 'kahvaltı',
-    },
+      tr: 'kahvaltı'
+    }
   },
   {
     id: 'gemuese',
@@ -270,8 +270,8 @@ export const nouns: Noun[] = [
       en: 'vegetables',
       de: 'Gemüse',
       es: 'verdura',
-      tr: 'sebze',
-    },
+      tr: 'sebze'
+    }
   },
   {
     id: 'getraenk',
@@ -283,8 +283,8 @@ export const nouns: Noun[] = [
       en: 'drink',
       de: 'Getränk',
       es: 'bebida',
-      tr: 'içecek',
-    },
+      tr: 'içecek'
+    }
   },
   {
     id: 'grad',
@@ -296,8 +296,8 @@ export const nouns: Noun[] = [
       en: 'degree',
       de: 'Grad',
       es: 'grado',
-      tr: 'derece',
-    },
+      tr: 'derece'
+    }
   },
   {
     id: 'gramm',
@@ -309,8 +309,8 @@ export const nouns: Noun[] = [
       en: 'gram',
       de: 'Gramm',
       es: 'gramo',
-      tr: 'gram',
-    },
+      tr: 'gram'
+    }
   },
   {
     id: 'handy',
@@ -322,8 +322,8 @@ export const nouns: Noun[] = [
       en: 'mobile phone',
       de: 'Handy',
       es: 'móvil',
-      tr: 'cep telefonu',
-    },
+      tr: 'cep telefonu'
+    }
   },
   {
     id: 'heft',
@@ -335,8 +335,8 @@ export const nouns: Noun[] = [
       en: 'notebook',
       de: 'Heft',
       es: 'cuaderno',
-      tr: 'defter',
-    },
+      tr: 'defter'
+    }
   },
   {
     id: 'herkunftsland',
@@ -348,8 +348,8 @@ export const nouns: Noun[] = [
       en: 'country of origin',
       de: 'Herkunftsland',
       es: 'país de origen',
-      tr: 'menşe ülke',
-    },
+      tr: 'menşe ülke'
+    }
   },
   {
     id: 'hobby',
@@ -361,8 +361,8 @@ export const nouns: Noun[] = [
       en: 'hobby',
       de: 'Hobby',
       es: 'pasatiempo',
-      tr: 'hobi',
-    },
+      tr: 'hobi'
+    }
   },
   {
     id: 'internet',
@@ -374,8 +374,8 @@ export const nouns: Noun[] = [
       en: 'internet',
       de: 'Internet',
       es: 'internet',
-      tr: 'internet',
-    },
+      tr: 'internet'
+    }
   },
   {
     id: 'jahr',
@@ -387,8 +387,8 @@ export const nouns: Noun[] = [
       en: 'year',
       de: 'Jahr',
       es: 'año',
-      tr: 'yıl',
-    },
+      tr: 'yıl'
+    }
   },
   {
     id: 'kilo',
@@ -400,8 +400,8 @@ export const nouns: Noun[] = [
       en: 'kilo',
       de: 'Kilo',
       es: 'kilo',
-      tr: 'kilo',
-    },
+      tr: 'kilo'
+    }
   },
   {
     id: 'kilogramm',
@@ -413,8 +413,8 @@ export const nouns: Noun[] = [
       en: 'kilogram',
       de: 'Kilogramm',
       es: 'kilogramo',
-      tr: 'kilogram',
-    },
+      tr: 'kilogram'
+    }
   },
   {
     id: 'kind',
@@ -426,8 +426,8 @@ export const nouns: Noun[] = [
       en: 'child',
       de: 'Kind',
       es: 'niño',
-      tr: 'çocuk',
-    },
+      tr: 'çocuk'
+    }
   },
   {
     id: 'klavier',
@@ -439,8 +439,8 @@ export const nouns: Noun[] = [
       en: 'piano',
       de: 'Klavier',
       es: 'piano',
-      tr: 'piyano',
-    },
+      tr: 'piyano'
+    }
   },
   {
     id: 'krankenhaus',
@@ -452,8 +452,8 @@ export const nouns: Noun[] = [
       en: 'hospital',
       de: 'Krankenhaus',
       es: 'hospital',
-      tr: 'hastane',
-    },
+      tr: 'hastane'
+    }
   },
   {
     id: 'lebensmittel',
@@ -465,8 +465,8 @@ export const nouns: Noun[] = [
       en: 'groceries',
       de: 'Lebensmittel',
       es: 'alimentos',
-      tr: 'gıda maddeleri',
-    },
+      tr: 'gıda maddeleri'
+    }
   },
   {
     id: 'lieblingsessen',
@@ -478,8 +478,8 @@ export const nouns: Noun[] = [
       en: 'favorite food',
       de: 'Lieblingsessen',
       es: 'comida favorita',
-      tr: 'en sevilen yemek',
-    },
+      tr: 'en sevilen yemek'
+    }
   },
   {
     id: 'lineal',
@@ -491,8 +491,8 @@ export const nouns: Noun[] = [
       en: 'ruler',
       de: 'Lineal',
       es: 'regla',
-      tr: 'cetvel',
-    },
+      tr: 'cetvel'
+    }
   },
   {
     id: 'mittagessen',
@@ -504,8 +504,8 @@ export const nouns: Noun[] = [
       en: 'lunch',
       de: 'Mittagessen',
       es: 'almuerzo',
-      tr: 'öğle yemeği',
-    },
+      tr: 'öğle yemeği'
+    }
   },
   {
     id: 'muesli',
@@ -517,8 +517,8 @@ export const nouns: Noun[] = [
       en: 'muesli',
       de: 'Müsli',
       es: 'muesli',
-      tr: 'müsli',
-    },
+      tr: 'müsli'
+    }
   },
   {
     id: 'obst',
@@ -530,8 +530,8 @@ export const nouns: Noun[] = [
       en: 'fruit',
       de: 'Obst',
       es: 'fruta',
-      tr: 'meyve',
-    },
+      tr: 'meyve'
+    }
   },
   {
     id: 'papier',
@@ -543,8 +543,8 @@ export const nouns: Noun[] = [
       en: 'paper',
       de: 'Papier',
       es: 'papel',
-      tr: 'kağıt',
-    },
+      tr: 'kağıt'
+    }
   },
   {
     id: 'picknick',
@@ -556,8 +556,8 @@ export const nouns: Noun[] = [
       en: 'picnic',
       de: 'Picknick',
       es: 'picnic',
-      tr: 'piknik',
-    },
+      tr: 'piknik'
+    }
   },
   {
     id: 'rad',
@@ -569,8 +569,8 @@ export const nouns: Noun[] = [
       en: 'wheel',
       de: 'Rad',
       es: 'rueda',
-      tr: 'tekerlek',
-    },
+      tr: 'tekerlek'
+    }
   },
   {
     id: 'restaurant',
@@ -582,8 +582,8 @@ export const nouns: Noun[] = [
       en: 'restaurant',
       de: 'Restaurant',
       es: 'restaurante',
-      tr: 'restoran',
-    },
+      tr: 'restoran'
+    }
   },
   {
     id: 'spiel',
@@ -595,8 +595,8 @@ export const nouns: Noun[] = [
       en: 'game',
       de: 'Spiel',
       es: 'juego',
-      tr: 'oyun',
-    },
+      tr: 'oyun'
+    }
   },
   {
     id: 'taxi',
@@ -608,8 +608,8 @@ export const nouns: Noun[] = [
       en: 'taxi',
       de: 'Taxi',
       es: 'taxi',
-      tr: 'taksi',
-    },
+      tr: 'taksi'
+    }
   },
   {
     id: 'telefon',
@@ -621,8 +621,8 @@ export const nouns: Noun[] = [
       en: 'telephone',
       de: 'Telefon',
       es: 'teléfono',
-      tr: 'telefon',
-    },
+      tr: 'telefon'
+    }
   },
   {
     id: 'training',
@@ -634,8 +634,8 @@ export const nouns: Noun[] = [
       en: 'training',
       de: 'Training',
       es: 'entrenamiento',
-      tr: 'antrenman',
-    },
+      tr: 'antrenman'
+    }
   },
   {
     id: 'video',
@@ -647,8 +647,8 @@ export const nouns: Noun[] = [
       en: 'video',
       de: 'Video',
       es: 'video',
-      tr: 'video',
-    },
+      tr: 'video'
+    }
   },
   {
     id: 'viertel',
@@ -660,8 +660,8 @@ export const nouns: Noun[] = [
       en: 'quarter',
       de: 'Viertel',
       es: 'cuarto',
-      tr: 'çeyrek',
-    },
+      tr: 'çeyrek'
+    }
   },
   {
     id: 'wasser',
@@ -673,8 +673,8 @@ export const nouns: Noun[] = [
       en: 'water',
       de: 'Wasser',
       es: 'agua',
-      tr: 'su',
-    },
+      tr: 'su'
+    }
   },
   {
     id: 'wetter',
@@ -686,8 +686,8 @@ export const nouns: Noun[] = [
       en: 'weather',
       de: 'Wetter',
       es: 'tiempo',
-      tr: 'hava durumu',
-    },
+      tr: 'hava durumu'
+    }
   },
   {
     id: 'wochenende',
@@ -699,8 +699,8 @@ export const nouns: Noun[] = [
       en: 'weekend',
       de: 'Wochenende',
       es: 'fin de semana',
-      tr: 'hafta sonu',
-    },
+      tr: 'hafta sonu'
+    }
   },
   {
     id: 'abend',
@@ -712,8 +712,8 @@ export const nouns: Noun[] = [
       en: 'evening',
       de: 'Abend',
       es: 'tarde',
-      tr: 'akşam',
-    },
+      tr: 'akşam'
+    }
   },
   {
     id: 'apfel',
@@ -725,8 +725,8 @@ export const nouns: Noun[] = [
       en: 'apple',
       de: 'Apfel',
       es: 'manzana',
-      tr: 'elma',
-    },
+      tr: 'elma'
+    }
   },
   {
     id: 'april',
@@ -738,8 +738,8 @@ export const nouns: Noun[] = [
       en: 'April',
       de: 'April',
       es: 'abril',
-      tr: 'nisan',
-    },
+      tr: 'nisan'
+    }
   },
   {
     id: 'arzt',
@@ -751,8 +751,8 @@ export const nouns: Noun[] = [
       en: 'doctor',
       de: 'Arzt',
       es: 'médico',
-      tr: 'doktor',
-    },
+      tr: 'doktor'
+    }
   },
   {
     id: 'august',
@@ -764,8 +764,8 @@ export const nouns: Noun[] = [
       en: 'August',
       de: 'August',
       es: 'agosto',
-      tr: 'ağustos',
-    },
+      tr: 'ağustos'
+    }
   },
   {
     id: 'baum',
@@ -777,8 +777,8 @@ export const nouns: Noun[] = [
       en: 'tree',
       de: 'Baum',
       es: 'árbol',
-      tr: 'ağaç',
-    },
+      tr: 'ağaç'
+    }
   },
   {
     id: 'becher',
@@ -790,8 +790,8 @@ export const nouns: Noun[] = [
       en: 'cup',
       de: 'Becher',
       es: 'vaso',
-      tr: 'bardak',
-    },
+      tr: 'bardak'
+    }
   },
   {
     id: 'beruf',
@@ -803,8 +803,8 @@ export const nouns: Noun[] = [
       en: 'profession',
       de: 'Beruf',
       es: 'profesión',
-      tr: 'meslek',
-    },
+      tr: 'meslek'
+    }
   },
   {
     id: 'bleistift',
@@ -816,8 +816,8 @@ export const nouns: Noun[] = [
       en: 'pencil',
       de: 'Bleistift',
       es: 'lápiz',
-      tr: 'kurşun kalem',
-    },
+      tr: 'kurşun kalem'
+    }
   },
   {
     id: 'bruder',
@@ -829,8 +829,8 @@ export const nouns: Noun[] = [
       en: 'brother',
       de: 'Bruder',
       es: 'hermano',
-      tr: 'erkek kardeş',
-    },
+      tr: 'erkek kardeş'
+    }
   },
   {
     id: 'cent',
@@ -842,8 +842,8 @@ export const nouns: Noun[] = [
       en: 'cent',
       de: 'Cent',
       es: 'céntimo',
-      tr: 'sent',
-    },
+      tr: 'sent'
+    }
   },
   {
     id: 'cousin',
@@ -855,8 +855,8 @@ export const nouns: Noun[] = [
       en: 'male cousin',
       de: 'Cousin',
       es: 'primo',
-      tr: 'erkek kuzen',
-    },
+      tr: 'erkek kuzen'
+    }
   },
   {
     id: 'dank',
@@ -868,8 +868,8 @@ export const nouns: Noun[] = [
       en: 'thanks',
       de: 'Dank',
       es: 'gracias',
-      tr: 'teşekkür',
-    },
+      tr: 'teşekkür'
+    }
   },
   {
     id: 'deutschkurs',
@@ -881,8 +881,8 @@ export const nouns: Noun[] = [
       en: 'German course',
       de: 'Deutschkurs',
       es: 'curso de alemán',
-      tr: 'Almanca kursu',
-    },
+      tr: 'Almanca kursu'
+    }
   },
   {
     id: 'dezember',
@@ -894,8 +894,8 @@ export const nouns: Noun[] = [
       en: 'December',
       de: 'Dezember',
       es: 'diciembre',
-      tr: 'aralık',
-    },
+      tr: 'aralık'
+    }
   },
   {
     id: 'dienstag',
@@ -907,8 +907,8 @@ export const nouns: Noun[] = [
       en: 'Tuesday',
       de: 'Dienstag',
       es: 'martes',
-      tr: 'salı',
-    },
+      tr: 'salı'
+    }
   },
   {
     id: 'donnerstag',
@@ -920,8 +920,8 @@ export const nouns: Noun[] = [
       en: 'Thursday',
       de: 'Donnerstag',
       es: 'jueves',
-      tr: 'perşembe',
-    },
+      tr: 'perşembe'
+    }
   },
   {
     id: 'drucker',
@@ -933,8 +933,8 @@ export const nouns: Noun[] = [
       en: 'printer',
       de: 'Drucker',
       es: 'impresora',
-      tr: 'yazıcı',
-    },
+      tr: 'yazıcı'
+    }
   },
   {
     id: 'einkauf',
@@ -946,8 +946,8 @@ export const nouns: Noun[] = [
       en: 'shopping',
       de: 'Einkauf',
       es: 'compra',
-      tr: 'alışveriş',
-    },
+      tr: 'alışveriş'
+    }
   },
   {
     id: 'elektroniker',
@@ -959,8 +959,8 @@ export const nouns: Noun[] = [
       en: 'electronics technician',
       de: 'Elektroniker',
       es: 'técnico electrónico',
-      tr: 'elektronik teknisyeni',
-    },
+      tr: 'elektronik teknisyeni'
+    }
   },
   {
     id: 'enkel',
@@ -972,8 +972,8 @@ export const nouns: Noun[] = [
       en: 'grandson',
       de: 'Enkel',
       es: 'nieto',
-      tr: 'erkek torun',
-    },
+      tr: 'erkek torun'
+    }
   },
   {
     id: 'euro',
@@ -985,8 +985,8 @@ export const nouns: Noun[] = [
       en: 'euro',
       de: 'Euro',
       es: 'euro',
-      tr: 'avro',
-    },
+      tr: 'avro'
+    }
   },
   {
     id: 'familienname',
@@ -998,8 +998,8 @@ export const nouns: Noun[] = [
       en: 'surname',
       de: 'Familienname',
       es: 'apellido',
-      tr: 'soyadı',
-    },
+      tr: 'soyadı'
+    }
   },
   {
     id: 'familienstand',
@@ -1011,8 +1011,8 @@ export const nouns: Noun[] = [
       en: 'marital status',
       de: 'Familienstand',
       es: 'estado civil',
-      tr: 'medeni durum',
-    },
+      tr: 'medeni durum'
+    }
   },
   {
     id: 'februar',
@@ -1024,8 +1024,8 @@ export const nouns: Noun[] = [
       en: 'February',
       de: 'Februar',
       es: 'febrero',
-      tr: 'şubat',
-    },
+      tr: 'şubat'
+    }
   },
   {
     id: 'fehler',
@@ -1037,8 +1037,8 @@ export const nouns: Noun[] = [
       en: 'mistake',
       de: 'Fehler',
       es: 'error',
-      tr: 'hata',
-    },
+      tr: 'hata'
+    }
   },
   {
     id: 'film',
@@ -1050,8 +1050,8 @@ export const nouns: Noun[] = [
       en: 'film',
       de: 'Film',
       es: 'película',
-      tr: 'film',
-    },
+      tr: 'film'
+    }
   },
   {
     id: 'fisch',
@@ -1063,8 +1063,8 @@ export const nouns: Noun[] = [
       en: 'fish',
       de: 'Fisch',
       es: 'pescado',
-      tr: 'balık',
-    },
+      tr: 'balık'
+    }
   },
   {
     id: 'fotograf',
@@ -1076,8 +1076,8 @@ export const nouns: Noun[] = [
       en: 'photographer',
       de: 'Fotograf',
       es: 'fotógrafo',
-      tr: 'fotoğrafçı',
-    },
+      tr: 'fotoğrafçı'
+    }
   },
   {
     id: 'freitag',
@@ -1089,8 +1089,8 @@ export const nouns: Noun[] = [
       en: 'Friday',
       de: 'Freitag',
       es: 'viernes',
-      tr: 'cuma',
-    },
+      tr: 'cuma'
+    }
   },
   {
     id: 'freund',
@@ -1102,8 +1102,8 @@ export const nouns: Noun[] = [
       en: 'friend',
       de: 'Freund',
       es: 'amigo',
-      tr: 'arkadaş',
-    },
+      tr: 'arkadaş'
+    }
   },
   {
     id: 'friseur',
@@ -1115,8 +1115,8 @@ export const nouns: Noun[] = [
       en: 'hairdresser',
       de: 'Friseur',
       es: 'peluquero',
-      tr: 'kuaför',
-    },
+      tr: 'kuaför'
+    }
   },
   {
     id: 'fruehling',
@@ -1128,8 +1128,8 @@ export const nouns: Noun[] = [
       en: 'spring',
       de: 'Frühling',
       es: 'primavera',
-      tr: 'ilkbahar',
-    },
+      tr: 'ilkbahar'
+    }
   },
   {
     id: 'fuehrerschein',
@@ -1141,8 +1141,8 @@ export const nouns: Noun[] = [
       en: 'driver license',
       de: 'Führerschein',
       es: 'carné de conducir',
-      tr: 'ehliyet',
-    },
+      tr: 'ehliyet'
+    }
   },
   {
     id: 'fussball',
@@ -1154,8 +1154,8 @@ export const nouns: Noun[] = [
       en: 'football',
       de: 'Fußball',
       es: 'fútbol',
-      tr: 'futbol',
-    },
+      tr: 'futbol'
+    }
   },
   {
     id: 'geburtstag',
@@ -1167,8 +1167,8 @@ export const nouns: Noun[] = [
       en: 'birthday',
       de: 'Geburtstag',
       es: 'cumpleaños',
-      tr: 'doğum günü',
-    },
+      tr: 'doğum günü'
+    }
   },
   {
     id: 'geldbeutel',
@@ -1180,8 +1180,8 @@ export const nouns: Noun[] = [
       en: 'wallet',
       de: 'Geldbeutel',
       es: 'monedero',
-      tr: 'cüzdan',
-    },
+      tr: 'cüzdan'
+    }
   },
   {
     id: 'grossvater',
@@ -1193,8 +1193,8 @@ export const nouns: Noun[] = [
       en: 'grandfather',
       de: 'Großvater',
       es: 'abuelo',
-      tr: 'büyükbaba',
-    },
+      tr: 'büyükbaba'
+    }
   },
   {
     id: 'hausmann',
@@ -1206,8 +1206,8 @@ export const nouns: Noun[] = [
       en: 'househusband',
       de: 'Hausmann',
       es: 'amo de casa',
-      tr: 'ev erkeği',
-    },
+      tr: 'ev erkeği'
+    }
   },
   {
     id: 'herbst',
@@ -1219,8 +1219,8 @@ export const nouns: Noun[] = [
       en: 'autumn',
       de: 'Herbst',
       es: 'otoño',
-      tr: 'sonbahar',
-    },
+      tr: 'sonbahar'
+    }
   },
   {
     id: 'herr',
@@ -1232,8 +1232,8 @@ export const nouns: Noun[] = [
       en: 'mister',
       de: 'Herr',
       es: 'señor',
-      tr: 'bay',
-    },
+      tr: 'bay'
+    }
   },
   {
     id: 'ingenieur',
@@ -1245,8 +1245,8 @@ export const nouns: Noun[] = [
       en: 'engineer',
       de: 'Ingenieur',
       es: 'ingeniero',
-      tr: 'mühendis',
-    },
+      tr: 'mühendis'
+    }
   },
   {
     id: 'januar',
@@ -1258,8 +1258,8 @@ export const nouns: Noun[] = [
       en: 'January',
       de: 'Januar',
       es: 'enero',
-      tr: 'ocak',
-    },
+      tr: 'ocak'
+    }
   },
   {
     id: 'joghurt',
@@ -1271,8 +1271,8 @@ export const nouns: Noun[] = [
       en: 'yogurt',
       de: 'Joghurt',
       es: 'yogur',
-      tr: 'yoğurt',
-    },
+      tr: 'yoğurt'
+    }
   },
   {
     id: 'jugendliche',
@@ -1284,8 +1284,8 @@ export const nouns: Noun[] = [
       en: 'teenager',
       de: 'Jugendliche',
       es: 'joven',
-      tr: 'genç',
-    },
+      tr: 'genç'
+    }
   },
   {
     id: 'juli',
@@ -1297,8 +1297,8 @@ export const nouns: Noun[] = [
       en: 'July',
       de: 'Juli',
       es: 'julio',
-      tr: 'temmuz',
-    },
+      tr: 'temmuz'
+    }
   },
   {
     id: 'juni',
@@ -1310,8 +1310,8 @@ export const nouns: Noun[] = [
       en: 'June',
       de: 'Juni',
       es: 'junio',
-      tr: 'haziran',
-    },
+      tr: 'haziran'
+    }
   },
   {
     id: 'kaffee',
@@ -1323,8 +1323,8 @@ export const nouns: Noun[] = [
       en: 'coffee',
       de: 'Kaffee',
       es: 'café',
-      tr: 'kahve',
-    },
+      tr: 'kahve'
+    }
   },
   {
     id: 'kalender',
@@ -1336,8 +1336,8 @@ export const nouns: Noun[] = [
       en: 'calendar',
       de: 'Kalender',
       es: 'calendario',
-      tr: 'takvim',
-    },
+      tr: 'takvim'
+    }
   },
   {
     id: 'kaese',
@@ -1349,8 +1349,8 @@ export const nouns: Noun[] = [
       en: 'cheese',
       de: 'Käse',
       es: 'queso',
-      tr: 'peynir',
-    },
+      tr: 'peynir'
+    }
   },
   {
     id: 'kellner',
@@ -1362,8 +1362,8 @@ export const nouns: Noun[] = [
       en: 'waiter',
       de: 'Kellner',
       es: 'camarero',
-      tr: 'garson',
-    },
+      tr: 'garson'
+    }
   },
   {
     id: 'kindergarten',
@@ -1375,8 +1375,8 @@ export const nouns: Noun[] = [
       en: 'kindergarten',
       de: 'Kindergarten',
       es: 'jardín de infancia',
-      tr: 'anaokulu',
-    },
+      tr: 'anaokulu'
+    }
   },
   {
     id: 'kleber',
@@ -1388,8 +1388,8 @@ export const nouns: Noun[] = [
       en: 'glue',
       de: 'Kleber',
       es: 'pegamento',
-      tr: 'yapıştırıcı',
-    },
+      tr: 'yapıştırıcı'
+    }
   },
   {
     id: 'koch',
@@ -1401,8 +1401,8 @@ export const nouns: Noun[] = [
       en: 'cook',
       de: 'Koch',
       es: 'cocinero',
-      tr: 'aşçı',
-    },
+      tr: 'aşçı'
+    }
   },
   {
     id: 'koffer',
@@ -1414,8 +1414,8 @@ export const nouns: Noun[] = [
       en: 'suitcase',
       de: 'Koffer',
       es: 'maleta',
-      tr: 'bavul',
-    },
+      tr: 'bavul'
+    }
   },
   {
     id: 'kollege',
@@ -1427,8 +1427,8 @@ export const nouns: Noun[] = [
       en: 'colleague',
       de: 'Kollege',
       es: 'compañero',
-      tr: 'iş arkadaşı',
-    },
+      tr: 'iş arkadaşı'
+    }
   },
   {
     id: 'krankenpfleger',
@@ -1440,8 +1440,8 @@ export const nouns: Noun[] = [
       en: 'male nurse',
       de: 'Krankenpfleger',
       es: 'enfermero',
-      tr: 'erkek hemşire',
-    },
+      tr: 'erkek hemşire'
+    }
   },
   {
     id: 'kuchen',
@@ -1453,8 +1453,8 @@ export const nouns: Noun[] = [
       en: 'cake',
       de: 'Kuchen',
       es: 'pastel',
-      tr: 'kek',
-    },
+      tr: 'kek'
+    }
   },
   {
     id: 'kugelschreiber',
@@ -1466,8 +1466,8 @@ export const nouns: Noun[] = [
       en: 'ballpoint pen',
       de: 'Kugelschreiber',
       es: 'bolígrafo',
-      tr: 'tükenmez kalem',
-    },
+      tr: 'tükenmez kalem'
+    }
   },
   {
     id: 'kunde',
@@ -1479,8 +1479,8 @@ export const nouns: Noun[] = [
       en: 'customer',
       de: 'Kunde',
       es: 'cliente',
-      tr: 'müşteri',
-    },
+      tr: 'müşteri'
+    }
   },
   {
     id: 'kurs',
@@ -1492,8 +1492,8 @@ export const nouns: Noun[] = [
       en: 'course',
       de: 'Kurs',
       es: 'curso',
-      tr: 'kurs',
-    },
+      tr: 'kurs'
+    }
   },
   {
     id: 'laden',
@@ -1505,8 +1505,8 @@ export const nouns: Noun[] = [
       en: 'shop',
       de: 'Laden',
       es: 'tienda',
-      tr: 'dükkan',
-    },
+      tr: 'dükkan'
+    }
   },
   {
     id: 'laptop',
@@ -1518,8 +1518,8 @@ export const nouns: Noun[] = [
       en: 'laptop',
       de: 'Laptop',
       es: 'portátil',
-      tr: 'dizüstü bilgisayar',
-    },
+      tr: 'dizüstü bilgisayar'
+    }
   },
   {
     id: 'lehrer',
@@ -1531,8 +1531,8 @@ export const nouns: Noun[] = [
       en: 'teacher',
       de: 'Lehrer',
       es: 'profesor',
-      tr: 'öğretmen',
-    },
+      tr: 'öğretmen'
+    }
   },
   {
     id: 'liter',
@@ -1544,8 +1544,8 @@ export const nouns: Noun[] = [
       en: 'liter',
       de: 'Liter',
       es: 'litro',
-      tr: 'litre',
-    },
+      tr: 'litre'
+    }
   },
   {
     id: 'mai',
@@ -1557,8 +1557,8 @@ export const nouns: Noun[] = [
       en: 'May',
       de: 'Mai',
       es: 'mayo',
-      tr: 'mayıs',
-    },
+      tr: 'mayıs'
+    }
   },
   {
     id: 'mann',
@@ -1570,8 +1570,8 @@ export const nouns: Noun[] = [
       en: 'man',
       de: 'Mann',
       es: 'hombre',
-      tr: 'adam',
-    },
+      tr: 'adam'
+    }
   },
   {
     id: 'maerz',
@@ -1583,8 +1583,8 @@ export const nouns: Noun[] = [
       en: 'March',
       de: 'März',
       es: 'marzo',
-      tr: 'mart',
-    },
+      tr: 'mart'
+    }
   },
   {
     id: 'mittag',
@@ -1596,8 +1596,8 @@ export const nouns: Noun[] = [
       en: 'noon',
       de: 'Mittag',
       es: 'mediodía',
-      tr: 'öğle',
-    },
+      tr: 'öğle'
+    }
   },
   {
     id: 'mittwoch',
@@ -1609,8 +1609,8 @@ export const nouns: Noun[] = [
       en: 'Wednesday',
       de: 'Mittwoch',
       es: 'miércoles',
-      tr: 'çarşamba',
-    },
+      tr: 'çarşamba'
+    }
   },
   {
     id: 'monat',
@@ -1622,8 +1622,8 @@ export const nouns: Noun[] = [
       en: 'month',
       de: 'Monat',
       es: 'mes',
-      tr: 'ay',
-    },
+      tr: 'ay'
+    }
   },
   {
     id: 'montag',
@@ -1635,8 +1635,8 @@ export const nouns: Noun[] = [
       en: 'Monday',
       de: 'Montag',
       es: 'lunes',
-      tr: 'pazartesi',
-    },
+      tr: 'pazartesi'
+    }
   },
   {
     id: 'morgen',
@@ -1648,8 +1648,8 @@ export const nouns: Noun[] = [
       en: 'morning',
       de: 'Morgen',
       es: 'mañana',
-      tr: 'sabah',
-    },
+      tr: 'sabah'
+    }
   },
   {
     id: 'nachbar',
@@ -1661,8 +1661,8 @@ export const nouns: Noun[] = [
       en: 'neighbor',
       de: 'Nachbar',
       es: 'vecino',
-      tr: 'komşu',
-    },
+      tr: 'komşu'
+    }
   },
   {
     id: 'nachmittag',
@@ -1674,8 +1674,8 @@ export const nouns: Noun[] = [
       en: 'afternoon',
       de: 'Nachmittag',
       es: 'tarde',
-      tr: 'öğleden sonra',
-    },
+      tr: 'öğleden sonra'
+    }
   },
   {
     id: 'nachtisch',
@@ -1687,8 +1687,8 @@ export const nouns: Noun[] = [
       en: 'dessert',
       de: 'Nachtisch',
       es: 'postre',
-      tr: 'tatlı',
-    },
+      tr: 'tatlı'
+    }
   },
   {
     id: 'name',
@@ -1700,8 +1700,8 @@ export const nouns: Noun[] = [
       en: 'name',
       de: 'Name',
       es: 'nombre',
-      tr: 'ad',
-    },
+      tr: 'ad'
+    }
   },
   {
     id: 'november',
@@ -1713,8 +1713,8 @@ export const nouns: Noun[] = [
       en: 'November',
       de: 'November',
       es: 'noviembre',
-      tr: 'kasım',
-    },
+      tr: 'kasım'
+    }
   },
   {
     id: 'oktober',
@@ -1726,8 +1726,8 @@ export const nouns: Noun[] = [
       en: 'October',
       de: 'Oktober',
       es: 'octubre',
-      tr: 'ekim',
-    },
+      tr: 'ekim'
+    }
   },
   {
     id: 'onkel',
@@ -1739,8 +1739,8 @@ export const nouns: Noun[] = [
       en: 'uncle',
       de: 'Onkel',
       es: 'tío',
-      tr: 'amca',
-    },
+      tr: 'amca'
+    }
   },
   {
     id: 'opa',
@@ -1752,8 +1752,8 @@ export const nouns: Noun[] = [
       en: 'grandpa',
       de: 'Opa',
       es: 'abuelo',
-      tr: 'dede',
-    },
+      tr: 'dede'
+    }
   },
   {
     id: 'partner',
@@ -1765,8 +1765,8 @@ export const nouns: Noun[] = [
       en: 'partner',
       de: 'Partner',
       es: 'pareja',
-      tr: 'partner',
-    },
+      tr: 'partner'
+    }
   },
   {
     id: 'pfannkuchen',
@@ -1778,8 +1778,8 @@ export const nouns: Noun[] = [
       en: 'pancake',
       de: 'Pfannkuchen',
       es: 'tortita',
-      tr: 'krep',
-    },
+      tr: 'krep'
+    }
   },
   {
     id: 'plan',
@@ -1791,8 +1791,8 @@ export const nouns: Noun[] = [
       en: 'plan',
       de: 'Plan',
       es: 'plan',
-      tr: 'plan',
-    },
+      tr: 'plan'
+    }
   },
   {
     id: 'polizist',
@@ -1804,8 +1804,8 @@ export const nouns: Noun[] = [
       en: 'police officer',
       de: 'Polizist',
       es: 'policía',
-      tr: 'polis',
-    },
+      tr: 'polis'
+    }
   },
   {
     id: 'punkt',
@@ -1817,8 +1817,8 @@ export const nouns: Noun[] = [
       en: 'point',
       de: 'Punkt',
       es: 'punto',
-      tr: 'nokta',
-    },
+      tr: 'nokta'
+    }
   },
   {
     id: 'quatsch',
@@ -1830,8 +1830,8 @@ export const nouns: Noun[] = [
       en: 'nonsense',
       de: 'Quatsch',
       es: 'tontería',
-      tr: 'saçmalık',
-    },
+      tr: 'saçmalık'
+    }
   },
   {
     id: 'reis',
@@ -1843,8 +1843,8 @@ export const nouns: Noun[] = [
       en: 'rice',
       de: 'Reis',
       es: 'arroz',
-      tr: 'pirinç',
-    },
+      tr: 'pirinç'
+    }
   },
   {
     id: 'rucksack',
@@ -1856,8 +1856,8 @@ export const nouns: Noun[] = [
       en: 'backpack',
       de: 'Rucksack',
       es: 'mochila',
-      tr: 'sırt çantası',
-    },
+      tr: 'sırt çantası'
+    }
   },
   {
     id: 'saft',
@@ -1869,8 +1869,8 @@ export const nouns: Noun[] = [
       en: 'juice',
       de: 'Saft',
       es: 'zumo',
-      tr: 'meyve suyu',
-    },
+      tr: 'meyve suyu'
+    }
   },
   {
     id: 'salat',
@@ -1882,8 +1882,8 @@ export const nouns: Noun[] = [
       en: 'salad',
       de: 'Salat',
       es: 'ensalada',
-      tr: 'salata',
-    },
+      tr: 'salata'
+    }
   },
   {
     id: 'samstag',
@@ -1895,8 +1895,8 @@ export const nouns: Noun[] = [
       en: 'Saturday',
       de: 'Samstag',
       es: 'sábado',
-      tr: 'cumartesi',
-    },
+      tr: 'cumartesi'
+    }
   },
   {
     id: 'saenger',
@@ -1908,8 +1908,8 @@ export const nouns: Noun[] = [
       en: 'singer',
       de: 'Sänger',
       es: 'cantante',
-      tr: 'şarkıcı',
-    },
+      tr: 'şarkıcı'
+    }
   },
   {
     id: 'satz',
@@ -1921,8 +1921,8 @@ export const nouns: Noun[] = [
       en: 'sentence',
       de: 'Satz',
       es: 'frase',
-      tr: 'cümle',
-    },
+      tr: 'cümle'
+    }
   },
   {
     id: 'schauspieler',
@@ -1934,8 +1934,8 @@ export const nouns: Noun[] = [
       en: 'actor',
       de: 'Schauspieler',
       es: 'actor',
-      tr: 'oyuncu',
-    },
+      tr: 'oyuncu'
+    }
   },
   {
     id: 'schinken',
@@ -1947,8 +1947,8 @@ export const nouns: Noun[] = [
       en: 'ham',
       de: 'Schinken',
       es: 'jamón',
-      tr: 'jambon',
-    },
+      tr: 'jambon'
+    }
   },
   {
     id: 'schirm',
@@ -1960,8 +1960,8 @@ export const nouns: Noun[] = [
       en: 'umbrella',
       de: 'Schirm',
       es: 'paraguas',
-      tr: 'şemsiye',
-    },
+      tr: 'şemsiye'
+    }
   },
   {
     id: 'schluessel',
@@ -1973,8 +1973,8 @@ export const nouns: Noun[] = [
       en: 'key',
       de: 'Schlüssel',
       es: 'llave',
-      tr: 'anahtar',
-    },
+      tr: 'anahtar'
+    }
   },
   {
     id: 'september',
@@ -1986,8 +1986,8 @@ export const nouns: Noun[] = [
       en: 'September',
       de: 'September',
       es: 'septiembre',
-      tr: 'eylül',
-    },
+      tr: 'eylül'
+    }
   },
   {
     id: 'single',
@@ -1999,8 +1999,8 @@ export const nouns: Noun[] = [
       en: 'single person',
       de: 'Single',
       es: 'soltero',
-      tr: 'bekar',
-    },
+      tr: 'bekar'
+    }
   },
   {
     id: 'sohn',
@@ -2012,8 +2012,8 @@ export const nouns: Noun[] = [
       en: 'son',
       de: 'Sohn',
       es: 'hijo',
-      tr: 'oğul',
-    },
+      tr: 'oğul'
+    }
   },
   {
     id: 'sommer',
@@ -2025,8 +2025,8 @@ export const nouns: Noun[] = [
       en: 'summer',
       de: 'Sommer',
       es: 'verano',
-      tr: 'yaz',
-    },
+      tr: 'yaz'
+    }
   },
   {
     id: 'sonntag',
@@ -2038,8 +2038,8 @@ export const nouns: Noun[] = [
       en: 'Sunday',
       de: 'Sonntag',
       es: 'domingo',
-      tr: 'pazar',
-    },
+      tr: 'pazar'
+    }
   },
   {
     id: 'spass',
@@ -2051,8 +2051,8 @@ export const nouns: Noun[] = [
       en: 'fun',
       de: 'Spaß',
       es: 'diversión',
-      tr: 'eğlence',
-    },
+      tr: 'eğlence'
+    }
   },
   {
     id: 'spieler',
@@ -2064,8 +2064,8 @@ export const nouns: Noun[] = [
       en: 'player',
       de: 'Spieler',
       es: 'jugador',
-      tr: 'oyuncu',
-    },
+      tr: 'oyuncu'
+    }
   },
   {
     id: 'sport',
@@ -2077,8 +2077,8 @@ export const nouns: Noun[] = [
       en: 'sport',
       de: 'Sport',
       es: 'deporte',
-      tr: 'spor',
-    },
+      tr: 'spor'
+    }
   },
   {
     id: 'student',
@@ -2090,8 +2090,8 @@ export const nouns: Noun[] = [
       en: 'student',
       de: 'Student',
       es: 'estudiante',
-      tr: 'öğrenci',
-    },
+      tr: 'öğrenci'
+    }
   },
   {
     id: 'supermarkt',
@@ -2103,8 +2103,8 @@ export const nouns: Noun[] = [
       en: 'supermarket',
       de: 'Supermarkt',
       es: 'supermercado',
-      tr: 'süpermarket',
-    },
+      tr: 'süpermarket'
+    }
   },
   {
     id: 'tag',
@@ -2116,8 +2116,8 @@ export const nouns: Noun[] = [
       en: 'day',
       de: 'Tag',
       es: 'día',
-      tr: 'gün',
-    },
+      tr: 'gün'
+    }
   },
   {
     id: 'taxifahrer',
@@ -2129,8 +2129,8 @@ export const nouns: Noun[] = [
       en: 'taxi driver',
       de: 'Taxifahrer',
       es: 'taxista',
-      tr: 'taksi şoförü',
-    },
+      tr: 'taksi şoförü'
+    }
   },
   {
     id: 'tee',
@@ -2142,8 +2142,8 @@ export const nouns: Noun[] = [
       en: 'tea',
       de: 'Tee',
       es: 'té',
-      tr: 'çay',
-    },
+      tr: 'çay'
+    }
   },
   {
     id: 'termin',
@@ -2155,8 +2155,8 @@ export const nouns: Noun[] = [
       en: 'appointment',
       de: 'Termin',
       es: 'cita',
-      tr: 'randevu',
-    },
+      tr: 'randevu'
+    }
   },
   {
     id: 'text',
@@ -2168,8 +2168,8 @@ export const nouns: Noun[] = [
       en: 'text',
       de: 'Text',
       es: 'texto',
-      tr: 'metin',
-    },
+      tr: 'metin'
+    }
   },
   {
     id: 'trainer',
@@ -2181,8 +2181,8 @@ export const nouns: Noun[] = [
       en: 'trainer',
       de: 'Trainer',
       es: 'entrenador',
-      tr: 'antrenör',
-    },
+      tr: 'antrenör'
+    }
   },
   {
     id: 'urlaub',
@@ -2194,8 +2194,8 @@ export const nouns: Noun[] = [
       en: 'vacation',
       de: 'Urlaub',
       es: 'vacaciones',
-      tr: 'tatil',
-    },
+      tr: 'tatil'
+    }
   },
   {
     id: 'vater',
@@ -2207,8 +2207,8 @@ export const nouns: Noun[] = [
       en: 'father',
       de: 'Vater',
       es: 'padre',
-      tr: 'baba',
-    },
+      tr: 'baba'
+    }
   },
   {
     id: 'verein',
@@ -2220,8 +2220,8 @@ export const nouns: Noun[] = [
       en: 'club',
       de: 'Verein',
       es: 'asociación',
-      tr: 'dernek',
-    },
+      tr: 'dernek'
+    }
   },
   {
     id: 'verkaeufer',
@@ -2233,8 +2233,8 @@ export const nouns: Noun[] = [
       en: 'salesperson',
       de: 'Verkäufer',
       es: 'vendedor',
-      tr: 'satıcı',
-    },
+      tr: 'satıcı'
+    }
   },
   {
     id: 'vormittag',
@@ -2246,8 +2246,8 @@ export const nouns: Noun[] = [
       en: 'morning',
       de: 'Vormittag',
       es: 'mañana',
-      tr: 'öğleden önce',
-    },
+      tr: 'öğleden önce'
+    }
   },
   {
     id: 'vorname',
@@ -2259,8 +2259,8 @@ export const nouns: Noun[] = [
       en: 'first name',
       de: 'Vorname',
       es: 'nombre de pila',
-      tr: 'ad',
-    },
+      tr: 'ad'
+    }
   },
   {
     id: 'winter',
@@ -2272,8 +2272,8 @@ export const nouns: Noun[] = [
       en: 'winter',
       de: 'Winter',
       es: 'invierno',
-      tr: 'kış',
-    },
+      tr: 'kış'
+    }
   },
   {
     id: 'wohnort',
@@ -2285,8 +2285,8 @@ export const nouns: Noun[] = [
       en: 'place of residence',
       de: 'Wohnort',
       es: 'lugar de residencia',
-      tr: 'ikamet yeri',
-    },
+      tr: 'ikamet yeri'
+    }
   },
   {
     id: 'zahnarzt',
@@ -2298,8 +2298,8 @@ export const nouns: Noun[] = [
       en: 'dentist',
       de: 'Zahnarzt',
       es: 'dentista',
-      tr: 'dişçi',
-    },
+      tr: 'dişçi'
+    }
   },
   {
     id: 'adresse',
@@ -2311,8 +2311,8 @@ export const nouns: Noun[] = [
       en: 'address',
       de: 'Adresse',
       es: 'dirección',
-      tr: 'adres',
-    },
+      tr: 'adres'
+    }
   },
   {
     id: 'antwort',
@@ -2324,8 +2324,8 @@ export const nouns: Noun[] = [
       en: 'answer',
       de: 'Antwort',
       es: 'respuesta',
-      tr: 'cevap',
-    },
+      tr: 'cevap'
+    }
   },
   {
     id: 'arbeit',
@@ -2337,8 +2337,8 @@ export const nouns: Noun[] = [
       en: 'work',
       de: 'Arbeit',
       es: 'trabajo',
-      tr: 'iş',
-    },
+      tr: 'iş'
+    }
   },
   {
     id: 'aerztin',
@@ -2350,8 +2350,8 @@ export const nouns: Noun[] = [
       en: 'female doctor',
       de: 'Ärztin',
       es: 'médica',
-      tr: 'kadın doktor',
-    },
+      tr: 'kadın doktor'
+    }
   },
   {
     id: 'ausbildung',
@@ -2363,8 +2363,8 @@ export const nouns: Noun[] = [
       en: 'training',
       de: 'Ausbildung',
       es: 'formación',
-      tr: 'eğitim',
-    },
+      tr: 'eğitim'
+    }
   },
   {
     id: 'banane',
@@ -2376,8 +2376,8 @@ export const nouns: Noun[] = [
       en: 'banana',
       de: 'Banane',
       es: 'plátano',
-      tr: 'muz',
-    },
+      tr: 'muz'
+    }
   },
   {
     id: 'birne',
@@ -2389,8 +2389,8 @@ export const nouns: Noun[] = [
       en: 'pear',
       de: 'Birne',
       es: 'pera',
-      tr: 'armut',
-    },
+      tr: 'armut'
+    }
   },
   {
     id: 'blume',
@@ -2402,8 +2402,8 @@ export const nouns: Noun[] = [
       en: 'flower',
       de: 'Blume',
       es: 'flor',
-      tr: 'çiçek',
-    },
+      tr: 'çiçek'
+    }
   },
   {
     id: 'briefmarke',
@@ -2415,8 +2415,8 @@ export const nouns: Noun[] = [
       en: 'stamp',
       de: 'Briefmarke',
       es: 'sello',
-      tr: 'posta pulu',
-    },
+      tr: 'posta pulu'
+    }
   },
   {
     id: 'brille',
@@ -2428,8 +2428,8 @@ export const nouns: Noun[] = [
       en: 'glasses',
       de: 'Brille',
       es: 'gafas',
-      tr: 'gözlük',
-    },
+      tr: 'gözlük'
+    }
   },
   {
     id: 'butter',
@@ -2441,8 +2441,8 @@ export const nouns: Noun[] = [
       en: 'butter',
       de: 'Butter',
       es: 'mantequilla',
-      tr: 'tereyağı',
-    },
+      tr: 'tereyağı'
+    }
   },
   {
     id: 'cousine',
@@ -2454,8 +2454,8 @@ export const nouns: Noun[] = [
       en: 'female cousin',
       de: 'Cousine',
       es: 'prima',
-      tr: 'kız kuzen',
-    },
+      tr: 'kız kuzen'
+    }
   },
   {
     id: 'dose',
@@ -2467,8 +2467,8 @@ export const nouns: Noun[] = [
       en: 'can',
       de: 'Dose',
       es: 'lata',
-      tr: 'kutu',
-    },
+      tr: 'kutu'
+    }
   },
   {
     id: 'e-mail',
@@ -2480,8 +2480,8 @@ export const nouns: Noun[] = [
       en: 'email',
       de: 'E-mail',
       es: 'correo electrónico',
-      tr: 'e-posta',
-    },
+      tr: 'e-posta'
+    }
   },
   {
     id: 'e-mail-adresse',
@@ -2493,8 +2493,8 @@ export const nouns: Noun[] = [
       en: 'email address',
       de: 'E-mail-Adresse',
       es: 'dirección de correo electrónico',
-      tr: 'e-posta adresi',
-    },
+      tr: 'e-posta adresi'
+    }
   },
   {
     id: 'elektronikerin',
@@ -2506,8 +2506,8 @@ export const nouns: Noun[] = [
       en: 'female electronics technician',
       de: 'Elektronikerin',
       es: 'técnica electrónica',
-      tr: 'kadın elektronik teknisyeni',
-    },
+      tr: 'kadın elektronik teknisyeni'
+    }
   },
   {
     id: 'eltern',
@@ -2519,8 +2519,8 @@ export const nouns: Noun[] = [
       en: 'parents',
       de: 'Eltern',
       es: 'padres',
-      tr: 'ebeveynler',
-    },
+      tr: 'ebeveynler'
+    }
   },
   {
     id: 'enkelin',
@@ -2532,8 +2532,8 @@ export const nouns: Noun[] = [
       en: 'granddaughter',
       de: 'Enkelin',
       es: 'nieta',
-      tr: 'kız torun',
-    },
+      tr: 'kız torun'
+    }
   },
   {
     id: 'entschuldigung',
@@ -2545,8 +2545,8 @@ export const nouns: Noun[] = [
       en: 'apology',
       de: 'Entschuldigung',
       es: 'disculpa',
-      tr: 'özür',
-    },
+      tr: 'özür'
+    }
   },
   {
     id: 'familie',
@@ -2558,8 +2558,8 @@ export const nouns: Noun[] = [
       en: 'family',
       de: 'Familie',
       es: 'familia',
-      tr: 'aile',
-    },
+      tr: 'aile'
+    }
   },
   {
     id: 'farbe',
@@ -2571,8 +2571,8 @@ export const nouns: Noun[] = [
       en: 'color',
       de: 'Farbe',
       es: 'color',
-      tr: 'renk',
-    },
+      tr: 'renk'
+    }
   },
   {
     id: 'flasche',
@@ -2584,8 +2584,8 @@ export const nouns: Noun[] = [
       en: 'bottle',
       de: 'Flasche',
       es: 'botella',
-      tr: 'şişe',
-    },
+      tr: 'şişe'
+    }
   },
   {
     id: 'fotografin',
@@ -2597,8 +2597,8 @@ export const nouns: Noun[] = [
       en: 'female photographer',
       de: 'Fotografin',
       es: 'fotógrafa',
-      tr: 'kadın fotoğrafçı',
-    },
+      tr: 'kadın fotoğrafçı'
+    }
   },
   {
     id: 'frage',
@@ -2610,8 +2610,8 @@ export const nouns: Noun[] = [
       en: 'question',
       de: 'Frage',
       es: 'pregunta',
-      tr: 'soru',
-    },
+      tr: 'soru'
+    }
   },
   {
     id: 'frau',
@@ -2623,8 +2623,8 @@ export const nouns: Noun[] = [
       en: 'woman',
       de: 'Frau',
       es: 'mujer',
-      tr: 'kadın',
-    },
+      tr: 'kadın'
+    }
   },
   {
     id: 'freizeit',
@@ -2636,8 +2636,8 @@ export const nouns: Noun[] = [
       en: 'free time',
       de: 'Freizeit',
       es: 'tiempo libre',
-      tr: 'boş zaman',
-    },
+      tr: 'boş zaman'
+    }
   },
   {
     id: 'freundin',
@@ -2649,8 +2649,8 @@ export const nouns: Noun[] = [
       en: 'female friend',
       de: 'Freundin',
       es: 'amiga',
-      tr: 'kız arkadaş',
-    },
+      tr: 'kız arkadaş'
+    }
   },
   {
     id: 'friseurin',
@@ -2662,8 +2662,8 @@ export const nouns: Noun[] = [
       en: 'female hairdresser',
       de: 'Friseurin',
       es: 'peluquera',
-      tr: 'kadın kuaför',
-    },
+      tr: 'kadın kuaför'
+    }
   },
   {
     id: 'geschwister',
@@ -2675,8 +2675,8 @@ export const nouns: Noun[] = [
       en: 'siblings',
       de: 'Geschwister',
       es: 'hermanos',
-      tr: 'kardeşler',
-    },
+      tr: 'kardeşler'
+    }
   },
   {
     id: 'gitarre',
@@ -2688,8 +2688,8 @@ export const nouns: Noun[] = [
       en: 'guitar',
       de: 'Gitarre',
       es: 'guitarra',
-      tr: 'gitar',
-    },
+      tr: 'gitar'
+    }
   },
   {
     id: 'grosseltern',
@@ -2701,8 +2701,8 @@ export const nouns: Noun[] = [
       en: 'grandparents',
       de: 'Großeltern',
       es: 'abuelos',
-      tr: 'büyükanne ve büyükbaba',
-    },
+      tr: 'büyükanne ve büyükbaba'
+    }
   },
   {
     id: 'grossmutter',
@@ -2714,8 +2714,8 @@ export const nouns: Noun[] = [
       en: 'grandmother',
       de: 'Großmutter',
       es: 'abuela',
-      tr: 'büyükanne',
-    },
+      tr: 'büyükanne'
+    }
   },
   {
     id: 'gruppe',
@@ -2727,8 +2727,8 @@ export const nouns: Noun[] = [
       en: 'group',
       de: 'Gruppe',
       es: 'grupo',
-      tr: 'grup',
-    },
+      tr: 'grup'
+    }
   },
   {
     id: 'hausaufgabe',
@@ -2740,8 +2740,8 @@ export const nouns: Noun[] = [
       en: 'homework',
       de: 'Hausaufgabe',
       es: 'deberes',
-      tr: 'ev ödevi',
-    },
+      tr: 'ev ödevi'
+    }
   },
   {
     id: 'hausfrau',
@@ -2753,8 +2753,8 @@ export const nouns: Noun[] = [
       en: 'housewife',
       de: 'Hausfrau',
       es: 'ama de casa',
-      tr: 'ev hanımı',
-    },
+      tr: 'ev hanımı'
+    }
   },
   {
     id: 'hausnummer',
@@ -2766,8 +2766,8 @@ export const nouns: Noun[] = [
       en: 'house number',
       de: 'Hausnummer',
       es: 'número de casa',
-      tr: 'kapı numarası',
-    },
+      tr: 'kapı numarası'
+    }
   },
   {
     id: 'hilfe',
@@ -2779,8 +2779,8 @@ export const nouns: Noun[] = [
       en: 'help',
       de: 'Hilfe',
       es: 'ayuda',
-      tr: 'yardım',
-    },
+      tr: 'yardım'
+    }
   },
   {
     id: 'information',
@@ -2792,8 +2792,8 @@ export const nouns: Noun[] = [
       en: 'information',
       de: 'Information',
       es: 'información',
-      tr: 'bilgi',
-    },
+      tr: 'bilgi'
+    }
   },
   {
     id: 'ingenieurin',
@@ -2805,8 +2805,8 @@ export const nouns: Noun[] = [
       en: 'female engineer',
       de: 'Ingenieurin',
       es: 'ingeniera',
-      tr: 'kadın mühendis',
-    },
+      tr: 'kadın mühendis'
+    }
   },
   {
     id: 'kamera',
@@ -2818,8 +2818,8 @@ export const nouns: Noun[] = [
       en: 'camera',
       de: 'Kamera',
       es: 'cámara',
-      tr: 'kamera',
-    },
+      tr: 'kamera'
+    }
   },
   {
     id: 'kartoffel',
@@ -2831,8 +2831,8 @@ export const nouns: Noun[] = [
       en: 'potato',
       de: 'Kartoffel',
       es: 'patata',
-      tr: 'patates',
-    },
+      tr: 'patates'
+    }
   },
   {
     id: 'kellnerin',
@@ -2844,8 +2844,8 @@ export const nouns: Noun[] = [
       en: 'waitress',
       de: 'Kellnerin',
       es: 'camarera',
-      tr: 'garson kadın',
-    },
+      tr: 'garson kadın'
+    }
   },
   {
     id: 'koechin',
@@ -2857,8 +2857,8 @@ export const nouns: Noun[] = [
       en: 'female cook',
       de: 'Köchin',
       es: 'cocinera',
-      tr: 'kadın aşçı',
-    },
+      tr: 'kadın aşçı'
+    }
   },
   {
     id: 'kollegin',
@@ -2870,8 +2870,8 @@ export const nouns: Noun[] = [
       en: 'female colleague',
       de: 'Kollegin',
       es: 'compañera',
-      tr: 'kadın iş arkadaşı',
-    },
+      tr: 'kadın iş arkadaşı'
+    }
   },
   {
     id: 'krankenpflegerin',
@@ -2883,8 +2883,8 @@ export const nouns: Noun[] = [
       en: 'female nurse',
       de: 'Krankenpflegerin',
       es: 'enfermera',
-      tr: 'hemşire',
-    },
+      tr: 'hemşire'
+    }
   },
   {
     id: 'kundin',
@@ -2896,8 +2896,8 @@ export const nouns: Noun[] = [
       en: 'female customer',
       de: 'Kundin',
       es: 'clienta',
-      tr: 'kadın müşteri',
-    },
+      tr: 'kadın müşteri'
+    }
   },
   {
     id: 'lehrerin',
@@ -2909,8 +2909,8 @@ export const nouns: Noun[] = [
       en: 'female teacher',
       de: 'Lehrerin',
       es: 'profesora',
-      tr: 'kadın öğretmen',
-    },
+      tr: 'kadın öğretmen'
+    }
   },
   {
     id: 'mannschaft',
@@ -2922,8 +2922,8 @@ export const nouns: Noun[] = [
       en: 'team',
       de: 'Mannschaft',
       es: 'equipo',
-      tr: 'takım',
-    },
+      tr: 'takım'
+    }
   },
   {
     id: 'milch',
@@ -2935,8 +2935,8 @@ export const nouns: Noun[] = [
       en: 'milk',
       de: 'Milch',
       es: 'leche',
-      tr: 'süt',
-    },
+      tr: 'süt'
+    }
   },
   {
     id: 'musik',
@@ -2948,8 +2948,8 @@ export const nouns: Noun[] = [
       en: 'music',
       de: 'Musik',
       es: 'música',
-      tr: 'müzik',
-    },
+      tr: 'müzik'
+    }
   },
   {
     id: 'mutter',
@@ -2961,8 +2961,8 @@ export const nouns: Noun[] = [
       en: 'mother',
       de: 'Mutter',
       es: 'madre',
-      tr: 'anne',
-    },
+      tr: 'anne'
+    }
   },
   {
     id: 'nachbarin',
@@ -2974,8 +2974,8 @@ export const nouns: Noun[] = [
       en: 'female neighbor',
       de: 'Nachbarin',
       es: 'vecina',
-      tr: 'kadın komşu',
-    },
+      tr: 'kadın komşu'
+    }
   },
   {
     id: 'nacht',
@@ -2987,8 +2987,8 @@ export const nouns: Noun[] = [
       en: 'night',
       de: 'Nacht',
       es: 'noche',
-      tr: 'gece',
-    },
+      tr: 'gece'
+    }
   },
   {
     id: 'nummer',
@@ -3000,8 +3000,8 @@ export const nouns: Noun[] = [
       en: 'number',
       de: 'Nummer',
       es: 'número',
-      tr: 'numara',
-    },
+      tr: 'numara'
+    }
   },
   {
     id: 'oeffnungszeit',
@@ -3013,8 +3013,8 @@ export const nouns: Noun[] = [
       en: 'opening time',
       de: 'Öffnungszeit',
       es: 'horario de apertura',
-      tr: 'açılış saati',
-    },
+      tr: 'açılış saati'
+    }
   },
   {
     id: 'oma',
@@ -3026,8 +3026,8 @@ export const nouns: Noun[] = [
       en: 'grandma',
       de: 'Oma',
       es: 'abuela',
-      tr: 'nine',
-    },
+      tr: 'nine'
+    }
   },
   {
     id: 'partnerin',
@@ -3039,8 +3039,8 @@ export const nouns: Noun[] = [
       en: 'female partner',
       de: 'Partnerin',
       es: 'pareja',
-      tr: 'kadın partner',
-    },
+      tr: 'kadın partner'
+    }
   },
   {
     id: 'pause',
@@ -3052,8 +3052,8 @@ export const nouns: Noun[] = [
       en: 'break',
       de: 'Pause',
       es: 'pausa',
-      tr: 'mola',
-    },
+      tr: 'mola'
+    }
   },
   {
     id: 'polizistin',
@@ -3065,8 +3065,8 @@ export const nouns: Noun[] = [
       en: 'policewoman',
       de: 'Polizistin',
       es: 'policía',
-      tr: 'kadın polis',
-    },
+      tr: 'kadın polis'
+    }
   },
   {
     id: 'postleitzahl',
@@ -3078,8 +3078,8 @@ export const nouns: Noun[] = [
       en: 'postal code',
       de: 'Postleitzahl',
       es: 'código postal',
-      tr: 'posta kodu',
-    },
+      tr: 'posta kodu'
+    }
   },
   {
     id: 'rechnung',
@@ -3091,8 +3091,8 @@ export const nouns: Noun[] = [
       en: 'bill',
       de: 'Rechnung',
       es: 'factura',
-      tr: 'fatura',
-    },
+      tr: 'fatura'
+    }
   },
   {
     id: 'sahne',
@@ -3104,8 +3104,8 @@ export const nouns: Noun[] = [
       en: 'cream',
       de: 'Sahne',
       es: 'nata',
-      tr: 'krema',
-    },
+      tr: 'krema'
+    }
   },
   {
     id: 'saengerin',
@@ -3117,8 +3117,8 @@ export const nouns: Noun[] = [
       en: 'female singer',
       de: 'Sängerin',
       es: 'cantante',
-      tr: 'kadın şarkıcı',
-    },
+      tr: 'kadın şarkıcı'
+    }
   },
   {
     id: 'schauspielerin',
@@ -3130,8 +3130,8 @@ export const nouns: Noun[] = [
       en: 'actress',
       de: 'Schauspielerin',
       es: 'actriz',
-      tr: 'kadın oyuncu',
-    },
+      tr: 'kadın oyuncu'
+    }
   },
   {
     id: 'schere',
@@ -3143,8 +3143,8 @@ export const nouns: Noun[] = [
       en: 'scissors',
       de: 'Schere',
       es: 'tijeras',
-      tr: 'makas',
-    },
+      tr: 'makas'
+    }
   },
   {
     id: 'schokolade',
@@ -3156,8 +3156,8 @@ export const nouns: Noun[] = [
       en: 'chocolate',
       de: 'Schokolade',
       es: 'chocolate',
-      tr: 'çikolata',
-    },
+      tr: 'çikolata'
+    }
   },
   {
     id: 'schwester',
@@ -3169,8 +3169,8 @@ export const nouns: Noun[] = [
       en: 'sister',
       de: 'Schwester',
       es: 'hermana',
-      tr: 'kız kardeş',
-    },
+      tr: 'kız kardeş'
+    }
   },
   {
     id: 'serie',
@@ -3182,8 +3182,8 @@ export const nouns: Noun[] = [
       en: 'series',
       de: 'Serie',
       es: 'serie',
-      tr: 'dizi',
-    },
+      tr: 'dizi'
+    }
   },
   {
     id: 'sonne',
@@ -3195,8 +3195,8 @@ export const nouns: Noun[] = [
       en: 'sun',
       de: 'Sonne',
       es: 'sol',
-      tr: 'güneş',
-    },
+      tr: 'güneş'
+    }
   },
   {
     id: 'spielerin',
@@ -3208,8 +3208,8 @@ export const nouns: Noun[] = [
       en: 'female player',
       de: 'Spielerin',
       es: 'jugadora',
-      tr: 'kadın oyuncu',
-    },
+      tr: 'kadın oyuncu'
+    }
   },
   {
     id: 'sprache',
@@ -3221,8 +3221,8 @@ export const nouns: Noun[] = [
       en: 'language',
       de: 'Sprache',
       es: 'idioma',
-      tr: 'dil',
-    },
+      tr: 'dil'
+    }
   },
   {
     id: 'strasse',
@@ -3234,8 +3234,8 @@ export const nouns: Noun[] = [
       en: 'street',
       de: 'Straße',
       es: 'calle',
-      tr: 'sokak',
-    },
+      tr: 'sokak'
+    }
   },
   {
     id: 'studentin',
@@ -3247,8 +3247,8 @@ export const nouns: Noun[] = [
       en: 'female student',
       de: 'Studentin',
       es: 'estudiante',
-      tr: 'kadın öğrenci',
-    },
+      tr: 'kadın öğrenci'
+    }
   },
   {
     id: 'stunde',
@@ -3260,8 +3260,8 @@ export const nouns: Noun[] = [
       en: 'hour',
       de: 'Stunde',
       es: 'hora',
-      tr: 'saat',
-    },
+      tr: 'saat'
+    }
   },
   {
     id: 'suppe',
@@ -3273,8 +3273,8 @@ export const nouns: Noun[] = [
       en: 'soup',
       de: 'Suppe',
       es: 'sopa',
-      tr: 'çorba',
-    },
+      tr: 'çorba'
+    }
   },
   {
     id: 'tante',
@@ -3286,8 +3286,8 @@ export const nouns: Noun[] = [
       en: 'aunt',
       de: 'Tante',
       es: 'tía',
-      tr: 'teyze',
-    },
+      tr: 'teyze'
+    }
   },
   {
     id: 'tasche',
@@ -3299,8 +3299,8 @@ export const nouns: Noun[] = [
       en: 'bag',
       de: 'Tasche',
       es: 'bolsa',
-      tr: 'çanta',
-    },
+      tr: 'çanta'
+    }
   },
   {
     id: 'tasse',
@@ -3312,8 +3312,8 @@ export const nouns: Noun[] = [
       en: 'cup',
       de: 'Tasse',
       es: 'taza',
-      tr: 'fincan',
-    },
+      tr: 'fincan'
+    }
   },
   {
     id: 'taxifahrerin',
@@ -3325,8 +3325,8 @@ export const nouns: Noun[] = [
       en: 'female taxi driver',
       de: 'Taxifahrerin',
       es: 'taxista',
-      tr: 'kadın taksi şoförü',
-    },
+      tr: 'kadın taksi şoförü'
+    }
   },
   {
     id: 'telefonnummer',
@@ -3338,8 +3338,8 @@ export const nouns: Noun[] = [
       en: 'phone number',
       de: 'Telefonnummer',
       es: 'número de teléfono',
-      tr: 'telefon numarası',
-    },
+      tr: 'telefon numarası'
+    }
   },
   {
     id: 'temperatur',
@@ -3351,8 +3351,8 @@ export const nouns: Noun[] = [
       en: 'temperature',
       de: 'Temperatur',
       es: 'temperatura',
-      tr: 'sıcaklık',
-    },
+      tr: 'sıcaklık'
+    }
   },
   {
     id: 'tochter',
@@ -3364,8 +3364,8 @@ export const nouns: Noun[] = [
       en: 'daughter',
       de: 'Tochter',
       es: 'hija',
-      tr: 'kız evlat',
-    },
+      tr: 'kız evlat'
+    }
   },
   {
     id: 'tomate',
@@ -3377,8 +3377,8 @@ export const nouns: Noun[] = [
       en: 'tomato',
       de: 'Tomate',
       es: 'tomate',
-      tr: 'domates',
-    },
+      tr: 'domates'
+    }
   },
   {
     id: 'trainerin',
@@ -3390,8 +3390,8 @@ export const nouns: Noun[] = [
       en: 'female trainer',
       de: 'Trainerin',
       es: 'entrenadora',
-      tr: 'kadın antrenör',
-    },
+      tr: 'kadın antrenör'
+    }
   },
   {
     id: 'tuete',
@@ -3403,8 +3403,8 @@ export const nouns: Noun[] = [
       en: 'bag',
       de: 'Tüte',
       es: 'bolsa',
-      tr: 'poşet',
-    },
+      tr: 'poşet'
+    }
   },
   {
     id: 'uhr',
@@ -3416,8 +3416,8 @@ export const nouns: Noun[] = [
       en: 'clock',
       de: 'Uhr',
       es: 'reloj',
-      tr: 'saat',
-    },
+      tr: 'saat'
+    }
   },
   {
     id: 'unterschrift',
@@ -3429,8 +3429,8 @@ export const nouns: Noun[] = [
       en: 'signature',
       de: 'Unterschrift',
       es: 'firma',
-      tr: 'imza',
-    },
+      tr: 'imza'
+    }
   },
   {
     id: 'verkaeuferin',
@@ -3442,8 +3442,8 @@ export const nouns: Noun[] = [
       en: 'saleswoman',
       de: 'Verkäuferin',
       es: 'vendedora',
-      tr: 'kadın satıcı',
-    },
+      tr: 'kadın satıcı'
+    }
   },
   {
     id: 'wohnung',
@@ -3455,8 +3455,8 @@ export const nouns: Noun[] = [
       en: 'apartment',
       de: 'Wohnung',
       es: 'vivienda',
-      tr: 'daire',
-    },
+      tr: 'daire'
+    }
   },
   {
     id: 'wurst',
@@ -3468,8 +3468,8 @@ export const nouns: Noun[] = [
       en: 'sausage',
       de: 'Wurst',
       es: 'salchicha',
-      tr: 'sosis',
-    },
+      tr: 'sosis'
+    }
   },
   {
     id: 'zahl',
@@ -3481,8 +3481,8 @@ export const nouns: Noun[] = [
       en: 'number',
       de: 'Zahl',
       es: 'número',
-      tr: 'sayı',
-    },
+      tr: 'sayı'
+    }
   },
   {
     id: 'zahnaerztin',
@@ -3494,8 +3494,8 @@ export const nouns: Noun[] = [
       en: 'female dentist',
       de: 'Zahnärztin',
       es: 'dentista',
-      tr: 'kadın dişçi',
-    },
+      tr: 'kadın dişçi'
+    }
   },
   {
     id: 'zeit',
@@ -3507,8 +3507,8 @@ export const nouns: Noun[] = [
       en: 'time',
       de: 'Zeit',
       es: 'tiempo',
-      tr: 'zaman',
-    },
+      tr: 'zaman'
+    }
   },
   {
     id: 'zeitung',
@@ -3520,7 +3520,7 @@ export const nouns: Noun[] = [
       en: 'newspaper',
       de: 'Zeitung',
       es: 'periódico',
-      tr: 'gazete',
-    },
-  },
+      tr: 'gazete'
+    }
+  }
 ]

@@ -3,6 +3,7 @@ import { defineConfigWithVueTs, vueTsConfigs } from '@vue/eslint-config-typescri
 import pluginVue from 'eslint-plugin-vue'
 import pluginOxlint from 'eslint-plugin-oxlint'
 import skipFormatting from 'eslint-config-prettier/flat'
+import pluginStylistic from '@stylistic/eslint-plugin'
 
 // To allow more languages other than `ts` in `.vue` files, uncomment the following lines:
 // import { configureVueProject } from '@vue/eslint-config-typescript'
@@ -12,7 +13,7 @@ import skipFormatting from 'eslint-config-prettier/flat'
 export default defineConfigWithVueTs(
   {
     name: 'app/files-to-lint',
-    files: ['**/*.{vue,ts,mts,tsx}'],
+    files: ['**/*.{vue,ts,mts,tsx}']
   },
 
   globalIgnores(['**/dist/**', '**/dist-ssr/**', '**/coverage/**']),
@@ -25,6 +26,9 @@ export default defineConfigWithVueTs(
   skipFormatting,
 
   {
+    plugins: {
+      '@stylistic': pluginStylistic
+    },
     rules: {
       'tailwindcss/no-custom-classname': 'off',
       'no-debugger': 'warn',

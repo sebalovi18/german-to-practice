@@ -6,13 +6,13 @@ import {
   DropdownMenuItem,
   DropdownMenuPortal,
   DropdownMenuRoot,
-  DropdownMenuTrigger,
+  DropdownMenuTrigger
 } from 'radix-vue'
 
 import { useI18n } from 'vue-i18n'
 
-const { 
-  availableLocales, 
+const {
+  availableLocales,
   locale,
   t
 } = useI18n()
@@ -36,8 +36,8 @@ const {
       <DropdownMenuContent
         class="min-w-32 bg-background dark:bg-background rounded-md divide-y divide-gray-200 mt-1"
       >
-        <DropdownMenuItem 
-          v-for="availableLocale in availableLocales" 
+        <DropdownMenuItem
+          v-for="availableLocale in availableLocales"
           :key="availableLocale"
         >
           <button

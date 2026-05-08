@@ -1,5 +1,5 @@
-import type { GermanArticle } from "./GermanArticle"
-import type { Language } from "./Language"
+import type { GermanArticle } from './GermanArticle'
+import type { Language } from './Language'
 
 export type GermanNoun = {
   id: string

@@ -1,6 +1,10 @@
 <script setup lang="ts">
-import BaseLanguageSelector from './components/BaseLanguageSelector.vue'
-import BaseFontSelector from './components/BaseFontSelector.vue'
+import { ref } from 'vue'
+
+import TheLanguageSelector from './components/TheLanguageSelector.vue'
+import TheFontSelector from './components/TheFontSelector.vue'
+
+const selectedFontClass = ref('font-Eater')
 
 console.log('Hello World')
 </script>
@@ -12,8 +16,10 @@ console.log('Hello World')
     <div
       class="flex items-center justify-end gap-4"
     >
-      <BaseLanguageSelector />
-      <BaseFontSelector />
+      <TheLanguageSelector />
+      <TheFontSelector
+        v-model="selectedFontClass"
+      />
     </div>
     <div
       class="flex gap-4 items-center justify-center"
@@ -21,7 +27,8 @@ console.log('Hello World')
       <div
         v-for="article in ['der', 'die', 'das']"
         :key="article"
-        class="font-Eater h-32 w-32 bg-foreground dark:bg-background dark:hover:bg-background-hover text-background dark:text-foreground rounded-md flex items-center justify-center capitalize cursor-pointer"
+        class="h-32 w-32 bg-foreground dark:bg-background dark:hover:bg-background-hover text-background dark:text-foreground rounded-md flex items-center justify-center capitalize cursor-pointer"
+        :class="selectedFontClass"
       >
         {{ article }}
       </div>
