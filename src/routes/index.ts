@@ -5,19 +5,20 @@ import Adjetives from '../pages/adjetives.vue'
 
 export default [
   {
-    path: '/',
-    component: Home
+    alias: '/home',
+    component: Home,
+    path: '/'
   },
   {
-    path: '/nouns',
-    component: Nouns
+    component: Nouns,
+    path: '/nouns'
   },
   {
-    path: '/verbs',
-    component: Verbs
+    component: Verbs,
+    path: '/verbs'
   },
   {
-    path: '/adjetives',
-    component: Adjetives
+    component: Adjetives,
+    path: '/adjetives'
   }
 ]
