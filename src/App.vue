@@ -16,13 +16,15 @@ console.log('Hello World')
       <BaseFontSelector />
     </div>
     <div
-      class="flex flex-col gap-4 items-center justify-center"
+      class="flex gap-4 items-center justify-center"
     >
-      <h1
-        class="text-4xl font-Londrina-Shadow"
+      <div
+        v-for="article in ['der', 'die', 'das']"
+        :key="article"
+        class="font-Eater h-32 w-32 bg-foreground dark:bg-background dark:hover:bg-background-hover text-background dark:text-foreground rounded-md flex items-center justify-center capitalize cursor-pointer"
       >
-        You did it!
-      </h1>
+        {{ article }}
+      </div>
     </div>
   </div>
 </template>
