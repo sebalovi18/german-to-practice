@@ -1,7 +1,7 @@
-import Home from '../pages/index.vue'
-import Nouns from '../pages/nouns.vue'
-import Verbs from '../pages/verbs.vue'
-import Adjetives from '../pages/adjetives.vue'
+import Home from '@/pages/index.vue'
+import Nouns from '@/pages/nouns.vue'
+import Verbs from '@/pages/verbs.vue'
+import Adjetives from '@/pages/adjetives.vue'
 
 export default [
   {

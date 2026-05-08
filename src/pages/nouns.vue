@@ -2,6 +2,6 @@
 </script>
 <template>
   <div>
-    <h1>Template</h1>
+    <h1>Nouns</h1>
   </div>
 </template>
