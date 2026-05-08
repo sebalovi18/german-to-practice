@@ -11,6 +11,7 @@ import App from './App.vue'
 import './assets/css/tailwind.css'
 
 const i18n = createI18n({
+  legacy: false,
   locale: 'en',
   fallbackLocale: 'en',
   messages: {

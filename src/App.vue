@@ -1,11 +1,16 @@
 <script setup lang="ts">
+import BaseLanguageSelector from './components/BaseLanguageSelector.vue'
+import BaseFontSelector from './components/BaseFontSelector.vue'
+
 console.log('Hello World')
 </script>
 
 <template>
   <div
-    class="bg-gray-300 dark:bg-blue-900 h-dvh w-dvw overflow-auto flex flex-col gap-4 items-center justify-center"
+    class="bg-background dark:bg-background-dark h-dvh w-dvw overflow-auto flex flex-col gap-4 items-center justify-center"
   >
+    <BaseLanguageSelector />
+    <BaseFontSelector />
     <h1
       class="text-4xl font-Audiowide"
     >
@@ -17,7 +22,7 @@ console.log('Hello World')
       You did it!
     </h1>
     <h1
-    class="text-4xl font-Bitcount"
+      class="text-4xl font-Bitcount"
     >
       You did it!
     </h1>
@@ -32,12 +37,12 @@ console.log('Hello World')
       You did it!
     </h1>
     <h1
-    class="text-4xl font-Londrina-Shadow"
+      class="text-4xl font-Londrina-Shadow"
     >
       You did it!
     </h1>
     <h1
-    class="text-4xl font-Luckiest-Guy"
+      class="text-4xl font-Luckiest-Guy"
     >
       You did it!
     </h1>
@@ -47,12 +52,12 @@ console.log('Hello World')
       You did it!
     </h1>
     <h1
-    class="text-4xl font-Monoton"
+      class="text-4xl font-Monoton"
     >
       You did it!
     </h1>
     <h1
-    class="text-4xl font-Press-Start-2P"
+      class="text-4xl font-Press-Start-2P"
     >
       You did it!
     </h1>
