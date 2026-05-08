@@ -53,3 +53,11 @@
       cursor-pointer;
   }
 }
+
+@layer base {
+  body {
+    @apply
+      bg-background
+      dark:bg-background-dark;
+  }
+}

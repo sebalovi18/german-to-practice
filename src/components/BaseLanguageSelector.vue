@@ -18,19 +18,21 @@ console.log(availableLocales)
   <DropdownMenuRoot>
     <DropdownMenuTrigger>
       <button
-        class="btn"
+        class="btn min-w-32 capitalize"
       >
         {{ locale }}
       </button>
     </DropdownMenuTrigger>
     <DropdownMenuPortal>
-      <DropdownMenuContent>
+      <DropdownMenuContent
+        class="min-w-32 bg-background dark:bg-background rounded-md divide-y divide-gray-200 mt-1"
+      >
         <DropdownMenuItem 
           v-for="availableLocale in availableLocales" 
           :key="availableLocale"
         >
           <button
-            class="btn"
+            class="btn w-full capitalize"
           >
             {{ availableLocale }}
           </button>

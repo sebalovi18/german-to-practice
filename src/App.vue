@@ -7,7 +7,7 @@ console.log('Hello World')
 
 <template>
   <div
-    class="bg-background dark:bg-background-dark h-dvh w-dvw overflow-auto flex flex-col gap-4 items-center justify-center"
+    class="h-dvh w-dvw overflow-auto flex flex-col gap-4 items-center justify-center"
   >
     <BaseLanguageSelector />
     <BaseFontSelector />
