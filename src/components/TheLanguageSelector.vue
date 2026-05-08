@@ -11,11 +11,18 @@ import {
 
 import { useI18n } from 'vue-i18n'
 
+import { LANGUAGE_STORAGE_KEY } from '../constants/storage'
+
 const {
   availableLocales,
   locale,
   t
 } = useI18n()
+
+const selectLocale = (selectedLocale: string) => {
+  locale.value = selectedLocale
+  localStorage.setItem(LANGUAGE_STORAGE_KEY, selectedLocale)
+}
 
 </script>
 
@@ -41,8 +48,9 @@ const {
           :key="availableLocale"
         >
           <button
+            type="button"
             class="btn w-full capitalize"
-            @click="locale = availableLocale"
+            @click="selectLocale(availableLocale)"
           >
             {{ t(`language.${availableLocale}`) }}
           </button>

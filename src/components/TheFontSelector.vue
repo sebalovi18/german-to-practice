@@ -12,6 +12,8 @@ import {
 
 import { useI18n } from 'vue-i18n'
 
+import { fonts } from '../constants/fonts'
+
 const {
   t
 } = useI18n()
@@ -23,49 +25,6 @@ const props = defineProps<{
 const emit = defineEmits<{
   'update:modelValue': [fontClass: string]
 }>()
-
-const fonts = [
-  {
-    label: 'Audiowide',
-    className: 'font-Audiowide'
-  },
-  {
-    label: 'Bitcount',
-    className: 'font-Bitcount'
-  },
-  {
-    label: 'Bitcount Grid Double Ink',
-    className: 'font-Bitcount-Grid-Double-Ink'
-  },
-  {
-    label: 'Cinzel',
-    className: 'font-Cinzel'
-  },
-  {
-    label: 'Eater',
-    className: 'font-Eater'
-  },
-  {
-    label: 'Fontdiner Swanky',
-    className: 'font-Fontdiner-Swanky'
-  },
-  {
-    label: 'Londrina Shadow',
-    className: 'font-Londrina-Shadow'
-  },
-  {
-    label: 'Luckiest Guy',
-    className: 'font-Luckiest-Guy'
-  },
-  {
-    label: 'Monoton',
-    className: 'font-Monoton'
-  },
-  {
-    label: 'Press Start 2P',
-    className: 'font-Press-Start-2P'
-  }
-]
 
 const selectedFontLabel = computed(() => (
   fonts.find((font) => font.className === props.modelValue)?.label ?? t('common.font')

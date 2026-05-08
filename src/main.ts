@@ -8,12 +8,24 @@ import tr from './locales/tr.json'
 
 import App from './App.vue'
 
+import {
+  DEFAULT_LOCALE,
+  isSupportedLocale
+} from './constants/locales'
+
+import { LANGUAGE_STORAGE_KEY } from './constants/storage'
+
 import './assets/css/tailwind.css'
+
+const savedLocale = localStorage.getItem(LANGUAGE_STORAGE_KEY)
+const initialLocale = isSupportedLocale(savedLocale)
+  ? savedLocale
+  : DEFAULT_LOCALE
 
 const i18n = createI18n({
   legacy: false,
-  locale: 'en',
-  fallbackLocale: 'en',
+  locale: initialLocale,
+  fallbackLocale: DEFAULT_LOCALE,
   messages: {
     en: en,
     de: de,
