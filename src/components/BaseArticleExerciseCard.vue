@@ -194,15 +194,14 @@ onBeforeUnmount(() => {
 <template>
   <div
     v-auto-animate
-    class="flex flex-col gap-8 items-center justify-center"
+    class="space-y-4 w-full"
   >
     <!-- ARTICLE SELECTION -->
     <div
-      class="w-full flex gap-4 items-center justify-between"
+      class="grid grid-cols-3 gap-4"
     >
       <BaseOptionCard
         v-for="(article, index) in germanArticles"
-        class="flex-1"
         :is-incorrect="incorrectAnswers.includes(article)"
         :is-correct="article === props.noun.article && isFinished"
         :key="article"
@@ -215,7 +214,7 @@ onBeforeUnmount(() => {
     <!-- COMPLETE WORD DISPLAY -->
     <div
       v-auto-animate
-      class="w-full flex items-center justify-center gap-2 text-center text-xl capitalize bg-foreground dark:bg-background dark:text-foreground text-background p-2 md:p-4 rounded-md"
+      class="w-full flex items-center justify-center gap-2 text-center capitalize bg-foreground dark:bg-background dark:text-foreground text-background p-2 md:p-4 rounded-md"
     >
       <span
         v-if="isFinished"
@@ -230,7 +229,7 @@ onBeforeUnmount(() => {
     <!-- TRANSLATION DISPLAY -->
     <div
       v-if="isHintVisible || isFinished"
-      class="w-full flex items-center justify-center gap-2 text-center text-xl capitalize bg-foreground dark:bg-background dark:text-foreground text-background p-2 md:p-4 rounded-md"
+      class="w-full flex items-center justify-center gap-2 text-center capitalize bg-foreground dark:bg-background dark:text-foreground text-background p-2 md:p-4 rounded-md"
     >
       <span>
         {{ props.noun.translations[locale as keyof typeof props.noun.translations] }}

@@ -62,16 +62,8 @@ const handleNextEvent = () => {
 
 <template>
   <div
-    class="space-y-4 py-4"
+    class="space-y-4 mx-auto max-w-xl"
   >
-    <div
-      class="flex gap-2 sm:flex-row items-center justify-between sm:justify-center text-[10px] sm:text-xs"
-    >
-      <p> Errors: {{ errorCount }} </p>
-      <p> Corrects: {{ correctCount }} </p>
-      <p> Noun: {{ randomNounIndex + 1 }} / {{ randomNouns.length }} </p>
-      <p> Attempts: {{ attempts }} </p>
-    </div>
     <div
       class="flex gap-4 items-center justify-center"
     >
@@ -83,6 +75,16 @@ const handleNextEvent = () => {
         @correct="handleCorrectEvent"
         @next="handleNextEvent"
       />
+    </div>
+
+    <!-- STATISTICS -->
+    <div
+      class="flex gap-2 sm:flex-row items-center justify-between sm:justify-center text-[10px] sm:text-xs"
+    >
+      <p> Errors: {{ errorCount }} </p>
+      <p> Corrects: {{ correctCount }} </p>
+      <p> Noun: {{ randomNounIndex + 1 }} / {{ randomNouns.length }} </p>
+      <p> Attempts: {{ attempts }} </p>
     </div>
   </div>
 </template>
