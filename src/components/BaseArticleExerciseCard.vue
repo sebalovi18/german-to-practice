@@ -22,7 +22,8 @@ interface Emits {
 const emit = defineEmits<Emits>()
 
 const {
-  locale
+  locale,
+  t
 } = useI18n()
 
 // GERMAN ARTICLES
@@ -97,11 +98,11 @@ const handleClick = (article: GermanArticle) => {
     class="flex flex-col gap-4 items-center justify-center"
   >
     <p>
-      Attempts: {{ attemps }}
+      {{ t('exercise.attempts') }}: {{ attemps }}
     </p>
     <!-- ARTICLE SELECTION -->
     <div
-      class="flex gap-4 items-center justify-center"
+      class="w-full flex gap-4 items-center justify-between"
     >
       <BaseOptionCard
         v-for="article in germanArticles"
@@ -133,30 +134,6 @@ const handleClick = (article: GermanArticle) => {
       v-if="isHintVisible || isFinished"
       class="w-full flex items-center justify-center gap-2 text-center text-xl capitalize bg-foreground dark:bg-background dark:text-foreground text-background p-4 rounded-md"
     >
-      <span
-        v-if="locale === 'es'"
-      >
-        🇪🇸
-      </span>
-
-      <span
-        v-if="locale === 'en'"
-      >
-        🇬🇧
-      </span>
-
-      <span
-        v-if="locale === 'tr'"
-      >
-        🇹🇷
-      </span>
-
-      <span
-        v-if="locale === 'de'"
-      >
-        🇩🇪
-      </span>
-
       <span>
         {{ props.noun.translations[locale as keyof typeof props.noun.translations] }}
       </span>
@@ -174,7 +151,7 @@ const handleClick = (article: GermanArticle) => {
         :disabled="isHintVisible || isFinished"
         @click="isHintVisible = true"
       >
-        Hint 🕵️‍♀️
+        {{ t('exercise.hint') }} 🕵️‍♀️
       </button>
       <button
         class="btn"
@@ -184,13 +161,13 @@ const handleClick = (article: GermanArticle) => {
         :disabled="isFinished"
         @click="finishExercise"
       >
-        Show Answer 🧐
+        {{ t('exercise.showAnswer') }} 🧐
       </button>
       <button
         class="btn"
         @click="emit('next')"
       >
-        Next ➡️
+        {{ t('exercise.next') }} ➡️
       </button>
     </div>
   </div>

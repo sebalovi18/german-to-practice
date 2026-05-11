@@ -2,6 +2,12 @@
   "common": {
     "font": "Yazı Tipi"
   },
+  "exercise": {
+    "attempts": "Deneme hakkı",
+    "hint": "İpucu",
+    "showAnswer": "Cevabı göster",
+    "next": "Sonraki"
+  },
   "language": {
     "en": "İngilizce",
     "de": "Almanca",

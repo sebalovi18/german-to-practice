@@ -2,6 +2,12 @@
   "common": {
     "font": "Fuente"
   },
+  "exercise": {
+    "attempts": "Intentos",
+    "hint": "Pista",
+    "showAnswer": "Mostrar respuesta",
+    "next": "Siguiente"
+  },
   "language": {
     "en": "Inglés",
     "de": "Alemán",
