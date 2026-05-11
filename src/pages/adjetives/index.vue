@@ -2,6 +2,6 @@
 </script>
 <template>
   <div>
-    <h1>Adjetives</h1>
+    <h1>Adjetives - Coming Soon</h1>
   </div>
 </template>
