@@ -1,7 +1,7 @@
 import { createApp } from 'vue'
 
 // VUE ROUTER
-import { createMemoryHistory, createRouter } from 'vue-router'
+import { createWebHistory, createRouter } from 'vue-router'
 import routes from './routes'
 
 // VUE I18N
@@ -28,7 +28,7 @@ import './assets/css/tailwind.css'
 // INITIALIZE ROUTER
 // ----------------------------------------
 const router = createRouter({
-  history: createMemoryHistory(),
+  history: createWebHistory(),
   routes
 })
 
