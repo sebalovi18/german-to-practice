@@ -38,7 +38,7 @@ watch(selectedFontClass, (fontClass) => {
       <div>
         <button
           v-if="router.currentRoute.value.path !== '/home'"
-          class="btn"
+          class="btn h-[40px]"
           @click="router.push('/home')"
         >
           <ArrowLeftIcon
