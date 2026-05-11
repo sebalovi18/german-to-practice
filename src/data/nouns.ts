@@ -1,18 +1,6 @@
-import type { GermanArticle } from '@/interfaces/GermanArticle'
-import type { Language } from '@/interfaces/Language'
+import type { GermanNoun } from '@/interfaces/GermanNoun'
 
-type Noun = {
-  id: string
-  type: 'noun'
-  article: GermanArticle
-  singular: string
-  plural: string
-  translations: Record<Language, string>
-  level?: string
-  category?: string
-}
-
-export const nouns: Noun[] = [
+export const nouns: GermanNoun[] = [
   {
     id: 'abendessen',
     type: 'noun',
