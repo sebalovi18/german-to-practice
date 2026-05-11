@@ -117,7 +117,7 @@ const filteredNouns = computed(() => {
 </script>
 <template>
   <div
-    class="py-2 space-y-4"
+    class="py-4 space-y-4"
   >
     <input
       v-model="filterSearch"
