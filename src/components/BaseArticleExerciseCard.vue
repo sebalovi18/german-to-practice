@@ -49,6 +49,10 @@ const incorrectAnswers = ref<Array<GermanArticle>>([])
 const showAnswer = () => {
   if (isFinished.value) return
 
+  // EMIT INCORRECT EVENT TWICE SINCE THE USER HAS TWO ATTEMPTS
+  emit('incorrect')
+  emit('incorrect')
+
   finishExercise()
 }
 
@@ -156,21 +160,30 @@ const handleKeydown = (event: KeyboardEvent) => {
     return
   }
 
-  switch (event.key.toLowerCase()) {
-    case actionShortcutKeys.hint:
-      event.preventDefault()
-      showHint()
-      break
+  const eventKey = event.key.toLowerCase()
 
-    case actionShortcutKeys.showAnswer:
-      event.preventDefault()
-      showAnswer()
-      break
+  if (eventKey === actionShortcutKeys.hint && !isHintVisible.value && !isFinished.value) {
+    event.preventDefault()
 
-    case actionShortcutKeys.next:
-      event.preventDefault()
-      handleNext()
-      break
+    showHint()
+
+    return
+  }
+
+  if (eventKey === actionShortcutKeys.showAnswer && !isFinished.value) {
+    event.preventDefault()
+
+    showAnswer()
+
+    return
+  }
+
+  if (eventKey === actionShortcutKeys.next && isFinished.value) {
+    event.preventDefault()
+
+    handleNext()
+
+    return
   }
 }
 
