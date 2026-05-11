@@ -218,6 +218,11 @@ onBeforeUnmount(() => {
     >
       <span
         v-if="isFinished"
+        :class="{
+          'text-blue-500 font-bold': props.noun.article === 'der',
+          'text-pink-500 font-bold': props.noun.article === 'die',
+          'text-gray-500 font-bold': props.noun.article === 'das'
+        }"
       >
         {{ props.noun.article }}
       </span>
