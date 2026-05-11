@@ -1,15 +1,43 @@
 <script setup lang="ts">
+import { computed } from 'vue'
+
 interface Props {
+  isCorrect?: boolean
+  isIncorrect?: boolean
   option: string
 }
 
-defineProps<Props>()
+const props = defineProps<Props>()
 
 interface Emits {
   (event: 'click'): void
 }
 
 const emit = defineEmits<Emits>()
+
+const isNeutralClass = computed((): string =>
+  'bg-foreground hover:bg-foreground-hover dark:bg-background dark:hover:bg-background-hover text-background dark:text-foreground'
+)
+
+const isCorrectClass = computed((): string =>
+  'bg-green-200 hover:bg-green-200 dark:bg-green-200 dark:hover:bg-green-200 text-background dark:text-foreground'
+)
+
+const isIncorrectClass = computed((): string =>
+  'bg-red-200 hover:bg-red-200 dark:bg-red-200 dark:hover:bg-red-200 text-background dark:text-foreground'
+)
+
+const computedClass = computed((): string => {
+  if (props.isCorrect) {
+    return isCorrectClass.value
+  }
+
+  if (props.isIncorrect) {
+    return isIncorrectClass.value
+  }
+
+  return isNeutralClass.value
+})
 
 const handleClick = () => {
   emit('click')
@@ -20,20 +48,29 @@ const handleClick = () => {
     :class="[
       'h-32',
       'w-32',
-      'bg-foreground',
-      'dark:bg-background',
-      'dark:hover:bg-background-hover',
-      'text-background',
-      'dark:text-foreground',
       'rounded-md',
       'flex',
       'items-center',
       'justify-center',
+      'gap-2',
       'capitalize',
-      'cursor-pointer'
+      'cursor-pointer',
+      computedClass
     ]"
     @click="handleClick"
   >
-    {{ option }}
+    <span
+      v-if="isCorrect"
+    >
+      ✅
+    </span>
+    <span
+      v-else-if="isIncorrect"
+    >
+      ❌
+    </span>
+    <span>
+      {{ option }}
+    </span>
   </button>
 </template>

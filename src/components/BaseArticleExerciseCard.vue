@@ -25,14 +25,33 @@ const {
   locale
 } = useI18n()
 
+// GERMAN ARTICLES
 const germanArticles = ['der', 'die', 'das'] as GermanArticle[]
-
 const selectedArticle = ref<GermanArticle | null>(null)
+const incorrectAnswers = ref<Array<GermanArticle>>([])
 
+// ATTEMPTS
 const attemps = ref(2)
-const isFinished = ref(false)
+
+// HINT VISIBLE
 const isHintVisible = ref(false)
 
+// FINISH EXERCISE
+const isFinished = ref(false)
+const finishExercise = () => {
+  // GET INCORRECT ANSWERS
+  incorrectAnswers.value = germanArticles.filter(article =>
+    article !== props.noun.article
+  )
+
+  // SELECTED CORRECT ANSWER
+  selectedArticle.value = props.noun.article
+
+  // FINISH EXERCISE
+  isFinished.value = true
+}
+
+// HANDLE CLICK ON ARTICLE OPTION
 const handleClick = (article: GermanArticle) => {
   // IF FINISHED, DO NOTHING
   if (isFinished.value) return
@@ -42,6 +61,10 @@ const handleClick = (article: GermanArticle) => {
 
   // INCORRECT ANSWER - IF ATTEMPS ARE 0, FINISH THE EXERCISE
   if (article !== props.noun.article) {
+    // ADD INCORRECT ANSWER TO LIST
+    incorrectAnswers.value.push(article)
+
+    // IF ATTEMPTS ARE 2, DECREASE ATTEMPTS AND EMIT INCORRECT EVENT
     if (attemps.value === 2) {
       attemps.value--
 
@@ -50,8 +73,11 @@ const handleClick = (article: GermanArticle) => {
       return
     }
 
+    // IF ATTEMPTS ARE 1, FINISH THE EXERCISE AND EMIT INCORRECT EVENT
     if (attemps.value === 1) {
-      isFinished.value = true
+      attemps.value--
+
+      finishExercise()
 
       emit('incorrect')
 
@@ -70,12 +96,17 @@ const handleClick = (article: GermanArticle) => {
     v-auto-animate
     class="flex flex-col gap-4 items-center justify-center"
   >
+    <p>
+      Attempts: {{ attemps }}
+    </p>
     <!-- ARTICLE SELECTION -->
     <div
       class="flex gap-4 items-center justify-center"
     >
       <BaseOptionCard
         v-for="article in germanArticles"
+        :is-incorrect="incorrectAnswers.includes(article)"
+        :is-correct="article === props.noun.article && isFinished"
         :key="article"
         :option="article"
         @click="handleClick(article)"
@@ -131,7 +162,7 @@ const handleClick = (article: GermanArticle) => {
       </span>
     </div>
 
-    <!-- HINT BUTTON -->
+    <!-- HINT BUTTON | SHOW ANSWER BUTTON | NEXT BUTTON -->
     <div
       class="flex items-center justify-between gap-2 w-full"
     >
@@ -151,7 +182,7 @@ const handleClick = (article: GermanArticle) => {
           'disabled:opacity-50 cursor-not-allowed': isFinished
         }"
         :disabled="isFinished"
-        @click="isFinished = true"
+        @click="finishExercise"
       >
         Show Answer 🧐
       </button>
