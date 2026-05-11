@@ -9,6 +9,7 @@ import RadixVueResolver from 'radix-vue/resolver'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/german-to-practice/',
   plugins: [
     vue(),
     vueDevTools(),
