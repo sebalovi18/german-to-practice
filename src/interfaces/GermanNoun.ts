@@ -1,7 +1,7 @@
 import type { GermanArticle } from './GermanArticle'
 import type { Language } from './Language'
 
-export type GermanNoun = {
+export interface GermanNoun {
   id: string
   type: 'noun'
   article: GermanArticle

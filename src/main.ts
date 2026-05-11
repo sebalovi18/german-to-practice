@@ -8,6 +8,9 @@ import routes from './routes'
 import { createI18n } from 'vue-i18n'
 import locales from './locales'
 
+// FORMKIT AUTO ANIMATE
+import { autoAnimatePlugin } from '@formkit/auto-animate/vue'
+
 // APP
 import App from './App.vue'
 
@@ -52,6 +55,8 @@ const app = createApp(App)
 app.use(router)
 
 app.use(i18n)
+
+app.use(autoAnimatePlugin)
 
 // ----------------------------------------
 // MOUNT APP

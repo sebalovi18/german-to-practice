@@ -1,8 +1,6 @@
 <script setup lang="ts">
-import type { GermanArticle } from '@/interfaces/GermanArticle'
-
 interface Props {
-  article: GermanArticle
+  option: string
 }
 
 defineProps<Props>()
@@ -36,6 +34,6 @@ const handleClick = () => {
     ]"
     @click="handleClick"
   >
-    {{ article }}
+    {{ option }}
   </button>
 </template>
