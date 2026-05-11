@@ -1,27 +1,35 @@
-# german-to-practice
+# German to Practice
 
-This template should help get you started developing with Vue 3 in Vite.
+German to Practice is a small Vue app for studying German vocabulary through searchable reference lists and focused exercises. The current version is centered on German nouns, especially practicing the correct articles: `der`, `die`, and `das`.
 
-## Recommended IDE Setup
+The project is personal learning software: it keeps vocabulary data close to the code, makes it easy to browse translations, and turns that data into short practice rounds.
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Features
 
-## Recommended Browser Setup
+- Browse a noun list with article, singular form, plural form, and translations.
+- Search nouns by German word, plural form, or translation.
+- Practice articles with randomized 10-word sessions.
+- Get two attempts per noun, reveal a hint, show the answer, and move to the next card.
+- Use keyboard shortcuts during practice: `1`, `2`, `3` for articles, `h` for hint, `a` for answer, and `n` for next.
+- Switch UI language between English, German, Spanish, and Turkish.
+- Choose a preferred display font, saved in local storage.
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+## Current Data
 
-## Type Support for `.vue` Imports in TS
+The noun dataset lives in `src/data/nouns.ts` and currently includes 100 nouns. Each noun stores:
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+- the German article
+- singular and plural forms
+- translations for `en`, `de`, `es`, and `tr`
+- optional level and category metadata
 
-## Customize configuration
+## App Structure
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- `/nouns` shows the searchable noun table.
+- `/practice/articles` starts the article practice exercise.
+- `/verbs` and `/adjetives` are present as future sections.
+
+The app is built with Vue 3, Vite, TypeScript, Vue Router, Vue I18n, Tailwind CSS, Radix Vue, Lucide icons, and FormKit Auto Animate.
 
 ## Project Setup
 
@@ -29,20 +37,26 @@ See [Vite Configuration Reference](https://vite.dev/config/).
 yarn
 ```
 
-### Compile and Hot-Reload for Development
+### Start Development Server
 
 ```sh
 yarn dev
 ```
 
-### Type-Check, Compile and Minify for Production
+### Type-Check and Build
 
 ```sh
 yarn build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+### Lint
 
 ```sh
 yarn lint
+```
+
+### Format Source Files
+
+```sh
+yarn format
 ```
