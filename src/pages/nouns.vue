@@ -5,8 +5,8 @@ import { computed, ref } from 'vue'
 
 import type { GermanNoun } from '@/interfaces/GermanNoun'
 
-const tableClass = 'border border-gray-300'
-const thClass = 'border border-gray-300 p-2 capitalize text-left uppercase py-4 font-bold'
+const tableClass = 'w-full border border-gray-300'
+const thClass = 'border border-gray-300 p-2 capitalize text-left uppercase py-4 bg-gray-900 font-bold'
 const tdClass = 'border border-gray-300 p-2 capitalize text-left font-light'
 
 // TABLE HEADERS
