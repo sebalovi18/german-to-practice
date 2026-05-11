@@ -7,6 +7,7 @@ import type { GermanNoun } from '@/interfaces/GermanNoun'
 
 import { nouns } from '@/data/nouns'
 
+// NOUNS
 const getRandomNouns = (n?: number): Array<GermanNoun> => {
   const randomNouns = nouns.sort(() => Math.random() - 0.5)
 
@@ -17,11 +18,45 @@ const getRandomNouns = (n?: number): Array<GermanNoun> => {
   return randomNouns.slice(0, n)
 }
 
-const randomNouns = ref<Array<GermanNoun>>(getRandomNouns())
+const randomNouns = ref<Array<GermanNoun>>(getRandomNouns(10))
 const randomNounIndex = ref<number>(0)
 
+// ATTEMPTS
+const attempts = ref<number>(2)
+
+// ERROR COUNT
+const errorCount = ref<number>(0)
+
+// CORRECT COUNT
+const correctCount = ref<number>(0)
+
+// IS FINISHED
+const isFinished = ref<boolean>(false)
+
+// EVENT HANDLERS
+const handleIncorrectEvent = () => {
+  errorCount.value++
+
+  attempts.value--
+}
+
+const handleCorrectEvent = () => {
+  attempts.value = 2
+
+  correctCount.value++
+}
+
 const handleNextEvent = () => {
+  attempts.value = 2
+
+  if (randomNounIndex.value === randomNouns.value.length - 1) {
+    isFinished.value = true
+
+    return
+  }
+
   randomNounIndex.value++
+
 }
 </script>
 
@@ -32,9 +67,20 @@ const handleNextEvent = () => {
     <div
       class="flex gap-4 items-center justify-center"
     >
+      <p> Errors: {{ errorCount }} </p>
+      <p> Corrects: {{ correctCount }} </p>
+      <p> Noun: {{ randomNounIndex + 1 }} / {{ randomNouns.length }} </p>
+      <p> Attempts: {{ attempts }} </p>
+    </div>
+    <div
+      class="flex gap-4 items-center justify-center"
+    >
       <BaseArticleExerciseCard
+        :attempts="attempts"
         :key="randomNouns[randomNounIndex]!.id"
         :noun="randomNouns[randomNounIndex]!"
+        @incorrect="handleIncorrectEvent"
+        @correct="handleCorrectEvent"
         @next="handleNextEvent"
       />
     </div>

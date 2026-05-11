@@ -12,6 +12,7 @@ import type { GermanNoun } from '@/interfaces/GermanNoun'
 import BaseOptionCard from '@/components/BaseOptionCard.vue'
 
 interface Props {
+  attempts: number
   noun: GermanNoun
 }
 
@@ -41,42 +42,17 @@ const actionShortcutKeys = {
   showAnswer: 'a'
 } as const
 
-// SELECTED ARTICLE
-const selectedArticle = ref<GermanArticle | null>(null)
-
-// INCORRECT ANSWERS
+// ANSWER
+const selectedAnswer = ref<GermanArticle | null>(null)
 const incorrectAnswers = ref<Array<GermanArticle>>([])
 
-// ATTEMPTS
-const attemps = ref(2)
-
-// HINT VISIBLE
-const isHintVisible = ref(false)
-const showHint = () => {
-  if (isHintVisible.value || isFinished.value) return
-
-  isHintVisible.value = true
-}
-
-// FINISH EXERCISE
-const isFinished = ref(false)
-const finishExercise = () => {
+const showAnswer = () => {
   if (isFinished.value) return
 
-  // GET INCORRECT ANSWERS
-  incorrectAnswers.value = germanArticles.filter(article =>
-    article !== props.noun.article
-  )
-
-  // SELECTED CORRECT ANSWER
-  selectedArticle.value = props.noun.article
-
-  // FINISH EXERCISE
-  isFinished.value = true
+  finishExercise()
 }
 
-// HANDLE CLICK ON ARTICLE OPTION
-const handleClick = (article: GermanArticle) => {
+const handleAnswer = (article: GermanArticle) => {
   // IF FINISHED, DO NOTHING
   if (isFinished.value) return
 
@@ -84,7 +60,7 @@ const handleClick = (article: GermanArticle) => {
   if (incorrectAnswers.value.includes(article)) return
 
   // SELECTED ARTICLE
-  selectedArticle.value = article
+  selectedAnswer.value = article
 
   // INCORRECT ANSWER - IF ATTEMPS ARE 0, FINISH THE EXERCISE
   if (article !== props.noun.article) {
@@ -92,18 +68,14 @@ const handleClick = (article: GermanArticle) => {
     incorrectAnswers.value.push(article)
 
     // IF ATTEMPTS ARE 2, DECREASE ATTEMPTS AND EMIT INCORRECT EVENT
-    if (attemps.value === 2) {
-      attemps.value--
-
+    if (props.attempts === 2) {
       emit('incorrect')
 
       return
     }
 
     // IF ATTEMPTS ARE 1, FINISH THE EXERCISE AND EMIT INCORRECT EVENT
-    if (attemps.value === 1) {
-      attemps.value--
-
+    if (props.attempts === 1) {
       finishExercise()
 
       emit('incorrect')
@@ -118,16 +90,37 @@ const handleClick = (article: GermanArticle) => {
   emit('correct')
 }
 
-const showAnswer = () => {
-  if (isFinished.value) return
+// HINT VISIBLE
+const isHintVisible = ref(false)
+const showHint = () => {
+  if (isHintVisible.value || isFinished.value) return
 
-  finishExercise()
+  isHintVisible.value = true
 }
 
+// FINISH EXERCISE
+const isFinished = ref(false)
+const finishExercise = () => {
+  if (isFinished.value) return
+
+  // SET INCORRECT ANSWERS
+  incorrectAnswers.value = germanArticles.filter(article =>
+    article !== props.noun.article
+  )
+
+  // SET CORRECT ANSWER
+  selectedAnswer.value = props.noun.article
+
+  // FINISH EXERCISE
+  isFinished.value = true
+}
+
+// HANDLE NEXT EVENT
 const handleNext = () => {
   emit('next')
 }
 
+// IS KEYBOARD SHORTCUT IGNORED
 const isKeyboardShortcutIgnored = (event: KeyboardEvent) => {
   if (event.repeat) {
     return true
@@ -146,6 +139,7 @@ const isKeyboardShortcutIgnored = (event: KeyboardEvent) => {
   return target.isContentEditable || ['INPUT', 'SELECT', 'TEXTAREA'].includes(target.tagName)
 }
 
+// HANDLE KEYDOWN EVENT
 const handleKeydown = (event: KeyboardEvent) => {
   if (isKeyboardShortcutIgnored(event)) return
 
@@ -156,7 +150,7 @@ const handleKeydown = (event: KeyboardEvent) => {
 
     if (article) {
       event.preventDefault()
-      handleClick(article)
+      handleAnswer(article)
     }
 
     return
@@ -193,22 +187,19 @@ onBeforeUnmount(() => {
     v-auto-animate
     class="flex flex-col gap-4 items-center justify-center"
   >
-    <p>
-      {{ t('exercise.attempts') }}: {{ attemps }}
-    </p>
     <!-- ARTICLE SELECTION -->
     <div
-      v-auto-animate
       class="w-full flex gap-4 items-center justify-between"
     >
       <BaseOptionCard
         v-for="(article, index) in germanArticles"
+        class="flex-1"
         :is-incorrect="incorrectAnswers.includes(article)"
         :is-correct="article === props.noun.article && isFinished"
         :key="article"
         :option="article"
         :shortcut-key="articleShortcutKeys[index]"
-        @click="handleClick(article)"
+        @click="handleAnswer(article)"
       />
     </div>
 
@@ -274,8 +265,12 @@ onBeforeUnmount(() => {
         </kbd>
       </button>
       <button
-        class="btn"
         :aria-keyshortcuts="actionShortcutKeys.next"
+        class="btn"
+        :class="{
+          'disabled:opacity-50 cursor-not-allowed': !isFinished
+        }"
+        :disabled="!isFinished"
         @click="handleNext"
       >
         {{ t('exercise.next') }} ➡️

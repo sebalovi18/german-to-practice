@@ -49,8 +49,8 @@ const handleClick = () => {
     v-auto-animate
     :aria-keyshortcuts="shortcutKey"
     :class="[
-      'h-32',
-      'w-32',
+      'min-h-32',
+      'min-w-32',
       'rounded-md',
       'flex',
       'relative',
