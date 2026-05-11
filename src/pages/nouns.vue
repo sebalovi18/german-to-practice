@@ -2,8 +2,13 @@
 import { nouns } from '@/data/nouns'
 
 import { computed, ref } from 'vue'
+import { useI18n } from 'vue-i18n'
 
 import type { GermanNoun } from '@/interfaces/GermanNoun'
+
+const {
+  t
+} = useI18n()
 
 const tableClass = 'w-full border border-gray-300'
 const thClass = 'border border-gray-300 p-2 capitalize text-left uppercase py-4 bg-gray-900 font-bold'
@@ -15,21 +20,21 @@ type Th = {
   class: string
 }
 
-const ths: Th[] = [
+const ths = computed<Th[]>(() => [
   {
     label: 'ID',
     class: thClass
   },
   {
-    label: 'Article',
+    label: t('nouns.table.article'),
     class: thClass
   },
   {
-    label: 'Singular',
+    label: t('nouns.table.singular'),
     class: thClass
   },
   {
-    label: 'Plural',
+    label: t('nouns.table.plural'),
     class: thClass
   },
   {
@@ -44,7 +49,7 @@ const ths: Th[] = [
     label: '🇹🇷',
     class: thClass
   }
-]
+])
 
 // TABLE DATA
 type Td = {
@@ -117,7 +122,7 @@ const filteredNouns = computed(() => {
     <input
       v-model="filterSearch"
       type="text"
-      placeholder="Search by singular, plural, or translation..."
+      :placeholder="t('nouns.searchPlaceholder')"
       class="w-full p-2 border border-gray-300 rounded-md"
     >
     <table
@@ -135,18 +140,34 @@ const filteredNouns = computed(() => {
         </tr>
       </thead>
       <tbody>
-        <tr
-          v-for="noun in filteredNouns"
-          :key="noun.id"
+        <template
+          v-if="filteredNouns.length"
         >
-          <td
-            v-for="td in tds"
-            :key="td.label"
-            :class="td.class"
+          <tr
+            v-for="noun in filteredNouns"
+            :key="noun.id"
           >
-            {{ td.value(noun) }}
-          </td>
-        </tr>
+            <td
+              v-for="td in tds"
+              :key="td.label"
+              :class="td.class"
+            >
+              {{ td.value(noun) }}
+            </td>
+          </tr>
+        </template>
+        <template
+          v-else
+        >
+          <tr>
+            <td
+              :colspan="ths.length"
+              class="text-center py-4"
+            >
+              {{ t('nouns.noResults') }}
+            </td>
+          </tr>
+        </template>
       </tbody>
     </table>
   </div>

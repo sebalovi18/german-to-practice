@@ -8,6 +8,15 @@
     "showAnswer": "Cevabı göster",
     "next": "Sonraki"
   },
+  "nouns": {
+    "searchPlaceholder": "Tekil, çoğul veya çeviriye göre ara...",
+    "noResults": "Sonuç bulunamadı",
+    "table": {
+      "article": "Artikel",
+      "singular": "Tekil",
+      "plural": "Çoğul"
+    }
+  },
   "language": {
     "en": "İngilizce",
     "de": "Almanca",

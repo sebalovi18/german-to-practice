@@ -8,6 +8,15 @@
     "showAnswer": "Show Answer",
     "next": "Next"
   },
+  "nouns": {
+    "searchPlaceholder": "Search by singular, plural, or translation...",
+    "noResults": "No results found",
+    "table": {
+      "article": "Article",
+      "singular": "Singular",
+      "plural": "Plural"
+    }
+  },
   "language": {
     "en": "English",
     "de": "German",
