@@ -6,11 +6,16 @@ import { computed, ref } from 'vue'
 import type { GermanNoun } from '@/interfaces/GermanNoun'
 
 const tableClass = 'border border-gray-300'
-const thClass = 'border border-gray-300 p-2 capitalize text-left'
-const tdClass = 'border border-gray-300 p-2 capitalize text-left'
+const thClass = 'border border-gray-300 p-2 capitalize text-left uppercase py-4 font-bold'
+const tdClass = 'border border-gray-300 p-2 capitalize text-left font-light'
 
 // TABLE HEADERS
-const ths = [
+type Th = {
+  label: string
+  class: string
+}
+
+const ths: Th[] = [
   {
     label: 'ID',
     class: thClass
@@ -33,10 +38,6 @@ const ths = [
   },
   {
     label: '🇬🇧',
-    class: thClass
-  },
-  {
-    label: '🇩🇪',
     class: thClass
   },
   {
@@ -47,51 +48,46 @@ const ths = [
 
 // TABLE DATA
 type Td = {
-  key: keyof GermanNoun
-  label: string
   class: string
+  label: string
+  value: (noun: GermanNoun) => string
 }
 
 const tds: Td[] = [
   {
-    key: 'id',
     label: 'ID',
-    class: tdClass
+    class: tdClass,
+    value: noun => noun.id
   },
   {
-    key: 'article',
     label: 'Article',
-    class: tdClass
+    class: tdClass,
+    value: noun => noun.article
   },
   {
-    key: 'singular',
     label: 'Singular',
-    class: tdClass
+    class: tdClass,
+    value: noun => noun.singular
   },
   {
-    key: 'plural',
     label: 'Plural',
-    class: tdClass
+    class: tdClass,
+    value: noun => 'Die ' + noun.plural
   },
   {
-    key: 'translations',
     label: '🇪🇸',
-    class: tdClass
+    class: tdClass,
+    value: noun => noun.translations.es
   },
   {
-    key: 'translations',
     label: '🇬🇧',
-    class: tdClass
+    class: tdClass,
+    value: noun => noun.translations.en
   },
   {
-    key: 'translations',
-    label: '🇩🇪',
-    class: tdClass
-  },
-  {
-    key: 'translations',
     label: '🇹🇷',
-    class: tdClass
+    class: tdClass,
+    value: noun => noun.translations.tr
   }
 ]
 
@@ -148,7 +144,7 @@ const filteredNouns = computed(() => {
             :key="td.label"
             :class="td.class"
           >
-            {{ noun[td.key] }}
+            {{ td.value(noun) }}
           </td>
         </tr>
       </tbody>
