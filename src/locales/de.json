@@ -2,9 +2,21 @@
   "common": {
     "font": "Schriftart"
   },
+  "home": {
+    "description": "Eine kleine Vue-App zum Lernen deutscher Vokabeln mit durchsuchbaren Referenzlisten und fokussierten Übungen.",
+    "navigation": {
+      "nouns": "Nomen",
+      "verbs": "Verben",
+      "adjectives": "Adjektive",
+      "practice": "Üben"
+    }
+  },
   "exercise": {
     "attempts": "Versuche",
     "hint": "Hinweis",
+    "articlePrompt": "Wähle den richtigen Artikel für das Wort",
+    "meaning": "Bedeutung",
+    "actions": "Aktionen",
     "showAnswer": "Antwort anzeigen",
     "next": "Weiter"
   },

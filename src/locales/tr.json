@@ -2,9 +2,21 @@
   "common": {
     "font": "Yazı Tipi"
   },
+  "home": {
+    "description": "Aranabilir referans listeleri ve odaklı alıştırmalarla Almanca kelime çalışmak için küçük bir Vue uygulaması.",
+    "navigation": {
+      "nouns": "İsimler",
+      "verbs": "Fiiller",
+      "adjectives": "Sıfatlar",
+      "practice": "Pratik"
+    }
+  },
   "exercise": {
     "attempts": "Deneme hakkı",
     "hint": "İpucu",
+    "articlePrompt": "Kelime için doğru artikeli seç",
+    "meaning": "Anlam",
+    "actions": "Eylemler",
     "showAnswer": "Cevabı göster",
     "next": "Sonraki"
   },

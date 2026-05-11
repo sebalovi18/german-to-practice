@@ -198,17 +198,25 @@ onBeforeUnmount(() => {
   >
     <!-- ARTICLE SELECTION -->
     <div
-      class="grid grid-cols-3 gap-4"
+      class="space-y-1"
     >
-      <BaseOptionCard
-        v-for="(article, index) in germanArticles"
-        :is-incorrect="incorrectAnswers.includes(article)"
-        :is-correct="article === props.noun.article && isFinished"
-        :key="article"
-        :option="article"
-        :shortcut-key="articleShortcutKeys[index]"
-        @click="handleAnswer(article)"
-      />
+      <p>
+        {{ t('exercise.articlePrompt') }} 👇
+      </p>
+
+      <div
+        class="grid grid-cols-3 gap-4"
+      >
+        <BaseOptionCard
+          v-for="(article, index) in germanArticles"
+          :is-incorrect="incorrectAnswers.includes(article)"
+          :is-correct="article === props.noun.article && isFinished"
+          :key="article"
+          :option="article"
+          :shortcut-key="articleShortcutKeys[index]"
+          @click="handleAnswer(article)"
+        />
+      </div>
     </div>
 
     <!-- COMPLETE WORD DISPLAY -->
@@ -234,70 +242,84 @@ onBeforeUnmount(() => {
     <!-- TRANSLATION DISPLAY -->
     <div
       v-if="isHintVisible || isFinished"
-      class="w-full flex items-center justify-center gap-2 text-center capitalize bg-foreground dark:bg-background dark:text-foreground text-background p-2 md:p-4 rounded-md"
+      class="space-y-1"
     >
-      <span>
-        {{ props.noun.translations[locale as keyof typeof props.noun.translations] }}
-      </span>
+      <p>
+        {{ t('exercise.meaning') }} 🌎
+      </p>
+      <div
+        class="w-full flex items-center justify-center gap-2 text-center capitalize bg-foreground dark:bg-background dark:text-foreground text-background p-2 md:p-4 rounded-md"
+      >
+        <span>
+          {{ props.noun.translations[locale as keyof typeof props.noun.translations] }}
+        </span>
+      </div>
     </div>
 
     <!-- HINT BUTTON | SHOW ANSWER BUTTON | NEXT BUTTON -->
     <div
-      class="flex flex-col md:flex-row items-stretch sm:items-center justify-between gap-4 w-full"
+      class="space-y-1"
     >
-      <!-- HINT BUTTON -->
-      <button
-        class="btn"
-        :class="{
-          'disabled:opacity-50 cursor-not-allowed': isHintVisible || isFinished
-        }"
-        :disabled="isHintVisible || isFinished"
-        :aria-keyshortcuts="actionShortcutKeys.hint"
-        @click="showHint"
+      <p>
+        {{ t('exercise.actions') }} 🥸
+      </p>
+      <div
+        class="flex flex-col md:flex-row items-stretch sm:items-center justify-between gap-4 w-full"
       >
-        {{ t('exercise.hint') }} 🕵️‍♀️
-        <kbd
-          class="ml-2 rounded bg-background/20 px-1.5 py-0.5 text-xs uppercase dark:bg-foreground/20"
+        <!-- HINT BUTTON -->
+        <button
+          class="btn"
+          :class="{
+            'disabled:opacity-50 cursor-not-allowed': isHintVisible || isFinished
+          }"
+          :disabled="isHintVisible || isFinished"
+          :aria-keyshortcuts="actionShortcutKeys.hint"
+          @click="showHint"
         >
-          {{ actionShortcutKeys.hint }}
-        </kbd>
-      </button>
+          {{ t('exercise.hint') }} 📚
+          <kbd
+            class="ml-2 rounded bg-background/20 px-1.5 py-0.5 text-xs uppercase dark:bg-foreground/20"
+          >
+            {{ actionShortcutKeys.hint }}
+          </kbd>
+        </button>
 
-      <!-- SHOW ANSWER BUTTON -->
-      <button
-        class="btn"
-        :class="{
-          'disabled:opacity-50 cursor-not-allowed': isFinished
-        }"
-        :disabled="isFinished"
-        :aria-keyshortcuts="actionShortcutKeys.showAnswer"
-        @click="showAnswer"
-      >
-        {{ t('exercise.showAnswer') }} 🧐
-        <kbd
-          class="ml-2 rounded bg-background/20 px-1.5 py-0.5 text-xs uppercase dark:bg-foreground/20"
+        <!-- SHOW ANSWER BUTTON -->
+        <button
+          class="btn"
+          :class="{
+            'disabled:opacity-50 cursor-not-allowed': isFinished
+          }"
+          :disabled="isFinished"
+          :aria-keyshortcuts="actionShortcutKeys.showAnswer"
+          @click="showAnswer"
         >
-          {{ actionShortcutKeys.showAnswer }}
-        </kbd>
-      </button>
+          {{ t('exercise.showAnswer') }} 🧐
+          <kbd
+            class="ml-2 rounded bg-background/20 px-1.5 py-0.5 text-xs uppercase dark:bg-foreground/20"
+          >
+            {{ actionShortcutKeys.showAnswer }}
+          </kbd>
+        </button>
 
-      <!-- NEXT BUTTON -->
-      <button
-        :aria-keyshortcuts="actionShortcutKeys.next"
-        class="btn"
-        :class="{
-          'disabled:opacity-50 cursor-not-allowed': !isFinished
-        }"
-        :disabled="!isFinished"
-        @click="handleNext"
-      >
-        {{ t('exercise.next') }} ➡️
-        <kbd
-          class="ml-2 rounded bg-background/20 px-1.5 py-0.5 text-xs uppercase dark:bg-foreground/20"
+        <!-- NEXT BUTTON -->
+        <button
+          :aria-keyshortcuts="actionShortcutKeys.next"
+          class="btn"
+          :class="{
+            'disabled:opacity-50 cursor-not-allowed': !isFinished
+          }"
+          :disabled="!isFinished"
+          @click="handleNext"
         >
-          {{ actionShortcutKeys.next }}
-        </kbd>
-      </button>
+          {{ t('exercise.next') }} ➡️
+          <kbd
+            class="ml-2 rounded bg-background/20 px-1.5 py-0.5 text-xs uppercase dark:bg-foreground/20"
+          >
+            {{ actionShortcutKeys.next }}
+          </kbd>
+        </button>
+      </div>
     </div>
   </div>
 </template>

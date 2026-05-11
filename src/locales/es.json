@@ -2,9 +2,21 @@
   "common": {
     "font": "Fuente"
   },
+  "home": {
+    "description": "Una pequeña app de Vue para estudiar vocabulario alemán con listas de referencia buscables y ejercicios enfocados.",
+    "navigation": {
+      "nouns": "Sustantivos",
+      "verbs": "Verbos",
+      "adjectives": "Adjetivos",
+      "practice": "Práctica"
+    }
+  },
   "exercise": {
     "attempts": "Intentos",
     "hint": "Pista",
+    "articlePrompt": "Elige el artículo correcto para la palabra",
+    "meaning": "Significado",
+    "actions": "Acciones",
     "showAnswer": "Mostrar respuesta",
     "next": "Siguiente"
   },

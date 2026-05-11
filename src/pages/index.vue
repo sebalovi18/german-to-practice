@@ -1,35 +1,40 @@
 <script setup lang="ts">
+import { computed } from 'vue'
+import { useI18n } from 'vue-i18n'
 import { useRouter } from 'vue-router'
 
 import { Dumbbell, List } from '@lucide/vue'
 
 const router = useRouter()
+const {
+  t
+} = useI18n()
 
-const leftColumn = [
+const leftColumn = computed(() => [
   {
-    label: 'Nouns',
+    label: t('home.navigation.nouns'),
     icon: List,
     path: '/nouns'
   },
   {
-    label: 'Verbs',
+    label: t('home.navigation.verbs'),
     icon: List,
     path: '/verbs'
   }
-]
+])
 
-const rightColumn = [
+const rightColumn = computed(() => [
   {
-    label: 'Adjectives',
+    label: t('home.navigation.adjectives'),
     icon: List,
     path: '/adjetives'
   },
   {
-    label: 'Practice',
+    label: t('home.navigation.practice'),
     icon: Dumbbell,
     path: '/practice'
   }
-]
+])
 </script>
 <template>
   <div
@@ -41,7 +46,7 @@ const rightColumn = [
       <span
         class="text-sm text-gray-500"
       >
-        A small Vue app for studying German vocabulary through searchable reference lists and focused exercises.
+        {{ t('home.description') }}
       </span>
     </p>
 
