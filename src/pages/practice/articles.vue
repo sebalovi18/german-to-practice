@@ -62,10 +62,10 @@ const handleNextEvent = () => {
 
 <template>
   <div
-    class="space-y-4"
+    class="space-y-4 py-4"
   >
     <div
-      class="flex gap-4 items-center justify-center"
+      class="flex gap-2 sm:flex-row items-center justify-between sm:justify-center text-[10px] sm:text-xs"
     >
       <p> Errors: {{ errorCount }} </p>
       <p> Corrects: {{ correctCount }} </p>

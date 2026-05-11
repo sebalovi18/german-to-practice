@@ -198,7 +198,7 @@ onBeforeUnmount(() => {
 <template>
   <div
     v-auto-animate
-    class="flex flex-col gap-4 items-center justify-center"
+    class="flex flex-col gap-8 items-center justify-center"
   >
     <!-- ARTICLE SELECTION -->
     <div
@@ -219,7 +219,7 @@ onBeforeUnmount(() => {
     <!-- COMPLETE WORD DISPLAY -->
     <div
       v-auto-animate
-      class="w-full flex items-center justify-center gap-2 text-center text-xl capitalize bg-foreground dark:bg-background dark:text-foreground text-background p-4 rounded-md"
+      class="w-full flex items-center justify-center gap-2 text-center text-xl capitalize bg-foreground dark:bg-background dark:text-foreground text-background p-2 md:p-4 rounded-md"
     >
       <span
         v-if="isFinished"
@@ -234,7 +234,7 @@ onBeforeUnmount(() => {
     <!-- TRANSLATION DISPLAY -->
     <div
       v-if="isHintVisible || isFinished"
-      class="w-full flex items-center justify-center gap-2 text-center text-xl capitalize bg-foreground dark:bg-background dark:text-foreground text-background p-4 rounded-md"
+      class="w-full flex items-center justify-center gap-2 text-center text-xl capitalize bg-foreground dark:bg-background dark:text-foreground text-background p-2 md:p-4 rounded-md"
     >
       <span>
         {{ props.noun.translations[locale as keyof typeof props.noun.translations] }}
@@ -243,7 +243,7 @@ onBeforeUnmount(() => {
 
     <!-- HINT BUTTON | SHOW ANSWER BUTTON | NEXT BUTTON -->
     <div
-      class="flex items-center justify-between gap-2 w-full"
+      class="flex flex-col md:flex-row items-stretch sm:items-center justify-between gap-4 w-full"
     >
       <button
         class="btn"
