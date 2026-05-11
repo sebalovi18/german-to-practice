@@ -22,10 +22,6 @@ type Th = {
 
 const ths = computed<Th[]>(() => [
   {
-    label: 'ID',
-    class: thClass
-  },
-  {
     label: t('nouns.table.article'),
     class: thClass
   },
@@ -59,11 +55,6 @@ type Td = {
 }
 
 const tds: Td[] = [
-  {
-    label: 'ID',
-    class: tdClass,
-    value: noun => noun.id
-  },
   {
     label: 'Article',
     class: tdClass,
