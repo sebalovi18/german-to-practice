@@ -10,9 +10,9 @@ const {
   t
 } = useI18n()
 
-const tableClass = 'w-full border border-gray-300'
-const thClass = 'border border-gray-300 p-2 capitalize text-left uppercase py-4 bg-gray-900 font-bold'
-const tdClass = 'border border-gray-300 p-2 capitalize text-left font-light'
+const tableClass = 'w-full border border-gray-300 text-[10px] sm:text-xs'
+const thClass = 'border border-gray-300 p-2 capitalize text-left uppercase py-4 bg-gray-900 font-bold text-[10px] sm:text-xs'
+const tdClass = 'border border-gray-300 p-2 capitalize text-left font-light text-[10px] sm:text-xs'
 
 // TABLE HEADERS
 type Th = {
@@ -125,50 +125,55 @@ const filteredNouns = computed(() => {
       :placeholder="t('nouns.searchPlaceholder')"
       class="w-full p-2 border border-gray-300 rounded-md"
     >
-    <table
-      :class="tableClass"
+
+    <div
+      class="overflow-x-auto"
     >
-      <thead>
-        <tr>
-          <th
-            v-for="th in ths"
-            :key="th.label"
-            :class="th.class"
-          >
-            {{ th.label }}
-          </th>
-        </tr>
-      </thead>
-      <tbody>
-        <template
-          v-if="filteredNouns.length"
-        >
-          <tr
-            v-for="noun in filteredNouns"
-            :key="noun.id"
-          >
-            <td
-              v-for="td in tds"
-              :key="td.label"
-              :class="td.class"
-            >
-              {{ td.value(noun) }}
-            </td>
-          </tr>
-        </template>
-        <template
-          v-else
-        >
+      <table
+        :class="tableClass"
+      >
+        <thead>
           <tr>
-            <td
-              :colspan="ths.length"
-              class="text-center py-4"
+            <th
+              v-for="th in ths"
+              :key="th.label"
+              :class="th.class"
             >
-              {{ t('nouns.noResults') }}
-            </td>
+              {{ th.label }}
+            </th>
           </tr>
-        </template>
-      </tbody>
-    </table>
+        </thead>
+        <tbody>
+          <template
+            v-if="filteredNouns.length"
+          >
+            <tr
+              v-for="noun in filteredNouns"
+              :key="noun.id"
+            >
+              <td
+                v-for="td in tds"
+                :key="td.label"
+                :class="td.class"
+              >
+                {{ td.value(noun) }}
+              </td>
+            </tr>
+          </template>
+          <template
+            v-else
+          >
+            <tr>
+              <td
+                :colspan="ths.length"
+                class="text-center py-4"
+              >
+                {{ t('nouns.noResults') }}
+              </td>
+            </tr>
+          </template>
+        </tbody>
+      </table>
+    </div>
   </div>
 </template>
