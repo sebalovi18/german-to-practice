@@ -7,7 +7,7 @@ const router = useRouter()
 </script>
 <template>
   <div
-    class="flex gap-4 items-center justify-center h-full"
+    class="flex gap-4 items-center justify-center h-full py-4"
   >
     <button
       class="btn h-32 w-32 flex items-center justify-center gap-2"
