@@ -1,5 +1,9 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import {
+  onBeforeUnmount,
+  onMounted,
+  ref
+} from 'vue'
 import { useI18n } from 'vue-i18n'
 
 import type { GermanArticle } from '@/interfaces/GermanArticle'
@@ -28,7 +32,19 @@ const {
 
 // GERMAN ARTICLES
 const germanArticles = ['der', 'die', 'das'] as GermanArticle[]
+const articleShortcutKeys = ['1', '2', '3'] as const
+
+// ACTION SHORTCUT KEYS
+const actionShortcutKeys = {
+  hint: 'h',
+  next: 'n',
+  showAnswer: 'a'
+} as const
+
+// SELECTED ARTICLE
 const selectedArticle = ref<GermanArticle | null>(null)
+
+// INCORRECT ANSWERS
 const incorrectAnswers = ref<Array<GermanArticle>>([])
 
 // ATTEMPTS
@@ -36,10 +52,17 @@ const attemps = ref(2)
 
 // HINT VISIBLE
 const isHintVisible = ref(false)
+const showHint = () => {
+  if (isHintVisible.value || isFinished.value) return
+
+  isHintVisible.value = true
+}
 
 // FINISH EXERCISE
 const isFinished = ref(false)
 const finishExercise = () => {
+  if (isFinished.value) return
+
   // GET INCORRECT ANSWERS
   incorrectAnswers.value = germanArticles.filter(article =>
     article !== props.noun.article
@@ -56,6 +79,9 @@ const finishExercise = () => {
 const handleClick = (article: GermanArticle) => {
   // IF FINISHED, DO NOTHING
   if (isFinished.value) return
+
+  // IF INCORRECT ANSWERS INCLUDE THE ARTICLE, DO NOTHING
+  if (incorrectAnswers.value.includes(article)) return
 
   // SELECTED ARTICLE
   selectedArticle.value = article
@@ -91,6 +117,76 @@ const handleClick = (article: GermanArticle) => {
 
   emit('correct')
 }
+
+const showAnswer = () => {
+  if (isFinished.value) return
+
+  finishExercise()
+}
+
+const handleNext = () => {
+  emit('next')
+}
+
+const isKeyboardShortcutIgnored = (event: KeyboardEvent) => {
+  if (event.repeat) {
+    return true
+  }
+
+  if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) {
+    return true
+  }
+
+  const target = event.target
+
+  if (!(target instanceof HTMLElement)) {
+    return false
+  }
+
+  return target.isContentEditable || ['INPUT', 'SELECT', 'TEXTAREA'].includes(target.tagName)
+}
+
+const handleKeydown = (event: KeyboardEvent) => {
+  if (isKeyboardShortcutIgnored(event)) return
+
+  const articleIndex = articleShortcutKeys.indexOf(event.key as typeof articleShortcutKeys[number])
+
+  if (articleIndex !== -1) {
+    const article = germanArticles[articleIndex]
+
+    if (article) {
+      event.preventDefault()
+      handleClick(article)
+    }
+
+    return
+  }
+
+  switch (event.key.toLowerCase()) {
+    case actionShortcutKeys.hint:
+      event.preventDefault()
+      showHint()
+      break
+
+    case actionShortcutKeys.showAnswer:
+      event.preventDefault()
+      showAnswer()
+      break
+
+    case actionShortcutKeys.next:
+      event.preventDefault()
+      handleNext()
+      break
+  }
+}
+
+onMounted(() => {
+  window.addEventListener('keydown', handleKeydown)
+})
+
+onBeforeUnmount(() => {
+  window.removeEventListener('keydown', handleKeydown)
+})
 </script>
 <template>
   <div
@@ -105,11 +201,12 @@ const handleClick = (article: GermanArticle) => {
       class="w-full flex gap-4 items-center justify-between"
     >
       <BaseOptionCard
-        v-for="article in germanArticles"
+        v-for="(article, index) in germanArticles"
         :is-incorrect="incorrectAnswers.includes(article)"
         :is-correct="article === props.noun.article && isFinished"
         :key="article"
         :option="article"
+        :shortcut-key="articleShortcutKeys[index]"
         @click="handleClick(article)"
       />
     </div>
@@ -149,9 +246,15 @@ const handleClick = (article: GermanArticle) => {
           'disabled:opacity-50 cursor-not-allowed': isHintVisible || isFinished
         }"
         :disabled="isHintVisible || isFinished"
-        @click="isHintVisible = true"
+        :aria-keyshortcuts="actionShortcutKeys.hint"
+        @click="showHint"
       >
         {{ t('exercise.hint') }} 🕵️‍♀️
+        <kbd
+          class="ml-2 rounded bg-background/20 px-1.5 py-0.5 text-xs uppercase dark:bg-foreground/20"
+        >
+          {{ actionShortcutKeys.hint }}
+        </kbd>
       </button>
       <button
         class="btn"
@@ -159,15 +262,27 @@ const handleClick = (article: GermanArticle) => {
           'disabled:opacity-50 cursor-not-allowed': isFinished
         }"
         :disabled="isFinished"
-        @click="finishExercise"
+        :aria-keyshortcuts="actionShortcutKeys.showAnswer"
+        @click="showAnswer"
       >
         {{ t('exercise.showAnswer') }} 🧐
+        <kbd
+          class="ml-2 rounded bg-background/20 px-1.5 py-0.5 text-xs uppercase dark:bg-foreground/20"
+        >
+          {{ actionShortcutKeys.showAnswer }}
+        </kbd>
       </button>
       <button
         class="btn"
-        @click="emit('next')"
+        :aria-keyshortcuts="actionShortcutKeys.next"
+        @click="handleNext"
       >
         {{ t('exercise.next') }} ➡️
+        <kbd
+          class="ml-2 rounded bg-background/20 px-1.5 py-0.5 text-xs uppercase dark:bg-foreground/20"
+        >
+          {{ actionShortcutKeys.next }}
+        </kbd>
       </button>
     </div>
   </div>

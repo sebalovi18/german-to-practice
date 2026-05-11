@@ -5,6 +5,7 @@ interface Props {
   isCorrect?: boolean
   isIncorrect?: boolean
   option: string
+  shortcutKey?: string
 }
 
 const props = defineProps<Props>()
@@ -45,11 +46,13 @@ const handleClick = () => {
 </script>
 <template>
   <button
+    :aria-keyshortcuts="shortcutKey"
     :class="[
       'h-32',
       'w-32',
       'rounded-md',
       'flex',
+      'relative',
       'items-center',
       'justify-center',
       'gap-2',
@@ -59,6 +62,12 @@ const handleClick = () => {
     ]"
     @click="handleClick"
   >
+    <kbd
+      v-if="shortcutKey"
+      class="absolute right-2 top-2 rounded bg-background/20 px-1.5 py-0.5 text-xs uppercase dark:bg-foreground/20"
+    >
+      {{ shortcutKey }}
+    </kbd>
     <span
       v-if="isCorrect"
     >
