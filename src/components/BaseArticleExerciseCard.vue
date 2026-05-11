@@ -33,9 +33,9 @@ const {
 
 // GERMAN ARTICLES
 const germanArticles = ['der', 'die', 'das'] as GermanArticle[]
-const articleShortcutKeys = ['1', '2', '3'] as const
 
 // ACTION SHORTCUT KEYS
+const articleShortcutKeys = ['1', '2', '3'] as const
 const actionShortcutKeys = {
   hint: 'h',
   next: 'n',
@@ -53,6 +53,7 @@ const showAnswer = () => {
   emit('incorrect')
   emit('incorrect')
 
+  // FINISH EXERCISE
   finishExercise()
 }
 
@@ -71,21 +72,14 @@ const handleAnswer = (article: GermanArticle) => {
     // ADD INCORRECT ANSWER TO LIST
     incorrectAnswers.value.push(article)
 
-    // IF ATTEMPTS ARE 2, DECREASE ATTEMPTS AND EMIT INCORRECT EVENT
-    if (props.attempts === 2) {
-      emit('incorrect')
-
-      return
-    }
+    emit('incorrect')
 
     // IF ATTEMPTS ARE 1, FINISH THE EXERCISE AND EMIT INCORRECT EVENT
     if (props.attempts === 1) {
       finishExercise()
-
-      emit('incorrect')
-
-      return
     }
+
+    return
   }
 
   // CORRECT ANSWER
@@ -121,6 +115,8 @@ const finishExercise = () => {
 
 // HANDLE NEXT EVENT
 const handleNext = () => {
+  if (!isFinished.value) return
+
   emit('next')
 }
 
@@ -245,6 +241,7 @@ onBeforeUnmount(() => {
     <div
       class="flex flex-col md:flex-row items-stretch sm:items-center justify-between gap-4 w-full"
     >
+      <!-- HINT BUTTON -->
       <button
         class="btn"
         :class="{
@@ -261,6 +258,8 @@ onBeforeUnmount(() => {
           {{ actionShortcutKeys.hint }}
         </kbd>
       </button>
+
+      <!-- SHOW ANSWER BUTTON -->
       <button
         class="btn"
         :class="{
@@ -277,6 +276,8 @@ onBeforeUnmount(() => {
           {{ actionShortcutKeys.showAnswer }}
         </kbd>
       </button>
+
+      <!-- NEXT BUTTON -->
       <button
         :aria-keyshortcuts="actionShortcutKeys.next"
         class="btn"
