@@ -18,7 +18,7 @@ const getRandomNouns = (n?: number): Array<GermanNoun> => {
   return randomNouns.slice(0, n)
 }
 
-const randomNouns = ref<Array<GermanNoun>>(getRandomNouns(10))
+const randomNouns = ref<Array<GermanNoun>>(getRandomNouns())
 const randomNounIndex = ref<number>(0)
 
 // ATTEMPTS

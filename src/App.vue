@@ -7,7 +7,17 @@ import DefaultLayout from '@/layouts/default.vue'
 <template>
   <div>
     <DefaultLayout>
-      <RouterView />
+      <RouterView
+        v-slot="{ Component }"
+      >
+        <transition
+          name="fade"
+        >
+          <component
+            :is="Component"
+          />
+        </transition>
+      </RouterView>
     </DefaultLayout>
   </div>
 </template>
