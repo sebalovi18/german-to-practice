@@ -2,6 +2,6 @@
 </script>
 <template>
   <div>
-    <h1>Main Page</h1>
+    <h1>Practice main page</h1>
   </div>
 </template>

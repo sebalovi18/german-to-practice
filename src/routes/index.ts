@@ -1,7 +1,18 @@
+// HOME
 import Home from '@/pages/index.vue'
-import Nouns from '@/pages/nouns.vue'
-import Verbs from '@/pages/verbs.vue'
-import Adjetives from '@/pages/adjetives.vue'
+
+// NOUNS
+import NounsList from '@/pages/nouns/index.vue'
+
+// VERBS
+import VerbsList from '@/pages/verbs/index.vue'
+
+// ADJECTIVES
+import AdjetivesList from '@/pages/adjetives/index.vue'
+
+// PRACTICE
+import ArticlesPractice from '@/pages/practice/articles.vue'
+import PracticeIndex from '@/pages/practice/index.vue'
 
 export default [
   {
@@ -10,15 +21,28 @@ export default [
     path: '/'
   },
   {
-    component: Nouns,
+    component: NounsList,
     path: '/nouns'
   },
   {
-    component: Verbs,
+    component: VerbsList,
     path: '/verbs'
   },
   {
-    component: Adjetives,
+    component: AdjetivesList,
     path: '/adjetives'
+  },
+  {
+    path: '/practice',
+    children: [
+      {
+        component: PracticeIndex,
+        path: ''
+      },
+      {
+        component: ArticlesPractice,
+        path: 'articles'
+      }
+    ]
   }
 ]
