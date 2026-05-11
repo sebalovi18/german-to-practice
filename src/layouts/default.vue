@@ -30,7 +30,7 @@ watch(selectedFontClass, (fontClass) => {
 </script>
 <template>
   <div
-    class="h-dvh w-dvw overflow-auto container mx-auto p-2 rounded-md space-y-4"
+    class="h-dvh w-dvw overflow-auto container mx-auto p-4 rounded-md space-y-4"
   >
     <div
       class="flex items-center justify-between"
