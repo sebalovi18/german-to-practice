@@ -198,6 +198,7 @@ onBeforeUnmount(() => {
     </p>
     <!-- ARTICLE SELECTION -->
     <div
+      v-auto-animate
       class="w-full flex gap-4 items-center justify-between"
     >
       <BaseOptionCard

@@ -46,6 +46,7 @@ const handleClick = () => {
 </script>
 <template>
   <button
+    v-auto-animate
     :aria-keyshortcuts="shortcutKey"
     :class="[
       'h-32',
@@ -58,6 +59,8 @@ const handleClick = () => {
       'gap-2',
       'capitalize',
       'cursor-pointer',
+      'transition-colors',
+      'duration-300',
       computedClass
     ]"
     @click="handleClick"
@@ -69,11 +72,13 @@ const handleClick = () => {
       {{ shortcutKey }}
     </kbd>
     <span
+      class="absolute right-2 bottom-2 text-sm uppercase"
       v-if="isCorrect"
     >
       ✅
     </span>
     <span
+      class="absolute right-2 bottom-2 text-sm uppercase"
       v-else-if="isIncorrect"
     >
       ❌
