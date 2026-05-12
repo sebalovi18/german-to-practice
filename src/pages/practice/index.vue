@@ -62,7 +62,7 @@ const rightColumn = computed<ColumnItem[]>(() => [
           <component
             :is="item.icon"
             :key="item.path"
-            class="size-4"
+            class="size-4 flex-none"
             aria-hidden="true"
           />
           <span>
@@ -84,7 +84,7 @@ const rightColumn = computed<ColumnItem[]>(() => [
           <component
             :is="item.icon"
             :key="item.path"
-            class="size-4"
+            class="size-4 flex-none"
             aria-hidden="true"
           />
           <span>
