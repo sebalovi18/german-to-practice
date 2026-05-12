@@ -8,6 +8,7 @@ export interface GermanNoun {
   singular: string
   plural: string
   translations: Record<Language, string>
+  translationArticles: Record<Language, string | null>
   levels?: string[]
   categories?: string[]
 }

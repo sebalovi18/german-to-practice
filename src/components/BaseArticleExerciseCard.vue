@@ -251,6 +251,9 @@ onBeforeUnmount(() => {
         class="w-full flex items-center justify-center gap-2 text-center capitalize bg-foreground dark:bg-background dark:text-foreground text-background p-2 md:p-4 rounded-md"
       >
         <span>
+          {{ props.noun.translationArticles[locale as keyof typeof props.noun.translationArticles] }}
+        </span>
+        <span>
           {{ props.noun.translations[locale as keyof typeof props.noun.translations] }}
         </span>
       </div>

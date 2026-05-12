@@ -12,6 +12,12 @@ export const nouns: GermanNoun[] = [
       de: 'Abendessen',
       es: 'cena',
       tr: 'akşam yemeği'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -25,6 +31,12 @@ export const nouns: GermanNoun[] = [
       de: 'Alter',
       es: 'edad',
       tr: 'yaş'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -38,6 +50,12 @@ export const nouns: GermanNoun[] = [
       de: 'Auto',
       es: 'coche',
       tr: 'araba'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -51,6 +69,12 @@ export const nouns: GermanNoun[] = [
       de: 'Bier',
       es: 'cerveza',
       tr: 'bira'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -64,6 +88,12 @@ export const nouns: GermanNoun[] = [
       de: 'Brot',
       es: 'pan',
       tr: 'ekmek'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -77,6 +107,12 @@ export const nouns: GermanNoun[] = [
       de: 'Brötchen',
       es: 'panecillo',
       tr: 'küçük ekmek'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -90,6 +126,12 @@ export const nouns: GermanNoun[] = [
       de: 'Buch',
       es: 'libro',
       tr: 'kitap'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -103,6 +145,12 @@ export const nouns: GermanNoun[] = [
       de: 'Croissant',
       es: 'cruasán',
       tr: 'kruvasan'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -116,6 +164,12 @@ export const nouns: GermanNoun[] = [
       de: 'Deutsch',
       es: 'alemán',
       tr: 'Almanca'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -129,6 +183,12 @@ export const nouns: GermanNoun[] = [
       de: 'Ei',
       es: 'huevo',
       tr: 'yumurta'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -142,6 +202,12 @@ export const nouns: GermanNoun[] = [
       de: 'Eis',
       es: 'helado',
       tr: 'dondurma'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -155,6 +221,12 @@ export const nouns: GermanNoun[] = [
       de: 'Englisch',
       es: 'inglés',
       tr: 'İngilizce'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -168,6 +240,12 @@ export const nouns: GermanNoun[] = [
       de: 'Essen',
       es: 'comida',
       tr: 'yemek'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -181,6 +259,12 @@ export const nouns: GermanNoun[] = [
       de: 'Fahrrad',
       es: 'bicicleta',
       tr: 'bisiklet'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -194,6 +278,12 @@ export const nouns: GermanNoun[] = [
       de: 'Feuerzeug',
       es: 'encendedor',
       tr: 'çakmak'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -207,6 +297,12 @@ export const nouns: GermanNoun[] = [
       de: 'Fleisch',
       es: 'carne',
       tr: 'et'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -220,6 +316,12 @@ export const nouns: GermanNoun[] = [
       de: 'Foto',
       es: 'foto',
       tr: 'fotoğraf'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -233,6 +335,12 @@ export const nouns: GermanNoun[] = [
       de: 'Französisch',
       es: 'francés',
       tr: 'Fransızca'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -246,6 +354,12 @@ export const nouns: GermanNoun[] = [
       de: 'Frühstück',
       es: 'desayuno',
       tr: 'kahvaltı'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -259,6 +373,12 @@ export const nouns: GermanNoun[] = [
       de: 'Gemüse',
       es: 'verdura',
       tr: 'sebze'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -272,6 +392,12 @@ export const nouns: GermanNoun[] = [
       de: 'Getränk',
       es: 'bebida',
       tr: 'içecek'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -285,6 +411,12 @@ export const nouns: GermanNoun[] = [
       de: 'Grad',
       es: 'grado',
       tr: 'derece'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -298,6 +430,12 @@ export const nouns: GermanNoun[] = [
       de: 'Gramm',
       es: 'gramo',
       tr: 'gram'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -311,6 +449,12 @@ export const nouns: GermanNoun[] = [
       de: 'Handy',
       es: 'móvil',
       tr: 'cep telefonu'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -324,6 +468,12 @@ export const nouns: GermanNoun[] = [
       de: 'Heft',
       es: 'cuaderno',
       tr: 'defter'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -337,6 +487,12 @@ export const nouns: GermanNoun[] = [
       de: 'Herkunftsland',
       es: 'país de origen',
       tr: 'menşe ülke'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -350,6 +506,12 @@ export const nouns: GermanNoun[] = [
       de: 'Hobby',
       es: 'pasatiempo',
       tr: 'hobi'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -363,6 +525,12 @@ export const nouns: GermanNoun[] = [
       de: 'Internet',
       es: 'internet',
       tr: 'internet'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -376,6 +544,12 @@ export const nouns: GermanNoun[] = [
       de: 'Jahr',
       es: 'año',
       tr: 'yıl'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -389,6 +563,12 @@ export const nouns: GermanNoun[] = [
       de: 'Kilo',
       es: 'kilo',
       tr: 'kilo'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -402,6 +582,12 @@ export const nouns: GermanNoun[] = [
       de: 'Kilogramm',
       es: 'kilogramo',
       tr: 'kilogram'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -415,6 +601,12 @@ export const nouns: GermanNoun[] = [
       de: 'Kind',
       es: 'niño',
       tr: 'çocuk'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -428,6 +620,12 @@ export const nouns: GermanNoun[] = [
       de: 'Klavier',
       es: 'piano',
       tr: 'piyano'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -441,6 +639,12 @@ export const nouns: GermanNoun[] = [
       de: 'Krankenhaus',
       es: 'hospital',
       tr: 'hastane'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -454,6 +658,12 @@ export const nouns: GermanNoun[] = [
       de: 'Lebensmittel',
       es: 'alimentos',
       tr: 'gıda maddeleri'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'los',
+      tr: null
     }
   },
   {
@@ -467,6 +677,12 @@ export const nouns: GermanNoun[] = [
       de: 'Lieblingsessen',
       es: 'comida favorita',
       tr: 'en sevilen yemek'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -480,6 +696,12 @@ export const nouns: GermanNoun[] = [
       de: 'Lineal',
       es: 'regla',
       tr: 'cetvel'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -493,6 +715,12 @@ export const nouns: GermanNoun[] = [
       de: 'Mittagessen',
       es: 'almuerzo',
       tr: 'öğle yemeği'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -506,6 +734,12 @@ export const nouns: GermanNoun[] = [
       de: 'Müsli',
       es: 'muesli',
       tr: 'müsli'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -519,6 +753,12 @@ export const nouns: GermanNoun[] = [
       de: 'Obst',
       es: 'fruta',
       tr: 'meyve'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -532,6 +772,12 @@ export const nouns: GermanNoun[] = [
       de: 'Papier',
       es: 'papel',
       tr: 'kağıt'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -545,6 +791,12 @@ export const nouns: GermanNoun[] = [
       de: 'Picknick',
       es: 'picnic',
       tr: 'piknik'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -558,6 +810,12 @@ export const nouns: GermanNoun[] = [
       de: 'Rad',
       es: 'rueda',
       tr: 'tekerlek'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -571,6 +829,12 @@ export const nouns: GermanNoun[] = [
       de: 'Restaurant',
       es: 'restaurante',
       tr: 'restoran'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -584,6 +848,12 @@ export const nouns: GermanNoun[] = [
       de: 'Spiel',
       es: 'juego',
       tr: 'oyun'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -597,6 +867,12 @@ export const nouns: GermanNoun[] = [
       de: 'Taxi',
       es: 'taxi',
       tr: 'taksi'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -610,6 +886,12 @@ export const nouns: GermanNoun[] = [
       de: 'Telefon',
       es: 'teléfono',
       tr: 'telefon'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -623,6 +905,12 @@ export const nouns: GermanNoun[] = [
       de: 'Training',
       es: 'entrenamiento',
       tr: 'antrenman'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -636,6 +924,12 @@ export const nouns: GermanNoun[] = [
       de: 'Video',
       es: 'video',
       tr: 'video'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -649,6 +943,12 @@ export const nouns: GermanNoun[] = [
       de: 'Viertel',
       es: 'cuarto',
       tr: 'çeyrek'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -662,6 +962,12 @@ export const nouns: GermanNoun[] = [
       de: 'Wasser',
       es: 'agua',
       tr: 'su'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -675,6 +981,12 @@ export const nouns: GermanNoun[] = [
       de: 'Wetter',
       es: 'tiempo',
       tr: 'hava durumu'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -688,6 +1000,12 @@ export const nouns: GermanNoun[] = [
       de: 'Wochenende',
       es: 'fin de semana',
       tr: 'hafta sonu'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -701,6 +1019,12 @@ export const nouns: GermanNoun[] = [
       de: 'Abend',
       es: 'tarde',
       tr: 'akşam'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -714,6 +1038,12 @@ export const nouns: GermanNoun[] = [
       de: 'Apfel',
       es: 'manzana',
       tr: 'elma'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -727,6 +1057,12 @@ export const nouns: GermanNoun[] = [
       de: 'April',
       es: 'abril',
       tr: 'nisan'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -740,6 +1076,12 @@ export const nouns: GermanNoun[] = [
       de: 'Arzt',
       es: 'médico',
       tr: 'doktor'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -753,6 +1095,12 @@ export const nouns: GermanNoun[] = [
       de: 'August',
       es: 'agosto',
       tr: 'ağustos'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -766,6 +1114,12 @@ export const nouns: GermanNoun[] = [
       de: 'Baum',
       es: 'árbol',
       tr: 'ağaç'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -779,6 +1133,12 @@ export const nouns: GermanNoun[] = [
       de: 'Becher',
       es: 'vaso',
       tr: 'bardak'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -792,6 +1152,12 @@ export const nouns: GermanNoun[] = [
       de: 'Beruf',
       es: 'profesión',
       tr: 'meslek'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -805,6 +1171,12 @@ export const nouns: GermanNoun[] = [
       de: 'Bleistift',
       es: 'lápiz',
       tr: 'kurşun kalem'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -818,6 +1190,12 @@ export const nouns: GermanNoun[] = [
       de: 'Bruder',
       es: 'hermano',
       tr: 'erkek kardeş'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -831,6 +1209,12 @@ export const nouns: GermanNoun[] = [
       de: 'Cent',
       es: 'céntimo',
       tr: 'sent'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -844,6 +1228,12 @@ export const nouns: GermanNoun[] = [
       de: 'Cousin',
       es: 'primo',
       tr: 'erkek kuzen'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -857,6 +1247,12 @@ export const nouns: GermanNoun[] = [
       de: 'Dank',
       es: 'gracias',
       tr: 'teşekkür'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'las',
+      tr: null
     }
   },
   {
@@ -870,6 +1266,12 @@ export const nouns: GermanNoun[] = [
       de: 'Deutschkurs',
       es: 'curso de alemán',
       tr: 'Almanca kursu'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -883,6 +1285,12 @@ export const nouns: GermanNoun[] = [
       de: 'Dezember',
       es: 'diciembre',
       tr: 'aralık'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -896,6 +1304,12 @@ export const nouns: GermanNoun[] = [
       de: 'Dienstag',
       es: 'martes',
       tr: 'salı'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -909,6 +1323,12 @@ export const nouns: GermanNoun[] = [
       de: 'Donnerstag',
       es: 'jueves',
       tr: 'perşembe'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -922,6 +1342,12 @@ export const nouns: GermanNoun[] = [
       de: 'Drucker',
       es: 'impresora',
       tr: 'yazıcı'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -935,6 +1361,12 @@ export const nouns: GermanNoun[] = [
       de: 'Einkauf',
       es: 'compra',
       tr: 'alışveriş'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -948,6 +1380,12 @@ export const nouns: GermanNoun[] = [
       de: 'Elektroniker',
       es: 'técnico electrónico',
       tr: 'elektronik teknisyeni'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -961,6 +1399,12 @@ export const nouns: GermanNoun[] = [
       de: 'Enkel',
       es: 'nieto',
       tr: 'erkek torun'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -974,6 +1418,12 @@ export const nouns: GermanNoun[] = [
       de: 'Euro',
       es: 'euro',
       tr: 'avro'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -987,6 +1437,12 @@ export const nouns: GermanNoun[] = [
       de: 'Familienname',
       es: 'apellido',
       tr: 'soyadı'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1000,6 +1456,12 @@ export const nouns: GermanNoun[] = [
       de: 'Familienstand',
       es: 'estado civil',
       tr: 'medeni durum'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1013,6 +1475,12 @@ export const nouns: GermanNoun[] = [
       de: 'Februar',
       es: 'febrero',
       tr: 'şubat'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1026,6 +1494,12 @@ export const nouns: GermanNoun[] = [
       de: 'Fehler',
       es: 'error',
       tr: 'hata'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1039,6 +1513,12 @@ export const nouns: GermanNoun[] = [
       de: 'Film',
       es: 'película',
       tr: 'film'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -1052,6 +1532,12 @@ export const nouns: GermanNoun[] = [
       de: 'Fisch',
       es: 'pescado',
       tr: 'balık'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1065,6 +1551,12 @@ export const nouns: GermanNoun[] = [
       de: 'Fotograf',
       es: 'fotógrafo',
       tr: 'fotoğrafçı'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1078,6 +1570,12 @@ export const nouns: GermanNoun[] = [
       de: 'Freitag',
       es: 'viernes',
       tr: 'cuma'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1091,6 +1589,12 @@ export const nouns: GermanNoun[] = [
       de: 'Freund',
       es: 'amigo',
       tr: 'arkadaş'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1104,6 +1608,12 @@ export const nouns: GermanNoun[] = [
       de: 'Friseur',
       es: 'peluquero',
       tr: 'kuaför'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1117,6 +1627,12 @@ export const nouns: GermanNoun[] = [
       de: 'Frühling',
       es: 'primavera',
       tr: 'ilkbahar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -1130,6 +1646,12 @@ export const nouns: GermanNoun[] = [
       de: 'Führerschein',
       es: 'carné de conducir',
       tr: 'ehliyet'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1143,6 +1665,12 @@ export const nouns: GermanNoun[] = [
       de: 'Fußball',
       es: 'fútbol',
       tr: 'futbol'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1156,6 +1684,12 @@ export const nouns: GermanNoun[] = [
       de: 'Geburtstag',
       es: 'cumpleaños',
       tr: 'doğum günü'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1169,6 +1703,12 @@ export const nouns: GermanNoun[] = [
       de: 'Geldbeutel',
       es: 'monedero',
       tr: 'cüzdan'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1182,6 +1722,12 @@ export const nouns: GermanNoun[] = [
       de: 'Großvater',
       es: 'abuelo',
       tr: 'büyükbaba'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1195,6 +1741,12 @@ export const nouns: GermanNoun[] = [
       de: 'Hausmann',
       es: 'amo de casa',
       tr: 'ev erkeği'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1208,6 +1760,12 @@ export const nouns: GermanNoun[] = [
       de: 'Herbst',
       es: 'otoño',
       tr: 'sonbahar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1221,6 +1779,12 @@ export const nouns: GermanNoun[] = [
       de: 'Herr',
       es: 'señor',
       tr: 'bay'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1234,6 +1798,12 @@ export const nouns: GermanNoun[] = [
       de: 'Ingenieur',
       es: 'ingeniero',
       tr: 'mühendis'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1247,6 +1817,12 @@ export const nouns: GermanNoun[] = [
       de: 'Januar',
       es: 'enero',
       tr: 'ocak'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1260,6 +1836,12 @@ export const nouns: GermanNoun[] = [
       de: 'Joghurt',
       es: 'yogur',
       tr: 'yoğurt'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1273,6 +1855,12 @@ export const nouns: GermanNoun[] = [
       de: 'Jugendliche',
       es: 'joven',
       tr: 'genç'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1286,6 +1874,12 @@ export const nouns: GermanNoun[] = [
       de: 'Juli',
       es: 'julio',
       tr: 'temmuz'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1299,6 +1893,12 @@ export const nouns: GermanNoun[] = [
       de: 'Juni',
       es: 'junio',
       tr: 'haziran'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1312,6 +1912,12 @@ export const nouns: GermanNoun[] = [
       de: 'Kaffee',
       es: 'café',
       tr: 'kahve'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1325,6 +1931,12 @@ export const nouns: GermanNoun[] = [
       de: 'Kalender',
       es: 'calendario',
       tr: 'takvim'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1338,6 +1950,12 @@ export const nouns: GermanNoun[] = [
       de: 'Käse',
       es: 'queso',
       tr: 'peynir'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1351,6 +1969,12 @@ export const nouns: GermanNoun[] = [
       de: 'Kellner',
       es: 'camarero',
       tr: 'garson'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1364,6 +1988,12 @@ export const nouns: GermanNoun[] = [
       de: 'Kindergarten',
       es: 'jardín de infancia',
       tr: 'anaokulu'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1377,6 +2007,12 @@ export const nouns: GermanNoun[] = [
       de: 'Kleber',
       es: 'pegamento',
       tr: 'yapıştırıcı'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1390,6 +2026,12 @@ export const nouns: GermanNoun[] = [
       de: 'Koch',
       es: 'cocinero',
       tr: 'aşçı'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1403,6 +2045,12 @@ export const nouns: GermanNoun[] = [
       de: 'Koffer',
       es: 'maleta',
       tr: 'bavul'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -1416,6 +2064,12 @@ export const nouns: GermanNoun[] = [
       de: 'Kollege',
       es: 'compañero',
       tr: 'iş arkadaşı'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1429,6 +2083,12 @@ export const nouns: GermanNoun[] = [
       de: 'Krankenpfleger',
       es: 'enfermero',
       tr: 'erkek hemşire'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1442,6 +2102,12 @@ export const nouns: GermanNoun[] = [
       de: 'Kuchen',
       es: 'pastel',
       tr: 'kek'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1455,6 +2121,12 @@ export const nouns: GermanNoun[] = [
       de: 'Kugelschreiber',
       es: 'bolígrafo',
       tr: 'tükenmez kalem'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1468,6 +2140,12 @@ export const nouns: GermanNoun[] = [
       de: 'Kunde',
       es: 'cliente',
       tr: 'müşteri'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1481,6 +2159,12 @@ export const nouns: GermanNoun[] = [
       de: 'Kurs',
       es: 'curso',
       tr: 'kurs'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1494,6 +2178,12 @@ export const nouns: GermanNoun[] = [
       de: 'Laden',
       es: 'tienda',
       tr: 'dükkan'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -1507,6 +2197,12 @@ export const nouns: GermanNoun[] = [
       de: 'Laptop',
       es: 'portátil',
       tr: 'dizüstü bilgisayar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1520,6 +2216,12 @@ export const nouns: GermanNoun[] = [
       de: 'Lehrer',
       es: 'profesor',
       tr: 'öğretmen'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1533,6 +2235,12 @@ export const nouns: GermanNoun[] = [
       de: 'Liter',
       es: 'litro',
       tr: 'litre'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1546,6 +2254,12 @@ export const nouns: GermanNoun[] = [
       de: 'Mai',
       es: 'mayo',
       tr: 'mayıs'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1559,6 +2273,12 @@ export const nouns: GermanNoun[] = [
       de: 'Mann',
       es: 'hombre',
       tr: 'adam'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1572,6 +2292,12 @@ export const nouns: GermanNoun[] = [
       de: 'März',
       es: 'marzo',
       tr: 'mart'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1585,6 +2311,12 @@ export const nouns: GermanNoun[] = [
       de: 'Mittag',
       es: 'mediodía',
       tr: 'öğle'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1598,6 +2330,12 @@ export const nouns: GermanNoun[] = [
       de: 'Mittwoch',
       es: 'miércoles',
       tr: 'çarşamba'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1611,6 +2349,12 @@ export const nouns: GermanNoun[] = [
       de: 'Monat',
       es: 'mes',
       tr: 'ay'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1624,6 +2368,12 @@ export const nouns: GermanNoun[] = [
       de: 'Montag',
       es: 'lunes',
       tr: 'pazartesi'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1637,6 +2387,12 @@ export const nouns: GermanNoun[] = [
       de: 'Morgen',
       es: 'mañana',
       tr: 'sabah'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -1650,6 +2406,12 @@ export const nouns: GermanNoun[] = [
       de: 'Nachbar',
       es: 'vecino',
       tr: 'komşu'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1663,6 +2425,12 @@ export const nouns: GermanNoun[] = [
       de: 'Nachmittag',
       es: 'tarde',
       tr: 'öğleden sonra'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -1676,6 +2444,12 @@ export const nouns: GermanNoun[] = [
       de: 'Nachtisch',
       es: 'postre',
       tr: 'tatlı'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1689,6 +2463,12 @@ export const nouns: GermanNoun[] = [
       de: 'Name',
       es: 'nombre',
       tr: 'ad'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1702,6 +2482,12 @@ export const nouns: GermanNoun[] = [
       de: 'November',
       es: 'noviembre',
       tr: 'kasım'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1715,6 +2501,12 @@ export const nouns: GermanNoun[] = [
       de: 'Oktober',
       es: 'octubre',
       tr: 'ekim'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1728,6 +2520,12 @@ export const nouns: GermanNoun[] = [
       de: 'Onkel',
       es: 'tío',
       tr: 'amca'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1741,6 +2539,12 @@ export const nouns: GermanNoun[] = [
       de: 'Opa',
       es: 'abuelo',
       tr: 'dede'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1754,6 +2558,12 @@ export const nouns: GermanNoun[] = [
       de: 'Partner',
       es: 'pareja',
       tr: 'partner'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -1767,6 +2577,12 @@ export const nouns: GermanNoun[] = [
       de: 'Pfannkuchen',
       es: 'tortita',
       tr: 'krep'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -1780,6 +2596,12 @@ export const nouns: GermanNoun[] = [
       de: 'Plan',
       es: 'plan',
       tr: 'plan'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1793,6 +2615,12 @@ export const nouns: GermanNoun[] = [
       de: 'Polizist',
       es: 'policía',
       tr: 'polis'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1806,6 +2634,12 @@ export const nouns: GermanNoun[] = [
       de: 'Punkt',
       es: 'punto',
       tr: 'nokta'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1819,6 +2653,12 @@ export const nouns: GermanNoun[] = [
       de: 'Quatsch',
       es: 'tontería',
       tr: 'saçmalık'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -1832,6 +2672,12 @@ export const nouns: GermanNoun[] = [
       de: 'Reis',
       es: 'arroz',
       tr: 'pirinç'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1845,6 +2691,12 @@ export const nouns: GermanNoun[] = [
       de: 'Rucksack',
       es: 'mochila',
       tr: 'sırt çantası'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -1858,6 +2710,12 @@ export const nouns: GermanNoun[] = [
       de: 'Saft',
       es: 'zumo',
       tr: 'meyve suyu'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1871,6 +2729,12 @@ export const nouns: GermanNoun[] = [
       de: 'Salat',
       es: 'ensalada',
       tr: 'salata'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -1884,6 +2748,12 @@ export const nouns: GermanNoun[] = [
       de: 'Samstag',
       es: 'sábado',
       tr: 'cumartesi'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1897,6 +2767,12 @@ export const nouns: GermanNoun[] = [
       de: 'Sänger',
       es: 'cantante',
       tr: 'şarkıcı'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1910,6 +2786,12 @@ export const nouns: GermanNoun[] = [
       de: 'Satz',
       es: 'frase',
       tr: 'cümle'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -1923,6 +2805,12 @@ export const nouns: GermanNoun[] = [
       de: 'Schauspieler',
       es: 'actor',
       tr: 'oyuncu'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1936,6 +2824,12 @@ export const nouns: GermanNoun[] = [
       de: 'Schinken',
       es: 'jamón',
       tr: 'jambon'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1949,6 +2843,12 @@ export const nouns: GermanNoun[] = [
       de: 'Schirm',
       es: 'paraguas',
       tr: 'şemsiye'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1962,6 +2862,12 @@ export const nouns: GermanNoun[] = [
       de: 'Schlüssel',
       es: 'llave',
       tr: 'anahtar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -1975,6 +2881,12 @@ export const nouns: GermanNoun[] = [
       de: 'September',
       es: 'septiembre',
       tr: 'eylül'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -1988,6 +2900,12 @@ export const nouns: GermanNoun[] = [
       de: 'Single',
       es: 'soltero',
       tr: 'bekar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -2001,6 +2919,12 @@ export const nouns: GermanNoun[] = [
       de: 'Sohn',
       es: 'hijo',
       tr: 'oğul'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -2014,6 +2938,12 @@ export const nouns: GermanNoun[] = [
       de: 'Sommer',
       es: 'verano',
       tr: 'yaz'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -2027,6 +2957,12 @@ export const nouns: GermanNoun[] = [
       de: 'Sonntag',
       es: 'domingo',
       tr: 'pazar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -2040,6 +2976,12 @@ export const nouns: GermanNoun[] = [
       de: 'Spaß',
       es: 'diversión',
       tr: 'eğlence'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -2053,6 +2995,12 @@ export const nouns: GermanNoun[] = [
       de: 'Spieler',
       es: 'jugador',
       tr: 'oyuncu'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -2066,6 +3014,12 @@ export const nouns: GermanNoun[] = [
       de: 'Sport',
       es: 'deporte',
       tr: 'spor'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -2079,6 +3033,12 @@ export const nouns: GermanNoun[] = [
       de: 'Student',
       es: 'estudiante',
       tr: 'öğrenci'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -2092,6 +3052,12 @@ export const nouns: GermanNoun[] = [
       de: 'Supermarkt',
       es: 'supermercado',
       tr: 'süpermarket'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -2105,6 +3071,12 @@ export const nouns: GermanNoun[] = [
       de: 'Tag',
       es: 'día',
       tr: 'gün'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -2118,6 +3090,12 @@ export const nouns: GermanNoun[] = [
       de: 'Taxifahrer',
       es: 'taxista',
       tr: 'taksi şoförü'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -2131,6 +3109,12 @@ export const nouns: GermanNoun[] = [
       de: 'Tee',
       es: 'té',
       tr: 'çay'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -2144,6 +3128,12 @@ export const nouns: GermanNoun[] = [
       de: 'Termin',
       es: 'cita',
       tr: 'randevu'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -2157,6 +3147,12 @@ export const nouns: GermanNoun[] = [
       de: 'Text',
       es: 'texto',
       tr: 'metin'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -2170,6 +3166,12 @@ export const nouns: GermanNoun[] = [
       de: 'Trainer',
       es: 'entrenador',
       tr: 'antrenör'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -2183,6 +3185,12 @@ export const nouns: GermanNoun[] = [
       de: 'Urlaub',
       es: 'vacaciones',
       tr: 'tatil'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'las',
+      tr: null
     }
   },
   {
@@ -2196,6 +3204,12 @@ export const nouns: GermanNoun[] = [
       de: 'Vater',
       es: 'padre',
       tr: 'baba'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -2209,6 +3223,12 @@ export const nouns: GermanNoun[] = [
       de: 'Verein',
       es: 'asociación',
       tr: 'dernek'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -2222,6 +3242,12 @@ export const nouns: GermanNoun[] = [
       de: 'Verkäufer',
       es: 'vendedor',
       tr: 'satıcı'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -2235,6 +3261,12 @@ export const nouns: GermanNoun[] = [
       de: 'Vormittag',
       es: 'mañana',
       tr: 'öğleden önce'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -2248,6 +3280,12 @@ export const nouns: GermanNoun[] = [
       de: 'Vorname',
       es: 'nombre de pila',
       tr: 'ad'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -2261,6 +3299,12 @@ export const nouns: GermanNoun[] = [
       de: 'Winter',
       es: 'invierno',
       tr: 'kış'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -2274,6 +3318,12 @@ export const nouns: GermanNoun[] = [
       de: 'Wohnort',
       es: 'lugar de residencia',
       tr: 'ikamet yeri'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -2287,6 +3337,12 @@ export const nouns: GermanNoun[] = [
       de: 'Zahnarzt',
       es: 'dentista',
       tr: 'dişçi'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -2300,6 +3356,12 @@ export const nouns: GermanNoun[] = [
       de: 'Adresse',
       es: 'dirección',
       tr: 'adres'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -2313,6 +3375,12 @@ export const nouns: GermanNoun[] = [
       de: 'Antwort',
       es: 'respuesta',
       tr: 'cevap'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -2326,6 +3394,12 @@ export const nouns: GermanNoun[] = [
       de: 'Arbeit',
       es: 'trabajo',
       tr: 'iş'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -2339,6 +3413,12 @@ export const nouns: GermanNoun[] = [
       de: 'Ärztin',
       es: 'médica',
       tr: 'kadın doktor'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -2352,6 +3432,12 @@ export const nouns: GermanNoun[] = [
       de: 'Ausbildung',
       es: 'formación',
       tr: 'eğitim'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -2365,6 +3451,12 @@ export const nouns: GermanNoun[] = [
       de: 'Banane',
       es: 'plátano',
       tr: 'muz'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -2378,6 +3470,12 @@ export const nouns: GermanNoun[] = [
       de: 'Birne',
       es: 'pera',
       tr: 'armut'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -2391,6 +3489,12 @@ export const nouns: GermanNoun[] = [
       de: 'Blume',
       es: 'flor',
       tr: 'çiçek'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -2404,6 +3508,12 @@ export const nouns: GermanNoun[] = [
       de: 'Briefmarke',
       es: 'sello',
       tr: 'posta pulu'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -2417,6 +3527,12 @@ export const nouns: GermanNoun[] = [
       de: 'Brille',
       es: 'gafas',
       tr: 'gözlük'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
     }
   },
   {
@@ -2430,6 +3546,12 @@ export const nouns: GermanNoun[] = [
       de: 'Butter',
       es: 'mantequilla',
       tr: 'tereyağı'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -2443,6 +3565,12 @@ export const nouns: GermanNoun[] = [
       de: 'Cousine',
       es: 'prima',
       tr: 'kız kuzen'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -2456,6 +3584,12 @@ export const nouns: GermanNoun[] = [
       de: 'Dose',
       es: 'lata',
       tr: 'kutu'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -2469,6 +3603,12 @@ export const nouns: GermanNoun[] = [
       de: 'E-mail',
       es: 'correo electrónico',
       tr: 'e-posta'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -2482,6 +3622,12 @@ export const nouns: GermanNoun[] = [
       de: 'E-mail-Adresse',
       es: 'dirección de correo electrónico',
       tr: 'e-posta adresi'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -2495,6 +3641,12 @@ export const nouns: GermanNoun[] = [
       de: 'Elektronikerin',
       es: 'técnica electrónica',
       tr: 'kadın elektronik teknisyeni'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -2508,6 +3660,12 @@ export const nouns: GermanNoun[] = [
       de: 'Eltern',
       es: 'padres',
       tr: 'ebeveynler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
     }
   },
   {
@@ -2521,6 +3679,12 @@ export const nouns: GermanNoun[] = [
       de: 'Enkelin',
       es: 'nieta',
       tr: 'kız torun'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -2534,6 +3698,12 @@ export const nouns: GermanNoun[] = [
       de: 'Entschuldigung',
       es: 'disculpa',
       tr: 'özür'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -2547,6 +3717,12 @@ export const nouns: GermanNoun[] = [
       de: 'Familie',
       es: 'familia',
       tr: 'aile'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -2560,6 +3736,12 @@ export const nouns: GermanNoun[] = [
       de: 'Farbe',
       es: 'color',
       tr: 'renk'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -2573,6 +3755,12 @@ export const nouns: GermanNoun[] = [
       de: 'Flasche',
       es: 'botella',
       tr: 'şişe'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -2586,6 +3774,12 @@ export const nouns: GermanNoun[] = [
       de: 'Fotografin',
       es: 'fotógrafa',
       tr: 'kadın fotoğrafçı'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -2599,6 +3793,12 @@ export const nouns: GermanNoun[] = [
       de: 'Frage',
       es: 'pregunta',
       tr: 'soru'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -2612,6 +3812,12 @@ export const nouns: GermanNoun[] = [
       de: 'Frau',
       es: 'mujer',
       tr: 'kadın'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -2625,6 +3831,12 @@ export const nouns: GermanNoun[] = [
       de: 'Freizeit',
       es: 'tiempo libre',
       tr: 'boş zaman'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -2638,6 +3850,12 @@ export const nouns: GermanNoun[] = [
       de: 'Freundin',
       es: 'amiga',
       tr: 'kız arkadaş'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -2651,6 +3869,12 @@ export const nouns: GermanNoun[] = [
       de: 'Friseurin',
       es: 'peluquera',
       tr: 'kadın kuaför'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -2664,6 +3888,12 @@ export const nouns: GermanNoun[] = [
       de: 'Geschwister',
       es: 'hermanos',
       tr: 'kardeşler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
     }
   },
   {
@@ -2677,6 +3907,12 @@ export const nouns: GermanNoun[] = [
       de: 'Gitarre',
       es: 'guitarra',
       tr: 'gitar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -2690,6 +3926,12 @@ export const nouns: GermanNoun[] = [
       de: 'Großeltern',
       es: 'abuelos',
       tr: 'büyükanne ve büyükbaba'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
     }
   },
   {
@@ -2703,6 +3945,12 @@ export const nouns: GermanNoun[] = [
       de: 'Großmutter',
       es: 'abuela',
       tr: 'büyükanne'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -2716,6 +3964,12 @@ export const nouns: GermanNoun[] = [
       de: 'Gruppe',
       es: 'grupo',
       tr: 'grup'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -2729,6 +3983,12 @@ export const nouns: GermanNoun[] = [
       de: 'Hausaufgabe',
       es: 'deberes',
       tr: 'ev ödevi'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
     }
   },
   {
@@ -2742,6 +4002,12 @@ export const nouns: GermanNoun[] = [
       de: 'Hausfrau',
       es: 'ama de casa',
       tr: 'ev hanımı'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -2755,6 +4021,12 @@ export const nouns: GermanNoun[] = [
       de: 'Hausnummer',
       es: 'número de casa',
       tr: 'kapı numarası'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -2768,6 +4040,12 @@ export const nouns: GermanNoun[] = [
       de: 'Hilfe',
       es: 'ayuda',
       tr: 'yardım'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -2781,6 +4059,12 @@ export const nouns: GermanNoun[] = [
       de: 'Information',
       es: 'información',
       tr: 'bilgi'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -2794,6 +4078,12 @@ export const nouns: GermanNoun[] = [
       de: 'Ingenieurin',
       es: 'ingeniera',
       tr: 'kadın mühendis'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -2807,6 +4097,12 @@ export const nouns: GermanNoun[] = [
       de: 'Kamera',
       es: 'cámara',
       tr: 'kamera'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -2820,6 +4116,12 @@ export const nouns: GermanNoun[] = [
       de: 'Kartoffel',
       es: 'patata',
       tr: 'patates'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -2833,6 +4135,12 @@ export const nouns: GermanNoun[] = [
       de: 'Kellnerin',
       es: 'camarera',
       tr: 'garson kadın'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -2846,6 +4154,12 @@ export const nouns: GermanNoun[] = [
       de: 'Köchin',
       es: 'cocinera',
       tr: 'kadın aşçı'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -2859,6 +4173,12 @@ export const nouns: GermanNoun[] = [
       de: 'Kollegin',
       es: 'compañera',
       tr: 'kadın iş arkadaşı'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -2872,6 +4192,12 @@ export const nouns: GermanNoun[] = [
       de: 'Krankenpflegerin',
       es: 'enfermera',
       tr: 'hemşire'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -2885,6 +4211,12 @@ export const nouns: GermanNoun[] = [
       de: 'Kundin',
       es: 'clienta',
       tr: 'kadın müşteri'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -2898,6 +4230,12 @@ export const nouns: GermanNoun[] = [
       de: 'Lehrerin',
       es: 'profesora',
       tr: 'kadın öğretmen'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -2911,6 +4249,12 @@ export const nouns: GermanNoun[] = [
       de: 'Mannschaft',
       es: 'equipo',
       tr: 'takım'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -2924,6 +4268,12 @@ export const nouns: GermanNoun[] = [
       de: 'Milch',
       es: 'leche',
       tr: 'süt'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -2937,6 +4287,12 @@ export const nouns: GermanNoun[] = [
       de: 'Musik',
       es: 'música',
       tr: 'müzik'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -2950,6 +4306,12 @@ export const nouns: GermanNoun[] = [
       de: 'Mutter',
       es: 'madre',
       tr: 'anne'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -2963,6 +4325,12 @@ export const nouns: GermanNoun[] = [
       de: 'Nachbarin',
       es: 'vecina',
       tr: 'kadın komşu'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -2976,6 +4344,12 @@ export const nouns: GermanNoun[] = [
       de: 'Nacht',
       es: 'noche',
       tr: 'gece'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -2989,6 +4363,12 @@ export const nouns: GermanNoun[] = [
       de: 'Nummer',
       es: 'número',
       tr: 'numara'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -3002,6 +4382,12 @@ export const nouns: GermanNoun[] = [
       de: 'Öffnungszeit',
       es: 'horario de apertura',
       tr: 'açılış saati'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -3015,6 +4401,12 @@ export const nouns: GermanNoun[] = [
       de: 'Oma',
       es: 'abuela',
       tr: 'nine'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -3028,6 +4420,12 @@ export const nouns: GermanNoun[] = [
       de: 'Partnerin',
       es: 'pareja',
       tr: 'kadın partner'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -3041,6 +4439,12 @@ export const nouns: GermanNoun[] = [
       de: 'Pause',
       es: 'pausa',
       tr: 'mola'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -3054,6 +4458,12 @@ export const nouns: GermanNoun[] = [
       de: 'Polizistin',
       es: 'policía',
       tr: 'kadın polis'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -3067,6 +4477,12 @@ export const nouns: GermanNoun[] = [
       de: 'Postleitzahl',
       es: 'código postal',
       tr: 'posta kodu'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -3080,6 +4496,12 @@ export const nouns: GermanNoun[] = [
       de: 'Rechnung',
       es: 'factura',
       tr: 'fatura'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -3093,6 +4515,12 @@ export const nouns: GermanNoun[] = [
       de: 'Sahne',
       es: 'nata',
       tr: 'krema'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -3106,6 +4534,12 @@ export const nouns: GermanNoun[] = [
       de: 'Sängerin',
       es: 'cantante',
       tr: 'kadın şarkıcı'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -3119,6 +4553,12 @@ export const nouns: GermanNoun[] = [
       de: 'Schauspielerin',
       es: 'actriz',
       tr: 'kadın oyuncu'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -3132,6 +4572,12 @@ export const nouns: GermanNoun[] = [
       de: 'Schere',
       es: 'tijeras',
       tr: 'makas'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
     }
   },
   {
@@ -3145,6 +4591,12 @@ export const nouns: GermanNoun[] = [
       de: 'Schokolade',
       es: 'chocolate',
       tr: 'çikolata'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -3158,6 +4610,12 @@ export const nouns: GermanNoun[] = [
       de: 'Schwester',
       es: 'hermana',
       tr: 'kız kardeş'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -3171,6 +4629,12 @@ export const nouns: GermanNoun[] = [
       de: 'Serie',
       es: 'serie',
       tr: 'dizi'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -3184,6 +4648,12 @@ export const nouns: GermanNoun[] = [
       de: 'Sonne',
       es: 'sol',
       tr: 'güneş'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -3197,6 +4667,12 @@ export const nouns: GermanNoun[] = [
       de: 'Spielerin',
       es: 'jugadora',
       tr: 'kadın oyuncu'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -3210,6 +4686,12 @@ export const nouns: GermanNoun[] = [
       de: 'Sprache',
       es: 'idioma',
       tr: 'dil'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -3223,6 +4705,12 @@ export const nouns: GermanNoun[] = [
       de: 'Straße',
       es: 'calle',
       tr: 'sokak'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -3236,6 +4724,12 @@ export const nouns: GermanNoun[] = [
       de: 'Studentin',
       es: 'estudiante',
       tr: 'kadın öğrenci'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -3249,6 +4743,12 @@ export const nouns: GermanNoun[] = [
       de: 'Stunde',
       es: 'hora',
       tr: 'saat'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -3262,6 +4762,12 @@ export const nouns: GermanNoun[] = [
       de: 'Suppe',
       es: 'sopa',
       tr: 'çorba'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -3275,6 +4781,12 @@ export const nouns: GermanNoun[] = [
       de: 'Tante',
       es: 'tía',
       tr: 'teyze'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -3288,6 +4800,12 @@ export const nouns: GermanNoun[] = [
       de: 'Tasche',
       es: 'bolsa',
       tr: 'çanta'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -3301,6 +4819,12 @@ export const nouns: GermanNoun[] = [
       de: 'Tasse',
       es: 'taza',
       tr: 'fincan'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -3314,6 +4838,12 @@ export const nouns: GermanNoun[] = [
       de: 'Taxifahrerin',
       es: 'taxista',
       tr: 'kadın taksi şoförü'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -3327,6 +4857,12 @@ export const nouns: GermanNoun[] = [
       de: 'Telefonnummer',
       es: 'número de teléfono',
       tr: 'telefon numarası'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -3340,6 +4876,12 @@ export const nouns: GermanNoun[] = [
       de: 'Temperatur',
       es: 'temperatura',
       tr: 'sıcaklık'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -3353,6 +4895,12 @@ export const nouns: GermanNoun[] = [
       de: 'Tochter',
       es: 'hija',
       tr: 'kız evlat'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -3366,6 +4914,12 @@ export const nouns: GermanNoun[] = [
       de: 'Tomate',
       es: 'tomate',
       tr: 'domates'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -3379,6 +4933,12 @@ export const nouns: GermanNoun[] = [
       de: 'Trainerin',
       es: 'entrenadora',
       tr: 'kadın antrenör'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -3392,6 +4952,12 @@ export const nouns: GermanNoun[] = [
       de: 'Tüte',
       es: 'bolsa',
       tr: 'poşet'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -3405,6 +4971,12 @@ export const nouns: GermanNoun[] = [
       de: 'Uhr',
       es: 'reloj',
       tr: 'saat'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -3418,6 +4990,12 @@ export const nouns: GermanNoun[] = [
       de: 'Unterschrift',
       es: 'firma',
       tr: 'imza'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -3431,6 +5009,12 @@ export const nouns: GermanNoun[] = [
       de: 'Verkäuferin',
       es: 'vendedora',
       tr: 'kadın satıcı'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -3444,6 +5028,12 @@ export const nouns: GermanNoun[] = [
       de: 'Wohnung',
       es: 'vivienda',
       tr: 'daire'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -3457,6 +5047,12 @@ export const nouns: GermanNoun[] = [
       de: 'Wurst',
       es: 'salchicha',
       tr: 'sosis'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -3470,6 +5066,12 @@ export const nouns: GermanNoun[] = [
       de: 'Zahl',
       es: 'número',
       tr: 'sayı'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -3483,6 +5085,12 @@ export const nouns: GermanNoun[] = [
       de: 'Zahnärztin',
       es: 'dentista',
       tr: 'kadın dişçi'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
     }
   },
   {
@@ -3496,6 +5104,12 @@ export const nouns: GermanNoun[] = [
       de: 'Zeit',
       es: 'tiempo',
       tr: 'zaman'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'el',
+      tr: null
     }
   },
   {
@@ -3509,6 +5123,12 @@ export const nouns: GermanNoun[] = [
       de: 'Zeitung',
       es: 'periódico',
       tr: 'gazete'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'el',
+      tr: null
     }
   }
 ]
