@@ -9,6 +9,16 @@ import BaseOptionCard from '@/components/BaseOptionCard.vue'
 
 import type { GermanNoun } from '@/interfaces/GermanNoun'
 
+interface Props {
+  attempts?: number
+  optionsCount?: number
+}
+
+const props = withDefaults(defineProps<Props>(), {
+  attempts: 2,
+  optionsCount: 6
+})
+
 interface Emits {
   (event: 'correct'): void
   (event: 'incorrect'): void
@@ -28,8 +38,7 @@ const {
   getRandomNouns
 } = useNouns()
 
-const OPTIONS_COUNT = 6
-const randomNouns = ref<GermanNoun[]>(getRandomNouns(OPTIONS_COUNT))
+const randomNouns = ref<GermanNoun[]>(getRandomNouns(props.optionsCount))
 
 // ----------------------------------------
 // SELECTED OPTION
@@ -57,7 +66,7 @@ const handleSelectOption = (option: GermanNoun) => {
 const isFinished = ref<boolean>(false)
 
 const startNewExercise = () => {
-  randomNouns.value = getRandomNouns(OPTIONS_COUNT)
+  randomNouns.value = getRandomNouns(props.optionsCount)
   selectedOption.value = null
   incorrectOptions.value = []
   isFinished.value = false
