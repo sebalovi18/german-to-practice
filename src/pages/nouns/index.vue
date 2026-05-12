@@ -73,17 +73,17 @@ const tds: Td[] = [
   {
     label: '🇪🇸',
     class: tdClass,
-    value: noun => noun.translations.es
+    value: noun => noun.translationArticles.es ? noun.translationArticles.es + ' ' + noun.translations.es : noun.translations.es
   },
   {
     label: '🇬🇧',
     class: tdClass,
-    value: noun => noun.translations.en
+    value: noun => noun.translationArticles.en ? noun.translationArticles.en + ' ' + noun.translations.en : noun.translations.en
   },
   {
     label: '🇹🇷',
     class: tdClass,
-    value: noun => noun.translations.tr
+    value: noun => noun.translationArticles.tr ? noun.translationArticles.tr + ' ' + noun.translations.tr : noun.translations.tr
   }
 ]
 
