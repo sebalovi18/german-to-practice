@@ -1,61 +1,68 @@
-# German to Practice
+# 🇩🇪 German to Practice
 
-German to Practice is a small Vue app for studying German vocabulary through searchable reference lists and focused exercises. The current version is centered on German nouns, especially practicing the correct articles: `der`, `die`, and `das`.
+A friendly place to build German vocabulary with searchable word lists and short practice exercises. Browse nouns, verbs, and adjectives, then turn them into quick study rounds whenever you want to review.
 
-The project is personal learning software: it keeps vocabulary data close to the code, makes it easy to browse translations, and turns that data into short practice rounds.
+## ✨ Features
 
-## Features
+- 📚 Browse German nouns with articles, singular forms, plural forms, and translations.
+- 🔎 Search nouns, verbs, and adjectives by German word, form, or translation.
+- 🏋️ Practice articles with randomized sessions for `der`, `die`, and `das`.
+- 🧠 Practice meanings for nouns, verbs, and adjectives.
+- 💡 Use hints, show answers, and move through exercises at your own pace.
+- ⌨️ Use keyboard shortcuts during practice, including number keys for answers.
+- 🌍 Switch the interface between English, German, Spanish, and Turkish.
+- 🔤 Choose a preferred display font and keep it saved for next time.
+- 🏷️ See translated browser titles for each page.
 
-- Browse a noun list with article, singular form, plural form, and translations.
-- Search nouns by German word, plural form, or translation.
-- Practice articles with randomized 10-word sessions.
-- Get two attempts per noun, reveal a hint, show the answer, and move to the next card.
-- Use keyboard shortcuts during practice: `1`, `2`, `3` for articles, `h` for hint, `a` for answer, and `n` for next.
-- Switch UI language between English, German, Spanish, and Turkish.
-- Choose a preferred display font, saved in local storage.
+## 🧾 Vocabulary Data
 
-## Current Data
+The vocabulary lives in `src/data`:
 
-The noun dataset lives in `src/data/nouns.ts` and currently includes 100 nouns. Each noun stores:
+- `src/data/nouns.ts`: 270 nouns
+- `src/data/verbs.ts`: 70 verbs
+- `src/data/adjectives.ts`: 33 adjectives
 
-- the German article
-- singular and plural forms
-- translations for `en`, `de`, `es`, and `tr`
-- optional level and category metadata
+Each entry includes German forms and translations for `en`, `de`, `es`, and `tr`. Some entries also include level and category metadata for more focused practice later.
 
-## App Structure
+## 🧭 Pages
 
-- `/nouns` shows the searchable noun table.
-- `/practice/articles` starts the article practice exercise.
-- `/verbs` and `/adjetives` are present as future sections.
+- `/` opens the home page.
+- `/nouns` shows the searchable noun list.
+- `/verbs` shows the searchable verb list.
+- `/adjetives` shows the searchable adjective list.
+- `/practice` opens the practice menu.
+- `/practice/articles` starts article practice.
+- `/practice/nouns-meanings` starts noun meaning practice.
+- `/practice/verbs-meanings` starts verb meaning practice.
+- `/practice/adjetives-meanings` starts adjective meaning practice.
 
-The app is built with Vue 3, Vite, TypeScript, Vue Router, Vue I18n, Tailwind CSS, Radix Vue, Lucide icons, and FormKit Auto Animate.
+## 🛠️ Project Setup
 
-## Project Setup
+Install dependencies:
 
 ```sh
 yarn
 ```
 
-### Start Development Server
+Start the development server:
 
 ```sh
 yarn dev
 ```
 
-### Type-Check and Build
+Type-check and build:
 
 ```sh
 yarn build
 ```
 
-### Lint
+Lint the project:
 
 ```sh
 yarn lint
 ```
 
-### Format Source Files
+Format source files:
 
 ```sh
 yarn format
