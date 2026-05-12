@@ -35,13 +35,17 @@ const selectedFontLabel = computed(() => (
   <DropdownMenuRoot>
     <DropdownMenuTrigger>
       <button
-        class="btn min-w-32 capitalize flex items-center gap-2"
+        class="btn sm:min-w-32 capitalize flex items-center gap-2"
       >
         <TypeIcon
           class="size-4"
           aria-hidden="true"
         />
-        {{ selectedFontLabel }}
+        <span
+          class="hidden sm:block"
+        >
+          {{ selectedFontLabel }}
+        </span>
       </button>
     </DropdownMenuTrigger>
     <DropdownMenuPortal>

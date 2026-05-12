@@ -18,15 +18,29 @@ const leftColumn: ColumnItem[] = [
     label: 'Articles',
     icon: List,
     path: '/practice/articles'
+  },
+  {
+    label: 'Adjetives meanings',
+    icon: List,
+    path: '/practice/adjetives-meanings'
   }
 ]
 
-const rightColumn: ColumnItem[] = []
+const rightColumn: ColumnItem[] = [
+  {
+    label: 'Nouns meanings',
+    icon: List,
+    path: '/practice/nouns-meanings'
+  },
+  {
+    label: 'Verbs meanings',
+    icon: List,
+    path: '/practice/verbs-meanings'
+  }
+]
 </script>
 <template>
-  <div
-    class="mx-auto max-w-xl space-y-4"
-  >
+  <div>
     <div
       class="grid grid-cols-2 gap-4 items-center justify-center"
     >

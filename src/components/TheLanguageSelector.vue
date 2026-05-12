@@ -30,13 +30,17 @@ const selectLocale = (selectedLocale: string) => {
   <DropdownMenuRoot>
     <DropdownMenuTrigger>
       <button
-        class="btn min-w-32 capitalize flex items-center gap-2"
+        class="btn sm:min-w-32 capitalize flex items-center gap-2"
       >
         <Globe
           class="size-4"
           aria-hidden="true"
         />
-        {{ t(`language.${locale}`) }}
+        <span
+          class="hidden sm:block"
+        >
+          {{ t(`language.${locale}`) }}
+        </span>
       </button>
     </DropdownMenuTrigger>
     <DropdownMenuPortal>

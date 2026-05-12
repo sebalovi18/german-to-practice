@@ -13,6 +13,9 @@ import AdjetivesList from '@/pages/adjetives/index.vue'
 // PRACTICE
 import ArticlesPractice from '@/pages/practice/articles.vue'
 import PracticeIndex from '@/pages/practice/index.vue'
+import NounsMeaningsPractice from '@/pages/practice/nouns-meanings.vue'
+import AdjetivesMeaningsPractice from '@/pages/practice/adjetives-meanings.vue'
+import VerbsMeaningsPractice from '@/pages/practice/verbs-meanings.vue'
 
 export default [
   {
@@ -42,6 +45,18 @@ export default [
       {
         component: ArticlesPractice,
         path: 'articles'
+      },
+      {
+        component: NounsMeaningsPractice,
+        path: 'nouns-meanings'
+      },
+      {
+        component: AdjetivesMeaningsPractice,
+        path: 'adjetives-meanings'
+      },
+      {
+        component: VerbsMeaningsPractice,
+        path: 'verbs-meanings'
       }
     ]
   }

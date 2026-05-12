@@ -38,7 +38,7 @@ const rightColumn = computed(() => [
 </script>
 <template>
   <div
-    class="mx-auto max-w-xl space-y-4"
+    class="space-y-4"
   >
     <p>
       🇩🇪 German to Practice
@@ -51,7 +51,7 @@ const rightColumn = computed(() => [
     </p>
 
     <div
-      class="grid grid-cols-2 gap-4 items-center justify-center"
+      class="grid grid-cols-2 gap-4 items-center justify-center text-sm sm:text-base"
     >
       <!-- LEFT COLUMN -->
       <div
@@ -66,7 +66,7 @@ const rightColumn = computed(() => [
           <component
             :is="item.icon"
             :key="item.path"
-            class="size-4"
+            class="size-4 flex-none"
             aria-hidden="true"
           />
           <span>
@@ -88,7 +88,7 @@ const rightColumn = computed(() => [
           <component
             :is="item.icon"
             :key="item.path"
-            class="size-4"
+            class="size-4 flex-none"
             aria-hidden="true"
           />
           <span>
