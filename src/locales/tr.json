@@ -37,6 +37,16 @@
       "plural": "Çoğul"
     }
   },
+  "verbs": {
+    "searchPlaceholder": "Fiil, zaman veya çeviriye göre ara...",
+    "noResults": "Sonuç bulunamadı",
+    "table": {
+      "verb": "Fiil",
+      "infinitive": "Mastar",
+      "preteritum": "Präteritum",
+      "perfekt": "Perfekt"
+    }
+  },
   "language": {
     "en": "İngilizce",
     "de": "Almanca",

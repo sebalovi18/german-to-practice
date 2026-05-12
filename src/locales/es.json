@@ -37,6 +37,16 @@
       "plural": "Plural"
     }
   },
+  "verbs": {
+    "searchPlaceholder": "Buscar por verbo, tiempo verbal o traducción...",
+    "noResults": "No se encontraron resultados",
+    "table": {
+      "verb": "Verbo",
+      "infinitive": "Infinitivo",
+      "preteritum": "Pretérito",
+      "perfekt": "Perfecto"
+    }
+  },
   "language": {
     "en": "Inglés",
     "de": "Alemán",
