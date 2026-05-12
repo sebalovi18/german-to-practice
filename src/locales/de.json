@@ -3,13 +3,24 @@
     "font": "Schriftart"
   },
   "home": {
-    "description": "Eine kleine Vue-App zum Lernen deutscher Vokabeln mit durchsuchbaren Referenzlisten und fokussierten Übungen.",
+    "description": "Erweitere deinen deutschen Wortschatz mit durchsuchbaren Wortlisten und gezielten Übungen zu Nomen, Verben, Adjektiven und Artikeln.",
     "navigation": {
       "nouns": "Nomen",
       "verbs": "Verben",
       "adjectives": "Adjektive",
       "practice": "Üben"
     }
+  },
+  "pageTitles": {
+    "home": "Startseite",
+    "nouns": "Nomen",
+    "verbs": "Verben",
+    "adjectives": "Adjektive",
+    "practice": "Üben",
+    "articlesPractice": "Artikel üben",
+    "nounsMeaningsPractice": "Bedeutungen von Nomen üben",
+    "adjectivesMeaningsPractice": "Bedeutungen von Adjektiven üben",
+    "verbsMeaningsPractice": "Bedeutungen von Verben üben"
   },
   "exercise": {
     "attempts": "Versuche",

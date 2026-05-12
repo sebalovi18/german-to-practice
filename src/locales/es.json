@@ -3,13 +3,24 @@
     "font": "Fuente"
   },
   "home": {
-    "description": "Una pequeña app de Vue para estudiar vocabulario alemán con listas de referencia buscables y ejercicios enfocados.",
+    "description": "Amplía tu vocabulario alemán con listas de palabras buscables y ejercicios enfocados de sustantivos, verbos, adjetivos y artículos.",
     "navigation": {
       "nouns": "Sustantivos",
       "verbs": "Verbos",
       "adjectives": "Adjetivos",
       "practice": "Práctica"
     }
+  },
+  "pageTitles": {
+    "home": "Inicio",
+    "nouns": "Sustantivos",
+    "verbs": "Verbos",
+    "adjectives": "Adjetivos",
+    "practice": "Práctica",
+    "articlesPractice": "Práctica de artículos",
+    "nounsMeaningsPractice": "Práctica de significados de sustantivos",
+    "adjectivesMeaningsPractice": "Práctica de significados de adjetivos",
+    "verbsMeaningsPractice": "Práctica de significados de verbos"
   },
   "exercise": {
     "attempts": "Intentos",

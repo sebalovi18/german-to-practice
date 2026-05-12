@@ -21,41 +21,71 @@ export default [
   {
     alias: '/home',
     component: Home,
+    meta: {
+      titleKey: 'pageTitles.home'
+    },
     path: '/'
   },
   {
     component: NounsList,
+    meta: {
+      titleKey: 'pageTitles.nouns'
+    },
     path: '/nouns'
   },
   {
     component: VerbsList,
+    meta: {
+      titleKey: 'pageTitles.verbs'
+    },
     path: '/verbs'
   },
   {
     component: AdjetivesList,
+    meta: {
+      titleKey: 'pageTitles.adjectives'
+    },
     path: '/adjetives'
   },
   {
+    meta: {
+      titleKey: 'pageTitles.practice'
+    },
     path: '/practice',
     children: [
       {
         component: PracticeIndex,
+        meta: {
+          titleKey: 'pageTitles.practice'
+        },
         path: ''
       },
       {
         component: ArticlesPractice,
+        meta: {
+          titleKey: 'pageTitles.articlesPractice'
+        },
         path: 'articles'
       },
       {
         component: NounsMeaningsPractice,
+        meta: {
+          titleKey: 'pageTitles.nounsMeaningsPractice'
+        },
         path: 'nouns-meanings'
       },
       {
         component: AdjetivesMeaningsPractice,
+        meta: {
+          titleKey: 'pageTitles.adjectivesMeaningsPractice'
+        },
         path: 'adjetives-meanings'
       },
       {
         component: VerbsMeaningsPractice,
+        meta: {
+          titleKey: 'pageTitles.verbsMeaningsPractice'
+        },
         path: 'verbs-meanings'
       }
     ]

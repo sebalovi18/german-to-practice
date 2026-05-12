@@ -1,4 +1,7 @@
-import { createApp } from 'vue'
+import {
+  createApp,
+  watch
+} from 'vue'
 
 // VUE ROUTER
 import { createWebHistory, createRouter } from 'vue-router'
@@ -45,6 +48,23 @@ const i18n = createI18n({
   locale: initialLocale,
   fallbackLocale: DEFAULT_LOCALE,
   messages: locales
+})
+
+const updateDocumentTitle = () => {
+  const titleKey = router.currentRoute.value.meta.titleKey as string | undefined
+  const appTitle = 'German to Practice'
+
+  document.title = titleKey
+    ? `${i18n.global.t(titleKey)} | ${appTitle}`
+    : appTitle
+}
+
+router.afterEach(() => {
+  updateDocumentTitle()
+})
+
+watch(i18n.global.locale, () => {
+  updateDocumentTitle()
 })
 
 // ----------------------------------------

@@ -3,13 +3,24 @@
     "font": "Font"
   },
   "home": {
-    "description": "A small Vue app for studying German vocabulary through searchable reference lists and focused exercises.",
+    "description": "Build your German vocabulary with searchable word lists and focused practice exercises for nouns, verbs, adjectives, and articles.",
     "navigation": {
       "nouns": "Nouns",
       "verbs": "Verbs",
       "adjectives": "Adjectives",
       "practice": "Practice"
     }
+  },
+  "pageTitles": {
+    "home": "Home",
+    "nouns": "Nouns",
+    "verbs": "Verbs",
+    "adjectives": "Adjectives",
+    "practice": "Practice",
+    "articlesPractice": "Article Practice",
+    "nounsMeaningsPractice": "Noun Meaning Practice",
+    "adjectivesMeaningsPractice": "Adjective Meaning Practice",
+    "verbsMeaningsPractice": "Verb Meaning Practice"
   },
   "exercise": {
     "attempts": "Attempts",
