@@ -4,7 +4,7 @@ import { ref } from 'vue'
 import { useAudios } from '@/composables/useAudios'
 import { useNouns } from '@/composables/useNouns'
 
-import BaseArticleExerciseCard from '@/components/BaseArticleExerciseCard.vue'
+import BaseArticleExercise from '@/components/BaseArticleExercise.vue'
 
 import type { GermanNoun } from '@/interfaces/GermanNoun'
 
@@ -71,7 +71,7 @@ const handleNextEvent = () => {
     <div
       class="flex gap-4 items-center justify-center"
     >
-      <BaseArticleExerciseCard
+      <BaseArticleExercise
         :attempts="attempts"
         :key="randomNouns[randomNounIndex]!.id"
         :noun="randomNouns[randomNounIndex]!"

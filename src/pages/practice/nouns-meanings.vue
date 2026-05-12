@@ -4,7 +4,7 @@ import { ref } from 'vue'
 import { useAudios } from '@/composables/useAudios'
 import { useNouns } from '@/composables/useNouns'
 
-import BaseNounMeaningExerciseCard from '@/components/BaseNounMeaningExerciseCard.vue'
+import BaseNounMeaningExercise from '@/components/BaseNounMeaningExercise.vue'
 
 import type { GermanNoun } from '@/interfaces/GermanNoun'
 
@@ -41,7 +41,7 @@ const onCorrect = () => {
   <div
     class="space-y-4 mx-auto max-w-xl"
   >
-    <BaseNounMeaningExerciseCard
+    <BaseNounMeaningExercise
       :noun="currentNoun"
       @correct="onCorrect"
       @incorrect="onIncorrect"
