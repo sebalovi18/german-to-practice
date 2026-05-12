@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { computed, ref } from 'vue'
 
 import { useNouns } from '@/composables/useNouns'
 import { useI18n } from 'vue-i18n'
@@ -39,6 +39,9 @@ const {
 } = useNouns()
 
 const randomNouns = ref<GermanNoun[]>(getRandomNouns(props.optionsCount))
+const computedRandomNounsOrdered = computed((): GermanNoun[] =>
+  [...randomNouns.value].sort(() => Math.random() - 0.5)
+)
 
 // ----------------------------------------
 // SELECTED OPTION
@@ -105,7 +108,7 @@ const handleNext = () => {
       class="grid grid-cols-2 gap-4"
     >
       <BaseOptionCard
-        v-for="(option, index) in randomNouns"
+        v-for="(option, index) in computedRandomNounsOrdered"
         :is-correct="selectedOption?.id === option.id && isFinished"
         :is-incorrect="incorrectOptions.includes(option)"
         :key="option.id"
