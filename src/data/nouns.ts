@@ -97,7 +97,7 @@ export const nouns: GermanNoun[] = [
     }
   },
   {
-    id: 'broetchen',
+    id: 'Brötchen',
     type: 'noun',
     article: 'das',
     singular: 'Brötchen',
@@ -325,7 +325,7 @@ export const nouns: GermanNoun[] = [
     }
   },
   {
-    id: 'franzoesisch',
+    id: 'Französisch',
     type: 'noun',
     article: 'das',
     singular: 'Französisch',
@@ -344,7 +344,7 @@ export const nouns: GermanNoun[] = [
     }
   },
   {
-    id: 'fruehstueck',
+    id: 'Frühstück',
     type: 'noun',
     article: 'das',
     singular: 'Frühstück',
@@ -363,7 +363,7 @@ export const nouns: GermanNoun[] = [
     }
   },
   {
-    id: 'gemuese',
+    id: 'Gemüse',
     type: 'noun',
     article: 'das',
     singular: 'Gemüse',
@@ -382,7 +382,7 @@ export const nouns: GermanNoun[] = [
     }
   },
   {
-    id: 'getraenk',
+    id: 'Getränk',
     type: 'noun',
     article: 'das',
     singular: 'Getränk',
@@ -724,7 +724,7 @@ export const nouns: GermanNoun[] = [
     }
   },
   {
-    id: 'muesli',
+    id: 'Müsli',
     type: 'noun',
     article: 'das',
     singular: 'Müsli',
@@ -1617,7 +1617,7 @@ export const nouns: GermanNoun[] = [
     }
   },
   {
-    id: 'fruehling',
+    id: 'Frühling',
     type: 'noun',
     article: 'der',
     singular: 'Frühling',
@@ -1636,7 +1636,7 @@ export const nouns: GermanNoun[] = [
     }
   },
   {
-    id: 'fuehrerschein',
+    id: 'Führerschein',
     type: 'noun',
     article: 'der',
     singular: 'Führerschein',
@@ -1655,7 +1655,7 @@ export const nouns: GermanNoun[] = [
     }
   },
   {
-    id: 'fussball',
+    id: 'Fußball',
     type: 'noun',
     article: 'der',
     singular: 'Fußball',
@@ -1712,7 +1712,7 @@ export const nouns: GermanNoun[] = [
     }
   },
   {
-    id: 'grossvater',
+    id: 'Großvater',
     type: 'noun',
     article: 'der',
     singular: 'Großvater',
@@ -1940,7 +1940,7 @@ export const nouns: GermanNoun[] = [
     }
   },
   {
-    id: 'kaese',
+    id: 'Käse',
     type: 'noun',
     article: 'der',
     singular: 'Käse',
@@ -2282,7 +2282,7 @@ export const nouns: GermanNoun[] = [
     }
   },
   {
-    id: 'maerz',
+    id: 'März',
     type: 'noun',
     article: 'der',
     singular: 'März',
@@ -2757,7 +2757,7 @@ export const nouns: GermanNoun[] = [
     }
   },
   {
-    id: 'saenger',
+    id: 'Sänger',
     type: 'noun',
     article: 'der',
     singular: 'Sänger',
@@ -2852,7 +2852,7 @@ export const nouns: GermanNoun[] = [
     }
   },
   {
-    id: 'schluessel',
+    id: 'Schlüssel',
     type: 'noun',
     article: 'der',
     singular: 'Schlüssel',
@@ -2966,7 +2966,7 @@ export const nouns: GermanNoun[] = [
     }
   },
   {
-    id: 'spass',
+    id: 'Spaß',
     type: 'noun',
     article: 'der',
     singular: 'Spaß',
@@ -3232,7 +3232,7 @@ export const nouns: GermanNoun[] = [
     }
   },
   {
-    id: 'verkaeufer',
+    id: 'Verkäufer',
     type: 'noun',
     article: 'der',
     singular: 'Verkäufer',
@@ -3403,7 +3403,7 @@ export const nouns: GermanNoun[] = [
     }
   },
   {
-    id: 'aerztin',
+    id: 'Ärztin',
     type: 'noun',
     article: 'die',
     singular: 'Ärztin',
@@ -3916,7 +3916,7 @@ export const nouns: GermanNoun[] = [
     }
   },
   {
-    id: 'grosseltern',
+    id: 'Großeltern',
     type: 'noun',
     article: 'die',
     singular: 'Großeltern',
@@ -3935,7 +3935,7 @@ export const nouns: GermanNoun[] = [
     }
   },
   {
-    id: 'grossmutter',
+    id: 'Großmutter',
     type: 'noun',
     article: 'die',
     singular: 'Großmutter',
@@ -4144,7 +4144,7 @@ export const nouns: GermanNoun[] = [
     }
   },
   {
-    id: 'koechin',
+    id: 'Köchin',
     type: 'noun',
     article: 'die',
     singular: 'Köchin',
@@ -4372,7 +4372,7 @@ export const nouns: GermanNoun[] = [
     }
   },
   {
-    id: 'oeffnungszeit',
+    id: 'Öffnungszeit',
     type: 'noun',
     article: 'die',
     singular: 'Öffnungszeit',
@@ -4524,7 +4524,7 @@ export const nouns: GermanNoun[] = [
     }
   },
   {
-    id: 'saengerin',
+    id: 'Sängerin',
     type: 'noun',
     article: 'die',
     singular: 'Sängerin',
@@ -4695,7 +4695,7 @@ export const nouns: GermanNoun[] = [
     }
   },
   {
-    id: 'strasse',
+    id: 'Straße',
     type: 'noun',
     article: 'die',
     singular: 'Straße',
@@ -4942,7 +4942,7 @@ export const nouns: GermanNoun[] = [
     }
   },
   {
-    id: 'tuete',
+    id: 'Tüte',
     type: 'noun',
     article: 'die',
     singular: 'Tüte',
@@ -4999,7 +4999,7 @@ export const nouns: GermanNoun[] = [
     }
   },
   {
-    id: 'verkaeuferin',
+    id: 'Verkäuferin',
     type: 'noun',
     article: 'die',
     singular: 'Verkäuferin',
@@ -5075,7 +5075,7 @@ export const nouns: GermanNoun[] = [
     }
   },
   {
-    id: 'zahnaerztin',
+    id: 'Zahnärztin',
     type: 'noun',
     article: 'die',
     singular: 'Zahnärztin',

@@ -41,7 +41,7 @@ export const verbs: GermanVerb[] = [
     }
   },
   {
-    id: 'aufraumen',
+    id: 'aufräumen',
     type: 'verb',
     infinitive: 'auf|räumen',
     preteritum: 'räumte auf',
@@ -236,7 +236,7 @@ export const verbs: GermanVerb[] = [
     }
   },
   {
-    id: 'fruhstucken',
+    id: 'frühstücken',
     type: 'verb',
     infinitive: 'frühstücken',
     preteritum: 'frühstückte',
@@ -353,7 +353,7 @@ export const verbs: GermanVerb[] = [
     }
   },
   {
-    id: 'heissen',
+    id: 'heißen',
     type: 'verb',
     infinitive: 'heißen',
     preteritum: 'hieß',
@@ -366,7 +366,7 @@ export const verbs: GermanVerb[] = [
     }
   },
   {
-    id: 'horen',
+    id: 'hören',
     type: 'verb',
     infinitive: 'hören',
     preteritum: 'hörte',
@@ -418,7 +418,7 @@ export const verbs: GermanVerb[] = [
     }
   },
   {
-    id: 'konnen',
+    id: 'können',
     type: 'verb',
     infinitive: 'können',
     preteritum: 'konnte',
@@ -522,7 +522,7 @@ export const verbs: GermanVerb[] = [
     }
   },
   {
-    id: 'mochten',
+    id: 'möchten',
     type: 'verb',
     infinitive: 'möchten',
     preteritum: 'wollte',
@@ -535,7 +535,7 @@ export const verbs: GermanVerb[] = [
     }
   },
   {
-    id: 'mogen',
+    id: 'mögen',
     type: 'verb',
     infinitive: 'mögen',
     preteritum: 'mochte',
@@ -548,7 +548,7 @@ export const verbs: GermanVerb[] = [
     }
   },
   {
-    id: 'nahen',
+    id: 'nähen',
     type: 'verb',
     infinitive: 'nähen',
     preteritum: 'nähte',

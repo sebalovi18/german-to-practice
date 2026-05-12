@@ -80,7 +80,7 @@ export const adjectives: GermanAdjective[] = [
     }
   },
   {
-    id: 'gross',
+    id: 'groß',
     type: 'adjective',
     adjective: 'groß',
     comparative: 'größer',
@@ -119,7 +119,7 @@ export const adjectives: GermanAdjective[] = [
     }
   },
   {
-    id: 'hasslich',
+    id: 'hässlich',
     type: 'adjective',
     adjective: 'hässlich',
     comparative: 'hässlicher',
@@ -132,7 +132,7 @@ export const adjectives: GermanAdjective[] = [
     }
   },
   {
-    id: 'heiss',
+    id: 'heiß',
     type: 'adjective',
     adjective: 'heiß',
     comparative: 'heißer',
@@ -249,7 +249,7 @@ export const adjectives: GermanAdjective[] = [
     }
   },
   {
-    id: 'mude',
+    id: 'müde',
     type: 'adjective',
     adjective: 'müde',
     comparative: 'müder',
@@ -327,7 +327,7 @@ export const adjectives: GermanAdjective[] = [
     }
   },
   {
-    id: 'schon',
+    id: 'schön',
     type: 'adjective',
     adjective: 'schön',
     comparative: 'schöner',
@@ -418,7 +418,7 @@ export const adjectives: GermanAdjective[] = [
     }
   },
   {
-    id: 'wutend',
+    id: 'wütend',
     type: 'adjective',
     adjective: 'wütend',
     comparative: 'wütender',
