@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 
-import { useNouns } from '@/composables/useNouns'
 import { useAudios } from '@/composables/useAudios'
+import { useNouns } from '@/composables/useNouns'
 
 import BaseNounMeaningExerciseCard from '@/components/BaseNounMeaningExerciseCard.vue'
 

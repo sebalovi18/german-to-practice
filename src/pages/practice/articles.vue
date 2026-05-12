@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 
+import { useAudios } from '@/composables/useAudios'
 import { useNouns } from '@/composables/useNouns'
 
 import BaseArticleExerciseCard from '@/components/BaseArticleExerciseCard.vue'
@@ -11,6 +12,11 @@ import type { GermanNoun } from '@/interfaces/GermanNoun'
 const {
   getRandomNouns
 } = useNouns()
+
+const {
+  playCorrectSound,
+  playIncorrectSound
+} = useAudios()
 
 const randomNouns = ref<Array<GermanNoun>>(getRandomNouns())
 const randomNounIndex = ref<number>(0)
@@ -29,12 +35,16 @@ const isFinished = ref<boolean>(false)
 
 // EVENT HANDLERS
 const handleIncorrectEvent = () => {
+  playIncorrectSound()
+
   errorCount.value++
 
   attempts.value--
 }
 
 const handleCorrectEvent = () => {
+  playCorrectSound()
+
   attempts.value = 2
 
   correctCount.value++
