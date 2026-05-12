@@ -47,6 +47,15 @@
       "perfekt": "Perfekt"
     }
   },
+  "adjectives": {
+    "searchPlaceholder": "Nach Adjektiv, Form oder Übersetzung suchen...",
+    "noResults": "Keine Ergebnisse gefunden",
+    "table": {
+      "adjective": "Adjektiv",
+      "comparative": "Komparativ",
+      "superlative": "Superlativ"
+    }
+  },
   "language": {
     "en": "Englisch",
     "de": "Deutsch",

@@ -47,6 +47,15 @@
       "perfekt": "Perfekt"
     }
   },
+  "adjectives": {
+    "searchPlaceholder": "Sıfat, biçim veya çeviriye göre ara...",
+    "noResults": "Sonuç bulunamadı",
+    "table": {
+      "adjective": "Sıfat",
+      "comparative": "Karşılaştırma",
+      "superlative": "En üstünlük"
+    }
+  },
   "language": {
     "en": "İngilizce",
     "de": "Almanca",
