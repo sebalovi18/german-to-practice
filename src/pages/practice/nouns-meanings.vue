@@ -2,6 +2,7 @@
 import { ref } from 'vue'
 
 import { useNouns } from '@/composables/useNouns'
+import { useAudios } from '@/composables/useAudios'
 
 import BaseNounMeaningExerciseCard from '@/components/BaseNounMeaningExerciseCard.vue'
 
@@ -11,6 +12,11 @@ const {
   getRandomNouns
 } = useNouns()
 
+const {
+  playCorrectSound,
+  playIncorrectSound
+} = useAudios()
+
 const randomNouns = ref<GermanNoun[]>(getRandomNouns(50))
 
 const currentNounIndex = ref<number>(0)
@@ -19,9 +25,17 @@ const currentNoun = ref<GermanNoun>(randomNouns.value[currentNounIndex.value]!)
 
 // ERROR COUNT
 const errorCount = ref<number>(0)
+const onIncorrect = () => {
+  errorCount.value++
+  playIncorrectSound()
+}
 
 // CORRECT COUNT
 const correctCount = ref<number>(0)
+const onCorrect = () => {
+  correctCount.value++
+  playCorrectSound()
+}
 </script>
 <template>
   <div
@@ -29,8 +43,8 @@ const correctCount = ref<number>(0)
   >
     <BaseNounMeaningExerciseCard
       :noun="currentNoun"
-      @correct="correctCount++"
-      @incorrect="errorCount++"
+      @correct="onCorrect"
+      @incorrect="onIncorrect"
     />
 
     <!-- STATISTICS -->
