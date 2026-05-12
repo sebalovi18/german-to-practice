@@ -20,6 +20,14 @@
     "showAnswer": "Mostrar respuesta",
     "next": "Siguiente"
   },
+  "practice": {
+    "labels": {
+      "articles": "Artículos",
+      "adjectivesMeanings": "Significados de adjetivos",
+      "nounsMeanings": "Significados de sustantivos",
+      "verbsMeanings": "Significados de verbos"
+    }
+  },
   "nouns": {
     "searchPlaceholder": "Buscar por singular, plural o traducción...",
     "noResults": "No se encontraron resultados",

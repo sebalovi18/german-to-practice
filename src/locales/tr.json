@@ -20,6 +20,14 @@
     "showAnswer": "Cevabı göster",
     "next": "Sonraki"
   },
+  "practice": {
+    "labels": {
+      "articles": "Artikeller",
+      "adjectivesMeanings": "Sıfat anlamları",
+      "nounsMeanings": "İsim anlamları",
+      "verbsMeanings": "Fiil anlamları"
+    }
+  },
   "nouns": {
     "searchPlaceholder": "Tekil, çoğul veya çeviriye göre ara...",
     "noResults": "Sonuç bulunamadı",

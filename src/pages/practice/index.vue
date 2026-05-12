@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { computed } from 'vue'
+import { useI18n } from 'vue-i18n'
 import { useRouter } from 'vue-router'
 
 import { List } from '@lucide/vue'
@@ -6,6 +8,9 @@ import { List } from '@lucide/vue'
 import type { Component } from 'vue'
 
 const router = useRouter()
+const {
+  t
+} = useI18n()
 
 type ColumnItem = {
   label: string
@@ -13,31 +18,31 @@ type ColumnItem = {
   path: string
 }
 
-const leftColumn: ColumnItem[] = [
+const leftColumn = computed<ColumnItem[]>(() => [
   {
-    label: 'Articles',
+    label: t('practice.labels.articles'),
     icon: List,
     path: '/practice/articles'
   },
   {
-    label: 'Adjetives meanings',
+    label: t('practice.labels.adjectivesMeanings'),
     icon: List,
     path: '/practice/adjetives-meanings'
   }
-]
+])
 
-const rightColumn: ColumnItem[] = [
+const rightColumn = computed<ColumnItem[]>(() => [
   {
-    label: 'Nouns meanings',
+    label: t('practice.labels.nounsMeanings'),
     icon: List,
     path: '/practice/nouns-meanings'
   },
   {
-    label: 'Verbs meanings',
+    label: t('practice.labels.verbsMeanings'),
     icon: List,
     path: '/practice/verbs-meanings'
   }
-]
+])
 </script>
 <template>
   <div>
