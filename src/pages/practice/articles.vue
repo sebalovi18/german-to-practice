@@ -1,22 +1,16 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 
+import { useNouns } from '@/composables/useNouns'
+
 import BaseArticleExerciseCard from '@/components/BaseArticleExerciseCard.vue'
 
 import type { GermanNoun } from '@/interfaces/GermanNoun'
 
-import { nouns } from '@/data/nouns'
-
 // NOUNS
-const getRandomNouns = (n?: number): Array<GermanNoun> => {
-  const randomNouns = nouns.sort(() => Math.random() - 0.5)
-
-  if (!n) {
-    return randomNouns
-  }
-
-  return randomNouns.slice(0, n)
-}
+const {
+  getRandomNouns
+} = useNouns()
 
 const randomNouns = ref<Array<GermanNoun>>(getRandomNouns())
 const randomNounIndex = ref<number>(0)

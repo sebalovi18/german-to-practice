@@ -35,7 +35,7 @@ const selectedFontLabel = computed(() => (
   <DropdownMenuRoot>
     <DropdownMenuTrigger>
       <button
-        class="btn sm:min-w-32 capitalize flex items-center gap-2"
+        class="btn sm:min-w-32 capitalize flex items-center gap-2 h-10 sm:h-auto"
       >
         <TypeIcon
           class="size-4"

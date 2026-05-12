@@ -1,14 +1,11 @@
 <script setup lang="ts">
-import {
-  onBeforeUnmount,
-  onMounted,
-  ref
-} from 'vue'
+import { ref } from 'vue'
 import { useI18n } from 'vue-i18n'
 
 import type { GermanArticle } from '@/interfaces/GermanArticle'
 import type { GermanNoun } from '@/interfaces/GermanNoun'
 
+import BaseButton from '@/components/BaseButton.vue'
 import BaseOptionCard from '@/components/BaseOptionCard.vue'
 
 interface Props {
@@ -33,14 +30,6 @@ const {
 
 // GERMAN ARTICLES
 const germanArticles = ['der', 'die', 'das'] as GermanArticle[]
-
-// ACTION SHORTCUT KEYS
-const articleShortcutKeys = ['1', '2', '3'] as const
-const actionShortcutKeys = {
-  hint: 'h',
-  next: 'n',
-  showAnswer: 'a'
-} as const
 
 // ANSWER
 const selectedAnswer = ref<GermanArticle | null>(null)
@@ -119,77 +108,6 @@ const handleNext = () => {
 
   emit('next')
 }
-
-// IS KEYBOARD SHORTCUT IGNORED
-const isKeyboardShortcutIgnored = (event: KeyboardEvent) => {
-  if (event.repeat) {
-    return true
-  }
-
-  if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) {
-    return true
-  }
-
-  const target = event.target
-
-  if (!(target instanceof HTMLElement)) {
-    return false
-  }
-
-  return target.isContentEditable || ['INPUT', 'SELECT', 'TEXTAREA'].includes(target.tagName)
-}
-
-// HANDLE KEYDOWN EVENT
-const handleKeydown = (event: KeyboardEvent) => {
-  if (isKeyboardShortcutIgnored(event)) return
-
-  const articleIndex = articleShortcutKeys.indexOf(event.key as typeof articleShortcutKeys[number])
-
-  if (articleIndex !== -1) {
-    const article = germanArticles[articleIndex]
-
-    if (article) {
-      event.preventDefault()
-      handleAnswer(article)
-    }
-
-    return
-  }
-
-  const eventKey = event.key.toLowerCase()
-
-  if (eventKey === actionShortcutKeys.hint && !isHintVisible.value && !isFinished.value) {
-    event.preventDefault()
-
-    showHint()
-
-    return
-  }
-
-  if (eventKey === actionShortcutKeys.showAnswer && !isFinished.value) {
-    event.preventDefault()
-
-    showAnswer()
-
-    return
-  }
-
-  if (eventKey === actionShortcutKeys.next && isFinished.value) {
-    event.preventDefault()
-
-    handleNext()
-
-    return
-  }
-}
-
-onMounted(() => {
-  window.addEventListener('keydown', handleKeydown)
-})
-
-onBeforeUnmount(() => {
-  window.removeEventListener('keydown', handleKeydown)
-})
 </script>
 <template>
   <div
@@ -213,7 +131,7 @@ onBeforeUnmount(() => {
           :is-correct="article === props.noun.article && isFinished"
           :key="article"
           :option="article"
-          :shortcut-key="articleShortcutKeys[index]"
+          :shortcut-key="(index + 1).toString()"
           @click="handleAnswer(article)"
         />
       </div>
@@ -266,62 +184,42 @@ onBeforeUnmount(() => {
       <p>
         {{ t('exercise.actions') }} 🥸
       </p>
+
       <div
         class="flex flex-col md:flex-row items-stretch sm:items-center justify-between gap-4 w-full"
       >
         <!-- HINT BUTTON -->
-        <button
-          class="btn"
-          :class="{
-            'disabled:opacity-50 cursor-not-allowed': isHintVisible || isFinished
-          }"
+        <BaseButton
+          aria-keyshortcuts="h"
+          class="w-full"
           :disabled="isHintVisible || isFinished"
-          :aria-keyshortcuts="actionShortcutKeys.hint"
+          :shortcut-key="'h'"
           @click="showHint"
         >
           {{ t('exercise.hint') }} 📚
-          <kbd
-            class="ml-2 rounded bg-background/20 px-1.5 py-0.5 text-xs uppercase dark:bg-foreground/20"
-          >
-            {{ actionShortcutKeys.hint }}
-          </kbd>
-        </button>
+        </BaseButton>
 
         <!-- SHOW ANSWER BUTTON -->
-        <button
-          class="btn"
-          :class="{
-            'disabled:opacity-50 cursor-not-allowed': isFinished
-          }"
+        <BaseButton
+          aria-keyshortcuts="a"
+          class="w-full"
           :disabled="isFinished"
-          :aria-keyshortcuts="actionShortcutKeys.showAnswer"
+          :shortcut-key="'a'"
           @click="showAnswer"
         >
           {{ t('exercise.showAnswer') }} 🧐
-          <kbd
-            class="ml-2 rounded bg-background/20 px-1.5 py-0.5 text-xs uppercase dark:bg-foreground/20"
-          >
-            {{ actionShortcutKeys.showAnswer }}
-          </kbd>
-        </button>
+        </BaseButton>
 
         <!-- NEXT BUTTON -->
-        <button
-          :aria-keyshortcuts="actionShortcutKeys.next"
-          class="btn"
-          :class="{
-            'disabled:opacity-50 cursor-not-allowed': !isFinished
-          }"
+        <BaseButton
+          aria-keyshortcuts="n"
+          class="w-full"
           :disabled="!isFinished"
+          :shortcut-key="'n'"
           @click="handleNext"
         >
           {{ t('exercise.next') }} ➡️
-          <kbd
-            class="ml-2 rounded bg-background/20 px-1.5 py-0.5 text-xs uppercase dark:bg-foreground/20"
-          >
-            {{ actionShortcutKeys.next }}
-          </kbd>
-        </button>
+        </BaseButton>
       </div>
     </div>
   </div>

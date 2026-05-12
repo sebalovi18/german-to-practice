@@ -1,10 +1,8 @@
 <script setup lang="ts">
-import { computed, onBeforeUnmount, onMounted } from 'vue'
+import { onBeforeUnmount, onMounted } from 'vue'
 
 interface Props {
-  isCorrect?: boolean
-  isIncorrect?: boolean
-  option: string
+  label?: string
   shortcutKey?: string
 }
 
@@ -15,30 +13,6 @@ interface Emits {
 }
 
 const emit = defineEmits<Emits>()
-
-const isNeutralClass = computed((): string =>
-  'bg-foreground hover:bg-foreground-hover dark:bg-background dark:hover:bg-background-hover text-background dark:text-foreground'
-)
-
-const isCorrectClass = computed((): string =>
-  'bg-green-200 hover:bg-green-200 dark:bg-green-200 dark:hover:bg-green-200 text-background dark:text-foreground'
-)
-
-const isIncorrectClass = computed((): string =>
-  'bg-red-200 hover:bg-red-200 dark:bg-red-200 dark:hover:bg-red-200 text-background dark:text-foreground'
-)
-
-const computedClass = computed((): string => {
-  if (props.isCorrect) {
-    return isCorrectClass.value
-  }
-
-  if (props.isIncorrect) {
-    return isIncorrectClass.value
-  }
-
-  return isNeutralClass.value
-})
 
 const handleClick = () => {
   emit('click')
@@ -90,19 +64,16 @@ onBeforeUnmount(() => {
     v-auto-animate
     :aria-keyshortcuts="shortcutKey"
     :class="[
-      'min-h-24',
-      'min-w-24',
-      'rounded-md',
+      'btn',
       'flex',
       'relative',
       'items-center',
       'justify-center',
       'gap-2',
-      'capitalize',
-      'cursor-pointer',
       'transition-colors',
       'duration-300',
-      computedClass
+      'disabled:opacity-50',
+      'disabled:cursor-not-allowed'
     ]"
     @click="handleClick"
   >
@@ -112,20 +83,8 @@ onBeforeUnmount(() => {
     >
       {{ shortcutKey }}
     </kbd>
-    <span
-      class="absolute right-2 bottom-2 text-sm uppercase"
-      v-if="isCorrect"
-    >
-      ✅
-    </span>
-    <span
-      class="absolute right-2 bottom-2 text-sm uppercase"
-      v-else-if="isIncorrect"
-    >
-      ❌
-    </span>
-    <span>
-      {{ option }}
-    </span>
+    <slot>
+      {{ label ?? 'ADD A LABEL ❌' }}
+    </slot>
   </button>
 </template>

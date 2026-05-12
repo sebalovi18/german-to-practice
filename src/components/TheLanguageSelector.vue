@@ -30,7 +30,7 @@ const selectLocale = (selectedLocale: string) => {
   <DropdownMenuRoot>
     <DropdownMenuTrigger>
       <button
-        class="btn sm:min-w-32 capitalize flex items-center gap-2"
+        class="btn sm:min-w-32 capitalize flex items-center gap-2 h-10 sm:h-auto"
       >
         <Globe
           class="size-4"
