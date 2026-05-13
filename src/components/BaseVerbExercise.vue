@@ -109,6 +109,7 @@ const handleNext = () => {
     >
       <BaseOptionCard
         v-for="(option, index) in computedRandomVerbsOrdered"
+        :disabled="isFinished"
         :is-correct="selectedOption?.id === option.id && isFinished"
         :is-incorrect="incorrectOptions.includes(option)"
         :key="option.id"

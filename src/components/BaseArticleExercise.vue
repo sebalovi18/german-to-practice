@@ -127,6 +127,7 @@ const handleNext = () => {
       >
         <BaseOptionCard
           v-for="(article, index) in germanArticles"
+          :disabled="isFinished"
           :is-incorrect="incorrectAnswers.includes(article)"
           :is-correct="article === props.noun.article && isFinished"
           :key="article"
