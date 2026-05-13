@@ -429,5 +429,356 @@ export const adjectives: GermanAdjective[] = [
       es: 'enojado',
       tr: 'kızgın'
     }
+  },
+  {
+    id: 'arbeitslos',
+    type: 'adjective',
+    adjective: 'arbeitslos',
+    comparative: 'arbeitsloser',
+    superlative: 'am arbeitslosesten',
+    translations: {
+      en: 'unemployed',
+      de: 'arbeitslos',
+      es: 'desempleado',
+      tr: 'işsiz'
+    }
+  },
+  {
+    id: 'blau',
+    type: 'adjective',
+    adjective: 'blau',
+    comparative: 'blauer',
+    superlative: 'am blauesten',
+    translations: {
+      en: 'blue',
+      de: 'blau',
+      es: 'azul',
+      tr: 'mavi'
+    }
+  },
+  {
+    id: 'braun',
+    type: 'adjective',
+    adjective: 'braun',
+    comparative: 'brauner',
+    superlative: 'am braunsten',
+    translations: {
+      en: 'brown',
+      de: 'braun',
+      es: 'marrón',
+      tr: 'kahverengi'
+    }
+  },
+  {
+    id: 'doof',
+    type: 'adjective',
+    adjective: 'doof',
+    comparative: 'doofer',
+    superlative: 'am doofsten',
+    translations: {
+      en: 'stupid',
+      de: 'doof',
+      es: 'tonto',
+      tr: 'aptal'
+    }
+  },
+  {
+    id: 'frisch',
+    type: 'adjective',
+    adjective: 'frisch',
+    comparative: 'frischer',
+    superlative: 'am frischesten',
+    translations: {
+      en: 'fresh',
+      de: 'frisch',
+      es: 'fresco',
+      tr: 'taze'
+    }
+  },
+  {
+    id: 'gelb',
+    type: 'adjective',
+    adjective: 'gelb',
+    comparative: 'gelber',
+    superlative: 'am gelbsten',
+    translations: {
+      en: 'yellow',
+      de: 'gelb',
+      es: 'amarillo',
+      tr: 'sarı'
+    }
+  },
+  {
+    id: 'geschieden',
+    type: 'adjective',
+    adjective: 'geschieden',
+    comparative: 'geschiedener',
+    superlative: 'am geschiedensten',
+    translations: {
+      en: 'divorced',
+      de: 'geschieden',
+      es: 'divorciado',
+      tr: 'boşanmış'
+    }
+  },
+  {
+    id: 'grau',
+    type: 'adjective',
+    adjective: 'grau',
+    comparative: 'grauer',
+    superlative: 'am grauesten',
+    translations: {
+      en: 'gray',
+      de: 'grau',
+      es: 'gris',
+      tr: 'gri'
+    }
+  },
+  {
+    id: 'grün',
+    type: 'adjective',
+    adjective: 'grün',
+    comparative: 'grüner',
+    superlative: 'am grünsten',
+    translations: {
+      en: 'green',
+      de: 'grün',
+      es: 'verde',
+      tr: 'yeşil'
+    }
+  },
+  {
+    id: 'interessant',
+    type: 'adjective',
+    adjective: 'interessant',
+    comparative: 'interessanter',
+    superlative: 'am interessantesten',
+    translations: {
+      en: 'interesting',
+      de: 'interessant',
+      es: 'interesante',
+      tr: 'ilginç'
+    }
+  },
+  {
+    id: 'lecker',
+    type: 'adjective',
+    adjective: 'lecker',
+    comparative: 'leckerer',
+    superlative: 'am leckersten',
+    translations: {
+      en: 'delicious',
+      de: 'lecker',
+      es: 'delicioso',
+      tr: 'lezzetli'
+    }
+  },
+  {
+    id: 'lila',
+    type: 'adjective',
+    adjective: 'lila',
+    comparative: 'lilafarbener',
+    superlative: 'am lilafarbensten',
+    translations: {
+      en: 'purple',
+      de: 'lila',
+      es: 'morado',
+      tr: 'mor'
+    }
+  },
+  {
+    id: 'lustig',
+    type: 'adjective',
+    adjective: 'lustig',
+    comparative: 'lustiger',
+    superlative: 'am lustigsten',
+    translations: {
+      en: 'funny',
+      de: 'lustig',
+      es: 'divertido',
+      tr: 'komik'
+    }
+  },
+  {
+    id: 'nett',
+    type: 'adjective',
+    adjective: 'nett',
+    comparative: 'netter',
+    superlative: 'am nettesten',
+    translations: {
+      en: 'nice',
+      de: 'nett',
+      es: 'amable',
+      tr: 'nazik'
+    }
+  },
+  {
+    id: 'richtig',
+    type: 'adjective',
+    adjective: 'richtig',
+    comparative: 'richtiger',
+    superlative: 'am richtigsten',
+    translations: {
+      en: 'correct',
+      de: 'richtig',
+      es: 'correcto',
+      tr: 'doğru'
+    }
+  },
+  {
+    id: 'rosa',
+    type: 'adjective',
+    adjective: 'rosa',
+    comparative: 'rosafarbener',
+    superlative: 'am rosafarbensten',
+    translations: {
+      en: 'pink',
+      de: 'rosa',
+      es: 'rosa',
+      tr: 'pembe'
+    }
+  },
+  {
+    id: 'rot',
+    type: 'adjective',
+    adjective: 'rot',
+    comparative: 'röter',
+    superlative: 'am rötesten',
+    translations: {
+      en: 'red',
+      de: 'rot',
+      es: 'rojo',
+      tr: 'kırmızı'
+    }
+  },
+  {
+    id: 'schwarz',
+    type: 'adjective',
+    adjective: 'schwarz',
+    comparative: 'schwärzer',
+    superlative: 'am schwärzesten',
+    translations: {
+      en: 'black',
+      de: 'schwarz',
+      es: 'negro',
+      tr: 'siyah'
+    }
+  },
+  {
+    id: 'spät',
+    type: 'adjective',
+    adjective: 'spät',
+    comparative: 'später',
+    superlative: 'am spätesten',
+    translations: {
+      en: 'late',
+      de: 'spät',
+      es: 'tarde',
+      tr: 'geç'
+    }
+  },
+  {
+    id: 'super',
+    type: 'adjective',
+    adjective: 'super',
+    comparative: 'superer',
+    superlative: 'am supersten',
+    translations: {
+      en: 'super',
+      de: 'super',
+      es: 'súper',
+      tr: 'süper'
+    }
+  },
+  {
+    id: 'vegan',
+    type: 'adjective',
+    adjective: 'vegan',
+    comparative: 'veganer',
+    superlative: 'am vegansten',
+    translations: {
+      en: 'vegan',
+      de: 'vegan',
+      es: 'vegano',
+      tr: 'vegan'
+    }
+  },
+  {
+    id: 'vegetarisch',
+    type: 'adjective',
+    adjective: 'vegetarisch',
+    comparative: 'vegetarischer',
+    superlative: 'am vegetarischsten',
+    translations: {
+      en: 'vegetarian',
+      de: 'vegetarisch',
+      es: 'vegetariano',
+      tr: 'vejetaryen'
+    }
+  },
+  {
+    id: 'verheiratet',
+    type: 'adjective',
+    adjective: 'verheiratet',
+    comparative: 'verheirateter',
+    superlative: 'am verheiratetsten',
+    translations: {
+      en: 'married',
+      de: 'verheiratet',
+      es: 'casado',
+      tr: 'evli'
+    }
+  },
+  {
+    id: 'verwitwet',
+    type: 'adjective',
+    adjective: 'verwitwet',
+    comparative: 'verwitweter',
+    superlative: 'am verwitwetsten',
+    translations: {
+      en: 'widowed',
+      de: 'verwitwet',
+      es: 'viudo',
+      tr: 'dul'
+    }
+  },
+  {
+    id: 'warm',
+    type: 'adjective',
+    adjective: 'warm',
+    comparative: 'wärmer',
+    superlative: 'am wärmsten',
+    translations: {
+      en: 'warm',
+      de: 'warm',
+      es: 'cálido',
+      tr: 'ılık'
+    }
+  },
+  {
+    id: 'weiß',
+    type: 'adjective',
+    adjective: 'weiß',
+    comparative: 'weißer',
+    superlative: 'am weißesten',
+    translations: {
+      en: 'white',
+      de: 'weiß',
+      es: 'blanco',
+      tr: 'beyaz'
+    }
+  },
+  {
+    id: 'wichtig',
+    type: 'adjective',
+    adjective: 'wichtig',
+    comparative: 'wichtiger',
+    superlative: 'am wichtigsten',
+    translations: {
+      en: 'important',
+      de: 'wichtig',
+      es: 'importante',
+      tr: 'önemli'
+    }
   }
 ]
