@@ -152,10 +152,10 @@ const handleNext = () => {
       <span
         v-if="isFinished"
         :class="{
-          'text-blue-500 font-bold': getArticleColor(props.noun) === 'masculine',
-          'text-gray-500 font-bold': getArticleColor(props.noun) === 'neuter',
-          'text-pink-500 font-bold': getArticleColor(props.noun) === 'feminine',
-          'text-green-500 font-bold': getArticleColor(props.noun) === 'plural'
+          'text-blue-500 font-bold': getArticleColor(props.noun) === 'blue',
+          'text-gray-500 font-bold': getArticleColor(props.noun) === 'gray',
+          'text-pink-500 font-bold': getArticleColor(props.noun) === 'pink',
+          'text-green-500 font-bold': getArticleColor(props.noun) === 'green'
         }"
       >
         {{ props.noun.article }}
@@ -163,6 +163,11 @@ const handleNext = () => {
       <span>
         {{ props.noun.value }}
       </span>
+      <sub
+        class="text-[10px] text-gray-500"
+      >
+        {{ !props.noun.plural_id ? '(Plural)' : '' }}
+      </sub>
     </div>
 
     <!-- TRANSLATION DISPLAY -->
