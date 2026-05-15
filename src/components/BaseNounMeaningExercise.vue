@@ -137,7 +137,7 @@ const handleNext = () => {
     <p
       class="text-2xl font-bold text-center"
     >
-      {{ randomNouns[0]!.id }}
+      {{ randomNouns[0]!.value }}
     </p>
 
     <!-- CARD OPTIONS -->

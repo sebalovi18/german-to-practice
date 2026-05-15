@@ -5,8 +5,9 @@ export const nouns: GermanNoun[] = [
     id: 'abendessen',
     type: 'noun',
     article: 'das',
-    singular: 'Abendessen',
-    plural: 'Abendessen',
+    value: 'Abendessen',
+    singular_id: null,
+    plural_id: 'abendessen-plural',
     translations: {
       en: 'dinner',
       de: 'Abendessen',
@@ -18,14 +19,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'abendessen-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Abendessen',
+    singular_id: 'abendessen',
+    plural_id: null,
+    translations: {
+      en: 'dinners',
+      de: 'Abendessen',
+      es: 'cenas',
+      tr: 'akşam yemekleri'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'alter',
     type: 'noun',
     article: 'das',
-    singular: 'Alter',
-    plural: 'Alter',
+    value: 'Alter',
+    singular_id: null,
+    plural_id: 'alter-plural',
     translations: {
       en: 'age',
       de: 'Alter',
@@ -37,14 +63,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'alter-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Alter',
+    singular_id: 'alter',
+    plural_id: null,
+    translations: {
+      en: 'ages',
+      de: 'Alter',
+      es: 'edades',
+      tr: 'yaşlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'auto',
     type: 'noun',
     article: 'das',
-    singular: 'Auto',
-    plural: 'Autos',
+    value: 'Auto',
+    singular_id: null,
+    plural_id: 'autos',
     translations: {
       en: 'car',
       de: 'Auto',
@@ -56,14 +107,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'autos',
+    type: 'noun',
+    article: 'die',
+    value: 'Autos',
+    singular_id: 'auto',
+    plural_id: null,
+    translations: {
+      en: 'cars',
+      de: 'Autos',
+      es: 'coches',
+      tr: 'arabalar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'bier',
     type: 'noun',
     article: 'das',
-    singular: 'Bier',
-    plural: 'Biere',
+    value: 'Bier',
+    singular_id: null,
+    plural_id: 'biere',
     translations: {
       en: 'beer',
       de: 'Bier',
@@ -75,14 +151,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'biere',
+    type: 'noun',
+    article: 'die',
+    value: 'Biere',
+    singular_id: 'bier',
+    plural_id: null,
+    translations: {
+      en: 'beers',
+      de: 'Biere',
+      es: 'cervezas',
+      tr: 'biralar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'brot',
     type: 'noun',
     article: 'das',
-    singular: 'Brot',
-    plural: 'Brote',
+    value: 'Brot',
+    singular_id: null,
+    plural_id: 'brote',
     translations: {
       en: 'bread',
       de: 'Brot',
@@ -94,14 +195,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
   },
   {
-    id: 'Brötchen',
+    id: 'brote',
+    type: 'noun',
+    article: 'die',
+    value: 'Brote',
+    singular_id: 'brot',
+    plural_id: null,
+    translations: {
+      en: 'breads',
+      de: 'Brote',
+      es: 'panes',
+      tr: 'ekmekler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'brötchen',
     type: 'noun',
     article: 'das',
-    singular: 'Brötchen',
-    plural: 'Brötchen',
+    value: 'Brötchen',
+    singular_id: null,
+    plural_id: 'brötchen-plural',
     translations: {
       en: 'bread roll',
       de: 'Brötchen',
@@ -113,14 +239,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'brötchen-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Brötchen',
+    singular_id: 'brötchen',
+    plural_id: null,
+    translations: {
+      en: 'bread rolls',
+      de: 'Brötchen',
+      es: 'panecillos',
+      tr: 'küçük ekmekler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'buch',
     type: 'noun',
     article: 'das',
-    singular: 'Buch',
-    plural: 'Bücher',
+    value: 'Buch',
+    singular_id: null,
+    plural_id: 'bücher',
     translations: {
       en: 'book',
       de: 'Buch',
@@ -132,14 +283,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'bücher',
+    type: 'noun',
+    article: 'die',
+    value: 'Bücher',
+    singular_id: 'buch',
+    plural_id: null,
+    translations: {
+      en: 'books',
+      de: 'Bücher',
+      es: 'libros',
+      tr: 'kitaplar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'croissant',
     type: 'noun',
     article: 'das',
-    singular: 'Croissant',
-    plural: 'Croissants',
+    value: 'Croissant',
+    singular_id: null,
+    plural_id: 'croissants',
     translations: {
       en: 'croissant',
       de: 'Croissant',
@@ -151,14 +327,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'croissants',
+    type: 'noun',
+    article: 'die',
+    value: 'Croissants',
+    singular_id: 'croissant',
+    plural_id: null,
+    translations: {
+      en: 'croissants',
+      de: 'Croissants',
+      es: 'cruasánes',
+      tr: 'kruvasanlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'deutsch',
     type: 'noun',
     article: 'das',
-    singular: 'Deutsch',
-    plural: 'Deutsch',
+    value: 'Deutsch',
+    singular_id: null,
+    plural_id: 'deutsch-plural',
     translations: {
       en: 'German',
       de: 'Deutsch',
@@ -170,14 +371,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'deutsch-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Deutsch',
+    singular_id: 'deutsch',
+    plural_id: null,
+    translations: {
+      en: 'Germans',
+      de: 'Deutsch',
+      es: 'alemánes',
+      tr: 'Almancalar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'ei',
     type: 'noun',
     article: 'das',
-    singular: 'Ei',
-    plural: 'Eier',
+    value: 'Ei',
+    singular_id: null,
+    plural_id: 'eier',
     translations: {
       en: 'egg',
       de: 'Ei',
@@ -189,14 +415,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'eier',
+    type: 'noun',
+    article: 'die',
+    value: 'Eier',
+    singular_id: 'ei',
+    plural_id: null,
+    translations: {
+      en: 'eggs',
+      de: 'Eier',
+      es: 'huevos',
+      tr: 'yumurtalar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'eis',
     type: 'noun',
     article: 'das',
-    singular: 'Eis',
-    plural: 'Eis',
+    value: 'Eis',
+    singular_id: null,
+    plural_id: 'eis-plural',
     translations: {
       en: 'ice cream',
       de: 'Eis',
@@ -208,14 +459,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'eis-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Eis',
+    singular_id: 'eis',
+    plural_id: null,
+    translations: {
+      en: 'ice creams',
+      de: 'Eis',
+      es: 'helados',
+      tr: 'dondurmalar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'englisch',
     type: 'noun',
     article: 'das',
-    singular: 'Englisch',
-    plural: 'Englisch',
+    value: 'Englisch',
+    singular_id: null,
+    plural_id: 'englisch-plural',
     translations: {
       en: 'English',
       de: 'Englisch',
@@ -227,14 +503,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'englisch-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Englisch',
+    singular_id: 'englisch',
+    plural_id: null,
+    translations: {
+      en: 'Englishes',
+      de: 'Englisch',
+      es: 'ingléses',
+      tr: 'İngilizceler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'essen',
     type: 'noun',
     article: 'das',
-    singular: 'Essen',
-    plural: 'Essen',
+    value: 'Essen',
+    singular_id: null,
+    plural_id: 'essen-plural',
     translations: {
       en: 'food',
       de: 'Essen',
@@ -246,14 +547,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'essen-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Essen',
+    singular_id: 'essen',
+    plural_id: null,
+    translations: {
+      en: 'foods',
+      de: 'Essen',
+      es: 'comidas',
+      tr: 'yemekler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'fahrrad',
     type: 'noun',
     article: 'das',
-    singular: 'Fahrrad',
-    plural: 'Fahrräder',
+    value: 'Fahrrad',
+    singular_id: null,
+    plural_id: 'fahrräder',
     translations: {
       en: 'bicycle',
       de: 'Fahrrad',
@@ -265,14 +591,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'fahrräder',
+    type: 'noun',
+    article: 'die',
+    value: 'Fahrräder',
+    singular_id: 'fahrrad',
+    plural_id: null,
+    translations: {
+      en: 'bicycles',
+      de: 'Fahrräder',
+      es: 'bicicletas',
+      tr: 'bisikletler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'feuerzeug',
     type: 'noun',
     article: 'das',
-    singular: 'Feuerzeug',
-    plural: 'Feuerzeuge',
+    value: 'Feuerzeug',
+    singular_id: null,
+    plural_id: 'feuerzeuge',
     translations: {
       en: 'lighter',
       de: 'Feuerzeug',
@@ -284,14 +635,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'feuerzeuge',
+    type: 'noun',
+    article: 'die',
+    value: 'Feuerzeuge',
+    singular_id: 'feuerzeug',
+    plural_id: null,
+    translations: {
+      en: 'lighters',
+      de: 'Feuerzeuge',
+      es: 'encendedores',
+      tr: 'çakmaklar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'fleisch',
     type: 'noun',
     article: 'das',
-    singular: 'Fleisch',
-    plural: 'Fleisch',
+    value: 'Fleisch',
+    singular_id: null,
+    plural_id: 'fleisch-plural',
     translations: {
       en: 'meat',
       de: 'Fleisch',
@@ -303,14 +679,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'fleisch-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Fleisch',
+    singular_id: 'fleisch',
+    plural_id: null,
+    translations: {
+      en: 'meats',
+      de: 'Fleisch',
+      es: 'carnes',
+      tr: 'etler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'foto',
     type: 'noun',
     article: 'das',
-    singular: 'Foto',
-    plural: 'Fotos',
+    value: 'Foto',
+    singular_id: null,
+    plural_id: 'fotos',
     translations: {
       en: 'photo',
       de: 'Foto',
@@ -322,14 +723,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
   },
   {
-    id: 'Französisch',
+    id: 'fotos',
+    type: 'noun',
+    article: 'die',
+    value: 'Fotos',
+    singular_id: 'foto',
+    plural_id: null,
+    translations: {
+      en: 'photos',
+      de: 'Fotos',
+      es: 'fotos',
+      tr: 'fotoğraflar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'französisch',
     type: 'noun',
     article: 'das',
-    singular: 'Französisch',
-    plural: 'Französisch',
+    value: 'Französisch',
+    singular_id: null,
+    plural_id: 'französisch-plural',
     translations: {
       en: 'French',
       de: 'Französisch',
@@ -341,14 +767,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
   },
   {
-    id: 'Frühstück',
+    id: 'französisch-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Französisch',
+    singular_id: 'französisch',
+    plural_id: null,
+    translations: {
+      en: 'Frenches',
+      de: 'Französisch',
+      es: 'francéses',
+      tr: 'Fransızcalar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'frühstück',
     type: 'noun',
     article: 'das',
-    singular: 'Frühstück',
-    plural: 'Frühstücke',
+    value: 'Frühstück',
+    singular_id: null,
+    plural_id: 'frühstücke',
     translations: {
       en: 'breakfast',
       de: 'Frühstück',
@@ -360,14 +811,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
   },
   {
-    id: 'Gemüse',
+    id: 'frühstücke',
+    type: 'noun',
+    article: 'die',
+    value: 'Frühstücke',
+    singular_id: 'frühstück',
+    plural_id: null,
+    translations: {
+      en: 'breakfasts',
+      de: 'Frühstücke',
+      es: 'desayunos',
+      tr: 'kahvaltılar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'gemüse',
     type: 'noun',
     article: 'das',
-    singular: 'Gemüse',
-    plural: 'Gemüse',
+    value: 'Gemüse',
+    singular_id: null,
+    plural_id: 'gemüse-plural',
     translations: {
       en: 'vegetables',
       de: 'Gemüse',
@@ -379,14 +855,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
   },
   {
-    id: 'Getränk',
+    id: 'gemüse-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Gemüse',
+    singular_id: 'gemüse',
+    plural_id: null,
+    translations: {
+      en: 'vegetableses',
+      de: 'Gemüse',
+      es: 'verduras',
+      tr: 'sebzeler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'getränk',
     type: 'noun',
     article: 'das',
-    singular: 'Getränk',
-    plural: 'Getränke',
+    value: 'Getränk',
+    singular_id: null,
+    plural_id: 'getränke',
     translations: {
       en: 'drink',
       de: 'Getränk',
@@ -398,14 +899,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'getränke',
+    type: 'noun',
+    article: 'die',
+    value: 'Getränke',
+    singular_id: 'getränk',
+    plural_id: null,
+    translations: {
+      en: 'drinks',
+      de: 'Getränke',
+      es: 'bebidas',
+      tr: 'içecekler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'grad',
     type: 'noun',
     article: 'das',
-    singular: 'Grad',
-    plural: 'Grad',
+    value: 'Grad',
+    singular_id: null,
+    plural_id: 'grad-plural',
     translations: {
       en: 'degree',
       de: 'Grad',
@@ -417,14 +943,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'grad-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Grad',
+    singular_id: 'grad',
+    plural_id: null,
+    translations: {
+      en: 'degrees',
+      de: 'Grad',
+      es: 'grados',
+      tr: 'dereceler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'gramm',
     type: 'noun',
     article: 'das',
-    singular: 'Gramm',
-    plural: 'Gramm',
+    value: 'Gramm',
+    singular_id: null,
+    plural_id: 'gramm-plural',
     translations: {
       en: 'gram',
       de: 'Gramm',
@@ -436,14 +987,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'gramm-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Gramm',
+    singular_id: 'gramm',
+    plural_id: null,
+    translations: {
+      en: 'grams',
+      de: 'Gramm',
+      es: 'gramos',
+      tr: 'gramlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'handy',
     type: 'noun',
     article: 'das',
-    singular: 'Handy',
-    plural: 'Handys',
+    value: 'Handy',
+    singular_id: null,
+    plural_id: 'handys',
     translations: {
       en: 'mobile phone',
       de: 'Handy',
@@ -455,14 +1031,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'handys',
+    type: 'noun',
+    article: 'die',
+    value: 'Handys',
+    singular_id: 'handy',
+    plural_id: null,
+    translations: {
+      en: 'mobile phones',
+      de: 'Handys',
+      es: 'móviles',
+      tr: 'cep telefonular'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'heft',
     type: 'noun',
     article: 'das',
-    singular: 'Heft',
-    plural: 'Hefte',
+    value: 'Heft',
+    singular_id: null,
+    plural_id: 'hefte',
     translations: {
       en: 'notebook',
       de: 'Heft',
@@ -474,14 +1075,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'hefte',
+    type: 'noun',
+    article: 'die',
+    value: 'Hefte',
+    singular_id: 'heft',
+    plural_id: null,
+    translations: {
+      en: 'notebooks',
+      de: 'Hefte',
+      es: 'cuadernos',
+      tr: 'defterler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'herkunftsland',
     type: 'noun',
     article: 'das',
-    singular: 'Herkunftsland',
-    plural: 'Herkunftsländer',
+    value: 'Herkunftsland',
+    singular_id: null,
+    plural_id: 'herkunftsländer',
     translations: {
       en: 'country of origin',
       de: 'Herkunftsland',
@@ -493,14 +1119,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'herkunftsländer',
+    type: 'noun',
+    article: 'die',
+    value: 'Herkunftsländer',
+    singular_id: 'herkunftsland',
+    plural_id: null,
+    translations: {
+      en: 'country of origins',
+      de: 'Herkunftsländer',
+      es: 'país de origenes',
+      tr: 'menşe ülkeler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'hobby',
     type: 'noun',
     article: 'das',
-    singular: 'Hobby',
-    plural: 'Hobbys',
+    value: 'Hobby',
+    singular_id: null,
+    plural_id: 'hobbys',
     translations: {
       en: 'hobby',
       de: 'Hobby',
@@ -512,14 +1163,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'hobbys',
+    type: 'noun',
+    article: 'die',
+    value: 'Hobbys',
+    singular_id: 'hobby',
+    plural_id: null,
+    translations: {
+      en: 'hobbies',
+      de: 'Hobbys',
+      es: 'pasatiempos',
+      tr: 'hobiler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'internet',
     type: 'noun',
     article: 'das',
-    singular: 'Internet',
-    plural: 'Internet',
+    value: 'Internet',
+    singular_id: null,
+    plural_id: 'internet-plural',
     translations: {
       en: 'internet',
       de: 'Internet',
@@ -531,14 +1207,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'internet-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Internet',
+    singular_id: 'internet',
+    plural_id: null,
+    translations: {
+      en: 'internets',
+      de: 'Internet',
+      es: 'internetes',
+      tr: 'internetler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'jahr',
     type: 'noun',
     article: 'das',
-    singular: 'Jahr',
-    plural: 'Jahre',
+    value: 'Jahr',
+    singular_id: null,
+    plural_id: 'jahre',
     translations: {
       en: 'year',
       de: 'Jahr',
@@ -550,14 +1251,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'jahre',
+    type: 'noun',
+    article: 'die',
+    value: 'Jahre',
+    singular_id: 'jahr',
+    plural_id: null,
+    translations: {
+      en: 'years',
+      de: 'Jahre',
+      es: 'años',
+      tr: 'yıllar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'kilo',
     type: 'noun',
     article: 'das',
-    singular: 'Kilo',
-    plural: 'Kilo',
+    value: 'Kilo',
+    singular_id: null,
+    plural_id: 'kilo-plural',
     translations: {
       en: 'kilo',
       de: 'Kilo',
@@ -569,14 +1295,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'kilo-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Kilo',
+    singular_id: 'kilo',
+    plural_id: null,
+    translations: {
+      en: 'kilos',
+      de: 'Kilo',
+      es: 'kilos',
+      tr: 'kilolar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'kilogramm',
     type: 'noun',
     article: 'das',
-    singular: 'Kilogramm',
-    plural: 'Kilogramm',
+    value: 'Kilogramm',
+    singular_id: null,
+    plural_id: 'kilogramm-plural',
     translations: {
       en: 'kilogram',
       de: 'Kilogramm',
@@ -588,14 +1339,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'kilogramm-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Kilogramm',
+    singular_id: 'kilogramm',
+    plural_id: null,
+    translations: {
+      en: 'kilograms',
+      de: 'Kilogramm',
+      es: 'kilogramos',
+      tr: 'kilogramlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'kind',
     type: 'noun',
     article: 'das',
-    singular: 'Kind',
-    plural: 'Kinder',
+    value: 'Kind',
+    singular_id: null,
+    plural_id: 'kinder',
     translations: {
       en: 'child',
       de: 'Kind',
@@ -607,14 +1383,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'kinder',
+    type: 'noun',
+    article: 'die',
+    value: 'Kinder',
+    singular_id: 'kind',
+    plural_id: null,
+    translations: {
+      en: 'children',
+      de: 'Kinder',
+      es: 'niños',
+      tr: 'çocuklar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'klavier',
     type: 'noun',
     article: 'das',
-    singular: 'Klavier',
-    plural: 'Klaviere',
+    value: 'Klavier',
+    singular_id: null,
+    plural_id: 'klaviere',
     translations: {
       en: 'piano',
       de: 'Klavier',
@@ -626,14 +1427,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'klaviere',
+    type: 'noun',
+    article: 'die',
+    value: 'Klaviere',
+    singular_id: 'klavier',
+    plural_id: null,
+    translations: {
+      en: 'pianos',
+      de: 'Klaviere',
+      es: 'pianos',
+      tr: 'piyanolar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'krankenhaus',
     type: 'noun',
     article: 'das',
-    singular: 'Krankenhaus',
-    plural: 'Krankenhäuser',
+    value: 'Krankenhaus',
+    singular_id: null,
+    plural_id: 'krankenhäuser',
     translations: {
       en: 'hospital',
       de: 'Krankenhaus',
@@ -645,14 +1471,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'krankenhäuser',
+    type: 'noun',
+    article: 'die',
+    value: 'Krankenhäuser',
+    singular_id: 'krankenhaus',
+    plural_id: null,
+    translations: {
+      en: 'hospitals',
+      de: 'Krankenhäuser',
+      es: 'hospitales',
+      tr: 'hastaneler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'lebensmittel',
     type: 'noun',
     article: 'das',
-    singular: 'Lebensmittel',
-    plural: 'Lebensmittel',
+    value: 'Lebensmittel',
+    singular_id: null,
+    plural_id: 'lebensmittel-plural',
     translations: {
       en: 'groceries',
       de: 'Lebensmittel',
@@ -664,14 +1515,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'los',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'lebensmittel-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Lebensmittel',
+    singular_id: 'lebensmittel',
+    plural_id: null,
+    translations: {
+      en: 'grocerieses',
+      de: 'Lebensmittel',
+      es: 'alimentoses',
+      tr: 'gıda maddeleriler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'lieblingsessen',
     type: 'noun',
     article: 'das',
-    singular: 'Lieblingsessen',
-    plural: 'Lieblingsessen',
+    value: 'Lieblingsessen',
+    singular_id: null,
+    plural_id: 'lieblingsessen-plural',
     translations: {
       en: 'favorite food',
       de: 'Lieblingsessen',
@@ -683,14 +1559,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'lieblingsessen-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Lieblingsessen',
+    singular_id: 'lieblingsessen',
+    plural_id: null,
+    translations: {
+      en: 'favorite foods',
+      de: 'Lieblingsessen',
+      es: 'comida favoritas',
+      tr: 'en sevilen yemekler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'lineal',
     type: 'noun',
     article: 'das',
-    singular: 'Lineal',
-    plural: 'Lineale',
+    value: 'Lineal',
+    singular_id: null,
+    plural_id: 'lineale',
     translations: {
       en: 'ruler',
       de: 'Lineal',
@@ -702,14 +1603,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'lineale',
+    type: 'noun',
+    article: 'die',
+    value: 'Lineale',
+    singular_id: 'lineal',
+    plural_id: null,
+    translations: {
+      en: 'rulers',
+      de: 'Lineale',
+      es: 'reglas',
+      tr: 'cetveller'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'mittagessen',
     type: 'noun',
     article: 'das',
-    singular: 'Mittagessen',
-    plural: 'Mittagessen',
+    value: 'Mittagessen',
+    singular_id: null,
+    plural_id: 'mittagessen-plural',
     translations: {
       en: 'lunch',
       de: 'Mittagessen',
@@ -721,14 +1647,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
   },
   {
-    id: 'Müsli',
+    id: 'mittagessen-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Mittagessen',
+    singular_id: 'mittagessen',
+    plural_id: null,
+    translations: {
+      en: 'lunches',
+      de: 'Mittagessen',
+      es: 'almuerzos',
+      tr: 'öğle yemekleri'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'müsli',
     type: 'noun',
     article: 'das',
-    singular: 'Müsli',
-    plural: 'Müslis',
+    value: 'Müsli',
+    singular_id: null,
+    plural_id: 'müslis',
     translations: {
       en: 'muesli',
       de: 'Müsli',
@@ -740,14 +1691,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'müslis',
+    type: 'noun',
+    article: 'die',
+    value: 'Müslis',
+    singular_id: 'müsli',
+    plural_id: null,
+    translations: {
+      en: 'mueslis',
+      de: 'Müslis',
+      es: 'mueslis',
+      tr: 'müsliler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'obst',
     type: 'noun',
     article: 'das',
-    singular: 'Obst',
-    plural: 'Obst',
+    value: 'Obst',
+    singular_id: null,
+    plural_id: 'obst-plural',
     translations: {
       en: 'fruit',
       de: 'Obst',
@@ -759,14 +1735,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'obst-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Obst',
+    singular_id: 'obst',
+    plural_id: null,
+    translations: {
+      en: 'fruits',
+      de: 'Obst',
+      es: 'frutas',
+      tr: 'meyveler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'papier',
     type: 'noun',
     article: 'das',
-    singular: 'Papier',
-    plural: 'Papiere',
+    value: 'Papier',
+    singular_id: null,
+    plural_id: 'papiere',
     translations: {
       en: 'paper',
       de: 'Papier',
@@ -778,14 +1779,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'papiere',
+    type: 'noun',
+    article: 'die',
+    value: 'Papiere',
+    singular_id: 'papier',
+    plural_id: null,
+    translations: {
+      en: 'papers',
+      de: 'Papiere',
+      es: 'papeles',
+      tr: 'kağıtlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'picknick',
     type: 'noun',
     article: 'das',
-    singular: 'Picknick',
-    plural: 'Picknicks',
+    value: 'Picknick',
+    singular_id: null,
+    plural_id: 'picknicks',
     translations: {
       en: 'picnic',
       de: 'Picknick',
@@ -797,14 +1823,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'picknicks',
+    type: 'noun',
+    article: 'die',
+    value: 'Picknicks',
+    singular_id: 'picknick',
+    plural_id: null,
+    translations: {
+      en: 'picnics',
+      de: 'Picknicks',
+      es: 'picnices',
+      tr: 'piknikler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'rad',
     type: 'noun',
     article: 'das',
-    singular: 'Rad',
-    plural: 'Räder',
+    value: 'Rad',
+    singular_id: null,
+    plural_id: 'räder',
     translations: {
       en: 'wheel',
       de: 'Rad',
@@ -816,14 +1867,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'räder',
+    type: 'noun',
+    article: 'die',
+    value: 'Räder',
+    singular_id: 'rad',
+    plural_id: null,
+    translations: {
+      en: 'wheels',
+      de: 'Räder',
+      es: 'ruedas',
+      tr: 'tekerlekler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'restaurant',
     type: 'noun',
     article: 'das',
-    singular: 'Restaurant',
-    plural: 'Restaurants',
+    value: 'Restaurant',
+    singular_id: null,
+    plural_id: 'restaurants',
     translations: {
       en: 'restaurant',
       de: 'Restaurant',
@@ -835,14 +1911,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'restaurants',
+    type: 'noun',
+    article: 'die',
+    value: 'Restaurants',
+    singular_id: 'restaurant',
+    plural_id: null,
+    translations: {
+      en: 'restaurants',
+      de: 'Restaurants',
+      es: 'restaurantes',
+      tr: 'restoranlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'spiel',
     type: 'noun',
     article: 'das',
-    singular: 'Spiel',
-    plural: 'Spiele',
+    value: 'Spiel',
+    singular_id: null,
+    plural_id: 'spiele',
     translations: {
       en: 'game',
       de: 'Spiel',
@@ -854,14 +1955,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'spiele',
+    type: 'noun',
+    article: 'die',
+    value: 'Spiele',
+    singular_id: 'spiel',
+    plural_id: null,
+    translations: {
+      en: 'games',
+      de: 'Spiele',
+      es: 'juegos',
+      tr: 'oyunlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'taxi',
     type: 'noun',
     article: 'das',
-    singular: 'Taxi',
-    plural: 'Taxis',
+    value: 'Taxi',
+    singular_id: null,
+    plural_id: 'taxis',
     translations: {
       en: 'taxi',
       de: 'Taxi',
@@ -873,14 +1999,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'taxis',
+    type: 'noun',
+    article: 'die',
+    value: 'Taxis',
+    singular_id: 'taxi',
+    plural_id: null,
+    translations: {
+      en: 'taxis',
+      de: 'Taxis',
+      es: 'taxis',
+      tr: 'taksiler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'telefon',
     type: 'noun',
     article: 'das',
-    singular: 'Telefon',
-    plural: 'Telefone',
+    value: 'Telefon',
+    singular_id: null,
+    plural_id: 'telefone',
     translations: {
       en: 'telephone',
       de: 'Telefon',
@@ -892,14 +2043,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'telefone',
+    type: 'noun',
+    article: 'die',
+    value: 'Telefone',
+    singular_id: 'telefon',
+    plural_id: null,
+    translations: {
+      en: 'telephones',
+      de: 'Telefone',
+      es: 'teléfonos',
+      tr: 'telefonlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'training',
     type: 'noun',
     article: 'das',
-    singular: 'Training',
-    plural: 'Trainings',
+    value: 'Training',
+    singular_id: null,
+    plural_id: 'trainings',
     translations: {
       en: 'training',
       de: 'Training',
@@ -911,14 +2087,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'trainings',
+    type: 'noun',
+    article: 'die',
+    value: 'Trainings',
+    singular_id: 'training',
+    plural_id: null,
+    translations: {
+      en: 'trainings',
+      de: 'Trainings',
+      es: 'entrenamientos',
+      tr: 'antrenmanlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'video',
     type: 'noun',
     article: 'das',
-    singular: 'Video',
-    plural: 'Videos',
+    value: 'Video',
+    singular_id: null,
+    plural_id: 'videos',
     translations: {
       en: 'video',
       de: 'Video',
@@ -930,14 +2131,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'videos',
+    type: 'noun',
+    article: 'die',
+    value: 'Videos',
+    singular_id: 'video',
+    plural_id: null,
+    translations: {
+      en: 'videos',
+      de: 'Videos',
+      es: 'videos',
+      tr: 'videolar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'viertel',
     type: 'noun',
     article: 'das',
-    singular: 'Viertel',
-    plural: 'Viertel',
+    value: 'Viertel',
+    singular_id: null,
+    plural_id: 'viertel-plural',
     translations: {
       en: 'quarter',
       de: 'Viertel',
@@ -949,14 +2175,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'viertel-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Viertel',
+    singular_id: 'viertel',
+    plural_id: null,
+    translations: {
+      en: 'quarters',
+      de: 'Viertel',
+      es: 'cuartos',
+      tr: 'çeyrekler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'wasser',
     type: 'noun',
     article: 'das',
-    singular: 'Wasser',
-    plural: 'Wasser',
+    value: 'Wasser',
+    singular_id: null,
+    plural_id: 'wasser-plural',
     translations: {
       en: 'water',
       de: 'Wasser',
@@ -968,14 +2219,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'wasser-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Wasser',
+    singular_id: 'wasser',
+    plural_id: null,
+    translations: {
+      en: 'waters',
+      de: 'Wasser',
+      es: 'aguas',
+      tr: 'sular'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'wetter',
     type: 'noun',
     article: 'das',
-    singular: 'Wetter',
-    plural: 'Wetter',
+    value: 'Wetter',
+    singular_id: null,
+    plural_id: 'wetter-plural',
     translations: {
       en: 'weather',
       de: 'Wetter',
@@ -987,14 +2263,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'wetter-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Wetter',
+    singular_id: 'wetter',
+    plural_id: null,
+    translations: {
+      en: 'weathers',
+      de: 'Wetter',
+      es: 'tiempos',
+      tr: 'hava durumular'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'wochenende',
     type: 'noun',
     article: 'das',
-    singular: 'Wochenende',
-    plural: 'Wochenenden',
+    value: 'Wochenende',
+    singular_id: null,
+    plural_id: 'wochenenden',
     translations: {
       en: 'weekend',
       de: 'Wochenende',
@@ -1006,14 +2307,39 @@ export const nouns: GermanNoun[] = [
       de: 'das',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'wochenenden',
+    type: 'noun',
+    article: 'die',
+    value: 'Wochenenden',
+    singular_id: 'wochenende',
+    plural_id: null,
+    translations: {
+      en: 'weekends',
+      de: 'Wochenenden',
+      es: 'fin de semanas',
+      tr: 'hafta sonular'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'abend',
     type: 'noun',
     article: 'der',
-    singular: 'Abend',
-    plural: 'Abende',
+    value: 'Abend',
+    singular_id: null,
+    plural_id: 'abende',
     translations: {
       en: 'evening',
       de: 'Abend',
@@ -1025,14 +2351,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'abende',
+    type: 'noun',
+    article: 'die',
+    value: 'Abende',
+    singular_id: 'abend',
+    plural_id: null,
+    translations: {
+      en: 'evenings',
+      de: 'Abende',
+      es: 'tardes',
+      tr: 'akşamlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'apfel',
     type: 'noun',
     article: 'der',
-    singular: 'Apfel',
-    plural: 'Äpfel',
+    value: 'Apfel',
+    singular_id: null,
+    plural_id: 'äpfel',
     translations: {
       en: 'apple',
       de: 'Apfel',
@@ -1044,14 +2395,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'äpfel',
+    type: 'noun',
+    article: 'die',
+    value: 'Äpfel',
+    singular_id: 'apfel',
+    plural_id: null,
+    translations: {
+      en: 'apples',
+      de: 'Äpfel',
+      es: 'manzanas',
+      tr: 'elmalar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'april',
     type: 'noun',
     article: 'der',
-    singular: 'April',
-    plural: 'April',
+    value: 'April',
+    singular_id: null,
+    plural_id: 'april-plural',
     translations: {
       en: 'April',
       de: 'April',
@@ -1063,14 +2439,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'april-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'April',
+    singular_id: 'april',
+    plural_id: null,
+    translations: {
+      en: 'Aprils',
+      de: 'April',
+      es: 'abriles',
+      tr: 'nisanlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'arzt',
     type: 'noun',
     article: 'der',
-    singular: 'Arzt',
-    plural: 'Ärzte',
+    value: 'Arzt',
+    singular_id: null,
+    plural_id: 'ärzte',
     translations: {
       en: 'doctor',
       de: 'Arzt',
@@ -1082,14 +2483,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'ärzte',
+    type: 'noun',
+    article: 'die',
+    value: 'Ärzte',
+    singular_id: 'arzt',
+    plural_id: null,
+    translations: {
+      en: 'doctors',
+      de: 'Ärzte',
+      es: 'médicos',
+      tr: 'doktorlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'august',
     type: 'noun',
     article: 'der',
-    singular: 'August',
-    plural: 'August',
+    value: 'August',
+    singular_id: null,
+    plural_id: 'august-plural',
     translations: {
       en: 'August',
       de: 'August',
@@ -1101,14 +2527,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'august-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'August',
+    singular_id: 'august',
+    plural_id: null,
+    translations: {
+      en: 'Augusts',
+      de: 'August',
+      es: 'agostos',
+      tr: 'ağustoslar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'baum',
     type: 'noun',
     article: 'der',
-    singular: 'Baum',
-    plural: 'Bäume',
+    value: 'Baum',
+    singular_id: null,
+    plural_id: 'bäume',
     translations: {
       en: 'tree',
       de: 'Baum',
@@ -1120,14 +2571,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'bäume',
+    type: 'noun',
+    article: 'die',
+    value: 'Bäume',
+    singular_id: 'baum',
+    plural_id: null,
+    translations: {
+      en: 'trees',
+      de: 'Bäume',
+      es: 'árboles',
+      tr: 'ağaçlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'becher',
     type: 'noun',
     article: 'der',
-    singular: 'Becher',
-    plural: 'Becher',
+    value: 'Becher',
+    singular_id: null,
+    plural_id: 'becher-plural',
     translations: {
       en: 'cup',
       de: 'Becher',
@@ -1139,14 +2615,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'becher-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Becher',
+    singular_id: 'becher',
+    plural_id: null,
+    translations: {
+      en: 'cups',
+      de: 'Becher',
+      es: 'vasos',
+      tr: 'bardaklar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'beruf',
     type: 'noun',
     article: 'der',
-    singular: 'Beruf',
-    plural: 'Berufe',
+    value: 'Beruf',
+    singular_id: null,
+    plural_id: 'berufe',
     translations: {
       en: 'profession',
       de: 'Beruf',
@@ -1158,14 +2659,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'berufe',
+    type: 'noun',
+    article: 'die',
+    value: 'Berufe',
+    singular_id: 'beruf',
+    plural_id: null,
+    translations: {
+      en: 'professions',
+      de: 'Berufe',
+      es: 'profesiónes',
+      tr: 'meslekler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'bleistift',
     type: 'noun',
     article: 'der',
-    singular: 'Bleistift',
-    plural: 'Bleistifte',
+    value: 'Bleistift',
+    singular_id: null,
+    plural_id: 'bleistifte',
     translations: {
       en: 'pencil',
       de: 'Bleistift',
@@ -1177,14 +2703,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'bleistifte',
+    type: 'noun',
+    article: 'die',
+    value: 'Bleistifte',
+    singular_id: 'bleistift',
+    plural_id: null,
+    translations: {
+      en: 'pencils',
+      de: 'Bleistifte',
+      es: 'lápices',
+      tr: 'kurşun kalemler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'bruder',
     type: 'noun',
     article: 'der',
-    singular: 'Bruder',
-    plural: 'Brüder',
+    value: 'Bruder',
+    singular_id: null,
+    plural_id: 'brüder',
     translations: {
       en: 'brother',
       de: 'Bruder',
@@ -1196,14 +2747,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'brüder',
+    type: 'noun',
+    article: 'die',
+    value: 'Brüder',
+    singular_id: 'bruder',
+    plural_id: null,
+    translations: {
+      en: 'brothers',
+      de: 'Brüder',
+      es: 'hermanos',
+      tr: 'erkek kardeşler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'cent',
     type: 'noun',
     article: 'der',
-    singular: 'Cent',
-    plural: 'Cent',
+    value: 'Cent',
+    singular_id: null,
+    plural_id: 'cent-plural',
     translations: {
       en: 'cent',
       de: 'Cent',
@@ -1215,14 +2791,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'cent-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Cent',
+    singular_id: 'cent',
+    plural_id: null,
+    translations: {
+      en: 'cents',
+      de: 'Cent',
+      es: 'céntimos',
+      tr: 'sentler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'cousin',
     type: 'noun',
     article: 'der',
-    singular: 'Cousin',
-    plural: 'Cousins',
+    value: 'Cousin',
+    singular_id: null,
+    plural_id: 'cousins',
     translations: {
       en: 'male cousin',
       de: 'Cousin',
@@ -1234,14 +2835,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'cousins',
+    type: 'noun',
+    article: 'die',
+    value: 'Cousins',
+    singular_id: 'cousin',
+    plural_id: null,
+    translations: {
+      en: 'male cousins',
+      de: 'Cousins',
+      es: 'primos',
+      tr: 'erkek kuzenler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'dank',
     type: 'noun',
     article: 'der',
-    singular: 'Dank',
-    plural: 'Dank',
+    value: 'Dank',
+    singular_id: null,
+    plural_id: 'dank-plural',
     translations: {
       en: 'thanks',
       de: 'Dank',
@@ -1253,14 +2879,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'las',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'dank-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Dank',
+    singular_id: 'dank',
+    plural_id: null,
+    translations: {
+      en: 'thankses',
+      de: 'Dank',
+      es: 'graciases',
+      tr: 'teşekkürler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'deutschkurs',
     type: 'noun',
     article: 'der',
-    singular: 'Deutschkurs',
-    plural: 'Deutschkurse',
+    value: 'Deutschkurs',
+    singular_id: null,
+    plural_id: 'deutschkurse',
     translations: {
       en: 'German course',
       de: 'Deutschkurs',
@@ -1272,14 +2923,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'deutschkurse',
+    type: 'noun',
+    article: 'die',
+    value: 'Deutschkurse',
+    singular_id: 'deutschkurs',
+    plural_id: null,
+    translations: {
+      en: 'German courses',
+      de: 'Deutschkurse',
+      es: 'curso de alemánes',
+      tr: 'Almanca kursular'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'dezember',
     type: 'noun',
     article: 'der',
-    singular: 'Dezember',
-    plural: 'Dezember',
+    value: 'Dezember',
+    singular_id: null,
+    plural_id: 'dezember-plural',
     translations: {
       en: 'December',
       de: 'Dezember',
@@ -1291,14 +2967,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'dezember-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Dezember',
+    singular_id: 'dezember',
+    plural_id: null,
+    translations: {
+      en: 'Decembers',
+      de: 'Dezember',
+      es: 'diciembres',
+      tr: 'aralıklar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'dienstag',
     type: 'noun',
     article: 'der',
-    singular: 'Dienstag',
-    plural: 'Dienstage',
+    value: 'Dienstag',
+    singular_id: null,
+    plural_id: 'dienstage',
     translations: {
       en: 'Tuesday',
       de: 'Dienstag',
@@ -1310,14 +3011,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'dienstage',
+    type: 'noun',
+    article: 'die',
+    value: 'Dienstage',
+    singular_id: 'dienstag',
+    plural_id: null,
+    translations: {
+      en: 'Tuesdays',
+      de: 'Dienstage',
+      es: 'marteses',
+      tr: 'salılar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'donnerstag',
     type: 'noun',
     article: 'der',
-    singular: 'Donnerstag',
-    plural: 'Donnerstage',
+    value: 'Donnerstag',
+    singular_id: null,
+    plural_id: 'donnerstage',
     translations: {
       en: 'Thursday',
       de: 'Donnerstag',
@@ -1329,14 +3055,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'donnerstage',
+    type: 'noun',
+    article: 'die',
+    value: 'Donnerstage',
+    singular_id: 'donnerstag',
+    plural_id: null,
+    translations: {
+      en: 'Thursdays',
+      de: 'Donnerstage',
+      es: 'jueveses',
+      tr: 'perşembeler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'drucker',
     type: 'noun',
     article: 'der',
-    singular: 'Drucker',
-    plural: 'Drucker',
+    value: 'Drucker',
+    singular_id: null,
+    plural_id: 'drucker-plural',
     translations: {
       en: 'printer',
       de: 'Drucker',
@@ -1348,14 +3099,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'drucker-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Drucker',
+    singular_id: 'drucker',
+    plural_id: null,
+    translations: {
+      en: 'printers',
+      de: 'Drucker',
+      es: 'impresoras',
+      tr: 'yazıcılar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'einkauf',
     type: 'noun',
     article: 'der',
-    singular: 'Einkauf',
-    plural: 'Einkäufe',
+    value: 'Einkauf',
+    singular_id: null,
+    plural_id: 'einkäufe',
     translations: {
       en: 'shopping',
       de: 'Einkauf',
@@ -1367,14 +3143,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'einkäufe',
+    type: 'noun',
+    article: 'die',
+    value: 'Einkäufe',
+    singular_id: 'einkauf',
+    plural_id: null,
+    translations: {
+      en: 'shoppings',
+      de: 'Einkäufe',
+      es: 'compras',
+      tr: 'alışverişler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'elektroniker',
     type: 'noun',
     article: 'der',
-    singular: 'Elektroniker',
-    plural: 'Elektroniker',
+    value: 'Elektroniker',
+    singular_id: null,
+    plural_id: 'elektroniker-plural',
     translations: {
       en: 'electronics technician',
       de: 'Elektroniker',
@@ -1386,14 +3187,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'elektroniker-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Elektroniker',
+    singular_id: 'elektroniker',
+    plural_id: null,
+    translations: {
+      en: 'electronics technicians',
+      de: 'Elektroniker',
+      es: 'técnico electrónicos',
+      tr: 'elektronik teknisyeniler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'enkel',
     type: 'noun',
     article: 'der',
-    singular: 'Enkel',
-    plural: 'Enkel',
+    value: 'Enkel',
+    singular_id: null,
+    plural_id: 'enkel-plural',
     translations: {
       en: 'grandson',
       de: 'Enkel',
@@ -1405,14 +3231,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'enkel-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Enkel',
+    singular_id: 'enkel',
+    plural_id: null,
+    translations: {
+      en: 'grandsons',
+      de: 'Enkel',
+      es: 'nietos',
+      tr: 'erkek torunlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'euro',
     type: 'noun',
     article: 'der',
-    singular: 'Euro',
-    plural: 'Euro',
+    value: 'Euro',
+    singular_id: null,
+    plural_id: 'euro-plural',
     translations: {
       en: 'euro',
       de: 'Euro',
@@ -1424,14 +3275,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'euro-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Euro',
+    singular_id: 'euro',
+    plural_id: null,
+    translations: {
+      en: 'euros',
+      de: 'Euro',
+      es: 'euros',
+      tr: 'avrolar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'familienname',
     type: 'noun',
     article: 'der',
-    singular: 'Familienname',
-    plural: 'Familiennamen',
+    value: 'Familienname',
+    singular_id: null,
+    plural_id: 'familiennamen',
     translations: {
       en: 'surname',
       de: 'Familienname',
@@ -1443,14 +3319,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'familiennamen',
+    type: 'noun',
+    article: 'die',
+    value: 'Familiennamen',
+    singular_id: 'familienname',
+    plural_id: null,
+    translations: {
+      en: 'surnames',
+      de: 'Familiennamen',
+      es: 'apellidos',
+      tr: 'soyadılar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'familienstand',
     type: 'noun',
     article: 'der',
-    singular: 'Familienstand',
-    plural: 'Familienstände',
+    value: 'Familienstand',
+    singular_id: null,
+    plural_id: 'familienstände',
     translations: {
       en: 'marital status',
       de: 'Familienstand',
@@ -1462,14 +3363,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'familienstände',
+    type: 'noun',
+    article: 'die',
+    value: 'Familienstände',
+    singular_id: 'familienstand',
+    plural_id: null,
+    translations: {
+      en: 'marital statuses',
+      de: 'Familienstände',
+      es: 'estado civiles',
+      tr: 'medeni durumlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'februar',
     type: 'noun',
     article: 'der',
-    singular: 'Februar',
-    plural: 'Februar',
+    value: 'Februar',
+    singular_id: null,
+    plural_id: 'februar-plural',
     translations: {
       en: 'February',
       de: 'Februar',
@@ -1481,14 +3407,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'februar-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Februar',
+    singular_id: 'februar',
+    plural_id: null,
+    translations: {
+      en: 'Februaries',
+      de: 'Februar',
+      es: 'febreros',
+      tr: 'şubatlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'fehler',
     type: 'noun',
     article: 'der',
-    singular: 'Fehler',
-    plural: 'Fehler',
+    value: 'Fehler',
+    singular_id: null,
+    plural_id: 'fehler-plural',
     translations: {
       en: 'mistake',
       de: 'Fehler',
@@ -1500,14 +3451,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'fehler-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Fehler',
+    singular_id: 'fehler',
+    plural_id: null,
+    translations: {
+      en: 'mistakes',
+      de: 'Fehler',
+      es: 'errores',
+      tr: 'hatalar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'film',
     type: 'noun',
     article: 'der',
-    singular: 'Film',
-    plural: 'Filme',
+    value: 'Film',
+    singular_id: null,
+    plural_id: 'filme',
     translations: {
       en: 'film',
       de: 'Film',
@@ -1519,14 +3495,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'filme',
+    type: 'noun',
+    article: 'die',
+    value: 'Filme',
+    singular_id: 'film',
+    plural_id: null,
+    translations: {
+      en: 'films',
+      de: 'Filme',
+      es: 'películas',
+      tr: 'filmler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'fisch',
     type: 'noun',
     article: 'der',
-    singular: 'Fisch',
-    plural: 'Fische',
+    value: 'Fisch',
+    singular_id: null,
+    plural_id: 'fische',
     translations: {
       en: 'fish',
       de: 'Fisch',
@@ -1538,14 +3539,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'fische',
+    type: 'noun',
+    article: 'die',
+    value: 'Fische',
+    singular_id: 'fisch',
+    plural_id: null,
+    translations: {
+      en: 'fishes',
+      de: 'Fische',
+      es: 'pescados',
+      tr: 'balıklar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'fotograf',
     type: 'noun',
     article: 'der',
-    singular: 'Fotograf',
-    plural: 'Fotografen',
+    value: 'Fotograf',
+    singular_id: null,
+    plural_id: 'fotografen',
     translations: {
       en: 'photographer',
       de: 'Fotograf',
@@ -1557,14 +3583,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'fotografen',
+    type: 'noun',
+    article: 'die',
+    value: 'Fotografen',
+    singular_id: 'fotograf',
+    plural_id: null,
+    translations: {
+      en: 'photographers',
+      de: 'Fotografen',
+      es: 'fotógrafos',
+      tr: 'fotoğrafçılar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'freitag',
     type: 'noun',
     article: 'der',
-    singular: 'Freitag',
-    plural: 'Freitage',
+    value: 'Freitag',
+    singular_id: null,
+    plural_id: 'freitage',
     translations: {
       en: 'Friday',
       de: 'Freitag',
@@ -1576,14 +3627,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'freitage',
+    type: 'noun',
+    article: 'die',
+    value: 'Freitage',
+    singular_id: 'freitag',
+    plural_id: null,
+    translations: {
+      en: 'Fridays',
+      de: 'Freitage',
+      es: 'vierneses',
+      tr: 'cumalar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'freund',
     type: 'noun',
     article: 'der',
-    singular: 'Freund',
-    plural: 'Freunde',
+    value: 'Freund',
+    singular_id: null,
+    plural_id: 'freunde',
     translations: {
       en: 'friend',
       de: 'Freund',
@@ -1595,14 +3671,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'freunde',
+    type: 'noun',
+    article: 'die',
+    value: 'Freunde',
+    singular_id: 'freund',
+    plural_id: null,
+    translations: {
+      en: 'friends',
+      de: 'Freunde',
+      es: 'amigos',
+      tr: 'arkadaşlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'friseur',
     type: 'noun',
     article: 'der',
-    singular: 'Friseur',
-    plural: 'Friseure',
+    value: 'Friseur',
+    singular_id: null,
+    plural_id: 'friseure',
     translations: {
       en: 'hairdresser',
       de: 'Friseur',
@@ -1614,14 +3715,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
   },
   {
-    id: 'Frühling',
+    id: 'friseure',
+    type: 'noun',
+    article: 'die',
+    value: 'Friseure',
+    singular_id: 'friseur',
+    plural_id: null,
+    translations: {
+      en: 'hairdressers',
+      de: 'Friseure',
+      es: 'peluqueros',
+      tr: 'kuaförler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'frühling',
     type: 'noun',
     article: 'der',
-    singular: 'Frühling',
-    plural: 'Frühlinge',
+    value: 'Frühling',
+    singular_id: null,
+    plural_id: 'frühlinge',
     translations: {
       en: 'spring',
       de: 'Frühling',
@@ -1633,14 +3759,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
   },
   {
-    id: 'Führerschein',
+    id: 'frühlinge',
+    type: 'noun',
+    article: 'die',
+    value: 'Frühlinge',
+    singular_id: 'frühling',
+    plural_id: null,
+    translations: {
+      en: 'springs',
+      de: 'Frühlinge',
+      es: 'primaveras',
+      tr: 'ilkbaharlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'führerschein',
     type: 'noun',
     article: 'der',
-    singular: 'Führerschein',
-    plural: 'Führerscheine',
+    value: 'Führerschein',
+    singular_id: null,
+    plural_id: 'führerscheine',
     translations: {
       en: 'driver license',
       de: 'Führerschein',
@@ -1652,14 +3803,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
   },
   {
-    id: 'Fußball',
+    id: 'führerscheine',
+    type: 'noun',
+    article: 'die',
+    value: 'Führerscheine',
+    singular_id: 'führerschein',
+    plural_id: null,
+    translations: {
+      en: 'driver licenses',
+      de: 'Führerscheine',
+      es: 'carné de conducires',
+      tr: 'ehliyetler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'fußball',
     type: 'noun',
     article: 'der',
-    singular: 'Fußball',
-    plural: 'Fußbälle',
+    value: 'Fußball',
+    singular_id: null,
+    plural_id: 'fußbälle',
     translations: {
       en: 'football',
       de: 'Fußball',
@@ -1671,14 +3847,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'fußbälle',
+    type: 'noun',
+    article: 'die',
+    value: 'Fußbälle',
+    singular_id: 'fußball',
+    plural_id: null,
+    translations: {
+      en: 'footballs',
+      de: 'Fußbälle',
+      es: 'fútboles',
+      tr: 'futbollar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'geburtstag',
     type: 'noun',
     article: 'der',
-    singular: 'Geburtstag',
-    plural: 'Geburtstage',
+    value: 'Geburtstag',
+    singular_id: null,
+    plural_id: 'geburtstage',
     translations: {
       en: 'birthday',
       de: 'Geburtstag',
@@ -1690,14 +3891,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'geburtstage',
+    type: 'noun',
+    article: 'die',
+    value: 'Geburtstage',
+    singular_id: 'geburtstag',
+    plural_id: null,
+    translations: {
+      en: 'birthdays',
+      de: 'Geburtstage',
+      es: 'cumpleañoses',
+      tr: 'doğum günüler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'geldbeutel',
     type: 'noun',
     article: 'der',
-    singular: 'Geldbeutel',
-    plural: 'Geldbeutel',
+    value: 'Geldbeutel',
+    singular_id: null,
+    plural_id: 'geldbeutel-plural',
     translations: {
       en: 'wallet',
       de: 'Geldbeutel',
@@ -1709,14 +3935,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
   },
   {
-    id: 'Großvater',
+    id: 'geldbeutel-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Geldbeutel',
+    singular_id: 'geldbeutel',
+    plural_id: null,
+    translations: {
+      en: 'wallets',
+      de: 'Geldbeutel',
+      es: 'monederos',
+      tr: 'cüzdanlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'großvater',
     type: 'noun',
     article: 'der',
-    singular: 'Großvater',
-    plural: 'Großväter',
+    value: 'Großvater',
+    singular_id: null,
+    plural_id: 'großväter',
     translations: {
       en: 'grandfather',
       de: 'Großvater',
@@ -1728,14 +3979,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'großväter',
+    type: 'noun',
+    article: 'die',
+    value: 'Großväter',
+    singular_id: 'großvater',
+    plural_id: null,
+    translations: {
+      en: 'grandfathers',
+      de: 'Großväter',
+      es: 'abuelos',
+      tr: 'büyükbabalar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'hausmann',
     type: 'noun',
     article: 'der',
-    singular: 'Hausmann',
-    plural: 'Hausmänner',
+    value: 'Hausmann',
+    singular_id: null,
+    plural_id: 'hausmänner',
     translations: {
       en: 'househusband',
       de: 'Hausmann',
@@ -1747,14 +4023,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'hausmänner',
+    type: 'noun',
+    article: 'die',
+    value: 'Hausmänner',
+    singular_id: 'hausmann',
+    plural_id: null,
+    translations: {
+      en: 'househusbands',
+      de: 'Hausmänner',
+      es: 'amo de casas',
+      tr: 'ev erkekleri'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'herbst',
     type: 'noun',
     article: 'der',
-    singular: 'Herbst',
-    plural: 'Herbste',
+    value: 'Herbst',
+    singular_id: null,
+    plural_id: 'herbste',
     translations: {
       en: 'autumn',
       de: 'Herbst',
@@ -1766,14 +4067,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'herbste',
+    type: 'noun',
+    article: 'die',
+    value: 'Herbste',
+    singular_id: 'herbst',
+    plural_id: null,
+    translations: {
+      en: 'autumns',
+      de: 'Herbste',
+      es: 'otoños',
+      tr: 'sonbaharlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'herr',
     type: 'noun',
     article: 'der',
-    singular: 'Herr',
-    plural: 'Herren',
+    value: 'Herr',
+    singular_id: null,
+    plural_id: 'herren',
     translations: {
       en: 'mister',
       de: 'Herr',
@@ -1785,14 +4111,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'herren',
+    type: 'noun',
+    article: 'die',
+    value: 'Herren',
+    singular_id: 'herr',
+    plural_id: null,
+    translations: {
+      en: 'misters',
+      de: 'Herren',
+      es: 'señores',
+      tr: 'baylar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'ingenieur',
     type: 'noun',
     article: 'der',
-    singular: 'Ingenieur',
-    plural: 'Ingenieure',
+    value: 'Ingenieur',
+    singular_id: null,
+    plural_id: 'ingenieure',
     translations: {
       en: 'engineer',
       de: 'Ingenieur',
@@ -1804,14 +4155,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'ingenieure',
+    type: 'noun',
+    article: 'die',
+    value: 'Ingenieure',
+    singular_id: 'ingenieur',
+    plural_id: null,
+    translations: {
+      en: 'engineers',
+      de: 'Ingenieure',
+      es: 'ingenieros',
+      tr: 'mühendisler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'januar',
     type: 'noun',
     article: 'der',
-    singular: 'Januar',
-    plural: 'Januar',
+    value: 'Januar',
+    singular_id: null,
+    plural_id: 'januar-plural',
     translations: {
       en: 'January',
       de: 'Januar',
@@ -1823,14 +4199,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'januar-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Januar',
+    singular_id: 'januar',
+    plural_id: null,
+    translations: {
+      en: 'Januaries',
+      de: 'Januar',
+      es: 'eneros',
+      tr: 'ocaklar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'joghurt',
     type: 'noun',
     article: 'der',
-    singular: 'Joghurt',
-    plural: 'Joghurts',
+    value: 'Joghurt',
+    singular_id: null,
+    plural_id: 'joghurts',
     translations: {
       en: 'yogurt',
       de: 'Joghurt',
@@ -1842,14 +4243,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'joghurts',
+    type: 'noun',
+    article: 'die',
+    value: 'Joghurts',
+    singular_id: 'joghurt',
+    plural_id: null,
+    translations: {
+      en: 'yogurts',
+      de: 'Joghurts',
+      es: 'yogures',
+      tr: 'yoğurtlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'jugendliche',
     type: 'noun',
     article: 'der',
-    singular: 'Jugendliche',
-    plural: 'Jugendlichen',
+    value: 'Jugendliche',
+    singular_id: null,
+    plural_id: 'jugendlichen',
     translations: {
       en: 'teenager',
       de: 'Jugendliche',
@@ -1861,14 +4287,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'jugendlichen',
+    type: 'noun',
+    article: 'die',
+    value: 'Jugendlichen',
+    singular_id: 'jugendliche',
+    plural_id: null,
+    translations: {
+      en: 'teenagers',
+      de: 'Jugendlichen',
+      es: 'jovenes',
+      tr: 'gençler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'juli',
     type: 'noun',
     article: 'der',
-    singular: 'Juli',
-    plural: 'Juli',
+    value: 'Juli',
+    singular_id: null,
+    plural_id: 'juli-plural',
     translations: {
       en: 'July',
       de: 'Juli',
@@ -1880,14 +4331,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'juli-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Juli',
+    singular_id: 'juli',
+    plural_id: null,
+    translations: {
+      en: 'Julies',
+      de: 'Juli',
+      es: 'julios',
+      tr: 'temmuzlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'juni',
     type: 'noun',
     article: 'der',
-    singular: 'Juni',
-    plural: 'Juni',
+    value: 'Juni',
+    singular_id: null,
+    plural_id: 'juni-plural',
     translations: {
       en: 'June',
       de: 'Juni',
@@ -1899,14 +4375,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'juni-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Juni',
+    singular_id: 'juni',
+    plural_id: null,
+    translations: {
+      en: 'Junes',
+      de: 'Juni',
+      es: 'junios',
+      tr: 'haziranlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'kaffee',
     type: 'noun',
     article: 'der',
-    singular: 'Kaffee',
-    plural: 'Kaffees',
+    value: 'Kaffee',
+    singular_id: null,
+    plural_id: 'kaffees',
     translations: {
       en: 'coffee',
       de: 'Kaffee',
@@ -1918,14 +4419,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'kaffees',
+    type: 'noun',
+    article: 'die',
+    value: 'Kaffees',
+    singular_id: 'kaffee',
+    plural_id: null,
+    translations: {
+      en: 'coffees',
+      de: 'Kaffees',
+      es: 'cafés',
+      tr: 'kahveler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'kalender',
     type: 'noun',
     article: 'der',
-    singular: 'Kalender',
-    plural: 'Kalender',
+    value: 'Kalender',
+    singular_id: null,
+    plural_id: 'kalender-plural',
     translations: {
       en: 'calendar',
       de: 'Kalender',
@@ -1937,14 +4463,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
   },
   {
-    id: 'Käse',
+    id: 'kalender-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Kalender',
+    singular_id: 'kalender',
+    plural_id: null,
+    translations: {
+      en: 'calendars',
+      de: 'Kalender',
+      es: 'calendarios',
+      tr: 'takvimler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'käse',
     type: 'noun',
     article: 'der',
-    singular: 'Käse',
-    plural: 'Käse',
+    value: 'Käse',
+    singular_id: null,
+    plural_id: 'käse-plural',
     translations: {
       en: 'cheese',
       de: 'Käse',
@@ -1956,14 +4507,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'käse-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Käse',
+    singular_id: 'käse',
+    plural_id: null,
+    translations: {
+      en: 'cheeses',
+      de: 'Käse',
+      es: 'quesos',
+      tr: 'peynirler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'kellner',
     type: 'noun',
     article: 'der',
-    singular: 'Kellner',
-    plural: 'Kellner',
+    value: 'Kellner',
+    singular_id: null,
+    plural_id: 'kellner-plural',
     translations: {
       en: 'waiter',
       de: 'Kellner',
@@ -1975,14 +4551,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'kellner-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Kellner',
+    singular_id: 'kellner',
+    plural_id: null,
+    translations: {
+      en: 'waiters',
+      de: 'Kellner',
+      es: 'camareros',
+      tr: 'garsonlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'kindergarten',
     type: 'noun',
     article: 'der',
-    singular: 'Kindergarten',
-    plural: 'Kindergärten',
+    value: 'Kindergarten',
+    singular_id: null,
+    plural_id: 'kindergärten',
     translations: {
       en: 'kindergarten',
       de: 'Kindergarten',
@@ -1994,14 +4595,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'kindergärten',
+    type: 'noun',
+    article: 'die',
+    value: 'Kindergärten',
+    singular_id: 'kindergarten',
+    plural_id: null,
+    translations: {
+      en: 'kindergartens',
+      de: 'Kindergärten',
+      es: 'jardín de infancias',
+      tr: 'anaokulular'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'kleber',
     type: 'noun',
     article: 'der',
-    singular: 'Kleber',
-    plural: 'Kleber',
+    value: 'Kleber',
+    singular_id: null,
+    plural_id: 'kleber-plural',
     translations: {
       en: 'glue',
       de: 'Kleber',
@@ -2013,14 +4639,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'kleber-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Kleber',
+    singular_id: 'kleber',
+    plural_id: null,
+    translations: {
+      en: 'glues',
+      de: 'Kleber',
+      es: 'pegamentos',
+      tr: 'yapıştırıcılar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'koch',
     type: 'noun',
     article: 'der',
-    singular: 'Koch',
-    plural: 'Köche',
+    value: 'Koch',
+    singular_id: null,
+    plural_id: 'köche',
     translations: {
       en: 'cook',
       de: 'Koch',
@@ -2032,14 +4683,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'köche',
+    type: 'noun',
+    article: 'die',
+    value: 'Köche',
+    singular_id: 'koch',
+    plural_id: null,
+    translations: {
+      en: 'cooks',
+      de: 'Köche',
+      es: 'cocineros',
+      tr: 'aşçılar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'koffer',
     type: 'noun',
     article: 'der',
-    singular: 'Koffer',
-    plural: 'Koffer',
+    value: 'Koffer',
+    singular_id: null,
+    plural_id: 'koffer-plural',
     translations: {
       en: 'suitcase',
       de: 'Koffer',
@@ -2051,14 +4727,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'koffer-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Koffer',
+    singular_id: 'koffer',
+    plural_id: null,
+    translations: {
+      en: 'suitcases',
+      de: 'Koffer',
+      es: 'maletas',
+      tr: 'bavullar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'kollege',
     type: 'noun',
     article: 'der',
-    singular: 'Kollege',
-    plural: 'Kollegen',
+    value: 'Kollege',
+    singular_id: null,
+    plural_id: 'kollegen',
     translations: {
       en: 'colleague',
       de: 'Kollege',
@@ -2070,14 +4771,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'kollegen',
+    type: 'noun',
+    article: 'die',
+    value: 'Kollegen',
+    singular_id: 'kollege',
+    plural_id: null,
+    translations: {
+      en: 'colleagues',
+      de: 'Kollegen',
+      es: 'compañeros',
+      tr: 'iş arkadaşılar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'krankenpfleger',
     type: 'noun',
     article: 'der',
-    singular: 'Krankenpfleger',
-    plural: 'Krankenpfleger',
+    value: 'Krankenpfleger',
+    singular_id: null,
+    plural_id: 'krankenpfleger-plural',
     translations: {
       en: 'male nurse',
       de: 'Krankenpfleger',
@@ -2089,14 +4815,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'krankenpfleger-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Krankenpfleger',
+    singular_id: 'krankenpfleger',
+    plural_id: null,
+    translations: {
+      en: 'male nurses',
+      de: 'Krankenpfleger',
+      es: 'enfermeros',
+      tr: 'erkek hemşireler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'kuchen',
     type: 'noun',
     article: 'der',
-    singular: 'Kuchen',
-    plural: 'Kuchen',
+    value: 'Kuchen',
+    singular_id: null,
+    plural_id: 'kuchen-plural',
     translations: {
       en: 'cake',
       de: 'Kuchen',
@@ -2108,14 +4859,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'kuchen-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Kuchen',
+    singular_id: 'kuchen',
+    plural_id: null,
+    translations: {
+      en: 'cakes',
+      de: 'Kuchen',
+      es: 'pasteles',
+      tr: 'kekler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'kugelschreiber',
     type: 'noun',
     article: 'der',
-    singular: 'Kugelschreiber',
-    plural: 'Kugelschreiber',
+    value: 'Kugelschreiber',
+    singular_id: null,
+    plural_id: 'kugelschreiber-plural',
     translations: {
       en: 'ballpoint pen',
       de: 'Kugelschreiber',
@@ -2127,14 +4903,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'kugelschreiber-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Kugelschreiber',
+    singular_id: 'kugelschreiber',
+    plural_id: null,
+    translations: {
+      en: 'ballpoint pens',
+      de: 'Kugelschreiber',
+      es: 'bolígrafos',
+      tr: 'tükenmez kalemler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'kunde',
     type: 'noun',
     article: 'der',
-    singular: 'Kunde',
-    plural: 'Kunden',
+    value: 'Kunde',
+    singular_id: null,
+    plural_id: 'kunden',
     translations: {
       en: 'customer',
       de: 'Kunde',
@@ -2146,14 +4947,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'kunden',
+    type: 'noun',
+    article: 'die',
+    value: 'Kunden',
+    singular_id: 'kunde',
+    plural_id: null,
+    translations: {
+      en: 'customers',
+      de: 'Kunden',
+      es: 'clientes',
+      tr: 'müşteriler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'kurs',
     type: 'noun',
     article: 'der',
-    singular: 'Kurs',
-    plural: 'Kurse',
+    value: 'Kurs',
+    singular_id: null,
+    plural_id: 'kurse',
     translations: {
       en: 'course',
       de: 'Kurs',
@@ -2165,14 +4991,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'kurse',
+    type: 'noun',
+    article: 'die',
+    value: 'Kurse',
+    singular_id: 'kurs',
+    plural_id: null,
+    translations: {
+      en: 'courses',
+      de: 'Kurse',
+      es: 'cursos',
+      tr: 'kurslar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'laden',
     type: 'noun',
     article: 'der',
-    singular: 'Laden',
-    plural: 'Läden',
+    value: 'Laden',
+    singular_id: null,
+    plural_id: 'läden',
     translations: {
       en: 'shop',
       de: 'Laden',
@@ -2184,14 +5035,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'läden',
+    type: 'noun',
+    article: 'die',
+    value: 'Läden',
+    singular_id: 'laden',
+    plural_id: null,
+    translations: {
+      en: 'shops',
+      de: 'Läden',
+      es: 'tiendas',
+      tr: 'dükkanlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'laptop',
     type: 'noun',
     article: 'der',
-    singular: 'Laptop',
-    plural: 'Laptops',
+    value: 'Laptop',
+    singular_id: null,
+    plural_id: 'laptops',
     translations: {
       en: 'laptop',
       de: 'Laptop',
@@ -2203,14 +5079,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'laptops',
+    type: 'noun',
+    article: 'die',
+    value: 'Laptops',
+    singular_id: 'laptop',
+    plural_id: null,
+    translations: {
+      en: 'laptops',
+      de: 'Laptops',
+      es: 'portátiles',
+      tr: 'dizüstü bilgisayarlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'lehrer',
     type: 'noun',
     article: 'der',
-    singular: 'Lehrer',
-    plural: 'Lehrer',
+    value: 'Lehrer',
+    singular_id: null,
+    plural_id: 'lehrer-plural',
     translations: {
       en: 'teacher',
       de: 'Lehrer',
@@ -2222,14 +5123,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'lehrer-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Lehrer',
+    singular_id: 'lehrer',
+    plural_id: null,
+    translations: {
+      en: 'teachers',
+      de: 'Lehrer',
+      es: 'profesores',
+      tr: 'öğretmenler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'liter',
     type: 'noun',
     article: 'der',
-    singular: 'Liter',
-    plural: 'Liter',
+    value: 'Liter',
+    singular_id: null,
+    plural_id: 'liter-plural',
     translations: {
       en: 'liter',
       de: 'Liter',
@@ -2241,14 +5167,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'liter-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Liter',
+    singular_id: 'liter',
+    plural_id: null,
+    translations: {
+      en: 'liters',
+      de: 'Liter',
+      es: 'litros',
+      tr: 'litreler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'mai',
     type: 'noun',
     article: 'der',
-    singular: 'Mai',
-    plural: 'Mai',
+    value: 'Mai',
+    singular_id: null,
+    plural_id: 'mai-plural',
     translations: {
       en: 'May',
       de: 'Mai',
@@ -2260,14 +5211,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'mai-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Mai',
+    singular_id: 'mai',
+    plural_id: null,
+    translations: {
+      en: 'Mays',
+      de: 'Mai',
+      es: 'mayos',
+      tr: 'mayıslar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'mann',
     type: 'noun',
     article: 'der',
-    singular: 'Mann',
-    plural: 'Männer',
+    value: 'Mann',
+    singular_id: null,
+    plural_id: 'männer',
     translations: {
       en: 'man',
       de: 'Mann',
@@ -2279,14 +5255,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
   },
   {
-    id: 'März',
+    id: 'männer',
+    type: 'noun',
+    article: 'die',
+    value: 'Männer',
+    singular_id: 'mann',
+    plural_id: null,
+    translations: {
+      en: 'men',
+      de: 'Männer',
+      es: 'hombres',
+      tr: 'adamlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'märz',
     type: 'noun',
     article: 'der',
-    singular: 'März',
-    plural: 'März',
+    value: 'März',
+    singular_id: null,
+    plural_id: 'märz-plural',
     translations: {
       en: 'March',
       de: 'März',
@@ -2298,14 +5299,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'märz-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'März',
+    singular_id: 'märz',
+    plural_id: null,
+    translations: {
+      en: 'Marches',
+      de: 'März',
+      es: 'marzos',
+      tr: 'martlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'mittag',
     type: 'noun',
     article: 'der',
-    singular: 'Mittag',
-    plural: 'Mittage',
+    value: 'Mittag',
+    singular_id: null,
+    plural_id: 'mittage',
     translations: {
       en: 'noon',
       de: 'Mittag',
@@ -2317,14 +5343,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'mittage',
+    type: 'noun',
+    article: 'die',
+    value: 'Mittage',
+    singular_id: 'mittag',
+    plural_id: null,
+    translations: {
+      en: 'noons',
+      de: 'Mittage',
+      es: 'mediodías',
+      tr: 'öğleler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'mittwoch',
     type: 'noun',
     article: 'der',
-    singular: 'Mittwoch',
-    plural: 'Mittwoche',
+    value: 'Mittwoch',
+    singular_id: null,
+    plural_id: 'mittwoche',
     translations: {
       en: 'Wednesday',
       de: 'Mittwoch',
@@ -2336,14 +5387,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'mittwoche',
+    type: 'noun',
+    article: 'die',
+    value: 'Mittwoche',
+    singular_id: 'mittwoch',
+    plural_id: null,
+    translations: {
+      en: 'Wednesdays',
+      de: 'Mittwoche',
+      es: 'miércoleses',
+      tr: 'çarşambalar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'monat',
     type: 'noun',
     article: 'der',
-    singular: 'Monat',
-    plural: 'Monate',
+    value: 'Monat',
+    singular_id: null,
+    plural_id: 'monate',
     translations: {
       en: 'month',
       de: 'Monat',
@@ -2355,14 +5431,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'monate',
+    type: 'noun',
+    article: 'die',
+    value: 'Monate',
+    singular_id: 'monat',
+    plural_id: null,
+    translations: {
+      en: 'months',
+      de: 'Monate',
+      es: 'meses',
+      tr: 'aylar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'montag',
     type: 'noun',
     article: 'der',
-    singular: 'Montag',
-    plural: 'Montage',
+    value: 'Montag',
+    singular_id: null,
+    plural_id: 'montage',
     translations: {
       en: 'Monday',
       de: 'Montag',
@@ -2374,14 +5475,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'montage',
+    type: 'noun',
+    article: 'die',
+    value: 'Montage',
+    singular_id: 'montag',
+    plural_id: null,
+    translations: {
+      en: 'Mondays',
+      de: 'Montage',
+      es: 'luneses',
+      tr: 'pazartesiler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'morgen',
     type: 'noun',
     article: 'der',
-    singular: 'Morgen',
-    plural: 'Morgen',
+    value: 'Morgen',
+    singular_id: null,
+    plural_id: 'morgen-plural',
     translations: {
       en: 'morning',
       de: 'Morgen',
@@ -2393,14 +5519,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'morgen-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Morgen',
+    singular_id: 'morgen',
+    plural_id: null,
+    translations: {
+      en: 'mornings',
+      de: 'Morgen',
+      es: 'mañanas',
+      tr: 'sabahlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'nachbar',
     type: 'noun',
     article: 'der',
-    singular: 'Nachbar',
-    plural: 'Nachbarn',
+    value: 'Nachbar',
+    singular_id: null,
+    plural_id: 'nachbarn',
     translations: {
       en: 'neighbor',
       de: 'Nachbar',
@@ -2412,14 +5563,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'nachbarn',
+    type: 'noun',
+    article: 'die',
+    value: 'Nachbarn',
+    singular_id: 'nachbar',
+    plural_id: null,
+    translations: {
+      en: 'neighbors',
+      de: 'Nachbarn',
+      es: 'vecinos',
+      tr: 'komşular'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'nachmittag',
     type: 'noun',
     article: 'der',
-    singular: 'Nachmittag',
-    plural: 'Nachmittage',
+    value: 'Nachmittag',
+    singular_id: null,
+    plural_id: 'nachmittage',
     translations: {
       en: 'afternoon',
       de: 'Nachmittag',
@@ -2431,14 +5607,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'nachmittage',
+    type: 'noun',
+    article: 'die',
+    value: 'Nachmittage',
+    singular_id: 'nachmittag',
+    plural_id: null,
+    translations: {
+      en: 'afternoons',
+      de: 'Nachmittage',
+      es: 'tardes',
+      tr: 'öğleden sonralar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'nachtisch',
     type: 'noun',
     article: 'der',
-    singular: 'Nachtisch',
-    plural: 'Nachtische',
+    value: 'Nachtisch',
+    singular_id: null,
+    plural_id: 'nachtische',
     translations: {
       en: 'dessert',
       de: 'Nachtisch',
@@ -2450,14 +5651,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'nachtische',
+    type: 'noun',
+    article: 'die',
+    value: 'Nachtische',
+    singular_id: 'nachtisch',
+    plural_id: null,
+    translations: {
+      en: 'desserts',
+      de: 'Nachtische',
+      es: 'postres',
+      tr: 'tatlılar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'name',
     type: 'noun',
     article: 'der',
-    singular: 'Name',
-    plural: 'Namen',
+    value: 'Name',
+    singular_id: null,
+    plural_id: 'namen',
     translations: {
       en: 'name',
       de: 'Name',
@@ -2469,14 +5695,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'namen',
+    type: 'noun',
+    article: 'die',
+    value: 'Namen',
+    singular_id: 'name',
+    plural_id: null,
+    translations: {
+      en: 'names',
+      de: 'Namen',
+      es: 'nombres',
+      tr: 'adlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'november',
     type: 'noun',
     article: 'der',
-    singular: 'November',
-    plural: 'November',
+    value: 'November',
+    singular_id: null,
+    plural_id: 'november-plural',
     translations: {
       en: 'November',
       de: 'November',
@@ -2488,14 +5739,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'november-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'November',
+    singular_id: 'november',
+    plural_id: null,
+    translations: {
+      en: 'Novembers',
+      de: 'November',
+      es: 'noviembres',
+      tr: 'kasımlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'oktober',
     type: 'noun',
     article: 'der',
-    singular: 'Oktober',
-    plural: 'Oktober',
+    value: 'Oktober',
+    singular_id: null,
+    plural_id: 'oktober-plural',
     translations: {
       en: 'October',
       de: 'Oktober',
@@ -2507,14 +5783,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'oktober-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Oktober',
+    singular_id: 'oktober',
+    plural_id: null,
+    translations: {
+      en: 'Octobers',
+      de: 'Oktober',
+      es: 'octubres',
+      tr: 'ekimler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'onkel',
     type: 'noun',
     article: 'der',
-    singular: 'Onkel',
-    plural: 'Onkel',
+    value: 'Onkel',
+    singular_id: null,
+    plural_id: 'onkel-plural',
     translations: {
       en: 'uncle',
       de: 'Onkel',
@@ -2526,14 +5827,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'onkel-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Onkel',
+    singular_id: 'onkel',
+    plural_id: null,
+    translations: {
+      en: 'uncles',
+      de: 'Onkel',
+      es: 'tíos',
+      tr: 'amcalar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'opa',
     type: 'noun',
     article: 'der',
-    singular: 'Opa',
-    plural: 'Opas',
+    value: 'Opa',
+    singular_id: null,
+    plural_id: 'opas',
     translations: {
       en: 'grandpa',
       de: 'Opa',
@@ -2545,14 +5871,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'opas',
+    type: 'noun',
+    article: 'die',
+    value: 'Opas',
+    singular_id: 'opa',
+    plural_id: null,
+    translations: {
+      en: 'grandpas',
+      de: 'Opas',
+      es: 'abuelos',
+      tr: 'dedeler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'partner',
     type: 'noun',
     article: 'der',
-    singular: 'Partner',
-    plural: 'Partner',
+    value: 'Partner',
+    singular_id: null,
+    plural_id: 'partner-plural',
     translations: {
       en: 'partner',
       de: 'Partner',
@@ -2564,14 +5915,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'partner-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Partner',
+    singular_id: 'partner',
+    plural_id: null,
+    translations: {
+      en: 'partners',
+      de: 'Partner',
+      es: 'parejas',
+      tr: 'partnerler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'pfannkuchen',
     type: 'noun',
     article: 'der',
-    singular: 'Pfannkuchen',
-    plural: 'Pfannkuchen',
+    value: 'Pfannkuchen',
+    singular_id: null,
+    plural_id: 'pfannkuchen-plural',
     translations: {
       en: 'pancake',
       de: 'Pfannkuchen',
@@ -2583,14 +5959,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'pfannkuchen-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Pfannkuchen',
+    singular_id: 'pfannkuchen',
+    plural_id: null,
+    translations: {
+      en: 'pancakes',
+      de: 'Pfannkuchen',
+      es: 'tortitas',
+      tr: 'krepler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'plan',
     type: 'noun',
     article: 'der',
-    singular: 'Plan',
-    plural: 'Pläne',
+    value: 'Plan',
+    singular_id: null,
+    plural_id: 'pläne',
     translations: {
       en: 'plan',
       de: 'Plan',
@@ -2602,14 +6003,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'pläne',
+    type: 'noun',
+    article: 'die',
+    value: 'Pläne',
+    singular_id: 'plan',
+    plural_id: null,
+    translations: {
+      en: 'plans',
+      de: 'Pläne',
+      es: 'planes',
+      tr: 'planlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'polizist',
     type: 'noun',
     article: 'der',
-    singular: 'Polizist',
-    plural: 'Polizisten',
+    value: 'Polizist',
+    singular_id: null,
+    plural_id: 'polizisten',
     translations: {
       en: 'police officer',
       de: 'Polizist',
@@ -2621,14 +6047,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'polizisten',
+    type: 'noun',
+    article: 'die',
+    value: 'Polizisten',
+    singular_id: 'polizist',
+    plural_id: null,
+    translations: {
+      en: 'police officers',
+      de: 'Polizisten',
+      es: 'policías',
+      tr: 'polisler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'punkt',
     type: 'noun',
     article: 'der',
-    singular: 'Punkt',
-    plural: 'Punkte',
+    value: 'Punkt',
+    singular_id: null,
+    plural_id: 'punkte',
     translations: {
       en: 'point',
       de: 'Punkt',
@@ -2640,14 +6091,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'punkte',
+    type: 'noun',
+    article: 'die',
+    value: 'Punkte',
+    singular_id: 'punkt',
+    plural_id: null,
+    translations: {
+      en: 'points',
+      de: 'Punkte',
+      es: 'puntos',
+      tr: 'noktalar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'quatsch',
     type: 'noun',
     article: 'der',
-    singular: 'Quatsch',
-    plural: 'Quatsch',
+    value: 'Quatsch',
+    singular_id: null,
+    plural_id: 'quatsch-plural',
     translations: {
       en: 'nonsense',
       de: 'Quatsch',
@@ -2659,14 +6135,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'quatsch-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Quatsch',
+    singular_id: 'quatsch',
+    plural_id: null,
+    translations: {
+      en: 'nonsenses',
+      de: 'Quatsch',
+      es: 'tonterías',
+      tr: 'saçmalıklar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'reis',
     type: 'noun',
     article: 'der',
-    singular: 'Reis',
-    plural: 'Reis',
+    value: 'Reis',
+    singular_id: null,
+    plural_id: 'reis-plural',
     translations: {
       en: 'rice',
       de: 'Reis',
@@ -2678,14 +6179,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'reis-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Reis',
+    singular_id: 'reis',
+    plural_id: null,
+    translations: {
+      en: 'rices',
+      de: 'Reis',
+      es: 'arroces',
+      tr: 'pirinçler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'rucksack',
     type: 'noun',
     article: 'der',
-    singular: 'Rucksack',
-    plural: 'Rucksäcke',
+    value: 'Rucksack',
+    singular_id: null,
+    plural_id: 'rucksäcke',
     translations: {
       en: 'backpack',
       de: 'Rucksack',
@@ -2697,14 +6223,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'rucksäcke',
+    type: 'noun',
+    article: 'die',
+    value: 'Rucksäcke',
+    singular_id: 'rucksack',
+    plural_id: null,
+    translations: {
+      en: 'backpacks',
+      de: 'Rucksäcke',
+      es: 'mochilas',
+      tr: 'sırt çantaları'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'saft',
     type: 'noun',
     article: 'der',
-    singular: 'Saft',
-    plural: 'Säfte',
+    value: 'Saft',
+    singular_id: null,
+    plural_id: 'säfte',
     translations: {
       en: 'juice',
       de: 'Saft',
@@ -2716,14 +6267,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'säfte',
+    type: 'noun',
+    article: 'die',
+    value: 'Säfte',
+    singular_id: 'saft',
+    plural_id: null,
+    translations: {
+      en: 'juices',
+      de: 'Säfte',
+      es: 'zumos',
+      tr: 'meyve suyular'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'salat',
     type: 'noun',
     article: 'der',
-    singular: 'Salat',
-    plural: 'Salate',
+    value: 'Salat',
+    singular_id: null,
+    plural_id: 'salate',
     translations: {
       en: 'salad',
       de: 'Salat',
@@ -2735,14 +6311,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'salate',
+    type: 'noun',
+    article: 'die',
+    value: 'Salate',
+    singular_id: 'salat',
+    plural_id: null,
+    translations: {
+      en: 'salads',
+      de: 'Salate',
+      es: 'ensaladas',
+      tr: 'salatalar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'samstag',
     type: 'noun',
     article: 'der',
-    singular: 'Samstag',
-    plural: 'Samstage',
+    value: 'Samstag',
+    singular_id: null,
+    plural_id: 'samstage',
     translations: {
       en: 'Saturday',
       de: 'Samstag',
@@ -2754,14 +6355,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
   },
   {
-    id: 'Sänger',
+    id: 'samstage',
+    type: 'noun',
+    article: 'die',
+    value: 'Samstage',
+    singular_id: 'samstag',
+    plural_id: null,
+    translations: {
+      en: 'Saturdays',
+      de: 'Samstage',
+      es: 'sábados',
+      tr: 'cumartesiler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'sänger',
     type: 'noun',
     article: 'der',
-    singular: 'Sänger',
-    plural: 'Sänger',
+    value: 'Sänger',
+    singular_id: null,
+    plural_id: 'sänger-plural',
     translations: {
       en: 'singer',
       de: 'Sänger',
@@ -2773,14 +6399,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'sänger-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Sänger',
+    singular_id: 'sänger',
+    plural_id: null,
+    translations: {
+      en: 'singers',
+      de: 'Sänger',
+      es: 'cantantes',
+      tr: 'şarkıcılar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'satz',
     type: 'noun',
     article: 'der',
-    singular: 'Satz',
-    plural: 'Sätze',
+    value: 'Satz',
+    singular_id: null,
+    plural_id: 'sätze',
     translations: {
       en: 'sentence',
       de: 'Satz',
@@ -2792,14 +6443,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'sätze',
+    type: 'noun',
+    article: 'die',
+    value: 'Sätze',
+    singular_id: 'satz',
+    plural_id: null,
+    translations: {
+      en: 'sentences',
+      de: 'Sätze',
+      es: 'frases',
+      tr: 'cümleler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'schauspieler',
     type: 'noun',
     article: 'der',
-    singular: 'Schauspieler',
-    plural: 'Schauspieler',
+    value: 'Schauspieler',
+    singular_id: null,
+    plural_id: 'schauspieler-plural',
     translations: {
       en: 'actor',
       de: 'Schauspieler',
@@ -2811,14 +6487,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'schauspieler-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Schauspieler',
+    singular_id: 'schauspieler',
+    plural_id: null,
+    translations: {
+      en: 'actors',
+      de: 'Schauspieler',
+      es: 'actores',
+      tr: 'oyuncular'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'schinken',
     type: 'noun',
     article: 'der',
-    singular: 'Schinken',
-    plural: 'Schinken',
+    value: 'Schinken',
+    singular_id: null,
+    plural_id: 'schinken-plural',
     translations: {
       en: 'ham',
       de: 'Schinken',
@@ -2830,14 +6531,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'schinken-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Schinken',
+    singular_id: 'schinken',
+    plural_id: null,
+    translations: {
+      en: 'hams',
+      de: 'Schinken',
+      es: 'jamónes',
+      tr: 'jambonlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'schirm',
     type: 'noun',
     article: 'der',
-    singular: 'Schirm',
-    plural: 'Schirme',
+    value: 'Schirm',
+    singular_id: null,
+    plural_id: 'schirme',
     translations: {
       en: 'umbrella',
       de: 'Schirm',
@@ -2849,14 +6575,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
   },
   {
-    id: 'Schlüssel',
+    id: 'schirme',
+    type: 'noun',
+    article: 'die',
+    value: 'Schirme',
+    singular_id: 'schirm',
+    plural_id: null,
+    translations: {
+      en: 'umbrellas',
+      de: 'Schirme',
+      es: 'paraguases',
+      tr: 'şemsiyeler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'schlüssel',
     type: 'noun',
     article: 'der',
-    singular: 'Schlüssel',
-    plural: 'Schlüssel',
+    value: 'Schlüssel',
+    singular_id: null,
+    plural_id: 'schlüssel-plural',
     translations: {
       en: 'key',
       de: 'Schlüssel',
@@ -2868,14 +6619,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'schlüssel-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Schlüssel',
+    singular_id: 'schlüssel',
+    plural_id: null,
+    translations: {
+      en: 'keys',
+      de: 'Schlüssel',
+      es: 'llaves',
+      tr: 'anahtarlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'september',
     type: 'noun',
     article: 'der',
-    singular: 'September',
-    plural: 'September',
+    value: 'September',
+    singular_id: null,
+    plural_id: 'september-plural',
     translations: {
       en: 'September',
       de: 'September',
@@ -2887,14 +6663,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'september-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'September',
+    singular_id: 'september',
+    plural_id: null,
+    translations: {
+      en: 'Septembers',
+      de: 'September',
+      es: 'septiembres',
+      tr: 'eylüller'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'single',
     type: 'noun',
     article: 'der',
-    singular: 'Single',
-    plural: 'Singles',
+    value: 'Single',
+    singular_id: null,
+    plural_id: 'singles',
     translations: {
       en: 'single person',
       de: 'Single',
@@ -2906,14 +6707,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'singles',
+    type: 'noun',
+    article: 'die',
+    value: 'Singles',
+    singular_id: 'single',
+    plural_id: null,
+    translations: {
+      en: 'single people',
+      de: 'Singles',
+      es: 'solteros',
+      tr: 'bekarlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'sohn',
     type: 'noun',
     article: 'der',
-    singular: 'Sohn',
-    plural: 'Söhne',
+    value: 'Sohn',
+    singular_id: null,
+    plural_id: 'söhne',
     translations: {
       en: 'son',
       de: 'Sohn',
@@ -2925,14 +6751,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'söhne',
+    type: 'noun',
+    article: 'die',
+    value: 'Söhne',
+    singular_id: 'sohn',
+    plural_id: null,
+    translations: {
+      en: 'sons',
+      de: 'Söhne',
+      es: 'hijos',
+      tr: 'oğullar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'sommer',
     type: 'noun',
     article: 'der',
-    singular: 'Sommer',
-    plural: 'Sommer',
+    value: 'Sommer',
+    singular_id: null,
+    plural_id: 'sommer-plural',
     translations: {
       en: 'summer',
       de: 'Sommer',
@@ -2944,14 +6795,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'sommer-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Sommer',
+    singular_id: 'sommer',
+    plural_id: null,
+    translations: {
+      en: 'summers',
+      de: 'Sommer',
+      es: 'veranos',
+      tr: 'yazlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'sonntag',
     type: 'noun',
     article: 'der',
-    singular: 'Sonntag',
-    plural: 'Sonntage',
+    value: 'Sonntag',
+    singular_id: null,
+    plural_id: 'sonntage',
     translations: {
       en: 'Sunday',
       de: 'Sonntag',
@@ -2963,14 +6839,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
   },
   {
-    id: 'Spaß',
+    id: 'sonntage',
+    type: 'noun',
+    article: 'die',
+    value: 'Sonntage',
+    singular_id: 'sonntag',
+    plural_id: null,
+    translations: {
+      en: 'Sundays',
+      de: 'Sonntage',
+      es: 'domingos',
+      tr: 'pazarlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'spaß',
     type: 'noun',
     article: 'der',
-    singular: 'Spaß',
-    plural: 'Spaß',
+    value: 'Spaß',
+    singular_id: null,
+    plural_id: 'spaß-plural',
     translations: {
       en: 'fun',
       de: 'Spaß',
@@ -2982,14 +6883,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'spaß-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Spaß',
+    singular_id: 'spaß',
+    plural_id: null,
+    translations: {
+      en: 'funs',
+      de: 'Spaß',
+      es: 'diversiónes',
+      tr: 'eğlenceler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'spieler',
     type: 'noun',
     article: 'der',
-    singular: 'Spieler',
-    plural: 'Spieler',
+    value: 'Spieler',
+    singular_id: null,
+    plural_id: 'spieler-plural',
     translations: {
       en: 'player',
       de: 'Spieler',
@@ -3001,14 +6927,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'spieler-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Spieler',
+    singular_id: 'spieler',
+    plural_id: null,
+    translations: {
+      en: 'players',
+      de: 'Spieler',
+      es: 'jugadores',
+      tr: 'oyuncular'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'sport',
     type: 'noun',
     article: 'der',
-    singular: 'Sport',
-    plural: 'Sport',
+    value: 'Sport',
+    singular_id: null,
+    plural_id: 'sport-plural',
     translations: {
       en: 'sport',
       de: 'Sport',
@@ -3020,14 +6971,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'sport-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Sport',
+    singular_id: 'sport',
+    plural_id: null,
+    translations: {
+      en: 'sports',
+      de: 'Sport',
+      es: 'deportes',
+      tr: 'sporlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'student',
     type: 'noun',
     article: 'der',
-    singular: 'Student',
-    plural: 'Studenten',
+    value: 'Student',
+    singular_id: null,
+    plural_id: 'studenten',
     translations: {
       en: 'student',
       de: 'Student',
@@ -3039,14 +7015,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'studenten',
+    type: 'noun',
+    article: 'die',
+    value: 'Studenten',
+    singular_id: 'student',
+    plural_id: null,
+    translations: {
+      en: 'students',
+      de: 'Studenten',
+      es: 'estudiantes',
+      tr: 'öğrenciler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'supermarkt',
     type: 'noun',
     article: 'der',
-    singular: 'Supermarkt',
-    plural: 'Supermärkte',
+    value: 'Supermarkt',
+    singular_id: null,
+    plural_id: 'supermärkte',
     translations: {
       en: 'supermarket',
       de: 'Supermarkt',
@@ -3058,14 +7059,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'supermärkte',
+    type: 'noun',
+    article: 'die',
+    value: 'Supermärkte',
+    singular_id: 'supermarkt',
+    plural_id: null,
+    translations: {
+      en: 'supermarkets',
+      de: 'Supermärkte',
+      es: 'supermercados',
+      tr: 'süpermarketler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'tag',
     type: 'noun',
     article: 'der',
-    singular: 'Tag',
-    plural: 'Tage',
+    value: 'Tag',
+    singular_id: null,
+    plural_id: 'tage',
     translations: {
       en: 'day',
       de: 'Tag',
@@ -3077,14 +7103,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'tage',
+    type: 'noun',
+    article: 'die',
+    value: 'Tage',
+    singular_id: 'tag',
+    plural_id: null,
+    translations: {
+      en: 'days',
+      de: 'Tage',
+      es: 'días',
+      tr: 'günler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'taxifahrer',
     type: 'noun',
     article: 'der',
-    singular: 'Taxifahrer',
-    plural: 'Taxifahrer',
+    value: 'Taxifahrer',
+    singular_id: null,
+    plural_id: 'taxifahrer-plural',
     translations: {
       en: 'taxi driver',
       de: 'Taxifahrer',
@@ -3096,14 +7147,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'taxifahrer-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Taxifahrer',
+    singular_id: 'taxifahrer',
+    plural_id: null,
+    translations: {
+      en: 'taxi drivers',
+      de: 'Taxifahrer',
+      es: 'taxistas',
+      tr: 'taksi şoförüler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'tee',
     type: 'noun',
     article: 'der',
-    singular: 'Tee',
-    plural: 'Tees',
+    value: 'Tee',
+    singular_id: null,
+    plural_id: 'tees',
     translations: {
       en: 'tea',
       de: 'Tee',
@@ -3115,14 +7191,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'tees',
+    type: 'noun',
+    article: 'die',
+    value: 'Tees',
+    singular_id: 'tee',
+    plural_id: null,
+    translations: {
+      en: 'teas',
+      de: 'Tees',
+      es: 'tés',
+      tr: 'çaylar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'termin',
     type: 'noun',
     article: 'der',
-    singular: 'Termin',
-    plural: 'Termine',
+    value: 'Termin',
+    singular_id: null,
+    plural_id: 'termine',
     translations: {
       en: 'appointment',
       de: 'Termin',
@@ -3134,14 +7235,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'termine',
+    type: 'noun',
+    article: 'die',
+    value: 'Termine',
+    singular_id: 'termin',
+    plural_id: null,
+    translations: {
+      en: 'appointments',
+      de: 'Termine',
+      es: 'citas',
+      tr: 'randevular'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'text',
     type: 'noun',
     article: 'der',
-    singular: 'Text',
-    plural: 'Texte',
+    value: 'Text',
+    singular_id: null,
+    plural_id: 'texte',
     translations: {
       en: 'text',
       de: 'Text',
@@ -3153,14 +7279,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'texte',
+    type: 'noun',
+    article: 'die',
+    value: 'Texte',
+    singular_id: 'text',
+    plural_id: null,
+    translations: {
+      en: 'texts',
+      de: 'Texte',
+      es: 'textos',
+      tr: 'metinler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'trainer',
     type: 'noun',
     article: 'der',
-    singular: 'Trainer',
-    plural: 'Trainer',
+    value: 'Trainer',
+    singular_id: null,
+    plural_id: 'trainer-plural',
     translations: {
       en: 'trainer',
       de: 'Trainer',
@@ -3172,14 +7323,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'trainer-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Trainer',
+    singular_id: 'trainer',
+    plural_id: null,
+    translations: {
+      en: 'trainers',
+      de: 'Trainer',
+      es: 'entrenadores',
+      tr: 'antrenörler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'urlaub',
     type: 'noun',
     article: 'der',
-    singular: 'Urlaub',
-    plural: 'Urlaube',
+    value: 'Urlaub',
+    singular_id: null,
+    plural_id: 'urlaube',
     translations: {
       en: 'vacation',
       de: 'Urlaub',
@@ -3191,14 +7367,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'las',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'urlaube',
+    type: 'noun',
+    article: 'die',
+    value: 'Urlaube',
+    singular_id: 'urlaub',
+    plural_id: null,
+    translations: {
+      en: 'vacations',
+      de: 'Urlaube',
+      es: 'vacacioneses',
+      tr: 'tatiller'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'vater',
     type: 'noun',
     article: 'der',
-    singular: 'Vater',
-    plural: 'Väter',
+    value: 'Vater',
+    singular_id: null,
+    plural_id: 'väter',
     translations: {
       en: 'father',
       de: 'Vater',
@@ -3210,14 +7411,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'väter',
+    type: 'noun',
+    article: 'die',
+    value: 'Väter',
+    singular_id: 'vater',
+    plural_id: null,
+    translations: {
+      en: 'fathers',
+      de: 'Väter',
+      es: 'padres',
+      tr: 'babalar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'verein',
     type: 'noun',
     article: 'der',
-    singular: 'Verein',
-    plural: 'Vereine',
+    value: 'Verein',
+    singular_id: null,
+    plural_id: 'vereine',
     translations: {
       en: 'club',
       de: 'Verein',
@@ -3229,14 +7455,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
   },
   {
-    id: 'Verkäufer',
+    id: 'vereine',
+    type: 'noun',
+    article: 'die',
+    value: 'Vereine',
+    singular_id: 'verein',
+    plural_id: null,
+    translations: {
+      en: 'clubs',
+      de: 'Vereine',
+      es: 'asociaciónes',
+      tr: 'dernekler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'verkäufer',
     type: 'noun',
     article: 'der',
-    singular: 'Verkäufer',
-    plural: 'Verkäufer',
+    value: 'Verkäufer',
+    singular_id: null,
+    plural_id: 'verkäufer-plural',
     translations: {
       en: 'salesperson',
       de: 'Verkäufer',
@@ -3248,14 +7499,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'verkäufer-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Verkäufer',
+    singular_id: 'verkäufer',
+    plural_id: null,
+    translations: {
+      en: 'salespersons',
+      de: 'Verkäufer',
+      es: 'vendedores',
+      tr: 'satıcılar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'vormittag',
     type: 'noun',
     article: 'der',
-    singular: 'Vormittag',
-    plural: 'Vormittage',
+    value: 'Vormittag',
+    singular_id: null,
+    plural_id: 'vormittage',
     translations: {
       en: 'morning',
       de: 'Vormittag',
@@ -3267,14 +7543,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'vormittage',
+    type: 'noun',
+    article: 'die',
+    value: 'Vormittage',
+    singular_id: 'vormittag',
+    plural_id: null,
+    translations: {
+      en: 'mornings',
+      de: 'Vormittage',
+      es: 'mañanas',
+      tr: 'öğleden önceler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'vorname',
     type: 'noun',
     article: 'der',
-    singular: 'Vorname',
-    plural: 'Vornamen',
+    value: 'Vorname',
+    singular_id: null,
+    plural_id: 'vornamen',
     translations: {
       en: 'first name',
       de: 'Vorname',
@@ -3286,14 +7587,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'vornamen',
+    type: 'noun',
+    article: 'die',
+    value: 'Vornamen',
+    singular_id: 'vorname',
+    plural_id: null,
+    translations: {
+      en: 'first names',
+      de: 'Vornamen',
+      es: 'nombre de pilas',
+      tr: 'adlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'winter',
     type: 'noun',
     article: 'der',
-    singular: 'Winter',
-    plural: 'Winter',
+    value: 'Winter',
+    singular_id: null,
+    plural_id: 'winter-plural',
     translations: {
       en: 'winter',
       de: 'Winter',
@@ -3305,14 +7631,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'winter-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Winter',
+    singular_id: 'winter',
+    plural_id: null,
+    translations: {
+      en: 'winters',
+      de: 'Winter',
+      es: 'inviernos',
+      tr: 'kışlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'wohnort',
     type: 'noun',
     article: 'der',
-    singular: 'Wohnort',
-    plural: 'Wohnorte',
+    value: 'Wohnort',
+    singular_id: null,
+    plural_id: 'wohnorte',
     translations: {
       en: 'place of residence',
       de: 'Wohnort',
@@ -3324,14 +7675,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'wohnorte',
+    type: 'noun',
+    article: 'die',
+    value: 'Wohnorte',
+    singular_id: 'wohnort',
+    plural_id: null,
+    translations: {
+      en: 'place of residences',
+      de: 'Wohnorte',
+      es: 'lugar de residencias',
+      tr: 'ikamet yeriler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'zahnarzt',
     type: 'noun',
     article: 'der',
-    singular: 'Zahnarzt',
-    plural: 'Zahnärzte',
+    value: 'Zahnarzt',
+    singular_id: null,
+    plural_id: 'zahnärzte',
     translations: {
       en: 'dentist',
       de: 'Zahnarzt',
@@ -3343,14 +7719,39 @@ export const nouns: GermanNoun[] = [
       de: 'der',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'zahnärzte',
+    type: 'noun',
+    article: 'die',
+    value: 'Zahnärzte',
+    singular_id: 'zahnarzt',
+    plural_id: null,
+    translations: {
+      en: 'dentists',
+      de: 'Zahnärzte',
+      es: 'dentistas',
+      tr: 'dişçiler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'adresse',
     type: 'noun',
     article: 'die',
-    singular: 'Adresse',
-    plural: 'Adressen',
+    value: 'Adresse',
+    singular_id: null,
+    plural_id: 'adressen',
     translations: {
       en: 'address',
       de: 'Adresse',
@@ -3362,14 +7763,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'adressen',
+    type: 'noun',
+    article: 'die',
+    value: 'Adressen',
+    singular_id: 'adresse',
+    plural_id: null,
+    translations: {
+      en: 'addresses',
+      de: 'Adressen',
+      es: 'direcciónes',
+      tr: 'adresler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'antwort',
     type: 'noun',
     article: 'die',
-    singular: 'Antwort',
-    plural: 'Antworten',
+    value: 'Antwort',
+    singular_id: null,
+    plural_id: 'antworten',
     translations: {
       en: 'answer',
       de: 'Antwort',
@@ -3381,14 +7807,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'antworten',
+    type: 'noun',
+    article: 'die',
+    value: 'Antworten',
+    singular_id: 'antwort',
+    plural_id: null,
+    translations: {
+      en: 'answers',
+      de: 'Antworten',
+      es: 'respuestas',
+      tr: 'cevaplar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'arbeit',
     type: 'noun',
     article: 'die',
-    singular: 'Arbeit',
-    plural: 'Arbeiten',
+    value: 'Arbeit',
+    singular_id: null,
+    plural_id: 'arbeiten',
     translations: {
       en: 'work',
       de: 'Arbeit',
@@ -3400,14 +7851,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
   },
   {
-    id: 'Ärztin',
+    id: 'arbeiten',
     type: 'noun',
     article: 'die',
-    singular: 'Ärztin',
-    plural: 'Ärztinnen',
+    value: 'Arbeiten',
+    singular_id: 'arbeit',
+    plural_id: null,
+    translations: {
+      en: 'works',
+      de: 'Arbeiten',
+      es: 'trabajos',
+      tr: 'işler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'ärztin',
+    type: 'noun',
+    article: 'die',
+    value: 'Ärztin',
+    singular_id: null,
+    plural_id: 'ärztinnen',
     translations: {
       en: 'female doctor',
       de: 'Ärztin',
@@ -3419,14 +7895,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'ärztinnen',
+    type: 'noun',
+    article: 'die',
+    value: 'Ärztinnen',
+    singular_id: 'ärztin',
+    plural_id: null,
+    translations: {
+      en: 'female doctors',
+      de: 'Ärztinnen',
+      es: 'médicas',
+      tr: 'kadın doktorlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'ausbildung',
     type: 'noun',
     article: 'die',
-    singular: 'Ausbildung',
-    plural: 'Ausbildungen',
+    value: 'Ausbildung',
+    singular_id: null,
+    plural_id: 'ausbildungen',
     translations: {
       en: 'training',
       de: 'Ausbildung',
@@ -3438,14 +7939,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'ausbildungen',
+    type: 'noun',
+    article: 'die',
+    value: 'Ausbildungen',
+    singular_id: 'ausbildung',
+    plural_id: null,
+    translations: {
+      en: 'trainings',
+      de: 'Ausbildungen',
+      es: 'formaciónes',
+      tr: 'eğitimler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'banane',
     type: 'noun',
     article: 'die',
-    singular: 'Banane',
-    plural: 'Bananen',
+    value: 'Banane',
+    singular_id: null,
+    plural_id: 'bananen',
     translations: {
       en: 'banana',
       de: 'Banane',
@@ -3457,14 +7983,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'bananen',
+    type: 'noun',
+    article: 'die',
+    value: 'Bananen',
+    singular_id: 'banane',
+    plural_id: null,
+    translations: {
+      en: 'bananas',
+      de: 'Bananen',
+      es: 'plátanos',
+      tr: 'muzlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'birne',
     type: 'noun',
     article: 'die',
-    singular: 'Birne',
-    plural: 'Birnen',
+    value: 'Birne',
+    singular_id: null,
+    plural_id: 'birnen',
     translations: {
       en: 'pear',
       de: 'Birne',
@@ -3476,14 +8027,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'birnen',
+    type: 'noun',
+    article: 'die',
+    value: 'Birnen',
+    singular_id: 'birne',
+    plural_id: null,
+    translations: {
+      en: 'pears',
+      de: 'Birnen',
+      es: 'peras',
+      tr: 'armutlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'blume',
     type: 'noun',
     article: 'die',
-    singular: 'Blume',
-    plural: 'Blumen',
+    value: 'Blume',
+    singular_id: null,
+    plural_id: 'blumen',
     translations: {
       en: 'flower',
       de: 'Blume',
@@ -3495,14 +8071,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'blumen',
+    type: 'noun',
+    article: 'die',
+    value: 'Blumen',
+    singular_id: 'blume',
+    plural_id: null,
+    translations: {
+      en: 'flowers',
+      de: 'Blumen',
+      es: 'flores',
+      tr: 'çiçekler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'briefmarke',
     type: 'noun',
     article: 'die',
-    singular: 'Briefmarke',
-    plural: 'Briefmarken',
+    value: 'Briefmarke',
+    singular_id: null,
+    plural_id: 'briefmarken',
     translations: {
       en: 'stamp',
       de: 'Briefmarke',
@@ -3514,14 +8115,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'briefmarken',
+    type: 'noun',
+    article: 'die',
+    value: 'Briefmarken',
+    singular_id: 'briefmarke',
+    plural_id: null,
+    translations: {
+      en: 'stamps',
+      de: 'Briefmarken',
+      es: 'sellos',
+      tr: 'posta pulular'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'brille',
     type: 'noun',
     article: 'die',
-    singular: 'Brille',
-    plural: 'Brillen',
+    value: 'Brille',
+    singular_id: null,
+    plural_id: 'brillen',
     translations: {
       en: 'glasses',
       de: 'Brille',
@@ -3533,14 +8159,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'las',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'brillen',
+    type: 'noun',
+    article: 'die',
+    value: 'Brillen',
+    singular_id: 'brille',
+    plural_id: null,
+    translations: {
+      en: 'glasseses',
+      de: 'Brillen',
+      es: 'gafases',
+      tr: 'gözlükler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'butter',
     type: 'noun',
     article: 'die',
-    singular: 'Butter',
-    plural: 'Butter',
+    value: 'Butter',
+    singular_id: null,
+    plural_id: 'butter-plural',
     translations: {
       en: 'butter',
       de: 'Butter',
@@ -3552,14 +8203,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'butter-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Butter',
+    singular_id: 'butter',
+    plural_id: null,
+    translations: {
+      en: 'butters',
+      de: 'Butter',
+      es: 'mantequillas',
+      tr: 'tereyağları'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'cousine',
     type: 'noun',
     article: 'die',
-    singular: 'Cousine',
-    plural: 'Cousinen',
+    value: 'Cousine',
+    singular_id: null,
+    plural_id: 'cousinen',
     translations: {
       en: 'female cousin',
       de: 'Cousine',
@@ -3571,14 +8247,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'cousinen',
+    type: 'noun',
+    article: 'die',
+    value: 'Cousinen',
+    singular_id: 'cousine',
+    plural_id: null,
+    translations: {
+      en: 'female cousins',
+      de: 'Cousinen',
+      es: 'primas',
+      tr: 'kız kuzenler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'dose',
     type: 'noun',
     article: 'die',
-    singular: 'Dose',
-    plural: 'Dosen',
+    value: 'Dose',
+    singular_id: null,
+    plural_id: 'dosen',
     translations: {
       en: 'can',
       de: 'Dose',
@@ -3590,14 +8291,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'dosen',
+    type: 'noun',
+    article: 'die',
+    value: 'Dosen',
+    singular_id: 'dose',
+    plural_id: null,
+    translations: {
+      en: 'cans',
+      de: 'Dosen',
+      es: 'latas',
+      tr: 'kutular'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'e-mail',
     type: 'noun',
     article: 'die',
-    singular: 'E-mail',
-    plural: 'E-mails',
+    value: 'E-mail',
+    singular_id: null,
+    plural_id: 'e-mails',
     translations: {
       en: 'email',
       de: 'E-mail',
@@ -3609,14 +8335,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'e-mails',
+    type: 'noun',
+    article: 'die',
+    value: 'E-mails',
+    singular_id: 'e-mail',
+    plural_id: null,
+    translations: {
+      en: 'emails',
+      de: 'E-mails',
+      es: 'correo electrónicos',
+      tr: 'e-postalar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'e-mail-adresse',
     type: 'noun',
     article: 'die',
-    singular: 'E-mail-Adresse',
-    plural: 'E-mail-Adressen',
+    value: 'E-mail-Adresse',
+    singular_id: null,
+    plural_id: 'e-mail-adressen',
     translations: {
       en: 'email address',
       de: 'E-mail-Adresse',
@@ -3628,14 +8379,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'e-mail-adressen',
+    type: 'noun',
+    article: 'die',
+    value: 'E-mail-Adressen',
+    singular_id: 'e-mail-adresse',
+    plural_id: null,
+    translations: {
+      en: 'email addresses',
+      de: 'E-mail-Adressen',
+      es: 'dirección de correo electrónicos',
+      tr: 'e-posta adresleri'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'elektronikerin',
     type: 'noun',
     article: 'die',
-    singular: 'Elektronikerin',
-    plural: 'Elektronikerinnen',
+    value: 'Elektronikerin',
+    singular_id: null,
+    plural_id: 'elektronikerinnen',
     translations: {
       en: 'female electronics technician',
       de: 'Elektronikerin',
@@ -3647,14 +8423,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'elektronikerinnen',
+    type: 'noun',
+    article: 'die',
+    value: 'Elektronikerinnen',
+    singular_id: 'elektronikerin',
+    plural_id: null,
+    translations: {
+      en: 'female electronics technicians',
+      de: 'Elektronikerinnen',
+      es: 'técnica electrónicas',
+      tr: 'kadın elektronik teknisyeniler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'eltern',
     type: 'noun',
     article: 'die',
-    singular: 'Eltern',
-    plural: 'Eltern',
+    value: 'Eltern',
+    singular_id: null,
+    plural_id: 'eltern-plural',
     translations: {
       en: 'parents',
       de: 'Eltern',
@@ -3666,14 +8467,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'los',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'eltern-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Eltern',
+    singular_id: 'eltern',
+    plural_id: null,
+    translations: {
+      en: 'parentses',
+      de: 'Eltern',
+      es: 'padreses',
+      tr: 'ebeveynlerler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'enkelin',
     type: 'noun',
     article: 'die',
-    singular: 'Enkelin',
-    plural: 'Enkelinnen',
+    value: 'Enkelin',
+    singular_id: null,
+    plural_id: 'enkelinnen',
     translations: {
       en: 'granddaughter',
       de: 'Enkelin',
@@ -3685,14 +8511,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'enkelinnen',
+    type: 'noun',
+    article: 'die',
+    value: 'Enkelinnen',
+    singular_id: 'enkelin',
+    plural_id: null,
+    translations: {
+      en: 'granddaughters',
+      de: 'Enkelinnen',
+      es: 'nietas',
+      tr: 'kız torunlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'entschuldigung',
     type: 'noun',
     article: 'die',
-    singular: 'Entschuldigung',
-    plural: 'Entschuldigungen',
+    value: 'Entschuldigung',
+    singular_id: null,
+    plural_id: 'entschuldigungen',
     translations: {
       en: 'apology',
       de: 'Entschuldigung',
@@ -3704,14 +8555,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'entschuldigungen',
+    type: 'noun',
+    article: 'die',
+    value: 'Entschuldigungen',
+    singular_id: 'entschuldigung',
+    plural_id: null,
+    translations: {
+      en: 'apologies',
+      de: 'Entschuldigungen',
+      es: 'disculpas',
+      tr: 'özürler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'familie',
     type: 'noun',
     article: 'die',
-    singular: 'Familie',
-    plural: 'Familien',
+    value: 'Familie',
+    singular_id: null,
+    plural_id: 'familien',
     translations: {
       en: 'family',
       de: 'Familie',
@@ -3723,14 +8599,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'familien',
+    type: 'noun',
+    article: 'die',
+    value: 'Familien',
+    singular_id: 'familie',
+    plural_id: null,
+    translations: {
+      en: 'families',
+      de: 'Familien',
+      es: 'familias',
+      tr: 'aileler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'farbe',
     type: 'noun',
     article: 'die',
-    singular: 'Farbe',
-    plural: 'Farben',
+    value: 'Farbe',
+    singular_id: null,
+    plural_id: 'farben',
     translations: {
       en: 'color',
       de: 'Farbe',
@@ -3742,14 +8643,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'farben',
+    type: 'noun',
+    article: 'die',
+    value: 'Farben',
+    singular_id: 'farbe',
+    plural_id: null,
+    translations: {
+      en: 'colors',
+      de: 'Farben',
+      es: 'colores',
+      tr: 'renkler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'flasche',
     type: 'noun',
     article: 'die',
-    singular: 'Flasche',
-    plural: 'Flaschen',
+    value: 'Flasche',
+    singular_id: null,
+    plural_id: 'flaschen',
     translations: {
       en: 'bottle',
       de: 'Flasche',
@@ -3761,14 +8687,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'flaschen',
+    type: 'noun',
+    article: 'die',
+    value: 'Flaschen',
+    singular_id: 'flasche',
+    plural_id: null,
+    translations: {
+      en: 'bottles',
+      de: 'Flaschen',
+      es: 'botellas',
+      tr: 'şişeler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'fotografin',
     type: 'noun',
     article: 'die',
-    singular: 'Fotografin',
-    plural: 'Fotografinnen',
+    value: 'Fotografin',
+    singular_id: null,
+    plural_id: 'fotografinnen',
     translations: {
       en: 'female photographer',
       de: 'Fotografin',
@@ -3780,14 +8731,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'fotografinnen',
+    type: 'noun',
+    article: 'die',
+    value: 'Fotografinnen',
+    singular_id: 'fotografin',
+    plural_id: null,
+    translations: {
+      en: 'female photographers',
+      de: 'Fotografinnen',
+      es: 'fotógrafas',
+      tr: 'kadın fotoğrafçılar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'frage',
     type: 'noun',
     article: 'die',
-    singular: 'Frage',
-    plural: 'Fragen',
+    value: 'Frage',
+    singular_id: null,
+    plural_id: 'fragen',
     translations: {
       en: 'question',
       de: 'Frage',
@@ -3799,14 +8775,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'fragen',
+    type: 'noun',
+    article: 'die',
+    value: 'Fragen',
+    singular_id: 'frage',
+    plural_id: null,
+    translations: {
+      en: 'questions',
+      de: 'Fragen',
+      es: 'preguntas',
+      tr: 'sorular'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'frau',
     type: 'noun',
     article: 'die',
-    singular: 'Frau',
-    plural: 'Frauen',
+    value: 'Frau',
+    singular_id: null,
+    plural_id: 'frauen',
     translations: {
       en: 'woman',
       de: 'Frau',
@@ -3818,14 +8819,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'frauen',
+    type: 'noun',
+    article: 'die',
+    value: 'Frauen',
+    singular_id: 'frau',
+    plural_id: null,
+    translations: {
+      en: 'women',
+      de: 'Frauen',
+      es: 'mujeres',
+      tr: 'kadınlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'freizeit',
     type: 'noun',
     article: 'die',
-    singular: 'Freizeit',
-    plural: 'Freizeiten',
+    value: 'Freizeit',
+    singular_id: null,
+    plural_id: 'freizeiten',
     translations: {
       en: 'free time',
       de: 'Freizeit',
@@ -3837,14 +8863,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'freizeiten',
+    type: 'noun',
+    article: 'die',
+    value: 'Freizeiten',
+    singular_id: 'freizeit',
+    plural_id: null,
+    translations: {
+      en: 'free times',
+      de: 'Freizeiten',
+      es: 'tiempo libres',
+      tr: 'boş zamanlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'freundin',
     type: 'noun',
     article: 'die',
-    singular: 'Freundin',
-    plural: 'Freundinnen',
+    value: 'Freundin',
+    singular_id: null,
+    plural_id: 'freundinnen',
     translations: {
       en: 'female friend',
       de: 'Freundin',
@@ -3856,14 +8907,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'freundinnen',
+    type: 'noun',
+    article: 'die',
+    value: 'Freundinnen',
+    singular_id: 'freundin',
+    plural_id: null,
+    translations: {
+      en: 'female friends',
+      de: 'Freundinnen',
+      es: 'amigas',
+      tr: 'kız arkadaşlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'friseurin',
     type: 'noun',
     article: 'die',
-    singular: 'Friseurin',
-    plural: 'Friseurinnen',
+    value: 'Friseurin',
+    singular_id: null,
+    plural_id: 'friseurinnen',
     translations: {
       en: 'female hairdresser',
       de: 'Friseurin',
@@ -3875,14 +8951,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'friseurinnen',
+    type: 'noun',
+    article: 'die',
+    value: 'Friseurinnen',
+    singular_id: 'friseurin',
+    plural_id: null,
+    translations: {
+      en: 'female hairdressers',
+      de: 'Friseurinnen',
+      es: 'peluqueras',
+      tr: 'kadın kuaförler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'geschwister',
     type: 'noun',
     article: 'die',
-    singular: 'Geschwister',
-    plural: 'Geschwister',
+    value: 'Geschwister',
+    singular_id: null,
+    plural_id: 'geschwister-plural',
     translations: {
       en: 'siblings',
       de: 'Geschwister',
@@ -3894,14 +8995,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'los',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'geschwister-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Geschwister',
+    singular_id: 'geschwister',
+    plural_id: null,
+    translations: {
+      en: 'siblingses',
+      de: 'Geschwister',
+      es: 'hermanoses',
+      tr: 'kardeşlerler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'gitarre',
     type: 'noun',
     article: 'die',
-    singular: 'Gitarre',
-    plural: 'Gitarren',
+    value: 'Gitarre',
+    singular_id: null,
+    plural_id: 'gitarren',
     translations: {
       en: 'guitar',
       de: 'Gitarre',
@@ -3913,14 +9039,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
   },
   {
-    id: 'Großeltern',
+    id: 'gitarren',
     type: 'noun',
     article: 'die',
-    singular: 'Großeltern',
-    plural: 'Großeltern',
+    value: 'Gitarren',
+    singular_id: 'gitarre',
+    plural_id: null,
+    translations: {
+      en: 'guitars',
+      de: 'Gitarren',
+      es: 'guitarras',
+      tr: 'gitarlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'großeltern',
+    type: 'noun',
+    article: 'die',
+    value: 'Großeltern',
+    singular_id: null,
+    plural_id: 'großeltern-plural',
     translations: {
       en: 'grandparents',
       de: 'Großeltern',
@@ -3932,14 +9083,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'los',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
   },
   {
-    id: 'Großmutter',
+    id: 'großeltern-plural',
     type: 'noun',
     article: 'die',
-    singular: 'Großmutter',
-    plural: 'Großmütter',
+    value: 'Großeltern',
+    singular_id: 'großeltern',
+    plural_id: null,
+    translations: {
+      en: 'grandparentses',
+      de: 'Großeltern',
+      es: 'abueloses',
+      tr: 'büyükanne ve büyükbabalar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'großmutter',
+    type: 'noun',
+    article: 'die',
+    value: 'Großmutter',
+    singular_id: null,
+    plural_id: 'großmütter',
     translations: {
       en: 'grandmother',
       de: 'Großmutter',
@@ -3951,14 +9127,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'großmütter',
+    type: 'noun',
+    article: 'die',
+    value: 'Großmütter',
+    singular_id: 'großmutter',
+    plural_id: null,
+    translations: {
+      en: 'grandmothers',
+      de: 'Großmütter',
+      es: 'abuelas',
+      tr: 'büyükanneler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'gruppe',
     type: 'noun',
     article: 'die',
-    singular: 'Gruppe',
-    plural: 'Gruppen',
+    value: 'Gruppe',
+    singular_id: null,
+    plural_id: 'gruppen',
     translations: {
       en: 'group',
       de: 'Gruppe',
@@ -3970,14 +9171,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'gruppen',
+    type: 'noun',
+    article: 'die',
+    value: 'Gruppen',
+    singular_id: 'gruppe',
+    plural_id: null,
+    translations: {
+      en: 'groups',
+      de: 'Gruppen',
+      es: 'grupos',
+      tr: 'gruplar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'hausaufgabe',
     type: 'noun',
     article: 'die',
-    singular: 'Hausaufgabe',
-    plural: 'Hausaufgaben',
+    value: 'Hausaufgabe',
+    singular_id: null,
+    plural_id: 'hausaufgaben',
     translations: {
       en: 'homework',
       de: 'Hausaufgabe',
@@ -3989,14 +9215,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'los',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'hausaufgaben',
+    type: 'noun',
+    article: 'die',
+    value: 'Hausaufgaben',
+    singular_id: 'hausaufgabe',
+    plural_id: null,
+    translations: {
+      en: 'homeworks',
+      de: 'Hausaufgaben',
+      es: 'debereses',
+      tr: 'ev ödeviler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'hausfrau',
     type: 'noun',
     article: 'die',
-    singular: 'Hausfrau',
-    plural: 'Hausfrauen',
+    value: 'Hausfrau',
+    singular_id: null,
+    plural_id: 'hausfrauen',
     translations: {
       en: 'housewife',
       de: 'Hausfrau',
@@ -4008,14 +9259,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'hausfrauen',
+    type: 'noun',
+    article: 'die',
+    value: 'Hausfrauen',
+    singular_id: 'hausfrau',
+    plural_id: null,
+    translations: {
+      en: 'housewives',
+      de: 'Hausfrauen',
+      es: 'ama de casas',
+      tr: 'ev hanımılar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'hausnummer',
     type: 'noun',
     article: 'die',
-    singular: 'Hausnummer',
-    plural: 'Hausnummern',
+    value: 'Hausnummer',
+    singular_id: null,
+    plural_id: 'hausnummern',
     translations: {
       en: 'house number',
       de: 'Hausnummer',
@@ -4027,14 +9303,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'hausnummern',
+    type: 'noun',
+    article: 'die',
+    value: 'Hausnummern',
+    singular_id: 'hausnummer',
+    plural_id: null,
+    translations: {
+      en: 'house numbers',
+      de: 'Hausnummern',
+      es: 'número de casas',
+      tr: 'kapı numaraları'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'hilfe',
     type: 'noun',
     article: 'die',
-    singular: 'Hilfe',
-    plural: 'Hilfen',
+    value: 'Hilfe',
+    singular_id: null,
+    plural_id: 'hilfen',
     translations: {
       en: 'help',
       de: 'Hilfe',
@@ -4046,14 +9347,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'hilfen',
+    type: 'noun',
+    article: 'die',
+    value: 'Hilfen',
+    singular_id: 'hilfe',
+    plural_id: null,
+    translations: {
+      en: 'helps',
+      de: 'Hilfen',
+      es: 'ayudas',
+      tr: 'yardımlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'information',
     type: 'noun',
     article: 'die',
-    singular: 'Information',
-    plural: 'Informationen',
+    value: 'Information',
+    singular_id: null,
+    plural_id: 'informationen',
     translations: {
       en: 'information',
       de: 'Information',
@@ -4065,14 +9391,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'informationen',
+    type: 'noun',
+    article: 'die',
+    value: 'Informationen',
+    singular_id: 'information',
+    plural_id: null,
+    translations: {
+      en: 'informations',
+      de: 'Informationen',
+      es: 'informaciónes',
+      tr: 'bilgiler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'ingenieurin',
     type: 'noun',
     article: 'die',
-    singular: 'Ingenieurin',
-    plural: 'Ingenieurinnen',
+    value: 'Ingenieurin',
+    singular_id: null,
+    plural_id: 'ingenieurinnen',
     translations: {
       en: 'female engineer',
       de: 'Ingenieurin',
@@ -4084,14 +9435,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'ingenieurinnen',
+    type: 'noun',
+    article: 'die',
+    value: 'Ingenieurinnen',
+    singular_id: 'ingenieurin',
+    plural_id: null,
+    translations: {
+      en: 'female engineers',
+      de: 'Ingenieurinnen',
+      es: 'ingenieras',
+      tr: 'kadın mühendisler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'kamera',
     type: 'noun',
     article: 'die',
-    singular: 'Kamera',
-    plural: 'Kameras',
+    value: 'Kamera',
+    singular_id: null,
+    plural_id: 'kameras',
     translations: {
       en: 'camera',
       de: 'Kamera',
@@ -4103,14 +9479,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'kameras',
+    type: 'noun',
+    article: 'die',
+    value: 'Kameras',
+    singular_id: 'kamera',
+    plural_id: null,
+    translations: {
+      en: 'cameras',
+      de: 'Kameras',
+      es: 'cámaras',
+      tr: 'kameralar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'kartoffel',
     type: 'noun',
     article: 'die',
-    singular: 'Kartoffel',
-    plural: 'Kartoffeln',
+    value: 'Kartoffel',
+    singular_id: null,
+    plural_id: 'kartoffeln',
     translations: {
       en: 'potato',
       de: 'Kartoffel',
@@ -4122,14 +9523,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'kartoffeln',
+    type: 'noun',
+    article: 'die',
+    value: 'Kartoffeln',
+    singular_id: 'kartoffel',
+    plural_id: null,
+    translations: {
+      en: 'potatos',
+      de: 'Kartoffeln',
+      es: 'patatas',
+      tr: 'patatesler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'kellnerin',
     type: 'noun',
     article: 'die',
-    singular: 'Kellnerin',
-    plural: 'Kellnerinnen',
+    value: 'Kellnerin',
+    singular_id: null,
+    plural_id: 'kellnerinnen',
     translations: {
       en: 'waitress',
       de: 'Kellnerin',
@@ -4141,14 +9567,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
   },
   {
-    id: 'Köchin',
+    id: 'kellnerinnen',
     type: 'noun',
     article: 'die',
-    singular: 'Köchin',
-    plural: 'Köchinnen',
+    value: 'Kellnerinnen',
+    singular_id: 'kellnerin',
+    plural_id: null,
+    translations: {
+      en: 'waitresses',
+      de: 'Kellnerinnen',
+      es: 'camareras',
+      tr: 'garson kadınlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'köchin',
+    type: 'noun',
+    article: 'die',
+    value: 'Köchin',
+    singular_id: null,
+    plural_id: 'köchinnen',
     translations: {
       en: 'female cook',
       de: 'Köchin',
@@ -4160,14 +9611,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'köchinnen',
+    type: 'noun',
+    article: 'die',
+    value: 'Köchinnen',
+    singular_id: 'köchin',
+    plural_id: null,
+    translations: {
+      en: 'female cooks',
+      de: 'Köchinnen',
+      es: 'cocineras',
+      tr: 'kadın aşçılar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'kollegin',
     type: 'noun',
     article: 'die',
-    singular: 'Kollegin',
-    plural: 'Kolleginnen',
+    value: 'Kollegin',
+    singular_id: null,
+    plural_id: 'kolleginnen',
     translations: {
       en: 'female colleague',
       de: 'Kollegin',
@@ -4179,14 +9655,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'kolleginnen',
+    type: 'noun',
+    article: 'die',
+    value: 'Kolleginnen',
+    singular_id: 'kollegin',
+    plural_id: null,
+    translations: {
+      en: 'female colleagues',
+      de: 'Kolleginnen',
+      es: 'compañeras',
+      tr: 'kadın iş arkadaşılar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'krankenpflegerin',
     type: 'noun',
     article: 'die',
-    singular: 'Krankenpflegerin',
-    plural: 'Krankenpflegerinnen',
+    value: 'Krankenpflegerin',
+    singular_id: null,
+    plural_id: 'krankenpflegerinnen',
     translations: {
       en: 'female nurse',
       de: 'Krankenpflegerin',
@@ -4198,14 +9699,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'krankenpflegerinnen',
+    type: 'noun',
+    article: 'die',
+    value: 'Krankenpflegerinnen',
+    singular_id: 'krankenpflegerin',
+    plural_id: null,
+    translations: {
+      en: 'female nurses',
+      de: 'Krankenpflegerinnen',
+      es: 'enfermeras',
+      tr: 'hemşireler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'kundin',
     type: 'noun',
     article: 'die',
-    singular: 'Kundin',
-    plural: 'Kundinnen',
+    value: 'Kundin',
+    singular_id: null,
+    plural_id: 'kundinnen',
     translations: {
       en: 'female customer',
       de: 'Kundin',
@@ -4217,14 +9743,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'kundinnen',
+    type: 'noun',
+    article: 'die',
+    value: 'Kundinnen',
+    singular_id: 'kundin',
+    plural_id: null,
+    translations: {
+      en: 'female customers',
+      de: 'Kundinnen',
+      es: 'clientas',
+      tr: 'kadın müşteriler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'lehrerin',
     type: 'noun',
     article: 'die',
-    singular: 'Lehrerin',
-    plural: 'Lehrerinnen',
+    value: 'Lehrerin',
+    singular_id: null,
+    plural_id: 'lehrerinnen',
     translations: {
       en: 'female teacher',
       de: 'Lehrerin',
@@ -4236,14 +9787,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'lehrerinnen',
+    type: 'noun',
+    article: 'die',
+    value: 'Lehrerinnen',
+    singular_id: 'lehrerin',
+    plural_id: null,
+    translations: {
+      en: 'female teachers',
+      de: 'Lehrerinnen',
+      es: 'profesoras',
+      tr: 'kadın öğretmenler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'mannschaft',
     type: 'noun',
     article: 'die',
-    singular: 'Mannschaft',
-    plural: 'Mannschaften',
+    value: 'Mannschaft',
+    singular_id: null,
+    plural_id: 'mannschaften',
     translations: {
       en: 'team',
       de: 'Mannschaft',
@@ -4255,14 +9831,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'mannschaften',
+    type: 'noun',
+    article: 'die',
+    value: 'Mannschaften',
+    singular_id: 'mannschaft',
+    plural_id: null,
+    translations: {
+      en: 'teams',
+      de: 'Mannschaften',
+      es: 'equipos',
+      tr: 'takımlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'milch',
     type: 'noun',
     article: 'die',
-    singular: 'Milch',
-    plural: 'Milch',
+    value: 'Milch',
+    singular_id: null,
+    plural_id: 'milch-plural',
     translations: {
       en: 'milk',
       de: 'Milch',
@@ -4274,14 +9875,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'milch-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Milch',
+    singular_id: 'milch',
+    plural_id: null,
+    translations: {
+      en: 'milks',
+      de: 'Milch',
+      es: 'leches',
+      tr: 'sütler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'musik',
     type: 'noun',
     article: 'die',
-    singular: 'Musik',
-    plural: 'Musik',
+    value: 'Musik',
+    singular_id: null,
+    plural_id: 'musik-plural',
     translations: {
       en: 'music',
       de: 'Musik',
@@ -4293,14 +9919,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'musik-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Musik',
+    singular_id: 'musik',
+    plural_id: null,
+    translations: {
+      en: 'musics',
+      de: 'Musik',
+      es: 'músicas',
+      tr: 'müzikler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'mutter',
     type: 'noun',
     article: 'die',
-    singular: 'Mutter',
-    plural: 'Mütter',
+    value: 'Mutter',
+    singular_id: null,
+    plural_id: 'mütter',
     translations: {
       en: 'mother',
       de: 'Mutter',
@@ -4312,14 +9963,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'mütter',
+    type: 'noun',
+    article: 'die',
+    value: 'Mütter',
+    singular_id: 'mutter',
+    plural_id: null,
+    translations: {
+      en: 'mothers',
+      de: 'Mütter',
+      es: 'madres',
+      tr: 'anneler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'nachbarin',
     type: 'noun',
     article: 'die',
-    singular: 'Nachbarin',
-    plural: 'Nachbarinnen',
+    value: 'Nachbarin',
+    singular_id: null,
+    plural_id: 'nachbarinnen',
     translations: {
       en: 'female neighbor',
       de: 'Nachbarin',
@@ -4331,14 +10007,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'nachbarinnen',
+    type: 'noun',
+    article: 'die',
+    value: 'Nachbarinnen',
+    singular_id: 'nachbarin',
+    plural_id: null,
+    translations: {
+      en: 'female neighbors',
+      de: 'Nachbarinnen',
+      es: 'vecinas',
+      tr: 'kadın komşular'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'nacht',
     type: 'noun',
     article: 'die',
-    singular: 'Nacht',
-    plural: 'Nächte',
+    value: 'Nacht',
+    singular_id: null,
+    plural_id: 'nächte',
     translations: {
       en: 'night',
       de: 'Nacht',
@@ -4350,14 +10051,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'nächte',
+    type: 'noun',
+    article: 'die',
+    value: 'Nächte',
+    singular_id: 'nacht',
+    plural_id: null,
+    translations: {
+      en: 'nights',
+      de: 'Nächte',
+      es: 'noches',
+      tr: 'geceler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'nummer',
     type: 'noun',
     article: 'die',
-    singular: 'Nummer',
-    plural: 'Nummern',
+    value: 'Nummer',
+    singular_id: null,
+    plural_id: 'nummern',
     translations: {
       en: 'number',
       de: 'Nummer',
@@ -4369,14 +10095,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
   },
   {
-    id: 'Öffnungszeit',
+    id: 'nummern',
     type: 'noun',
     article: 'die',
-    singular: 'Öffnungszeit',
-    plural: 'Öffnungszeiten',
+    value: 'Nummern',
+    singular_id: 'nummer',
+    plural_id: null,
+    translations: {
+      en: 'numbers',
+      de: 'Nummern',
+      es: 'números',
+      tr: 'numaralar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'öffnungszeit',
+    type: 'noun',
+    article: 'die',
+    value: 'Öffnungszeit',
+    singular_id: null,
+    plural_id: 'öffnungszeiten',
     translations: {
       en: 'opening time',
       de: 'Öffnungszeit',
@@ -4388,14 +10139,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'öffnungszeiten',
+    type: 'noun',
+    article: 'die',
+    value: 'Öffnungszeiten',
+    singular_id: 'öffnungszeit',
+    plural_id: null,
+    translations: {
+      en: 'opening times',
+      de: 'Öffnungszeiten',
+      es: 'horario de aperturas',
+      tr: 'açılış saatleri'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'oma',
     type: 'noun',
     article: 'die',
-    singular: 'Oma',
-    plural: 'Omas',
+    value: 'Oma',
+    singular_id: null,
+    plural_id: 'omas',
     translations: {
       en: 'grandma',
       de: 'Oma',
@@ -4407,14 +10183,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'omas',
+    type: 'noun',
+    article: 'die',
+    value: 'Omas',
+    singular_id: 'oma',
+    plural_id: null,
+    translations: {
+      en: 'grandmas',
+      de: 'Omas',
+      es: 'abuelas',
+      tr: 'nineler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'partnerin',
     type: 'noun',
     article: 'die',
-    singular: 'Partnerin',
-    plural: 'Partnerinnen',
+    value: 'Partnerin',
+    singular_id: null,
+    plural_id: 'partnerinnen',
     translations: {
       en: 'female partner',
       de: 'Partnerin',
@@ -4426,14 +10227,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'partnerinnen',
+    type: 'noun',
+    article: 'die',
+    value: 'Partnerinnen',
+    singular_id: 'partnerin',
+    plural_id: null,
+    translations: {
+      en: 'female partners',
+      de: 'Partnerinnen',
+      es: 'parejas',
+      tr: 'kadın partnerler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'pause',
     type: 'noun',
     article: 'die',
-    singular: 'Pause',
-    plural: 'Pausen',
+    value: 'Pause',
+    singular_id: null,
+    plural_id: 'pausen',
     translations: {
       en: 'break',
       de: 'Pause',
@@ -4445,14 +10271,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'pausen',
+    type: 'noun',
+    article: 'die',
+    value: 'Pausen',
+    singular_id: 'pause',
+    plural_id: null,
+    translations: {
+      en: 'breaks',
+      de: 'Pausen',
+      es: 'pausas',
+      tr: 'molalar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'polizistin',
     type: 'noun',
     article: 'die',
-    singular: 'Polizistin',
-    plural: 'Polizistinnen',
+    value: 'Polizistin',
+    singular_id: null,
+    plural_id: 'polizistinnen',
     translations: {
       en: 'policewoman',
       de: 'Polizistin',
@@ -4464,14 +10315,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'polizistinnen',
+    type: 'noun',
+    article: 'die',
+    value: 'Polizistinnen',
+    singular_id: 'polizistin',
+    plural_id: null,
+    translations: {
+      en: 'policewomans',
+      de: 'Polizistinnen',
+      es: 'policías',
+      tr: 'kadın polisler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'postleitzahl',
     type: 'noun',
     article: 'die',
-    singular: 'Postleitzahl',
-    plural: 'Postleitzahlen',
+    value: 'Postleitzahl',
+    singular_id: null,
+    plural_id: 'postleitzahlen',
     translations: {
       en: 'postal code',
       de: 'Postleitzahl',
@@ -4483,14 +10359,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'postleitzahlen',
+    type: 'noun',
+    article: 'die',
+    value: 'Postleitzahlen',
+    singular_id: 'postleitzahl',
+    plural_id: null,
+    translations: {
+      en: 'postal codes',
+      de: 'Postleitzahlen',
+      es: 'código postales',
+      tr: 'posta kodular'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'rechnung',
     type: 'noun',
     article: 'die',
-    singular: 'Rechnung',
-    plural: 'Rechnungen',
+    value: 'Rechnung',
+    singular_id: null,
+    plural_id: 'rechnungen',
     translations: {
       en: 'bill',
       de: 'Rechnung',
@@ -4502,14 +10403,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'rechnungen',
+    type: 'noun',
+    article: 'die',
+    value: 'Rechnungen',
+    singular_id: 'rechnung',
+    plural_id: null,
+    translations: {
+      en: 'bills',
+      de: 'Rechnungen',
+      es: 'facturas',
+      tr: 'faturalar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'sahne',
     type: 'noun',
     article: 'die',
-    singular: 'Sahne',
-    plural: 'Sahne',
+    value: 'Sahne',
+    singular_id: null,
+    plural_id: 'sahne-plural',
     translations: {
       en: 'cream',
       de: 'Sahne',
@@ -4521,14 +10447,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
   },
   {
-    id: 'Sängerin',
+    id: 'sahne-plural',
     type: 'noun',
     article: 'die',
-    singular: 'Sängerin',
-    plural: 'Sängerinnen',
+    value: 'Sahne',
+    singular_id: 'sahne',
+    plural_id: null,
+    translations: {
+      en: 'creams',
+      de: 'Sahne',
+      es: 'natas',
+      tr: 'kremalar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'sängerin',
+    type: 'noun',
+    article: 'die',
+    value: 'Sängerin',
+    singular_id: null,
+    plural_id: 'sängerinnen',
     translations: {
       en: 'female singer',
       de: 'Sängerin',
@@ -4540,14 +10491,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'sängerinnen',
+    type: 'noun',
+    article: 'die',
+    value: 'Sängerinnen',
+    singular_id: 'sängerin',
+    plural_id: null,
+    translations: {
+      en: 'female singers',
+      de: 'Sängerinnen',
+      es: 'cantantes',
+      tr: 'kadın şarkıcılar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'schauspielerin',
     type: 'noun',
     article: 'die',
-    singular: 'Schauspielerin',
-    plural: 'Schauspielerinnen',
+    value: 'Schauspielerin',
+    singular_id: null,
+    plural_id: 'schauspielerinnen',
     translations: {
       en: 'actress',
       de: 'Schauspielerin',
@@ -4559,14 +10535,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'schauspielerinnen',
+    type: 'noun',
+    article: 'die',
+    value: 'Schauspielerinnen',
+    singular_id: 'schauspielerin',
+    plural_id: null,
+    translations: {
+      en: 'actresses',
+      de: 'Schauspielerinnen',
+      es: 'actrices',
+      tr: 'kadın oyuncular'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'schere',
     type: 'noun',
     article: 'die',
-    singular: 'Schere',
-    plural: 'Scheren',
+    value: 'Schere',
+    singular_id: null,
+    plural_id: 'scheren',
     translations: {
       en: 'scissors',
       de: 'Schere',
@@ -4578,14 +10579,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'las',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'scheren',
+    type: 'noun',
+    article: 'die',
+    value: 'Scheren',
+    singular_id: 'schere',
+    plural_id: null,
+    translations: {
+      en: 'scissorses',
+      de: 'Scheren',
+      es: 'tijerases',
+      tr: 'makaslar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'schokolade',
     type: 'noun',
     article: 'die',
-    singular: 'Schokolade',
-    plural: 'Schokoladen',
+    value: 'Schokolade',
+    singular_id: null,
+    plural_id: 'schokoladen',
     translations: {
       en: 'chocolate',
       de: 'Schokolade',
@@ -4597,14 +10623,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'schokoladen',
+    type: 'noun',
+    article: 'die',
+    value: 'Schokoladen',
+    singular_id: 'schokolade',
+    plural_id: null,
+    translations: {
+      en: 'chocolates',
+      de: 'Schokoladen',
+      es: 'chocolates',
+      tr: 'çikolatalar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'schwester',
     type: 'noun',
     article: 'die',
-    singular: 'Schwester',
-    plural: 'Schwestern',
+    value: 'Schwester',
+    singular_id: null,
+    plural_id: 'schwestern',
     translations: {
       en: 'sister',
       de: 'Schwester',
@@ -4616,14 +10667,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'schwestern',
+    type: 'noun',
+    article: 'die',
+    value: 'Schwestern',
+    singular_id: 'schwester',
+    plural_id: null,
+    translations: {
+      en: 'sisters',
+      de: 'Schwestern',
+      es: 'hermanas',
+      tr: 'kız kardeşler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'serie',
     type: 'noun',
     article: 'die',
-    singular: 'Serie',
-    plural: 'Serien',
+    value: 'Serie',
+    singular_id: null,
+    plural_id: 'serien',
     translations: {
       en: 'series',
       de: 'Serie',
@@ -4635,14 +10711,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'serien',
+    type: 'noun',
+    article: 'die',
+    value: 'Serien',
+    singular_id: 'serie',
+    plural_id: null,
+    translations: {
+      en: 'serieses',
+      de: 'Serien',
+      es: 'series',
+      tr: 'diziler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'sonne',
     type: 'noun',
     article: 'die',
-    singular: 'Sonne',
-    plural: 'Sonnen',
+    value: 'Sonne',
+    singular_id: null,
+    plural_id: 'sonnen',
     translations: {
       en: 'sun',
       de: 'Sonne',
@@ -4654,14 +10755,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'sonnen',
+    type: 'noun',
+    article: 'die',
+    value: 'Sonnen',
+    singular_id: 'sonne',
+    plural_id: null,
+    translations: {
+      en: 'suns',
+      de: 'Sonnen',
+      es: 'soles',
+      tr: 'güneşler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'spielerin',
     type: 'noun',
     article: 'die',
-    singular: 'Spielerin',
-    plural: 'Spielerinnen',
+    value: 'Spielerin',
+    singular_id: null,
+    plural_id: 'spielerinnen',
     translations: {
       en: 'female player',
       de: 'Spielerin',
@@ -4673,14 +10799,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'spielerinnen',
+    type: 'noun',
+    article: 'die',
+    value: 'Spielerinnen',
+    singular_id: 'spielerin',
+    plural_id: null,
+    translations: {
+      en: 'female players',
+      de: 'Spielerinnen',
+      es: 'jugadoras',
+      tr: 'kadın oyuncular'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'sprache',
     type: 'noun',
     article: 'die',
-    singular: 'Sprache',
-    plural: 'Sprachen',
+    value: 'Sprache',
+    singular_id: null,
+    plural_id: 'sprachen',
     translations: {
       en: 'language',
       de: 'Sprache',
@@ -4692,14 +10843,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
   },
   {
-    id: 'Straße',
+    id: 'sprachen',
     type: 'noun',
     article: 'die',
-    singular: 'Straße',
-    plural: 'Straßen',
+    value: 'Sprachen',
+    singular_id: 'sprache',
+    plural_id: null,
+    translations: {
+      en: 'languages',
+      de: 'Sprachen',
+      es: 'idiomas',
+      tr: 'diller'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'straße',
+    type: 'noun',
+    article: 'die',
+    value: 'Straße',
+    singular_id: null,
+    plural_id: 'straßen',
     translations: {
       en: 'street',
       de: 'Straße',
@@ -4711,14 +10887,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'straßen',
+    type: 'noun',
+    article: 'die',
+    value: 'Straßen',
+    singular_id: 'straße',
+    plural_id: null,
+    translations: {
+      en: 'streets',
+      de: 'Straßen',
+      es: 'calles',
+      tr: 'sokaklar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'studentin',
     type: 'noun',
     article: 'die',
-    singular: 'Studentin',
-    plural: 'Studentinnen',
+    value: 'Studentin',
+    singular_id: null,
+    plural_id: 'studentinnen',
     translations: {
       en: 'female student',
       de: 'Studentin',
@@ -4730,14 +10931,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'studentinnen',
+    type: 'noun',
+    article: 'die',
+    value: 'Studentinnen',
+    singular_id: 'studentin',
+    plural_id: null,
+    translations: {
+      en: 'female students',
+      de: 'Studentinnen',
+      es: 'estudiantes',
+      tr: 'kadın öğrenciler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'stunde',
     type: 'noun',
     article: 'die',
-    singular: 'Stunde',
-    plural: 'Stunden',
+    value: 'Stunde',
+    singular_id: null,
+    plural_id: 'stunden',
     translations: {
       en: 'hour',
       de: 'Stunde',
@@ -4749,14 +10975,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'stunden',
+    type: 'noun',
+    article: 'die',
+    value: 'Stunden',
+    singular_id: 'stunde',
+    plural_id: null,
+    translations: {
+      en: 'hours',
+      de: 'Stunden',
+      es: 'horas',
+      tr: 'saatlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'suppe',
     type: 'noun',
     article: 'die',
-    singular: 'Suppe',
-    plural: 'Suppen',
+    value: 'Suppe',
+    singular_id: null,
+    plural_id: 'suppen',
     translations: {
       en: 'soup',
       de: 'Suppe',
@@ -4768,14 +11019,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'suppen',
+    type: 'noun',
+    article: 'die',
+    value: 'Suppen',
+    singular_id: 'suppe',
+    plural_id: null,
+    translations: {
+      en: 'soups',
+      de: 'Suppen',
+      es: 'sopas',
+      tr: 'çorbalar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'tante',
     type: 'noun',
     article: 'die',
-    singular: 'Tante',
-    plural: 'Tanten',
+    value: 'Tante',
+    singular_id: null,
+    plural_id: 'tanten',
     translations: {
       en: 'aunt',
       de: 'Tante',
@@ -4787,14 +11063,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'tanten',
+    type: 'noun',
+    article: 'die',
+    value: 'Tanten',
+    singular_id: 'tante',
+    plural_id: null,
+    translations: {
+      en: 'aunts',
+      de: 'Tanten',
+      es: 'tías',
+      tr: 'teyzeler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'tasche',
     type: 'noun',
     article: 'die',
-    singular: 'Tasche',
-    plural: 'Taschen',
+    value: 'Tasche',
+    singular_id: null,
+    plural_id: 'taschen',
     translations: {
       en: 'bag',
       de: 'Tasche',
@@ -4806,14 +11107,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'taschen',
+    type: 'noun',
+    article: 'die',
+    value: 'Taschen',
+    singular_id: 'tasche',
+    plural_id: null,
+    translations: {
+      en: 'bags',
+      de: 'Taschen',
+      es: 'bolsas',
+      tr: 'çantalar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'tasse',
     type: 'noun',
     article: 'die',
-    singular: 'Tasse',
-    plural: 'Tassen',
+    value: 'Tasse',
+    singular_id: null,
+    plural_id: 'tassen',
     translations: {
       en: 'cup',
       de: 'Tasse',
@@ -4825,14 +11151,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'tassen',
+    type: 'noun',
+    article: 'die',
+    value: 'Tassen',
+    singular_id: 'tasse',
+    plural_id: null,
+    translations: {
+      en: 'cups',
+      de: 'Tassen',
+      es: 'tazas',
+      tr: 'fincanlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'taxifahrerin',
     type: 'noun',
     article: 'die',
-    singular: 'Taxifahrerin',
-    plural: 'Taxifahrerinnen',
+    value: 'Taxifahrerin',
+    singular_id: null,
+    plural_id: 'taxifahrerinnen',
     translations: {
       en: 'female taxi driver',
       de: 'Taxifahrerin',
@@ -4844,14 +11195,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'taxifahrerinnen',
+    type: 'noun',
+    article: 'die',
+    value: 'Taxifahrerinnen',
+    singular_id: 'taxifahrerin',
+    plural_id: null,
+    translations: {
+      en: 'female taxi drivers',
+      de: 'Taxifahrerinnen',
+      es: 'taxistas',
+      tr: 'kadın taksi şoförüler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'telefonnummer',
     type: 'noun',
     article: 'die',
-    singular: 'Telefonnummer',
-    plural: 'Telefonnummern',
+    value: 'Telefonnummer',
+    singular_id: null,
+    plural_id: 'telefonnummern',
     translations: {
       en: 'phone number',
       de: 'Telefonnummer',
@@ -4863,14 +11239,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'telefonnummern',
+    type: 'noun',
+    article: 'die',
+    value: 'Telefonnummern',
+    singular_id: 'telefonnummer',
+    plural_id: null,
+    translations: {
+      en: 'phone numbers',
+      de: 'Telefonnummern',
+      es: 'número de teléfonos',
+      tr: 'telefon numaraları'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'temperatur',
     type: 'noun',
     article: 'die',
-    singular: 'Temperatur',
-    plural: 'Temperaturen',
+    value: 'Temperatur',
+    singular_id: null,
+    plural_id: 'temperaturen',
     translations: {
       en: 'temperature',
       de: 'Temperatur',
@@ -4882,14 +11283,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'temperaturen',
+    type: 'noun',
+    article: 'die',
+    value: 'Temperaturen',
+    singular_id: 'temperatur',
+    plural_id: null,
+    translations: {
+      en: 'temperatures',
+      de: 'Temperaturen',
+      es: 'temperaturas',
+      tr: 'sıcaklıklar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'tochter',
     type: 'noun',
     article: 'die',
-    singular: 'Tochter',
-    plural: 'Töchter',
+    value: 'Tochter',
+    singular_id: null,
+    plural_id: 'töchter',
     translations: {
       en: 'daughter',
       de: 'Tochter',
@@ -4901,14 +11327,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'töchter',
+    type: 'noun',
+    article: 'die',
+    value: 'Töchter',
+    singular_id: 'tochter',
+    plural_id: null,
+    translations: {
+      en: 'daughters',
+      de: 'Töchter',
+      es: 'hijas',
+      tr: 'kız evlatlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'tomate',
     type: 'noun',
     article: 'die',
-    singular: 'Tomate',
-    plural: 'Tomaten',
+    value: 'Tomate',
+    singular_id: null,
+    plural_id: 'tomaten',
     translations: {
       en: 'tomato',
       de: 'Tomate',
@@ -4920,14 +11371,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'tomaten',
+    type: 'noun',
+    article: 'die',
+    value: 'Tomaten',
+    singular_id: 'tomate',
+    plural_id: null,
+    translations: {
+      en: 'tomatos',
+      de: 'Tomaten',
+      es: 'tomates',
+      tr: 'domatesler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'trainerin',
     type: 'noun',
     article: 'die',
-    singular: 'Trainerin',
-    plural: 'Trainerinnen',
+    value: 'Trainerin',
+    singular_id: null,
+    plural_id: 'trainerinnen',
     translations: {
       en: 'female trainer',
       de: 'Trainerin',
@@ -4939,14 +11415,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
   },
   {
-    id: 'Tüte',
+    id: 'trainerinnen',
     type: 'noun',
     article: 'die',
-    singular: 'Tüte',
-    plural: 'Tüten',
+    value: 'Trainerinnen',
+    singular_id: 'trainerin',
+    plural_id: null,
+    translations: {
+      en: 'female trainers',
+      de: 'Trainerinnen',
+      es: 'entrenadoras',
+      tr: 'kadın antrenörler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'tüte',
+    type: 'noun',
+    article: 'die',
+    value: 'Tüte',
+    singular_id: null,
+    plural_id: 'tüten',
     translations: {
       en: 'bag',
       de: 'Tüte',
@@ -4958,14 +11459,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'tüten',
+    type: 'noun',
+    article: 'die',
+    value: 'Tüten',
+    singular_id: 'tüte',
+    plural_id: null,
+    translations: {
+      en: 'bags',
+      de: 'Tüten',
+      es: 'bolsas',
+      tr: 'poşetler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'uhr',
     type: 'noun',
     article: 'die',
-    singular: 'Uhr',
-    plural: 'Uhren',
+    value: 'Uhr',
+    singular_id: null,
+    plural_id: 'uhren',
     translations: {
       en: 'clock',
       de: 'Uhr',
@@ -4977,14 +11503,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'uhren',
+    type: 'noun',
+    article: 'die',
+    value: 'Uhren',
+    singular_id: 'uhr',
+    plural_id: null,
+    translations: {
+      en: 'clocks',
+      de: 'Uhren',
+      es: 'relojes',
+      tr: 'saatlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'unterschrift',
     type: 'noun',
     article: 'die',
-    singular: 'Unterschrift',
-    plural: 'Unterschriften',
+    value: 'Unterschrift',
+    singular_id: null,
+    plural_id: 'unterschriften',
     translations: {
       en: 'signature',
       de: 'Unterschrift',
@@ -4996,14 +11547,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
   },
   {
-    id: 'Verkäuferin',
+    id: 'unterschriften',
     type: 'noun',
     article: 'die',
-    singular: 'Verkäuferin',
-    plural: 'Verkäuferinnen',
+    value: 'Unterschriften',
+    singular_id: 'unterschrift',
+    plural_id: null,
+    translations: {
+      en: 'signatures',
+      de: 'Unterschriften',
+      es: 'firmas',
+      tr: 'imzalar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'verkäuferin',
+    type: 'noun',
+    article: 'die',
+    value: 'Verkäuferin',
+    singular_id: null,
+    plural_id: 'verkäuferinnen',
     translations: {
       en: 'saleswoman',
       de: 'Verkäuferin',
@@ -5015,14 +11591,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'verkäuferinnen',
+    type: 'noun',
+    article: 'die',
+    value: 'Verkäuferinnen',
+    singular_id: 'verkäuferin',
+    plural_id: null,
+    translations: {
+      en: 'saleswomans',
+      de: 'Verkäuferinnen',
+      es: 'vendedoras',
+      tr: 'kadın satıcılar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'wohnung',
     type: 'noun',
     article: 'die',
-    singular: 'Wohnung',
-    plural: 'Wohnungen',
+    value: 'Wohnung',
+    singular_id: null,
+    plural_id: 'wohnungen',
     translations: {
       en: 'apartment',
       de: 'Wohnung',
@@ -5034,14 +11635,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'wohnungen',
+    type: 'noun',
+    article: 'die',
+    value: 'Wohnungen',
+    singular_id: 'wohnung',
+    plural_id: null,
+    translations: {
+      en: 'apartments',
+      de: 'Wohnungen',
+      es: 'viviendas',
+      tr: 'daireler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'wurst',
     type: 'noun',
     article: 'die',
-    singular: 'Wurst',
-    plural: 'Würste',
+    value: 'Wurst',
+    singular_id: null,
+    plural_id: 'würste',
     translations: {
       en: 'sausage',
       de: 'Wurst',
@@ -5053,14 +11679,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'würste',
+    type: 'noun',
+    article: 'die',
+    value: 'Würste',
+    singular_id: 'wurst',
+    plural_id: null,
+    translations: {
+      en: 'sausages',
+      de: 'Würste',
+      es: 'salchichas',
+      tr: 'sosisler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'zahl',
     type: 'noun',
     article: 'die',
-    singular: 'Zahl',
-    plural: 'Zahlen',
+    value: 'Zahl',
+    singular_id: null,
+    plural_id: 'zahlen',
     translations: {
       en: 'number',
       de: 'Zahl',
@@ -5072,14 +11723,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
   },
   {
-    id: 'Zahnärztin',
+    id: 'zahlen',
     type: 'noun',
     article: 'die',
-    singular: 'Zahnärztin',
-    plural: 'Zahnärztinnen',
+    value: 'Zahlen',
+    singular_id: 'zahl',
+    plural_id: null,
+    translations: {
+      en: 'numbers',
+      de: 'Zahlen',
+      es: 'números',
+      tr: 'sayılar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'zahnärztin',
+    type: 'noun',
+    article: 'die',
+    value: 'Zahnärztin',
+    singular_id: null,
+    plural_id: 'zahnärztinnen',
     translations: {
       en: 'female dentist',
       de: 'Zahnärztin',
@@ -5091,14 +11767,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'la',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'zahnärztinnen',
+    type: 'noun',
+    article: 'die',
+    value: 'Zahnärztinnen',
+    singular_id: 'zahnärztin',
+    plural_id: null,
+    translations: {
+      en: 'female dentists',
+      de: 'Zahnärztinnen',
+      es: 'dentistas',
+      tr: 'kadın dişçiler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'zeit',
     type: 'noun',
     article: 'die',
-    singular: 'Zeit',
-    plural: 'Zeiten',
+    value: 'Zeit',
+    singular_id: null,
+    plural_id: 'zeiten',
     translations: {
       en: 'time',
       de: 'Zeit',
@@ -5110,14 +11811,39 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'zeiten',
+    type: 'noun',
+    article: 'die',
+    value: 'Zeiten',
+    singular_id: 'zeit',
+    plural_id: null,
+    translations: {
+      en: 'times',
+      de: 'Zeiten',
+      es: 'tiempos',
+      tr: 'zamanlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   },
   {
     id: 'zeitung',
     type: 'noun',
     article: 'die',
-    singular: 'Zeitung',
-    plural: 'Zeitungen',
+    value: 'Zeitung',
+    singular_id: null,
+    plural_id: 'zeitungen',
     translations: {
       en: 'newspaper',
       de: 'Zeitung',
@@ -5129,6 +11855,30 @@ export const nouns: GermanNoun[] = [
       de: 'die',
       es: 'el',
       tr: null
-    }
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'zeitungen',
+    type: 'noun',
+    article: 'die',
+    value: 'Zeitungen',
+    singular_id: 'zeitung',
+    plural_id: null,
+    translations: {
+      en: 'newspapers',
+      de: 'Zeitungen',
+      es: 'periódicos',
+      tr: 'gazeteler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
   }
 ]

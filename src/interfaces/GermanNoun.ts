@@ -5,10 +5,11 @@ export interface GermanNoun {
   id: string
   type: 'noun'
   article: GermanArticle
-  singular: string
-  plural: string
+  value: string
+  singular_id: string | null
+  plural_id: string | null
   translations: Record<Language, string>
   translationArticles: Record<Language, string | null>
-  levels?: string[]
-  categories?: string[]
+  levels: string[]
+  categories: string[]
 }

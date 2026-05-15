@@ -3,10 +3,6 @@ import { computed } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { useRouter } from 'vue-router'
 
-import { List } from '@lucide/vue'
-
-import type { Component } from 'vue'
-
 const router = useRouter()
 const {
   t
@@ -14,19 +10,16 @@ const {
 
 type ColumnItem = {
   label: string
-  icon: Component
   path: string
 }
 
 const leftColumn = computed<ColumnItem[]>(() => [
   {
     label: t('practice.labels.articles'),
-    icon: List,
     path: '/practice/articles'
   },
   {
     label: t('practice.labels.adjectivesMeanings'),
-    icon: List,
     path: '/practice/adjetives-meanings'
   }
 ])
@@ -34,12 +27,10 @@ const leftColumn = computed<ColumnItem[]>(() => [
 const rightColumn = computed<ColumnItem[]>(() => [
   {
     label: t('practice.labels.nounsMeanings'),
-    icon: List,
     path: '/practice/nouns-meanings'
   },
   {
     label: t('practice.labels.verbsMeanings'),
-    icon: List,
     path: '/practice/verbs-meanings'
   }
 ])
@@ -59,12 +50,6 @@ const rightColumn = computed<ColumnItem[]>(() => [
           class="btn min-h-32 min-w-32 flex items-center justify-center gap-2 w-full"
           @click="router.push(item.path)"
         >
-          <component
-            :is="item.icon"
-            :key="item.path"
-            class="size-4 flex-none"
-            aria-hidden="true"
-          />
           <span>
             {{ item.label }}
           </span>
@@ -81,12 +66,6 @@ const rightColumn = computed<ColumnItem[]>(() => [
           class="btn min-h-32 min-w-32 flex items-center justify-center gap-2 w-full"
           @click="router.push(item.path)"
         >
-          <component
-            :is="item.icon"
-            :key="item.path"
-            class="size-4 flex-none"
-            aria-hidden="true"
-          />
           <span>
             {{ item.label }}
           </span>

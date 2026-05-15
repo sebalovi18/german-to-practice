@@ -20,13 +20,13 @@ type Th = {
   class: string
 }
 
-const ths = computed<Th[]>(() => [
+const ths: Th[] = [
   {
     label: t('nouns.table.article'),
     class: thClass
   },
   {
-    label: t('nouns.table.singular'),
+    label: t('nouns.table.value'),
     class: thClass
   },
   {
@@ -45,7 +45,7 @@ const ths = computed<Th[]>(() => [
     label: '🇹🇷',
     class: thClass
   }
-])
+]
 
 // TABLE DATA
 type Td = {
@@ -54,21 +54,21 @@ type Td = {
   value: (noun: GermanNoun) => string
 }
 
-const tds: Td[] = [
+const tds = computed((): Td[] => [
   {
     label: 'Article',
     class: tdClass,
     value: noun => noun.article
   },
   {
-    label: 'Singular',
+    label: t('nouns.table.value'),
     class: tdClass,
-    value: noun => noun.singular
+    value: noun => noun.value
   },
   {
-    label: 'Plural',
+    label: t('nouns.table.plural'),
     class: tdClass,
-    value: noun => 'Die ' + noun.plural
+    value: noun => 'Die ' + (nouns.find(n => n.singular_id === noun.id)?.value || '-')
   },
   {
     label: '🇪🇸',
@@ -85,20 +85,24 @@ const tds: Td[] = [
     class: tdClass,
     value: noun => noun.translationArticles.tr ? noun.translationArticles.tr + ' ' + noun.translations.tr : noun.translations.tr
   }
-]
+])
 
 // FILTER SEARCH
 const filterSearch = ref('')
 
 // FILTER NOUNS
 const filteredNouns = computed(() => {
-  if (!filterSearch.value) return nouns
+  const singularNouns = nouns.filter(noun => noun.singular_id === null)
+
+  if (!filterSearch.value) return singularNouns
 
   const sanitizedFilterSearch = filterSearch.value.toLowerCase().trim()
 
-  return nouns.filter(noun =>
-    noun.singular.toLowerCase().includes(sanitizedFilterSearch)
-    || noun.plural.toLowerCase().includes(sanitizedFilterSearch)
+  return singularNouns.filter(noun =>
+    noun.id.toLowerCase().includes(sanitizedFilterSearch)
+    || noun.singular_id?.toLowerCase().includes(sanitizedFilterSearch)
+    || noun.plural_id?.toLowerCase().includes(sanitizedFilterSearch)
+    || noun.value.toLowerCase().includes(sanitizedFilterSearch)
     || noun.translations.en.toLowerCase().includes(sanitizedFilterSearch)
     || noun.translations.de.toLowerCase().includes(sanitizedFilterSearch)
     || noun.translations.es.toLowerCase().includes(sanitizedFilterSearch)

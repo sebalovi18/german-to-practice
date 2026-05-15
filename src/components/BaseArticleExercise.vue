@@ -147,14 +147,15 @@ const handleNext = () => {
         v-if="isFinished"
         :class="{
           'text-blue-500 font-bold': props.noun.article === 'der',
-          'text-pink-500 font-bold': props.noun.article === 'die',
-          'text-gray-500 font-bold': props.noun.article === 'das'
+          'text-gray-500 font-bold': props.noun.article === 'das',
+          'text-pink-500 font-bold': props.noun.article === 'die' && props.noun.plural_id,
+          'text-green-500 font-bold': props.noun.article === 'die' && !props.noun.plural_id
         }"
       >
         {{ props.noun.article }}
       </span>
       <span>
-        {{ props.noun.singular }}
+        {{ props.noun.value }}
       </span>
     </div>
 
