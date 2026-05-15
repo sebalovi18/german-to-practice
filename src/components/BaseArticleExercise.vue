@@ -2,6 +2,8 @@
 import { ref } from 'vue'
 import { useI18n } from 'vue-i18n'
 
+import { useArticles } from '@/composables/useArticle'
+
 import type { GermanArticle } from '@/interfaces/GermanArticle'
 import type { GermanNoun } from '@/interfaces/GermanNoun'
 
@@ -27,6 +29,10 @@ const {
   locale,
   t
 } = useI18n()
+
+const {
+  getArticleColor
+} = useArticles()
 
 // GERMAN ARTICLES
 const germanArticles = ['der', 'die', 'das'] as GermanArticle[]
@@ -146,10 +152,10 @@ const handleNext = () => {
       <span
         v-if="isFinished"
         :class="{
-          'text-blue-500 font-bold': props.noun.article === 'der',
-          'text-gray-500 font-bold': props.noun.article === 'das',
-          'text-pink-500 font-bold': props.noun.article === 'die' && props.noun.plural_id,
-          'text-green-500 font-bold': props.noun.article === 'die' && !props.noun.plural_id
+          'text-blue-500 font-bold': getArticleColor(props.noun) === 'masculine',
+          'text-gray-500 font-bold': getArticleColor(props.noun) === 'neuter',
+          'text-pink-500 font-bold': getArticleColor(props.noun) === 'feminine',
+          'text-green-500 font-bold': getArticleColor(props.noun) === 'plural'
         }"
       >
         {{ props.noun.article }}
