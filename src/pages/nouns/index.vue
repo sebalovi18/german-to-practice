@@ -26,7 +26,7 @@ const ths: Th[] = [
     class: thClass
   },
   {
-    label: t('nouns.table.value'),
+    label: t('nouns.table.singular'),
     class: thClass
   },
   {
@@ -61,7 +61,7 @@ const tds = computed((): Td[] => [
     value: noun => noun.article
   },
   {
-    label: t('nouns.table.value'),
+    label: t('nouns.table.singular'),
     class: tdClass,
     value: noun => noun.value
   },

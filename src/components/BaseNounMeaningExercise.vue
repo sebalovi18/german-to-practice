@@ -134,11 +134,20 @@ const handleNext = () => {
     class="space-y-4"
   >
     <!-- NOUN DISPLAY -->
-    <p
-      class="text-2xl font-bold text-center"
+    <div
+      class="flex items-center justify-center gap-2"
     >
-      {{ randomNouns[0]!.value }}
-    </p>
+      <span
+        class="text-2xl font-bold text-center"
+      >
+        {{ randomNouns[0]!.value }}
+      </span>
+      <sub
+        class="text-[10px] dark:text-background text-foreground"
+      >
+        {{ !randomNouns[0]!.plural_id ? '(Plural)' : '' }}
+      </sub>
+    </div>
 
     <!-- CARD OPTIONS -->
     <div
