@@ -341,7 +341,7 @@ export const nouns: GermanNoun[] = [
     translations: {
       en: 'croissants',
       de: 'Croissants',
-      es: 'cruasánes',
+      es: 'cruasanes',
       tr: 'kruvasanlar'
     },
     translationArticles: {
@@ -383,10 +383,10 @@ export const nouns: GermanNoun[] = [
     singular_id: 'deutsch',
     plural_id: null,
     translations: {
-      en: 'Germans',
+      en: 'German',
       de: 'Deutsch',
-      es: 'alemánes',
-      tr: 'Almancalar'
+      es: 'alemán',
+      tr: 'Almanca'
     },
     translationArticles: {
       en: 'the',
@@ -515,10 +515,10 @@ export const nouns: GermanNoun[] = [
     singular_id: 'englisch',
     plural_id: null,
     translations: {
-      en: 'Englishes',
+      en: 'English',
       de: 'Englisch',
-      es: 'ingléses',
-      tr: 'İngilizceler'
+      es: 'inglés',
+      tr: 'İngilizce'
     },
     translationArticles: {
       en: 'the',
@@ -779,10 +779,10 @@ export const nouns: GermanNoun[] = [
     singular_id: 'französisch',
     plural_id: null,
     translations: {
-      en: 'Frenches',
+      en: 'French',
       de: 'Französisch',
-      es: 'francéses',
-      tr: 'Fransızcalar'
+      es: 'francés',
+      tr: 'Fransızca'
     },
     translationArticles: {
       en: 'the',
@@ -867,7 +867,7 @@ export const nouns: GermanNoun[] = [
     singular_id: 'gemüse',
     plural_id: null,
     translations: {
-      en: 'vegetableses',
+      en: 'vegetables',
       de: 'Gemüse',
       es: 'verduras',
       tr: 'sebzeler'
@@ -1046,7 +1046,7 @@ export const nouns: GermanNoun[] = [
       en: 'mobile phones',
       de: 'Handys',
       es: 'móviles',
-      tr: 'cep telefonular'
+      tr: 'cep telefonları'
     },
     translationArticles: {
       en: 'the',
@@ -1131,9 +1131,9 @@ export const nouns: GermanNoun[] = [
     singular_id: 'herkunftsland',
     plural_id: null,
     translations: {
-      en: 'country of origins',
+      en: 'countries of origin',
       de: 'Herkunftsländer',
-      es: 'país de origenes',
+      es: 'países de origen',
       tr: 'menşe ülkeler'
     },
     translationArticles: {
@@ -1527,10 +1527,10 @@ export const nouns: GermanNoun[] = [
     singular_id: 'lebensmittel',
     plural_id: null,
     translations: {
-      en: 'grocerieses',
+      en: 'groceries',
       de: 'Lebensmittel',
-      es: 'alimentoses',
-      tr: 'gıda maddeleriler'
+      es: 'alimentos',
+      tr: 'gıda maddeleri'
     },
     translationArticles: {
       en: 'the',
@@ -1837,7 +1837,7 @@ export const nouns: GermanNoun[] = [
     translations: {
       en: 'picnics',
       de: 'Picknicks',
-      es: 'picnices',
+      es: 'picnics',
       tr: 'piknikler'
     },
     translationArticles: {
@@ -2278,7 +2278,7 @@ export const nouns: GermanNoun[] = [
       en: 'weathers',
       de: 'Wetter',
       es: 'tiempos',
-      tr: 'hava durumular'
+      tr: 'hava durumları'
     },
     translationArticles: {
       en: 'the',
@@ -2321,8 +2321,8 @@ export const nouns: GermanNoun[] = [
     translations: {
       en: 'weekends',
       de: 'Wochenenden',
-      es: 'fin de semanas',
-      tr: 'hafta sonular'
+      es: 'fines de semana',
+      tr: 'hafta sonları'
     },
     translationArticles: {
       en: 'the',
@@ -2673,7 +2673,7 @@ export const nouns: GermanNoun[] = [
     translations: {
       en: 'professions',
       de: 'Berufe',
-      es: 'profesiónes',
+      es: 'profesiones',
       tr: 'meslekler'
     },
     translationArticles: {
@@ -2891,9 +2891,9 @@ export const nouns: GermanNoun[] = [
     singular_id: 'dank',
     plural_id: null,
     translations: {
-      en: 'thankses',
+      en: 'thanks',
       de: 'Dank',
-      es: 'graciases',
+      es: 'gracias',
       tr: 'teşekkürler'
     },
     translationArticles: {
@@ -2937,8 +2937,8 @@ export const nouns: GermanNoun[] = [
     translations: {
       en: 'German courses',
       de: 'Deutschkurse',
-      es: 'curso de alemánes',
-      tr: 'Almanca kursular'
+      es: 'cursos de alemán',
+      tr: 'Almanca kursları'
     },
     translationArticles: {
       en: 'the',
@@ -3025,7 +3025,7 @@ export const nouns: GermanNoun[] = [
     translations: {
       en: 'Tuesdays',
       de: 'Dienstage',
-      es: 'marteses',
+      es: 'martes',
       tr: 'salılar'
     },
     translationArticles: {
@@ -3069,7 +3069,7 @@ export const nouns: GermanNoun[] = [
     translations: {
       en: 'Thursdays',
       de: 'Donnerstage',
-      es: 'jueveses',
+      es: 'jueves',
       tr: 'perşembeler'
     },
     translationArticles: {
@@ -3155,7 +3155,7 @@ export const nouns: GermanNoun[] = [
     singular_id: 'einkauf',
     plural_id: null,
     translations: {
-      en: 'shoppings',
+      en: 'purchases',
       de: 'Einkäufe',
       es: 'compras',
       tr: 'alışverişler'
@@ -3201,8 +3201,8 @@ export const nouns: GermanNoun[] = [
     translations: {
       en: 'electronics technicians',
       de: 'Elektroniker',
-      es: 'técnico electrónicos',
-      tr: 'elektronik teknisyeniler'
+      es: 'técnicos electrónicos',
+      tr: 'elektronik teknisyenler'
     },
     translationArticles: {
       en: 'the',
@@ -3334,7 +3334,7 @@ export const nouns: GermanNoun[] = [
       en: 'surnames',
       de: 'Familiennamen',
       es: 'apellidos',
-      tr: 'soyadılar'
+      tr: 'soyadları'
     },
     translationArticles: {
       en: 'the',
@@ -3377,7 +3377,7 @@ export const nouns: GermanNoun[] = [
     translations: {
       en: 'marital statuses',
       de: 'Familienstände',
-      es: 'estado civiles',
+      es: 'estados civiles',
       tr: 'medeni durumlar'
     },
     translationArticles: {
@@ -3641,7 +3641,7 @@ export const nouns: GermanNoun[] = [
     translations: {
       en: 'Fridays',
       de: 'Freitage',
-      es: 'vierneses',
+      es: 'viernes',
       tr: 'cumalar'
     },
     translationArticles: {
@@ -3793,7 +3793,7 @@ export const nouns: GermanNoun[] = [
     singular_id: null,
     plural_id: 'führerscheine',
     translations: {
-      en: 'driver license',
+      en: "driver's license",
       de: 'Führerschein',
       es: 'carné de conducir',
       tr: 'ehliyet'
@@ -3815,9 +3815,9 @@ export const nouns: GermanNoun[] = [
     singular_id: 'führerschein',
     plural_id: null,
     translations: {
-      en: 'driver licenses',
+      en: "driver's licenses",
       de: 'Führerscheine',
-      es: 'carné de conducires',
+      es: 'carnés de conducir',
       tr: 'ehliyetler'
     },
     translationArticles: {
@@ -3837,10 +3837,10 @@ export const nouns: GermanNoun[] = [
     singular_id: null,
     plural_id: 'fußbälle',
     translations: {
-      en: 'football',
+      en: 'soccer ball',
       de: 'Fußball',
-      es: 'fútbol',
-      tr: 'futbol'
+      es: 'balón de fútbol',
+      tr: 'futbol topu'
     },
     translationArticles: {
       en: 'the',
@@ -3859,10 +3859,10 @@ export const nouns: GermanNoun[] = [
     singular_id: 'fußball',
     plural_id: null,
     translations: {
-      en: 'footballs',
+      en: 'soccer balls',
       de: 'Fußbälle',
-      es: 'fútboles',
-      tr: 'futbollar'
+      es: 'balones de fútbol',
+      tr: 'futbol topları'
     },
     translationArticles: {
       en: 'the',
@@ -3905,8 +3905,8 @@ export const nouns: GermanNoun[] = [
     translations: {
       en: 'birthdays',
       de: 'Geburtstage',
-      es: 'cumpleañoses',
-      tr: 'doğum günüler'
+      es: 'cumpleaños',
+      tr: 'doğum günleri'
     },
     translationArticles: {
       en: 'the',
@@ -4037,7 +4037,7 @@ export const nouns: GermanNoun[] = [
     translations: {
       en: 'househusbands',
       de: 'Hausmänner',
-      es: 'amo de casas',
+      es: 'amos de casa',
       tr: 'ev erkekleri'
     },
     translationArticles: {
@@ -4301,7 +4301,7 @@ export const nouns: GermanNoun[] = [
     translations: {
       en: 'teenagers',
       de: 'Jugendlichen',
-      es: 'jovenes',
+      es: 'jóvenes',
       tr: 'gençler'
     },
     translationArticles: {
@@ -4609,8 +4609,8 @@ export const nouns: GermanNoun[] = [
     translations: {
       en: 'kindergartens',
       de: 'Kindergärten',
-      es: 'jardín de infancias',
-      tr: 'anaokulular'
+      es: 'jardines de infancia',
+      tr: 'anaokulları'
     },
     translationArticles: {
       en: 'the',
@@ -4786,7 +4786,7 @@ export const nouns: GermanNoun[] = [
       en: 'colleagues',
       de: 'Kollegen',
       es: 'compañeros',
-      tr: 'iş arkadaşılar'
+      tr: 'iş arkadaşları'
     },
     translationArticles: {
       en: 'the',
@@ -5401,7 +5401,7 @@ export const nouns: GermanNoun[] = [
     translations: {
       en: 'Wednesdays',
       de: 'Mittwoche',
-      es: 'miércoleses',
+      es: 'miércoles',
       tr: 'çarşambalar'
     },
     translationArticles: {
@@ -5489,7 +5489,7 @@ export const nouns: GermanNoun[] = [
     translations: {
       en: 'Mondays',
       de: 'Montage',
-      es: 'luneses',
+      es: 'lunes',
       tr: 'pazartesiler'
     },
     translationArticles: {
@@ -6147,7 +6147,7 @@ export const nouns: GermanNoun[] = [
     singular_id: 'quatsch',
     plural_id: null,
     translations: {
-      en: 'nonsenses',
+      en: 'nonsense',
       de: 'Quatsch',
       es: 'tonterías',
       tr: 'saçmalıklar'
@@ -6282,7 +6282,7 @@ export const nouns: GermanNoun[] = [
       en: 'juices',
       de: 'Säfte',
       es: 'zumos',
-      tr: 'meyve suyular'
+      tr: 'meyve suları'
     },
     translationArticles: {
       en: 'the',
@@ -6545,7 +6545,7 @@ export const nouns: GermanNoun[] = [
     translations: {
       en: 'hams',
       de: 'Schinken',
-      es: 'jamónes',
+      es: 'jamones',
       tr: 'jambonlar'
     },
     translationArticles: {
@@ -6589,7 +6589,7 @@ export const nouns: GermanNoun[] = [
     translations: {
       en: 'umbrellas',
       de: 'Schirme',
-      es: 'paraguases',
+      es: 'paraguas',
       tr: 'şemsiyeler'
     },
     translationArticles: {
@@ -6895,9 +6895,9 @@ export const nouns: GermanNoun[] = [
     singular_id: 'spaß',
     plural_id: null,
     translations: {
-      en: 'funs',
+      en: 'fun',
       de: 'Spaß',
-      es: 'diversiónes',
+      es: 'diversiones',
       tr: 'eğlenceler'
     },
     translationArticles: {
@@ -7162,7 +7162,7 @@ export const nouns: GermanNoun[] = [
       en: 'taxi drivers',
       de: 'Taxifahrer',
       es: 'taxistas',
-      tr: 'taksi şoförüler'
+      tr: 'taksi şoförleri'
     },
     translationArticles: {
       en: 'the',
@@ -7381,7 +7381,7 @@ export const nouns: GermanNoun[] = [
     translations: {
       en: 'vacations',
       de: 'Urlaube',
-      es: 'vacacioneses',
+      es: 'vacaciones',
       tr: 'tatiller'
     },
     translationArticles: {
@@ -7469,7 +7469,7 @@ export const nouns: GermanNoun[] = [
     translations: {
       en: 'clubs',
       de: 'Vereine',
-      es: 'asociaciónes',
+      es: 'asociaciones',
       tr: 'dernekler'
     },
     translationArticles: {
@@ -7601,7 +7601,7 @@ export const nouns: GermanNoun[] = [
     translations: {
       en: 'first names',
       de: 'Vornamen',
-      es: 'nombre de pilas',
+      es: 'nombres de pila',
       tr: 'adlar'
     },
     translationArticles: {
@@ -7687,10 +7687,10 @@ export const nouns: GermanNoun[] = [
     singular_id: 'wohnort',
     plural_id: null,
     translations: {
-      en: 'place of residences',
+      en: 'places of residence',
       de: 'Wohnorte',
-      es: 'lugar de residencias',
-      tr: 'ikamet yeriler'
+      es: 'lugares de residencia',
+      tr: 'ikamet yerleri'
     },
     translationArticles: {
       en: 'the',
@@ -7777,7 +7777,7 @@ export const nouns: GermanNoun[] = [
     translations: {
       en: 'addresses',
       de: 'Adressen',
-      es: 'direcciónes',
+      es: 'direcciones',
       tr: 'adresler'
     },
     translationArticles: {
@@ -7953,7 +7953,7 @@ export const nouns: GermanNoun[] = [
     translations: {
       en: 'trainings',
       de: 'Ausbildungen',
-      es: 'formaciónes',
+      es: 'formaciones',
       tr: 'eğitimler'
     },
     translationArticles: {
@@ -8130,7 +8130,7 @@ export const nouns: GermanNoun[] = [
       en: 'stamps',
       de: 'Briefmarken',
       es: 'sellos',
-      tr: 'posta pulular'
+      tr: 'posta pulları'
     },
     translationArticles: {
       en: 'the',
@@ -8171,9 +8171,9 @@ export const nouns: GermanNoun[] = [
     singular_id: 'brille',
     plural_id: null,
     translations: {
-      en: 'glasseses',
+      en: 'glasses',
       de: 'Brillen',
-      es: 'gafases',
+      es: 'gafas',
       tr: 'gözlükler'
     },
     translationArticles: {
@@ -8349,7 +8349,7 @@ export const nouns: GermanNoun[] = [
     translations: {
       en: 'emails',
       de: 'E-mails',
-      es: 'correo electrónicos',
+      es: 'correos electrónicos',
       tr: 'e-postalar'
     },
     translationArticles: {
@@ -8393,7 +8393,7 @@ export const nouns: GermanNoun[] = [
     translations: {
       en: 'email addresses',
       de: 'E-mail-Adressen',
-      es: 'dirección de correo electrónicos',
+      es: 'direcciones de correo electrónico',
       tr: 'e-posta adresleri'
     },
     translationArticles: {
@@ -8437,8 +8437,8 @@ export const nouns: GermanNoun[] = [
     translations: {
       en: 'female electronics technicians',
       de: 'Elektronikerinnen',
-      es: 'técnica electrónicas',
-      tr: 'kadın elektronik teknisyeniler'
+      es: 'técnicas electrónicas',
+      tr: 'kadın elektronik teknisyenler'
     },
     translationArticles: {
       en: 'the',
@@ -8479,10 +8479,10 @@ export const nouns: GermanNoun[] = [
     singular_id: 'eltern',
     plural_id: null,
     translations: {
-      en: 'parentses',
+      en: 'parents',
       de: 'Eltern',
-      es: 'padreses',
-      tr: 'ebeveynlerler'
+      es: 'padres',
+      tr: 'ebeveynler'
     },
     translationArticles: {
       en: 'the',
@@ -9007,10 +9007,10 @@ export const nouns: GermanNoun[] = [
     singular_id: 'geschwister',
     plural_id: null,
     translations: {
-      en: 'siblingses',
+      en: 'siblings',
       de: 'Geschwister',
-      es: 'hermanoses',
-      tr: 'kardeşlerler'
+      es: 'hermanos',
+      tr: 'kardeşler'
     },
     translationArticles: {
       en: 'the',
@@ -9095,9 +9095,9 @@ export const nouns: GermanNoun[] = [
     singular_id: 'großeltern',
     plural_id: null,
     translations: {
-      en: 'grandparentses',
+      en: 'grandparents',
       de: 'Großeltern',
-      es: 'abueloses',
+      es: 'abuelos',
       tr: 'büyükanne ve büyükbabalar'
     },
     translationArticles: {
@@ -9227,10 +9227,10 @@ export const nouns: GermanNoun[] = [
     singular_id: 'hausaufgabe',
     plural_id: null,
     translations: {
-      en: 'homeworks',
+      en: 'homework',
       de: 'Hausaufgaben',
-      es: 'debereses',
-      tr: 'ev ödeviler'
+      es: 'deberes',
+      tr: 'ev ödevleri'
     },
     translationArticles: {
       en: 'the',
@@ -9273,8 +9273,8 @@ export const nouns: GermanNoun[] = [
     translations: {
       en: 'housewives',
       de: 'Hausfrauen',
-      es: 'ama de casas',
-      tr: 'ev hanımılar'
+      es: 'amas de casa',
+      tr: 'ev hanımları'
     },
     translationArticles: {
       en: 'the',
@@ -9317,7 +9317,7 @@ export const nouns: GermanNoun[] = [
     translations: {
       en: 'house numbers',
       de: 'Hausnummern',
-      es: 'número de casas',
+      es: 'números de casa',
       tr: 'kapı numaraları'
     },
     translationArticles: {
@@ -9359,7 +9359,7 @@ export const nouns: GermanNoun[] = [
     singular_id: 'hilfe',
     plural_id: null,
     translations: {
-      en: 'helps',
+      en: 'help',
       de: 'Hilfen',
       es: 'ayudas',
       tr: 'yardımlar'
@@ -9403,9 +9403,9 @@ export const nouns: GermanNoun[] = [
     singular_id: 'information',
     plural_id: null,
     translations: {
-      en: 'informations',
+      en: 'information',
       de: 'Informationen',
-      es: 'informaciónes',
+      es: 'informaciones',
       tr: 'bilgiler'
     },
     translationArticles: {
@@ -9535,7 +9535,7 @@ export const nouns: GermanNoun[] = [
     singular_id: 'kartoffel',
     plural_id: null,
     translations: {
-      en: 'potatos',
+      en: 'potatoes',
       de: 'Kartoffeln',
       es: 'patatas',
       tr: 'patatesler'
@@ -9670,7 +9670,7 @@ export const nouns: GermanNoun[] = [
       en: 'female colleagues',
       de: 'Kolleginnen',
       es: 'compañeras',
-      tr: 'kadın iş arkadaşılar'
+      tr: 'kadın iş arkadaşları'
     },
     translationArticles: {
       en: 'the',
@@ -10153,7 +10153,7 @@ export const nouns: GermanNoun[] = [
     translations: {
       en: 'opening times',
       de: 'Öffnungszeiten',
-      es: 'horario de aperturas',
+      es: 'horarios de apertura',
       tr: 'açılış saatleri'
     },
     translationArticles: {
@@ -10327,7 +10327,7 @@ export const nouns: GermanNoun[] = [
     singular_id: 'polizistin',
     plural_id: null,
     translations: {
-      en: 'policewomans',
+      en: 'policewomen',
       de: 'Polizistinnen',
       es: 'policías',
       tr: 'kadın polisler'
@@ -10373,8 +10373,8 @@ export const nouns: GermanNoun[] = [
     translations: {
       en: 'postal codes',
       de: 'Postleitzahlen',
-      es: 'código postales',
-      tr: 'posta kodular'
+      es: 'códigos postales',
+      tr: 'posta kodları'
     },
     translationArticles: {
       en: 'the',
@@ -10591,9 +10591,9 @@ export const nouns: GermanNoun[] = [
     singular_id: 'schere',
     plural_id: null,
     translations: {
-      en: 'scissorses',
+      en: 'scissors',
       de: 'Scheren',
-      es: 'tijerases',
+      es: 'tijeras',
       tr: 'makaslar'
     },
     translationArticles: {
@@ -10723,7 +10723,7 @@ export const nouns: GermanNoun[] = [
     singular_id: 'serie',
     plural_id: null,
     translations: {
-      en: 'serieses',
+      en: 'series',
       de: 'Serien',
       es: 'series',
       tr: 'diziler'
@@ -10990,7 +10990,7 @@ export const nouns: GermanNoun[] = [
       en: 'hours',
       de: 'Stunden',
       es: 'horas',
-      tr: 'saatlar'
+      tr: 'saatler'
     },
     translationArticles: {
       en: 'the',
@@ -11210,7 +11210,7 @@ export const nouns: GermanNoun[] = [
       en: 'female taxi drivers',
       de: 'Taxifahrerinnen',
       es: 'taxistas',
-      tr: 'kadın taksi şoförüler'
+      tr: 'kadın taksi şoförleri'
     },
     translationArticles: {
       en: 'the',
@@ -11253,7 +11253,7 @@ export const nouns: GermanNoun[] = [
     translations: {
       en: 'phone numbers',
       de: 'Telefonnummern',
-      es: 'número de teléfonos',
+      es: 'números de teléfono',
       tr: 'telefon numaraları'
     },
     translationArticles: {
@@ -11383,7 +11383,7 @@ export const nouns: GermanNoun[] = [
     singular_id: 'tomate',
     plural_id: null,
     translations: {
-      en: 'tomatos',
+      en: 'tomatoes',
       de: 'Tomaten',
       es: 'tomates',
       tr: 'domatesler'
@@ -11518,7 +11518,7 @@ export const nouns: GermanNoun[] = [
       en: 'clocks',
       de: 'Uhren',
       es: 'relojes',
-      tr: 'saatlar'
+      tr: 'saatler'
     },
     translationArticles: {
       en: 'the',
@@ -11603,7 +11603,7 @@ export const nouns: GermanNoun[] = [
     singular_id: 'verkäuferin',
     plural_id: null,
     translations: {
-      en: 'saleswomans',
+      en: 'saleswomen',
       de: 'Verkäuferinnen',
       es: 'vendedoras',
       tr: 'kadın satıcılar'
