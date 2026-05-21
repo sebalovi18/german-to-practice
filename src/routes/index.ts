@@ -16,6 +16,7 @@ import PracticeIndex from '@/pages/practice/index.vue'
 import NounsMeaningsPractice from '@/pages/practice/nouns-meanings.vue'
 import AdjetivesMeaningsPractice from '@/pages/practice/adjetives-meanings.vue'
 import VerbsMeaningsPractice from '@/pages/practice/verbs-meanings.vue'
+import NotFound from '@/pages/not-found.vue'
 
 export default [
   {
@@ -89,5 +90,9 @@ export default [
         path: 'verbs-meanings'
       }
     ]
+  },
+  {
+    component: NotFound,
+    path: '/:pathMatch(.*)*'
   }
 ]

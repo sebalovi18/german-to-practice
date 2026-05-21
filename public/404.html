@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 | German to Practice</title>
+    <style>
+      :root {
+        color: #1f2937;
+        background: #f8fafc;
+        font-family: Georgia, 'Times New Roman', serif;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        min-height: 100vh;
+        padding: 2rem;
+      }
+
+      main {
+        background: #ffffff;
+        border: 1px solid #d1d5db;
+        box-shadow: 0 20px 45px rgb(15 23 42 / 0.08);
+        max-width: 36rem;
+        padding: 3rem;
+        text-align: center;
+        width: 100%;
+      }
+
+      h1 {
+        font-size: clamp(4rem, 14vw, 8rem);
+        line-height: 1;
+        margin: 0;
+      }
+
+      p {
+        color: #4b5563;
+        font-family: system-ui, sans-serif;
+        font-size: 1rem;
+        line-height: 1.6;
+        margin: 1rem auto 0;
+        max-width: 26rem;
+      }
+
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+        justify-content: center;
+        margin-top: 2rem;
+      }
+
+      a,
+      button {
+        border: 1px solid #111827;
+        border-radius: 999px;
+        cursor: pointer;
+        font: 600 0.95rem system-ui, sans-serif;
+        padding: 0.8rem 1.2rem;
+        text-decoration: none;
+      }
+
+      a {
+        background: #111827;
+        color: #ffffff;
+      }
+
+      button {
+        background: #ffffff;
+        color: #111827;
+      }
+    </style>
+    <script>
+      ;(function () {
+        var repoBasePath = '/german-to-practice'
+        var path = window.location.pathname
+
+        if (!path.startsWith(repoBasePath + '/')) {
+          return
+        }
+
+        var redirectPath = path.slice(repoBasePath.length)
+        var redirectUrl =
+          repoBasePath +
+          '/?redirect=' +
+          encodeURIComponent(redirectPath + window.location.search + window.location.hash)
+
+        window.location.replace(redirectUrl)
+      })()
+    </script>
+  </head>
+  <body>
+    <main>
+      <h1>404</h1>
+      <p>
+        The page you are looking for could not be found. You can return to the
+        German to Practice home page or go back to the previous page.
+      </p>
+      <div class="actions">
+        <a href="/german-to-practice/">Go back home</a>
+        <button type="button" onclick="window.history.back()">Go back</button>
+      </div>
+    </main>
+  </body>
+</html>

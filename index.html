@@ -8,6 +8,21 @@
   </head>
   <body>
     <div id="app"></div>
+    <script>
+      ;(function () {
+        var redirect = new URLSearchParams(window.location.search).get('redirect')
+
+        if (!redirect) {
+          return
+        }
+
+        window.history.replaceState(
+          null,
+          '',
+          '/german-to-practice/' + redirect.replace(/^\//, '')
+        )
+      })()
+    </script>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
