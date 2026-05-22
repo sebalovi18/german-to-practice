@@ -1,4 +1,5 @@
 import type { Language } from './Language'
+import type { Category } from '@/data/categories'
 
 export interface GermanAdjective {
   id: string
@@ -8,5 +9,5 @@ export interface GermanAdjective {
   superlative: string
   translations: Record<Language, string>
   levels?: string[]
-  categories?: string[]
+  categories?: Category[]
 }

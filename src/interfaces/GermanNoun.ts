@@ -1,5 +1,6 @@
 import type { GermanArticle } from './GermanArticle'
 import type { Language } from './Language'
+import type { Category } from '@/data/categories'
 
 export interface GermanNoun {
   id: string
@@ -11,5 +12,5 @@ export interface GermanNoun {
   translations: Record<Language, string>
   translationArticles: Record<Language, string | null>
   levels: string[]
-  categories: string[]
+  categories: Category[]
 }

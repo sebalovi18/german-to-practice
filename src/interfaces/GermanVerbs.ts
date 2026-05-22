@@ -1,4 +1,5 @@
 import type { Language } from './Language'
+import type { Category } from '@/data/categories'
 
 export interface GermanVerb {
   id: string
@@ -9,5 +10,5 @@ export interface GermanVerb {
   translations: Record<Language, string>
   auxiliary?: 'haben' | 'sein'
   levels?: string[]
-  categories?: string[]
+  categories?: Category[]
 }

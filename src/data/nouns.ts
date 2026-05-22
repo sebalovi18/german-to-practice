@@ -21,7 +21,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food']
   },
   {
     id: 'abendessen-plural',
@@ -43,7 +43,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food']
   },
   {
     id: 'alter',
@@ -65,7 +65,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['abstract', 'personal-info', 'time']
   },
   {
     id: 'alter-plural',
@@ -87,7 +87,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['abstract', 'personal-info', 'time']
   },
   {
     id: 'auto',
@@ -109,7 +109,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['transportation']
   },
   {
     id: 'autos',
@@ -131,7 +131,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['transportation']
   },
   {
     id: 'bier',
@@ -153,7 +153,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['drink']
   },
   {
     id: 'biere',
@@ -175,7 +175,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['drink']
   },
   {
     id: 'brot',
@@ -197,7 +197,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food']
   },
   {
     id: 'brote',
@@ -219,7 +219,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food']
   },
   {
     id: 'brötchen',
@@ -241,7 +241,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food']
   },
   {
     id: 'brötchen-plural',
@@ -263,7 +263,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food']
   },
   {
     id: 'buch',
@@ -285,7 +285,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['documents', 'education']
   },
   {
     id: 'bücher',
@@ -307,7 +307,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['documents', 'education']
   },
   {
     id: 'croissant',
@@ -329,7 +329,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food']
   },
   {
     id: 'croissants',
@@ -351,7 +351,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food']
   },
   {
     id: 'deutsch',
@@ -373,7 +373,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['education', 'language']
   },
   {
     id: 'deutsch-plural',
@@ -395,7 +395,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['education', 'language']
   },
   {
     id: 'ei',
@@ -417,7 +417,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food']
   },
   {
     id: 'eier',
@@ -439,7 +439,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food']
   },
   {
     id: 'eis',
@@ -461,7 +461,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food']
   },
   {
     id: 'eis-plural',
@@ -483,7 +483,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food']
   },
   {
     id: 'englisch',
@@ -505,7 +505,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['education', 'language']
   },
   {
     id: 'englisch-plural',
@@ -527,7 +527,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['education', 'language']
   },
   {
     id: 'essen',
@@ -549,7 +549,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food']
   },
   {
     id: 'essen-plural',
@@ -571,7 +571,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food']
   },
   {
     id: 'fahrrad',
@@ -593,7 +593,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['transportation']
   },
   {
     id: 'fahrräder',
@@ -615,7 +615,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['transportation']
   },
   {
     id: 'feuerzeug',
@@ -637,7 +637,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['household']
   },
   {
     id: 'feuerzeuge',
@@ -659,7 +659,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['household']
   },
   {
     id: 'fleisch',
@@ -681,7 +681,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food']
   },
   {
     id: 'fleisch-plural',
@@ -703,7 +703,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food']
   },
   {
     id: 'foto',
@@ -725,7 +725,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['arts']
   },
   {
     id: 'fotos',
@@ -747,7 +747,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['arts']
   },
   {
     id: 'französisch',
@@ -769,7 +769,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['education', 'language']
   },
   {
     id: 'französisch-plural',
@@ -791,7 +791,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['education', 'language']
   },
   {
     id: 'frühstück',
@@ -813,7 +813,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food']
   },
   {
     id: 'frühstücke',
@@ -835,7 +835,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food']
   },
   {
     id: 'gemüse',
@@ -857,7 +857,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food', 'nature']
   },
   {
     id: 'gemüse-plural',
@@ -879,7 +879,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food', 'nature']
   },
   {
     id: 'getränk',
@@ -901,7 +901,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['drink']
   },
   {
     id: 'getränke',
@@ -923,7 +923,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['drink']
   },
   {
     id: 'grad',
@@ -945,7 +945,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['measurements', 'numbers', 'weather']
   },
   {
     id: 'grad-plural',
@@ -967,7 +967,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['measurements', 'numbers', 'weather']
   },
   {
     id: 'gramm',
@@ -989,7 +989,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['measurements']
   },
   {
     id: 'gramm-plural',
@@ -1011,7 +1011,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['measurements']
   },
   {
     id: 'handy',
@@ -1033,7 +1033,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['communication', 'household', 'technology']
   },
   {
     id: 'handys',
@@ -1055,7 +1055,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['communication', 'household', 'technology']
   },
   {
     id: 'heft',
@@ -1077,7 +1077,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['documents', 'education']
   },
   {
     id: 'hefte',
@@ -1099,7 +1099,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['documents', 'education']
   },
   {
     id: 'herkunftsland',
@@ -1121,7 +1121,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['locations', 'personal-info', 'travel']
   },
   {
     id: 'herkunftsländer',
@@ -1143,7 +1143,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['locations', 'personal-info', 'travel']
   },
   {
     id: 'hobby',
@@ -1165,7 +1165,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['leisure']
   },
   {
     id: 'hobbys',
@@ -1187,7 +1187,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['leisure']
   },
   {
     id: 'internet',
@@ -1209,7 +1209,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['technology']
   },
   {
     id: 'internet-plural',
@@ -1231,7 +1231,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['technology']
   },
   {
     id: 'jahr',
@@ -1253,7 +1253,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['dates', 'time']
   },
   {
     id: 'jahre',
@@ -1275,7 +1275,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['dates', 'time']
   },
   {
     id: 'kilo',
@@ -1297,7 +1297,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['measurements']
   },
   {
     id: 'kilo-plural',
@@ -1319,7 +1319,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['measurements']
   },
   {
     id: 'kilogramm',
@@ -1341,7 +1341,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['measurements']
   },
   {
     id: 'kilogramm-plural',
@@ -1363,7 +1363,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['measurements']
   },
   {
     id: 'kind',
@@ -1385,7 +1385,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['education', 'family', 'people']
   },
   {
     id: 'kinder',
@@ -1407,7 +1407,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['education', 'family', 'people']
   },
   {
     id: 'klavier',
@@ -1429,7 +1429,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['arts', 'leisure', 'music']
   },
   {
     id: 'klaviere',
@@ -1451,7 +1451,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['arts', 'leisure', 'music']
   },
   {
     id: 'krankenhaus',
@@ -1473,7 +1473,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['health', 'locations', 'work']
   },
   {
     id: 'krankenhäuser',
@@ -1495,7 +1495,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['health', 'locations', 'work']
   },
   {
     id: 'lebensmittel',
@@ -1517,7 +1517,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food', 'shopping']
   },
   {
     id: 'lebensmittel-plural',
@@ -1539,7 +1539,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food', 'shopping']
   },
   {
     id: 'lieblingsessen',
@@ -1561,7 +1561,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food']
   },
   {
     id: 'lieblingsessen-plural',
@@ -1583,7 +1583,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food']
   },
   {
     id: 'lineal',
@@ -1605,7 +1605,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['education', 'household']
   },
   {
     id: 'lineale',
@@ -1627,7 +1627,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['education', 'household']
   },
   {
     id: 'mittagessen',
@@ -1649,7 +1649,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food']
   },
   {
     id: 'mittagessen-plural',
@@ -1671,7 +1671,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food']
   },
   {
     id: 'müsli',
@@ -1693,7 +1693,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food']
   },
   {
     id: 'müslis',
@@ -1715,7 +1715,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food']
   },
   {
     id: 'obst',
@@ -1737,7 +1737,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food', 'nature']
   },
   {
     id: 'obst-plural',
@@ -1759,7 +1759,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food', 'nature']
   },
   {
     id: 'papier',
@@ -1781,7 +1781,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['documents', 'education', 'household']
   },
   {
     id: 'papiere',
@@ -1803,7 +1803,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['documents', 'education', 'household']
   },
   {
     id: 'picknick',
@@ -1825,7 +1825,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food', 'leisure']
   },
   {
     id: 'picknicks',
@@ -1847,7 +1847,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food', 'leisure']
   },
   {
     id: 'rad',
@@ -1869,7 +1869,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['transportation']
   },
   {
     id: 'räder',
@@ -1891,7 +1891,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['transportation']
   },
   {
     id: 'restaurant',
@@ -1913,7 +1913,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food', 'locations', 'work']
   },
   {
     id: 'restaurants',
@@ -1935,7 +1935,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food', 'locations', 'work']
   },
   {
     id: 'spiel',
@@ -1957,7 +1957,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['arts', 'leisure', 'sports']
   },
   {
     id: 'spiele',
@@ -1979,7 +1979,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['arts', 'leisure', 'sports']
   },
   {
     id: 'taxi',
@@ -2001,7 +2001,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['transportation', 'travel']
   },
   {
     id: 'taxis',
@@ -2023,7 +2023,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['transportation', 'travel']
   },
   {
     id: 'telefon',
@@ -2045,7 +2045,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['communication', 'household', 'technology']
   },
   {
     id: 'telefone',
@@ -2067,7 +2067,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['communication', 'household', 'technology']
   },
   {
     id: 'training',
@@ -2089,7 +2089,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['leisure', 'sports']
   },
   {
     id: 'trainings',
@@ -2111,7 +2111,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['leisure', 'sports']
   },
   {
     id: 'video',
@@ -2133,7 +2133,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['arts', 'leisure', 'technology']
   },
   {
     id: 'videos',
@@ -2155,7 +2155,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['arts', 'leisure', 'technology']
   },
   {
     id: 'viertel',
@@ -2177,7 +2177,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['measurements', 'numbers']
   },
   {
     id: 'viertel-plural',
@@ -2199,7 +2199,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['measurements', 'numbers']
   },
   {
     id: 'wasser',
@@ -2221,7 +2221,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['drink', 'nature', 'weather']
   },
   {
     id: 'wasser-plural',
@@ -2243,7 +2243,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['drink', 'nature', 'weather']
   },
   {
     id: 'wetter',
@@ -2265,7 +2265,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['nature', 'weather']
   },
   {
     id: 'wetter-plural',
@@ -2287,7 +2287,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['nature', 'weather']
   },
   {
     id: 'wochenende',
@@ -2309,7 +2309,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['dates', 'time']
   },
   {
     id: 'wochenenden',
@@ -2331,7 +2331,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['dates', 'time']
   },
   {
     id: 'abend',
@@ -2353,7 +2353,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['time']
   },
   {
     id: 'abende',
@@ -2375,7 +2375,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['time']
   },
   {
     id: 'apfel',
@@ -2397,7 +2397,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food', 'nature']
   },
   {
     id: 'äpfel',
@@ -2419,7 +2419,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food', 'nature']
   },
   {
     id: 'april',
@@ -2441,7 +2441,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['dates', 'time']
   },
   {
     id: 'april-plural',
@@ -2463,7 +2463,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['dates', 'time']
   },
   {
     id: 'arzt',
@@ -2485,7 +2485,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['health', 'people', 'professions', 'work']
   },
   {
     id: 'ärzte',
@@ -2507,7 +2507,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['health', 'people', 'professions', 'work']
   },
   {
     id: 'august',
@@ -2529,7 +2529,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['dates', 'time']
   },
   {
     id: 'august-plural',
@@ -2551,7 +2551,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['dates', 'time']
   },
   {
     id: 'baum',
@@ -2573,7 +2573,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['nature']
   },
   {
     id: 'bäume',
@@ -2595,7 +2595,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['nature']
   },
   {
     id: 'becher',
@@ -2617,7 +2617,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['household']
   },
   {
     id: 'becher-plural',
@@ -2639,7 +2639,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['household']
   },
   {
     id: 'beruf',
@@ -2661,7 +2661,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['abstract', 'personal-info', 'work']
   },
   {
     id: 'berufe',
@@ -2683,7 +2683,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['abstract', 'personal-info', 'work']
   },
   {
     id: 'bleistift',
@@ -2705,7 +2705,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['education', 'household']
   },
   {
     id: 'bleistifte',
@@ -2727,7 +2727,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['education', 'household']
   },
   {
     id: 'bruder',
@@ -2749,7 +2749,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['family', 'people']
   },
   {
     id: 'brüder',
@@ -2771,7 +2771,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['family', 'people']
   },
   {
     id: 'cent',
@@ -2793,7 +2793,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['money', 'numbers', 'shopping']
   },
   {
     id: 'cent-plural',
@@ -2815,7 +2815,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['money', 'numbers', 'shopping']
   },
   {
     id: 'cousin',
@@ -2837,7 +2837,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['family', 'people']
   },
   {
     id: 'cousins',
@@ -2859,7 +2859,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['family', 'people']
   },
   {
     id: 'dank',
@@ -2881,7 +2881,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['abstract']
   },
   {
     id: 'dank-plural',
@@ -2903,7 +2903,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['abstract']
   },
   {
     id: 'deutschkurs',
@@ -2925,7 +2925,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['education', 'language', 'work']
   },
   {
     id: 'deutschkurse',
@@ -2947,7 +2947,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['education', 'language', 'work']
   },
   {
     id: 'dezember',
@@ -2969,7 +2969,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['dates', 'time']
   },
   {
     id: 'dezember-plural',
@@ -2991,7 +2991,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['dates', 'time']
   },
   {
     id: 'dienstag',
@@ -3013,7 +3013,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['dates', 'time']
   },
   {
     id: 'dienstage',
@@ -3035,7 +3035,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['dates', 'time']
   },
   {
     id: 'donnerstag',
@@ -3057,7 +3057,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['dates', 'time']
   },
   {
     id: 'donnerstage',
@@ -3079,7 +3079,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['dates', 'time']
   },
   {
     id: 'drucker',
@@ -3101,7 +3101,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['household', 'technology']
   },
   {
     id: 'drucker-plural',
@@ -3123,7 +3123,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['household', 'technology']
   },
   {
     id: 'einkauf',
@@ -3145,7 +3145,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['money', 'shopping']
   },
   {
     id: 'einkäufe',
@@ -3167,7 +3167,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['money', 'shopping']
   },
   {
     id: 'elektroniker',
@@ -3189,7 +3189,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'professions', 'work']
   },
   {
     id: 'elektroniker-plural',
@@ -3211,7 +3211,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'professions', 'work']
   },
   {
     id: 'enkel',
@@ -3233,7 +3233,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['family', 'people']
   },
   {
     id: 'enkel-plural',
@@ -3255,7 +3255,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['family', 'people']
   },
   {
     id: 'euro',
@@ -3277,7 +3277,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['money', 'numbers', 'shopping']
   },
   {
     id: 'euro-plural',
@@ -3299,7 +3299,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['money', 'numbers', 'shopping']
   },
   {
     id: 'familienname',
@@ -3321,7 +3321,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'personal-info']
   },
   {
     id: 'familiennamen',
@@ -3343,7 +3343,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'personal-info']
   },
   {
     id: 'familienstand',
@@ -3365,7 +3365,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['abstract', 'personal-info']
   },
   {
     id: 'familienstände',
@@ -3387,7 +3387,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['abstract', 'personal-info']
   },
   {
     id: 'februar',
@@ -3409,7 +3409,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['dates', 'time']
   },
   {
     id: 'februar-plural',
@@ -3431,7 +3431,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['dates', 'time']
   },
   {
     id: 'fehler',
@@ -3453,7 +3453,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['abstract']
   },
   {
     id: 'fehler-plural',
@@ -3475,7 +3475,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['abstract']
   },
   {
     id: 'film',
@@ -3497,7 +3497,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['arts', 'leisure']
   },
   {
     id: 'filme',
@@ -3519,7 +3519,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['arts', 'leisure']
   },
   {
     id: 'fisch',
@@ -3541,7 +3541,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food', 'nature']
   },
   {
     id: 'fische',
@@ -3563,7 +3563,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food', 'nature']
   },
   {
     id: 'fotograf',
@@ -3585,7 +3585,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['arts', 'people', 'professions', 'work']
   },
   {
     id: 'fotografen',
@@ -3607,7 +3607,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['arts', 'people', 'professions', 'work']
   },
   {
     id: 'freitag',
@@ -3629,7 +3629,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['dates', 'time']
   },
   {
     id: 'freitage',
@@ -3651,7 +3651,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['dates', 'time']
   },
   {
     id: 'freund',
@@ -3673,7 +3673,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people']
   },
   {
     id: 'freunde',
@@ -3695,7 +3695,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people']
   },
   {
     id: 'friseur',
@@ -3717,7 +3717,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'professions', 'work']
   },
   {
     id: 'friseure',
@@ -3739,7 +3739,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'professions', 'work']
   },
   {
     id: 'frühling',
@@ -3761,7 +3761,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['nature', 'time', 'weather']
   },
   {
     id: 'frühlinge',
@@ -3783,7 +3783,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['nature', 'time', 'weather']
   },
   {
     id: 'führerschein',
@@ -3805,7 +3805,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['documents', 'transportation']
   },
   {
     id: 'führerscheine',
@@ -3827,7 +3827,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['documents', 'transportation']
   },
   {
     id: 'fußball',
@@ -3849,7 +3849,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['leisure', 'sports']
   },
   {
     id: 'fußbälle',
@@ -3871,7 +3871,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['leisure', 'sports']
   },
   {
     id: 'geburtstag',
@@ -3893,7 +3893,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['personal-info', 'time']
   },
   {
     id: 'geburtstage',
@@ -3915,7 +3915,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['personal-info', 'time']
   },
   {
     id: 'geldbeutel',
@@ -3937,7 +3937,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['clothing', 'household', 'money']
   },
   {
     id: 'geldbeutel-plural',
@@ -3959,7 +3959,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['clothing', 'household', 'money']
   },
   {
     id: 'großvater',
@@ -3981,7 +3981,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['family', 'people']
   },
   {
     id: 'großväter',
@@ -4003,7 +4003,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['family', 'people']
   },
   {
     id: 'hausmann',
@@ -4025,7 +4025,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['family', 'people', 'professions', 'work']
   },
   {
     id: 'hausmänner',
@@ -4047,7 +4047,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['family', 'people', 'professions', 'work']
   },
   {
     id: 'herbst',
@@ -4069,7 +4069,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['nature', 'time', 'weather']
   },
   {
     id: 'herbste',
@@ -4091,7 +4091,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['nature', 'time', 'weather']
   },
   {
     id: 'herr',
@@ -4113,7 +4113,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people']
   },
   {
     id: 'herren',
@@ -4135,7 +4135,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people']
   },
   {
     id: 'ingenieur',
@@ -4157,7 +4157,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'professions', 'work']
   },
   {
     id: 'ingenieure',
@@ -4179,7 +4179,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'professions', 'work']
   },
   {
     id: 'januar',
@@ -4201,7 +4201,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['dates', 'time']
   },
   {
     id: 'januar-plural',
@@ -4223,7 +4223,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['dates', 'time']
   },
   {
     id: 'joghurt',
@@ -4245,7 +4245,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food']
   },
   {
     id: 'joghurts',
@@ -4267,7 +4267,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food']
   },
   {
     id: 'jugendliche',
@@ -4289,7 +4289,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people']
   },
   {
     id: 'jugendlichen',
@@ -4311,7 +4311,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people']
   },
   {
     id: 'juli',
@@ -4333,7 +4333,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['dates', 'time']
   },
   {
     id: 'juli-plural',
@@ -4355,7 +4355,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['dates', 'time']
   },
   {
     id: 'juni',
@@ -4377,7 +4377,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['dates', 'time']
   },
   {
     id: 'juni-plural',
@@ -4399,7 +4399,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['dates', 'time']
   },
   {
     id: 'kaffee',
@@ -4421,7 +4421,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['drink']
   },
   {
     id: 'kaffees',
@@ -4443,7 +4443,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['drink']
   },
   {
     id: 'kalender',
@@ -4465,7 +4465,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['documents', 'household', 'time']
   },
   {
     id: 'kalender-plural',
@@ -4487,7 +4487,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['documents', 'household', 'time']
   },
   {
     id: 'käse',
@@ -4509,7 +4509,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food']
   },
   {
     id: 'käse-plural',
@@ -4531,7 +4531,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food']
   },
   {
     id: 'kellner',
@@ -4553,7 +4553,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'professions', 'work']
   },
   {
     id: 'kellner-plural',
@@ -4575,7 +4575,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'professions', 'work']
   },
   {
     id: 'kindergarten',
@@ -4597,7 +4597,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['education', 'locations']
   },
   {
     id: 'kindergärten',
@@ -4619,7 +4619,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['education', 'locations']
   },
   {
     id: 'kleber',
@@ -4641,7 +4641,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['household']
   },
   {
     id: 'kleber-plural',
@@ -4663,7 +4663,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['household']
   },
   {
     id: 'koch',
@@ -4685,7 +4685,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'professions', 'work']
   },
   {
     id: 'köche',
@@ -4707,7 +4707,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'professions', 'work']
   },
   {
     id: 'koffer',
@@ -4729,7 +4729,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['household', 'travel']
   },
   {
     id: 'koffer-plural',
@@ -4751,7 +4751,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['household', 'travel']
   },
   {
     id: 'kollege',
@@ -4773,7 +4773,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'work']
   },
   {
     id: 'kollegen',
@@ -4795,7 +4795,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'work']
   },
   {
     id: 'krankenpfleger',
@@ -4817,7 +4817,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['health', 'people', 'professions', 'work']
   },
   {
     id: 'krankenpfleger-plural',
@@ -4839,7 +4839,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['health', 'people', 'professions', 'work']
   },
   {
     id: 'kuchen',
@@ -4861,7 +4861,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food']
   },
   {
     id: 'kuchen-plural',
@@ -4883,7 +4883,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food']
   },
   {
     id: 'kugelschreiber',
@@ -4905,7 +4905,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['education', 'household']
   },
   {
     id: 'kugelschreiber-plural',
@@ -4927,7 +4927,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['education', 'household']
   },
   {
     id: 'kunde',
@@ -4949,7 +4949,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'professions', 'shopping', 'work']
   },
   {
     id: 'kunden',
@@ -4971,7 +4971,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'professions', 'shopping', 'work']
   },
   {
     id: 'kurs',
@@ -4993,7 +4993,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['education', 'work']
   },
   {
     id: 'kurse',
@@ -5015,7 +5015,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['education', 'work']
   },
   {
     id: 'laden',
@@ -5037,7 +5037,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['locations', 'shopping', 'work']
   },
   {
     id: 'läden',
@@ -5059,7 +5059,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['locations', 'shopping', 'work']
   },
   {
     id: 'laptop',
@@ -5081,7 +5081,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['household', 'technology']
   },
   {
     id: 'laptops',
@@ -5103,7 +5103,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['household', 'technology']
   },
   {
     id: 'lehrer',
@@ -5125,7 +5125,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['education', 'people', 'professions', 'work']
   },
   {
     id: 'lehrer-plural',
@@ -5147,7 +5147,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['education', 'people', 'professions', 'work']
   },
   {
     id: 'liter',
@@ -5169,7 +5169,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['measurements']
   },
   {
     id: 'liter-plural',
@@ -5191,7 +5191,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['measurements']
   },
   {
     id: 'mai',
@@ -5213,7 +5213,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['dates', 'time']
   },
   {
     id: 'mai-plural',
@@ -5235,7 +5235,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['dates', 'time']
   },
   {
     id: 'mann',
@@ -5257,7 +5257,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['family', 'people']
   },
   {
     id: 'männer',
@@ -5279,7 +5279,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['family', 'people']
   },
   {
     id: 'märz',
@@ -5301,7 +5301,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['dates', 'time']
   },
   {
     id: 'märz-plural',
@@ -5323,7 +5323,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['dates', 'time']
   },
   {
     id: 'mittag',
@@ -5345,7 +5345,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['time']
   },
   {
     id: 'mittage',
@@ -5367,7 +5367,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['time']
   },
   {
     id: 'mittwoch',
@@ -5389,7 +5389,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['dates', 'time']
   },
   {
     id: 'mittwoche',
@@ -5411,7 +5411,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['dates', 'time']
   },
   {
     id: 'monat',
@@ -5433,7 +5433,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['dates', 'time']
   },
   {
     id: 'monate',
@@ -5455,7 +5455,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['dates', 'time']
   },
   {
     id: 'montag',
@@ -5477,7 +5477,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['dates', 'time']
   },
   {
     id: 'montage',
@@ -5499,7 +5499,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['dates', 'time']
   },
   {
     id: 'morgen',
@@ -5521,7 +5521,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['time']
   },
   {
     id: 'morgen-plural',
@@ -5543,7 +5543,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['time']
   },
   {
     id: 'nachbar',
@@ -5565,7 +5565,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people']
   },
   {
     id: 'nachbarn',
@@ -5587,7 +5587,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people']
   },
   {
     id: 'nachmittag',
@@ -5609,7 +5609,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['time']
   },
   {
     id: 'nachmittage',
@@ -5631,7 +5631,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['time']
   },
   {
     id: 'nachtisch',
@@ -5653,7 +5653,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food']
   },
   {
     id: 'nachtische',
@@ -5675,7 +5675,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food']
   },
   {
     id: 'name',
@@ -5697,7 +5697,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['communication', 'language', 'people', 'personal-info']
   },
   {
     id: 'namen',
@@ -5719,7 +5719,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['communication', 'language', 'people', 'personal-info']
   },
   {
     id: 'november',
@@ -5741,7 +5741,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['dates', 'time']
   },
   {
     id: 'november-plural',
@@ -5763,7 +5763,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['dates', 'time']
   },
   {
     id: 'oktober',
@@ -5785,7 +5785,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['dates', 'time']
   },
   {
     id: 'oktober-plural',
@@ -5807,7 +5807,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['dates', 'time']
   },
   {
     id: 'onkel',
@@ -5829,7 +5829,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['family', 'people']
   },
   {
     id: 'onkel-plural',
@@ -5851,7 +5851,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['family', 'people']
   },
   {
     id: 'opa',
@@ -5873,7 +5873,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['family', 'people']
   },
   {
     id: 'opas',
@@ -5895,7 +5895,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['family', 'people']
   },
   {
     id: 'partner',
@@ -5917,7 +5917,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['family', 'people']
   },
   {
     id: 'partner-plural',
@@ -5939,7 +5939,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['family', 'people']
   },
   {
     id: 'pfannkuchen',
@@ -5961,7 +5961,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food']
   },
   {
     id: 'pfannkuchen-plural',
@@ -5983,7 +5983,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food']
   },
   {
     id: 'plan',
@@ -6005,7 +6005,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['abstract']
   },
   {
     id: 'pläne',
@@ -6027,7 +6027,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['abstract']
   },
   {
     id: 'polizist',
@@ -6049,7 +6049,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'professions', 'work']
   },
   {
     id: 'polizisten',
@@ -6071,7 +6071,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'professions', 'work']
   },
   {
     id: 'punkt',
@@ -6093,7 +6093,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['measurements', 'numbers']
   },
   {
     id: 'punkte',
@@ -6115,7 +6115,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['measurements', 'numbers']
   },
   {
     id: 'quatsch',
@@ -6137,7 +6137,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['abstract']
   },
   {
     id: 'quatsch-plural',
@@ -6159,7 +6159,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['abstract']
   },
   {
     id: 'reis',
@@ -6181,7 +6181,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food']
   },
   {
     id: 'reis-plural',
@@ -6203,7 +6203,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food']
   },
   {
     id: 'rucksack',
@@ -6225,7 +6225,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['clothing', 'household', 'travel']
   },
   {
     id: 'rucksäcke',
@@ -6247,7 +6247,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['clothing', 'household', 'travel']
   },
   {
     id: 'saft',
@@ -6269,7 +6269,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['drink']
   },
   {
     id: 'säfte',
@@ -6291,7 +6291,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['drink']
   },
   {
     id: 'salat',
@@ -6313,7 +6313,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food']
   },
   {
     id: 'salate',
@@ -6335,7 +6335,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food']
   },
   {
     id: 'samstag',
@@ -6357,7 +6357,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['dates', 'time']
   },
   {
     id: 'samstage',
@@ -6379,7 +6379,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['dates', 'time']
   },
   {
     id: 'sänger',
@@ -6401,7 +6401,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['arts', 'leisure', 'music', 'people', 'professions', 'work']
   },
   {
     id: 'sänger-plural',
@@ -6423,7 +6423,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['arts', 'leisure', 'music', 'people', 'professions', 'work']
   },
   {
     id: 'satz',
@@ -6445,7 +6445,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['communication', 'education', 'language']
   },
   {
     id: 'sätze',
@@ -6467,7 +6467,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['communication', 'education', 'language']
   },
   {
     id: 'schauspieler',
@@ -6489,7 +6489,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['arts', 'leisure', 'people', 'professions', 'work']
   },
   {
     id: 'schauspieler-plural',
@@ -6511,7 +6511,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['arts', 'leisure', 'people', 'professions', 'work']
   },
   {
     id: 'schinken',
@@ -6533,7 +6533,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food']
   },
   {
     id: 'schinken-plural',
@@ -6555,7 +6555,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food']
   },
   {
     id: 'schirm',
@@ -6577,7 +6577,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['clothing', 'household']
   },
   {
     id: 'schirme',
@@ -6599,7 +6599,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['clothing', 'household']
   },
   {
     id: 'schlüssel',
@@ -6621,7 +6621,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['household']
   },
   {
     id: 'schlüssel-plural',
@@ -6643,7 +6643,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['household']
   },
   {
     id: 'september',
@@ -6665,7 +6665,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['dates', 'time']
   },
   {
     id: 'september-plural',
@@ -6687,7 +6687,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['dates', 'time']
   },
   {
     id: 'single',
@@ -6709,7 +6709,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people']
   },
   {
     id: 'singles',
@@ -6731,7 +6731,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people']
   },
   {
     id: 'sohn',
@@ -6753,7 +6753,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['family', 'people']
   },
   {
     id: 'söhne',
@@ -6775,7 +6775,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['family', 'people']
   },
   {
     id: 'sommer',
@@ -6797,7 +6797,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['nature', 'time', 'weather']
   },
   {
     id: 'sommer-plural',
@@ -6819,7 +6819,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['nature', 'time', 'weather']
   },
   {
     id: 'sonntag',
@@ -6841,7 +6841,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['dates', 'time']
   },
   {
     id: 'sonntage',
@@ -6863,7 +6863,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['dates', 'time']
   },
   {
     id: 'spaß',
@@ -6885,7 +6885,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['abstract', 'emotions', 'leisure']
   },
   {
     id: 'spaß-plural',
@@ -6907,7 +6907,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['abstract', 'emotions', 'leisure']
   },
   {
     id: 'spieler',
@@ -6929,7 +6929,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['leisure', 'people', 'professions', 'sports']
   },
   {
     id: 'spieler-plural',
@@ -6951,7 +6951,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['leisure', 'people', 'professions', 'sports']
   },
   {
     id: 'sport',
@@ -6973,7 +6973,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['leisure', 'sports']
   },
   {
     id: 'sport-plural',
@@ -6995,7 +6995,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['leisure', 'sports']
   },
   {
     id: 'student',
@@ -7017,7 +7017,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['education', 'people', 'professions', 'work']
   },
   {
     id: 'studenten',
@@ -7039,7 +7039,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['education', 'people', 'professions', 'work']
   },
   {
     id: 'supermarkt',
@@ -7061,7 +7061,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['locations', 'shopping', 'work']
   },
   {
     id: 'supermärkte',
@@ -7083,7 +7083,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['locations', 'shopping', 'work']
   },
   {
     id: 'tag',
@@ -7105,7 +7105,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['dates', 'time']
   },
   {
     id: 'tage',
@@ -7127,7 +7127,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['dates', 'time']
   },
   {
     id: 'taxifahrer',
@@ -7149,7 +7149,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'professions', 'transportation', 'work']
   },
   {
     id: 'taxifahrer-plural',
@@ -7171,7 +7171,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'professions', 'transportation', 'work']
   },
   {
     id: 'tee',
@@ -7193,7 +7193,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['drink']
   },
   {
     id: 'tees',
@@ -7215,7 +7215,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['drink']
   },
   {
     id: 'termin',
@@ -7237,7 +7237,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['abstract', 'time', 'work']
   },
   {
     id: 'termine',
@@ -7259,7 +7259,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['abstract', 'time', 'work']
   },
   {
     id: 'text',
@@ -7281,7 +7281,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['communication', 'documents', 'education', 'language']
   },
   {
     id: 'texte',
@@ -7303,7 +7303,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['communication', 'documents', 'education', 'language']
   },
   {
     id: 'trainer',
@@ -7325,7 +7325,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'professions', 'sports', 'work']
   },
   {
     id: 'trainer-plural',
@@ -7347,7 +7347,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'professions', 'sports', 'work']
   },
   {
     id: 'urlaub',
@@ -7369,7 +7369,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['leisure', 'travel']
   },
   {
     id: 'urlaube',
@@ -7391,7 +7391,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['leisure', 'travel']
   },
   {
     id: 'vater',
@@ -7413,7 +7413,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['family', 'people']
   },
   {
     id: 'väter',
@@ -7435,7 +7435,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['family', 'people']
   },
   {
     id: 'verein',
@@ -7457,7 +7457,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['leisure', 'locations', 'sports']
   },
   {
     id: 'vereine',
@@ -7479,7 +7479,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['leisure', 'locations', 'sports']
   },
   {
     id: 'verkäufer',
@@ -7501,7 +7501,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'professions', 'shopping', 'work']
   },
   {
     id: 'verkäufer-plural',
@@ -7523,7 +7523,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'professions', 'shopping', 'work']
   },
   {
     id: 'vormittag',
@@ -7545,7 +7545,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['time']
   },
   {
     id: 'vormittage',
@@ -7567,7 +7567,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['time']
   },
   {
     id: 'vorname',
@@ -7589,7 +7589,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['communication', 'language', 'people', 'personal-info']
   },
   {
     id: 'vornamen',
@@ -7611,7 +7611,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['communication', 'language', 'people', 'personal-info']
   },
   {
     id: 'winter',
@@ -7633,7 +7633,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['nature', 'time', 'weather']
   },
   {
     id: 'winter-plural',
@@ -7655,7 +7655,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['nature', 'time', 'weather']
   },
   {
     id: 'wohnort',
@@ -7677,7 +7677,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['locations', 'personal-info', 'travel']
   },
   {
     id: 'wohnorte',
@@ -7699,7 +7699,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['locations', 'personal-info', 'travel']
   },
   {
     id: 'zahnarzt',
@@ -7721,7 +7721,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['health', 'people', 'professions', 'work']
   },
   {
     id: 'zahnärzte',
@@ -7743,7 +7743,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['health', 'people', 'professions', 'work']
   },
   {
     id: 'adresse',
@@ -7765,7 +7765,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['communication', 'locations', 'personal-info']
   },
   {
     id: 'adressen',
@@ -7787,7 +7787,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['communication', 'locations', 'personal-info']
   },
   {
     id: 'antwort',
@@ -7809,7 +7809,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['abstract', 'communication', 'documents', 'education']
   },
   {
     id: 'antworten',
@@ -7831,7 +7831,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['abstract', 'communication', 'documents', 'education']
   },
   {
     id: 'arbeit',
@@ -7853,7 +7853,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['abstract', 'work']
   },
   {
     id: 'arbeiten',
@@ -7875,7 +7875,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['abstract', 'work']
   },
   {
     id: 'ärztin',
@@ -7897,7 +7897,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['health', 'people', 'professions', 'work']
   },
   {
     id: 'ärztinnen',
@@ -7919,7 +7919,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['health', 'people', 'professions', 'work']
   },
   {
     id: 'ausbildung',
@@ -7941,7 +7941,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['abstract', 'education', 'work']
   },
   {
     id: 'ausbildungen',
@@ -7963,7 +7963,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['abstract', 'education', 'work']
   },
   {
     id: 'banane',
@@ -7985,7 +7985,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food', 'nature']
   },
   {
     id: 'bananen',
@@ -8007,7 +8007,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food', 'nature']
   },
   {
     id: 'birne',
@@ -8029,7 +8029,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food', 'nature']
   },
   {
     id: 'birnen',
@@ -8051,7 +8051,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food', 'nature']
   },
   {
     id: 'blume',
@@ -8073,7 +8073,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['nature']
   },
   {
     id: 'blumen',
@@ -8095,7 +8095,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['nature']
   },
   {
     id: 'briefmarke',
@@ -8117,7 +8117,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['communication', 'documents']
   },
   {
     id: 'briefmarken',
@@ -8139,7 +8139,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['communication', 'documents']
   },
   {
     id: 'brille',
@@ -8161,7 +8161,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['clothing', 'household']
   },
   {
     id: 'brillen',
@@ -8183,7 +8183,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['clothing', 'household']
   },
   {
     id: 'butter',
@@ -8205,7 +8205,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food']
   },
   {
     id: 'butter-plural',
@@ -8227,7 +8227,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food']
   },
   {
     id: 'cousine',
@@ -8249,7 +8249,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['family', 'people']
   },
   {
     id: 'cousinen',
@@ -8271,7 +8271,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['family', 'people']
   },
   {
     id: 'dose',
@@ -8293,7 +8293,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['household']
   },
   {
     id: 'dosen',
@@ -8315,7 +8315,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['household']
   },
   {
     id: 'e-mail',
@@ -8337,7 +8337,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['communication', 'technology']
   },
   {
     id: 'e-mails',
@@ -8359,7 +8359,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['communication', 'technology']
   },
   {
     id: 'e-mail-adresse',
@@ -8381,7 +8381,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['communication', 'technology']
   },
   {
     id: 'e-mail-adressen',
@@ -8403,7 +8403,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['communication', 'technology']
   },
   {
     id: 'elektronikerin',
@@ -8425,7 +8425,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'professions', 'work']
   },
   {
     id: 'elektronikerinnen',
@@ -8447,7 +8447,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'professions', 'work']
   },
   {
     id: 'eltern',
@@ -8469,7 +8469,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['family', 'people']
   },
   {
     id: 'eltern-plural',
@@ -8491,7 +8491,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['family', 'people']
   },
   {
     id: 'enkelin',
@@ -8513,7 +8513,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['family', 'people']
   },
   {
     id: 'enkelinnen',
@@ -8535,7 +8535,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['family', 'people']
   },
   {
     id: 'entschuldigung',
@@ -8557,7 +8557,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['emotions']
   },
   {
     id: 'entschuldigungen',
@@ -8579,7 +8579,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['emotions']
   },
   {
     id: 'familie',
@@ -8601,7 +8601,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['family', 'people', 'personal-info']
   },
   {
     id: 'familien',
@@ -8623,7 +8623,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['family', 'people', 'personal-info']
   },
   {
     id: 'farbe',
@@ -8645,7 +8645,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['abstract', 'arts']
   },
   {
     id: 'farben',
@@ -8667,7 +8667,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['abstract', 'arts']
   },
   {
     id: 'flasche',
@@ -8689,7 +8689,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['household']
   },
   {
     id: 'flaschen',
@@ -8711,7 +8711,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['household']
   },
   {
     id: 'fotografin',
@@ -8733,7 +8733,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['arts', 'people', 'professions', 'work']
   },
   {
     id: 'fotografinnen',
@@ -8755,7 +8755,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['arts', 'people', 'professions', 'work']
   },
   {
     id: 'frage',
@@ -8777,7 +8777,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['abstract', 'communication', 'documents', 'education']
   },
   {
     id: 'fragen',
@@ -8799,7 +8799,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['abstract', 'communication', 'documents', 'education']
   },
   {
     id: 'frau',
@@ -8821,7 +8821,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['family', 'people']
   },
   {
     id: 'frauen',
@@ -8843,7 +8843,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['family', 'people']
   },
   {
     id: 'freizeit',
@@ -8865,7 +8865,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['leisure']
   },
   {
     id: 'freizeiten',
@@ -8887,7 +8887,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['leisure']
   },
   {
     id: 'freundin',
@@ -8909,7 +8909,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people']
   },
   {
     id: 'freundinnen',
@@ -8931,7 +8931,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people']
   },
   {
     id: 'friseurin',
@@ -8953,7 +8953,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'professions', 'work']
   },
   {
     id: 'friseurinnen',
@@ -8975,7 +8975,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'professions', 'work']
   },
   {
     id: 'geschwister',
@@ -8997,7 +8997,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['family', 'people']
   },
   {
     id: 'geschwister-plural',
@@ -9019,7 +9019,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['family', 'people']
   },
   {
     id: 'gitarre',
@@ -9041,7 +9041,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['arts', 'leisure', 'music']
   },
   {
     id: 'gitarren',
@@ -9063,7 +9063,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['arts', 'leisure', 'music']
   },
   {
     id: 'großeltern',
@@ -9085,7 +9085,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['family', 'people']
   },
   {
     id: 'großeltern-plural',
@@ -9107,7 +9107,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['family', 'people']
   },
   {
     id: 'großmutter',
@@ -9129,7 +9129,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['family']
   },
   {
     id: 'großmütter',
@@ -9151,7 +9151,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['family']
   },
   {
     id: 'gruppe',
@@ -9173,7 +9173,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['abstract', 'people']
   },
   {
     id: 'gruppen',
@@ -9195,7 +9195,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['abstract', 'people']
   },
   {
     id: 'hausaufgabe',
@@ -9217,7 +9217,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['documents', 'education']
   },
   {
     id: 'hausaufgaben',
@@ -9239,7 +9239,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['documents', 'education']
   },
   {
     id: 'hausfrau',
@@ -9261,7 +9261,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['family', 'people', 'professions', 'work']
   },
   {
     id: 'hausfrauen',
@@ -9283,7 +9283,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['family', 'people', 'professions', 'work']
   },
   {
     id: 'hausnummer',
@@ -9305,7 +9305,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['household', 'locations']
   },
   {
     id: 'hausnummern',
@@ -9327,7 +9327,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['household', 'locations']
   },
   {
     id: 'hilfe',
@@ -9349,7 +9349,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['abstract']
   },
   {
     id: 'hilfen',
@@ -9371,7 +9371,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['abstract']
   },
   {
     id: 'information',
@@ -9393,7 +9393,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['abstract', 'communication']
   },
   {
     id: 'informationen',
@@ -9415,7 +9415,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['abstract', 'communication']
   },
   {
     id: 'ingenieurin',
@@ -9437,7 +9437,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'professions', 'work']
   },
   {
     id: 'ingenieurinnen',
@@ -9459,7 +9459,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'professions', 'work']
   },
   {
     id: 'kamera',
@@ -9481,7 +9481,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['arts', 'household', 'technology']
   },
   {
     id: 'kameras',
@@ -9503,7 +9503,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['arts', 'household', 'technology']
   },
   {
     id: 'kartoffel',
@@ -9525,7 +9525,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food', 'nature']
   },
   {
     id: 'kartoffeln',
@@ -9547,7 +9547,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food', 'nature']
   },
   {
     id: 'kellnerin',
@@ -9569,7 +9569,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'professions', 'work']
   },
   {
     id: 'kellnerinnen',
@@ -9591,7 +9591,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'professions', 'work']
   },
   {
     id: 'köchin',
@@ -9613,7 +9613,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'professions', 'work']
   },
   {
     id: 'köchinnen',
@@ -9635,7 +9635,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'professions', 'work']
   },
   {
     id: 'kollegin',
@@ -9657,7 +9657,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'work']
   },
   {
     id: 'kolleginnen',
@@ -9679,7 +9679,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'work']
   },
   {
     id: 'krankenpflegerin',
@@ -9701,7 +9701,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['health', 'people', 'professions', 'work']
   },
   {
     id: 'krankenpflegerinnen',
@@ -9723,7 +9723,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['health', 'people', 'professions', 'work']
   },
   {
     id: 'kundin',
@@ -9745,7 +9745,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'professions', 'shopping', 'work']
   },
   {
     id: 'kundinnen',
@@ -9767,7 +9767,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'professions', 'shopping', 'work']
   },
   {
     id: 'lehrerin',
@@ -9789,7 +9789,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['education', 'people', 'professions', 'work']
   },
   {
     id: 'lehrerinnen',
@@ -9811,7 +9811,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['education', 'people', 'professions', 'work']
   },
   {
     id: 'mannschaft',
@@ -9833,7 +9833,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['leisure', 'people', 'sports']
   },
   {
     id: 'mannschaften',
@@ -9855,7 +9855,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['leisure', 'people', 'sports']
   },
   {
     id: 'milch',
@@ -9877,7 +9877,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['drink']
   },
   {
     id: 'milch-plural',
@@ -9899,7 +9899,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['drink']
   },
   {
     id: 'musik',
@@ -9921,7 +9921,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['arts', 'leisure', 'music']
   },
   {
     id: 'musik-plural',
@@ -9943,7 +9943,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['arts', 'leisure', 'music']
   },
   {
     id: 'mutter',
@@ -9965,7 +9965,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['family', 'people']
   },
   {
     id: 'mütter',
@@ -9987,7 +9987,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['family', 'people']
   },
   {
     id: 'nachbarin',
@@ -10009,7 +10009,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people']
   },
   {
     id: 'nachbarinnen',
@@ -10031,7 +10031,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people']
   },
   {
     id: 'nacht',
@@ -10053,7 +10053,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['time']
   },
   {
     id: 'nächte',
@@ -10075,7 +10075,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['time']
   },
   {
     id: 'nummer',
@@ -10097,7 +10097,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['documents', 'measurements', 'numbers']
   },
   {
     id: 'nummern',
@@ -10119,7 +10119,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['documents', 'measurements', 'numbers']
   },
   {
     id: 'öffnungszeit',
@@ -10141,7 +10141,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['time', 'work']
   },
   {
     id: 'öffnungszeiten',
@@ -10163,7 +10163,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['time', 'work']
   },
   {
     id: 'oma',
@@ -10185,7 +10185,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['family', 'people']
   },
   {
     id: 'omas',
@@ -10207,7 +10207,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['family', 'people']
   },
   {
     id: 'partnerin',
@@ -10229,7 +10229,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['family', 'people']
   },
   {
     id: 'partnerinnen',
@@ -10251,7 +10251,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['family', 'people']
   },
   {
     id: 'pause',
@@ -10273,7 +10273,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['time']
   },
   {
     id: 'pausen',
@@ -10295,7 +10295,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['time']
   },
   {
     id: 'polizistin',
@@ -10317,7 +10317,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'professions', 'work']
   },
   {
     id: 'polizistinnen',
@@ -10339,7 +10339,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'professions', 'work']
   },
   {
     id: 'postleitzahl',
@@ -10361,7 +10361,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['documents', 'locations', 'personal-info']
   },
   {
     id: 'postleitzahlen',
@@ -10383,7 +10383,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['documents', 'locations', 'personal-info']
   },
   {
     id: 'rechnung',
@@ -10405,7 +10405,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['documents', 'money', 'shopping']
   },
   {
     id: 'rechnungen',
@@ -10427,7 +10427,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['documents', 'money', 'shopping']
   },
   {
     id: 'sahne',
@@ -10449,7 +10449,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food']
   },
   {
     id: 'sahne-plural',
@@ -10471,7 +10471,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food']
   },
   {
     id: 'sängerin',
@@ -10493,7 +10493,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['arts', 'leisure', 'music', 'people', 'professions', 'work']
   },
   {
     id: 'sängerinnen',
@@ -10515,7 +10515,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['arts', 'leisure', 'music', 'people', 'professions', 'work']
   },
   {
     id: 'schauspielerin',
@@ -10537,7 +10537,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['arts', 'leisure', 'people', 'professions', 'work']
   },
   {
     id: 'schauspielerinnen',
@@ -10559,7 +10559,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['arts', 'leisure', 'people', 'professions', 'work']
   },
   {
     id: 'schere',
@@ -10581,7 +10581,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['household']
   },
   {
     id: 'scheren',
@@ -10603,7 +10603,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['household']
   },
   {
     id: 'schokolade',
@@ -10625,7 +10625,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food', 'shopping']
   },
   {
     id: 'schokoladen',
@@ -10647,7 +10647,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food', 'shopping']
   },
   {
     id: 'schwester',
@@ -10669,7 +10669,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['family', 'people']
   },
   {
     id: 'schwestern',
@@ -10691,7 +10691,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['family', 'people']
   },
   {
     id: 'serie',
@@ -10713,7 +10713,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['arts', 'leisure']
   },
   {
     id: 'serien',
@@ -10735,7 +10735,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['arts', 'leisure']
   },
   {
     id: 'sonne',
@@ -10757,7 +10757,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['nature', 'weather']
   },
   {
     id: 'sonnen',
@@ -10779,7 +10779,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['nature', 'weather']
   },
   {
     id: 'spielerin',
@@ -10801,7 +10801,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['leisure', 'people', 'professions', 'sports']
   },
   {
     id: 'spielerinnen',
@@ -10823,7 +10823,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['leisure', 'people', 'professions', 'sports']
   },
   {
     id: 'sprache',
@@ -10845,7 +10845,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['communication', 'education', 'language']
   },
   {
     id: 'sprachen',
@@ -10867,7 +10867,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['communication', 'education', 'language']
   },
   {
     id: 'straße',
@@ -10889,7 +10889,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['locations']
   },
   {
     id: 'straßen',
@@ -10911,7 +10911,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['locations']
   },
   {
     id: 'studentin',
@@ -10933,7 +10933,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['education', 'work']
   },
   {
     id: 'studentinnen',
@@ -10955,7 +10955,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['education', 'work']
   },
   {
     id: 'stunde',
@@ -10977,7 +10977,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['time']
   },
   {
     id: 'stunden',
@@ -10999,7 +10999,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['time']
   },
   {
     id: 'suppe',
@@ -11021,7 +11021,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food']
   },
   {
     id: 'suppen',
@@ -11043,7 +11043,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food']
   },
   {
     id: 'tante',
@@ -11065,7 +11065,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['family', 'people']
   },
   {
     id: 'tanten',
@@ -11087,7 +11087,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['family', 'people']
   },
   {
     id: 'tasche',
@@ -11109,7 +11109,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['clothing', 'household', 'shopping']
   },
   {
     id: 'taschen',
@@ -11131,7 +11131,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['clothing', 'household', 'shopping']
   },
   {
     id: 'tasse',
@@ -11153,7 +11153,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['household']
   },
   {
     id: 'tassen',
@@ -11175,7 +11175,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['household']
   },
   {
     id: 'taxifahrerin',
@@ -11197,7 +11197,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'professions', 'transportation', 'work']
   },
   {
     id: 'taxifahrerinnen',
@@ -11219,7 +11219,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'professions', 'transportation', 'work']
   },
   {
     id: 'telefonnummer',
@@ -11241,7 +11241,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['communication', 'personal-info']
   },
   {
     id: 'telefonnummern',
@@ -11263,7 +11263,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['communication', 'personal-info']
   },
   {
     id: 'temperatur',
@@ -11285,7 +11285,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['health', 'measurements', 'nature', 'weather']
   },
   {
     id: 'temperaturen',
@@ -11307,7 +11307,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['health', 'measurements', 'nature', 'weather']
   },
   {
     id: 'tochter',
@@ -11329,7 +11329,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['family', 'people']
   },
   {
     id: 'töchter',
@@ -11351,7 +11351,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['family', 'people']
   },
   {
     id: 'tomate',
@@ -11373,7 +11373,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food', 'nature']
   },
   {
     id: 'tomaten',
@@ -11395,7 +11395,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food', 'nature']
   },
   {
     id: 'trainerin',
@@ -11417,7 +11417,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'professions', 'sports', 'work']
   },
   {
     id: 'trainerinnen',
@@ -11439,7 +11439,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'professions', 'sports', 'work']
   },
   {
     id: 'tüte',
@@ -11461,7 +11461,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['household', 'shopping']
   },
   {
     id: 'tüten',
@@ -11483,7 +11483,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['household', 'shopping']
   },
   {
     id: 'uhr',
@@ -11505,7 +11505,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['household', 'time']
   },
   {
     id: 'uhren',
@@ -11527,7 +11527,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['household', 'time']
   },
   {
     id: 'unterschrift',
@@ -11549,7 +11549,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['communication', 'documents', 'personal-info']
   },
   {
     id: 'unterschriften',
@@ -11571,7 +11571,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['communication', 'documents', 'personal-info']
   },
   {
     id: 'verkäuferin',
@@ -11593,7 +11593,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'professions', 'shopping', 'work']
   },
   {
     id: 'verkäuferinnen',
@@ -11615,7 +11615,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'professions', 'shopping', 'work']
   },
   {
     id: 'wohnung',
@@ -11637,7 +11637,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['household', 'locations']
   },
   {
     id: 'wohnungen',
@@ -11659,7 +11659,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['household', 'locations']
   },
   {
     id: 'wurst',
@@ -11681,7 +11681,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food']
   },
   {
     id: 'würste',
@@ -11703,7 +11703,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['food']
   },
   {
     id: 'zahl',
@@ -11725,7 +11725,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['measurements', 'numbers']
   },
   {
     id: 'zahlen',
@@ -11747,7 +11747,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['measurements', 'numbers']
   },
   {
     id: 'zahnärztin',
@@ -11769,7 +11769,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['health', 'people', 'professions', 'work']
   },
   {
     id: 'zahnärztinnen',
@@ -11791,7 +11791,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['health', 'people', 'professions', 'work']
   },
   {
     id: 'zeit',
@@ -11813,7 +11813,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['abstract', 'time']
   },
   {
     id: 'zeiten',
@@ -11835,7 +11835,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['abstract', 'time']
   },
   {
     id: 'zeitung',
@@ -11857,7 +11857,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['communication', 'documents']
   },
   {
     id: 'zeitungen',
@@ -11879,7 +11879,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['communication', 'documents']
   }
   ,
   {
@@ -11902,7 +11902,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['money', 'shopping']
   },
   {
     id: 'bild',
@@ -11924,7 +11924,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['arts']
   },
   {
     id: 'bilder',
@@ -11946,7 +11946,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['arts']
   },
   {
     id: 'zentrum',
@@ -11968,7 +11968,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['locations']
   },
   {
     id: 'zentren',
@@ -11990,7 +11990,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['locations']
   },
   {
     id: 'glück',
@@ -12012,7 +12012,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['abstract', 'emotions']
   },
   {
     id: 'haar',
@@ -12034,7 +12034,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['body']
   },
   {
     id: 'haare',
@@ -12056,7 +12056,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['body']
   },
   {
     id: 'konzert',
@@ -12078,7 +12078,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['arts', 'leisure', 'music']
   },
   {
     id: 'konzerte',
@@ -12100,7 +12100,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['arts', 'leisure', 'music']
   },
   {
     id: 'pech',
@@ -12122,7 +12122,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['abstract', 'emotions']
   },
   {
     id: 'abitur',
@@ -12144,7 +12144,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['documents', 'education']
   },
   {
     id: 'problem',
@@ -12166,7 +12166,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['abstract']
   },
   {
     id: 'probleme',
@@ -12188,7 +12188,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['abstract']
   },
   {
     id: 'museum',
@@ -12210,7 +12210,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['arts', 'leisure', 'locations']
   },
   {
     id: 'museen',
@@ -12232,7 +12232,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['arts', 'leisure', 'locations']
   },
   {
     id: 'gast',
@@ -12254,7 +12254,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'travel']
   },
   {
     id: 'gäste',
@@ -12276,7 +12276,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'travel']
   },
   {
     id: 'flughafen',
@@ -12298,7 +12298,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['locations', 'transportation', 'travel']
   },
   {
     id: 'flughäfen',
@@ -12320,7 +12320,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['locations', 'transportation', 'travel']
   },
   {
     id: 'verkehr',
@@ -12342,7 +12342,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['transportation', 'travel']
   },
   {
     id: 'club',
@@ -12364,7 +12364,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['leisure', 'locations']
   },
   {
     id: 'clubs',
@@ -12386,7 +12386,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['leisure', 'locations']
   },
   {
     id: 'spaziergang',
@@ -12408,7 +12408,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['leisure']
   },
   {
     id: 'spaziergänge',
@@ -12430,7 +12430,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['leisure']
   },
   {
     id: 'kilometer',
@@ -12452,7 +12452,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['measurements']
   },
   {
     id: 'kilometer-plural',
@@ -12474,7 +12474,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['measurements']
   },
   {
     id: 'meter',
@@ -12496,7 +12496,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['measurements']
   },
   {
     id: 'meter-plural',
@@ -12518,7 +12518,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['measurements']
   },
   {
     id: 'ausflug',
@@ -12540,7 +12540,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['leisure', 'travel']
   },
   {
     id: 'ausflüge',
@@ -12562,7 +12562,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['leisure', 'travel']
   },
   {
     id: 'park',
@@ -12584,7 +12584,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['leisure', 'locations', 'nature']
   },
   {
     id: 'parks',
@@ -12606,7 +12606,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['leisure', 'locations', 'nature']
   },
   {
     id: 'see',
@@ -12628,7 +12628,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['locations', 'nature']
   },
   {
     id: 'seen',
@@ -12650,7 +12650,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['locations', 'nature']
   },
   {
     id: 'abschluss',
@@ -12672,7 +12672,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['abstract', 'work']
   },
   {
     id: 'abschlüsse',
@@ -12694,7 +12694,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['abstract', 'work']
   },
   {
     id: 'arbeiter',
@@ -12716,7 +12716,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'professions', 'work']
   },
   {
     id: 'arbeiter-plural',
@@ -12738,7 +12738,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'professions', 'work']
   },
   {
     id: 'tourist',
@@ -12760,7 +12760,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'travel']
   },
   {
     id: 'touristen',
@@ -12782,7 +12782,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'travel']
   },
   {
     id: 'besuch',
@@ -12804,7 +12804,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['abstract', 'travel']
   },
   {
     id: 'besuche',
@@ -12826,7 +12826,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['abstract', 'travel']
   },
   {
     id: 'tipp',
@@ -12848,7 +12848,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['abstract']
   },
   {
     id: 'tipps',
@@ -12870,7 +12870,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['abstract']
   },
   {
     id: 'bus',
@@ -12892,7 +12892,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['transportation', 'travel']
   },
   {
     id: 'busse',
@@ -12914,7 +12914,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['transportation', 'travel']
   },
   {
     id: 'leute',
@@ -12936,7 +12936,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people']
   },
   {
     id: 'firma',
@@ -12958,7 +12958,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['locations', 'work']
   },
   {
     id: 'firmen',
@@ -12980,7 +12980,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['locations', 'work']
   },
   {
     id: 'stadt',
@@ -13002,7 +13002,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['locations', 'travel']
   },
   {
     id: 'städte',
@@ -13024,7 +13024,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['locations', 'travel']
   },
   {
     id: 'nachricht',
@@ -13046,7 +13046,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['communication']
   },
   {
     id: 'nachrichten',
@@ -13068,7 +13068,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['communication']
   },
   {
     id: 'party',
@@ -13090,7 +13090,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['leisure']
   },
   {
     id: 'partys',
@@ -13112,7 +13112,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['leisure']
   },
   {
     id: 'universität',
@@ -13134,7 +13134,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['education', 'locations', 'work']
   },
   {
     id: 'universitäten',
@@ -13156,7 +13156,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['education', 'locations', 'work']
   },
   {
     id: 'arbeiterin',
@@ -13178,7 +13178,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'professions', 'work']
   },
   {
     id: 'arbeiterinnen',
@@ -13200,7 +13200,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'professions', 'work']
   },
   {
     id: 'prüfung',
@@ -13222,7 +13222,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['abstract', 'education']
   },
   {
     id: 'prüfungen',
@@ -13244,7 +13244,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['abstract', 'education']
   },
   {
     id: 'schule',
@@ -13266,7 +13266,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['education', 'locations', 'work']
   },
   {
     id: 'schulen',
@@ -13288,7 +13288,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['education', 'locations', 'work']
   },
   {
     id: 'stelle',
@@ -13310,7 +13310,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['abstract', 'work']
   },
   {
     id: 'stellen',
@@ -13332,7 +13332,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['abstract', 'work']
   },
   {
     id: 'app',
@@ -13354,7 +13354,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['technology']
   },
   {
     id: 'apps',
@@ -13376,7 +13376,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['technology']
   },
   {
     id: 'touristin',
@@ -13398,7 +13398,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'travel']
   },
   {
     id: 'touristinnen',
@@ -13420,7 +13420,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['people', 'travel']
   },
   {
     id: 'u-bahn',
@@ -13442,7 +13442,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['transportation', 'travel']
   },
   {
     id: 'u-bahnen',
@@ -13464,7 +13464,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['transportation', 'travel']
   },
   {
     id: 's-bahn',
@@ -13486,7 +13486,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['transportation', 'travel']
   },
   {
     id: 's-bahnen',
@@ -13508,7 +13508,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['transportation', 'travel']
   },
   {
     id: 'straßenbahn',
@@ -13530,7 +13530,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['transportation', 'travel']
   },
   {
     id: 'straßenbahnen',
@@ -13552,7 +13552,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['transportation', 'travel']
   },
   {
     id: 'station',
@@ -13574,7 +13574,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['locations', 'transportation', 'travel']
   },
   {
     id: 'stationen',
@@ -13596,7 +13596,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['locations', 'transportation', 'travel']
   },
   {
     id: 'haltestelle',
@@ -13618,7 +13618,7 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['locations', 'transportation', 'travel']
   },
   {
     id: 'haltestellen',
@@ -13640,6 +13640,6 @@ export const nouns: GermanNoun[] = [
       tr: null
     },
     levels: [],
-    categories: []
+    categories: ['locations', 'transportation', 'travel']
   }
 ]
