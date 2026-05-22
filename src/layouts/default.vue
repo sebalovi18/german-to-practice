@@ -4,7 +4,7 @@ import TheFontSelector from '@/components/TheFontSelector.vue'
 
 import { ArrowLeftIcon } from '@lucide/vue'
 
-import { ref, watch } from 'vue'
+import { ref, watch, computed } from 'vue'
 
 import { useRouter } from 'vue-router'
 
@@ -16,6 +16,16 @@ import {
 import { FONT_STORAGE_KEY } from '@/constants/storage'
 
 const router = useRouter()
+
+const isBackButtonVisible = computed((): boolean => {
+  const routerPath = router.currentRoute.value.path ?? ''
+
+  if (!routerPath) {
+    return false
+  }
+
+  return !['/', 'home'].includes(routerPath)
+})
 
 const savedFontClass = localStorage.getItem(FONT_STORAGE_KEY)
 const selectedFontClass = ref(
@@ -37,9 +47,9 @@ watch(selectedFontClass, (fontClass) => {
     >
       <div>
         <button
-          v-if="router.currentRoute.value.path !== '/home'"
+          v-if="isBackButtonVisible"
           class="btn h-[40px]"
-          @click="router.push('/home')"
+          @click="router.back()"
         >
           <ArrowLeftIcon
             class="size-4"
