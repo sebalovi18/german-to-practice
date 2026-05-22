@@ -951,12 +951,12 @@ export const nouns: GermanNoun[] = [
     id: 'grad-plural',
     type: 'noun',
     article: 'die',
-    value: 'Grad',
+    value: 'Grade',
     singular_id: 'grad',
     plural_id: null,
     translations: {
       en: 'degrees',
-      de: 'Grad',
+      de: 'Grade',
       es: 'grados',
       tr: 'dereceler'
     },
@@ -1303,12 +1303,12 @@ export const nouns: GermanNoun[] = [
     id: 'kilo-plural',
     type: 'noun',
     article: 'die',
-    value: 'Kilo',
+    value: 'Kilos',
     singular_id: 'kilo',
     plural_id: null,
     translations: {
       en: 'kilos',
-      de: 'Kilo',
+      de: 'Kilos',
       es: 'kilos',
       tr: 'kilolar'
     },
@@ -1857,10 +1857,10 @@ export const nouns: GermanNoun[] = [
     singular_id: null,
     plural_id: 'räder',
     translations: {
-      en: 'wheel',
+      en: 'wheel / bike',
       de: 'Rad',
-      es: 'rueda',
-      tr: 'tekerlek'
+      es: 'rueda / bici',
+      tr: 'tekerlek / bisiklet'
     },
     translationArticles: {
       en: 'the',
@@ -1879,10 +1879,10 @@ export const nouns: GermanNoun[] = [
     singular_id: 'rad',
     plural_id: null,
     translations: {
-      en: 'wheels',
+      en: 'wheels / bikes',
       de: 'Räder',
-      es: 'ruedas',
-      tr: 'tekerlekler'
+      es: 'ruedas / bicis',
+      tr: 'tekerlekler / bisikletler'
     },
     translationArticles: {
       en: 'the',
@@ -3531,7 +3531,7 @@ export const nouns: GermanNoun[] = [
     translations: {
       en: 'fish',
       de: 'Fisch',
-      es: 'pescado',
+      es: 'pez / pescado',
       tr: 'balık'
     },
     translationArticles: {
@@ -3553,7 +3553,7 @@ export const nouns: GermanNoun[] = [
     translations: {
       en: 'fishes',
       de: 'Fische',
-      es: 'pescados',
+      es: 'peces / pescados',
       tr: 'balıklar'
     },
     translationArticles: {
@@ -3793,7 +3793,7 @@ export const nouns: GermanNoun[] = [
     singular_id: null,
     plural_id: 'führerscheine',
     translations: {
-      en: "driver's license",
+      en: 'driver\'s license',
       de: 'Führerschein',
       es: 'carné de conducir',
       tr: 'ehliyet'
@@ -3815,7 +3815,7 @@ export const nouns: GermanNoun[] = [
     singular_id: 'führerschein',
     plural_id: null,
     translations: {
-      en: "driver's licenses",
+      en: 'driver\'s licenses',
       de: 'Führerscheine',
       es: 'carnés de conducir',
       tr: 'ehliyetler'
@@ -3837,10 +3837,10 @@ export const nouns: GermanNoun[] = [
     singular_id: null,
     plural_id: 'fußbälle',
     translations: {
-      en: 'soccer ball',
+      en: 'soccer ball / football',
       de: 'Fußball',
-      es: 'balón de fútbol',
-      tr: 'futbol topu'
+      es: 'balón de fútbol / fútbol',
+      tr: 'futbol topu / futbol'
     },
     translationArticles: {
       en: 'the',
@@ -8321,12 +8321,12 @@ export const nouns: GermanNoun[] = [
     id: 'e-mail',
     type: 'noun',
     article: 'die',
-    value: 'E-mail',
+    value: 'E-Mail',
     singular_id: null,
     plural_id: 'e-mails',
     translations: {
       en: 'email',
-      de: 'E-mail',
+      de: 'E-Mail',
       es: 'correo electrónico',
       tr: 'e-posta'
     },
@@ -8343,12 +8343,12 @@ export const nouns: GermanNoun[] = [
     id: 'e-mails',
     type: 'noun',
     article: 'die',
-    value: 'E-mails',
+    value: 'E-Mails',
     singular_id: 'e-mail',
     plural_id: null,
     translations: {
       en: 'emails',
-      de: 'E-mails',
+      de: 'E-Mails',
       es: 'correos electrónicos',
       tr: 'e-postalar'
     },
@@ -8365,12 +8365,12 @@ export const nouns: GermanNoun[] = [
     id: 'e-mail-adresse',
     type: 'noun',
     article: 'die',
-    value: 'E-mail-Adresse',
+    value: 'E-Mail-Adresse',
     singular_id: null,
     plural_id: 'e-mail-adressen',
     translations: {
       en: 'email address',
-      de: 'E-mail-Adresse',
+      de: 'E-Mail-Adresse',
       es: 'dirección de correo electrónico',
       tr: 'e-posta adresi'
     },
@@ -8387,12 +8387,12 @@ export const nouns: GermanNoun[] = [
     id: 'e-mail-adressen',
     type: 'noun',
     article: 'die',
-    value: 'E-mail-Adressen',
+    value: 'E-Mail-Adressen',
     singular_id: 'e-mail-adresse',
     plural_id: null,
     translations: {
       en: 'email addresses',
-      de: 'E-mail-Adressen',
+      de: 'E-Mail-Adressen',
       es: 'direcciones de correo electrónico',
       tr: 'e-posta adresleri'
     },
@@ -11876,6 +11876,1767 @@ export const nouns: GermanNoun[] = [
       en: 'the',
       de: 'die',
       es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  }
+  ,
+  {
+    id: 'geld',
+    type: 'noun',
+    article: 'das',
+    value: 'Geld',
+    singular_id: null,
+    plural_id: null,
+    translations: {
+      en: 'money',
+      de: 'Geld',
+      es: 'dinero',
+      tr: 'para'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'bild',
+    type: 'noun',
+    article: 'das',
+    value: 'Bild',
+    singular_id: null,
+    plural_id: 'bilder',
+    translations: {
+      en: 'picture / image',
+      de: 'Bild',
+      es: 'imagen / foto',
+      tr: 'resim'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'la',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'bilder',
+    type: 'noun',
+    article: 'die',
+    value: 'Bilder',
+    singular_id: 'bild',
+    plural_id: null,
+    translations: {
+      en: 'pictures / images',
+      de: 'Bilder',
+      es: 'imágenes / fotos',
+      tr: 'resimler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'zentrum',
+    type: 'noun',
+    article: 'das',
+    value: 'Zentrum',
+    singular_id: null,
+    plural_id: 'zentren',
+    translations: {
+      en: 'center',
+      de: 'Zentrum',
+      es: 'centro',
+      tr: 'merkez'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'zentren',
+    type: 'noun',
+    article: 'die',
+    value: 'Zentren',
+    singular_id: 'zentrum',
+    plural_id: null,
+    translations: {
+      en: 'centers',
+      de: 'Zentren',
+      es: 'centros',
+      tr: 'merkezler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'glück',
+    type: 'noun',
+    article: 'das',
+    value: 'Glück',
+    singular_id: null,
+    plural_id: null,
+    translations: {
+      en: 'luck / happiness',
+      de: 'Glück',
+      es: 'suerte / felicidad',
+      tr: 'şans / mutluluk'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'la',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'haar',
+    type: 'noun',
+    article: 'das',
+    value: 'Haar',
+    singular_id: null,
+    plural_id: 'haare',
+    translations: {
+      en: 'hair',
+      de: 'Haar',
+      es: 'cabello',
+      tr: 'saç'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'haare',
+    type: 'noun',
+    article: 'die',
+    value: 'Haare',
+    singular_id: 'haar',
+    plural_id: null,
+    translations: {
+      en: 'hairs',
+      de: 'Haare',
+      es: 'cabellos',
+      tr: 'saçlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'konzert',
+    type: 'noun',
+    article: 'das',
+    value: 'Konzert',
+    singular_id: null,
+    plural_id: 'konzerte',
+    translations: {
+      en: 'concert',
+      de: 'Konzert',
+      es: 'concierto',
+      tr: 'konser'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'konzerte',
+    type: 'noun',
+    article: 'die',
+    value: 'Konzerte',
+    singular_id: 'konzert',
+    plural_id: null,
+    translations: {
+      en: 'concerts',
+      de: 'Konzerte',
+      es: 'conciertos',
+      tr: 'konserler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'pech',
+    type: 'noun',
+    article: 'das',
+    value: 'Pech',
+    singular_id: null,
+    plural_id: null,
+    translations: {
+      en: 'bad luck',
+      de: 'Pech',
+      es: 'mala suerte',
+      tr: 'şanssızlık'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'la',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'abitur',
+    type: 'noun',
+    article: 'das',
+    value: 'Abitur',
+    singular_id: null,
+    plural_id: null,
+    translations: {
+      en: 'high school diploma',
+      de: 'Abitur',
+      es: 'bachillerato',
+      tr: 'lise diploması'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'problem',
+    type: 'noun',
+    article: 'das',
+    value: 'Problem',
+    singular_id: null,
+    plural_id: 'probleme',
+    translations: {
+      en: 'problem',
+      de: 'Problem',
+      es: 'problema',
+      tr: 'problem'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'probleme',
+    type: 'noun',
+    article: 'die',
+    value: 'Probleme',
+    singular_id: 'problem',
+    plural_id: null,
+    translations: {
+      en: 'problems',
+      de: 'Probleme',
+      es: 'problemas',
+      tr: 'problemler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'museum',
+    type: 'noun',
+    article: 'das',
+    value: 'Museum',
+    singular_id: null,
+    plural_id: 'museen',
+    translations: {
+      en: 'museum',
+      de: 'Museum',
+      es: 'museo',
+      tr: 'müze'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'museen',
+    type: 'noun',
+    article: 'die',
+    value: 'Museen',
+    singular_id: 'museum',
+    plural_id: null,
+    translations: {
+      en: 'museums',
+      de: 'Museen',
+      es: 'museos',
+      tr: 'müzeler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'gast',
+    type: 'noun',
+    article: 'der',
+    value: 'Gast',
+    singular_id: null,
+    plural_id: 'gäste',
+    translations: {
+      en: 'guest',
+      de: 'Gast',
+      es: 'invitado / huésped',
+      tr: 'misafir'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'gäste',
+    type: 'noun',
+    article: 'die',
+    value: 'Gäste',
+    singular_id: 'gast',
+    plural_id: null,
+    translations: {
+      en: 'guests',
+      de: 'Gäste',
+      es: 'invitados / huéspedes',
+      tr: 'misafirler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'flughafen',
+    type: 'noun',
+    article: 'der',
+    value: 'Flughafen',
+    singular_id: null,
+    plural_id: 'flughäfen',
+    translations: {
+      en: 'airport',
+      de: 'Flughafen',
+      es: 'aeropuerto',
+      tr: 'havaalanı'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'flughäfen',
+    type: 'noun',
+    article: 'die',
+    value: 'Flughäfen',
+    singular_id: 'flughafen',
+    plural_id: null,
+    translations: {
+      en: 'airports',
+      de: 'Flughäfen',
+      es: 'aeropuertos',
+      tr: 'havaalanları'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'verkehr',
+    type: 'noun',
+    article: 'der',
+    value: 'Verkehr',
+    singular_id: null,
+    plural_id: null,
+    translations: {
+      en: 'traffic',
+      de: 'Verkehr',
+      es: 'tráfico',
+      tr: 'trafik'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'club',
+    type: 'noun',
+    article: 'der',
+    value: 'Club',
+    singular_id: null,
+    plural_id: 'clubs',
+    translations: {
+      en: 'club',
+      de: 'Club',
+      es: 'club',
+      tr: 'kulüp'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'clubs',
+    type: 'noun',
+    article: 'die',
+    value: 'Clubs',
+    singular_id: 'club',
+    plural_id: null,
+    translations: {
+      en: 'clubs',
+      de: 'Clubs',
+      es: 'clubes',
+      tr: 'kulüpler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'spaziergang',
+    type: 'noun',
+    article: 'der',
+    value: 'Spaziergang',
+    singular_id: null,
+    plural_id: 'spaziergänge',
+    translations: {
+      en: 'walk / stroll',
+      de: 'Spaziergang',
+      es: 'paseo / caminata',
+      tr: 'yürüyüş'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'spaziergänge',
+    type: 'noun',
+    article: 'die',
+    value: 'Spaziergänge',
+    singular_id: 'spaziergang',
+    plural_id: null,
+    translations: {
+      en: 'walks / strolls',
+      de: 'Spaziergänge',
+      es: 'paseos / caminatas',
+      tr: 'yürüyüşler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'kilometer',
+    type: 'noun',
+    article: 'der',
+    value: 'Kilometer',
+    singular_id: null,
+    plural_id: 'kilometer-plural',
+    translations: {
+      en: 'kilometer',
+      de: 'Kilometer',
+      es: 'kilómetro',
+      tr: 'kilometre'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'kilometer-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Kilometer',
+    singular_id: 'kilometer',
+    plural_id: null,
+    translations: {
+      en: 'kilometers',
+      de: 'Kilometer',
+      es: 'kilómetros',
+      tr: 'kilometreler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'meter',
+    type: 'noun',
+    article: 'der',
+    value: 'Meter',
+    singular_id: null,
+    plural_id: 'meter-plural',
+    translations: {
+      en: 'meter',
+      de: 'Meter',
+      es: 'metro',
+      tr: 'metre'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'meter-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Meter',
+    singular_id: 'meter',
+    plural_id: null,
+    translations: {
+      en: 'meters',
+      de: 'Meter',
+      es: 'metros',
+      tr: 'metreler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'ausflug',
+    type: 'noun',
+    article: 'der',
+    value: 'Ausflug',
+    singular_id: null,
+    plural_id: 'ausflüge',
+    translations: {
+      en: 'trip / excursion',
+      de: 'Ausflug',
+      es: 'excursión',
+      tr: 'gezi'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'la',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'ausflüge',
+    type: 'noun',
+    article: 'die',
+    value: 'Ausflüge',
+    singular_id: 'ausflug',
+    plural_id: null,
+    translations: {
+      en: 'trips / excursions',
+      de: 'Ausflüge',
+      es: 'excursiones',
+      tr: 'geziler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'park',
+    type: 'noun',
+    article: 'der',
+    value: 'Park',
+    singular_id: null,
+    plural_id: 'parks',
+    translations: {
+      en: 'park',
+      de: 'Park',
+      es: 'parque',
+      tr: 'park'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'parks',
+    type: 'noun',
+    article: 'die',
+    value: 'Parks',
+    singular_id: 'park',
+    plural_id: null,
+    translations: {
+      en: 'parks',
+      de: 'Parks',
+      es: 'parques',
+      tr: 'parklar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'see',
+    type: 'noun',
+    article: 'der',
+    value: 'See',
+    singular_id: null,
+    plural_id: 'seen',
+    translations: {
+      en: 'lake',
+      de: 'See',
+      es: 'lago',
+      tr: 'göl'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'seen',
+    type: 'noun',
+    article: 'die',
+    value: 'Seen',
+    singular_id: 'see',
+    plural_id: null,
+    translations: {
+      en: 'lakes',
+      de: 'Seen',
+      es: 'lagos',
+      tr: 'göller'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'abschluss',
+    type: 'noun',
+    article: 'der',
+    value: 'Abschluss',
+    singular_id: null,
+    plural_id: 'abschlüsse',
+    translations: {
+      en: 'graduation / qualification',
+      de: 'Abschluss',
+      es: 'graduación / título',
+      tr: 'mezuniyet / diploma'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'la',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'abschlüsse',
+    type: 'noun',
+    article: 'die',
+    value: 'Abschlüsse',
+    singular_id: 'abschluss',
+    plural_id: null,
+    translations: {
+      en: 'graduations / qualifications',
+      de: 'Abschlüsse',
+      es: 'graduaciones / títulos',
+      tr: 'mezuniyetler / diplomalar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'arbeiter',
+    type: 'noun',
+    article: 'der',
+    value: 'Arbeiter',
+    singular_id: null,
+    plural_id: 'arbeiter-plural',
+    translations: {
+      en: 'worker',
+      de: 'Arbeiter',
+      es: 'trabajador',
+      tr: 'işçi'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'arbeiter-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Arbeiter',
+    singular_id: 'arbeiter',
+    plural_id: null,
+    translations: {
+      en: 'workers',
+      de: 'Arbeiter',
+      es: 'trabajadores',
+      tr: 'işçiler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'tourist',
+    type: 'noun',
+    article: 'der',
+    value: 'Tourist',
+    singular_id: null,
+    plural_id: 'touristen',
+    translations: {
+      en: 'tourist',
+      de: 'Tourist',
+      es: 'turista',
+      tr: 'turist'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'touristen',
+    type: 'noun',
+    article: 'die',
+    value: 'Touristen',
+    singular_id: 'tourist',
+    plural_id: null,
+    translations: {
+      en: 'tourists',
+      de: 'Touristen',
+      es: 'turistas',
+      tr: 'turistler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'besuch',
+    type: 'noun',
+    article: 'der',
+    value: 'Besuch',
+    singular_id: null,
+    plural_id: 'besuche',
+    translations: {
+      en: 'visit',
+      de: 'Besuch',
+      es: 'visita',
+      tr: 'ziyaret'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'la',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'besuche',
+    type: 'noun',
+    article: 'die',
+    value: 'Besuche',
+    singular_id: 'besuch',
+    plural_id: null,
+    translations: {
+      en: 'visits',
+      de: 'Besuche',
+      es: 'visitas',
+      tr: 'ziyaretler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'tipp',
+    type: 'noun',
+    article: 'der',
+    value: 'Tipp',
+    singular_id: null,
+    plural_id: 'tipps',
+    translations: {
+      en: 'tip / advice',
+      de: 'Tipp',
+      es: 'consejo',
+      tr: 'ipucu'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'tipps',
+    type: 'noun',
+    article: 'die',
+    value: 'Tipps',
+    singular_id: 'tipp',
+    plural_id: null,
+    translations: {
+      en: 'tips / advice',
+      de: 'Tipps',
+      es: 'consejos',
+      tr: 'ipuçları'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'bus',
+    type: 'noun',
+    article: 'der',
+    value: 'Bus',
+    singular_id: null,
+    plural_id: 'busse',
+    translations: {
+      en: 'bus',
+      de: 'Bus',
+      es: 'autobús',
+      tr: 'otobüs'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'busse',
+    type: 'noun',
+    article: 'die',
+    value: 'Busse',
+    singular_id: 'bus',
+    plural_id: null,
+    translations: {
+      en: 'buses',
+      de: 'Busse',
+      es: 'autobuses',
+      tr: 'otobüsler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'leute',
+    type: 'noun',
+    article: 'die',
+    value: 'Leute',
+    singular_id: null,
+    plural_id: null,
+    translations: {
+      en: 'people',
+      de: 'Leute',
+      es: 'gente / personas',
+      tr: 'insanlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'firma',
+    type: 'noun',
+    article: 'die',
+    value: 'Firma',
+    singular_id: null,
+    plural_id: 'firmen',
+    translations: {
+      en: 'company',
+      de: 'Firma',
+      es: 'empresa',
+      tr: 'şirket'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'firmen',
+    type: 'noun',
+    article: 'die',
+    value: 'Firmen',
+    singular_id: 'firma',
+    plural_id: null,
+    translations: {
+      en: 'companies',
+      de: 'Firmen',
+      es: 'empresas',
+      tr: 'şirketler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'stadt',
+    type: 'noun',
+    article: 'die',
+    value: 'Stadt',
+    singular_id: null,
+    plural_id: 'städte',
+    translations: {
+      en: 'city',
+      de: 'Stadt',
+      es: 'ciudad',
+      tr: 'şehir'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'städte',
+    type: 'noun',
+    article: 'die',
+    value: 'Städte',
+    singular_id: 'stadt',
+    plural_id: null,
+    translations: {
+      en: 'cities',
+      de: 'Städte',
+      es: 'ciudades',
+      tr: 'şehirler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'nachricht',
+    type: 'noun',
+    article: 'die',
+    value: 'Nachricht',
+    singular_id: null,
+    plural_id: 'nachrichten',
+    translations: {
+      en: 'message / news',
+      de: 'Nachricht',
+      es: 'mensaje / noticia',
+      tr: 'mesaj / haber'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'el',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'nachrichten',
+    type: 'noun',
+    article: 'die',
+    value: 'Nachrichten',
+    singular_id: 'nachricht',
+    plural_id: null,
+    translations: {
+      en: 'messages / news',
+      de: 'Nachrichten',
+      es: 'mensajes / noticias',
+      tr: 'mesajlar / haberler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'party',
+    type: 'noun',
+    article: 'die',
+    value: 'Party',
+    singular_id: null,
+    plural_id: 'partys',
+    translations: {
+      en: 'party',
+      de: 'Party',
+      es: 'fiesta',
+      tr: 'parti'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'partys',
+    type: 'noun',
+    article: 'die',
+    value: 'Partys',
+    singular_id: 'party',
+    plural_id: null,
+    translations: {
+      en: 'parties',
+      de: 'Partys',
+      es: 'fiestas',
+      tr: 'partiler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'universität',
+    type: 'noun',
+    article: 'die',
+    value: 'Universität',
+    singular_id: null,
+    plural_id: 'universitäten',
+    translations: {
+      en: 'university',
+      de: 'Universität',
+      es: 'universidad',
+      tr: 'üniversite'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'universitäten',
+    type: 'noun',
+    article: 'die',
+    value: 'Universitäten',
+    singular_id: 'universität',
+    plural_id: null,
+    translations: {
+      en: 'universities',
+      de: 'Universitäten',
+      es: 'universidades',
+      tr: 'üniversiteler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'arbeiterin',
+    type: 'noun',
+    article: 'die',
+    value: 'Arbeiterin',
+    singular_id: null,
+    plural_id: 'arbeiterinnen',
+    translations: {
+      en: 'female worker',
+      de: 'Arbeiterin',
+      es: 'trabajadora',
+      tr: 'kadın işçi'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'arbeiterinnen',
+    type: 'noun',
+    article: 'die',
+    value: 'Arbeiterinnen',
+    singular_id: 'arbeiterin',
+    plural_id: null,
+    translations: {
+      en: 'female workers',
+      de: 'Arbeiterinnen',
+      es: 'trabajadoras',
+      tr: 'kadın işçiler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'prüfung',
+    type: 'noun',
+    article: 'die',
+    value: 'Prüfung',
+    singular_id: null,
+    plural_id: 'prüfungen',
+    translations: {
+      en: 'exam',
+      de: 'Prüfung',
+      es: 'examen',
+      tr: 'sınav'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'el',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'prüfungen',
+    type: 'noun',
+    article: 'die',
+    value: 'Prüfungen',
+    singular_id: 'prüfung',
+    plural_id: null,
+    translations: {
+      en: 'exams',
+      de: 'Prüfungen',
+      es: 'exámenes',
+      tr: 'sınavlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'schule',
+    type: 'noun',
+    article: 'die',
+    value: 'Schule',
+    singular_id: null,
+    plural_id: 'schulen',
+    translations: {
+      en: 'school',
+      de: 'Schule',
+      es: 'escuela',
+      tr: 'okul'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'schulen',
+    type: 'noun',
+    article: 'die',
+    value: 'Schulen',
+    singular_id: 'schule',
+    plural_id: null,
+    translations: {
+      en: 'schools',
+      de: 'Schulen',
+      es: 'escuelas',
+      tr: 'okullar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'stelle',
+    type: 'noun',
+    article: 'die',
+    value: 'Stelle',
+    singular_id: null,
+    plural_id: 'stellen',
+    translations: {
+      en: 'position / place',
+      de: 'Stelle',
+      es: 'puesto / lugar',
+      tr: 'pozisyon / yer'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'el',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'stellen',
+    type: 'noun',
+    article: 'die',
+    value: 'Stellen',
+    singular_id: 'stelle',
+    plural_id: null,
+    translations: {
+      en: 'positions / places',
+      de: 'Stellen',
+      es: 'puestos / lugares',
+      tr: 'pozisyonlar / yerler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'app',
+    type: 'noun',
+    article: 'die',
+    value: 'App',
+    singular_id: null,
+    plural_id: 'apps',
+    translations: {
+      en: 'app',
+      de: 'App',
+      es: 'aplicación',
+      tr: 'uygulama'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'apps',
+    type: 'noun',
+    article: 'die',
+    value: 'Apps',
+    singular_id: 'app',
+    plural_id: null,
+    translations: {
+      en: 'apps',
+      de: 'Apps',
+      es: 'aplicaciones',
+      tr: 'uygulamalar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'touristin',
+    type: 'noun',
+    article: 'die',
+    value: 'Touristin',
+    singular_id: null,
+    plural_id: 'touristinnen',
+    translations: {
+      en: 'female tourist',
+      de: 'Touristin',
+      es: 'turista',
+      tr: 'kadın turist'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'touristinnen',
+    type: 'noun',
+    article: 'die',
+    value: 'Touristinnen',
+    singular_id: 'touristin',
+    plural_id: null,
+    translations: {
+      en: 'female tourists',
+      de: 'Touristinnen',
+      es: 'turistas',
+      tr: 'kadın turistler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'u-bahn',
+    type: 'noun',
+    article: 'die',
+    value: 'U-Bahn',
+    singular_id: null,
+    plural_id: 'u-bahnen',
+    translations: {
+      en: 'subway / metro',
+      de: 'U-Bahn',
+      es: 'metro',
+      tr: 'metro'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'el',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'u-bahnen',
+    type: 'noun',
+    article: 'die',
+    value: 'U-Bahnen',
+    singular_id: 'u-bahn',
+    plural_id: null,
+    translations: {
+      en: 'subways / metros',
+      de: 'U-Bahnen',
+      es: 'metros',
+      tr: 'metrolar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 's-bahn',
+    type: 'noun',
+    article: 'die',
+    value: 'S-Bahn',
+    singular_id: null,
+    plural_id: 's-bahnen',
+    translations: {
+      en: 'urban train',
+      de: 'S-Bahn',
+      es: 'tren urbano',
+      tr: 'şehir treni'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'el',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 's-bahnen',
+    type: 'noun',
+    article: 'die',
+    value: 'S-Bahnen',
+    singular_id: 's-bahn',
+    plural_id: null,
+    translations: {
+      en: 'urban trains',
+      de: 'S-Bahnen',
+      es: 'trenes urbanos',
+      tr: 'şehir trenleri'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'straßenbahn',
+    type: 'noun',
+    article: 'die',
+    value: 'Straßenbahn',
+    singular_id: null,
+    plural_id: 'straßenbahnen',
+    translations: {
+      en: 'tram',
+      de: 'Straßenbahn',
+      es: 'tranvía',
+      tr: 'tramvay'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'el',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'straßenbahnen',
+    type: 'noun',
+    article: 'die',
+    value: 'Straßenbahnen',
+    singular_id: 'straßenbahn',
+    plural_id: null,
+    translations: {
+      en: 'trams',
+      de: 'Straßenbahnen',
+      es: 'tranvías',
+      tr: 'tramvaylar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'station',
+    type: 'noun',
+    article: 'die',
+    value: 'Station',
+    singular_id: null,
+    plural_id: 'stationen',
+    translations: {
+      en: 'station',
+      de: 'Station',
+      es: 'estación',
+      tr: 'istasyon'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'stationen',
+    type: 'noun',
+    article: 'die',
+    value: 'Stationen',
+    singular_id: 'station',
+    plural_id: null,
+    translations: {
+      en: 'stations',
+      de: 'Stationen',
+      es: 'estaciones',
+      tr: 'istasyonlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'haltestelle',
+    type: 'noun',
+    article: 'die',
+    value: 'Haltestelle',
+    singular_id: null,
+    plural_id: 'haltestellen',
+    translations: {
+      en: 'stop',
+      de: 'Haltestelle',
+      es: 'parada',
+      tr: 'durak'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
+    },
+    levels: [],
+    categories: []
+  },
+  {
+    id: 'haltestellen',
+    type: 'noun',
+    article: 'die',
+    value: 'Haltestellen',
+    singular_id: 'haltestelle',
+    plural_id: null,
+    translations: {
+      en: 'stops',
+      de: 'Haltestellen',
+      es: 'paradas',
+      tr: 'duraklar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
       tr: null
     },
     levels: [],
