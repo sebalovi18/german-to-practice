@@ -780,5 +780,174 @@ export const adjectives: GermanAdjective[] = [
       es: 'importante',
       tr: 'önemli'
     }
+  },
+  {
+    id: 'beruflich',
+    type: 'adjective',
+    adjective: 'beruflich',
+    comparative: 'beruflicher',
+    superlative: 'am beruflichsten',
+    translations: {
+      en: 'professional / work-related',
+      de: 'beruflich',
+      es: 'profesional / laboral',
+      tr: 'mesleki / işle ilgili'
+    }
+  },
+  {
+    id: 'einfach',
+    type: 'adjective',
+    adjective: 'einfach',
+    comparative: 'einfacher',
+    superlative: 'am einfachsten',
+    translations: {
+      en: 'easy / simple',
+      de: 'einfach',
+      es: 'fácil / simple',
+      tr: 'kolay / basit'
+    }
+  },
+  {
+    id: 'geboren',
+    type: 'adjective',
+    adjective: 'geboren',
+    comparative: 'geborener',
+    superlative: 'am geborensten',
+    translations: {
+      en: 'born',
+      de: 'geboren',
+      es: 'nacido',
+      tr: 'doğmuş'
+    }
+  },
+  {
+    id: 'herzlich',
+    type: 'adjective',
+    adjective: 'herzlich',
+    comparative: 'herzlicher',
+    superlative: 'am herzlichsten',
+    translations: {
+      en: 'warm / cordial',
+      de: 'herzlich',
+      es: 'cordial / afectuoso',
+      tr: 'samimi / içten'
+    }
+  },
+  {
+    id: 'komisch',
+    type: 'adjective',
+    adjective: 'komisch',
+    comparative: 'komischer',
+    superlative: 'am komischsten',
+    translations: {
+      en: 'strange / funny',
+      de: 'komisch',
+      es: 'raro / gracioso',
+      tr: 'garip / komik'
+    }
+  },
+  {
+    id: 'kostenlos',
+    type: 'adjective',
+    adjective: 'kostenlos',
+    comparative: 'kostenloser',
+    superlative: 'am kostenlosesten',
+    translations: {
+      en: 'free of charge',
+      de: 'kostenlos',
+      es: 'gratis',
+      tr: 'ücretsiz'
+    }
+  },
+  {
+    id: 'langweilig',
+    type: 'adjective',
+    adjective: 'langweilig',
+    comparative: 'langweiliger',
+    superlative: 'am langweiligsten',
+    translations: {
+      en: 'boring',
+      de: 'langweilig',
+      es: 'aburrido',
+      tr: 'sıkıcı'
+    }
+  },
+  {
+    id: 'nötig',
+    type: 'adjective',
+    adjective: 'nötig',
+    comparative: 'nötiger',
+    superlative: 'am nötigsten',
+    translations: {
+      en: 'necessary',
+      de: 'nötig',
+      es: 'necesario',
+      tr: 'gerekli'
+    }
+  },
+  {
+    id: 'praktisch',
+    type: 'adjective',
+    adjective: 'praktisch',
+    comparative: 'praktischer',
+    superlative: 'am praktischsten',
+    translations: {
+      en: 'practical',
+      de: 'praktisch',
+      es: 'práctico',
+      tr: 'pratik'
+    }
+  },
+  {
+    id: 'privat',
+    type: 'adjective',
+    adjective: 'privat',
+    comparative: 'privater',
+    superlative: 'am privatesten',
+    translations: {
+      en: 'private',
+      de: 'privat',
+      es: 'privado',
+      tr: 'özel'
+    }
+  },
+  {
+    id: 'willkommen',
+    type: 'adjective',
+    adjective: 'willkommen',
+    comparative: 'willkommener',
+    superlative: 'am willkommensten',
+    translations: {
+      en: 'welcome',
+      de: 'willkommen',
+      es: 'bienvenido',
+      tr: 'hoş geldin / memnuniyetle karşılanan'
+    }
+  },
+  {
+    id: 'wunderbar',
+    type: 'adjective',
+    adjective: 'wunderbar',
+    comparative: 'wunderbarer',
+    superlative: 'am wunderbarsten',
+    translations: {
+      en: 'wonderful',
+      de: 'wunderbar',
+      es: 'maravilloso',
+      tr: 'harika'
+    }
+  },
+  {
+    id: 'zufrieden',
+    type: 'adjective',
+    adjective: 'zufrieden',
+    comparative: 'zufriedener',
+    superlative: 'am zufriedensten',
+    translations: {
+      en: 'satisfied',
+      de: 'zufrieden',
+      es: 'satisfecho',
+      tr: 'memnun'
+    }
   }
 ]
