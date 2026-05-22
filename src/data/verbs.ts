@@ -910,5 +910,460 @@ export const verbs: GermanVerb[] = [
       es: 'querer',
       tr: 'istemek'
     }
+  },
+  {
+    id: 'anfangen',
+    type: 'verb',
+    infinitive: 'an|fangen',
+    preteritum: 'fing an',
+    perfekt: 'angefangen',
+    translations: {
+      en: 'begin',
+      de: 'anfangen',
+      es: 'empezar',
+      tr: 'başlamak'
+    }
+  },
+  {
+    id: 'ankommen',
+    type: 'verb',
+    infinitive: 'an|kommen',
+    preteritum: 'kam an',
+    perfekt: 'angekommen',
+    translations: {
+      en: 'arrive',
+      de: 'ankommen',
+      es: 'llegar',
+      tr: 'varmak'
+    }
+  },
+  {
+    id: 'aufmachen',
+    type: 'verb',
+    infinitive: 'auf|machen',
+    preteritum: 'machte auf',
+    perfekt: 'aufgemacht',
+    translations: {
+      en: 'open',
+      de: 'aufmachen',
+      es: 'abrir',
+      tr: 'açmak'
+    }
+  },
+  {
+    id: 'aussteigen',
+    type: 'verb',
+    infinitive: 'aus|steigen',
+    preteritum: 'stieg aus',
+    perfekt: 'ausgestiegen',
+    translations: {
+      en: 'get off / exit',
+      de: 'aussteigen',
+      es: 'bajarse / salir',
+      tr: 'inmek / çıkmak'
+    }
+  },
+  {
+    id: 'bekommen',
+    type: 'verb',
+    infinitive: 'bekommen',
+    preteritum: 'bekam',
+    perfekt: 'bekommen',
+    translations: {
+      en: 'get / receive',
+      de: 'bekommen',
+      es: 'recibir',
+      tr: 'almak'
+    }
+  },
+  {
+    id: 'bestellen',
+    type: 'verb',
+    infinitive: 'bestellen',
+    preteritum: 'bestellte',
+    perfekt: 'bestellt',
+    translations: {
+      en: 'order',
+      de: 'bestellen',
+      es: 'pedir',
+      tr: 'sipariş vermek'
+    }
+  },
+  {
+    id: 'besuchen',
+    type: 'verb',
+    infinitive: 'besuchen',
+    preteritum: 'besuchte',
+    perfekt: 'besucht',
+    translations: {
+      en: 'visit',
+      de: 'besuchen',
+      es: 'visitar',
+      tr: 'ziyaret etmek'
+    }
+  },
+  {
+    id: 'bezahlen',
+    type: 'verb',
+    infinitive: 'bezahlen',
+    preteritum: 'bezahlte',
+    perfekt: 'bezahlt',
+    translations: {
+      en: 'pay',
+      de: 'bezahlen',
+      es: 'pagar',
+      tr: 'ödemek'
+    }
+  },
+  {
+    id: 'bringen',
+    type: 'verb',
+    infinitive: 'bringen',
+    preteritum: 'brachte',
+    perfekt: 'gebracht',
+    translations: {
+      en: 'bring',
+      de: 'bringen',
+      es: 'traer',
+      tr: 'getirmek'
+    }
+  },
+  {
+    id: 'einladen',
+    type: 'verb',
+    infinitive: 'ein|laden',
+    preteritum: 'lud ein',
+    perfekt: 'eingeladen',
+    translations: {
+      en: 'invite',
+      de: 'einladen',
+      es: 'invitar',
+      tr: 'davet etmek'
+    }
+  },
+  {
+    id: 'einschlafen',
+    type: 'verb',
+    infinitive: 'ein|schlafen',
+    preteritum: 'schlief ein',
+    perfekt: 'eingeschlafen',
+    translations: {
+      en: 'fall asleep',
+      de: 'einschlafen',
+      es: 'quedarse dormido',
+      tr: 'uykuya dalmak'
+    }
+  },
+  {
+    id: 'einsteigen',
+    type: 'verb',
+    infinitive: 'ein|steigen',
+    preteritum: 'stieg ein',
+    perfekt: 'eingestiegen',
+    translations: {
+      en: 'get in / board',
+      de: 'einsteigen',
+      es: 'subirse / entrar',
+      tr: 'binmek'
+    }
+  },
+  {
+    id: 'empfehlen',
+    type: 'verb',
+    infinitive: 'empfehlen',
+    preteritum: 'empfahl',
+    perfekt: 'empfohlen',
+    translations: {
+      en: 'recommend',
+      de: 'empfehlen',
+      es: 'recomendar',
+      tr: 'tavsiye etmek'
+    }
+  },
+  {
+    id: 'entschuldigen',
+    type: 'verb',
+    infinitive: 'entschuldigen',
+    preteritum: 'entschuldigte',
+    perfekt: 'entschuldigt',
+    translations: {
+      en: 'apologize / excuse',
+      de: 'entschuldigen',
+      es: 'disculparse / disculpar',
+      tr: 'özür dilemek / affetmek'
+    }
+  },
+  {
+    id: 'erzählen',
+    type: 'verb',
+    infinitive: 'erzählen',
+    preteritum: 'erzählte',
+    perfekt: 'erzählt',
+    translations: {
+      en: 'tell / narrate',
+      de: 'erzählen',
+      es: 'contar',
+      tr: 'anlatmak'
+    }
+  },
+  {
+    id: 'fliegen',
+    type: 'verb',
+    infinitive: 'fliegen',
+    preteritum: 'flog',
+    perfekt: 'geflogen',
+    translations: {
+      en: 'fly',
+      de: 'fliegen',
+      es: 'volar',
+      tr: 'uçmak'
+    }
+  },
+  {
+    id: 'gefallen',
+    type: 'verb',
+    infinitive: 'gefallen',
+    preteritum: 'gefiel',
+    perfekt: 'gefallen',
+    translations: {
+      en: 'please / be liked',
+      de: 'gefallen',
+      es: 'gustar',
+      tr: 'hoşuna gitmek'
+    }
+  },
+  {
+    id: 'joggen',
+    type: 'verb',
+    infinitive: 'joggen',
+    preteritum: 'joggte',
+    perfekt: 'gejoggt',
+    translations: {
+      en: 'jog',
+      de: 'joggen',
+      es: 'hacer jogging',
+      tr: 'koşu yapmak'
+    }
+  },
+  {
+    id: 'kennen',
+    type: 'verb',
+    infinitive: 'kennen',
+    preteritum: 'kannte',
+    perfekt: 'gekannt',
+    translations: {
+      en: 'know',
+      de: 'kennen',
+      es: 'conocer',
+      tr: 'tanımak / bilmek'
+    }
+  },
+  {
+    id: 'laufen',
+    type: 'verb',
+    infinitive: 'laufen',
+    preteritum: 'lief',
+    perfekt: 'gelaufen',
+    translations: {
+      en: 'run / walk',
+      de: 'laufen',
+      es: 'correr / andar',
+      tr: 'koşmak / yürümek'
+    }
+  },
+  {
+    id: 'mitbringen',
+    type: 'verb',
+    infinitive: 'mit|bringen',
+    preteritum: 'brachte mit',
+    perfekt: 'mitgebracht',
+    translations: {
+      en: 'bring along',
+      de: 'mitbringen',
+      es: 'traer',
+      tr: 'yanında getirmek'
+    }
+  },
+  {
+    id: 'notieren',
+    type: 'verb',
+    infinitive: 'notieren',
+    preteritum: 'notierte',
+    perfekt: 'notiert',
+    translations: {
+      en: 'note down',
+      de: 'notieren',
+      es: 'anotar',
+      tr: 'not almak'
+    }
+  },
+  {
+    id: 'schreiben',
+    type: 'verb',
+    infinitive: 'schreiben',
+    preteritum: 'schrieb',
+    perfekt: 'geschrieben',
+    translations: {
+      en: 'write',
+      de: 'schreiben',
+      es: 'escribir',
+      tr: 'yazmak'
+    }
+  },
+  {
+    id: 'sehen',
+    type: 'verb',
+    infinitive: 'sehen',
+    preteritum: 'sah',
+    perfekt: 'gesehen',
+    translations: {
+      en: 'see',
+      de: 'sehen',
+      es: 'ver',
+      tr: 'görmek'
+    }
+  },
+  {
+    id: 'sparen',
+    type: 'verb',
+    infinitive: 'sparen',
+    preteritum: 'sparte',
+    perfekt: 'gespart',
+    translations: {
+      en: 'save',
+      de: 'sparen',
+      es: 'ahorrar',
+      tr: 'biriktirmek / tasarruf etmek'
+    }
+  },
+  {
+    id: 'tun',
+    type: 'verb',
+    infinitive: 'tun',
+    preteritum: 'tat',
+    perfekt: 'getan',
+    translations: {
+      en: 'do',
+      de: 'tun',
+      es: 'hacer',
+      tr: 'yapmak'
+    }
+  },
+  {
+    id: 'umziehen',
+    type: 'verb',
+    infinitive: 'um|ziehen',
+    preteritum: 'zog um',
+    perfekt: 'umgezogen',
+    translations: {
+      en: 'move house / change clothes',
+      de: 'umziehen',
+      es: 'mudarse / cambiarse de ropa',
+      tr: 'taşınmak / kıyafet değiştirmek'
+    }
+  },
+  {
+    id: 'vergessen',
+    type: 'verb',
+    infinitive: 'vergessen',
+    preteritum: 'vergaß',
+    perfekt: 'vergessen',
+    translations: {
+      en: 'forget',
+      de: 'vergessen',
+      es: 'olvidar',
+      tr: 'unutmak'
+    }
+  },
+  {
+    id: 'verkaufen',
+    type: 'verb',
+    infinitive: 'verkaufen',
+    preteritum: 'verkaufte',
+    perfekt: 'verkauft',
+    translations: {
+      en: 'sell',
+      de: 'verkaufen',
+      es: 'vender',
+      tr: 'satmak'
+    }
+  },
+  {
+    id: 'verlassen',
+    type: 'verb',
+    infinitive: 'verlassen',
+    preteritum: 'verließ',
+    perfekt: 'verlassen',
+    translations: {
+      en: 'leave',
+      de: 'verlassen',
+      es: 'dejar / abandonar',
+      tr: 'terk etmek / ayrılmak'
+    }
+  },
+  {
+    id: 'verlieren',
+    type: 'verb',
+    infinitive: 'verlieren',
+    preteritum: 'verlor',
+    perfekt: 'verloren',
+    translations: {
+      en: 'lose',
+      de: 'verlieren',
+      es: 'perder',
+      tr: 'kaybetmek'
+    }
+  },
+  {
+    id: 'versuchen',
+    type: 'verb',
+    infinitive: 'versuchen',
+    preteritum: 'versuchte',
+    perfekt: 'versucht',
+    translations: {
+      en: 'try',
+      de: 'versuchen',
+      es: 'intentar',
+      tr: 'denemek'
+    }
+  },
+  {
+    id: 'waschen',
+    type: 'verb',
+    infinitive: 'waschen',
+    preteritum: 'wusch',
+    perfekt: 'gewaschen',
+    translations: {
+      en: 'wash',
+      de: 'waschen',
+      es: 'lavar',
+      tr: 'yıkamak'
+    }
+  },
+  {
+    id: 'wissen',
+    type: 'verb',
+    infinitive: 'wissen',
+    preteritum: 'wusste',
+    perfekt: 'gewusst',
+    translations: {
+      en: 'know',
+      de: 'wissen',
+      es: 'saber',
+      tr: 'bilmek'
+    }
+  },
+  {
+    id: 'zumachen',
+    type: 'verb',
+    infinitive: 'zu|machen',
+    preteritum: 'machte zu',
+    perfekt: 'zugemacht',
+    translations: {
+      en: 'close',
+      de: 'zumachen',
+      es: 'cerrar',
+      tr: 'kapatmak'
+    }
   }
 ]
