@@ -4,11 +4,20 @@ import { ref } from 'vue'
 import { useAudios } from '@/composables/useAudios'
 import { useVerbs } from '@/composables/useVerbs'
 
+import { useVerbsStore } from '@/store/useVerbsStore'
+
 import BaseVerbExercise from '@/components/BaseVerbExercise.vue'
 
 import type { GermanVerb } from '@/interfaces/GermanVerbs'
 
+const verbsStore = useVerbsStore()
+
 const {
+  addVerbToHistory
+} = verbsStore
+
+const {
+  getRandomVerbBasedOnHistory,
   getRandomVerbs
 } = useVerbs()
 
@@ -17,42 +26,54 @@ const {
   playIncorrectSound
 } = useAudios()
 
-const randomVerbs = ref<GermanVerb[]>(getRandomVerbs(50))
-
-const currentVerbIndex = ref<number>(0)
-
-const currentVerb = ref<GermanVerb>(randomVerbs.value[currentVerbIndex.value]!)
+// ----------------------------------------
+// RANDOM VERBS
+// ----------------------------------------
+const answerVerb = ref<GermanVerb>(getRandomVerbBasedOnHistory())
+const randomVerbs = ref<GermanVerb[]>(getRandomVerbs({
+  excludeVerbs: [answerVerb.value]
+}))
 
 // ERROR COUNT
 const errorCount = ref<number>(0)
-const onIncorrect = () => {
+const onIncorrect = (verb: GermanVerb) => {
+  addVerbToHistory(verb, false)
+
   errorCount.value++
+
   playIncorrectSound()
 }
 
 // CORRECT COUNT
 const correctCount = ref<number>(0)
-const onCorrect = () => {
+const onCorrect = (verb: GermanVerb) => {
+  addVerbToHistory(verb, true)
+
   correctCount.value++
+
   playCorrectSound()
 }
+
+const handleNext = () => {
+  answerVerb.value = getRandomVerbBasedOnHistory()
+  randomVerbs.value = getRandomVerbs({
+    excludeVerbs: [answerVerb.value]
+  })
+}
 </script>
+
 <template>
   <div
+    v-auto-animate
     class="space-y-4 mx-auto max-w-xl"
   >
     <BaseVerbExercise
-      :verb="currentVerb"
+      :key="answerVerb.id"
+      :answer="answerVerb"
+      :options="randomVerbs"
       @correct="onCorrect"
       @incorrect="onIncorrect"
+      @next="handleNext"
     />
-
-    <!-- STATISTICS -->
-    <div
-      class="flex gap-2 sm:flex-row items-center justify-between sm:justify-center text-[10px] sm:text-xs"
-    >
-      <p> Errors: {{ errorCount }} </p>
-      <p> Corrects: {{ correctCount }} </p>
-    </div>
   </div>
 </template>
