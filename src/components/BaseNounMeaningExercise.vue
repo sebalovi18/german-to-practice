@@ -11,12 +11,9 @@ import type { GermanNoun } from '@/interfaces/GermanNoun'
 interface Props {
   answer: GermanNoun
   options: GermanNoun[]
-  attempts?: number
 }
 
-const props = withDefaults(defineProps<Props>(), {
-  attempts: 2
-})
+const props = defineProps<Props>()
 
 interface Emits {
   (event: 'correct', noun: GermanNoun): void
