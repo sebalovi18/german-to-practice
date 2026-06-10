@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, ref } from 'vue'
+import { computed } from 'vue'
 
 import Chart from 'primevue/chart'
 
@@ -18,45 +18,37 @@ const computedChartHeight = computed(() =>
   `${Math.max(320, props.data.length * chartRowHeight + 72)}px`
 )
 
-// CHARTS DATA
-type ChartType = 'pie' | 'doughnut' | 'line' | 'bar' | 'radar' | 'polarArea'
-const chartType = ref<ChartType>('bar')
-
-// TODO: Add options to change the chart type
-// const chartTypeOptions = ref<ChartType[]>([
-//   'pie',
-//   'doughnut',
-//   'line',
-//   'bar',
-//   'radar',
-//   'polarArea'
-// ])
+const computedChartStyle = computed(() => ({
+  height: computedChartHeight.value
+}))
 
 const computedChartProperties = computed(() => {
   const data = props.data
   const textColor = '#ffffff'
   const gridColor = 'oklch(100% 0 0 / 0.12)'
+  const successColor = 'oklch(87.1% 0.15 154.449)'
+  const failedColor = 'oklch(80.8% 0.114 19.571)'
 
   return {
-    type: chartType.value,
+    type: 'bar',
     data: {
       labels: data.map(item => item.label),
       datasets: [
         {
           label: 'Success',
           data: data.map(item => item.successAttempts),
-          backgroundColor: 'oklch(87.1% 0.15 154.449)',
+          backgroundColor: successColor,
           borderWidth: 2,
-          borderColor: 'oklch(87.1% 0.15 154.449)',
+          borderColor: successColor,
           borderRadius: 8,
           barThickness: 8
         },
         {
           label: 'Failed',
           data: data.map(item => item.failedAttempts),
-          backgroundColor: 'oklch(80.8% 0.114 19.571)',
+          backgroundColor: failedColor,
           borderWidth: 2,
-          borderColor: 'oklch(80.8% 0.114 19.571)',
+          borderColor: failedColor,
           borderRadius: 8,
           barThickness: 8
         }
@@ -108,7 +100,7 @@ const computedChartProperties = computed(() => {
   >
     <Chart
       class="min-w-full"
-      :style="{ height: computedChartHeight }"
+      :style="computedChartStyle"
       v-bind="computedChartProperties"
     />
   </div>

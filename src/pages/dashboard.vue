@@ -6,7 +6,7 @@ import { useRouter } from 'vue-router'
 import { ExternalLink, Info, Trash2 } from '@lucide/vue'
 import { storeToRefs } from 'pinia'
 
-import BaseChartBar from '@/components/BaseChartBar.vue'
+import BaseChart from '@/components/BaseChart.vue'
 
 import { useAdjectivesStore } from '@/store/useAdjectivesStore'
 import { useArticlesStore } from '@/store/useArticlesStore'
@@ -355,7 +355,7 @@ const confirmClearHistory = () => {
           </span>
         </div>
 
-        <BaseChartBar
+        <BaseChart
           v-if="section.items.length"
           :data="section.items"
         />
