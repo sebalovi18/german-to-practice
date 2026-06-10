@@ -11,7 +11,7 @@ const articleVariantColors: Record<GermanArticleVariant, string> = {
 
 export function useArticles () {
   const getArticleVariant = (noun: GermanNoun): GermanArticleVariant | undefined => {
-    if (noun.plural_id === null) return 'plural'
+    if (noun.singular_id !== null) return 'plural'
     if (noun.article === 'der') return 'masculine'
     if (noun.article === 'die') return 'feminine'
     if (noun.article === 'das') return 'neuter'

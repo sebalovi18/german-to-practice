@@ -101,7 +101,7 @@ const handleNext = () => {
       <sub
         class="text-[10px] text-foreground"
       >
-        {{ !answer.plural_id ? '(Plural)' : '' }}
+        {{ answer.singular_id ? '(Plural)' : '' }}
       </sub>
     </div>
 

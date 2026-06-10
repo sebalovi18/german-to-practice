@@ -166,7 +166,7 @@ const handleNext = () => {
       <sub
         class="text-[10px] text-foreground"
       >
-        {{ !props.noun.plural_id ? '(Plural)' : '' }}
+        {{ props.noun.singular_id ? '(Plural)' : '' }}
       </sub>
     </div>
 
