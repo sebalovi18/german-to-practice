@@ -3,7 +3,7 @@ import { computed } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { useRouter } from 'vue-router'
 
-import { Dumbbell, List } from '@lucide/vue'
+import { ChartNoAxesColumn, Dumbbell, List } from '@lucide/vue'
 
 const router = useRouter()
 const {
@@ -12,27 +12,32 @@ const {
 
 const leftColumn = computed(() => [
   {
-    label: t('home.navigation.nouns'),
-    icon: List,
-    path: '/nouns'
+    label: t('home.navigation.dashboard'),
+    icon: ChartNoAxesColumn,
+    path: '/dashboard'
   },
   {
     label: t('home.navigation.verbs'),
     icon: List,
     path: '/verbs'
-  }
-])
-
-const rightColumn = computed(() => [
-  {
-    label: t('home.navigation.adjectives'),
-    icon: List,
-    path: '/adjetives'
   },
   {
     label: t('home.navigation.practice'),
     icon: Dumbbell,
     path: '/practice'
+  }
+])
+
+const rightColumn = computed(() => [
+  {
+    label: t('home.navigation.nouns'),
+    icon: List,
+    path: '/nouns'
+  },
+  {
+    label: t('home.navigation.adjectives'),
+    icon: List,
+    path: '/adjetives'
   }
 ])
 </script>
@@ -51,7 +56,7 @@ const rightColumn = computed(() => [
     </p>
 
     <div
-      class="grid grid-cols-2 gap-4 items-center justify-center text-sm sm:text-base"
+      class="grid grid-cols-2 gap-4 items-start justify-start text-sm sm:text-base"
     >
       <!-- LEFT COLUMN -->
       <div

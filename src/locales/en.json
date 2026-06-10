@@ -8,7 +8,8 @@
       "nouns": "Nouns",
       "verbs": "Verbs",
       "adjectives": "Adjectives",
-      "practice": "Practice"
+      "practice": "Practice",
+      "dashboard": "Dashboard"
     }
   },
   "pageTitles": {
@@ -17,6 +18,7 @@
     "verbs": "Verbs",
     "adjectives": "Adjectives",
     "practice": "Practice",
+    "dashboard": "Dashboard",
     "articlesPractice": "Article Practice",
     "nounsMeaningsPractice": "Noun Meaning Practice",
     "adjectivesMeaningsPractice": "Adjective Meaning Practice",
@@ -36,7 +38,46 @@
       "articles": "Articles",
       "adjectivesMeanings": "Adjectives meanings",
       "nounsMeanings": "Nouns meanings",
-      "verbsMeanings": "Verbs meanings"
+      "verbsMeanings": "Verbs meanings",
+      "dashboard": "Dashboard"
+    }
+  },
+  "dashboard": {
+    "eyebrow": "Practice progress",
+    "title": "Learning dashboard",
+    "description": "Track the words you have practiced across meanings and articles, with successes, errors, and total attempts.",
+    "practiceLink": "Practice {section}",
+    "empty": "No attempts yet. Complete a few exercises and this chart will fill in.",
+    "summary": {
+      "words": "Words practiced",
+      "attempts": "Attempts",
+      "successRate": "Success rate",
+      "masteredWords": "Mastered words"
+    },
+    "summaryDescriptions": {
+      "successRate": "Successful answers divided by total attempts.",
+      "masteredWords": "Words with at least one success and no failed attempts."
+    },
+    "mostFailed": {
+      "title": "Words to revisit"
+    },
+    "sections": {
+      "verbs": {
+        "title": "Verb meanings",
+        "description": "Translation attempts for verbs."
+      },
+      "nouns": {
+        "title": "Noun meanings",
+        "description": "Translation attempts for nouns."
+      },
+      "adjectives": {
+        "title": "Adjective meanings",
+        "description": "Translation attempts for adjectives."
+      },
+      "articles": {
+        "title": "Articles",
+        "description": "Article attempts for nouns."
+      }
     }
   },
   "nouns": {

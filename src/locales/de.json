@@ -8,7 +8,8 @@
       "nouns": "Nomen",
       "verbs": "Verben",
       "adjectives": "Adjektive",
-      "practice": "Üben"
+      "practice": "Üben",
+      "dashboard": "Dashboard"
     }
   },
   "pageTitles": {
@@ -17,6 +18,7 @@
     "verbs": "Verben",
     "adjectives": "Adjektive",
     "practice": "Üben",
+    "dashboard": "Dashboard",
     "articlesPractice": "Artikel üben",
     "nounsMeaningsPractice": "Bedeutungen von Nomen üben",
     "adjectivesMeaningsPractice": "Bedeutungen von Adjektiven üben",
@@ -36,7 +38,46 @@
       "articles": "Artikel",
       "adjectivesMeanings": "Bedeutungen von Adjektiven",
       "nounsMeanings": "Bedeutungen von Nomen",
-      "verbsMeanings": "Bedeutungen von Verben"
+      "verbsMeanings": "Bedeutungen von Verben",
+      "dashboard": "Dashboard"
+    }
+  },
+  "dashboard": {
+    "eyebrow": "Übungsfortschritt",
+    "title": "Lerndashboard",
+    "description": "Verfolge die Wörter, die du in Bedeutungen und Artikeln geübt hast, mit Erfolgen, Fehlern und allen Versuchen.",
+    "practiceLink": "{section} üben",
+    "empty": "Noch keine Versuche. Schließe ein paar Übungen ab und dieses Diagramm füllt sich.",
+    "summary": {
+      "words": "Geübte Wörter",
+      "attempts": "Versuche",
+      "successRate": "Erfolgsrate",
+      "masteredWords": "Gemeisterte Wörter"
+    },
+    "summaryDescriptions": {
+      "successRate": "Erfolgreiche Antworten geteilt durch alle Versuche.",
+      "masteredWords": "Wörter mit mindestens einem Erfolg und keinem Fehlversuch."
+    },
+    "mostFailed": {
+      "title": "Wörter zum Wiederholen"
+    },
+    "sections": {
+      "verbs": {
+        "title": "Bedeutungen von Verben",
+        "description": "Übersetzungsversuche für Verben."
+      },
+      "nouns": {
+        "title": "Bedeutungen von Nomen",
+        "description": "Übersetzungsversuche für Nomen."
+      },
+      "adjectives": {
+        "title": "Bedeutungen von Adjektiven",
+        "description": "Übersetzungsversuche für Adjektive."
+      },
+      "articles": {
+        "title": "Artikel",
+        "description": "Artikelversuche für Nomen."
+      }
     }
   },
   "nouns": {

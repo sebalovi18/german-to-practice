@@ -32,6 +32,10 @@ const rightColumn = computed<ColumnItem[]>(() => [
   {
     label: t('practice.labels.verbsMeanings'),
     path: '/practice/verbs-meanings'
+  },
+  {
+    label: t('practice.labels.dashboard'),
+    path: '/dashboard'
   }
 ])
 </script>

@@ -1,5 +1,6 @@
 // HOME
 import Home from '@/pages/index.vue'
+import Dashboard from '@/pages/dashboard.vue'
 
 // NOUNS
 import NounsList from '@/pages/nouns/index.vue'
@@ -47,6 +48,13 @@ export default [
       titleKey: 'pageTitles.adjectives'
     },
     path: '/adjetives'
+  },
+  {
+    component: Dashboard,
+    meta: {
+      titleKey: 'pageTitles.dashboard'
+    },
+    path: '/dashboard'
   },
   {
     meta: {
