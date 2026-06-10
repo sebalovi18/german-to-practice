@@ -74,13 +74,5 @@ const handleNext = () => {
       @incorrect="onIncorrect"
       @next="handleNext"
     />
-
-    <!-- STATISTICS -->
-    <div
-      class="flex gap-2 sm:flex-row items-center justify-between sm:justify-center text-[10px] sm:text-xs"
-    >
-      <p> Errors: {{ errorCount }} </p>
-      <p> Corrects: {{ correctCount }} </p>
-    </div>
   </div>
 </template>

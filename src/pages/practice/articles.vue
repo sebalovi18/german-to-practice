@@ -80,15 +80,5 @@ const handleNextEvent = () => {
         @next="handleNextEvent"
       />
     </div>
-
-    <!-- STATISTICS -->
-    <div
-      class="flex gap-2 sm:flex-row items-center justify-between sm:justify-center text-[10px] sm:text-xs"
-    >
-      <p> Errors: {{ errorCount }} </p>
-      <p> Corrects: {{ correctCount }} </p>
-      <p> Noun: {{ randomNounIndex + 1 }} / {{ randomNouns.length }} </p>
-      <p> Attempts: {{ attempts }} </p>
-    </div>
   </div>
 </template>
