@@ -199,6 +199,7 @@ const confirmClearHistory = () => {
   <main
     class="space-y-8"
   >
+    <!-- EYEBROW AND TITLE -->
     <section
       class="space-y-3"
     >
@@ -223,6 +224,7 @@ const confirmClearHistory = () => {
       </div>
     </section>
 
+    <!-- SUMMARY CARDS -->
     <section
       class="grid gap-3 sm:grid-cols-2 lg:grid-cols-4"
     >
@@ -274,6 +276,7 @@ const confirmClearHistory = () => {
       </article>
     </section>
 
+    <!-- MOST FAILED ITEMS -->
     <section
       v-if="mostFailedItems.length"
       class="rounded-xl border border-red-200 p-4"
@@ -296,13 +299,14 @@ const confirmClearHistory = () => {
       </div>
     </section>
 
+    <!-- SECTIONS -->
     <section
       class="flex flex-col gap-4"
     >
       <article
         v-for="section in sections"
         :key="section.id"
-        class="rounded-xl border border-foreground/10 bg-foreground/3 p-4"
+        class="rounded-xl border border-background/10 bg-background/3 p-4"
       >
         <div
           class="mb-4 flex items-start justify-between gap-4"
@@ -345,7 +349,7 @@ const confirmClearHistory = () => {
             </p>
           </div>
           <span
-            class="rounded-full bg-foreground px-3 py-1 text-xs text-background"
+            class="rounded-full bg-background px-3 py-1 text-xs text-foreground"
           >
             {{ section.items.length }}
           </span>

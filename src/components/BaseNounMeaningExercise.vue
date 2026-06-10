@@ -99,7 +99,7 @@ const handleNext = () => {
         {{ answer.value }}
       </span>
       <sub
-        class="text-[10px] dark:text-background text-foreground"
+        class="text-[10px] text-foreground"
       >
         {{ !answer.plural_id ? '(Plural)' : '' }}
       </sub>

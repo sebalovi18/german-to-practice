@@ -79,7 +79,7 @@ onBeforeUnmount(() => {
   >
     <kbd
       v-if="shortcutKey"
-      class="absolute right-2 top-2 rounded bg-background/20 px-1.5 py-0.5 text-xs uppercase dark:bg-foreground/20"
+      class="absolute right-2 top-2 rounded bg-foreground/60 px-1.5 py-0.5 text-xs uppercase text-background"
     >
       {{ shortcutKey }}
     </kbd>

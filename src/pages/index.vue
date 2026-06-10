@@ -49,7 +49,7 @@ const rightColumn = computed(() => [
       🇩🇪 German to Practice
       <br>
       <span
-        class="text-sm text-gray-500"
+        class="text-sm text-gray-300"
       >
         {{ t('home.description') }}
       </span>

@@ -147,7 +147,7 @@ const handleNext = () => {
     <!-- COMPLETE WORD DISPLAY -->
     <div
       v-auto-animate
-      class="w-full flex items-center justify-center gap-2 text-center capitalize bg-foreground dark:bg-background dark:text-foreground text-background p-2 md:p-4 rounded-md"
+      class="w-full flex items-center justify-center gap-2 text-center capitalize bg-background text-foreground p-2 md:p-4 rounded-md"
     >
       <span
         v-if="isFinished"
@@ -164,7 +164,7 @@ const handleNext = () => {
         {{ props.noun.value }}
       </span>
       <sub
-        class="text-[10px] text-gray-500"
+        class="text-[10px] text-foreground"
       >
         {{ !props.noun.plural_id ? '(Plural)' : '' }}
       </sub>
@@ -179,7 +179,7 @@ const handleNext = () => {
         {{ t('exercise.meaning') }} 🌎
       </p>
       <div
-        class="w-full flex items-center justify-center gap-2 text-center capitalize bg-foreground dark:bg-background dark:text-foreground text-background p-2 md:p-4 rounded-md"
+        class="w-full flex items-center justify-center gap-2 text-center capitalize bg-background text-foreground p-2 md:p-4 rounded-md"
       >
         <span>
           {{ props.noun.translationArticles[locale as keyof typeof props.noun.translationArticles] }}
