@@ -13,6 +13,11 @@ const props = withDefaults(defineProps<Props>(), {
   data: () => []
 })
 
+const chartRowHeight = 42
+const computedChartHeight = computed(() =>
+  `${Math.max(320, props.data.length * chartRowHeight + 72)}px`
+)
+
 // CHARTS DATA
 type ChartType = 'pie' | 'doughnut' | 'line' | 'bar' | 'radar' | 'polarArea'
 const chartType = ref<ChartType>('bar')
@@ -43,7 +48,8 @@ const computedChartProperties = computed(() => {
           backgroundColor: 'oklch(87.1% 0.15 154.449)',
           borderWidth: 2,
           borderColor: 'oklch(87.1% 0.15 154.449)',
-          borderRadius: 8
+          borderRadius: 8,
+          barThickness: 8
         },
         {
           label: 'Failed',
@@ -51,12 +57,15 @@ const computedChartProperties = computed(() => {
           backgroundColor: 'oklch(80.8% 0.114 19.571)',
           borderWidth: 2,
           borderColor: 'oklch(80.8% 0.114 19.571)',
-          borderRadius: 8
+          borderRadius: 8,
+          barThickness: 8
         }
       ]
     },
     options: {
       indexAxis: 'y',
+      maintainAspectRatio: false,
+      responsive: true,
       plugins: {
         legend: {
           labels: {
@@ -70,6 +79,7 @@ const computedChartProperties = computed(() => {
       },
       scales: {
         x: {
+          position: 'top',
           grid: {
             color: gridColor
           },
@@ -83,6 +93,7 @@ const computedChartProperties = computed(() => {
             color: gridColor
           },
           ticks: {
+            autoSkip: false,
             color: textColor
           }
         }
@@ -92,7 +103,13 @@ const computedChartProperties = computed(() => {
 })
 </script>
 <template>
-  <Chart
-    v-bind="computedChartProperties"
-  />
+  <div
+    class="max-h-128 overflow-y-auto pr-2"
+  >
+    <Chart
+      class="min-w-full"
+      :style="{ height: computedChartHeight }"
+      v-bind="computedChartProperties"
+    />
+  </div>
 </template>
