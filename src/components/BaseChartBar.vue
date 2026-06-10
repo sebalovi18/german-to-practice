@@ -29,6 +29,8 @@ const chartType = ref<ChartType>('bar')
 
 const computedChartProperties = computed(() => {
   const data = props.data
+  const textColor = '#ffffff'
+  const gridColor = 'oklch(100% 0 0 / 0.12)'
 
   return {
     type: chartType.value,
@@ -55,10 +57,33 @@ const computedChartProperties = computed(() => {
     },
     options: {
       indexAxis: 'y',
+      plugins: {
+        legend: {
+          labels: {
+            color: textColor
+          }
+        },
+        tooltip: {
+          titleColor: textColor,
+          bodyColor: textColor
+        }
+      },
       scales: {
         x: {
+          grid: {
+            color: gridColor
+          },
           ticks: {
+            color: textColor,
             stepSize: 1
+          }
+        },
+        y: {
+          grid: {
+            color: gridColor
+          },
+          ticks: {
+            color: textColor
           }
         }
       }

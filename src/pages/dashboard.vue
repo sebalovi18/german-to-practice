@@ -298,7 +298,7 @@ const summaryCards = computed(() => [
               </button>
             </div>
             <p
-              class="text-sm text-gray-500"
+              class="text-sm text-gray-300"
             >
               {{ section.description }}
             </p>
