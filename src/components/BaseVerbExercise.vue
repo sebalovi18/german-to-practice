@@ -34,7 +34,12 @@ const {
 } = useI18n()
 
 // ----------------------------------------
-//
+// IS FINISHED
+// ----------------------------------------
+const isFinished = ref<boolean>(false)
+
+// ----------------------------------------
+// COMPUTED OPTIONS ORDERED RANDOMLY
 // ----------------------------------------
 const computedOptions = computed((): GermanVerb[] =>
   [...props.options, props.answer].sort(() => Math.random() - 0.5)
@@ -61,11 +66,8 @@ const handleSelectOption = (option: GermanVerb) => {
 }
 
 // ----------------------------------------
-// IS FINISHED
-// ----------------------------------------
-const isFinished = ref<boolean>(false)
-
 // HANDLE SHOW ANSWER EVENT
+// ----------------------------------------
 const handleShowAnswer = () => {
   if (isFinished.value) return
 
@@ -75,7 +77,9 @@ const handleShowAnswer = () => {
   incorrectOptions.value = props.options.filter(option => option.id !== selectedOption.value!.id)
 }
 
+// ----------------------------------------
 // HANDLE NEXT EVENT
+// ----------------------------------------
 const handleNext = () => {
   if (!isFinished.value) return
 
