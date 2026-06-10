@@ -4,13 +4,20 @@ import { ref } from 'vue'
 import { useAudios } from '@/composables/useAudios'
 import { useNouns } from '@/composables/useNouns'
 
+import { useArticlesStore } from '@/store/useArticlesStore'
+
 import BaseArticleExercise from '@/components/BaseArticleExercise.vue'
 
 import type { GermanNoun } from '@/interfaces/GermanNoun'
 
-// NOUNS
+const articlesStore = useArticlesStore()
+
 const {
-  getRandomNouns
+  addArticleToHistory
+} = articlesStore
+
+const {
+  getRandomNounBasedOnHistory
 } = useNouns()
 
 const {
@@ -18,8 +25,10 @@ const {
   playIncorrectSound
 } = useAudios()
 
-const randomNouns = ref<Array<GermanNoun>>(getRandomNouns())
-const randomNounIndex = ref<number>(0)
+// ----------------------------------------
+// RANDOM NOUN
+// ----------------------------------------
+const answerNoun = ref<GermanNoun>(getRandomNounBasedOnHistory())
 
 // ATTEMPTS
 const attempts = ref<number>(2)
@@ -31,10 +40,10 @@ const errorCount = ref<number>(0)
 const correctCount = ref<number>(0)
 
 // IS FINISHED
-const isFinished = ref<boolean>(false)
-
 // EVENT HANDLERS
-const handleIncorrectEvent = () => {
+const handleIncorrectEvent = (noun: GermanNoun) => {
+  addArticleToHistory(noun, false)
+
   playIncorrectSound()
 
   errorCount.value++
@@ -42,7 +51,9 @@ const handleIncorrectEvent = () => {
   attempts.value--
 }
 
-const handleCorrectEvent = () => {
+const handleCorrectEvent = (noun: GermanNoun) => {
+  addArticleToHistory(noun, true)
+
   playCorrectSound()
 
   attempts.value = 2
@@ -53,19 +64,13 @@ const handleCorrectEvent = () => {
 const handleNextEvent = () => {
   attempts.value = 2
 
-  if (randomNounIndex.value === randomNouns.value.length - 1) {
-    isFinished.value = true
-
-    return
-  }
-
-  randomNounIndex.value++
-
+  answerNoun.value = getRandomNounBasedOnHistory()
 }
 </script>
 
 <template>
   <div
+    v-auto-animate
     class="space-y-4 mx-auto max-w-xl"
   >
     <div
@@ -73,22 +78,12 @@ const handleNextEvent = () => {
     >
       <BaseArticleExercise
         :attempts="attempts"
-        :key="randomNouns[randomNounIndex]!.id"
-        :noun="randomNouns[randomNounIndex]!"
+        :key="answerNoun.id"
+        :noun="answerNoun"
         @incorrect="handleIncorrectEvent"
         @correct="handleCorrectEvent"
         @next="handleNextEvent"
       />
-    </div>
-
-    <!-- STATISTICS -->
-    <div
-      class="flex gap-2 sm:flex-row items-center justify-between sm:justify-center text-[10px] sm:text-xs"
-    >
-      <p> Errors: {{ errorCount }} </p>
-      <p> Corrects: {{ correctCount }} </p>
-      <p> Noun: {{ randomNounIndex + 1 }} / {{ randomNouns.length }} </p>
-      <p> Attempts: {{ attempts }} </p>
     </div>
   </div>
 </template>

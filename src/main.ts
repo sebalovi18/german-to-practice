@@ -11,6 +11,12 @@ import routes from './routes'
 import { createI18n } from 'vue-i18n'
 import locales from './locales'
 
+// VUE PRIME
+import PrimeVue from 'primevue/config'
+
+// PINIA
+import { createPinia } from 'pinia'
+
 // FORMKIT AUTO ANIMATE
 import { autoAnimatePlugin } from '@formkit/auto-animate/vue'
 
@@ -68,6 +74,11 @@ watch(i18n.global.locale, () => {
 })
 
 // ----------------------------------------
+// INITIALIZE PINIA
+// ----------------------------------------
+const pinia = createPinia()
+
+// ----------------------------------------
 // INITIALIZE APP
 // ----------------------------------------
 const app = createApp(App)
@@ -75,6 +86,12 @@ const app = createApp(App)
 app.use(router)
 
 app.use(i18n)
+
+app.use(PrimeVue, {
+  unstyled: true
+})
+
+app.use(pinia)
 
 app.use(autoAnimatePlugin)
 

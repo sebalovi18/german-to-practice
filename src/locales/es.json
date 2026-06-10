@@ -8,7 +8,8 @@
       "nouns": "Sustantivos",
       "verbs": "Verbos",
       "adjectives": "Adjetivos",
-      "practice": "Práctica"
+      "practice": "Práctica",
+      "dashboard": "Panel"
     }
   },
   "pageTitles": {
@@ -17,6 +18,7 @@
     "verbs": "Verbos",
     "adjectives": "Adjetivos",
     "practice": "Práctica",
+    "dashboard": "Panel",
     "articlesPractice": "Práctica de artículos",
     "nounsMeaningsPractice": "Práctica de significados de sustantivos",
     "adjectivesMeaningsPractice": "Práctica de significados de adjetivos",
@@ -36,7 +38,53 @@
       "articles": "Artículos",
       "adjectivesMeanings": "Significados de adjetivos",
       "nounsMeanings": "Significados de sustantivos",
-      "verbsMeanings": "Significados de verbos"
+      "verbsMeanings": "Significados de verbos",
+      "dashboard": "Panel"
+    }
+  },
+  "dashboard": {
+    "eyebrow": "Progreso de práctica",
+    "title": "Panel de aprendizaje",
+    "description": "Sigue las palabras que practicaste en significados y artículos, con aciertos, errores e intentos totales.",
+    "practiceLink": "Practicar {section}",
+    "empty": "Todavía no hay intentos. Completa algunos ejercicios y este gráfico se llenará.",
+    "summary": {
+      "words": "Palabras practicadas",
+      "attempts": "Intentos",
+      "successRate": "Tasa de acierto",
+      "masteredWords": "Palabras dominadas"
+    },
+    "summaryDescriptions": {
+      "successRate": "Respuestas correctas divididas por intentos totales.",
+      "masteredWords": "Palabras con al menos un acierto y ningún intento fallido."
+    },
+    "mostFailed": {
+      "title": "Palabras para repasar"
+    },
+    "clearHistory": {
+      "open": "Borrar historial de {section}",
+      "title": "¿Borrar historial de práctica?",
+      "description": "Esto eliminará todos los intentos guardados de {section}. Esta acción no se puede deshacer.",
+      "cancel": "Cancelar",
+      "confirm": "Borrar historial"
+    },
+    "sections": {
+      "verbs": {
+        "title": "Significados de verbos",
+        "description": "Intentos de traducción para verbos."
+      },
+      "nouns": {
+        "title": "Significados de sustantivos",
+        "description": "Intentos de traducción para sustantivos."
+      },
+      "adjectives": {
+        "title": "Significados de adjetivos",
+        "description": "Intentos de traducción para adjetivos."
+      },
+      "articles": {
+        "title": "Artículos",
+        "description": "Intentos de artículos para sustantivos."
+      }
     }
   },
   "nouns": {

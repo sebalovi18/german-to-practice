@@ -50,7 +50,7 @@ const selectedFontLabel = computed(() => (
     </DropdownMenuTrigger>
     <DropdownMenuPortal>
       <DropdownMenuContent
-        class="min-w-32 bg-background dark:bg-background rounded-md divide-y divide-gray-200 mt-1"
+        class="min-w-32 bg-background rounded-md divide-y divide-gray-200 mt-1"
       >
         <DropdownMenuItem
           v-for="font in fonts"

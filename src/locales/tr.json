@@ -8,7 +8,8 @@
       "nouns": "İsimler",
       "verbs": "Fiiller",
       "adjectives": "Sıfatlar",
-      "practice": "Pratik"
+      "practice": "Pratik",
+      "dashboard": "Pano"
     }
   },
   "pageTitles": {
@@ -17,6 +18,7 @@
     "verbs": "Fiiller",
     "adjectives": "Sıfatlar",
     "practice": "Pratik",
+    "dashboard": "Pano",
     "articlesPractice": "Artikel pratiği",
     "nounsMeaningsPractice": "İsim anlamları pratiği",
     "adjectivesMeaningsPractice": "Sıfat anlamları pratiği",
@@ -36,7 +38,53 @@
       "articles": "Artikeller",
       "adjectivesMeanings": "Sıfat anlamları",
       "nounsMeanings": "İsim anlamları",
-      "verbsMeanings": "Fiil anlamları"
+      "verbsMeanings": "Fiil anlamları",
+      "dashboard": "Pano"
+    }
+  },
+  "dashboard": {
+    "eyebrow": "Pratik ilerlemesi",
+    "title": "Öğrenme panosu",
+    "description": "Anlam ve artikel çalışmalarında pratik yaptığın kelimeleri başarı, hata ve toplam denemelerle takip et.",
+    "practiceLink": "{section} çalış",
+    "empty": "Henüz deneme yok. Birkaç alıştırma tamamla, bu grafik dolacak.",
+    "summary": {
+      "words": "Çalışılan kelimeler",
+      "attempts": "Denemeler",
+      "successRate": "Başarı oranı",
+      "masteredWords": "Öğrenilen kelimeler"
+    },
+    "summaryDescriptions": {
+      "successRate": "Doğru cevapların toplam denemelere oranı.",
+      "masteredWords": "En az bir doğru cevabı olan ve hatalı denemesi olmayan kelimeler."
+    },
+    "mostFailed": {
+      "title": "Tekrar edilecek kelimeler"
+    },
+    "clearHistory": {
+      "open": "{section} geçmişini temizle",
+      "title": "Pratik geçmişi temizlensin mi?",
+      "description": "{section} için kayıtlı tüm denemeler silinecek. Bu işlem geri alınamaz.",
+      "cancel": "İptal",
+      "confirm": "Geçmişi temizle"
+    },
+    "sections": {
+      "verbs": {
+        "title": "Fiil anlamları",
+        "description": "Fiiller için çeviri denemeleri."
+      },
+      "nouns": {
+        "title": "İsim anlamları",
+        "description": "İsimler için çeviri denemeleri."
+      },
+      "adjectives": {
+        "title": "Sıfat anlamları",
+        "description": "Sıfatlar için çeviri denemeleri."
+      },
+      "articles": {
+        "title": "Artikeller",
+        "description": "İsimler için artikel denemeleri."
+      }
     }
   },
   "nouns": {

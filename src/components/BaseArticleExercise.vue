@@ -18,8 +18,8 @@ interface Props {
 const props = defineProps<Props>()
 
 interface Emits {
-  (event: 'correct'): void
-  (event: 'incorrect'): void
+  (event: 'correct', noun: GermanNoun): void
+  (event: 'incorrect', noun: GermanNoun): void
   (event: 'next'): void
 }
 
@@ -45,8 +45,8 @@ const showAnswer = () => {
   if (isFinished.value) return
 
   // EMIT INCORRECT EVENT TWICE SINCE THE USER HAS TWO ATTEMPTS
-  emit('incorrect')
-  emit('incorrect')
+  emit('incorrect', props.noun)
+  emit('incorrect', props.noun)
 
   // FINISH EXERCISE
   finishExercise()
@@ -67,7 +67,7 @@ const handleAnswer = (article: GermanArticle) => {
     // ADD INCORRECT ANSWER TO LIST
     incorrectAnswers.value.push(article)
 
-    emit('incorrect')
+    emit('incorrect', props.noun)
 
     // IF ATTEMPTS ARE 1, FINISH THE EXERCISE AND EMIT INCORRECT EVENT
     if (props.attempts === 1) {
@@ -80,7 +80,7 @@ const handleAnswer = (article: GermanArticle) => {
   // CORRECT ANSWER
   isFinished.value = true
 
-  emit('correct')
+  emit('correct', props.noun)
 }
 
 // HINT VISIBLE
@@ -147,7 +147,7 @@ const handleNext = () => {
     <!-- COMPLETE WORD DISPLAY -->
     <div
       v-auto-animate
-      class="w-full flex items-center justify-center gap-2 text-center capitalize bg-foreground dark:bg-background dark:text-foreground text-background p-2 md:p-4 rounded-md"
+      class="w-full flex items-center justify-center gap-2 text-center capitalize bg-background text-foreground p-2 md:p-4 rounded-md"
     >
       <span
         v-if="isFinished"
@@ -164,7 +164,7 @@ const handleNext = () => {
         {{ props.noun.value }}
       </span>
       <sub
-        class="text-[10px] text-gray-500"
+        class="text-[10px] text-foreground"
       >
         {{ !props.noun.plural_id ? '(Plural)' : '' }}
       </sub>
@@ -179,7 +179,7 @@ const handleNext = () => {
         {{ t('exercise.meaning') }} 🌎
       </p>
       <div
-        class="w-full flex items-center justify-center gap-2 text-center capitalize bg-foreground dark:bg-background dark:text-foreground text-background p-2 md:p-4 rounded-md"
+        class="w-full flex items-center justify-center gap-2 text-center capitalize bg-background text-foreground p-2 md:p-4 rounded-md"
       >
         <span>
           {{ props.noun.translationArticles[locale as keyof typeof props.noun.translationArticles] }}

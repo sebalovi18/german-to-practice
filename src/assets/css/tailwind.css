@@ -44,17 +44,10 @@
   
   .btn {
     @apply
-      /* LIGHT MODE */
-      bg-foreground
-      hover:bg-foreground-hover
-      text-background
+      bg-background
+      hover:bg-background-hover
+      text-foreground
 
-      /* DARK MODE */
-      dark:bg-background
-      dark:hover:bg-background-hover
-      dark:text-foreground
-
-      /* COMMON */
       px-4
       py-2
       rounded-md
@@ -65,12 +58,9 @@
 @layer base {
   body {
     @apply
-      /* LIGHT MODE */
-      bg-background
-      text-foreground
+      bg-foreground
+      text-background
 
-      /* DARK MODE */
-      dark:bg-background-dark
-      dark:text-background;
+      text-sm;
   }
 }
