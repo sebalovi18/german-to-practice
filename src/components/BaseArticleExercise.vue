@@ -18,8 +18,8 @@ interface Props {
 const props = defineProps<Props>()
 
 interface Emits {
-  (event: 'correct'): void
-  (event: 'incorrect'): void
+  (event: 'correct', noun: GermanNoun): void
+  (event: 'incorrect', noun: GermanNoun): void
   (event: 'next'): void
 }
 
@@ -45,8 +45,8 @@ const showAnswer = () => {
   if (isFinished.value) return
 
   // EMIT INCORRECT EVENT TWICE SINCE THE USER HAS TWO ATTEMPTS
-  emit('incorrect')
-  emit('incorrect')
+  emit('incorrect', props.noun)
+  emit('incorrect', props.noun)
 
   // FINISH EXERCISE
   finishExercise()
@@ -67,7 +67,7 @@ const handleAnswer = (article: GermanArticle) => {
     // ADD INCORRECT ANSWER TO LIST
     incorrectAnswers.value.push(article)
 
-    emit('incorrect')
+    emit('incorrect', props.noun)
 
     // IF ATTEMPTS ARE 1, FINISH THE EXERCISE AND EMIT INCORRECT EVENT
     if (props.attempts === 1) {
@@ -80,7 +80,7 @@ const handleAnswer = (article: GermanArticle) => {
   // CORRECT ANSWER
   isFinished.value = true
 
-  emit('correct')
+  emit('correct', props.noun)
 }
 
 // HINT VISIBLE
