@@ -4,11 +4,20 @@ import { ref } from 'vue'
 import { useAudios } from '@/composables/useAudios'
 import { useNouns } from '@/composables/useNouns'
 
+import { useNounsStore } from '@/store/useNounsStore'
+
 import BaseNounMeaningExercise from '@/components/BaseNounMeaningExercise.vue'
 
 import type { GermanNoun } from '@/interfaces/GermanNoun'
 
+const nounsStore = useNounsStore()
+
 const {
+  addNounToHistory
+} = nounsStore
+
+const {
+  getRandomNounBasedOnHistory,
   getRandomNouns
 } = useNouns()
 
@@ -17,34 +26,53 @@ const {
   playIncorrectSound
 } = useAudios()
 
-const randomNouns = ref<GermanNoun[]>(getRandomNouns(50))
-
-const currentNounIndex = ref<number>(0)
-
-const currentNoun = ref<GermanNoun>(randomNouns.value[currentNounIndex.value]!)
+// ----------------------------------------
+// RANDOM NOUNS
+// ----------------------------------------
+const answerNoun = ref<GermanNoun>(getRandomNounBasedOnHistory())
+const randomNouns = ref<GermanNoun[]>(getRandomNouns({
+  excludeNouns: [answerNoun.value]
+}))
 
 // ERROR COUNT
 const errorCount = ref<number>(0)
-const onIncorrect = () => {
+const onIncorrect = (noun: GermanNoun) => {
+  addNounToHistory(noun, false)
+
   errorCount.value++
+
   playIncorrectSound()
 }
 
 // CORRECT COUNT
 const correctCount = ref<number>(0)
-const onCorrect = () => {
+const onCorrect = (noun: GermanNoun) => {
+  addNounToHistory(noun, true)
+
   correctCount.value++
+
   playCorrectSound()
+}
+
+const handleNext = () => {
+  answerNoun.value = getRandomNounBasedOnHistory()
+  randomNouns.value = getRandomNouns({
+    excludeNouns: [answerNoun.value]
+  })
 }
 </script>
 <template>
   <div
+    v-auto-animate
     class="space-y-4 mx-auto max-w-xl"
   >
     <BaseNounMeaningExercise
-      :noun="currentNoun"
+      :key="answerNoun.id"
+      :answer="answerNoun"
+      :options="randomNouns"
       @correct="onCorrect"
       @incorrect="onIncorrect"
+      @next="handleNext"
     />
 
     <!-- STATISTICS -->

@@ -54,6 +54,7 @@ const incorrectOptions = ref<GermanVerb[]>([])
 const handleSelectOption = (option: GermanVerb) => {
   if (selectedOption.value === option) return
   if (isFinished.value) return
+  if (incorrectOptions.value.includes(option)) return
 
   selectedOption.value = option
 
@@ -77,7 +78,9 @@ const handleShowAnswer = () => {
   isFinished.value = true
 
   selectedOption.value = props.answer
-  incorrectOptions.value = props.options.filter(option => option.id !== selectedOption.value!.id)
+  incorrectOptions.value = props.options.filter(option =>
+    option.id !== selectedOption.value!.id
+  )
 }
 
 // ----------------------------------------

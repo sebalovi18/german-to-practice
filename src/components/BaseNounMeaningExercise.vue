@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue'
 
-import { useNouns } from '@/composables/useNouns'
 import { useI18n } from 'vue-i18n'
 
 import BaseButton from '@/components/BaseButton.vue'
@@ -10,18 +9,19 @@ import BaseOptionCard from '@/components/BaseOptionCard.vue'
 import type { GermanNoun } from '@/interfaces/GermanNoun'
 
 interface Props {
+  answer: GermanNoun
+  options: GermanNoun[]
   attempts?: number
-  optionsCount?: number
 }
 
 const props = withDefaults(defineProps<Props>(), {
-  attempts: 2,
-  optionsCount: 6
+  attempts: 2
 })
 
 interface Emits {
-  (event: 'correct'): void
-  (event: 'incorrect'): void
+  (event: 'correct', noun: GermanNoun): void
+  (event: 'incorrect', noun: GermanNoun): void
+  (event: 'next'): void
 }
 
 const emit = defineEmits<Emits>()
@@ -32,45 +32,17 @@ const {
 } = useI18n()
 
 // ----------------------------------------
-// NOUNS
+// IS FINISHED
 // ----------------------------------------
-const {
-  getRandomNouns
-} = useNouns()
+const isFinished = ref<boolean>(false)
 
-const randomNouns = ref<GermanNoun[]>(getRandomNouns(props.optionsCount))
-const computedRandomNounsOrdered = computed((): GermanNoun[] =>
-  [...randomNouns.value].sort(() => Math.random() - 0.5)
+// ----------------------------------------
+// COMPUTED OPTIONS ORDERED RANDOMLY
+// ----------------------------------------
+const computedOptions = computed((): GermanNoun[] =>
+  [...props.options, props.answer].sort(() => Math.random() - 0.5)
 )
 
-// ----------------------------------------
-// HISTORY
-// ----------------------------------------
-type HistoryEntry = Map<string, {
-  id: string
-  correct: boolean
-  errors: number
-}>
-
-const history = ref<HistoryEntry>(new Map())
-const isWordAlreadySeenAndCorrect = (word: GermanNoun): boolean =>
-  history.value.get(word.id)?.correct ?? false
-
-const setHistory = (word: GermanNoun, correct: boolean) => {
-  const wordHistory = history.value.get(word.id)
-
-  if (!wordHistory) {
-    history.value.set(word.id, {
-      id: word.id,
-      correct: correct,
-      errors: 0
-    })
-
-    return
-  }
-
-  wordHistory.errors++
-}
 // ----------------------------------------
 // SELECTED OPTION
 // ----------------------------------------
@@ -78,55 +50,42 @@ const selectedOption = ref<GermanNoun | null>(null)
 const incorrectOptions = ref<GermanNoun[]>([])
 
 const handleSelectOption = (option: GermanNoun) => {
+  if (selectedOption.value === option) return
+  if (isFinished.value) return
+  if (incorrectOptions.value.includes(option)) return
+
   selectedOption.value = option
 
-  const isCorrect = option.id === randomNouns.value[0]!.id
-
-  const event = isCorrect ? 'correct' : 'incorrect' as Emits[keyof Emits]
-
-  if (isCorrect) {
+  if (option.id === props.answer.id) {
     isFinished.value = true
-  }
 
-  if (!isCorrect) {
+    emit('correct', props.answer)
+  } else {
     incorrectOptions.value.push(option)
+
+    emit('incorrect', props.answer)
   }
-
-  setHistory(option, isCorrect)
-
-  emit(event)
 }
 
 // ----------------------------------------
-// IS FINISHED
-// ----------------------------------------
-const isFinished = ref<boolean>(false)
-
-const startNewExercise = () => {
-  do {
-    randomNouns.value = getRandomNouns(props.optionsCount)
-  } while (isWordAlreadySeenAndCorrect(randomNouns.value[0]!))
-
-  selectedOption.value = null
-  incorrectOptions.value = []
-  isFinished.value = false
-}
-
 // HANDLE SHOW ANSWER EVENT
+// ----------------------------------------
 const handleShowAnswer = () => {
   if (isFinished.value) return
 
   isFinished.value = true
 
-  selectedOption.value = randomNouns.value[0]!
-  incorrectOptions.value = randomNouns.value.filter(noun => noun.id !== selectedOption.value!.id)
+  selectedOption.value = props.answer
+  incorrectOptions.value = props.options.filter(option => option.id !== selectedOption.value!.id)
 }
 
+// ----------------------------------------
 // HANDLE NEXT EVENT
+// ----------------------------------------
 const handleNext = () => {
   if (!isFinished.value) return
 
-  startNewExercise()
+  emit('next')
 }
 </script>
 <template>
@@ -140,12 +99,12 @@ const handleNext = () => {
       <span
         class="text-2xl font-bold text-center"
       >
-        {{ randomNouns[0]!.value }}
+        {{ answer.value }}
       </span>
       <sub
         class="text-[10px] dark:text-background text-foreground"
       >
-        {{ !randomNouns[0]!.plural_id ? '(Plural)' : '' }}
+        {{ !answer.plural_id ? '(Plural)' : '' }}
       </sub>
     </div>
 
@@ -154,7 +113,7 @@ const handleNext = () => {
       class="grid grid-cols-2 gap-4"
     >
       <BaseOptionCard
-        v-for="(option, index) in computedRandomNounsOrdered"
+        v-for="(option, index) in computedOptions"
         :disabled="isFinished"
         :is-correct="selectedOption?.id === option.id && isFinished"
         :is-incorrect="incorrectOptions.includes(option)"
