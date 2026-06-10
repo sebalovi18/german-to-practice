@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue'
 
-import { useAdjectives } from '@/composables/useAdjectives'
 import { useI18n } from 'vue-i18n'
 
 import BaseButton from '@/components/BaseButton.vue'
@@ -10,18 +9,19 @@ import BaseOptionCard from '@/components/BaseOptionCard.vue'
 import type { GermanAdjective } from '@/interfaces/GermanAdjetives'
 
 interface Props {
+  answer: GermanAdjective
+  options: GermanAdjective[]
   attempts?: number
-  optionsCount?: number
 }
 
 const props = withDefaults(defineProps<Props>(), {
-  attempts: 2,
-  optionsCount: 6
+  attempts: 2
 })
 
 interface Emits {
-  (event: 'correct'): void
-  (event: 'incorrect'): void
+  (event: 'correct', adjective: GermanAdjective): void
+  (event: 'incorrect', adjective: GermanAdjective): void
+  (event: 'next'): void
 }
 
 const emit = defineEmits<Emits>()
@@ -32,15 +32,15 @@ const {
 } = useI18n()
 
 // ----------------------------------------
-// ADJECTIVES
+// IS FINISHED
 // ----------------------------------------
-const {
-  getRandomAdjectives
-} = useAdjectives()
+const isFinished = ref<boolean>(false)
 
-const randomAdjectives = ref<GermanAdjective[]>(getRandomAdjectives(props.optionsCount))
-const computedRandomAdjectivesOrdered = computed((): GermanAdjective[] =>
-  [...randomAdjectives.value].sort(() => Math.random() - 0.5)
+// ----------------------------------------
+// COMPUTED OPTIONS ORDERED RANDOMLY
+// ----------------------------------------
+const computedOptions = computed((): GermanAdjective[] =>
+  [...props.options, props.answer].sort(() => Math.random() - 0.5)
 )
 
 // ----------------------------------------
@@ -50,46 +50,42 @@ const selectedOption = ref<GermanAdjective | null>(null)
 const incorrectOptions = ref<GermanAdjective[]>([])
 
 const handleSelectOption = (option: GermanAdjective) => {
+  if (selectedOption.value === option) return
+  if (isFinished.value) return
+  if (incorrectOptions.value.includes(option)) return
+
   selectedOption.value = option
 
-  if (option.id === randomAdjectives.value[0]!.id) {
+  if (option.id === props.answer.id) {
     isFinished.value = true
 
-    emit('correct')
+    emit('correct', props.answer)
   } else {
     incorrectOptions.value.push(option)
 
-    emit('incorrect')
+    emit('incorrect', props.answer)
   }
 }
 
 // ----------------------------------------
-// IS FINISHED
-// ----------------------------------------
-const isFinished = ref<boolean>(false)
-
-const startNewExercise = () => {
-  randomAdjectives.value = getRandomAdjectives(props.optionsCount)
-  selectedOption.value = null
-  incorrectOptions.value = []
-  isFinished.value = false
-}
-
 // HANDLE SHOW ANSWER EVENT
+// ----------------------------------------
 const handleShowAnswer = () => {
   if (isFinished.value) return
 
   isFinished.value = true
 
-  selectedOption.value = randomAdjectives.value[0]!
-  incorrectOptions.value = randomAdjectives.value.filter(adjective => adjective.id !== selectedOption.value!.id)
+  selectedOption.value = props.answer
+  incorrectOptions.value = props.options.filter(adjective => adjective.id !== selectedOption.value!.id)
 }
 
+// ----------------------------------------
 // HANDLE NEXT EVENT
+// ----------------------------------------
 const handleNext = () => {
   if (!isFinished.value) return
 
-  startNewExercise()
+  emit('next')
 }
 </script>
 <template>
@@ -100,7 +96,7 @@ const handleNext = () => {
     <p
       class="text-2xl font-bold text-center"
     >
-      {{ randomAdjectives[0]!.adjective }}
+      {{ answer.adjective }}
     </p>
 
     <!-- CARD OPTIONS -->
@@ -108,7 +104,7 @@ const handleNext = () => {
       class="grid grid-cols-2 gap-4"
     >
       <BaseOptionCard
-        v-for="(option, index) in computedRandomAdjectivesOrdered"
+        v-for="(option, index) in computedOptions"
         :disabled="isFinished"
         :is-correct="selectedOption?.id === option.id && isFinished"
         :is-incorrect="incorrectOptions.includes(option)"
