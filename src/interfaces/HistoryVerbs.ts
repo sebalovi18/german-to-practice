@@ -1,7 +1,4 @@
 import type { GermanVerb } from './GermanVerbs'
+import type { HistoryStats } from './HistoryStats'
 
-export interface HistoryVerb extends GermanVerb {
-  successAttempts: number
-  failedAttempts: number
-  totalAttempts: number
-}
+export interface HistoryVerb extends GermanVerb, HistoryStats {}

@@ -3,10 +3,10 @@ import { computed, ref } from 'vue'
 
 import Chart from 'primevue/chart'
 
-import type { HistoryVerb } from '@/interfaces/HistoryVerbs'
+import type { ChartBarItem } from '@/interfaces/ChartBarItem'
 
 interface Props {
-  data: HistoryVerb[]
+  data: ChartBarItem[]
 }
 
 const props = withDefaults(defineProps<Props>(), {
@@ -33,11 +33,11 @@ const computedChartProperties = computed(() => {
   return {
     type: chartType.value,
     data: {
-      labels: data.map(verb => verb.infinitive),
+      labels: data.map(item => item.label),
       datasets: [
         {
           label: 'Success',
-          data: data.map(verb => verb.successAttempts),
+          data: data.map(item => item.successAttempts),
           backgroundColor: 'oklch(87.1% 0.15 154.449)',
           borderWidth: 2,
           borderColor: 'oklch(87.1% 0.15 154.449)',
@@ -45,7 +45,7 @@ const computedChartProperties = computed(() => {
         },
         {
           label: 'Failed',
-          data: data.map(verb => verb.failedAttempts),
+          data: data.map(item => item.failedAttempts),
           backgroundColor: 'oklch(80.8% 0.114 19.571)',
           borderWidth: 2,
           borderColor: 'oklch(80.8% 0.114 19.571)',

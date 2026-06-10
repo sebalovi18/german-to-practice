@@ -1,7 +1,4 @@
 import type { GermanAdjective } from './GermanAdjetives'
+import type { HistoryStats } from './HistoryStats'
 
-export interface HistoryAdjective extends GermanAdjective {
-  successAttempts: number
-  failedAttempts: number
-  totalAttempts: number
-}
+export interface HistoryAdjective extends GermanAdjective, HistoryStats {}
