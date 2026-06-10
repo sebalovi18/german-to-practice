@@ -61,6 +61,13 @@
     "mostFailed": {
       "title": "Wörter zum Wiederholen"
     },
+    "clearHistory": {
+      "open": "Verlauf für {section} löschen",
+      "title": "Übungsverlauf löschen?",
+      "description": "Dadurch werden alle gespeicherten Versuche für {section} entfernt. Diese Aktion kann nicht rückgängig gemacht werden.",
+      "cancel": "Abbrechen",
+      "confirm": "Verlauf löschen"
+    },
     "sections": {
       "verbs": {
         "title": "Bedeutungen von Verben",

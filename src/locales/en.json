@@ -61,6 +61,13 @@
     "mostFailed": {
       "title": "Words to revisit"
     },
+    "clearHistory": {
+      "open": "Clear {section} history",
+      "title": "Clear practice history?",
+      "description": "This will remove all saved attempts for {section}. This action cannot be undone.",
+      "cancel": "Cancel",
+      "confirm": "Clear history"
+    },
     "sections": {
       "verbs": {
         "title": "Verb meanings",

@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed, ref } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { useRouter } from 'vue-router'
 
-import { ExternalLink, Info } from '@lucide/vue'
+import { ExternalLink, Info, Trash2 } from '@lucide/vue'
 import { storeToRefs } from 'pinia'
 
 import BaseChartBar from '@/components/BaseChartBar.vue'
@@ -25,24 +25,30 @@ const {
 } = useI18n()
 const router = useRouter()
 
+const verbsStore = useVerbsStore()
+const nounsStore = useNounsStore()
+const adjectivesStore = useAdjectivesStore()
+const articlesStore = useArticlesStore()
+
 const {
   verbsHistory
-} = storeToRefs(useVerbsStore())
+} = storeToRefs(verbsStore)
 
 const {
   nounsHistory
-} = storeToRefs(useNounsStore())
+} = storeToRefs(nounsStore)
 
 const {
   adjectivesHistory
-} = storeToRefs(useAdjectivesStore())
+} = storeToRefs(adjectivesStore)
 
 const {
   articlesHistory
-} = storeToRefs(useArticlesStore())
+} = storeToRefs(articlesStore)
 
+type DashboardSectionId = 'verbs' | 'nouns' | 'adjectives' | 'articles'
 type DashboardSection = {
-  id: string
+  id: DashboardSectionId
   title: string
   description: string
   path: string
@@ -163,6 +169,30 @@ const summaryCards = computed(() => [
     description: t('dashboard.summaryDescriptions.masteredWords')
   }
 ])
+
+const sectionPendingClear = ref<DashboardSection | null>(null)
+
+const openClearHistoryDialog = (section: DashboardSection) => {
+  sectionPendingClear.value = section
+}
+
+const closeClearHistoryDialog = () => {
+  sectionPendingClear.value = null
+}
+
+const confirmClearHistory = () => {
+  if (!sectionPendingClear.value) return
+
+  const resetHistoryBySectionId: Record<DashboardSectionId, () => void> = {
+    verbs: verbsStore.resetVerbsHistory,
+    nouns: nounsStore.resetNounsHistory,
+    adjectives: adjectivesStore.resetAdjectivesHistory,
+    articles: articlesStore.resetArticlesHistory
+  }
+
+  resetHistoryBySectionId[sectionPendingClear.value.id]()
+  closeClearHistoryDialog()
+}
 </script>
 
 <template>
@@ -199,7 +229,7 @@ const summaryCards = computed(() => [
       <article
         v-for="card in summaryCards"
         :key="card.label"
-        class="rounded-xl border border-foreground/10 bg-foreground/5 px-4 pb-4 pt-2 dark:border-background/10 dark:bg-background/5"
+        class="rounded-xl border border-foreground/10 bg-foreground/5 px-4 pb-4 pt-2"
       >
         <div
           class="flex min-h-6 items-center justify-between gap-3"
@@ -215,7 +245,7 @@ const summaryCards = computed(() => [
           >
             <button
               type="button"
-              class="flex size-6 items-center justify-center rounded-full transition-colors hover:bg-foreground/10 focus:bg-foreground/10 dark:hover:bg-background/10 dark:focus:bg-background/10"
+              class="flex size-6 items-center justify-center rounded-full transition-colors hover:bg-foreground/10 focus:bg-foreground/10"
               :aria-label="card.description"
             >
               <Info
@@ -225,7 +255,7 @@ const summaryCards = computed(() => [
             </button>
             <div
               role="tooltip"
-              class="pointer-events-none absolute right-0 top-7 z-10 hidden w-56 rounded-md border border-foreground/10 bg-background p-3 text-xs normal-case tracking-normal text-foreground shadow-lg group-focus-within:block group-hover:block dark:border-background/10 dark:bg-foreground dark:text-background"
+              class="pointer-events-none absolute right-0 top-7 z-10 hidden w-56 rounded-md border border-foreground/10 bg-background p-3 text-xs normal-case tracking-normal text-foreground shadow-lg group-focus-within:block group-hover:block"
             >
               {{ card.description }}
             </div>
@@ -272,7 +302,7 @@ const summaryCards = computed(() => [
       <article
         v-for="section in sections"
         :key="section.id"
-        class="rounded-xl border border-foreground/10 bg-foreground/3 p-4 dark:border-background/10 dark:bg-background/3"
+        class="rounded-xl border border-foreground/10 bg-foreground/3 p-4"
       >
         <div
           class="mb-4 flex items-start justify-between gap-4"
@@ -288,10 +318,21 @@ const summaryCards = computed(() => [
               </h2>
               <button
                 :aria-label="t('dashboard.practiceLink', { section: section.title })"
-                class="-mt-1 rounded-md p-1 transition-colors hover:bg-foreground/10 dark:hover:bg-background/10"
+                class="-mt-1 rounded-md p-1 transition-colors hover:bg-foreground/10"
                 @click="router.push(section.path)"
               >
                 <ExternalLink
+                  class="size-4"
+                  aria-hidden="true"
+                />
+              </button>
+              <button
+                :aria-label="t('dashboard.clearHistory.open', { section: section.title })"
+                class="-mt-1 rounded-md p-1 transition-colors hover:bg-red-200/20 disabled:cursor-not-allowed disabled:opacity-40"
+                :disabled="!section.items.length"
+                @click="openClearHistoryDialog(section)"
+              >
+                <Trash2
                   class="size-4"
                   aria-hidden="true"
                 />
@@ -304,7 +345,7 @@ const summaryCards = computed(() => [
             </p>
           </div>
           <span
-            class="rounded-full bg-foreground px-3 py-1 text-xs text-background dark:bg-background dark:text-foreground"
+            class="rounded-full bg-foreground px-3 py-1 text-xs text-background"
           >
             {{ section.items.length }}
           </span>
@@ -317,11 +358,56 @@ const summaryCards = computed(() => [
 
         <p
           v-else
-          class="rounded-lg border border-dashed border-foreground/20 p-6 text-center text-sm text-gray-500 dark:border-background/20"
+          class="rounded-lg border border-dashed border-foreground/20 p-6 text-center text-sm text-gray-500"
         >
           {{ t('dashboard.empty') }}
         </p>
       </article>
     </section>
+
+    <Teleport
+      to="body"
+    >
+      <div
+        v-if="sectionPendingClear"
+        class="fixed inset-0 z-50 flex items-center justify-center bg-background/10 p-4 backdrop-blur-md"
+        role="dialog"
+        aria-modal="true"
+        :aria-label="t('dashboard.clearHistory.title')"
+      >
+        <div
+          class="w-full max-w-md rounded-xl border border-foreground/15 bg-foreground p-5 shadow-xl backdrop-blur-xl"
+        >
+          <h2
+            class="text-lg font-bold"
+          >
+            {{ t('dashboard.clearHistory.title') }}
+          </h2>
+          <p
+            class="mt-2 text-sm"
+          >
+            {{ t('dashboard.clearHistory.description', { section: sectionPendingClear.title }) }}
+          </p>
+          <div
+            class="mt-5 flex justify-end gap-3"
+          >
+            <button
+              class="btn px-4 py-2"
+              type="button"
+              @click="closeClearHistoryDialog"
+            >
+              {{ t('dashboard.clearHistory.cancel') }}
+            </button>
+            <button
+              class="rounded-md bg-red-200 px-4 py-2 text-sm text-foreground transition-colors hover:bg-red-300"
+              type="button"
+              @click="confirmClearHistory"
+            >
+              {{ t('dashboard.clearHistory.confirm') }}
+            </button>
+          </div>
+        </div>
+      </div>
+    </Teleport>
   </main>
 </template>

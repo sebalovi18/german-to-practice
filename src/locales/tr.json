@@ -61,6 +61,13 @@
     "mostFailed": {
       "title": "Tekrar edilecek kelimeler"
     },
+    "clearHistory": {
+      "open": "{section} geçmişini temizle",
+      "title": "Pratik geçmişi temizlensin mi?",
+      "description": "{section} için kayıtlı tüm denemeler silinecek. Bu işlem geri alınamaz.",
+      "cancel": "İptal",
+      "confirm": "Geçmişi temizle"
+    },
     "sections": {
       "verbs": {
         "title": "Fiil anlamları",

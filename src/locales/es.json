@@ -61,6 +61,13 @@
     "mostFailed": {
       "title": "Palabras para repasar"
     },
+    "clearHistory": {
+      "open": "Borrar historial de {section}",
+      "title": "¿Borrar historial de práctica?",
+      "description": "Esto eliminará todos los intentos guardados de {section}. Esta acción no se puede deshacer.",
+      "cancel": "Cancelar",
+      "confirm": "Borrar historial"
+    },
     "sections": {
       "verbs": {
         "title": "Significados de verbos",
