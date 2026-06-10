@@ -52,6 +52,9 @@ const selectedOption = ref<GermanVerb | null>(null)
 const incorrectOptions = ref<GermanVerb[]>([])
 
 const handleSelectOption = (option: GermanVerb) => {
+  if (selectedOption.value === option) return
+  if (isFinished.value) return
+
   selectedOption.value = option
 
   if (option.id === props.answer.id) {

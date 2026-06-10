@@ -2,11 +2,23 @@ import { defineStore } from 'pinia'
 
 import { ref } from 'vue'
 
+import { useStorage } from '@vueuse/core'
+
 import type { HistoryVerb } from '@/interfaces/HistoryVerbs'
 import type { GermanVerb } from '@/interfaces/GermanVerbs'
 
 export const useVerbsStore = defineStore('verbs', () => {
-  const verbsHistory = ref<Map<string, HistoryVerb>>(new Map())
+  const verbsHistory = useStorage<Map<string, HistoryVerb>>(
+    'verbsHistory',
+    new Map(),
+    localStorage,
+    {
+      mergeDefaults: true,
+      onError: (error) => {
+        console.error('Local storage verbs history error:', error)
+      }
+    }
+  )
 
   const addVerbToHistory = (verb: GermanVerb, success: boolean) => {
     const verbHistory = verbsHistory.value.get(verb.id)

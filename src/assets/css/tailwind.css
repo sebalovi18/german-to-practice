@@ -71,6 +71,9 @@
 
       /* DARK MODE */
       dark:bg-background-dark
-      dark:text-background;
+      dark:text-background
+
+      /* TEXT */
+      text-sm;
   }
 }
