@@ -231,7 +231,7 @@ const confirmClearHistory = () => {
       <article
         v-for="card in summaryCards"
         :key="card.label"
-        class="rounded-xl border border-foreground/10 bg-foreground/5 px-4 pb-4 pt-2"
+        class="rounded-xl border border-background/10 bg-background/5 px-4 pb-4 pt-2"
       >
         <div
           class="flex min-h-6 items-center justify-between gap-3"
