@@ -372,46 +372,55 @@ const confirmClearHistory = () => {
     <Teleport
       to="body"
     >
-      <div
-        v-if="sectionPendingClear"
-        class="fixed inset-0 z-50 flex items-center justify-center bg-background/10 p-4 backdrop-blur-md"
-        role="dialog"
-        aria-modal="true"
-        :aria-label="t('dashboard.clearHistory.title')"
+      <Transition
+        enter-active-class="transition duration-200 ease-out"
+        enter-from-class="opacity-0 scale-95"
+        enter-to-class="opacity-100 scale-100"
+        leave-active-class="transition duration-150 ease-in"
+        leave-from-class="opacity-100 scale-100"
+        leave-to-class="opacity-0 scale-95"
       >
         <div
-          class="w-full max-w-md rounded-xl border border-foreground/15 bg-foreground p-5 shadow-xl backdrop-blur-xl"
+          v-if="sectionPendingClear"
+          class="fixed inset-0 z-50 flex items-center justify-center bg-background/10 p-4 backdrop-blur-md"
+          role="dialog"
+          aria-modal="true"
+          :aria-label="t('dashboard.clearHistory.title')"
         >
-          <h2
-            class="text-lg font-bold"
-          >
-            {{ t('dashboard.clearHistory.title') }}
-          </h2>
-          <p
-            class="mt-2 text-sm"
-          >
-            {{ t('dashboard.clearHistory.description', { section: sectionPendingClear.title }) }}
-          </p>
           <div
-            class="mt-5 flex justify-end gap-3"
+            class="w-full max-w-md rounded-xl border border-foreground/15 bg-foreground p-5 shadow-xl backdrop-blur-xl"
           >
-            <button
-              class="btn px-4 py-2"
-              type="button"
-              @click="closeClearHistoryDialog"
+            <h2
+              class="text-lg font-bold"
             >
-              {{ t('dashboard.clearHistory.cancel') }}
-            </button>
-            <button
-              class="rounded-md bg-red-200 px-4 py-2 text-sm text-foreground transition-colors hover:bg-red-300"
-              type="button"
-              @click="confirmClearHistory"
+              {{ t('dashboard.clearHistory.title') }}
+            </h2>
+            <p
+              class="mt-2 text-sm"
             >
-              {{ t('dashboard.clearHistory.confirm') }}
-            </button>
+              {{ t('dashboard.clearHistory.description', { section: sectionPendingClear.title }) }}
+            </p>
+            <div
+              class="mt-5 flex justify-end gap-3"
+            >
+              <button
+                class="btn px-4 py-2"
+                type="button"
+                @click="closeClearHistoryDialog"
+              >
+                {{ t('dashboard.clearHistory.cancel') }}
+              </button>
+              <button
+                class="rounded-md bg-red-200 px-4 py-2 text-sm text-foreground transition-colors hover:bg-red-300"
+                type="button"
+                @click="confirmClearHistory"
+              >
+                {{ t('dashboard.clearHistory.confirm') }}
+              </button>
+            </div>
           </div>
         </div>
-      </div>
+      </Transition>
     </Teleport>
   </main>
 </template>
