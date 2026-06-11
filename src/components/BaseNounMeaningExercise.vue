@@ -84,6 +84,8 @@ const handleNext = () => {
 
   emit('next')
 }
+
+const isPluralNoun = (noun: GermanNoun) => Boolean(noun.singular_id)
 </script>
 <template>
   <div
@@ -97,12 +99,13 @@ const handleNext = () => {
         class="text-2xl font-bold text-center"
       >
         {{ answer.value }}
+        <span
+          v-if="isPluralNoun(answer)"
+          class="text-xs font-normal"
+        >
+          (Plural)
+        </span>
       </span>
-      <sub
-        class="text-[10px] text-foreground"
-      >
-        {{ answer.singular_id ? '(Plural)' : '' }}
-      </sub>
     </div>
 
     <!-- CARD OPTIONS -->
