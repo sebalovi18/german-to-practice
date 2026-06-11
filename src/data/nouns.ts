@@ -13641,5 +13641,709 @@ export const nouns: GermanNoun[] = [
     },
     levels: [],
     categories: ['locations', 'transportation', 'travel']
+  },
+  {
+    id: 'tisch',
+    type: 'noun',
+    article: 'der',
+    value: 'Tisch',
+    singular_id: null,
+    plural_id: 'tische',
+    translations: {
+      en: 'table',
+      de: 'Tisch',
+      es: 'mesa',
+      tr: 'masa'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'la',
+      tr: null
+    },
+    levels: [],
+    categories: ['household']
+  },
+  {
+    id: 'tische',
+    type: 'noun',
+    article: 'die',
+    value: 'Tische',
+    singular_id: 'tisch',
+    plural_id: null,
+    translations: {
+      en: 'tables',
+      de: 'Tische',
+      es: 'mesas',
+      tr: 'masalar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: ['household']
+  },
+  {
+    id: 'stuhl',
+    type: 'noun',
+    article: 'der',
+    value: 'Stuhl',
+    singular_id: null,
+    plural_id: 'stühle',
+    translations: {
+      en: 'chair',
+      de: 'Stuhl',
+      es: 'silla',
+      tr: 'sandalye'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'la',
+      tr: null
+    },
+    levels: [],
+    categories: ['household']
+  },
+  {
+    id: 'stühle',
+    type: 'noun',
+    article: 'die',
+    value: 'Stühle',
+    singular_id: 'stuhl',
+    plural_id: null,
+    translations: {
+      en: 'chairs',
+      de: 'Stühle',
+      es: 'sillas',
+      tr: 'sandalyeler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: ['household']
+  },
+  {
+    id: 'fenster',
+    type: 'noun',
+    article: 'das',
+    value: 'Fenster',
+    singular_id: null,
+    plural_id: 'fenster-plural',
+    translations: {
+      en: 'window',
+      de: 'Fenster',
+      es: 'ventana',
+      tr: 'pencere'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'la',
+      tr: null
+    },
+    levels: [],
+    categories: ['household']
+  },
+  {
+    id: 'fenster-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Fenster',
+    singular_id: 'fenster',
+    plural_id: null,
+    translations: {
+      en: 'windows',
+      de: 'Fenster',
+      es: 'ventanas',
+      tr: 'pencereler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: ['household']
+  },
+  {
+    id: 'tür',
+    type: 'noun',
+    article: 'die',
+    value: 'Tür',
+    singular_id: null,
+    plural_id: 'türen',
+    translations: {
+      en: 'door',
+      de: 'Tür',
+      es: 'puerta',
+      tr: 'kapı'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
+    },
+    levels: [],
+    categories: ['household']
+  },
+  {
+    id: 'türen',
+    type: 'noun',
+    article: 'die',
+    value: 'Türen',
+    singular_id: 'tür',
+    plural_id: null,
+    translations: {
+      en: 'doors',
+      de: 'Türen',
+      es: 'puertas',
+      tr: 'kapılar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: ['household']
+  },
+  {
+    id: 'bett',
+    type: 'noun',
+    article: 'das',
+    value: 'Bett',
+    singular_id: null,
+    plural_id: 'betten',
+    translations: {
+      en: 'bed',
+      de: 'Bett',
+      es: 'cama',
+      tr: 'yatak'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'la',
+      tr: null
+    },
+    levels: [],
+    categories: ['household']
+  },
+  {
+    id: 'betten',
+    type: 'noun',
+    article: 'die',
+    value: 'Betten',
+    singular_id: 'bett',
+    plural_id: null,
+    translations: {
+      en: 'beds',
+      de: 'Betten',
+      es: 'camas',
+      tr: 'yataklar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: ['household']
+  },
+  {
+    id: 'sofa',
+    type: 'noun',
+    article: 'das',
+    value: 'Sofa',
+    singular_id: null,
+    plural_id: 'sofas',
+    translations: {
+      en: 'sofa',
+      de: 'Sofa',
+      es: 'sofá',
+      tr: 'kanepe'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null
+    },
+    levels: [],
+    categories: ['household']
+  },
+  {
+    id: 'sofas',
+    type: 'noun',
+    article: 'die',
+    value: 'Sofas',
+    singular_id: 'sofa',
+    plural_id: null,
+    translations: {
+      en: 'sofas',
+      de: 'Sofas',
+      es: 'sofás',
+      tr: 'kanepeler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: ['household']
+  },
+  {
+    id: 'lampe',
+    type: 'noun',
+    article: 'die',
+    value: 'Lampe',
+    singular_id: null,
+    plural_id: 'lampen',
+    translations: {
+      en: 'lamp',
+      de: 'Lampe',
+      es: 'lámpara',
+      tr: 'lamba'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
+    },
+    levels: [],
+    categories: ['household']
+  },
+  {
+    id: 'lampen',
+    type: 'noun',
+    article: 'die',
+    value: 'Lampen',
+    singular_id: 'lampe',
+    plural_id: null,
+    translations: {
+      en: 'lamps',
+      de: 'Lampen',
+      es: 'lámparas',
+      tr: 'lambalar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: ['household']
+  },
+  {
+    id: 'regal',
+    type: 'noun',
+    article: 'das',
+    value: 'Regal',
+    singular_id: null,
+    plural_id: 'regale',
+    translations: {
+      en: 'shelf',
+      de: 'Regal',
+      es: 'estantería',
+      tr: 'raf'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'la',
+      tr: null
+    },
+    levels: [],
+    categories: ['household']
+  },
+  {
+    id: 'regale',
+    type: 'noun',
+    article: 'die',
+    value: 'Regale',
+    singular_id: 'regal',
+    plural_id: null,
+    translations: {
+      en: 'shelves',
+      de: 'Regale',
+      es: 'estanterías',
+      tr: 'raflar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: ['household']
+  },
+  {
+    id: 'schrank',
+    type: 'noun',
+    article: 'der',
+    value: 'Schrank',
+    singular_id: null,
+    plural_id: 'schränke',
+    translations: {
+      en: 'wardrobe',
+      de: 'Schrank',
+      es: 'armario',
+      tr: 'dolap'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
+    },
+    levels: [],
+    categories: ['household']
+  },
+  {
+    id: 'schränke',
+    type: 'noun',
+    article: 'die',
+    value: 'Schränke',
+    singular_id: 'schrank',
+    plural_id: null,
+    translations: {
+      en: 'wardrobes',
+      de: 'Schränke',
+      es: 'armarios',
+      tr: 'dolaplar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: ['household']
+  },
+  {
+    id: 'wand',
+    type: 'noun',
+    article: 'die',
+    value: 'Wand',
+    singular_id: null,
+    plural_id: 'wände',
+    translations: {
+      en: 'wall',
+      de: 'Wand',
+      es: 'pared',
+      tr: 'duvar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
+    },
+    levels: [],
+    categories: ['household']
+  },
+  {
+    id: 'wände',
+    type: 'noun',
+    article: 'die',
+    value: 'Wände',
+    singular_id: 'wand',
+    plural_id: null,
+    translations: {
+      en: 'walls',
+      de: 'Wände',
+      es: 'paredes',
+      tr: 'duvarlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: ['household']
+  },
+  {
+    id: 'boden',
+    type: 'noun',
+    article: 'der',
+    value: 'Boden',
+    singular_id: null,
+    plural_id: 'böden',
+    translations: {
+      en: 'floor',
+      de: 'Boden',
+      es: 'suelo',
+      tr: 'zemin'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null
+    },
+    levels: [],
+    categories: ['household']
+  },
+  {
+    id: 'böden',
+    type: 'noun',
+    article: 'die',
+    value: 'Böden',
+    singular_id: 'boden',
+    plural_id: null,
+    translations: {
+      en: 'floors',
+      de: 'Böden',
+      es: 'suelos',
+      tr: 'zeminler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: ['household']
+  },
+  {
+    id: 'decke',
+    type: 'noun',
+    article: 'die',
+    value: 'Decke',
+    singular_id: null,
+    plural_id: 'decken',
+    translations: {
+      en: 'ceiling',
+      de: 'Decke',
+      es: 'techo',
+      tr: 'tavan'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'el',
+      tr: null
+    },
+    levels: [],
+    categories: ['household']
+  },
+  {
+    id: 'decken',
+    type: 'noun',
+    article: 'die',
+    value: 'Decken',
+    singular_id: 'decke',
+    plural_id: null,
+    translations: {
+      en: 'ceilings',
+      de: 'Decken',
+      es: 'techos',
+      tr: 'tavanlar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: ['household']
+  },
+  {
+    id: 'zimmer',
+    type: 'noun',
+    article: 'das',
+    value: 'Zimmer',
+    singular_id: null,
+    plural_id: 'zimmer-plural',
+    translations: {
+      en: 'room',
+      de: 'Zimmer',
+      es: 'habitación',
+      tr: 'oda'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'la',
+      tr: null
+    },
+    levels: [],
+    categories: ['household', 'locations']
+  },
+  {
+    id: 'zimmer-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Zimmer',
+    singular_id: 'zimmer',
+    plural_id: null,
+    translations: {
+      en: 'rooms',
+      de: 'Zimmer',
+      es: 'habitaciones',
+      tr: 'odalar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: ['household', 'locations']
+  },
+  {
+    id: 'küche',
+    type: 'noun',
+    article: 'die',
+    value: 'Küche',
+    singular_id: null,
+    plural_id: 'küchen',
+    translations: {
+      en: 'kitchen',
+      de: 'Küche',
+      es: 'cocina',
+      tr: 'mutfak'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null
+    },
+    levels: [],
+    categories: ['household', 'locations']
+  },
+  {
+    id: 'küchen',
+    type: 'noun',
+    article: 'die',
+    value: 'Küchen',
+    singular_id: 'küche',
+    plural_id: null,
+    translations: {
+      en: 'kitchens',
+      de: 'Küchen',
+      es: 'cocinas',
+      tr: 'mutfaklar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: ['household', 'locations']
+  },
+  {
+    id: 'bad',
+    type: 'noun',
+    article: 'das',
+    value: 'Bad',
+    singular_id: null,
+    plural_id: 'bäder',
+    translations: {
+      en: 'bathroom',
+      de: 'Bad',
+      es: 'baño',
+      tr: 'banyo'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null
+    },
+    levels: [],
+    categories: ['household', 'locations']
+  },
+  {
+    id: 'bäder',
+    type: 'noun',
+    article: 'die',
+    value: 'Bäder',
+    singular_id: 'bad',
+    plural_id: null,
+    translations: {
+      en: 'bathrooms',
+      de: 'Bäder',
+      es: 'baños',
+      tr: 'banyolar'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null
+    },
+    levels: [],
+    categories: ['household', 'locations']
+  },
+  {
+    id: 'haus',
+    type: 'noun',
+    article: 'das',
+    value: 'Haus',
+    singular_id: null,
+    plural_id: 'häuser',
+    translations: {
+      en: 'house',
+      de: 'Haus',
+      es: 'casa',
+      tr: 'ev'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'la',
+      tr: null
+    },
+    levels: [],
+    categories: ['household', 'locations']
+  },
+  {
+    id: 'häuser',
+    type: 'noun',
+    article: 'die',
+    value: 'Häuser',
+    singular_id: 'haus',
+    plural_id: null,
+    translations: {
+      en: 'houses',
+      de: 'Häuser',
+      es: 'casas',
+      tr: 'evler'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null
+    },
+    levels: [],
+    categories: ['household', 'locations']
   }
 ]
