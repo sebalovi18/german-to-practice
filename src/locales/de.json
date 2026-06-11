@@ -4,6 +4,11 @@
   },
   "home": {
     "description": "Erweitere deinen deutschen Wortschatz mit durchsuchbaren Wortlisten und gezielten Übungen zu Nomen, Verben, Adjektiven und Artikeln.",
+    "search": {
+      "placeholder": "Alle Wortlisten durchsuchen...",
+      "resultsSummary": "{count} Ergebnis(se) in allen Wortlisten gefunden.",
+      "noResults": "Keine Wörter passen zu deiner Suche."
+    },
     "navigation": {
       "nouns": "Nomen",
       "verbs": "Verben",

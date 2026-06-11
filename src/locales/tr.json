@@ -4,6 +4,11 @@
   },
   "home": {
     "description": "Aranabilir kelime listeleri ve isim, fiil, sıfat ve artikel odaklı alıştırmalarla Almanca kelime bilginizi geliştirin.",
+    "search": {
+      "placeholder": "Tüm kelime listelerinde ara...",
+      "resultsSummary": "Tüm kelime listelerinde {count} sonuç bulundu.",
+      "noResults": "Aramanızla eşleşen kelime yok."
+    },
     "navigation": {
       "nouns": "İsimler",
       "verbs": "Fiiller",

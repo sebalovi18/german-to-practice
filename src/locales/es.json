@@ -4,6 +4,11 @@
   },
   "home": {
     "description": "Amplía tu vocabulario alemán con listas de palabras buscables y ejercicios enfocados de sustantivos, verbos, adjetivos y artículos.",
+    "search": {
+      "placeholder": "Buscar en todas las listas de palabras...",
+      "resultsSummary": "Se encontraron {count} resultado(s) en todas las listas de palabras.",
+      "noResults": "Ninguna palabra coincide con tu búsqueda."
+    },
     "navigation": {
       "nouns": "Sustantivos",
       "verbs": "Verbos",

@@ -4,6 +4,11 @@
   },
   "home": {
     "description": "Build your German vocabulary with searchable word lists and focused practice exercises for nouns, verbs, adjectives, and articles.",
+    "search": {
+      "placeholder": "Search every word list...",
+      "resultsSummary": "Found {count} result(s) across all word lists.",
+      "noResults": "No words matched your search."
+    },
     "navigation": {
       "nouns": "Nouns",
       "verbs": "Verbs",
