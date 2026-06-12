@@ -1,4 +1,4 @@
-import type { GermanAdjective } from '@/interfaces/GermanAdjetives'
+import type { GermanAdjective } from '@/interfaces/GermanAdjectives'
 
 export const adjectives: GermanAdjective[] = [
   {
@@ -11,7 +11,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'old',
       de: 'alt',
       es: 'viejo',
-      tr: 'eski'
+      tr: 'eski',
+      te: 'పాత'
     }
   },
   {
@@ -24,7 +25,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'cheap',
       de: 'billig',
       es: 'barato',
-      tr: 'ucuz'
+      tr: 'ucuz',
+      te: 'చవక'
     }
   },
   {
@@ -37,7 +39,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'thick',
       de: 'dick',
       es: 'grueso',
-      tr: 'kalın'
+      tr: 'kalın',
+      te: 'మందం'
     }
   },
   {
@@ -50,7 +53,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'dark',
       de: 'dunkel',
       es: 'oscuro',
-      tr: 'karanlık'
+      tr: 'karanlık',
+      te: 'చీకటి'
     }
   },
   {
@@ -63,7 +67,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'ready',
       de: 'fertig',
       es: 'listo',
-      tr: 'hazır'
+      tr: 'hazır',
+      te: 'సిద్ధం'
     }
   },
   {
@@ -76,7 +81,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'free',
       de: 'frei',
       es: 'libre',
-      tr: 'özgür'
+      tr: 'özgür',
+      te: 'స్వేచ్ఛ'
     }
   },
   {
@@ -89,7 +95,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'big',
       de: 'groß',
       es: 'grande',
-      tr: 'büyük'
+      tr: 'büyük',
+      te: 'పెద్ద'
     }
   },
   {
@@ -102,7 +109,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'good',
       de: 'gut',
       es: 'bueno',
-      tr: 'iyi'
+      tr: 'iyi',
+      te: 'మంచి'
     }
   },
   {
@@ -115,7 +123,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'hard',
       de: 'hart',
       es: 'duro',
-      tr: 'sert'
+      tr: 'sert',
+      te: 'గట్టి'
     }
   },
   {
@@ -128,7 +137,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'ugly',
       de: 'hässlich',
       es: 'feo',
-      tr: 'çirkin'
+      tr: 'çirkin',
+      te: 'అందం లేని'
     }
   },
   {
@@ -141,7 +151,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'hot',
       de: 'heiß',
       es: 'caliente',
-      tr: 'sıcak'
+      tr: 'sıcak',
+      te: 'వేడి'
     }
   },
   {
@@ -154,7 +165,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'bright',
       de: 'hell',
       es: 'claro',
-      tr: 'aydınlık'
+      tr: 'aydınlık',
+      te: 'ప్రకాశవంతమైన'
     }
   },
   {
@@ -167,7 +179,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'young',
       de: 'jung',
       es: 'joven',
-      tr: 'genç'
+      tr: 'genç',
+      te: 'యువ'
     }
   },
   {
@@ -180,7 +193,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'cold',
       de: 'kalt',
       es: 'frío',
-      tr: 'soğuk'
+      tr: 'soğuk',
+      te: 'చల్లని'
     }
   },
   {
@@ -193,7 +207,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'broken',
       de: 'kaputt',
       es: 'roto',
-      tr: 'bozuk'
+      tr: 'bozuk',
+      te: 'విరిగిన'
     }
   },
   {
@@ -206,7 +221,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'small',
       de: 'klein',
       es: 'pequeño',
-      tr: 'küçük'
+      tr: 'küçük',
+      te: 'చిన్న'
     }
   },
   {
@@ -219,7 +235,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'short',
       de: 'kurz',
       es: 'corto',
-      tr: 'kısa'
+      tr: 'kısa',
+      te: 'పొట్టి'
     }
   },
   {
@@ -232,7 +249,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'long',
       de: 'lang',
       es: 'largo',
-      tr: 'uzun'
+      tr: 'uzun',
+      te: 'పొడవైన'
     }
   },
   {
@@ -245,7 +263,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'slow',
       de: 'langsam',
       es: 'lento',
-      tr: 'yavaş'
+      tr: 'yavaş',
+      te: 'నెమ్మదైన'
     }
   },
   {
@@ -258,7 +277,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'tired',
       de: 'müde',
       es: 'cansado',
-      tr: 'yorgun'
+      tr: 'yorgun',
+      te: 'అలసిన'
     }
   },
   {
@@ -271,7 +291,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'new',
       de: 'neu',
       es: 'nuevo',
-      tr: 'yeni'
+      tr: 'yeni',
+      te: 'కొత్త'
     }
   },
   {
@@ -284,7 +305,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'clean',
       de: 'sauber',
       es: 'limpio',
-      tr: 'temiz'
+      tr: 'temiz',
+      te: 'శుభ్రమైన'
     }
   },
   {
@@ -297,7 +319,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'bad',
       de: 'schlecht',
       es: 'malo',
-      tr: 'kötü'
+      tr: 'kötü',
+      te: 'చెడ్డ'
     }
   },
   {
@@ -310,7 +333,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'dirty',
       de: 'schmutzig',
       es: 'sucio',
-      tr: 'kirli'
+      tr: 'kirli',
+      te: 'మురికైన'
     }
   },
   {
@@ -323,7 +347,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'fast',
       de: 'schnell',
       es: 'rápido',
-      tr: 'hızlı'
+      tr: 'hızlı',
+      te: 'వేగవంతమైన'
     }
   },
   {
@@ -336,7 +361,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'beautiful',
       de: 'schön',
       es: 'hermoso',
-      tr: 'güzel'
+      tr: 'güzel',
+      te: 'అందమైన'
     }
   },
   {
@@ -349,7 +375,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'weak',
       de: 'schwach',
       es: 'débil',
-      tr: 'zayıf'
+      tr: 'zayıf',
+      te: 'బలహీనమైన'
     }
   },
   {
@@ -362,7 +389,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'strong',
       de: 'stark',
       es: 'fuerte',
-      tr: 'güçlü'
+      tr: 'güçlü',
+      te: 'బలమైన'
     }
   },
   {
@@ -375,7 +403,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'expensive',
       de: 'teuer',
       es: 'caro',
-      tr: 'pahalı'
+      tr: 'pahalı',
+      te: 'ఖరీదైన'
     }
   },
   {
@@ -388,7 +417,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'great',
       de: 'toll',
       es: 'genial',
-      tr: 'harika'
+      tr: 'harika',
+      te: 'గొప్ప'
     }
   },
   {
@@ -401,7 +431,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'sad',
       de: 'traurig',
       es: 'triste',
-      tr: 'üzgün'
+      tr: 'üzgün',
+      te: 'విచారకరమైన'
     }
   },
   {
@@ -414,7 +445,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'far',
       de: 'weit',
       es: 'lejano',
-      tr: 'uzak'
+      tr: 'uzak',
+      te: 'దూరమైన'
     }
   },
   {
@@ -427,7 +459,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'angry',
       de: 'wütend',
       es: 'enojado',
-      tr: 'kızgın'
+      tr: 'kızgın',
+      te: 'కోపంగా ఉన్న'
     }
   },
   {
@@ -440,7 +473,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'unemployed',
       de: 'arbeitslos',
       es: 'desempleado',
-      tr: 'işsiz'
+      tr: 'işsiz',
+      te: 'నిరుద్యోగ'
     }
   },
   {
@@ -453,7 +487,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'blue',
       de: 'blau',
       es: 'azul',
-      tr: 'mavi'
+      tr: 'mavi',
+      te: 'నీలం'
     }
   },
   {
@@ -466,7 +501,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'brown',
       de: 'braun',
       es: 'marrón',
-      tr: 'kahverengi'
+      tr: 'kahverengi',
+      te: 'గోధుమ'
     }
   },
   {
@@ -479,7 +515,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'stupid',
       de: 'doof',
       es: 'tonto',
-      tr: 'aptal'
+      tr: 'aptal',
+      te: 'తెలివితక్కువ'
     }
   },
   {
@@ -492,7 +529,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'fresh',
       de: 'frisch',
       es: 'fresco',
-      tr: 'taze'
+      tr: 'taze',
+      te: 'తాజా'
     }
   },
   {
@@ -505,7 +543,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'yellow',
       de: 'gelb',
       es: 'amarillo',
-      tr: 'sarı'
+      tr: 'sarı',
+      te: 'పసుపు'
     }
   },
   {
@@ -518,7 +557,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'divorced',
       de: 'geschieden',
       es: 'divorciado',
-      tr: 'boşanmış'
+      tr: 'boşanmış',
+      te: 'విడాకులు తీసుకున్న'
     }
   },
   {
@@ -531,7 +571,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'gray',
       de: 'grau',
       es: 'gris',
-      tr: 'gri'
+      tr: 'gri',
+      te: 'బూడిద'
     }
   },
   {
@@ -544,7 +585,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'green',
       de: 'grün',
       es: 'verde',
-      tr: 'yeşil'
+      tr: 'yeşil',
+      te: 'ఆకుపచ్చ'
     }
   },
   {
@@ -557,7 +599,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'interesting',
       de: 'interessant',
       es: 'interesante',
-      tr: 'ilginç'
+      tr: 'ilginç',
+      te: 'ఆసక్తికరమైన'
     }
   },
   {
@@ -570,7 +613,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'delicious',
       de: 'lecker',
       es: 'delicioso',
-      tr: 'lezzetli'
+      tr: 'lezzetli',
+      te: 'రుచికరమైన'
     }
   },
   {
@@ -583,7 +627,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'purple',
       de: 'lila',
       es: 'morado',
-      tr: 'mor'
+      tr: 'mor',
+      te: 'ఊదా'
     }
   },
   {
@@ -596,7 +641,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'funny',
       de: 'lustig',
       es: 'divertido',
-      tr: 'komik'
+      tr: 'komik',
+      te: 'ఫన్నీ'
     }
   },
   {
@@ -609,7 +655,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'nice',
       de: 'nett',
       es: 'amable',
-      tr: 'nazik'
+      tr: 'nazik',
+      te: 'దయగల'
     }
   },
   {
@@ -622,7 +669,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'correct',
       de: 'richtig',
       es: 'correcto',
-      tr: 'doğru'
+      tr: 'doğru',
+      te: 'సరైన'
     }
   },
   {
@@ -635,7 +683,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'pink',
       de: 'rosa',
       es: 'rosa',
-      tr: 'pembe'
+      tr: 'pembe',
+      te: 'గులాబీ'
     }
   },
   {
@@ -648,7 +697,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'red',
       de: 'rot',
       es: 'rojo',
-      tr: 'kırmızı'
+      tr: 'kırmızı',
+      te: 'ఎరుపు'
     }
   },
   {
@@ -661,7 +711,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'black',
       de: 'schwarz',
       es: 'negro',
-      tr: 'siyah'
+      tr: 'siyah',
+      te: 'నలుపు'
     }
   },
   {
@@ -674,7 +725,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'late',
       de: 'spät',
       es: 'tarde',
-      tr: 'geç'
+      tr: 'geç',
+      te: 'ఆలస్యం'
     }
   },
   {
@@ -687,7 +739,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'super',
       de: 'super',
       es: 'súper',
-      tr: 'süper'
+      tr: 'süper',
+      te: 'సూపర్'
     }
   },
   {
@@ -700,7 +753,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'vegan',
       de: 'vegan',
       es: 'vegano',
-      tr: 'vegan'
+      tr: 'vegan',
+      te: 'వేగన్'
     }
   },
   {
@@ -713,7 +767,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'vegetarian',
       de: 'vegetarisch',
       es: 'vegetariano',
-      tr: 'vejetaryen'
+      tr: 'vejetaryen',
+      te: 'శాకాహార'
     }
   },
   {
@@ -726,7 +781,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'married',
       de: 'verheiratet',
       es: 'casado',
-      tr: 'evli'
+      tr: 'evli',
+      te: 'వివాహితుడు'
     }
   },
   {
@@ -739,7 +795,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'widowed',
       de: 'verwitwet',
       es: 'viudo',
-      tr: 'dul'
+      tr: 'dul',
+      te: 'వితంతువు'
     }
   },
   {
@@ -752,7 +809,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'warm',
       de: 'warm',
       es: 'cálido',
-      tr: 'ılık'
+      tr: 'ılık',
+      te: 'వెచ్చని'
     }
   },
   {
@@ -765,7 +823,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'white',
       de: 'weiß',
       es: 'blanco',
-      tr: 'beyaz'
+      tr: 'beyaz',
+      te: 'తెలుపు'
     }
   },
   {
@@ -778,7 +837,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'important',
       de: 'wichtig',
       es: 'importante',
-      tr: 'önemli'
+      tr: 'önemli',
+      te: 'ముఖ్యమైన'
     }
   },
   {
@@ -791,7 +851,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'professional / work-related',
       de: 'beruflich',
       es: 'profesional / laboral',
-      tr: 'mesleki / işle ilgili'
+      tr: 'mesleki / işle ilgili',
+      te: 'వృత్తిపరమైన'
     }
   },
   {
@@ -804,7 +865,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'easy / simple',
       de: 'einfach',
       es: 'fácil / simple',
-      tr: 'kolay / basit'
+      tr: 'kolay / basit',
+      te: 'సులభమైన'
     }
   },
   {
@@ -817,7 +879,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'born',
       de: 'geboren',
       es: 'nacido',
-      tr: 'doğmuş'
+      tr: 'doğmuş',
+      te: 'జన్మించిన'
     }
   },
   {
@@ -830,7 +893,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'warm / cordial',
       de: 'herzlich',
       es: 'cordial / afectuoso',
-      tr: 'samimi / içten'
+      tr: 'samimi / içten',
+      te: 'హృదయపూర్వక'
     }
   },
   {
@@ -843,7 +907,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'strange / funny',
       de: 'komisch',
       es: 'raro / gracioso',
-      tr: 'garip / komik'
+      tr: 'garip / komik',
+      te: 'వింతైన'
     }
   },
   {
@@ -856,7 +921,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'free of charge',
       de: 'kostenlos',
       es: 'gratis',
-      tr: 'ücretsiz'
+      tr: 'ücretsiz',
+      te: 'ఉచిత'
     }
   },
   {
@@ -869,7 +935,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'boring',
       de: 'langweilig',
       es: 'aburrido',
-      tr: 'sıkıcı'
+      tr: 'sıkıcı',
+      te: 'విసుగు పుట్టించే'
     }
   },
   {
@@ -882,7 +949,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'necessary',
       de: 'nötig',
       es: 'necesario',
-      tr: 'gerekli'
+      tr: 'gerekli',
+      te: 'అవసరమైన'
     }
   },
   {
@@ -895,7 +963,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'practical',
       de: 'praktisch',
       es: 'práctico',
-      tr: 'pratik'
+      tr: 'pratik',
+      te: 'ఆచరణాత్మక'
     }
   },
   {
@@ -908,7 +977,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'private',
       de: 'privat',
       es: 'privado',
-      tr: 'özel'
+      tr: 'özel',
+      te: 'వ్యక్తిగత'
     }
   },
   {
@@ -921,7 +991,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'welcome',
       de: 'willkommen',
       es: 'bienvenido',
-      tr: 'hoş geldin / memnuniyetle karşılanan'
+      tr: 'hoş geldin / memnuniyetle karşılanan',
+      te: 'స్వాగతం'
     }
   },
   {
@@ -934,7 +1005,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'wonderful',
       de: 'wunderbar',
       es: 'maravilloso',
-      tr: 'harika'
+      tr: 'harika',
+      te: 'అద్భుతమైన'
     }
   },
   {
@@ -947,7 +1019,8 @@ export const adjectives: GermanAdjective[] = [
       en: 'satisfied',
       de: 'zufrieden',
       es: 'satisfecho',
-      tr: 'memnun'
+      tr: 'memnun',
+      te: 'సంతృప్తి చెందిన'
     }
   }
 ]

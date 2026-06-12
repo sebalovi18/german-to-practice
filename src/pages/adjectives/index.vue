@@ -4,7 +4,7 @@ import { adjectives } from '@/data/adjectives'
 import { computed, ref } from 'vue'
 import { useI18n } from 'vue-i18n'
 
-import type { GermanAdjective } from '@/interfaces/GermanAdjetives'
+import type { GermanAdjective } from '@/interfaces/GermanAdjectives'
 
 const {
   t

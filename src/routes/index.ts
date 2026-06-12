@@ -9,13 +9,13 @@ import NounsList from '@/pages/nouns/index.vue'
 import VerbsList from '@/pages/verbs/index.vue'
 
 // ADJECTIVES
-import AdjetivesList from '@/pages/adjetives/index.vue'
+import AdjectivesList from '@/pages/adjectives/index.vue'
 
 // PRACTICE
 import ArticlesPractice from '@/pages/practice/articles.vue'
 import PracticeIndex from '@/pages/practice/index.vue'
 import NounsMeaningsPractice from '@/pages/practice/nouns-meanings.vue'
-import AdjetivesMeaningsPractice from '@/pages/practice/adjetives-meanings.vue'
+import AdjectivesMeaningsPractice from '@/pages/practice/adjectives-meanings.vue'
 import VerbsMeaningsPractice from '@/pages/practice/verbs-meanings.vue'
 import NotFound from '@/pages/not-found.vue'
 
@@ -43,11 +43,11 @@ export default [
     path: '/verbs'
   },
   {
-    component: AdjetivesList,
+    component: AdjectivesList,
     meta: {
       titleKey: 'pageTitles.adjectives'
     },
-    path: '/adjetives'
+    path: '/adjectives'
   },
   {
     component: Dashboard,
@@ -84,11 +84,11 @@ export default [
         path: 'nouns-meanings'
       },
       {
-        component: AdjetivesMeaningsPractice,
+        component: AdjectivesMeaningsPractice,
         meta: {
           titleKey: 'pageTitles.adjectivesMeaningsPractice'
         },
-        path: 'adjetives-meanings'
+        path: 'adjectives-meanings'
       },
       {
         component: VerbsMeaningsPractice,

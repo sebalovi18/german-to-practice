@@ -29,12 +29,12 @@ Each entry includes German forms and translations for `en`, `de`, `es`, and `tr`
 - `/` opens the home page.
 - `/nouns` shows the searchable noun list.
 - `/verbs` shows the searchable verb list.
-- `/adjetives` shows the searchable adjective list.
+- `/adjectives` shows the searchable adjective list.
 - `/practice` opens the practice menu.
 - `/practice/articles` starts article practice.
 - `/practice/nouns-meanings` starts noun meaning practice.
 - `/practice/verbs-meanings` starts verb meaning practice.
-- `/practice/adjetives-meanings` starts adjective meaning practice.
+- `/practice/adjectives-meanings` starts adjective meaning practice.
 
 ## 🛠️ Project Setup
 

@@ -20,7 +20,7 @@ const leftColumn = computed<ColumnItem[]>(() => [
   },
   {
     label: t('practice.labels.adjectivesMeanings'),
-    path: '/practice/adjetives-meanings'
+    path: '/practice/adjectives-meanings'
   }
 ])
 

@@ -6,9 +6,9 @@ import { useAudios } from '@/composables/useAudios'
 
 import { useAdjectivesStore } from '@/store/useAdjectivesStore'
 
-import BaseAdjetiveExercise from '@/components/BaseAdjetiveExercise.vue'
+import BaseAdjectiveExercise from '@/components/BaseAdjectiveExercise.vue'
 
-import type { GermanAdjective } from '@/interfaces/GermanAdjetives'
+import type { GermanAdjective } from '@/interfaces/GermanAdjectives'
 
 const adjectivesStore = useAdjectivesStore()
 
@@ -66,7 +66,7 @@ const handleNext = () => {
     v-auto-animate
     class="space-y-4"
   >
-    <BaseAdjetiveExercise
+    <BaseAdjectiveExercise
       :key="answerAdjective.id"
       :answer="answerAdjective"
       :options="randomAdjectives"

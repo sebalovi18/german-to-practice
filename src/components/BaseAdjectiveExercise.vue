@@ -6,7 +6,7 @@ import { useI18n } from 'vue-i18n'
 import BaseButton from '@/components/BaseButton.vue'
 import BaseOptionCard from '@/components/BaseOptionCard.vue'
 
-import type { GermanAdjective } from '@/interfaces/GermanAdjetives'
+import type { GermanAdjective } from '@/interfaces/GermanAdjectives'
 
 interface Props {
   answer: GermanAdjective

@@ -9,7 +9,7 @@ import { useRouter } from 'vue-router'
 
 import { ChartNoAxesColumn, Dumbbell, List } from '@lucide/vue'
 
-import type { GermanAdjective } from '@/interfaces/GermanAdjetives'
+import type { GermanAdjective } from '@/interfaces/GermanAdjectives'
 import type { GermanNoun } from '@/interfaces/GermanNoun'
 import type { GermanVerb } from '@/interfaces/GermanVerbs'
 
@@ -32,7 +32,7 @@ const columns = computed(() => [
   {
     label: t('home.navigation.adjectives'),
     icon: List,
-    path: '/adjetives'
+    path: '/adjectives'
   },
   {
     label: t('home.navigation.nouns'),
