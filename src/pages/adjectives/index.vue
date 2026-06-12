@@ -4,7 +4,7 @@ import { adjectives } from '@/data/adjectives'
 import { computed, ref } from 'vue'
 import { useI18n } from 'vue-i18n'
 
-import type { GermanAdjective } from '@/interfaces/GermanAdjetives'
+import type { GermanAdjective } from '@/interfaces/GermanAdjectives'
 
 const {
   t
@@ -43,6 +43,10 @@ const ths = computed<Th[]>(() => [
   },
   {
     label: '🇹🇷',
+    class: thClass
+  },
+  {
+    label: '🇮🇳',
     class: thClass
   }
 ])
@@ -84,6 +88,11 @@ const tds: Td[] = [
     label: '🇹🇷',
     class: tdClass,
     value: adjective => adjective.translations.tr
+  },
+  {
+    label: '🇮🇳',
+    class: tdClass,
+    value: adjective => adjective.translations.te
   }
 ]
 
@@ -105,6 +114,7 @@ const filteredAdjectives = computed(() => {
     || adjective.translations.de.toLowerCase().includes(sanitizedFilterSearch)
     || adjective.translations.es.toLowerCase().includes(sanitizedFilterSearch)
     || adjective.translations.tr.toLowerCase().includes(sanitizedFilterSearch)
+    || adjective.translations.te.toLowerCase().includes(sanitizedFilterSearch)
   )
 })
 </script>

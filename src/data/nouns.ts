@@ -12,13 +12,15 @@ export const nouns: GermanNoun[] = [
       en: 'dinner',
       de: 'Abendessen',
       es: 'cena',
-      tr: 'akşam yemeği'
+      tr: 'akşam yemeği',
+      te: 'విందు'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food']
@@ -34,13 +36,15 @@ export const nouns: GermanNoun[] = [
       en: 'dinners',
       de: 'Abendessen',
       es: 'cenas',
-      tr: 'akşam yemekleri'
+      tr: 'akşam yemekleri',
+      te: 'విందు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food']
@@ -56,13 +60,15 @@ export const nouns: GermanNoun[] = [
       en: 'age',
       de: 'Alter',
       es: 'edad',
-      tr: 'yaş'
+      tr: 'yaş',
+      te: 'వయస్సు'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['abstract', 'personal-info', 'time']
@@ -78,13 +84,15 @@ export const nouns: GermanNoun[] = [
       en: 'ages',
       de: 'Alter',
       es: 'edades',
-      tr: 'yaşlar'
+      tr: 'yaşlar',
+      te: 'వయస్సు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['abstract', 'personal-info', 'time']
@@ -100,13 +108,15 @@ export const nouns: GermanNoun[] = [
       en: 'car',
       de: 'Auto',
       es: 'coche',
-      tr: 'araba'
+      tr: 'araba',
+      te: 'కారు'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['transportation']
@@ -122,13 +132,15 @@ export const nouns: GermanNoun[] = [
       en: 'cars',
       de: 'Autos',
       es: 'coches',
-      tr: 'arabalar'
+      tr: 'arabalar',
+      te: 'కారులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['transportation']
@@ -144,13 +156,15 @@ export const nouns: GermanNoun[] = [
       en: 'beer',
       de: 'Bier',
       es: 'cerveza',
-      tr: 'bira'
+      tr: 'bira',
+      te: 'బీరు'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['drink']
@@ -166,13 +180,15 @@ export const nouns: GermanNoun[] = [
       en: 'beers',
       de: 'Biere',
       es: 'cervezas',
-      tr: 'biralar'
+      tr: 'biralar',
+      te: 'బీరులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['drink']
@@ -188,13 +204,15 @@ export const nouns: GermanNoun[] = [
       en: 'bread',
       de: 'Brot',
       es: 'pan',
-      tr: 'ekmek'
+      tr: 'ekmek',
+      te: 'రొట్టె'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food']
@@ -210,13 +228,15 @@ export const nouns: GermanNoun[] = [
       en: 'breads',
       de: 'Brote',
       es: 'panes',
-      tr: 'ekmekler'
+      tr: 'ekmekler',
+      te: 'రొట్టెలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food']
@@ -232,13 +252,15 @@ export const nouns: GermanNoun[] = [
       en: 'bread roll',
       de: 'Brötchen',
       es: 'panecillo',
-      tr: 'küçük ekmek'
+      tr: 'küçük ekmek',
+      te: 'బన్'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food']
@@ -254,13 +276,15 @@ export const nouns: GermanNoun[] = [
       en: 'bread rolls',
       de: 'Brötchen',
       es: 'panecillos',
-      tr: 'küçük ekmekler'
+      tr: 'küçük ekmekler',
+      te: 'బన్'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food']
@@ -276,13 +300,15 @@ export const nouns: GermanNoun[] = [
       en: 'book',
       de: 'Buch',
       es: 'libro',
-      tr: 'kitap'
+      tr: 'kitap',
+      te: 'పుస్తకం'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['documents', 'education']
@@ -298,13 +324,15 @@ export const nouns: GermanNoun[] = [
       en: 'books',
       de: 'Bücher',
       es: 'libros',
-      tr: 'kitaplar'
+      tr: 'kitaplar',
+      te: 'పుస్తకాలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['documents', 'education']
@@ -320,13 +348,15 @@ export const nouns: GermanNoun[] = [
       en: 'croissant',
       de: 'Croissant',
       es: 'cruasán',
-      tr: 'kruvasan'
+      tr: 'kruvasan',
+      te: 'క్రోసెంట్'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food']
@@ -342,13 +372,15 @@ export const nouns: GermanNoun[] = [
       en: 'croissants',
       de: 'Croissants',
       es: 'cruasanes',
-      tr: 'kruvasanlar'
+      tr: 'kruvasanlar',
+      te: 'క్రోసెంట్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food']
@@ -364,13 +396,15 @@ export const nouns: GermanNoun[] = [
       en: 'German',
       de: 'Deutsch',
       es: 'alemán',
-      tr: 'Almanca'
+      tr: 'Almanca',
+      te: 'జర్మన్'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['education', 'language']
@@ -386,13 +420,15 @@ export const nouns: GermanNoun[] = [
       en: 'German',
       de: 'Deutsch',
       es: 'alemán',
-      tr: 'Almanca'
+      tr: 'Almanca',
+      te: 'జర్మన్'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['education', 'language']
@@ -408,13 +444,15 @@ export const nouns: GermanNoun[] = [
       en: 'egg',
       de: 'Ei',
       es: 'huevo',
-      tr: 'yumurta'
+      tr: 'yumurta',
+      te: 'గుడ్డు'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food']
@@ -430,13 +468,15 @@ export const nouns: GermanNoun[] = [
       en: 'eggs',
       de: 'Eier',
       es: 'huevos',
-      tr: 'yumurtalar'
+      tr: 'yumurtalar',
+      te: 'గుడ్డులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food']
@@ -452,13 +492,15 @@ export const nouns: GermanNoun[] = [
       en: 'ice cream',
       de: 'Eis',
       es: 'helado',
-      tr: 'dondurma'
+      tr: 'dondurma',
+      te: 'ఐస్ క్రీమ్'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food']
@@ -474,13 +516,15 @@ export const nouns: GermanNoun[] = [
       en: 'ice creams',
       de: 'Eis',
       es: 'helados',
-      tr: 'dondurmalar'
+      tr: 'dondurmalar',
+      te: 'ఐస్ క్రీమ్'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food']
@@ -496,13 +540,15 @@ export const nouns: GermanNoun[] = [
       en: 'English',
       de: 'Englisch',
       es: 'inglés',
-      tr: 'İngilizce'
+      tr: 'İngilizce',
+      te: 'ఇంగ్లీష్'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['education', 'language']
@@ -518,13 +564,15 @@ export const nouns: GermanNoun[] = [
       en: 'English',
       de: 'Englisch',
       es: 'inglés',
-      tr: 'İngilizce'
+      tr: 'İngilizce',
+      te: 'ఇంగ్లీష్'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['education', 'language']
@@ -540,13 +588,15 @@ export const nouns: GermanNoun[] = [
       en: 'food',
       de: 'Essen',
       es: 'comida',
-      tr: 'yemek'
+      tr: 'yemek',
+      te: 'ఆహారం'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food']
@@ -562,13 +612,15 @@ export const nouns: GermanNoun[] = [
       en: 'foods',
       de: 'Essen',
       es: 'comidas',
-      tr: 'yemekler'
+      tr: 'yemekler',
+      te: 'ఆహారం'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food']
@@ -584,13 +636,15 @@ export const nouns: GermanNoun[] = [
       en: 'bicycle',
       de: 'Fahrrad',
       es: 'bicicleta',
-      tr: 'bisiklet'
+      tr: 'bisiklet',
+      te: 'సైకిల్'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['transportation']
@@ -606,13 +660,15 @@ export const nouns: GermanNoun[] = [
       en: 'bicycles',
       de: 'Fahrräder',
       es: 'bicicletas',
-      tr: 'bisikletler'
+      tr: 'bisikletler',
+      te: 'సైకిల్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['transportation']
@@ -628,13 +684,15 @@ export const nouns: GermanNoun[] = [
       en: 'lighter',
       de: 'Feuerzeug',
       es: 'encendedor',
-      tr: 'çakmak'
+      tr: 'çakmak',
+      te: 'లైటర్'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household']
@@ -650,13 +708,15 @@ export const nouns: GermanNoun[] = [
       en: 'lighters',
       de: 'Feuerzeuge',
       es: 'encendedores',
-      tr: 'çakmaklar'
+      tr: 'çakmaklar',
+      te: 'లైటర్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household']
@@ -672,13 +732,15 @@ export const nouns: GermanNoun[] = [
       en: 'meat',
       de: 'Fleisch',
       es: 'carne',
-      tr: 'et'
+      tr: 'et',
+      te: 'మాంసం'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food']
@@ -694,13 +756,15 @@ export const nouns: GermanNoun[] = [
       en: 'meats',
       de: 'Fleisch',
       es: 'carnes',
-      tr: 'etler'
+      tr: 'etler',
+      te: 'మాంసం'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food']
@@ -716,13 +780,15 @@ export const nouns: GermanNoun[] = [
       en: 'photo',
       de: 'Foto',
       es: 'foto',
-      tr: 'fotoğraf'
+      tr: 'fotoğraf',
+      te: 'ఫోటో'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['arts']
@@ -738,13 +804,15 @@ export const nouns: GermanNoun[] = [
       en: 'photos',
       de: 'Fotos',
       es: 'fotos',
-      tr: 'fotoğraflar'
+      tr: 'fotoğraflar',
+      te: 'ఫోటోలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['arts']
@@ -760,13 +828,15 @@ export const nouns: GermanNoun[] = [
       en: 'French',
       de: 'Französisch',
       es: 'francés',
-      tr: 'Fransızca'
+      tr: 'Fransızca',
+      te: 'ఫ్రెంచ్'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['education', 'language']
@@ -782,13 +852,15 @@ export const nouns: GermanNoun[] = [
       en: 'French',
       de: 'Französisch',
       es: 'francés',
-      tr: 'Fransızca'
+      tr: 'Fransızca',
+      te: 'ఫ్రెంచ్'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['education', 'language']
@@ -804,13 +876,15 @@ export const nouns: GermanNoun[] = [
       en: 'breakfast',
       de: 'Frühstück',
       es: 'desayuno',
-      tr: 'kahvaltı'
+      tr: 'kahvaltı',
+      te: 'అల్పాహారం'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food']
@@ -826,13 +900,15 @@ export const nouns: GermanNoun[] = [
       en: 'breakfasts',
       de: 'Frühstücke',
       es: 'desayunos',
-      tr: 'kahvaltılar'
+      tr: 'kahvaltılar',
+      te: 'అల్పాహారంలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food']
@@ -848,13 +924,15 @@ export const nouns: GermanNoun[] = [
       en: 'vegetables',
       de: 'Gemüse',
       es: 'verdura',
-      tr: 'sebze'
+      tr: 'sebze',
+      te: 'కూరగాయలు'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food', 'nature']
@@ -870,13 +948,15 @@ export const nouns: GermanNoun[] = [
       en: 'vegetables',
       de: 'Gemüse',
       es: 'verduras',
-      tr: 'sebzeler'
+      tr: 'sebzeler',
+      te: 'కూరగాయలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food', 'nature']
@@ -892,13 +972,15 @@ export const nouns: GermanNoun[] = [
       en: 'drink',
       de: 'Getränk',
       es: 'bebida',
-      tr: 'içecek'
+      tr: 'içecek',
+      te: 'పానీయం'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['drink']
@@ -914,13 +996,15 @@ export const nouns: GermanNoun[] = [
       en: 'drinks',
       de: 'Getränke',
       es: 'bebidas',
-      tr: 'içecekler'
+      tr: 'içecekler',
+      te: 'పానీయంలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['drink']
@@ -936,13 +1020,15 @@ export const nouns: GermanNoun[] = [
       en: 'degree',
       de: 'Grad',
       es: 'grado',
-      tr: 'derece'
+      tr: 'derece',
+      te: 'డిగ్రీ'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['measurements', 'numbers', 'weather']
@@ -958,13 +1044,15 @@ export const nouns: GermanNoun[] = [
       en: 'degrees',
       de: 'Grade',
       es: 'grados',
-      tr: 'dereceler'
+      tr: 'dereceler',
+      te: 'డిగ్రీలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['measurements', 'numbers', 'weather']
@@ -980,13 +1068,15 @@ export const nouns: GermanNoun[] = [
       en: 'gram',
       de: 'Gramm',
       es: 'gramo',
-      tr: 'gram'
+      tr: 'gram',
+      te: 'గ్రాము'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['measurements']
@@ -1002,13 +1092,15 @@ export const nouns: GermanNoun[] = [
       en: 'grams',
       de: 'Gramm',
       es: 'gramos',
-      tr: 'gramlar'
+      tr: 'gramlar',
+      te: 'గ్రాము'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['measurements']
@@ -1024,13 +1116,15 @@ export const nouns: GermanNoun[] = [
       en: 'mobile phone',
       de: 'Handy',
       es: 'móvil',
-      tr: 'cep telefonu'
+      tr: 'cep telefonu',
+      te: 'మొబైల్ ఫోన్'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['communication', 'household', 'technology']
@@ -1046,13 +1140,15 @@ export const nouns: GermanNoun[] = [
       en: 'mobile phones',
       de: 'Handys',
       es: 'móviles',
-      tr: 'cep telefonları'
+      tr: 'cep telefonları',
+      te: 'మొబైల్ ఫోన్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['communication', 'household', 'technology']
@@ -1068,13 +1164,15 @@ export const nouns: GermanNoun[] = [
       en: 'notebook',
       de: 'Heft',
       es: 'cuaderno',
-      tr: 'defter'
+      tr: 'defter',
+      te: 'నోట్‌బుక్'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['documents', 'education']
@@ -1090,13 +1188,15 @@ export const nouns: GermanNoun[] = [
       en: 'notebooks',
       de: 'Hefte',
       es: 'cuadernos',
-      tr: 'defterler'
+      tr: 'defterler',
+      te: 'నోట్‌బుక్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['documents', 'education']
@@ -1112,13 +1212,15 @@ export const nouns: GermanNoun[] = [
       en: 'country of origin',
       de: 'Herkunftsland',
       es: 'país de origen',
-      tr: 'menşe ülke'
+      tr: 'menşe ülke',
+      te: 'స్వదేశం'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['locations', 'personal-info', 'travel']
@@ -1134,13 +1236,15 @@ export const nouns: GermanNoun[] = [
       en: 'countries of origin',
       de: 'Herkunftsländer',
       es: 'países de origen',
-      tr: 'menşe ülkeler'
+      tr: 'menşe ülkeler',
+      te: 'స్వదేశంలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['locations', 'personal-info', 'travel']
@@ -1156,13 +1260,15 @@ export const nouns: GermanNoun[] = [
       en: 'hobby',
       de: 'Hobby',
       es: 'pasatiempo',
-      tr: 'hobi'
+      tr: 'hobi',
+      te: 'అభిరుచి'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['leisure']
@@ -1178,13 +1284,15 @@ export const nouns: GermanNoun[] = [
       en: 'hobbies',
       de: 'Hobbys',
       es: 'pasatiempos',
-      tr: 'hobiler'
+      tr: 'hobiler',
+      te: 'అభిరుచిలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['leisure']
@@ -1200,13 +1308,15 @@ export const nouns: GermanNoun[] = [
       en: 'internet',
       de: 'Internet',
       es: 'internet',
-      tr: 'internet'
+      tr: 'internet',
+      te: 'ఇంటర్నెట్'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['technology']
@@ -1222,13 +1332,15 @@ export const nouns: GermanNoun[] = [
       en: 'internets',
       de: 'Internet',
       es: 'internetes',
-      tr: 'internetler'
+      tr: 'internetler',
+      te: 'ఇంటర్నెట్'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['technology']
@@ -1244,13 +1356,15 @@ export const nouns: GermanNoun[] = [
       en: 'year',
       de: 'Jahr',
       es: 'año',
-      tr: 'yıl'
+      tr: 'yıl',
+      te: 'సంవత్సరం'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['dates', 'time']
@@ -1266,13 +1380,15 @@ export const nouns: GermanNoun[] = [
       en: 'years',
       de: 'Jahre',
       es: 'años',
-      tr: 'yıllar'
+      tr: 'yıllar',
+      te: 'సంవత్సరంలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['dates', 'time']
@@ -1288,13 +1404,15 @@ export const nouns: GermanNoun[] = [
       en: 'kilo',
       de: 'Kilo',
       es: 'kilo',
-      tr: 'kilo'
+      tr: 'kilo',
+      te: 'కిలో'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['measurements']
@@ -1310,13 +1428,15 @@ export const nouns: GermanNoun[] = [
       en: 'kilos',
       de: 'Kilos',
       es: 'kilos',
-      tr: 'kilolar'
+      tr: 'kilolar',
+      te: 'కిలోలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['measurements']
@@ -1332,13 +1452,15 @@ export const nouns: GermanNoun[] = [
       en: 'kilogram',
       de: 'Kilogramm',
       es: 'kilogramo',
-      tr: 'kilogram'
+      tr: 'kilogram',
+      te: 'కిలోగ్రాము'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['measurements']
@@ -1354,13 +1476,15 @@ export const nouns: GermanNoun[] = [
       en: 'kilograms',
       de: 'Kilogramm',
       es: 'kilogramos',
-      tr: 'kilogramlar'
+      tr: 'kilogramlar',
+      te: 'కిలోగ్రాము'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['measurements']
@@ -1376,13 +1500,15 @@ export const nouns: GermanNoun[] = [
       en: 'child',
       de: 'Kind',
       es: 'niño',
-      tr: 'çocuk'
+      tr: 'çocuk',
+      te: 'బిడ్డ'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['education', 'family', 'people']
@@ -1398,13 +1524,15 @@ export const nouns: GermanNoun[] = [
       en: 'children',
       de: 'Kinder',
       es: 'niños',
-      tr: 'çocuklar'
+      tr: 'çocuklar',
+      te: 'పిల్లలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['education', 'family', 'people']
@@ -1420,13 +1548,15 @@ export const nouns: GermanNoun[] = [
       en: 'piano',
       de: 'Klavier',
       es: 'piano',
-      tr: 'piyano'
+      tr: 'piyano',
+      te: 'పియానో'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['arts', 'leisure', 'music']
@@ -1442,13 +1572,15 @@ export const nouns: GermanNoun[] = [
       en: 'pianos',
       de: 'Klaviere',
       es: 'pianos',
-      tr: 'piyanolar'
+      tr: 'piyanolar',
+      te: 'పియానోలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['arts', 'leisure', 'music']
@@ -1464,13 +1596,15 @@ export const nouns: GermanNoun[] = [
       en: 'hospital',
       de: 'Krankenhaus',
       es: 'hospital',
-      tr: 'hastane'
+      tr: 'hastane',
+      te: 'ఆసుపత్రి'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['health', 'locations', 'work']
@@ -1486,13 +1620,15 @@ export const nouns: GermanNoun[] = [
       en: 'hospitals',
       de: 'Krankenhäuser',
       es: 'hospitales',
-      tr: 'hastaneler'
+      tr: 'hastaneler',
+      te: 'ఆసుపత్రిలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['health', 'locations', 'work']
@@ -1508,13 +1644,15 @@ export const nouns: GermanNoun[] = [
       en: 'groceries',
       de: 'Lebensmittel',
       es: 'alimentos',
-      tr: 'gıda maddeleri'
+      tr: 'gıda maddeleri',
+      te: 'కిరాణా సామగ్రి'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food', 'shopping']
@@ -1530,13 +1668,15 @@ export const nouns: GermanNoun[] = [
       en: 'groceries',
       de: 'Lebensmittel',
       es: 'alimentos',
-      tr: 'gıda maddeleri'
+      tr: 'gıda maddeleri',
+      te: 'కిరాణా సామగ్రి'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food', 'shopping']
@@ -1552,13 +1692,15 @@ export const nouns: GermanNoun[] = [
       en: 'favorite food',
       de: 'Lieblingsessen',
       es: 'comida favorita',
-      tr: 'en sevilen yemek'
+      tr: 'en sevilen yemek',
+      te: 'ఇష్టమైన ఆహారం'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food']
@@ -1574,13 +1716,15 @@ export const nouns: GermanNoun[] = [
       en: 'favorite foods',
       de: 'Lieblingsessen',
       es: 'comida favoritas',
-      tr: 'en sevilen yemekler'
+      tr: 'en sevilen yemekler',
+      te: 'ఇష్టమైన ఆహారం'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food']
@@ -1596,13 +1740,15 @@ export const nouns: GermanNoun[] = [
       en: 'ruler',
       de: 'Lineal',
       es: 'regla',
-      tr: 'cetvel'
+      tr: 'cetvel',
+      te: 'స్కేలు'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['education', 'household']
@@ -1618,13 +1764,15 @@ export const nouns: GermanNoun[] = [
       en: 'rulers',
       de: 'Lineale',
       es: 'reglas',
-      tr: 'cetveller'
+      tr: 'cetveller',
+      te: 'స్కేలులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['education', 'household']
@@ -1640,13 +1788,15 @@ export const nouns: GermanNoun[] = [
       en: 'lunch',
       de: 'Mittagessen',
       es: 'almuerzo',
-      tr: 'öğle yemeği'
+      tr: 'öğle yemeği',
+      te: 'మధ్యాహ్న భోజనం'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food']
@@ -1662,13 +1812,15 @@ export const nouns: GermanNoun[] = [
       en: 'lunches',
       de: 'Mittagessen',
       es: 'almuerzos',
-      tr: 'öğle yemekleri'
+      tr: 'öğle yemekleri',
+      te: 'మధ్యాహ్న భోజనం'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food']
@@ -1684,13 +1836,15 @@ export const nouns: GermanNoun[] = [
       en: 'muesli',
       de: 'Müsli',
       es: 'muesli',
-      tr: 'müsli'
+      tr: 'müsli',
+      te: 'మ్యూస్లీ'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food']
@@ -1706,13 +1860,15 @@ export const nouns: GermanNoun[] = [
       en: 'mueslis',
       de: 'Müslis',
       es: 'mueslis',
-      tr: 'müsliler'
+      tr: 'müsliler',
+      te: 'మ్యూస్లీలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food']
@@ -1728,13 +1884,15 @@ export const nouns: GermanNoun[] = [
       en: 'fruit',
       de: 'Obst',
       es: 'fruta',
-      tr: 'meyve'
+      tr: 'meyve',
+      te: 'పండు'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food', 'nature']
@@ -1750,13 +1908,15 @@ export const nouns: GermanNoun[] = [
       en: 'fruits',
       de: 'Obst',
       es: 'frutas',
-      tr: 'meyveler'
+      tr: 'meyveler',
+      te: 'పండు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food', 'nature']
@@ -1772,13 +1932,15 @@ export const nouns: GermanNoun[] = [
       en: 'paper',
       de: 'Papier',
       es: 'papel',
-      tr: 'kağıt'
+      tr: 'kağıt',
+      te: 'కాగితం'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['documents', 'education', 'household']
@@ -1794,13 +1956,15 @@ export const nouns: GermanNoun[] = [
       en: 'papers',
       de: 'Papiere',
       es: 'papeles',
-      tr: 'kağıtlar'
+      tr: 'kağıtlar',
+      te: 'కాగితంలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['documents', 'education', 'household']
@@ -1816,13 +1980,15 @@ export const nouns: GermanNoun[] = [
       en: 'picnic',
       de: 'Picknick',
       es: 'picnic',
-      tr: 'piknik'
+      tr: 'piknik',
+      te: 'పిక్నిక్'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food', 'leisure']
@@ -1838,13 +2004,15 @@ export const nouns: GermanNoun[] = [
       en: 'picnics',
       de: 'Picknicks',
       es: 'picnics',
-      tr: 'piknikler'
+      tr: 'piknikler',
+      te: 'పిక్నిక్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food', 'leisure']
@@ -1860,13 +2028,15 @@ export const nouns: GermanNoun[] = [
       en: 'wheel / bike',
       de: 'Rad',
       es: 'rueda / bici',
-      tr: 'tekerlek / bisiklet'
+      tr: 'tekerlek / bisiklet',
+      te: 'చక్రం'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['transportation']
@@ -1882,13 +2052,15 @@ export const nouns: GermanNoun[] = [
       en: 'wheels / bikes',
       de: 'Räder',
       es: 'ruedas / bicis',
-      tr: 'tekerlekler / bisikletler'
+      tr: 'tekerlekler / bisikletler',
+      te: 'చక్రంలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['transportation']
@@ -1904,13 +2076,15 @@ export const nouns: GermanNoun[] = [
       en: 'restaurant',
       de: 'Restaurant',
       es: 'restaurante',
-      tr: 'restoran'
+      tr: 'restoran',
+      te: 'రెస్టారెంట్'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food', 'locations', 'work']
@@ -1926,13 +2100,15 @@ export const nouns: GermanNoun[] = [
       en: 'restaurants',
       de: 'Restaurants',
       es: 'restaurantes',
-      tr: 'restoranlar'
+      tr: 'restoranlar',
+      te: 'రెస్టారెంట్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food', 'locations', 'work']
@@ -1948,13 +2124,15 @@ export const nouns: GermanNoun[] = [
       en: 'game',
       de: 'Spiel',
       es: 'juego',
-      tr: 'oyun'
+      tr: 'oyun',
+      te: 'ఆట'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['arts', 'leisure', 'sports']
@@ -1970,13 +2148,15 @@ export const nouns: GermanNoun[] = [
       en: 'games',
       de: 'Spiele',
       es: 'juegos',
-      tr: 'oyunlar'
+      tr: 'oyunlar',
+      te: 'ఆటలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['arts', 'leisure', 'sports']
@@ -1992,13 +2172,15 @@ export const nouns: GermanNoun[] = [
       en: 'taxi',
       de: 'Taxi',
       es: 'taxi',
-      tr: 'taksi'
+      tr: 'taksi',
+      te: 'టాక్సీ'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['transportation', 'travel']
@@ -2014,13 +2196,15 @@ export const nouns: GermanNoun[] = [
       en: 'taxis',
       de: 'Taxis',
       es: 'taxis',
-      tr: 'taksiler'
+      tr: 'taksiler',
+      te: 'టాక్సీలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['transportation', 'travel']
@@ -2036,13 +2220,15 @@ export const nouns: GermanNoun[] = [
       en: 'telephone',
       de: 'Telefon',
       es: 'teléfono',
-      tr: 'telefon'
+      tr: 'telefon',
+      te: 'టెలిఫోన్'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['communication', 'household', 'technology']
@@ -2058,13 +2244,15 @@ export const nouns: GermanNoun[] = [
       en: 'telephones',
       de: 'Telefone',
       es: 'teléfonos',
-      tr: 'telefonlar'
+      tr: 'telefonlar',
+      te: 'టెలిఫోన్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['communication', 'household', 'technology']
@@ -2080,13 +2268,15 @@ export const nouns: GermanNoun[] = [
       en: 'training',
       de: 'Training',
       es: 'entrenamiento',
-      tr: 'antrenman'
+      tr: 'antrenman',
+      te: 'శిక్షణ'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['leisure', 'sports']
@@ -2102,13 +2292,15 @@ export const nouns: GermanNoun[] = [
       en: 'trainings',
       de: 'Trainings',
       es: 'entrenamientos',
-      tr: 'antrenmanlar'
+      tr: 'antrenmanlar',
+      te: 'శిక్షణలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['leisure', 'sports']
@@ -2124,13 +2316,15 @@ export const nouns: GermanNoun[] = [
       en: 'video',
       de: 'Video',
       es: 'video',
-      tr: 'video'
+      tr: 'video',
+      te: 'వీడియో'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['arts', 'leisure', 'technology']
@@ -2146,13 +2340,15 @@ export const nouns: GermanNoun[] = [
       en: 'videos',
       de: 'Videos',
       es: 'videos',
-      tr: 'videolar'
+      tr: 'videolar',
+      te: 'వీడియోలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['arts', 'leisure', 'technology']
@@ -2168,13 +2364,15 @@ export const nouns: GermanNoun[] = [
       en: 'quarter',
       de: 'Viertel',
       es: 'cuarto',
-      tr: 'çeyrek'
+      tr: 'çeyrek',
+      te: 'పావు వంతు'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['measurements', 'numbers']
@@ -2190,13 +2388,15 @@ export const nouns: GermanNoun[] = [
       en: 'quarters',
       de: 'Viertel',
       es: 'cuartos',
-      tr: 'çeyrekler'
+      tr: 'çeyrekler',
+      te: 'పావు వంతు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['measurements', 'numbers']
@@ -2212,13 +2412,15 @@ export const nouns: GermanNoun[] = [
       en: 'water',
       de: 'Wasser',
       es: 'agua',
-      tr: 'su'
+      tr: 'su',
+      te: 'నీరు'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['drink', 'nature', 'weather']
@@ -2234,13 +2436,15 @@ export const nouns: GermanNoun[] = [
       en: 'waters',
       de: 'Wasser',
       es: 'aguas',
-      tr: 'sular'
+      tr: 'sular',
+      te: 'నీరు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['drink', 'nature', 'weather']
@@ -2256,13 +2460,15 @@ export const nouns: GermanNoun[] = [
       en: 'weather',
       de: 'Wetter',
       es: 'tiempo',
-      tr: 'hava durumu'
+      tr: 'hava durumu',
+      te: 'వాతావరణం'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['nature', 'weather']
@@ -2278,13 +2484,15 @@ export const nouns: GermanNoun[] = [
       en: 'weathers',
       de: 'Wetter',
       es: 'tiempos',
-      tr: 'hava durumları'
+      tr: 'hava durumları',
+      te: 'వాతావరణం'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['nature', 'weather']
@@ -2300,13 +2508,15 @@ export const nouns: GermanNoun[] = [
       en: 'weekend',
       de: 'Wochenende',
       es: 'fin de semana',
-      tr: 'hafta sonu'
+      tr: 'hafta sonu',
+      te: 'వారాంతం'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['dates', 'time']
@@ -2322,13 +2532,15 @@ export const nouns: GermanNoun[] = [
       en: 'weekends',
       de: 'Wochenenden',
       es: 'fines de semana',
-      tr: 'hafta sonları'
+      tr: 'hafta sonları',
+      te: 'వారాంతంలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['dates', 'time']
@@ -2344,13 +2556,15 @@ export const nouns: GermanNoun[] = [
       en: 'evening',
       de: 'Abend',
       es: 'tarde',
-      tr: 'akşam'
+      tr: 'akşam',
+      te: 'సాయంత్రం'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['time']
@@ -2366,13 +2580,15 @@ export const nouns: GermanNoun[] = [
       en: 'evenings',
       de: 'Abende',
       es: 'tardes',
-      tr: 'akşamlar'
+      tr: 'akşamlar',
+      te: 'సాయంత్రంలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['time']
@@ -2388,13 +2604,15 @@ export const nouns: GermanNoun[] = [
       en: 'apple',
       de: 'Apfel',
       es: 'manzana',
-      tr: 'elma'
+      tr: 'elma',
+      te: 'ఆపిల్'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food', 'nature']
@@ -2410,13 +2628,15 @@ export const nouns: GermanNoun[] = [
       en: 'apples',
       de: 'Äpfel',
       es: 'manzanas',
-      tr: 'elmalar'
+      tr: 'elmalar',
+      te: 'ఆపిల్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food', 'nature']
@@ -2432,13 +2652,15 @@ export const nouns: GermanNoun[] = [
       en: 'April',
       de: 'April',
       es: 'abril',
-      tr: 'nisan'
+      tr: 'nisan',
+      te: 'ఏప్రిల్'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['dates', 'time']
@@ -2454,13 +2676,15 @@ export const nouns: GermanNoun[] = [
       en: 'Aprils',
       de: 'April',
       es: 'abriles',
-      tr: 'nisanlar'
+      tr: 'nisanlar',
+      te: 'ఏప్రిల్'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['dates', 'time']
@@ -2476,13 +2700,15 @@ export const nouns: GermanNoun[] = [
       en: 'doctor',
       de: 'Arzt',
       es: 'médico',
-      tr: 'doktor'
+      tr: 'doktor',
+      te: 'డాక్టర్'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['health', 'people', 'professions', 'work']
@@ -2498,13 +2724,15 @@ export const nouns: GermanNoun[] = [
       en: 'doctors',
       de: 'Ärzte',
       es: 'médicos',
-      tr: 'doktorlar'
+      tr: 'doktorlar',
+      te: 'డాక్టర్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['health', 'people', 'professions', 'work']
@@ -2520,13 +2748,15 @@ export const nouns: GermanNoun[] = [
       en: 'August',
       de: 'August',
       es: 'agosto',
-      tr: 'ağustos'
+      tr: 'ağustos',
+      te: 'ఆగస్టు'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['dates', 'time']
@@ -2542,13 +2772,15 @@ export const nouns: GermanNoun[] = [
       en: 'Augusts',
       de: 'August',
       es: 'agostos',
-      tr: 'ağustoslar'
+      tr: 'ağustoslar',
+      te: 'ఆగస్టు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['dates', 'time']
@@ -2564,13 +2796,15 @@ export const nouns: GermanNoun[] = [
       en: 'tree',
       de: 'Baum',
       es: 'árbol',
-      tr: 'ağaç'
+      tr: 'ağaç',
+      te: 'చెట్టు'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['nature']
@@ -2586,13 +2820,15 @@ export const nouns: GermanNoun[] = [
       en: 'trees',
       de: 'Bäume',
       es: 'árboles',
-      tr: 'ağaçlar'
+      tr: 'ağaçlar',
+      te: 'చెట్టులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['nature']
@@ -2608,13 +2844,15 @@ export const nouns: GermanNoun[] = [
       en: 'cup',
       de: 'Becher',
       es: 'vaso',
-      tr: 'bardak'
+      tr: 'bardak',
+      te: 'కప్పు'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household']
@@ -2630,13 +2868,15 @@ export const nouns: GermanNoun[] = [
       en: 'cups',
       de: 'Becher',
       es: 'vasos',
-      tr: 'bardaklar'
+      tr: 'bardaklar',
+      te: 'కప్పు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household']
@@ -2652,13 +2892,15 @@ export const nouns: GermanNoun[] = [
       en: 'profession',
       de: 'Beruf',
       es: 'profesión',
-      tr: 'meslek'
+      tr: 'meslek',
+      te: 'వృత్తి'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['abstract', 'personal-info', 'work']
@@ -2674,13 +2916,15 @@ export const nouns: GermanNoun[] = [
       en: 'professions',
       de: 'Berufe',
       es: 'profesiones',
-      tr: 'meslekler'
+      tr: 'meslekler',
+      te: 'వృత్తిలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['abstract', 'personal-info', 'work']
@@ -2696,13 +2940,15 @@ export const nouns: GermanNoun[] = [
       en: 'pencil',
       de: 'Bleistift',
       es: 'lápiz',
-      tr: 'kurşun kalem'
+      tr: 'kurşun kalem',
+      te: 'పెన్సిల్'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['education', 'household']
@@ -2718,13 +2964,15 @@ export const nouns: GermanNoun[] = [
       en: 'pencils',
       de: 'Bleistifte',
       es: 'lápices',
-      tr: 'kurşun kalemler'
+      tr: 'kurşun kalemler',
+      te: 'పెన్సిల్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['education', 'household']
@@ -2740,13 +2988,15 @@ export const nouns: GermanNoun[] = [
       en: 'brother',
       de: 'Bruder',
       es: 'hermano',
-      tr: 'erkek kardeş'
+      tr: 'erkek kardeş',
+      te: 'సోదరుడు'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['family', 'people']
@@ -2762,13 +3012,15 @@ export const nouns: GermanNoun[] = [
       en: 'brothers',
       de: 'Brüder',
       es: 'hermanos',
-      tr: 'erkek kardeşler'
+      tr: 'erkek kardeşler',
+      te: 'సోదరుడులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['family', 'people']
@@ -2784,13 +3036,15 @@ export const nouns: GermanNoun[] = [
       en: 'cent',
       de: 'Cent',
       es: 'céntimo',
-      tr: 'sent'
+      tr: 'sent',
+      te: 'సెంటు'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['money', 'numbers', 'shopping']
@@ -2806,13 +3060,15 @@ export const nouns: GermanNoun[] = [
       en: 'cents',
       de: 'Cent',
       es: 'céntimos',
-      tr: 'sentler'
+      tr: 'sentler',
+      te: 'సెంటు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['money', 'numbers', 'shopping']
@@ -2828,13 +3084,15 @@ export const nouns: GermanNoun[] = [
       en: 'male cousin',
       de: 'Cousin',
       es: 'primo',
-      tr: 'erkek kuzen'
+      tr: 'erkek kuzen',
+      te: 'కజిన్'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['family', 'people']
@@ -2850,13 +3108,15 @@ export const nouns: GermanNoun[] = [
       en: 'male cousins',
       de: 'Cousins',
       es: 'primos',
-      tr: 'erkek kuzenler'
+      tr: 'erkek kuzenler',
+      te: 'కజిన్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['family', 'people']
@@ -2872,13 +3132,15 @@ export const nouns: GermanNoun[] = [
       en: 'thanks',
       de: 'Dank',
       es: 'gracias',
-      tr: 'teşekkür'
+      tr: 'teşekkür',
+      te: 'ధన్యవాదాలు'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['abstract']
@@ -2894,13 +3156,15 @@ export const nouns: GermanNoun[] = [
       en: 'thanks',
       de: 'Dank',
       es: 'gracias',
-      tr: 'teşekkürler'
+      tr: 'teşekkürler',
+      te: 'ధన్యవాదాలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['abstract']
@@ -2916,13 +3180,15 @@ export const nouns: GermanNoun[] = [
       en: 'German course',
       de: 'Deutschkurs',
       es: 'curso de alemán',
-      tr: 'Almanca kursu'
+      tr: 'Almanca kursu',
+      te: 'జర్మన్ కోర్సు'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['education', 'language', 'work']
@@ -2938,13 +3204,15 @@ export const nouns: GermanNoun[] = [
       en: 'German courses',
       de: 'Deutschkurse',
       es: 'cursos de alemán',
-      tr: 'Almanca kursları'
+      tr: 'Almanca kursları',
+      te: 'జర్మన్ కోర్సులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['education', 'language', 'work']
@@ -2960,13 +3228,15 @@ export const nouns: GermanNoun[] = [
       en: 'December',
       de: 'Dezember',
       es: 'diciembre',
-      tr: 'aralık'
+      tr: 'aralık',
+      te: 'డిసెంబర్'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['dates', 'time']
@@ -2982,13 +3252,15 @@ export const nouns: GermanNoun[] = [
       en: 'Decembers',
       de: 'Dezember',
       es: 'diciembres',
-      tr: 'aralıklar'
+      tr: 'aralıklar',
+      te: 'డిసెంబర్'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['dates', 'time']
@@ -3004,13 +3276,15 @@ export const nouns: GermanNoun[] = [
       en: 'Tuesday',
       de: 'Dienstag',
       es: 'martes',
-      tr: 'salı'
+      tr: 'salı',
+      te: 'మంగళవారం'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['dates', 'time']
@@ -3026,13 +3300,15 @@ export const nouns: GermanNoun[] = [
       en: 'Tuesdays',
       de: 'Dienstage',
       es: 'martes',
-      tr: 'salılar'
+      tr: 'salılar',
+      te: 'మంగళవారంలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['dates', 'time']
@@ -3048,13 +3324,15 @@ export const nouns: GermanNoun[] = [
       en: 'Thursday',
       de: 'Donnerstag',
       es: 'jueves',
-      tr: 'perşembe'
+      tr: 'perşembe',
+      te: 'గురువారం'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['dates', 'time']
@@ -3070,13 +3348,15 @@ export const nouns: GermanNoun[] = [
       en: 'Thursdays',
       de: 'Donnerstage',
       es: 'jueves',
-      tr: 'perşembeler'
+      tr: 'perşembeler',
+      te: 'గురువారంలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['dates', 'time']
@@ -3092,13 +3372,15 @@ export const nouns: GermanNoun[] = [
       en: 'printer',
       de: 'Drucker',
       es: 'impresora',
-      tr: 'yazıcı'
+      tr: 'yazıcı',
+      te: 'ప్రింటర్'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household', 'technology']
@@ -3114,13 +3396,15 @@ export const nouns: GermanNoun[] = [
       en: 'printers',
       de: 'Drucker',
       es: 'impresoras',
-      tr: 'yazıcılar'
+      tr: 'yazıcılar',
+      te: 'ప్రింటర్'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household', 'technology']
@@ -3136,13 +3420,15 @@ export const nouns: GermanNoun[] = [
       en: 'shopping',
       de: 'Einkauf',
       es: 'compra',
-      tr: 'alışveriş'
+      tr: 'alışveriş',
+      te: 'కొనుగోలు'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['money', 'shopping']
@@ -3158,13 +3444,15 @@ export const nouns: GermanNoun[] = [
       en: 'purchases',
       de: 'Einkäufe',
       es: 'compras',
-      tr: 'alışverişler'
+      tr: 'alışverişler',
+      te: 'కొనుగోలులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['money', 'shopping']
@@ -3180,13 +3468,15 @@ export const nouns: GermanNoun[] = [
       en: 'electronics technician',
       de: 'Elektroniker',
       es: 'técnico electrónico',
-      tr: 'elektronik teknisyeni'
+      tr: 'elektronik teknisyeni',
+      te: 'ఎలక్ట్రానిక్స్ టెక్నీషియన్'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'professions', 'work']
@@ -3202,13 +3492,15 @@ export const nouns: GermanNoun[] = [
       en: 'electronics technicians',
       de: 'Elektroniker',
       es: 'técnicos electrónicos',
-      tr: 'elektronik teknisyenler'
+      tr: 'elektronik teknisyenler',
+      te: 'ఎలక్ట్రానిక్స్ టెక్నీషియన్'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'professions', 'work']
@@ -3224,13 +3516,15 @@ export const nouns: GermanNoun[] = [
       en: 'grandson',
       de: 'Enkel',
       es: 'nieto',
-      tr: 'erkek torun'
+      tr: 'erkek torun',
+      te: 'మనవడు'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['family', 'people']
@@ -3246,13 +3540,15 @@ export const nouns: GermanNoun[] = [
       en: 'grandsons',
       de: 'Enkel',
       es: 'nietos',
-      tr: 'erkek torunlar'
+      tr: 'erkek torunlar',
+      te: 'మనవడు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['family', 'people']
@@ -3268,13 +3564,15 @@ export const nouns: GermanNoun[] = [
       en: 'euro',
       de: 'Euro',
       es: 'euro',
-      tr: 'avro'
+      tr: 'avro',
+      te: 'యూరో'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['money', 'numbers', 'shopping']
@@ -3290,13 +3588,15 @@ export const nouns: GermanNoun[] = [
       en: 'euros',
       de: 'Euro',
       es: 'euros',
-      tr: 'avrolar'
+      tr: 'avrolar',
+      te: 'యూరో'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['money', 'numbers', 'shopping']
@@ -3312,13 +3612,15 @@ export const nouns: GermanNoun[] = [
       en: 'surname',
       de: 'Familienname',
       es: 'apellido',
-      tr: 'soyadı'
+      tr: 'soyadı',
+      te: 'ఇంటి పేరు'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'personal-info']
@@ -3334,13 +3636,15 @@ export const nouns: GermanNoun[] = [
       en: 'surnames',
       de: 'Familiennamen',
       es: 'apellidos',
-      tr: 'soyadları'
+      tr: 'soyadları',
+      te: 'ఇంటి పేరులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'personal-info']
@@ -3356,13 +3660,15 @@ export const nouns: GermanNoun[] = [
       en: 'marital status',
       de: 'Familienstand',
       es: 'estado civil',
-      tr: 'medeni durum'
+      tr: 'medeni durum',
+      te: 'వైవాహిక స్థితి'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['abstract', 'personal-info']
@@ -3378,13 +3684,15 @@ export const nouns: GermanNoun[] = [
       en: 'marital statuses',
       de: 'Familienstände',
       es: 'estados civiles',
-      tr: 'medeni durumlar'
+      tr: 'medeni durumlar',
+      te: 'వైవాహిక స్థితిలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['abstract', 'personal-info']
@@ -3400,13 +3708,15 @@ export const nouns: GermanNoun[] = [
       en: 'February',
       de: 'Februar',
       es: 'febrero',
-      tr: 'şubat'
+      tr: 'şubat',
+      te: 'ఫిబ్రవరి'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['dates', 'time']
@@ -3422,13 +3732,15 @@ export const nouns: GermanNoun[] = [
       en: 'Februaries',
       de: 'Februar',
       es: 'febreros',
-      tr: 'şubatlar'
+      tr: 'şubatlar',
+      te: 'ఫిబ్రవరి'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['dates', 'time']
@@ -3444,13 +3756,15 @@ export const nouns: GermanNoun[] = [
       en: 'mistake',
       de: 'Fehler',
       es: 'error',
-      tr: 'hata'
+      tr: 'hata',
+      te: 'తప్పు'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['abstract']
@@ -3466,13 +3780,15 @@ export const nouns: GermanNoun[] = [
       en: 'mistakes',
       de: 'Fehler',
       es: 'errores',
-      tr: 'hatalar'
+      tr: 'hatalar',
+      te: 'తప్పు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['abstract']
@@ -3488,13 +3804,15 @@ export const nouns: GermanNoun[] = [
       en: 'film',
       de: 'Film',
       es: 'película',
-      tr: 'film'
+      tr: 'film',
+      te: 'సినిమా'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['arts', 'leisure']
@@ -3510,13 +3828,15 @@ export const nouns: GermanNoun[] = [
       en: 'films',
       de: 'Filme',
       es: 'películas',
-      tr: 'filmler'
+      tr: 'filmler',
+      te: 'సినిమాలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['arts', 'leisure']
@@ -3532,13 +3852,15 @@ export const nouns: GermanNoun[] = [
       en: 'fish',
       de: 'Fisch',
       es: 'pez / pescado',
-      tr: 'balık'
+      tr: 'balık',
+      te: 'చేప'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food', 'nature']
@@ -3554,13 +3876,15 @@ export const nouns: GermanNoun[] = [
       en: 'fishes',
       de: 'Fische',
       es: 'peces / pescados',
-      tr: 'balıklar'
+      tr: 'balıklar',
+      te: 'చేపలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food', 'nature']
@@ -3576,13 +3900,15 @@ export const nouns: GermanNoun[] = [
       en: 'photographer',
       de: 'Fotograf',
       es: 'fotógrafo',
-      tr: 'fotoğrafçı'
+      tr: 'fotoğrafçı',
+      te: 'ఫోటోగ్రాఫర్'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['arts', 'people', 'professions', 'work']
@@ -3598,13 +3924,15 @@ export const nouns: GermanNoun[] = [
       en: 'photographers',
       de: 'Fotografen',
       es: 'fotógrafos',
-      tr: 'fotoğrafçılar'
+      tr: 'fotoğrafçılar',
+      te: 'ఫోటోగ్రాఫర్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['arts', 'people', 'professions', 'work']
@@ -3620,13 +3948,15 @@ export const nouns: GermanNoun[] = [
       en: 'Friday',
       de: 'Freitag',
       es: 'viernes',
-      tr: 'cuma'
+      tr: 'cuma',
+      te: 'శుక్రవారం'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['dates', 'time']
@@ -3642,13 +3972,15 @@ export const nouns: GermanNoun[] = [
       en: 'Fridays',
       de: 'Freitage',
       es: 'viernes',
-      tr: 'cumalar'
+      tr: 'cumalar',
+      te: 'శుక్రవారంలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['dates', 'time']
@@ -3664,13 +3996,15 @@ export const nouns: GermanNoun[] = [
       en: 'friend',
       de: 'Freund',
       es: 'amigo',
-      tr: 'arkadaş'
+      tr: 'arkadaş',
+      te: 'స్నేహితుడు'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people']
@@ -3686,13 +4020,15 @@ export const nouns: GermanNoun[] = [
       en: 'friends',
       de: 'Freunde',
       es: 'amigos',
-      tr: 'arkadaşlar'
+      tr: 'arkadaşlar',
+      te: 'స్నేహితుడులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people']
@@ -3708,13 +4044,15 @@ export const nouns: GermanNoun[] = [
       en: 'hairdresser',
       de: 'Friseur',
       es: 'peluquero',
-      tr: 'kuaför'
+      tr: 'kuaför',
+      te: 'హెయిర్ డ్రెస్సర్'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'professions', 'work']
@@ -3730,13 +4068,15 @@ export const nouns: GermanNoun[] = [
       en: 'hairdressers',
       de: 'Friseure',
       es: 'peluqueros',
-      tr: 'kuaförler'
+      tr: 'kuaförler',
+      te: 'హెయిర్ డ్రెస్సర్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'professions', 'work']
@@ -3752,13 +4092,15 @@ export const nouns: GermanNoun[] = [
       en: 'spring',
       de: 'Frühling',
       es: 'primavera',
-      tr: 'ilkbahar'
+      tr: 'ilkbahar',
+      te: 'వసంత కాలం'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['nature', 'time', 'weather']
@@ -3774,13 +4116,15 @@ export const nouns: GermanNoun[] = [
       en: 'springs',
       de: 'Frühlinge',
       es: 'primaveras',
-      tr: 'ilkbaharlar'
+      tr: 'ilkbaharlar',
+      te: 'వసంత కాలంలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['nature', 'time', 'weather']
@@ -3796,13 +4140,15 @@ export const nouns: GermanNoun[] = [
       en: 'driver\'s license',
       de: 'Führerschein',
       es: 'carné de conducir',
-      tr: 'ehliyet'
+      tr: 'ehliyet',
+      te: 'డ్రైవింగ్ లైసెన్స్'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['documents', 'transportation']
@@ -3818,13 +4164,15 @@ export const nouns: GermanNoun[] = [
       en: 'driver\'s licenses',
       de: 'Führerscheine',
       es: 'carnés de conducir',
-      tr: 'ehliyetler'
+      tr: 'ehliyetler',
+      te: 'డ్రైవింగ్ లైసెన్స్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['documents', 'transportation']
@@ -3840,13 +4188,15 @@ export const nouns: GermanNoun[] = [
       en: 'soccer ball / football',
       de: 'Fußball',
       es: 'balón de fútbol / fútbol',
-      tr: 'futbol topu / futbol'
+      tr: 'futbol topu / futbol',
+      te: 'ఫుట్‌బాల్'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['leisure', 'sports']
@@ -3862,13 +4212,15 @@ export const nouns: GermanNoun[] = [
       en: 'soccer balls',
       de: 'Fußbälle',
       es: 'balones de fútbol',
-      tr: 'futbol topları'
+      tr: 'futbol topları',
+      te: 'ఫుట్‌బాల్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['leisure', 'sports']
@@ -3884,13 +4236,15 @@ export const nouns: GermanNoun[] = [
       en: 'birthday',
       de: 'Geburtstag',
       es: 'cumpleaños',
-      tr: 'doğum günü'
+      tr: 'doğum günü',
+      te: 'పుట్టినరోజు'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['personal-info', 'time']
@@ -3906,13 +4260,15 @@ export const nouns: GermanNoun[] = [
       en: 'birthdays',
       de: 'Geburtstage',
       es: 'cumpleaños',
-      tr: 'doğum günleri'
+      tr: 'doğum günleri',
+      te: 'పుట్టినరోజులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['personal-info', 'time']
@@ -3928,13 +4284,15 @@ export const nouns: GermanNoun[] = [
       en: 'wallet',
       de: 'Geldbeutel',
       es: 'monedero',
-      tr: 'cüzdan'
+      tr: 'cüzdan',
+      te: 'వాలెట్'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['clothing', 'household', 'money']
@@ -3950,13 +4308,15 @@ export const nouns: GermanNoun[] = [
       en: 'wallets',
       de: 'Geldbeutel',
       es: 'monederos',
-      tr: 'cüzdanlar'
+      tr: 'cüzdanlar',
+      te: 'వాలెట్'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['clothing', 'household', 'money']
@@ -3972,13 +4332,15 @@ export const nouns: GermanNoun[] = [
       en: 'grandfather',
       de: 'Großvater',
       es: 'abuelo',
-      tr: 'büyükbaba'
+      tr: 'büyükbaba',
+      te: 'తాత'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['family', 'people']
@@ -3994,13 +4356,15 @@ export const nouns: GermanNoun[] = [
       en: 'grandfathers',
       de: 'Großväter',
       es: 'abuelos',
-      tr: 'büyükbabalar'
+      tr: 'büyükbabalar',
+      te: 'తాతలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['family', 'people']
@@ -4016,13 +4380,15 @@ export const nouns: GermanNoun[] = [
       en: 'househusband',
       de: 'Hausmann',
       es: 'amo de casa',
-      tr: 'ev erkeği'
+      tr: 'ev erkeği',
+      te: 'గృహస్వామి'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['family', 'people', 'professions', 'work']
@@ -4038,13 +4404,15 @@ export const nouns: GermanNoun[] = [
       en: 'househusbands',
       de: 'Hausmänner',
       es: 'amos de casa',
-      tr: 'ev erkekleri'
+      tr: 'ev erkekleri',
+      te: 'గృహిణిలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['family', 'people', 'professions', 'work']
@@ -4060,13 +4428,15 @@ export const nouns: GermanNoun[] = [
       en: 'autumn',
       de: 'Herbst',
       es: 'otoño',
-      tr: 'sonbahar'
+      tr: 'sonbahar',
+      te: 'శరదృతువు'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['nature', 'time', 'weather']
@@ -4082,13 +4452,15 @@ export const nouns: GermanNoun[] = [
       en: 'autumns',
       de: 'Herbste',
       es: 'otoños',
-      tr: 'sonbaharlar'
+      tr: 'sonbaharlar',
+      te: 'శరదృతువులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['nature', 'time', 'weather']
@@ -4104,13 +4476,15 @@ export const nouns: GermanNoun[] = [
       en: 'mister',
       de: 'Herr',
       es: 'señor',
-      tr: 'bay'
+      tr: 'bay',
+      te: 'పెద్దమనిషి'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people']
@@ -4126,13 +4500,15 @@ export const nouns: GermanNoun[] = [
       en: 'misters',
       de: 'Herren',
       es: 'señores',
-      tr: 'baylar'
+      tr: 'baylar',
+      te: 'పెద్దమనిషిలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people']
@@ -4148,13 +4524,15 @@ export const nouns: GermanNoun[] = [
       en: 'engineer',
       de: 'Ingenieur',
       es: 'ingeniero',
-      tr: 'mühendis'
+      tr: 'mühendis',
+      te: 'ఇంజనీర్'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'professions', 'work']
@@ -4170,13 +4548,15 @@ export const nouns: GermanNoun[] = [
       en: 'engineers',
       de: 'Ingenieure',
       es: 'ingenieros',
-      tr: 'mühendisler'
+      tr: 'mühendisler',
+      te: 'ఇంజనీర్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'professions', 'work']
@@ -4192,13 +4572,15 @@ export const nouns: GermanNoun[] = [
       en: 'January',
       de: 'Januar',
       es: 'enero',
-      tr: 'ocak'
+      tr: 'ocak',
+      te: 'జనవరి'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['dates', 'time']
@@ -4214,13 +4596,15 @@ export const nouns: GermanNoun[] = [
       en: 'Januaries',
       de: 'Januar',
       es: 'eneros',
-      tr: 'ocaklar'
+      tr: 'ocaklar',
+      te: 'జనవరి'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['dates', 'time']
@@ -4236,13 +4620,15 @@ export const nouns: GermanNoun[] = [
       en: 'yogurt',
       de: 'Joghurt',
       es: 'yogur',
-      tr: 'yoğurt'
+      tr: 'yoğurt',
+      te: 'పెరుగు'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food']
@@ -4258,13 +4644,15 @@ export const nouns: GermanNoun[] = [
       en: 'yogurts',
       de: 'Joghurts',
       es: 'yogures',
-      tr: 'yoğurtlar'
+      tr: 'yoğurtlar',
+      te: 'పెరుగులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food']
@@ -4280,13 +4668,15 @@ export const nouns: GermanNoun[] = [
       en: 'teenager',
       de: 'Jugendliche',
       es: 'joven',
-      tr: 'genç'
+      tr: 'genç',
+      te: 'యువకుడు'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people']
@@ -4302,13 +4692,15 @@ export const nouns: GermanNoun[] = [
       en: 'teenagers',
       de: 'Jugendlichen',
       es: 'jóvenes',
-      tr: 'gençler'
+      tr: 'gençler',
+      te: 'యువకుడులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people']
@@ -4324,13 +4716,15 @@ export const nouns: GermanNoun[] = [
       en: 'July',
       de: 'Juli',
       es: 'julio',
-      tr: 'temmuz'
+      tr: 'temmuz',
+      te: 'జూలై'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['dates', 'time']
@@ -4346,13 +4740,15 @@ export const nouns: GermanNoun[] = [
       en: 'Julies',
       de: 'Juli',
       es: 'julios',
-      tr: 'temmuzlar'
+      tr: 'temmuzlar',
+      te: 'జూలై'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['dates', 'time']
@@ -4368,13 +4764,15 @@ export const nouns: GermanNoun[] = [
       en: 'June',
       de: 'Juni',
       es: 'junio',
-      tr: 'haziran'
+      tr: 'haziran',
+      te: 'జూన్'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['dates', 'time']
@@ -4390,13 +4788,15 @@ export const nouns: GermanNoun[] = [
       en: 'Junes',
       de: 'Juni',
       es: 'junios',
-      tr: 'haziranlar'
+      tr: 'haziranlar',
+      te: 'జూన్'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['dates', 'time']
@@ -4412,13 +4812,15 @@ export const nouns: GermanNoun[] = [
       en: 'coffee',
       de: 'Kaffee',
       es: 'café',
-      tr: 'kahve'
+      tr: 'kahve',
+      te: 'కాఫీ'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['drink']
@@ -4434,13 +4836,15 @@ export const nouns: GermanNoun[] = [
       en: 'coffees',
       de: 'Kaffees',
       es: 'cafés',
-      tr: 'kahveler'
+      tr: 'kahveler',
+      te: 'కాఫీలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['drink']
@@ -4456,13 +4860,15 @@ export const nouns: GermanNoun[] = [
       en: 'calendar',
       de: 'Kalender',
       es: 'calendario',
-      tr: 'takvim'
+      tr: 'takvim',
+      te: 'క్యాలెండర్'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['documents', 'household', 'time']
@@ -4478,13 +4884,15 @@ export const nouns: GermanNoun[] = [
       en: 'calendars',
       de: 'Kalender',
       es: 'calendarios',
-      tr: 'takvimler'
+      tr: 'takvimler',
+      te: 'క్యాలెండర్'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['documents', 'household', 'time']
@@ -4500,13 +4908,15 @@ export const nouns: GermanNoun[] = [
       en: 'cheese',
       de: 'Käse',
       es: 'queso',
-      tr: 'peynir'
+      tr: 'peynir',
+      te: 'జున్ను'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food']
@@ -4522,13 +4932,15 @@ export const nouns: GermanNoun[] = [
       en: 'cheeses',
       de: 'Käse',
       es: 'quesos',
-      tr: 'peynirler'
+      tr: 'peynirler',
+      te: 'జున్ను'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food']
@@ -4544,13 +4956,15 @@ export const nouns: GermanNoun[] = [
       en: 'waiter',
       de: 'Kellner',
       es: 'camarero',
-      tr: 'garson'
+      tr: 'garson',
+      te: 'వెయిటర్'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'professions', 'work']
@@ -4566,13 +4980,15 @@ export const nouns: GermanNoun[] = [
       en: 'waiters',
       de: 'Kellner',
       es: 'camareros',
-      tr: 'garsonlar'
+      tr: 'garsonlar',
+      te: 'వెయిటర్'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'professions', 'work']
@@ -4588,13 +5004,15 @@ export const nouns: GermanNoun[] = [
       en: 'kindergarten',
       de: 'Kindergarten',
       es: 'jardín de infancia',
-      tr: 'anaokulu'
+      tr: 'anaokulu',
+      te: 'కిండర్‌గార్టెన్'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['education', 'locations']
@@ -4610,13 +5028,15 @@ export const nouns: GermanNoun[] = [
       en: 'kindergartens',
       de: 'Kindergärten',
       es: 'jardines de infancia',
-      tr: 'anaokulları'
+      tr: 'anaokulları',
+      te: 'కిండర్‌గార్టెన్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['education', 'locations']
@@ -4632,13 +5052,15 @@ export const nouns: GermanNoun[] = [
       en: 'glue',
       de: 'Kleber',
       es: 'pegamento',
-      tr: 'yapıştırıcı'
+      tr: 'yapıştırıcı',
+      te: 'జిగురు'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household']
@@ -4654,13 +5076,15 @@ export const nouns: GermanNoun[] = [
       en: 'glues',
       de: 'Kleber',
       es: 'pegamentos',
-      tr: 'yapıştırıcılar'
+      tr: 'yapıştırıcılar',
+      te: 'జిగురు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household']
@@ -4676,13 +5100,15 @@ export const nouns: GermanNoun[] = [
       en: 'cook',
       de: 'Koch',
       es: 'cocinero',
-      tr: 'aşçı'
+      tr: 'aşçı',
+      te: 'వంటమనిషి'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'professions', 'work']
@@ -4698,13 +5124,15 @@ export const nouns: GermanNoun[] = [
       en: 'cooks',
       de: 'Köche',
       es: 'cocineros',
-      tr: 'aşçılar'
+      tr: 'aşçılar',
+      te: 'వంటమనిషిలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'professions', 'work']
@@ -4720,13 +5148,15 @@ export const nouns: GermanNoun[] = [
       en: 'suitcase',
       de: 'Koffer',
       es: 'maleta',
-      tr: 'bavul'
+      tr: 'bavul',
+      te: 'సూట్‌కేసు'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household', 'travel']
@@ -4742,13 +5172,15 @@ export const nouns: GermanNoun[] = [
       en: 'suitcases',
       de: 'Koffer',
       es: 'maletas',
-      tr: 'bavullar'
+      tr: 'bavullar',
+      te: 'సూట్‌కేసు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household', 'travel']
@@ -4764,13 +5196,15 @@ export const nouns: GermanNoun[] = [
       en: 'colleague',
       de: 'Kollege',
       es: 'compañero',
-      tr: 'iş arkadaşı'
+      tr: 'iş arkadaşı',
+      te: 'సహోద్యోగి'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'work']
@@ -4786,13 +5220,15 @@ export const nouns: GermanNoun[] = [
       en: 'colleagues',
       de: 'Kollegen',
       es: 'compañeros',
-      tr: 'iş arkadaşları'
+      tr: 'iş arkadaşları',
+      te: 'సహోద్యోగిలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'work']
@@ -4808,13 +5244,15 @@ export const nouns: GermanNoun[] = [
       en: 'male nurse',
       de: 'Krankenpfleger',
       es: 'enfermero',
-      tr: 'erkek hemşire'
+      tr: 'erkek hemşire',
+      te: 'నర్సు'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['health', 'people', 'professions', 'work']
@@ -4830,13 +5268,15 @@ export const nouns: GermanNoun[] = [
       en: 'male nurses',
       de: 'Krankenpfleger',
       es: 'enfermeros',
-      tr: 'erkek hemşireler'
+      tr: 'erkek hemşireler',
+      te: 'నర్సు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['health', 'people', 'professions', 'work']
@@ -4852,13 +5292,15 @@ export const nouns: GermanNoun[] = [
       en: 'cake',
       de: 'Kuchen',
       es: 'pastel',
-      tr: 'kek'
+      tr: 'kek',
+      te: 'కేక్'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food']
@@ -4874,13 +5316,15 @@ export const nouns: GermanNoun[] = [
       en: 'cakes',
       de: 'Kuchen',
       es: 'pasteles',
-      tr: 'kekler'
+      tr: 'kekler',
+      te: 'కేక్'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food']
@@ -4896,13 +5340,15 @@ export const nouns: GermanNoun[] = [
       en: 'ballpoint pen',
       de: 'Kugelschreiber',
       es: 'bolígrafo',
-      tr: 'tükenmez kalem'
+      tr: 'tükenmez kalem',
+      te: 'పెన్'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['education', 'household']
@@ -4918,13 +5364,15 @@ export const nouns: GermanNoun[] = [
       en: 'ballpoint pens',
       de: 'Kugelschreiber',
       es: 'bolígrafos',
-      tr: 'tükenmez kalemler'
+      tr: 'tükenmez kalemler',
+      te: 'పెన్'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['education', 'household']
@@ -4940,13 +5388,15 @@ export const nouns: GermanNoun[] = [
       en: 'customer',
       de: 'Kunde',
       es: 'cliente',
-      tr: 'müşteri'
+      tr: 'müşteri',
+      te: 'కస్టమర్'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'professions', 'shopping', 'work']
@@ -4962,13 +5412,15 @@ export const nouns: GermanNoun[] = [
       en: 'customers',
       de: 'Kunden',
       es: 'clientes',
-      tr: 'müşteriler'
+      tr: 'müşteriler',
+      te: 'కస్టమర్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'professions', 'shopping', 'work']
@@ -4984,13 +5436,15 @@ export const nouns: GermanNoun[] = [
       en: 'course',
       de: 'Kurs',
       es: 'curso',
-      tr: 'kurs'
+      tr: 'kurs',
+      te: 'కోర్సు'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['education', 'work']
@@ -5006,13 +5460,15 @@ export const nouns: GermanNoun[] = [
       en: 'courses',
       de: 'Kurse',
       es: 'cursos',
-      tr: 'kurslar'
+      tr: 'kurslar',
+      te: 'కోర్సులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['education', 'work']
@@ -5028,13 +5484,15 @@ export const nouns: GermanNoun[] = [
       en: 'shop',
       de: 'Laden',
       es: 'tienda',
-      tr: 'dükkan'
+      tr: 'dükkan',
+      te: 'దుకాణం'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['locations', 'shopping', 'work']
@@ -5050,13 +5508,15 @@ export const nouns: GermanNoun[] = [
       en: 'shops',
       de: 'Läden',
       es: 'tiendas',
-      tr: 'dükkanlar'
+      tr: 'dükkanlar',
+      te: 'దుకాణంలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['locations', 'shopping', 'work']
@@ -5072,13 +5532,15 @@ export const nouns: GermanNoun[] = [
       en: 'laptop',
       de: 'Laptop',
       es: 'portátil',
-      tr: 'dizüstü bilgisayar'
+      tr: 'dizüstü bilgisayar',
+      te: 'ల్యాప్‌టాప్'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household', 'technology']
@@ -5094,13 +5556,15 @@ export const nouns: GermanNoun[] = [
       en: 'laptops',
       de: 'Laptops',
       es: 'portátiles',
-      tr: 'dizüstü bilgisayarlar'
+      tr: 'dizüstü bilgisayarlar',
+      te: 'ల్యాప్‌టాప్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household', 'technology']
@@ -5116,13 +5580,15 @@ export const nouns: GermanNoun[] = [
       en: 'teacher',
       de: 'Lehrer',
       es: 'profesor',
-      tr: 'öğretmen'
+      tr: 'öğretmen',
+      te: 'ఉపాధ్యాయుడు'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['education', 'people', 'professions', 'work']
@@ -5138,13 +5604,15 @@ export const nouns: GermanNoun[] = [
       en: 'teachers',
       de: 'Lehrer',
       es: 'profesores',
-      tr: 'öğretmenler'
+      tr: 'öğretmenler',
+      te: 'ఉపాధ్యాయుడు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['education', 'people', 'professions', 'work']
@@ -5160,13 +5628,15 @@ export const nouns: GermanNoun[] = [
       en: 'liter',
       de: 'Liter',
       es: 'litro',
-      tr: 'litre'
+      tr: 'litre',
+      te: 'లీటరు'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['measurements']
@@ -5182,13 +5652,15 @@ export const nouns: GermanNoun[] = [
       en: 'liters',
       de: 'Liter',
       es: 'litros',
-      tr: 'litreler'
+      tr: 'litreler',
+      te: 'లీటరు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['measurements']
@@ -5204,13 +5676,15 @@ export const nouns: GermanNoun[] = [
       en: 'May',
       de: 'Mai',
       es: 'mayo',
-      tr: 'mayıs'
+      tr: 'mayıs',
+      te: 'మే'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['dates', 'time']
@@ -5226,13 +5700,15 @@ export const nouns: GermanNoun[] = [
       en: 'Mays',
       de: 'Mai',
       es: 'mayos',
-      tr: 'mayıslar'
+      tr: 'mayıslar',
+      te: 'మే'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['dates', 'time']
@@ -5248,13 +5724,15 @@ export const nouns: GermanNoun[] = [
       en: 'man',
       de: 'Mann',
       es: 'hombre',
-      tr: 'adam'
+      tr: 'adam',
+      te: 'మనిషి'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['family', 'people']
@@ -5270,13 +5748,15 @@ export const nouns: GermanNoun[] = [
       en: 'men',
       de: 'Männer',
       es: 'hombres',
-      tr: 'adamlar'
+      tr: 'adamlar',
+      te: 'మనిషిలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['family', 'people']
@@ -5292,13 +5772,15 @@ export const nouns: GermanNoun[] = [
       en: 'March',
       de: 'März',
       es: 'marzo',
-      tr: 'mart'
+      tr: 'mart',
+      te: 'మార్చి'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['dates', 'time']
@@ -5314,13 +5796,15 @@ export const nouns: GermanNoun[] = [
       en: 'Marches',
       de: 'März',
       es: 'marzos',
-      tr: 'martlar'
+      tr: 'martlar',
+      te: 'మార్చి'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['dates', 'time']
@@ -5336,13 +5820,15 @@ export const nouns: GermanNoun[] = [
       en: 'noon',
       de: 'Mittag',
       es: 'mediodía',
-      tr: 'öğle'
+      tr: 'öğle',
+      te: 'మధ్యాహ్నం'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['time']
@@ -5358,13 +5844,15 @@ export const nouns: GermanNoun[] = [
       en: 'noons',
       de: 'Mittage',
       es: 'mediodías',
-      tr: 'öğleler'
+      tr: 'öğleler',
+      te: 'మధ్యాహ్నంలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['time']
@@ -5380,13 +5868,15 @@ export const nouns: GermanNoun[] = [
       en: 'Wednesday',
       de: 'Mittwoch',
       es: 'miércoles',
-      tr: 'çarşamba'
+      tr: 'çarşamba',
+      te: 'బుధవారం'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['dates', 'time']
@@ -5402,13 +5892,15 @@ export const nouns: GermanNoun[] = [
       en: 'Wednesdays',
       de: 'Mittwoche',
       es: 'miércoles',
-      tr: 'çarşambalar'
+      tr: 'çarşambalar',
+      te: 'బుధవారంలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['dates', 'time']
@@ -5424,13 +5916,15 @@ export const nouns: GermanNoun[] = [
       en: 'month',
       de: 'Monat',
       es: 'mes',
-      tr: 'ay'
+      tr: 'ay',
+      te: 'నెల'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['dates', 'time']
@@ -5446,13 +5940,15 @@ export const nouns: GermanNoun[] = [
       en: 'months',
       de: 'Monate',
       es: 'meses',
-      tr: 'aylar'
+      tr: 'aylar',
+      te: 'నెలలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['dates', 'time']
@@ -5468,13 +5964,15 @@ export const nouns: GermanNoun[] = [
       en: 'Monday',
       de: 'Montag',
       es: 'lunes',
-      tr: 'pazartesi'
+      tr: 'pazartesi',
+      te: 'సోమవారం'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['dates', 'time']
@@ -5490,13 +5988,15 @@ export const nouns: GermanNoun[] = [
       en: 'Mondays',
       de: 'Montage',
       es: 'lunes',
-      tr: 'pazartesiler'
+      tr: 'pazartesiler',
+      te: 'సోమవారంలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['dates', 'time']
@@ -5512,13 +6012,15 @@ export const nouns: GermanNoun[] = [
       en: 'morning',
       de: 'Morgen',
       es: 'mañana',
-      tr: 'sabah'
+      tr: 'sabah',
+      te: 'ఉదయం'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['time']
@@ -5534,13 +6036,15 @@ export const nouns: GermanNoun[] = [
       en: 'mornings',
       de: 'Morgen',
       es: 'mañanas',
-      tr: 'sabahlar'
+      tr: 'sabahlar',
+      te: 'ఉదయం'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['time']
@@ -5556,13 +6060,15 @@ export const nouns: GermanNoun[] = [
       en: 'neighbor',
       de: 'Nachbar',
       es: 'vecino',
-      tr: 'komşu'
+      tr: 'komşu',
+      te: 'పొరుగువాడు'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people']
@@ -5578,13 +6084,15 @@ export const nouns: GermanNoun[] = [
       en: 'neighbors',
       de: 'Nachbarn',
       es: 'vecinos',
-      tr: 'komşular'
+      tr: 'komşular',
+      te: 'పొరుగువాడులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people']
@@ -5600,13 +6108,15 @@ export const nouns: GermanNoun[] = [
       en: 'afternoon',
       de: 'Nachmittag',
       es: 'tarde',
-      tr: 'öğleden sonra'
+      tr: 'öğleden sonra',
+      te: 'మధ్యాహ్నం'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['time']
@@ -5622,13 +6132,15 @@ export const nouns: GermanNoun[] = [
       en: 'afternoons',
       de: 'Nachmittage',
       es: 'tardes',
-      tr: 'öğleden sonralar'
+      tr: 'öğleden sonralar',
+      te: 'మధ్యాహ్నంలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['time']
@@ -5644,13 +6156,15 @@ export const nouns: GermanNoun[] = [
       en: 'dessert',
       de: 'Nachtisch',
       es: 'postre',
-      tr: 'tatlı'
+      tr: 'tatlı',
+      te: 'డెజర్ట్'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food']
@@ -5666,13 +6180,15 @@ export const nouns: GermanNoun[] = [
       en: 'desserts',
       de: 'Nachtische',
       es: 'postres',
-      tr: 'tatlılar'
+      tr: 'tatlılar',
+      te: 'డెజర్ట్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food']
@@ -5688,13 +6204,15 @@ export const nouns: GermanNoun[] = [
       en: 'name',
       de: 'Name',
       es: 'nombre',
-      tr: 'ad'
+      tr: 'ad',
+      te: 'పేరు'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['communication', 'language', 'people', 'personal-info']
@@ -5710,13 +6228,15 @@ export const nouns: GermanNoun[] = [
       en: 'names',
       de: 'Namen',
       es: 'nombres',
-      tr: 'adlar'
+      tr: 'adlar',
+      te: 'పేరులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['communication', 'language', 'people', 'personal-info']
@@ -5732,13 +6252,15 @@ export const nouns: GermanNoun[] = [
       en: 'November',
       de: 'November',
       es: 'noviembre',
-      tr: 'kasım'
+      tr: 'kasım',
+      te: 'నవంబర్'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['dates', 'time']
@@ -5754,13 +6276,15 @@ export const nouns: GermanNoun[] = [
       en: 'Novembers',
       de: 'November',
       es: 'noviembres',
-      tr: 'kasımlar'
+      tr: 'kasımlar',
+      te: 'నవంబర్'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['dates', 'time']
@@ -5776,13 +6300,15 @@ export const nouns: GermanNoun[] = [
       en: 'October',
       de: 'Oktober',
       es: 'octubre',
-      tr: 'ekim'
+      tr: 'ekim',
+      te: 'అక్టోబర్'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['dates', 'time']
@@ -5798,13 +6324,15 @@ export const nouns: GermanNoun[] = [
       en: 'Octobers',
       de: 'Oktober',
       es: 'octubres',
-      tr: 'ekimler'
+      tr: 'ekimler',
+      te: 'అక్టోబర్'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['dates', 'time']
@@ -5820,13 +6348,15 @@ export const nouns: GermanNoun[] = [
       en: 'uncle',
       de: 'Onkel',
       es: 'tío',
-      tr: 'amca'
+      tr: 'amca',
+      te: 'మామయ్య'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['family', 'people']
@@ -5842,13 +6372,15 @@ export const nouns: GermanNoun[] = [
       en: 'uncles',
       de: 'Onkel',
       es: 'tíos',
-      tr: 'amcalar'
+      tr: 'amcalar',
+      te: 'మామయ్య'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['family', 'people']
@@ -5864,13 +6396,15 @@ export const nouns: GermanNoun[] = [
       en: 'grandpa',
       de: 'Opa',
       es: 'abuelo',
-      tr: 'dede'
+      tr: 'dede',
+      te: 'తాతయ్య'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['family', 'people']
@@ -5886,13 +6420,15 @@ export const nouns: GermanNoun[] = [
       en: 'grandpas',
       de: 'Opas',
       es: 'abuelos',
-      tr: 'dedeler'
+      tr: 'dedeler',
+      te: 'తాతయ్యలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['family', 'people']
@@ -5908,13 +6444,15 @@ export const nouns: GermanNoun[] = [
       en: 'partner',
       de: 'Partner',
       es: 'pareja',
-      tr: 'partner'
+      tr: 'partner',
+      te: 'భాగస్వామి'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['family', 'people']
@@ -5930,13 +6468,15 @@ export const nouns: GermanNoun[] = [
       en: 'partners',
       de: 'Partner',
       es: 'parejas',
-      tr: 'partnerler'
+      tr: 'partnerler',
+      te: 'భాగస్వామి'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['family', 'people']
@@ -5952,13 +6492,15 @@ export const nouns: GermanNoun[] = [
       en: 'pancake',
       de: 'Pfannkuchen',
       es: 'tortita',
-      tr: 'krep'
+      tr: 'krep',
+      te: 'పాన్‌కేక్'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food']
@@ -5974,13 +6516,15 @@ export const nouns: GermanNoun[] = [
       en: 'pancakes',
       de: 'Pfannkuchen',
       es: 'tortitas',
-      tr: 'krepler'
+      tr: 'krepler',
+      te: 'పాన్‌కేక్'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food']
@@ -5996,13 +6540,15 @@ export const nouns: GermanNoun[] = [
       en: 'plan',
       de: 'Plan',
       es: 'plan',
-      tr: 'plan'
+      tr: 'plan',
+      te: 'ప్రణాళిక'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['abstract']
@@ -6018,13 +6564,15 @@ export const nouns: GermanNoun[] = [
       en: 'plans',
       de: 'Pläne',
       es: 'planes',
-      tr: 'planlar'
+      tr: 'planlar',
+      te: 'ప్రణాళికలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['abstract']
@@ -6040,13 +6588,15 @@ export const nouns: GermanNoun[] = [
       en: 'police officer',
       de: 'Polizist',
       es: 'policía',
-      tr: 'polis'
+      tr: 'polis',
+      te: 'పోలీసు అధికారి'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'professions', 'work']
@@ -6062,13 +6612,15 @@ export const nouns: GermanNoun[] = [
       en: 'police officers',
       de: 'Polizisten',
       es: 'policías',
-      tr: 'polisler'
+      tr: 'polisler',
+      te: 'పోలీసు అధికారులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'professions', 'work']
@@ -6084,13 +6636,15 @@ export const nouns: GermanNoun[] = [
       en: 'point',
       de: 'Punkt',
       es: 'punto',
-      tr: 'nokta'
+      tr: 'nokta',
+      te: 'చుక్క'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['measurements', 'numbers']
@@ -6106,13 +6660,15 @@ export const nouns: GermanNoun[] = [
       en: 'points',
       de: 'Punkte',
       es: 'puntos',
-      tr: 'noktalar'
+      tr: 'noktalar',
+      te: 'చుక్కలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['measurements', 'numbers']
@@ -6128,13 +6684,15 @@ export const nouns: GermanNoun[] = [
       en: 'nonsense',
       de: 'Quatsch',
       es: 'tontería',
-      tr: 'saçmalık'
+      tr: 'saçmalık',
+      te: 'అర్ధంలేని మాట'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['abstract']
@@ -6150,13 +6708,15 @@ export const nouns: GermanNoun[] = [
       en: 'nonsense',
       de: 'Quatsch',
       es: 'tonterías',
-      tr: 'saçmalıklar'
+      tr: 'saçmalıklar',
+      te: 'అర్ధంలేని మాట'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['abstract']
@@ -6172,13 +6732,15 @@ export const nouns: GermanNoun[] = [
       en: 'rice',
       de: 'Reis',
       es: 'arroz',
-      tr: 'pirinç'
+      tr: 'pirinç',
+      te: 'బియ్యం'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food']
@@ -6194,13 +6756,15 @@ export const nouns: GermanNoun[] = [
       en: 'rices',
       de: 'Reis',
       es: 'arroces',
-      tr: 'pirinçler'
+      tr: 'pirinçler',
+      te: 'బియ్యం'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food']
@@ -6216,13 +6780,15 @@ export const nouns: GermanNoun[] = [
       en: 'backpack',
       de: 'Rucksack',
       es: 'mochila',
-      tr: 'sırt çantası'
+      tr: 'sırt çantası',
+      te: 'బ్యాక్‌ప్యాక్'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['clothing', 'household', 'travel']
@@ -6238,13 +6804,15 @@ export const nouns: GermanNoun[] = [
       en: 'backpacks',
       de: 'Rucksäcke',
       es: 'mochilas',
-      tr: 'sırt çantaları'
+      tr: 'sırt çantaları',
+      te: 'బ్యాక్‌ప్యాక్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['clothing', 'household', 'travel']
@@ -6260,13 +6828,15 @@ export const nouns: GermanNoun[] = [
       en: 'juice',
       de: 'Saft',
       es: 'zumo',
-      tr: 'meyve suyu'
+      tr: 'meyve suyu',
+      te: 'జ్యూస్'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['drink']
@@ -6282,13 +6852,15 @@ export const nouns: GermanNoun[] = [
       en: 'juices',
       de: 'Säfte',
       es: 'zumos',
-      tr: 'meyve suları'
+      tr: 'meyve suları',
+      te: 'జ్యూస్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['drink']
@@ -6304,13 +6876,15 @@ export const nouns: GermanNoun[] = [
       en: 'salad',
       de: 'Salat',
       es: 'ensalada',
-      tr: 'salata'
+      tr: 'salata',
+      te: 'సలాడ్'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food']
@@ -6326,13 +6900,15 @@ export const nouns: GermanNoun[] = [
       en: 'salads',
       de: 'Salate',
       es: 'ensaladas',
-      tr: 'salatalar'
+      tr: 'salatalar',
+      te: 'సలాడ్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food']
@@ -6348,13 +6924,15 @@ export const nouns: GermanNoun[] = [
       en: 'Saturday',
       de: 'Samstag',
       es: 'sábado',
-      tr: 'cumartesi'
+      tr: 'cumartesi',
+      te: 'శనివారం'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['dates', 'time']
@@ -6370,13 +6948,15 @@ export const nouns: GermanNoun[] = [
       en: 'Saturdays',
       de: 'Samstage',
       es: 'sábados',
-      tr: 'cumartesiler'
+      tr: 'cumartesiler',
+      te: 'శనివారాలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['dates', 'time']
@@ -6392,13 +6972,15 @@ export const nouns: GermanNoun[] = [
       en: 'singer',
       de: 'Sänger',
       es: 'cantante',
-      tr: 'şarkıcı'
+      tr: 'şarkıcı',
+      te: 'గాయకుడు'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['arts', 'leisure', 'music', 'people', 'professions', 'work']
@@ -6414,13 +6996,15 @@ export const nouns: GermanNoun[] = [
       en: 'singers',
       de: 'Sänger',
       es: 'cantantes',
-      tr: 'şarkıcılar'
+      tr: 'şarkıcılar',
+      te: 'గాయకులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['arts', 'leisure', 'music', 'people', 'professions', 'work']
@@ -6436,13 +7020,15 @@ export const nouns: GermanNoun[] = [
       en: 'sentence',
       de: 'Satz',
       es: 'frase',
-      tr: 'cümle'
+      tr: 'cümle',
+      te: 'వాక్యం'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['communication', 'education', 'language']
@@ -6458,13 +7044,15 @@ export const nouns: GermanNoun[] = [
       en: 'sentences',
       de: 'Sätze',
       es: 'frases',
-      tr: 'cümleler'
+      tr: 'cümleler',
+      te: 'వాక్యాలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['communication', 'education', 'language']
@@ -6480,13 +7068,15 @@ export const nouns: GermanNoun[] = [
       en: 'actor',
       de: 'Schauspieler',
       es: 'actor',
-      tr: 'oyuncu'
+      tr: 'oyuncu',
+      te: 'నటుడు'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['arts', 'leisure', 'people', 'professions', 'work']
@@ -6502,13 +7092,15 @@ export const nouns: GermanNoun[] = [
       en: 'actors',
       de: 'Schauspieler',
       es: 'actores',
-      tr: 'oyuncular'
+      tr: 'oyuncular',
+      te: 'నటులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['arts', 'leisure', 'people', 'professions', 'work']
@@ -6524,13 +7116,15 @@ export const nouns: GermanNoun[] = [
       en: 'ham',
       de: 'Schinken',
       es: 'jamón',
-      tr: 'jambon'
+      tr: 'jambon',
+      te: 'హామ్'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food']
@@ -6546,13 +7140,15 @@ export const nouns: GermanNoun[] = [
       en: 'hams',
       de: 'Schinken',
       es: 'jamones',
-      tr: 'jambonlar'
+      tr: 'jambonlar',
+      te: 'హామ్'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food']
@@ -6568,13 +7164,15 @@ export const nouns: GermanNoun[] = [
       en: 'umbrella',
       de: 'Schirm',
       es: 'paraguas',
-      tr: 'şemsiye'
+      tr: 'şemsiye',
+      te: 'గొడుగు'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['clothing', 'household']
@@ -6590,13 +7188,15 @@ export const nouns: GermanNoun[] = [
       en: 'umbrellas',
       de: 'Schirme',
       es: 'paraguas',
-      tr: 'şemsiyeler'
+      tr: 'şemsiyeler',
+      te: 'గొడుగులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['clothing', 'household']
@@ -6612,13 +7212,15 @@ export const nouns: GermanNoun[] = [
       en: 'key',
       de: 'Schlüssel',
       es: 'llave',
-      tr: 'anahtar'
+      tr: 'anahtar',
+      te: 'తాళం చెవి'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household']
@@ -6634,13 +7236,15 @@ export const nouns: GermanNoun[] = [
       en: 'keys',
       de: 'Schlüssel',
       es: 'llaves',
-      tr: 'anahtarlar'
+      tr: 'anahtarlar',
+      te: 'తాళం చెవులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household']
@@ -6656,13 +7260,15 @@ export const nouns: GermanNoun[] = [
       en: 'September',
       de: 'September',
       es: 'septiembre',
-      tr: 'eylül'
+      tr: 'eylül',
+      te: 'సెప్టెంబర్'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['dates', 'time']
@@ -6678,13 +7284,15 @@ export const nouns: GermanNoun[] = [
       en: 'Septembers',
       de: 'September',
       es: 'septiembres',
-      tr: 'eylüller'
+      tr: 'eylüller',
+      te: 'సెప్టెంబర్'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['dates', 'time']
@@ -6700,13 +7308,15 @@ export const nouns: GermanNoun[] = [
       en: 'single person',
       de: 'Single',
       es: 'soltero',
-      tr: 'bekar'
+      tr: 'bekar',
+      te: 'సింగిల్'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people']
@@ -6722,13 +7332,15 @@ export const nouns: GermanNoun[] = [
       en: 'single people',
       de: 'Singles',
       es: 'solteros',
-      tr: 'bekarlar'
+      tr: 'bekarlar',
+      te: 'సింగిల్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people']
@@ -6744,13 +7356,15 @@ export const nouns: GermanNoun[] = [
       en: 'son',
       de: 'Sohn',
       es: 'hijo',
-      tr: 'oğul'
+      tr: 'oğul',
+      te: 'కొడుకు'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['family', 'people']
@@ -6766,13 +7380,15 @@ export const nouns: GermanNoun[] = [
       en: 'sons',
       de: 'Söhne',
       es: 'hijos',
-      tr: 'oğullar'
+      tr: 'oğullar',
+      te: 'కొడుకులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['family', 'people']
@@ -6788,13 +7404,15 @@ export const nouns: GermanNoun[] = [
       en: 'summer',
       de: 'Sommer',
       es: 'verano',
-      tr: 'yaz'
+      tr: 'yaz',
+      te: 'వేసవి కాలం'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['nature', 'time', 'weather']
@@ -6810,13 +7428,15 @@ export const nouns: GermanNoun[] = [
       en: 'summers',
       de: 'Sommer',
       es: 'veranos',
-      tr: 'yazlar'
+      tr: 'yazlar',
+      te: 'వేసవి కాలాలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['nature', 'time', 'weather']
@@ -6832,13 +7452,15 @@ export const nouns: GermanNoun[] = [
       en: 'Sunday',
       de: 'Sonntag',
       es: 'domingo',
-      tr: 'pazar'
+      tr: 'pazar',
+      te: 'ఆదివారం'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['dates', 'time']
@@ -6854,13 +7476,15 @@ export const nouns: GermanNoun[] = [
       en: 'Sundays',
       de: 'Sonntage',
       es: 'domingos',
-      tr: 'pazarlar'
+      tr: 'pazarlar',
+      te: 'ఆదివారాలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['dates', 'time']
@@ -6876,13 +7500,15 @@ export const nouns: GermanNoun[] = [
       en: 'fun',
       de: 'Spaß',
       es: 'diversión',
-      tr: 'eğlence'
+      tr: 'eğlence',
+      te: 'సరదా'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['abstract', 'emotions', 'leisure']
@@ -6898,13 +7524,15 @@ export const nouns: GermanNoun[] = [
       en: 'fun',
       de: 'Spaß',
       es: 'diversiones',
-      tr: 'eğlenceler'
+      tr: 'eğlenceler',
+      te: 'సరదా'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['abstract', 'emotions', 'leisure']
@@ -6920,13 +7548,15 @@ export const nouns: GermanNoun[] = [
       en: 'player',
       de: 'Spieler',
       es: 'jugador',
-      tr: 'oyuncu'
+      tr: 'oyuncu',
+      te: 'ఆటగాడు'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['leisure', 'people', 'professions', 'sports']
@@ -6942,13 +7572,15 @@ export const nouns: GermanNoun[] = [
       en: 'players',
       de: 'Spieler',
       es: 'jugadores',
-      tr: 'oyuncular'
+      tr: 'oyuncular',
+      te: 'ఆటగాళ్ళు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['leisure', 'people', 'professions', 'sports']
@@ -6964,13 +7596,15 @@ export const nouns: GermanNoun[] = [
       en: 'sport',
       de: 'Sport',
       es: 'deporte',
-      tr: 'spor'
+      tr: 'spor',
+      te: 'క్రీడ'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['leisure', 'sports']
@@ -6986,13 +7620,15 @@ export const nouns: GermanNoun[] = [
       en: 'sports',
       de: 'Sport',
       es: 'deportes',
-      tr: 'sporlar'
+      tr: 'sporlar',
+      te: 'క్రీడలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['leisure', 'sports']
@@ -7008,13 +7644,15 @@ export const nouns: GermanNoun[] = [
       en: 'student',
       de: 'Student',
       es: 'estudiante',
-      tr: 'öğrenci'
+      tr: 'öğrenci',
+      te: 'విద్యార్థి'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['education', 'people', 'professions', 'work']
@@ -7030,13 +7668,15 @@ export const nouns: GermanNoun[] = [
       en: 'students',
       de: 'Studenten',
       es: 'estudiantes',
-      tr: 'öğrenciler'
+      tr: 'öğrenciler',
+      te: 'విద్యార్థులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['education', 'people', 'professions', 'work']
@@ -7052,13 +7692,15 @@ export const nouns: GermanNoun[] = [
       en: 'supermarket',
       de: 'Supermarkt',
       es: 'supermercado',
-      tr: 'süpermarket'
+      tr: 'süpermarket',
+      te: 'సూపర్‌మార్కెట్'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['locations', 'shopping', 'work']
@@ -7074,13 +7716,15 @@ export const nouns: GermanNoun[] = [
       en: 'supermarkets',
       de: 'Supermärkte',
       es: 'supermercados',
-      tr: 'süpermarketler'
+      tr: 'süpermarketler',
+      te: 'సూపర్‌మార్కెట్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['locations', 'shopping', 'work']
@@ -7096,13 +7740,15 @@ export const nouns: GermanNoun[] = [
       en: 'day',
       de: 'Tag',
       es: 'día',
-      tr: 'gün'
+      tr: 'gün',
+      te: 'రోజు'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['dates', 'time']
@@ -7118,13 +7764,15 @@ export const nouns: GermanNoun[] = [
       en: 'days',
       de: 'Tage',
       es: 'días',
-      tr: 'günler'
+      tr: 'günler',
+      te: 'రోజులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['dates', 'time']
@@ -7140,13 +7788,15 @@ export const nouns: GermanNoun[] = [
       en: 'taxi driver',
       de: 'Taxifahrer',
       es: 'taxista',
-      tr: 'taksi şoförü'
+      tr: 'taksi şoförü',
+      te: 'టాక్సీ డ్రైవర్'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'professions', 'transportation', 'work']
@@ -7162,13 +7812,15 @@ export const nouns: GermanNoun[] = [
       en: 'taxi drivers',
       de: 'Taxifahrer',
       es: 'taxistas',
-      tr: 'taksi şoförleri'
+      tr: 'taksi şoförleri',
+      te: 'టాక్సీ డ్రైవర్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'professions', 'transportation', 'work']
@@ -7184,13 +7836,15 @@ export const nouns: GermanNoun[] = [
       en: 'tea',
       de: 'Tee',
       es: 'té',
-      tr: 'çay'
+      tr: 'çay',
+      te: 'టీ'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['drink']
@@ -7206,13 +7860,15 @@ export const nouns: GermanNoun[] = [
       en: 'teas',
       de: 'Tees',
       es: 'tés',
-      tr: 'çaylar'
+      tr: 'çaylar',
+      te: 'టీలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['drink']
@@ -7228,13 +7884,15 @@ export const nouns: GermanNoun[] = [
       en: 'appointment',
       de: 'Termin',
       es: 'cita',
-      tr: 'randevu'
+      tr: 'randevu',
+      te: 'అపాయింట్‌మెంట్'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['abstract', 'time', 'work']
@@ -7250,13 +7908,15 @@ export const nouns: GermanNoun[] = [
       en: 'appointments',
       de: 'Termine',
       es: 'citas',
-      tr: 'randevular'
+      tr: 'randevular',
+      te: 'అపాయింట్‌మెంట్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['abstract', 'time', 'work']
@@ -7272,13 +7932,15 @@ export const nouns: GermanNoun[] = [
       en: 'text',
       de: 'Text',
       es: 'texto',
-      tr: 'metin'
+      tr: 'metin',
+      te: 'టెక్స్ట్'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['communication', 'documents', 'education', 'language']
@@ -7294,13 +7956,15 @@ export const nouns: GermanNoun[] = [
       en: 'texts',
       de: 'Texte',
       es: 'textos',
-      tr: 'metinler'
+      tr: 'metinler',
+      te: 'టెక్స్ట్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['communication', 'documents', 'education', 'language']
@@ -7316,13 +7980,15 @@ export const nouns: GermanNoun[] = [
       en: 'trainer',
       de: 'Trainer',
       es: 'entrenador',
-      tr: 'antrenör'
+      tr: 'antrenör',
+      te: 'శిక్షకుడు'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'professions', 'sports', 'work']
@@ -7338,13 +8004,15 @@ export const nouns: GermanNoun[] = [
       en: 'trainers',
       de: 'Trainer',
       es: 'entrenadores',
-      tr: 'antrenörler'
+      tr: 'antrenörler',
+      te: 'శిక్షకులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'professions', 'sports', 'work']
@@ -7360,13 +8028,15 @@ export const nouns: GermanNoun[] = [
       en: 'vacation',
       de: 'Urlaub',
       es: 'vacaciones',
-      tr: 'tatil'
+      tr: 'tatil',
+      te: 'సెలవు'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['leisure', 'travel']
@@ -7382,13 +8052,15 @@ export const nouns: GermanNoun[] = [
       en: 'vacations',
       de: 'Urlaube',
       es: 'vacaciones',
-      tr: 'tatiller'
+      tr: 'tatiller',
+      te: 'సెలవులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['leisure', 'travel']
@@ -7404,13 +8076,15 @@ export const nouns: GermanNoun[] = [
       en: 'father',
       de: 'Vater',
       es: 'padre',
-      tr: 'baba'
+      tr: 'baba',
+      te: 'తండ్రి'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['family', 'people']
@@ -7426,13 +8100,15 @@ export const nouns: GermanNoun[] = [
       en: 'fathers',
       de: 'Väter',
       es: 'padres',
-      tr: 'babalar'
+      tr: 'babalar',
+      te: 'తండ్రులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['family', 'people']
@@ -7448,13 +8124,15 @@ export const nouns: GermanNoun[] = [
       en: 'club',
       de: 'Verein',
       es: 'asociación',
-      tr: 'dernek'
+      tr: 'dernek',
+      te: 'సంఘం'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['leisure', 'locations', 'sports']
@@ -7470,13 +8148,15 @@ export const nouns: GermanNoun[] = [
       en: 'clubs',
       de: 'Vereine',
       es: 'asociaciones',
-      tr: 'dernekler'
+      tr: 'dernekler',
+      te: 'సంఘాలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['leisure', 'locations', 'sports']
@@ -7492,13 +8172,15 @@ export const nouns: GermanNoun[] = [
       en: 'salesperson',
       de: 'Verkäufer',
       es: 'vendedor',
-      tr: 'satıcı'
+      tr: 'satıcı',
+      te: 'విక్రేత'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'professions', 'shopping', 'work']
@@ -7514,13 +8196,15 @@ export const nouns: GermanNoun[] = [
       en: 'salespersons',
       de: 'Verkäufer',
       es: 'vendedores',
-      tr: 'satıcılar'
+      tr: 'satıcılar',
+      te: 'విక్రేతలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'professions', 'shopping', 'work']
@@ -7536,13 +8220,15 @@ export const nouns: GermanNoun[] = [
       en: 'morning',
       de: 'Vormittag',
       es: 'mañana',
-      tr: 'öğleden önce'
+      tr: 'öğleden önce',
+      te: 'పూర్వాహ్నం'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['time']
@@ -7558,13 +8244,15 @@ export const nouns: GermanNoun[] = [
       en: 'mornings',
       de: 'Vormittage',
       es: 'mañanas',
-      tr: 'öğleden önceler'
+      tr: 'öğleden önceler',
+      te: 'పూర్వాహ్నాలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['time']
@@ -7580,13 +8268,15 @@ export const nouns: GermanNoun[] = [
       en: 'first name',
       de: 'Vorname',
       es: 'nombre de pila',
-      tr: 'ad'
+      tr: 'ad',
+      te: 'మొదటి పేరు'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['communication', 'language', 'people', 'personal-info']
@@ -7602,13 +8292,15 @@ export const nouns: GermanNoun[] = [
       en: 'first names',
       de: 'Vornamen',
       es: 'nombres de pila',
-      tr: 'adlar'
+      tr: 'adlar',
+      te: 'మొదటి పేరులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['communication', 'language', 'people', 'personal-info']
@@ -7624,13 +8316,15 @@ export const nouns: GermanNoun[] = [
       en: 'winter',
       de: 'Winter',
       es: 'invierno',
-      tr: 'kış'
+      tr: 'kış',
+      te: 'శీతాకాలం'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['nature', 'time', 'weather']
@@ -7646,13 +8340,15 @@ export const nouns: GermanNoun[] = [
       en: 'winters',
       de: 'Winter',
       es: 'inviernos',
-      tr: 'kışlar'
+      tr: 'kışlar',
+      te: 'శీతాకాలాలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['nature', 'time', 'weather']
@@ -7668,13 +8364,15 @@ export const nouns: GermanNoun[] = [
       en: 'place of residence',
       de: 'Wohnort',
       es: 'lugar de residencia',
-      tr: 'ikamet yeri'
+      tr: 'ikamet yeri',
+      te: 'నివాస స్థలం'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['locations', 'personal-info', 'travel']
@@ -7690,13 +8388,15 @@ export const nouns: GermanNoun[] = [
       en: 'places of residence',
       de: 'Wohnorte',
       es: 'lugares de residencia',
-      tr: 'ikamet yerleri'
+      tr: 'ikamet yerleri',
+      te: 'నివాస స్థలాలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['locations', 'personal-info', 'travel']
@@ -7712,13 +8412,15 @@ export const nouns: GermanNoun[] = [
       en: 'dentist',
       de: 'Zahnarzt',
       es: 'dentista',
-      tr: 'dişçi'
+      tr: 'dişçi',
+      te: 'దంత వైద్యుడు'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['health', 'people', 'professions', 'work']
@@ -7734,13 +8436,15 @@ export const nouns: GermanNoun[] = [
       en: 'dentists',
       de: 'Zahnärzte',
       es: 'dentistas',
-      tr: 'dişçiler'
+      tr: 'dişçiler',
+      te: 'దంత వైద్యులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['health', 'people', 'professions', 'work']
@@ -7756,13 +8460,15 @@ export const nouns: GermanNoun[] = [
       en: 'address',
       de: 'Adresse',
       es: 'dirección',
-      tr: 'adres'
+      tr: 'adres',
+      te: 'చిరునామా'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['communication', 'locations', 'personal-info']
@@ -7778,13 +8484,15 @@ export const nouns: GermanNoun[] = [
       en: 'addresses',
       de: 'Adressen',
       es: 'direcciones',
-      tr: 'adresler'
+      tr: 'adresler',
+      te: 'చిరునామాలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['communication', 'locations', 'personal-info']
@@ -7800,13 +8508,15 @@ export const nouns: GermanNoun[] = [
       en: 'answer',
       de: 'Antwort',
       es: 'respuesta',
-      tr: 'cevap'
+      tr: 'cevap',
+      te: 'సమాధానం'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['abstract', 'communication', 'documents', 'education']
@@ -7822,13 +8532,15 @@ export const nouns: GermanNoun[] = [
       en: 'answers',
       de: 'Antworten',
       es: 'respuestas',
-      tr: 'cevaplar'
+      tr: 'cevaplar',
+      te: 'సమాధానాలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['abstract', 'communication', 'documents', 'education']
@@ -7844,13 +8556,15 @@ export const nouns: GermanNoun[] = [
       en: 'work',
       de: 'Arbeit',
       es: 'trabajo',
-      tr: 'iş'
+      tr: 'iş',
+      te: 'పని'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['abstract', 'work']
@@ -7866,13 +8580,15 @@ export const nouns: GermanNoun[] = [
       en: 'works',
       de: 'Arbeiten',
       es: 'trabajos',
-      tr: 'işler'
+      tr: 'işler',
+      te: 'పనులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['abstract', 'work']
@@ -7888,13 +8604,15 @@ export const nouns: GermanNoun[] = [
       en: 'female doctor',
       de: 'Ärztin',
       es: 'médica',
-      tr: 'kadın doktor'
+      tr: 'kadın doktor',
+      te: 'మహిళా డాక్టర్'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['health', 'people', 'professions', 'work']
@@ -7910,13 +8628,15 @@ export const nouns: GermanNoun[] = [
       en: 'female doctors',
       de: 'Ärztinnen',
       es: 'médicas',
-      tr: 'kadın doktorlar'
+      tr: 'kadın doktorlar',
+      te: 'మహిళా డాక్టర్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['health', 'people', 'professions', 'work']
@@ -7932,13 +8652,15 @@ export const nouns: GermanNoun[] = [
       en: 'training',
       de: 'Ausbildung',
       es: 'formación',
-      tr: 'eğitim'
+      tr: 'eğitim',
+      te: 'శిక్షణ'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['abstract', 'education', 'work']
@@ -7954,13 +8676,15 @@ export const nouns: GermanNoun[] = [
       en: 'trainings',
       de: 'Ausbildungen',
       es: 'formaciones',
-      tr: 'eğitimler'
+      tr: 'eğitimler',
+      te: 'శిక్షణలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['abstract', 'education', 'work']
@@ -7976,13 +8700,15 @@ export const nouns: GermanNoun[] = [
       en: 'banana',
       de: 'Banane',
       es: 'plátano',
-      tr: 'muz'
+      tr: 'muz',
+      te: 'అరటిపండు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food', 'nature']
@@ -7998,13 +8724,15 @@ export const nouns: GermanNoun[] = [
       en: 'bananas',
       de: 'Bananen',
       es: 'plátanos',
-      tr: 'muzlar'
+      tr: 'muzlar',
+      te: 'అరటిపళ్ళు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food', 'nature']
@@ -8020,13 +8748,15 @@ export const nouns: GermanNoun[] = [
       en: 'pear',
       de: 'Birne',
       es: 'pera',
-      tr: 'armut'
+      tr: 'armut',
+      te: 'పియర్'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food', 'nature']
@@ -8042,13 +8772,15 @@ export const nouns: GermanNoun[] = [
       en: 'pears',
       de: 'Birnen',
       es: 'peras',
-      tr: 'armutlar'
+      tr: 'armutlar',
+      te: 'పియర్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food', 'nature']
@@ -8064,13 +8796,15 @@ export const nouns: GermanNoun[] = [
       en: 'flower',
       de: 'Blume',
       es: 'flor',
-      tr: 'çiçek'
+      tr: 'çiçek',
+      te: 'పువ్వు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['nature']
@@ -8086,13 +8820,15 @@ export const nouns: GermanNoun[] = [
       en: 'flowers',
       de: 'Blumen',
       es: 'flores',
-      tr: 'çiçekler'
+      tr: 'çiçekler',
+      te: 'పువ్వులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['nature']
@@ -8108,13 +8844,15 @@ export const nouns: GermanNoun[] = [
       en: 'stamp',
       de: 'Briefmarke',
       es: 'sello',
-      tr: 'posta pulu'
+      tr: 'posta pulu',
+      te: 'తపాలా బిళ్ళ'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['communication', 'documents']
@@ -8130,13 +8868,15 @@ export const nouns: GermanNoun[] = [
       en: 'stamps',
       de: 'Briefmarken',
       es: 'sellos',
-      tr: 'posta pulları'
+      tr: 'posta pulları',
+      te: 'తపాలా బిళ్ళలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['communication', 'documents']
@@ -8152,13 +8892,15 @@ export const nouns: GermanNoun[] = [
       en: 'glasses',
       de: 'Brille',
       es: 'gafas',
-      tr: 'gözlük'
+      tr: 'gözlük',
+      te: 'కళ్ళజోడు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['clothing', 'household']
@@ -8174,13 +8916,15 @@ export const nouns: GermanNoun[] = [
       en: 'glasses',
       de: 'Brillen',
       es: 'gafas',
-      tr: 'gözlükler'
+      tr: 'gözlükler',
+      te: 'కళ్ళజోడులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['clothing', 'household']
@@ -8196,13 +8940,15 @@ export const nouns: GermanNoun[] = [
       en: 'butter',
       de: 'Butter',
       es: 'mantequilla',
-      tr: 'tereyağı'
+      tr: 'tereyağı',
+      te: 'వెన్న'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food']
@@ -8218,13 +8964,15 @@ export const nouns: GermanNoun[] = [
       en: 'butters',
       de: 'Butter',
       es: 'mantequillas',
-      tr: 'tereyağları'
+      tr: 'tereyağları',
+      te: 'వెన్న'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food']
@@ -8240,13 +8988,15 @@ export const nouns: GermanNoun[] = [
       en: 'female cousin',
       de: 'Cousine',
       es: 'prima',
-      tr: 'kız kuzen'
+      tr: 'kız kuzen',
+      te: 'కజిన్'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['family', 'people']
@@ -8262,13 +9012,15 @@ export const nouns: GermanNoun[] = [
       en: 'female cousins',
       de: 'Cousinen',
       es: 'primas',
-      tr: 'kız kuzenler'
+      tr: 'kız kuzenler',
+      te: 'కజిన్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['family', 'people']
@@ -8284,13 +9036,15 @@ export const nouns: GermanNoun[] = [
       en: 'can',
       de: 'Dose',
       es: 'lata',
-      tr: 'kutu'
+      tr: 'kutu',
+      te: 'డబ్బా'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household']
@@ -8306,13 +9060,15 @@ export const nouns: GermanNoun[] = [
       en: 'cans',
       de: 'Dosen',
       es: 'latas',
-      tr: 'kutular'
+      tr: 'kutular',
+      te: 'డబ్బాలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household']
@@ -8328,13 +9084,15 @@ export const nouns: GermanNoun[] = [
       en: 'email',
       de: 'E-Mail',
       es: 'correo electrónico',
-      tr: 'e-posta'
+      tr: 'e-posta',
+      te: 'ఇ-మెయిల్'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['communication', 'technology']
@@ -8350,13 +9108,15 @@ export const nouns: GermanNoun[] = [
       en: 'emails',
       de: 'E-Mails',
       es: 'correos electrónicos',
-      tr: 'e-postalar'
+      tr: 'e-postalar',
+      te: 'ఇ-మెయిల్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['communication', 'technology']
@@ -8372,13 +9132,15 @@ export const nouns: GermanNoun[] = [
       en: 'email address',
       de: 'E-Mail-Adresse',
       es: 'dirección de correo electrónico',
-      tr: 'e-posta adresi'
+      tr: 'e-posta adresi',
+      te: 'ఇ-మెయిల్ చిరునామా'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['communication', 'technology']
@@ -8394,13 +9156,15 @@ export const nouns: GermanNoun[] = [
       en: 'email addresses',
       de: 'E-Mail-Adressen',
       es: 'direcciones de correo electrónico',
-      tr: 'e-posta adresleri'
+      tr: 'e-posta adresleri',
+      te: 'ఇ-మెయిల్ చిరునామాలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['communication', 'technology']
@@ -8416,13 +9180,15 @@ export const nouns: GermanNoun[] = [
       en: 'female electronics technician',
       de: 'Elektronikerin',
       es: 'técnica electrónica',
-      tr: 'kadın elektronik teknisyeni'
+      tr: 'kadın elektronik teknisyeni',
+      te: 'మహిళా ఎలక్ట్రానిక్స్ టెక్నీషియన్'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'professions', 'work']
@@ -8438,13 +9204,15 @@ export const nouns: GermanNoun[] = [
       en: 'female electronics technicians',
       de: 'Elektronikerinnen',
       es: 'técnicas electrónicas',
-      tr: 'kadın elektronik teknisyenler'
+      tr: 'kadın elektronik teknisyenler',
+      te: 'మహిళా ఎలక్ట్రానిక్స్ టెక్నీషియన్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'professions', 'work']
@@ -8460,13 +9228,15 @@ export const nouns: GermanNoun[] = [
       en: 'parents',
       de: 'Eltern',
       es: 'padres',
-      tr: 'ebeveynler'
+      tr: 'ebeveynler',
+      te: 'తల్లిదండ్రులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['family', 'people']
@@ -8482,13 +9252,15 @@ export const nouns: GermanNoun[] = [
       en: 'parents',
       de: 'Eltern',
       es: 'padres',
-      tr: 'ebeveynler'
+      tr: 'ebeveynler',
+      te: 'తల్లిదండ్రులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['family', 'people']
@@ -8504,13 +9276,15 @@ export const nouns: GermanNoun[] = [
       en: 'granddaughter',
       de: 'Enkelin',
       es: 'nieta',
-      tr: 'kız torun'
+      tr: 'kız torun',
+      te: 'మనవరాలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['family', 'people']
@@ -8526,13 +9300,15 @@ export const nouns: GermanNoun[] = [
       en: 'granddaughters',
       de: 'Enkelinnen',
       es: 'nietas',
-      tr: 'kız torunlar'
+      tr: 'kız torunlar',
+      te: 'మనవరాళ్ళు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['family', 'people']
@@ -8548,13 +9324,15 @@ export const nouns: GermanNoun[] = [
       en: 'apology',
       de: 'Entschuldigung',
       es: 'disculpa',
-      tr: 'özür'
+      tr: 'özür',
+      te: 'క్షమాపణ'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['emotions']
@@ -8570,13 +9348,15 @@ export const nouns: GermanNoun[] = [
       en: 'apologies',
       de: 'Entschuldigungen',
       es: 'disculpas',
-      tr: 'özürler'
+      tr: 'özürler',
+      te: 'క్షమాపణలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['emotions']
@@ -8592,13 +9372,15 @@ export const nouns: GermanNoun[] = [
       en: 'family',
       de: 'Familie',
       es: 'familia',
-      tr: 'aile'
+      tr: 'aile',
+      te: 'కుటుంబం'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['family', 'people', 'personal-info']
@@ -8614,13 +9396,15 @@ export const nouns: GermanNoun[] = [
       en: 'families',
       de: 'Familien',
       es: 'familias',
-      tr: 'aileler'
+      tr: 'aileler',
+      te: 'కుటుంబాలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['family', 'people', 'personal-info']
@@ -8636,13 +9420,15 @@ export const nouns: GermanNoun[] = [
       en: 'color',
       de: 'Farbe',
       es: 'color',
-      tr: 'renk'
+      tr: 'renk',
+      te: 'రంగు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['abstract', 'arts']
@@ -8658,13 +9444,15 @@ export const nouns: GermanNoun[] = [
       en: 'colors',
       de: 'Farben',
       es: 'colores',
-      tr: 'renkler'
+      tr: 'renkler',
+      te: 'రంగులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['abstract', 'arts']
@@ -8680,13 +9468,15 @@ export const nouns: GermanNoun[] = [
       en: 'bottle',
       de: 'Flasche',
       es: 'botella',
-      tr: 'şişe'
+      tr: 'şişe',
+      te: 'సీసా'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household']
@@ -8702,13 +9492,15 @@ export const nouns: GermanNoun[] = [
       en: 'bottles',
       de: 'Flaschen',
       es: 'botellas',
-      tr: 'şişeler'
+      tr: 'şişeler',
+      te: 'సీసాలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household']
@@ -8724,13 +9516,15 @@ export const nouns: GermanNoun[] = [
       en: 'female photographer',
       de: 'Fotografin',
       es: 'fotógrafa',
-      tr: 'kadın fotoğrafçı'
+      tr: 'kadın fotoğrafçı',
+      te: 'మహిళా ఫోటోగ్రాఫర్'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['arts', 'people', 'professions', 'work']
@@ -8746,13 +9540,15 @@ export const nouns: GermanNoun[] = [
       en: 'female photographers',
       de: 'Fotografinnen',
       es: 'fotógrafas',
-      tr: 'kadın fotoğrafçılar'
+      tr: 'kadın fotoğrafçılar',
+      te: 'మహిళా ఫోటోగ్రాఫర్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['arts', 'people', 'professions', 'work']
@@ -8768,13 +9564,15 @@ export const nouns: GermanNoun[] = [
       en: 'question',
       de: 'Frage',
       es: 'pregunta',
-      tr: 'soru'
+      tr: 'soru',
+      te: 'ప్రశ్న'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['abstract', 'communication', 'documents', 'education']
@@ -8790,13 +9588,15 @@ export const nouns: GermanNoun[] = [
       en: 'questions',
       de: 'Fragen',
       es: 'preguntas',
-      tr: 'sorular'
+      tr: 'sorular',
+      te: 'ప్రశ్నలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['abstract', 'communication', 'documents', 'education']
@@ -8812,13 +9612,15 @@ export const nouns: GermanNoun[] = [
       en: 'woman',
       de: 'Frau',
       es: 'mujer',
-      tr: 'kadın'
+      tr: 'kadın',
+      te: 'స్త్రీ'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['family', 'people']
@@ -8834,13 +9636,15 @@ export const nouns: GermanNoun[] = [
       en: 'women',
       de: 'Frauen',
       es: 'mujeres',
-      tr: 'kadınlar'
+      tr: 'kadınlar',
+      te: 'స్త్రీలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['family', 'people']
@@ -8856,13 +9660,15 @@ export const nouns: GermanNoun[] = [
       en: 'free time',
       de: 'Freizeit',
       es: 'tiempo libre',
-      tr: 'boş zaman'
+      tr: 'boş zaman',
+      te: 'ఖాళీ సమయం'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['leisure']
@@ -8878,13 +9684,15 @@ export const nouns: GermanNoun[] = [
       en: 'free times',
       de: 'Freizeiten',
       es: 'tiempo libres',
-      tr: 'boş zamanlar'
+      tr: 'boş zamanlar',
+      te: 'ఖాళీ సమయాలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['leisure']
@@ -8900,13 +9708,15 @@ export const nouns: GermanNoun[] = [
       en: 'female friend',
       de: 'Freundin',
       es: 'amiga',
-      tr: 'kız arkadaş'
+      tr: 'kız arkadaş',
+      te: 'స్నేహితురాలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people']
@@ -8922,13 +9732,15 @@ export const nouns: GermanNoun[] = [
       en: 'female friends',
       de: 'Freundinnen',
       es: 'amigas',
-      tr: 'kız arkadaşlar'
+      tr: 'kız arkadaşlar',
+      te: 'స్నేహితురాళ్ళు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people']
@@ -8944,13 +9756,15 @@ export const nouns: GermanNoun[] = [
       en: 'female hairdresser',
       de: 'Friseurin',
       es: 'peluquera',
-      tr: 'kadın kuaför'
+      tr: 'kadın kuaför',
+      te: 'మహిళా హెయిర్ డ్రెస్సర్'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'professions', 'work']
@@ -8966,13 +9780,15 @@ export const nouns: GermanNoun[] = [
       en: 'female hairdressers',
       de: 'Friseurinnen',
       es: 'peluqueras',
-      tr: 'kadın kuaförler'
+      tr: 'kadın kuaförler',
+      te: 'మహిళా హెయిర్ డ్రెస్సర్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'professions', 'work']
@@ -8988,13 +9804,15 @@ export const nouns: GermanNoun[] = [
       en: 'siblings',
       de: 'Geschwister',
       es: 'hermanos',
-      tr: 'kardeşler'
+      tr: 'kardeşler',
+      te: 'తోబుట్టువులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['family', 'people']
@@ -9010,13 +9828,15 @@ export const nouns: GermanNoun[] = [
       en: 'siblings',
       de: 'Geschwister',
       es: 'hermanos',
-      tr: 'kardeşler'
+      tr: 'kardeşler',
+      te: 'తోబుట్టువులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['family', 'people']
@@ -9032,13 +9852,15 @@ export const nouns: GermanNoun[] = [
       en: 'guitar',
       de: 'Gitarre',
       es: 'guitarra',
-      tr: 'gitar'
+      tr: 'gitar',
+      te: 'గిటార్'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['arts', 'leisure', 'music']
@@ -9054,13 +9876,15 @@ export const nouns: GermanNoun[] = [
       en: 'guitars',
       de: 'Gitarren',
       es: 'guitarras',
-      tr: 'gitarlar'
+      tr: 'gitarlar',
+      te: 'గిటార్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['arts', 'leisure', 'music']
@@ -9076,13 +9900,15 @@ export const nouns: GermanNoun[] = [
       en: 'grandparents',
       de: 'Großeltern',
       es: 'abuelos',
-      tr: 'büyükanne ve büyükbaba'
+      tr: 'büyükanne ve büyükbaba',
+      te: 'తాతామామలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['family', 'people']
@@ -9098,13 +9924,15 @@ export const nouns: GermanNoun[] = [
       en: 'grandparents',
       de: 'Großeltern',
       es: 'abuelos',
-      tr: 'büyükanne ve büyükbabalar'
+      tr: 'büyükanne ve büyükbabalar',
+      te: 'తాతామామలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['family', 'people']
@@ -9120,13 +9948,15 @@ export const nouns: GermanNoun[] = [
       en: 'grandmother',
       de: 'Großmutter',
       es: 'abuela',
-      tr: 'büyükanne'
+      tr: 'büyükanne',
+      te: 'అమ్మమ్మ'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['family']
@@ -9142,13 +9972,15 @@ export const nouns: GermanNoun[] = [
       en: 'grandmothers',
       de: 'Großmütter',
       es: 'abuelas',
-      tr: 'büyükanneler'
+      tr: 'büyükanneler',
+      te: 'అమ్మమ్మలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['family']
@@ -9164,13 +9996,15 @@ export const nouns: GermanNoun[] = [
       en: 'group',
       de: 'Gruppe',
       es: 'grupo',
-      tr: 'grup'
+      tr: 'grup',
+      te: 'గుంపు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['abstract', 'people']
@@ -9186,13 +10020,15 @@ export const nouns: GermanNoun[] = [
       en: 'groups',
       de: 'Gruppen',
       es: 'grupos',
-      tr: 'gruplar'
+      tr: 'gruplar',
+      te: 'గుంపులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['abstract', 'people']
@@ -9208,13 +10044,15 @@ export const nouns: GermanNoun[] = [
       en: 'homework',
       de: 'Hausaufgabe',
       es: 'deberes',
-      tr: 'ev ödevi'
+      tr: 'ev ödevi',
+      te: 'హోంవర్క్'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['documents', 'education']
@@ -9230,13 +10068,15 @@ export const nouns: GermanNoun[] = [
       en: 'homework',
       de: 'Hausaufgaben',
       es: 'deberes',
-      tr: 'ev ödevleri'
+      tr: 'ev ödevleri',
+      te: 'హోంవర్క్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['documents', 'education']
@@ -9252,13 +10092,15 @@ export const nouns: GermanNoun[] = [
       en: 'housewife',
       de: 'Hausfrau',
       es: 'ama de casa',
-      tr: 'ev hanımı'
+      tr: 'ev hanımı',
+      te: 'గృహిణి'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['family', 'people', 'professions', 'work']
@@ -9274,13 +10116,15 @@ export const nouns: GermanNoun[] = [
       en: 'housewives',
       de: 'Hausfrauen',
       es: 'amas de casa',
-      tr: 'ev hanımları'
+      tr: 'ev hanımları',
+      te: 'గృహిణులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['family', 'people', 'professions', 'work']
@@ -9296,13 +10140,15 @@ export const nouns: GermanNoun[] = [
       en: 'house number',
       de: 'Hausnummer',
       es: 'número de casa',
-      tr: 'kapı numarası'
+      tr: 'kapı numarası',
+      te: 'ఇంటి నంబర్'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household', 'locations']
@@ -9318,13 +10164,15 @@ export const nouns: GermanNoun[] = [
       en: 'house numbers',
       de: 'Hausnummern',
       es: 'números de casa',
-      tr: 'kapı numaraları'
+      tr: 'kapı numaraları',
+      te: 'ఇంటి నంబర్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household', 'locations']
@@ -9340,13 +10188,15 @@ export const nouns: GermanNoun[] = [
       en: 'help',
       de: 'Hilfe',
       es: 'ayuda',
-      tr: 'yardım'
+      tr: 'yardım',
+      te: 'సహాయం'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['abstract']
@@ -9362,13 +10212,15 @@ export const nouns: GermanNoun[] = [
       en: 'help',
       de: 'Hilfen',
       es: 'ayudas',
-      tr: 'yardımlar'
+      tr: 'yardımlar',
+      te: 'సహాయాలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['abstract']
@@ -9384,13 +10236,15 @@ export const nouns: GermanNoun[] = [
       en: 'information',
       de: 'Information',
       es: 'información',
-      tr: 'bilgi'
+      tr: 'bilgi',
+      te: 'సమాచారం'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['abstract', 'communication']
@@ -9406,13 +10260,15 @@ export const nouns: GermanNoun[] = [
       en: 'information',
       de: 'Informationen',
       es: 'informaciones',
-      tr: 'bilgiler'
+      tr: 'bilgiler',
+      te: 'సమాచారాలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['abstract', 'communication']
@@ -9428,13 +10284,15 @@ export const nouns: GermanNoun[] = [
       en: 'female engineer',
       de: 'Ingenieurin',
       es: 'ingeniera',
-      tr: 'kadın mühendis'
+      tr: 'kadın mühendis',
+      te: 'మహిళా ఇంజనీర్'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'professions', 'work']
@@ -9450,13 +10308,15 @@ export const nouns: GermanNoun[] = [
       en: 'female engineers',
       de: 'Ingenieurinnen',
       es: 'ingenieras',
-      tr: 'kadın mühendisler'
+      tr: 'kadın mühendisler',
+      te: 'మహిళా ఇంజనీర్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'professions', 'work']
@@ -9472,13 +10332,15 @@ export const nouns: GermanNoun[] = [
       en: 'camera',
       de: 'Kamera',
       es: 'cámara',
-      tr: 'kamera'
+      tr: 'kamera',
+      te: 'కెమెరా'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['arts', 'household', 'technology']
@@ -9494,13 +10356,15 @@ export const nouns: GermanNoun[] = [
       en: 'cameras',
       de: 'Kameras',
       es: 'cámaras',
-      tr: 'kameralar'
+      tr: 'kameralar',
+      te: 'కెమెరాలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['arts', 'household', 'technology']
@@ -9516,13 +10380,15 @@ export const nouns: GermanNoun[] = [
       en: 'potato',
       de: 'Kartoffel',
       es: 'patata',
-      tr: 'patates'
+      tr: 'patates',
+      te: 'బంగాళాదుంప'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food', 'nature']
@@ -9538,13 +10404,15 @@ export const nouns: GermanNoun[] = [
       en: 'potatoes',
       de: 'Kartoffeln',
       es: 'patatas',
-      tr: 'patatesler'
+      tr: 'patatesler',
+      te: 'బంగాళాదుంపలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food', 'nature']
@@ -9560,13 +10428,15 @@ export const nouns: GermanNoun[] = [
       en: 'waitress',
       de: 'Kellnerin',
       es: 'camarera',
-      tr: 'garson kadın'
+      tr: 'garson kadın',
+      te: 'మహిళా వెయిటర్'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'professions', 'work']
@@ -9582,13 +10452,15 @@ export const nouns: GermanNoun[] = [
       en: 'waitresses',
       de: 'Kellnerinnen',
       es: 'camareras',
-      tr: 'garson kadınlar'
+      tr: 'garson kadınlar',
+      te: 'మహిళా వెయిటర్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'professions', 'work']
@@ -9604,13 +10476,15 @@ export const nouns: GermanNoun[] = [
       en: 'female cook',
       de: 'Köchin',
       es: 'cocinera',
-      tr: 'kadın aşçı'
+      tr: 'kadın aşçı',
+      te: 'మహిళా వంటమనిషి'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'professions', 'work']
@@ -9626,13 +10500,15 @@ export const nouns: GermanNoun[] = [
       en: 'female cooks',
       de: 'Köchinnen',
       es: 'cocineras',
-      tr: 'kadın aşçılar'
+      tr: 'kadın aşçılar',
+      te: 'మహిళా వంటమనుషులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'professions', 'work']
@@ -9648,13 +10524,15 @@ export const nouns: GermanNoun[] = [
       en: 'female colleague',
       de: 'Kollegin',
       es: 'compañera',
-      tr: 'kadın iş arkadaşı'
+      tr: 'kadın iş arkadaşı',
+      te: 'మహిళా సహోద్యోగి'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'work']
@@ -9670,13 +10548,15 @@ export const nouns: GermanNoun[] = [
       en: 'female colleagues',
       de: 'Kolleginnen',
       es: 'compañeras',
-      tr: 'kadın iş arkadaşları'
+      tr: 'kadın iş arkadaşları',
+      te: 'మహిళా సహోద్యోగులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'work']
@@ -9692,13 +10572,15 @@ export const nouns: GermanNoun[] = [
       en: 'female nurse',
       de: 'Krankenpflegerin',
       es: 'enfermera',
-      tr: 'hemşire'
+      tr: 'hemşire',
+      te: 'మహిళా నర్సు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['health', 'people', 'professions', 'work']
@@ -9714,13 +10596,15 @@ export const nouns: GermanNoun[] = [
       en: 'female nurses',
       de: 'Krankenpflegerinnen',
       es: 'enfermeras',
-      tr: 'hemşireler'
+      tr: 'hemşireler',
+      te: 'మహిళా నర్సులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['health', 'people', 'professions', 'work']
@@ -9736,13 +10620,15 @@ export const nouns: GermanNoun[] = [
       en: 'female customer',
       de: 'Kundin',
       es: 'clienta',
-      tr: 'kadın müşteri'
+      tr: 'kadın müşteri',
+      te: 'మహిళా కస్టమర్'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'professions', 'shopping', 'work']
@@ -9758,13 +10644,15 @@ export const nouns: GermanNoun[] = [
       en: 'female customers',
       de: 'Kundinnen',
       es: 'clientas',
-      tr: 'kadın müşteriler'
+      tr: 'kadın müşteriler',
+      te: 'మహిళా కస్టమర్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'professions', 'shopping', 'work']
@@ -9780,13 +10668,15 @@ export const nouns: GermanNoun[] = [
       en: 'female teacher',
       de: 'Lehrerin',
       es: 'profesora',
-      tr: 'kadın öğretmen'
+      tr: 'kadın öğretmen',
+      te: 'ఉపాధ్యాయిని'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['education', 'people', 'professions', 'work']
@@ -9802,13 +10692,15 @@ export const nouns: GermanNoun[] = [
       en: 'female teachers',
       de: 'Lehrerinnen',
       es: 'profesoras',
-      tr: 'kadın öğretmenler'
+      tr: 'kadın öğretmenler',
+      te: 'ఉపాధ్యాయినులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['education', 'people', 'professions', 'work']
@@ -9824,13 +10716,15 @@ export const nouns: GermanNoun[] = [
       en: 'team',
       de: 'Mannschaft',
       es: 'equipo',
-      tr: 'takım'
+      tr: 'takım',
+      te: 'జట్టు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['leisure', 'people', 'sports']
@@ -9846,13 +10740,15 @@ export const nouns: GermanNoun[] = [
       en: 'teams',
       de: 'Mannschaften',
       es: 'equipos',
-      tr: 'takımlar'
+      tr: 'takımlar',
+      te: 'జట్టులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['leisure', 'people', 'sports']
@@ -9868,13 +10764,15 @@ export const nouns: GermanNoun[] = [
       en: 'milk',
       de: 'Milch',
       es: 'leche',
-      tr: 'süt'
+      tr: 'süt',
+      te: 'పాలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['drink']
@@ -9890,13 +10788,15 @@ export const nouns: GermanNoun[] = [
       en: 'milks',
       de: 'Milch',
       es: 'leches',
-      tr: 'sütler'
+      tr: 'sütler',
+      te: 'పాలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['drink']
@@ -9912,13 +10812,15 @@ export const nouns: GermanNoun[] = [
       en: 'music',
       de: 'Musik',
       es: 'música',
-      tr: 'müzik'
+      tr: 'müzik',
+      te: 'సంగీతం'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['arts', 'leisure', 'music']
@@ -9934,13 +10836,15 @@ export const nouns: GermanNoun[] = [
       en: 'musics',
       de: 'Musik',
       es: 'músicas',
-      tr: 'müzikler'
+      tr: 'müzikler',
+      te: 'సంగీతం'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['arts', 'leisure', 'music']
@@ -9956,13 +10860,15 @@ export const nouns: GermanNoun[] = [
       en: 'mother',
       de: 'Mutter',
       es: 'madre',
-      tr: 'anne'
+      tr: 'anne',
+      te: 'తల్లి'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['family', 'people']
@@ -9978,13 +10884,15 @@ export const nouns: GermanNoun[] = [
       en: 'mothers',
       de: 'Mütter',
       es: 'madres',
-      tr: 'anneler'
+      tr: 'anneler',
+      te: 'తల్లులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['family', 'people']
@@ -10000,13 +10908,15 @@ export const nouns: GermanNoun[] = [
       en: 'female neighbor',
       de: 'Nachbarin',
       es: 'vecina',
-      tr: 'kadın komşu'
+      tr: 'kadın komşu',
+      te: 'పొరుగింటి స్త్రీ'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people']
@@ -10022,13 +10932,15 @@ export const nouns: GermanNoun[] = [
       en: 'female neighbors',
       de: 'Nachbarinnen',
       es: 'vecinas',
-      tr: 'kadın komşular'
+      tr: 'kadın komşular',
+      te: 'పొరుగింటి స్త్రీలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people']
@@ -10044,13 +10956,15 @@ export const nouns: GermanNoun[] = [
       en: 'night',
       de: 'Nacht',
       es: 'noche',
-      tr: 'gece'
+      tr: 'gece',
+      te: 'రాత్రి'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['time']
@@ -10066,13 +10980,15 @@ export const nouns: GermanNoun[] = [
       en: 'nights',
       de: 'Nächte',
       es: 'noches',
-      tr: 'geceler'
+      tr: 'geceler',
+      te: 'రాత్రులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['time']
@@ -10088,13 +11004,15 @@ export const nouns: GermanNoun[] = [
       en: 'number',
       de: 'Nummer',
       es: 'número',
-      tr: 'numara'
+      tr: 'numara',
+      te: 'సంఖ్య'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['documents', 'measurements', 'numbers']
@@ -10110,13 +11028,15 @@ export const nouns: GermanNoun[] = [
       en: 'numbers',
       de: 'Nummern',
       es: 'números',
-      tr: 'numaralar'
+      tr: 'numaralar',
+      te: 'సంఖ్యలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['documents', 'measurements', 'numbers']
@@ -10132,13 +11052,15 @@ export const nouns: GermanNoun[] = [
       en: 'opening time',
       de: 'Öffnungszeit',
       es: 'horario de apertura',
-      tr: 'açılış saati'
+      tr: 'açılış saati',
+      te: 'ప్రారంభ సమయం'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['time', 'work']
@@ -10154,13 +11076,15 @@ export const nouns: GermanNoun[] = [
       en: 'opening times',
       de: 'Öffnungszeiten',
       es: 'horarios de apertura',
-      tr: 'açılış saatleri'
+      tr: 'açılış saatleri',
+      te: 'ప్రారంభ సమయాలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['time', 'work']
@@ -10176,13 +11100,15 @@ export const nouns: GermanNoun[] = [
       en: 'grandma',
       de: 'Oma',
       es: 'abuela',
-      tr: 'nine'
+      tr: 'nine',
+      te: 'అమ్మమ్మ'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['family', 'people']
@@ -10198,13 +11124,15 @@ export const nouns: GermanNoun[] = [
       en: 'grandmas',
       de: 'Omas',
       es: 'abuelas',
-      tr: 'nineler'
+      tr: 'nineler',
+      te: 'అమ్మమ్మలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['family', 'people']
@@ -10220,13 +11148,15 @@ export const nouns: GermanNoun[] = [
       en: 'female partner',
       de: 'Partnerin',
       es: 'pareja',
-      tr: 'kadın partner'
+      tr: 'kadın partner',
+      te: 'మహిళా భాగస్వామి'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['family', 'people']
@@ -10242,13 +11172,15 @@ export const nouns: GermanNoun[] = [
       en: 'female partners',
       de: 'Partnerinnen',
       es: 'parejas',
-      tr: 'kadın partnerler'
+      tr: 'kadın partnerler',
+      te: 'మహిళా భాగస్వాముల'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['family', 'people']
@@ -10264,13 +11196,15 @@ export const nouns: GermanNoun[] = [
       en: 'break',
       de: 'Pause',
       es: 'pausa',
-      tr: 'mola'
+      tr: 'mola',
+      te: 'విరామం'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['time']
@@ -10286,13 +11220,15 @@ export const nouns: GermanNoun[] = [
       en: 'breaks',
       de: 'Pausen',
       es: 'pausas',
-      tr: 'molalar'
+      tr: 'molalar',
+      te: 'విరామాలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['time']
@@ -10308,13 +11244,15 @@ export const nouns: GermanNoun[] = [
       en: 'policewoman',
       de: 'Polizistin',
       es: 'policía',
-      tr: 'kadın polis'
+      tr: 'kadın polis',
+      te: 'మహిళా పోలీసు అధికారి'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'professions', 'work']
@@ -10330,13 +11268,15 @@ export const nouns: GermanNoun[] = [
       en: 'policewomen',
       de: 'Polizistinnen',
       es: 'policías',
-      tr: 'kadın polisler'
+      tr: 'kadın polisler',
+      te: 'మహిళా పోలీసు అధికారులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'professions', 'work']
@@ -10352,13 +11292,15 @@ export const nouns: GermanNoun[] = [
       en: 'postal code',
       de: 'Postleitzahl',
       es: 'código postal',
-      tr: 'posta kodu'
+      tr: 'posta kodu',
+      te: 'పిన్ కోడ్'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['documents', 'locations', 'personal-info']
@@ -10374,13 +11316,15 @@ export const nouns: GermanNoun[] = [
       en: 'postal codes',
       de: 'Postleitzahlen',
       es: 'códigos postales',
-      tr: 'posta kodları'
+      tr: 'posta kodları',
+      te: 'పిన్ కోడ్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['documents', 'locations', 'personal-info']
@@ -10396,13 +11340,15 @@ export const nouns: GermanNoun[] = [
       en: 'bill',
       de: 'Rechnung',
       es: 'factura',
-      tr: 'fatura'
+      tr: 'fatura',
+      te: 'బిల్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['documents', 'money', 'shopping']
@@ -10418,13 +11364,15 @@ export const nouns: GermanNoun[] = [
       en: 'bills',
       de: 'Rechnungen',
       es: 'facturas',
-      tr: 'faturalar'
+      tr: 'faturalar',
+      te: 'బిల్లులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['documents', 'money', 'shopping']
@@ -10440,13 +11388,15 @@ export const nouns: GermanNoun[] = [
       en: 'cream',
       de: 'Sahne',
       es: 'nata',
-      tr: 'krema'
+      tr: 'krema',
+      te: 'క్రీమ్'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food']
@@ -10462,13 +11412,15 @@ export const nouns: GermanNoun[] = [
       en: 'creams',
       de: 'Sahne',
       es: 'natas',
-      tr: 'kremalar'
+      tr: 'kremalar',
+      te: 'క్రీమ్'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food']
@@ -10484,13 +11436,15 @@ export const nouns: GermanNoun[] = [
       en: 'female singer',
       de: 'Sängerin',
       es: 'cantante',
-      tr: 'kadın şarkıcı'
+      tr: 'kadın şarkıcı',
+      te: 'గాయని'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['arts', 'leisure', 'music', 'people', 'professions', 'work']
@@ -10506,13 +11460,15 @@ export const nouns: GermanNoun[] = [
       en: 'female singers',
       de: 'Sängerinnen',
       es: 'cantantes',
-      tr: 'kadın şarkıcılar'
+      tr: 'kadın şarkıcılar',
+      te: 'గాయనులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['arts', 'leisure', 'music', 'people', 'professions', 'work']
@@ -10528,13 +11484,15 @@ export const nouns: GermanNoun[] = [
       en: 'actress',
       de: 'Schauspielerin',
       es: 'actriz',
-      tr: 'kadın oyuncu'
+      tr: 'kadın oyuncu',
+      te: 'నటి'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['arts', 'leisure', 'people', 'professions', 'work']
@@ -10550,13 +11508,15 @@ export const nouns: GermanNoun[] = [
       en: 'actresses',
       de: 'Schauspielerinnen',
       es: 'actrices',
-      tr: 'kadın oyuncular'
+      tr: 'kadın oyuncular',
+      te: 'నటులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['arts', 'leisure', 'people', 'professions', 'work']
@@ -10572,13 +11532,15 @@ export const nouns: GermanNoun[] = [
       en: 'scissors',
       de: 'Schere',
       es: 'tijeras',
-      tr: 'makas'
+      tr: 'makas',
+      te: 'కత్తెర'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household']
@@ -10594,13 +11556,15 @@ export const nouns: GermanNoun[] = [
       en: 'scissors',
       de: 'Scheren',
       es: 'tijeras',
-      tr: 'makaslar'
+      tr: 'makaslar',
+      te: 'కత్తెరలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household']
@@ -10616,13 +11580,15 @@ export const nouns: GermanNoun[] = [
       en: 'chocolate',
       de: 'Schokolade',
       es: 'chocolate',
-      tr: 'çikolata'
+      tr: 'çikolata',
+      te: 'చాక్లెట్'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food', 'shopping']
@@ -10638,13 +11604,15 @@ export const nouns: GermanNoun[] = [
       en: 'chocolates',
       de: 'Schokoladen',
       es: 'chocolates',
-      tr: 'çikolatalar'
+      tr: 'çikolatalar',
+      te: 'చాక్లెట్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food', 'shopping']
@@ -10660,13 +11628,15 @@ export const nouns: GermanNoun[] = [
       en: 'sister',
       de: 'Schwester',
       es: 'hermana',
-      tr: 'kız kardeş'
+      tr: 'kız kardeş',
+      te: 'సోదరి'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['family', 'people']
@@ -10682,13 +11652,15 @@ export const nouns: GermanNoun[] = [
       en: 'sisters',
       de: 'Schwestern',
       es: 'hermanas',
-      tr: 'kız kardeşler'
+      tr: 'kız kardeşler',
+      te: 'సోదరులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['family', 'people']
@@ -10704,13 +11676,15 @@ export const nouns: GermanNoun[] = [
       en: 'series',
       de: 'Serie',
       es: 'serie',
-      tr: 'dizi'
+      tr: 'dizi',
+      te: 'సిరీస్'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['arts', 'leisure']
@@ -10726,13 +11700,15 @@ export const nouns: GermanNoun[] = [
       en: 'series',
       de: 'Serien',
       es: 'series',
-      tr: 'diziler'
+      tr: 'diziler',
+      te: 'సిరీస్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['arts', 'leisure']
@@ -10748,13 +11724,15 @@ export const nouns: GermanNoun[] = [
       en: 'sun',
       de: 'Sonne',
       es: 'sol',
-      tr: 'güneş'
+      tr: 'güneş',
+      te: 'సూర్యుడు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['nature', 'weather']
@@ -10770,13 +11748,15 @@ export const nouns: GermanNoun[] = [
       en: 'suns',
       de: 'Sonnen',
       es: 'soles',
-      tr: 'güneşler'
+      tr: 'güneşler',
+      te: 'సూర్యుడులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['nature', 'weather']
@@ -10792,13 +11772,15 @@ export const nouns: GermanNoun[] = [
       en: 'female player',
       de: 'Spielerin',
       es: 'jugadora',
-      tr: 'kadın oyuncu'
+      tr: 'kadın oyuncu',
+      te: 'మహిళా ఆటగత్తె'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['leisure', 'people', 'professions', 'sports']
@@ -10814,13 +11796,15 @@ export const nouns: GermanNoun[] = [
       en: 'female players',
       de: 'Spielerinnen',
       es: 'jugadoras',
-      tr: 'kadın oyuncular'
+      tr: 'kadın oyuncular',
+      te: 'మహిళా ఆటగత్తెలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['leisure', 'people', 'professions', 'sports']
@@ -10836,13 +11820,15 @@ export const nouns: GermanNoun[] = [
       en: 'language',
       de: 'Sprache',
       es: 'idioma',
-      tr: 'dil'
+      tr: 'dil',
+      te: 'భాష'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['communication', 'education', 'language']
@@ -10858,13 +11844,15 @@ export const nouns: GermanNoun[] = [
       en: 'languages',
       de: 'Sprachen',
       es: 'idiomas',
-      tr: 'diller'
+      tr: 'diller',
+      te: 'భాషలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['communication', 'education', 'language']
@@ -10880,13 +11868,15 @@ export const nouns: GermanNoun[] = [
       en: 'street',
       de: 'Straße',
       es: 'calle',
-      tr: 'sokak'
+      tr: 'sokak',
+      te: 'వీధి'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['locations']
@@ -10902,13 +11892,15 @@ export const nouns: GermanNoun[] = [
       en: 'streets',
       de: 'Straßen',
       es: 'calles',
-      tr: 'sokaklar'
+      tr: 'sokaklar',
+      te: 'వీధులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['locations']
@@ -10924,13 +11916,15 @@ export const nouns: GermanNoun[] = [
       en: 'female student',
       de: 'Studentin',
       es: 'estudiante',
-      tr: 'kadın öğrenci'
+      tr: 'kadın öğrenci',
+      te: 'మహిళా విద్యార్థి'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['education', 'work']
@@ -10946,13 +11940,15 @@ export const nouns: GermanNoun[] = [
       en: 'female students',
       de: 'Studentinnen',
       es: 'estudiantes',
-      tr: 'kadın öğrenciler'
+      tr: 'kadın öğrenciler',
+      te: 'మహిళా విద్యార్థులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['education', 'work']
@@ -10968,13 +11964,15 @@ export const nouns: GermanNoun[] = [
       en: 'hour',
       de: 'Stunde',
       es: 'hora',
-      tr: 'saat'
+      tr: 'saat',
+      te: 'గంట'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['time']
@@ -10990,13 +11988,15 @@ export const nouns: GermanNoun[] = [
       en: 'hours',
       de: 'Stunden',
       es: 'horas',
-      tr: 'saatler'
+      tr: 'saatler',
+      te: 'గంటలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['time']
@@ -11012,13 +12012,15 @@ export const nouns: GermanNoun[] = [
       en: 'soup',
       de: 'Suppe',
       es: 'sopa',
-      tr: 'çorba'
+      tr: 'çorba',
+      te: 'సూప్'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food']
@@ -11034,13 +12036,15 @@ export const nouns: GermanNoun[] = [
       en: 'soups',
       de: 'Suppen',
       es: 'sopas',
-      tr: 'çorbalar'
+      tr: 'çorbalar',
+      te: 'సూప్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food']
@@ -11056,13 +12060,15 @@ export const nouns: GermanNoun[] = [
       en: 'aunt',
       de: 'Tante',
       es: 'tía',
-      tr: 'teyze'
+      tr: 'teyze',
+      te: 'అత్త'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['family', 'people']
@@ -11078,13 +12084,15 @@ export const nouns: GermanNoun[] = [
       en: 'aunts',
       de: 'Tanten',
       es: 'tías',
-      tr: 'teyzeler'
+      tr: 'teyzeler',
+      te: 'అత్తలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['family', 'people']
@@ -11100,13 +12108,15 @@ export const nouns: GermanNoun[] = [
       en: 'bag',
       de: 'Tasche',
       es: 'bolsa',
-      tr: 'çanta'
+      tr: 'çanta',
+      te: 'సంచి'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['clothing', 'household', 'shopping']
@@ -11122,13 +12132,15 @@ export const nouns: GermanNoun[] = [
       en: 'bags',
       de: 'Taschen',
       es: 'bolsas',
-      tr: 'çantalar'
+      tr: 'çantalar',
+      te: 'సంచిలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['clothing', 'household', 'shopping']
@@ -11144,13 +12156,15 @@ export const nouns: GermanNoun[] = [
       en: 'cup',
       de: 'Tasse',
       es: 'taza',
-      tr: 'fincan'
+      tr: 'fincan',
+      te: 'కప్పు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household']
@@ -11166,13 +12180,15 @@ export const nouns: GermanNoun[] = [
       en: 'cups',
       de: 'Tassen',
       es: 'tazas',
-      tr: 'fincanlar'
+      tr: 'fincanlar',
+      te: 'కప్పులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household']
@@ -11188,13 +12204,15 @@ export const nouns: GermanNoun[] = [
       en: 'female taxi driver',
       de: 'Taxifahrerin',
       es: 'taxista',
-      tr: 'kadın taksi şoförü'
+      tr: 'kadın taksi şoförü',
+      te: 'మహిళా టాక్సీ డ్రైవర్'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'professions', 'transportation', 'work']
@@ -11210,13 +12228,15 @@ export const nouns: GermanNoun[] = [
       en: 'female taxi drivers',
       de: 'Taxifahrerinnen',
       es: 'taxistas',
-      tr: 'kadın taksi şoförleri'
+      tr: 'kadın taksi şoförleri',
+      te: 'మహిళా టాక్సీ డ్రైవర్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'professions', 'transportation', 'work']
@@ -11232,13 +12252,15 @@ export const nouns: GermanNoun[] = [
       en: 'phone number',
       de: 'Telefonnummer',
       es: 'número de teléfono',
-      tr: 'telefon numarası'
+      tr: 'telefon numarası',
+      te: 'ఫోన్ నంబర్'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['communication', 'personal-info']
@@ -11254,13 +12276,15 @@ export const nouns: GermanNoun[] = [
       en: 'phone numbers',
       de: 'Telefonnummern',
       es: 'números de teléfono',
-      tr: 'telefon numaraları'
+      tr: 'telefon numaraları',
+      te: 'ఫోన్ నంబర్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['communication', 'personal-info']
@@ -11276,13 +12300,15 @@ export const nouns: GermanNoun[] = [
       en: 'temperature',
       de: 'Temperatur',
       es: 'temperatura',
-      tr: 'sıcaklık'
+      tr: 'sıcaklık',
+      te: 'ఉష్ణోగ్రత'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['health', 'measurements', 'nature', 'weather']
@@ -11298,13 +12324,15 @@ export const nouns: GermanNoun[] = [
       en: 'temperatures',
       de: 'Temperaturen',
       es: 'temperaturas',
-      tr: 'sıcaklıklar'
+      tr: 'sıcaklıklar',
+      te: 'ఉష్ణోగ్రతలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['health', 'measurements', 'nature', 'weather']
@@ -11320,13 +12348,15 @@ export const nouns: GermanNoun[] = [
       en: 'daughter',
       de: 'Tochter',
       es: 'hija',
-      tr: 'kız evlat'
+      tr: 'kız evlat',
+      te: 'కూతురు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['family', 'people']
@@ -11342,13 +12372,15 @@ export const nouns: GermanNoun[] = [
       en: 'daughters',
       de: 'Töchter',
       es: 'hijas',
-      tr: 'kız evlatlar'
+      tr: 'kız evlatlar',
+      te: 'కూతుళ్ళు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['family', 'people']
@@ -11364,13 +12396,15 @@ export const nouns: GermanNoun[] = [
       en: 'tomato',
       de: 'Tomate',
       es: 'tomate',
-      tr: 'domates'
+      tr: 'domates',
+      te: 'టమాటా'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food', 'nature']
@@ -11386,13 +12420,15 @@ export const nouns: GermanNoun[] = [
       en: 'tomatoes',
       de: 'Tomaten',
       es: 'tomates',
-      tr: 'domatesler'
+      tr: 'domatesler',
+      te: 'టమాటాలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food', 'nature']
@@ -11408,13 +12444,15 @@ export const nouns: GermanNoun[] = [
       en: 'female trainer',
       de: 'Trainerin',
       es: 'entrenadora',
-      tr: 'kadın antrenör'
+      tr: 'kadın antrenör',
+      te: 'మహిళా శిక్షకురాలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'professions', 'sports', 'work']
@@ -11430,13 +12468,15 @@ export const nouns: GermanNoun[] = [
       en: 'female trainers',
       de: 'Trainerinnen',
       es: 'entrenadoras',
-      tr: 'kadın antrenörler'
+      tr: 'kadın antrenörler',
+      te: 'మహిళా శిక్షకురాళ్ళు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'professions', 'sports', 'work']
@@ -11452,13 +12492,15 @@ export const nouns: GermanNoun[] = [
       en: 'bag',
       de: 'Tüte',
       es: 'bolsa',
-      tr: 'poşet'
+      tr: 'poşet',
+      te: 'సంచి'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household', 'shopping']
@@ -11474,13 +12516,15 @@ export const nouns: GermanNoun[] = [
       en: 'bags',
       de: 'Tüten',
       es: 'bolsas',
-      tr: 'poşetler'
+      tr: 'poşetler',
+      te: 'సంచిలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household', 'shopping']
@@ -11496,13 +12540,15 @@ export const nouns: GermanNoun[] = [
       en: 'clock',
       de: 'Uhr',
       es: 'reloj',
-      tr: 'saat'
+      tr: 'saat',
+      te: 'గడియారం'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household', 'time']
@@ -11518,13 +12564,15 @@ export const nouns: GermanNoun[] = [
       en: 'clocks',
       de: 'Uhren',
       es: 'relojes',
-      tr: 'saatler'
+      tr: 'saatler',
+      te: 'గడియారాలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household', 'time']
@@ -11540,13 +12588,15 @@ export const nouns: GermanNoun[] = [
       en: 'signature',
       de: 'Unterschrift',
       es: 'firma',
-      tr: 'imza'
+      tr: 'imza',
+      te: 'సంతకం'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['communication', 'documents', 'personal-info']
@@ -11562,13 +12612,15 @@ export const nouns: GermanNoun[] = [
       en: 'signatures',
       de: 'Unterschriften',
       es: 'firmas',
-      tr: 'imzalar'
+      tr: 'imzalar',
+      te: 'సంతకాలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['communication', 'documents', 'personal-info']
@@ -11584,13 +12636,15 @@ export const nouns: GermanNoun[] = [
       en: 'saleswoman',
       de: 'Verkäuferin',
       es: 'vendedora',
-      tr: 'kadın satıcı'
+      tr: 'kadın satıcı',
+      te: 'మహిళా విక్రేత'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'professions', 'shopping', 'work']
@@ -11606,13 +12660,15 @@ export const nouns: GermanNoun[] = [
       en: 'saleswomen',
       de: 'Verkäuferinnen',
       es: 'vendedoras',
-      tr: 'kadın satıcılar'
+      tr: 'kadın satıcılar',
+      te: 'మహిళా విక్రేతలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'professions', 'shopping', 'work']
@@ -11628,13 +12684,15 @@ export const nouns: GermanNoun[] = [
       en: 'apartment',
       de: 'Wohnung',
       es: 'vivienda',
-      tr: 'daire'
+      tr: 'daire',
+      te: 'అపార్ట్‌మెంట్'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household', 'locations']
@@ -11650,13 +12708,15 @@ export const nouns: GermanNoun[] = [
       en: 'apartments',
       de: 'Wohnungen',
       es: 'viviendas',
-      tr: 'daireler'
+      tr: 'daireler',
+      te: 'అపార్ట్‌మెంట్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household', 'locations']
@@ -11672,13 +12732,15 @@ export const nouns: GermanNoun[] = [
       en: 'sausage',
       de: 'Wurst',
       es: 'salchicha',
-      tr: 'sosis'
+      tr: 'sosis',
+      te: 'సాసేజ్'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food']
@@ -11694,13 +12756,15 @@ export const nouns: GermanNoun[] = [
       en: 'sausages',
       de: 'Würste',
       es: 'salchichas',
-      tr: 'sosisler'
+      tr: 'sosisler',
+      te: 'సాసేజ్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['food']
@@ -11716,13 +12780,15 @@ export const nouns: GermanNoun[] = [
       en: 'number',
       de: 'Zahl',
       es: 'número',
-      tr: 'sayı'
+      tr: 'sayı',
+      te: 'సంఖ్య'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['measurements', 'numbers']
@@ -11738,13 +12804,15 @@ export const nouns: GermanNoun[] = [
       en: 'numbers',
       de: 'Zahlen',
       es: 'números',
-      tr: 'sayılar'
+      tr: 'sayılar',
+      te: 'సంఖ్యలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['measurements', 'numbers']
@@ -11760,13 +12828,15 @@ export const nouns: GermanNoun[] = [
       en: 'female dentist',
       de: 'Zahnärztin',
       es: 'dentista',
-      tr: 'kadın dişçi'
+      tr: 'kadın dişçi',
+      te: 'మహిళా దంత వైద్యురాలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['health', 'people', 'professions', 'work']
@@ -11782,13 +12852,15 @@ export const nouns: GermanNoun[] = [
       en: 'female dentists',
       de: 'Zahnärztinnen',
       es: 'dentistas',
-      tr: 'kadın dişçiler'
+      tr: 'kadın dişçiler',
+      te: 'మహిళా దంత వైద్యురాళ్ళు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['health', 'people', 'professions', 'work']
@@ -11804,13 +12876,15 @@ export const nouns: GermanNoun[] = [
       en: 'time',
       de: 'Zeit',
       es: 'tiempo',
-      tr: 'zaman'
+      tr: 'zaman',
+      te: 'సమయం'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['abstract', 'time']
@@ -11826,13 +12900,15 @@ export const nouns: GermanNoun[] = [
       en: 'times',
       de: 'Zeiten',
       es: 'tiempos',
-      tr: 'zamanlar'
+      tr: 'zamanlar',
+      te: 'సమయాలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['abstract', 'time']
@@ -11848,13 +12924,15 @@ export const nouns: GermanNoun[] = [
       en: 'newspaper',
       de: 'Zeitung',
       es: 'periódico',
-      tr: 'gazete'
+      tr: 'gazete',
+      te: 'వార్తాపత్రిక'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['communication', 'documents']
@@ -11870,13 +12948,15 @@ export const nouns: GermanNoun[] = [
       en: 'newspapers',
       de: 'Zeitungen',
       es: 'periódicos',
-      tr: 'gazeteler'
+      tr: 'gazeteler',
+      te: 'వార్తాపత్రికలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['communication', 'documents']
@@ -11893,13 +12973,15 @@ export const nouns: GermanNoun[] = [
       en: 'money',
       de: 'Geld',
       es: 'dinero',
-      tr: 'para'
+      tr: 'para',
+      te: 'డబ్బు'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['money', 'shopping']
@@ -11915,13 +12997,15 @@ export const nouns: GermanNoun[] = [
       en: 'picture / image',
       de: 'Bild',
       es: 'imagen / foto',
-      tr: 'resim'
+      tr: 'resim',
+      te: 'చిత్రం'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['arts']
@@ -11937,13 +13021,15 @@ export const nouns: GermanNoun[] = [
       en: 'pictures / images',
       de: 'Bilder',
       es: 'imágenes / fotos',
-      tr: 'resimler'
+      tr: 'resimler',
+      te: 'చిత్రాలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['arts']
@@ -11959,13 +13045,15 @@ export const nouns: GermanNoun[] = [
       en: 'center',
       de: 'Zentrum',
       es: 'centro',
-      tr: 'merkez'
+      tr: 'merkez',
+      te: 'కేంద్రం'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['locations']
@@ -11981,13 +13069,15 @@ export const nouns: GermanNoun[] = [
       en: 'centers',
       de: 'Zentren',
       es: 'centros',
-      tr: 'merkezler'
+      tr: 'merkezler',
+      te: 'కేంద్రాలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['locations']
@@ -12003,13 +13093,15 @@ export const nouns: GermanNoun[] = [
       en: 'luck / happiness',
       de: 'Glück',
       es: 'suerte / felicidad',
-      tr: 'şans / mutluluk'
+      tr: 'şans / mutluluk',
+      te: 'అదృష్టం'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['abstract', 'emotions']
@@ -12025,13 +13117,15 @@ export const nouns: GermanNoun[] = [
       en: 'hair',
       de: 'Haar',
       es: 'cabello',
-      tr: 'saç'
+      tr: 'saç',
+      te: 'జుట్టు'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['body']
@@ -12047,13 +13141,15 @@ export const nouns: GermanNoun[] = [
       en: 'hairs',
       de: 'Haare',
       es: 'cabellos',
-      tr: 'saçlar'
+      tr: 'saçlar',
+      te: 'జుట్టులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['body']
@@ -12069,13 +13165,15 @@ export const nouns: GermanNoun[] = [
       en: 'concert',
       de: 'Konzert',
       es: 'concierto',
-      tr: 'konser'
+      tr: 'konser',
+      te: 'కచేరీ'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['arts', 'leisure', 'music']
@@ -12091,13 +13189,15 @@ export const nouns: GermanNoun[] = [
       en: 'concerts',
       de: 'Konzerte',
       es: 'conciertos',
-      tr: 'konserler'
+      tr: 'konserler',
+      te: 'కచేరీలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['arts', 'leisure', 'music']
@@ -12113,13 +13213,15 @@ export const nouns: GermanNoun[] = [
       en: 'bad luck',
       de: 'Pech',
       es: 'mala suerte',
-      tr: 'şanssızlık'
+      tr: 'şanssızlık',
+      te: 'దురదృష్టం'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['abstract', 'emotions']
@@ -12135,13 +13237,15 @@ export const nouns: GermanNoun[] = [
       en: 'high school diploma',
       de: 'Abitur',
       es: 'bachillerato',
-      tr: 'lise diploması'
+      tr: 'lise diploması',
+      te: 'డిప్లొమా'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['documents', 'education']
@@ -12157,13 +13261,15 @@ export const nouns: GermanNoun[] = [
       en: 'problem',
       de: 'Problem',
       es: 'problema',
-      tr: 'problem'
+      tr: 'problem',
+      te: 'సమస్య'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['abstract']
@@ -12179,13 +13285,15 @@ export const nouns: GermanNoun[] = [
       en: 'problems',
       de: 'Probleme',
       es: 'problemas',
-      tr: 'problemler'
+      tr: 'problemler',
+      te: 'సమస్యలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['abstract']
@@ -12201,13 +13309,15 @@ export const nouns: GermanNoun[] = [
       en: 'museum',
       de: 'Museum',
       es: 'museo',
-      tr: 'müze'
+      tr: 'müze',
+      te: 'మ్యూజియం'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['arts', 'leisure', 'locations']
@@ -12223,13 +13333,15 @@ export const nouns: GermanNoun[] = [
       en: 'museums',
       de: 'Museen',
       es: 'museos',
-      tr: 'müzeler'
+      tr: 'müzeler',
+      te: 'మ్యూజియాలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['arts', 'leisure', 'locations']
@@ -12245,13 +13357,15 @@ export const nouns: GermanNoun[] = [
       en: 'guest',
       de: 'Gast',
       es: 'invitado / huésped',
-      tr: 'misafir'
+      tr: 'misafir',
+      te: 'అతిథి'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'travel']
@@ -12267,13 +13381,15 @@ export const nouns: GermanNoun[] = [
       en: 'guests',
       de: 'Gäste',
       es: 'invitados / huéspedes',
-      tr: 'misafirler'
+      tr: 'misafirler',
+      te: 'అతిథులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'travel']
@@ -12289,13 +13405,15 @@ export const nouns: GermanNoun[] = [
       en: 'airport',
       de: 'Flughafen',
       es: 'aeropuerto',
-      tr: 'havaalanı'
+      tr: 'havaalanı',
+      te: 'విమానాశ్రయం'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['locations', 'transportation', 'travel']
@@ -12311,13 +13429,15 @@ export const nouns: GermanNoun[] = [
       en: 'airports',
       de: 'Flughäfen',
       es: 'aeropuertos',
-      tr: 'havaalanları'
+      tr: 'havaalanları',
+      te: 'విమానాశ్రయాలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['locations', 'transportation', 'travel']
@@ -12333,13 +13453,15 @@ export const nouns: GermanNoun[] = [
       en: 'traffic',
       de: 'Verkehr',
       es: 'tráfico',
-      tr: 'trafik'
+      tr: 'trafik',
+      te: 'ట్రాఫిక్'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['transportation', 'travel']
@@ -12355,13 +13477,15 @@ export const nouns: GermanNoun[] = [
       en: 'club',
       de: 'Club',
       es: 'club',
-      tr: 'kulüp'
+      tr: 'kulüp',
+      te: 'క్లబ్'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['leisure', 'locations']
@@ -12377,13 +13501,15 @@ export const nouns: GermanNoun[] = [
       en: 'clubs',
       de: 'Clubs',
       es: 'clubes',
-      tr: 'kulüpler'
+      tr: 'kulüpler',
+      te: 'క్లబ్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['leisure', 'locations']
@@ -12399,13 +13525,15 @@ export const nouns: GermanNoun[] = [
       en: 'walk / stroll',
       de: 'Spaziergang',
       es: 'paseo / caminata',
-      tr: 'yürüyüş'
+      tr: 'yürüyüş',
+      te: 'నడక'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['leisure']
@@ -12421,13 +13549,15 @@ export const nouns: GermanNoun[] = [
       en: 'walks / strolls',
       de: 'Spaziergänge',
       es: 'paseos / caminatas',
-      tr: 'yürüyüşler'
+      tr: 'yürüyüşler',
+      te: 'నడకలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['leisure']
@@ -12443,13 +13573,15 @@ export const nouns: GermanNoun[] = [
       en: 'kilometer',
       de: 'Kilometer',
       es: 'kilómetro',
-      tr: 'kilometre'
+      tr: 'kilometre',
+      te: 'కిలోమీటరు'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['measurements']
@@ -12465,13 +13597,15 @@ export const nouns: GermanNoun[] = [
       en: 'kilometers',
       de: 'Kilometer',
       es: 'kilómetros',
-      tr: 'kilometreler'
+      tr: 'kilometreler',
+      te: 'కిలోమీటర్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['measurements']
@@ -12487,13 +13621,15 @@ export const nouns: GermanNoun[] = [
       en: 'meter',
       de: 'Meter',
       es: 'metro',
-      tr: 'metre'
+      tr: 'metre',
+      te: 'మీటరు'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['measurements']
@@ -12509,13 +13645,15 @@ export const nouns: GermanNoun[] = [
       en: 'meters',
       de: 'Meter',
       es: 'metros',
-      tr: 'metreler'
+      tr: 'metreler',
+      te: 'మీటర్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['measurements']
@@ -12531,13 +13669,15 @@ export const nouns: GermanNoun[] = [
       en: 'trip / excursion',
       de: 'Ausflug',
       es: 'excursión',
-      tr: 'gezi'
+      tr: 'gezi',
+      te: 'యాత్ర'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['leisure', 'travel']
@@ -12553,13 +13693,15 @@ export const nouns: GermanNoun[] = [
       en: 'trips / excursions',
       de: 'Ausflüge',
       es: 'excursiones',
-      tr: 'geziler'
+      tr: 'geziler',
+      te: 'యాత్రలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['leisure', 'travel']
@@ -12575,13 +13717,15 @@ export const nouns: GermanNoun[] = [
       en: 'park',
       de: 'Park',
       es: 'parque',
-      tr: 'park'
+      tr: 'park',
+      te: 'పార్కు'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['leisure', 'locations', 'nature']
@@ -12597,13 +13741,15 @@ export const nouns: GermanNoun[] = [
       en: 'parks',
       de: 'Parks',
       es: 'parques',
-      tr: 'parklar'
+      tr: 'parklar',
+      te: 'పార్కులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['leisure', 'locations', 'nature']
@@ -12619,13 +13765,15 @@ export const nouns: GermanNoun[] = [
       en: 'lake',
       de: 'See',
       es: 'lago',
-      tr: 'göl'
+      tr: 'göl',
+      te: 'సరస్సు'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['locations', 'nature']
@@ -12641,13 +13789,15 @@ export const nouns: GermanNoun[] = [
       en: 'lakes',
       de: 'Seen',
       es: 'lagos',
-      tr: 'göller'
+      tr: 'göller',
+      te: 'సరస్సులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['locations', 'nature']
@@ -12663,13 +13813,15 @@ export const nouns: GermanNoun[] = [
       en: 'graduation / qualification',
       de: 'Abschluss',
       es: 'graduación / título',
-      tr: 'mezuniyet / diploma'
+      tr: 'mezuniyet / diploma',
+      te: 'డిగ్రీ'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['abstract', 'work']
@@ -12685,13 +13837,15 @@ export const nouns: GermanNoun[] = [
       en: 'graduations / qualifications',
       de: 'Abschlüsse',
       es: 'graduaciones / títulos',
-      tr: 'mezuniyetler / diplomalar'
+      tr: 'mezuniyetler / diplomalar',
+      te: 'డిగ్రీలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['abstract', 'work']
@@ -12707,13 +13861,15 @@ export const nouns: GermanNoun[] = [
       en: 'worker',
       de: 'Arbeiter',
       es: 'trabajador',
-      tr: 'işçi'
+      tr: 'işçi',
+      te: 'కార్మికుడు'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'professions', 'work']
@@ -12729,13 +13885,15 @@ export const nouns: GermanNoun[] = [
       en: 'workers',
       de: 'Arbeiter',
       es: 'trabajadores',
-      tr: 'işçiler'
+      tr: 'işçiler',
+      te: 'కార్మికులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'professions', 'work']
@@ -12751,13 +13909,15 @@ export const nouns: GermanNoun[] = [
       en: 'tourist',
       de: 'Tourist',
       es: 'turista',
-      tr: 'turist'
+      tr: 'turist',
+      te: 'పర్యాటకుడు'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'travel']
@@ -12773,13 +13933,15 @@ export const nouns: GermanNoun[] = [
       en: 'tourists',
       de: 'Touristen',
       es: 'turistas',
-      tr: 'turistler'
+      tr: 'turistler',
+      te: 'పర్యాటకులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'travel']
@@ -12795,13 +13957,15 @@ export const nouns: GermanNoun[] = [
       en: 'visit',
       de: 'Besuch',
       es: 'visita',
-      tr: 'ziyaret'
+      tr: 'ziyaret',
+      te: 'సందర్శన'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['abstract', 'travel']
@@ -12817,13 +13981,15 @@ export const nouns: GermanNoun[] = [
       en: 'visits',
       de: 'Besuche',
       es: 'visitas',
-      tr: 'ziyaretler'
+      tr: 'ziyaretler',
+      te: 'సందర్శనలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['abstract', 'travel']
@@ -12839,13 +14005,15 @@ export const nouns: GermanNoun[] = [
       en: 'tip / advice',
       de: 'Tipp',
       es: 'consejo',
-      tr: 'ipucu'
+      tr: 'ipucu',
+      te: 'చిట్కా'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['abstract']
@@ -12861,13 +14029,15 @@ export const nouns: GermanNoun[] = [
       en: 'tips / advice',
       de: 'Tipps',
       es: 'consejos',
-      tr: 'ipuçları'
+      tr: 'ipuçları',
+      te: 'చిట్కాలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['abstract']
@@ -12883,13 +14053,15 @@ export const nouns: GermanNoun[] = [
       en: 'bus',
       de: 'Bus',
       es: 'autobús',
-      tr: 'otobüs'
+      tr: 'otobüs',
+      te: 'బస్సు'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['transportation', 'travel']
@@ -12905,13 +14077,15 @@ export const nouns: GermanNoun[] = [
       en: 'buses',
       de: 'Busse',
       es: 'autobuses',
-      tr: 'otobüsler'
+      tr: 'otobüsler',
+      te: 'బస్సులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['transportation', 'travel']
@@ -12927,13 +14101,15 @@ export const nouns: GermanNoun[] = [
       en: 'people',
       de: 'Leute',
       es: 'gente / personas',
-      tr: 'insanlar'
+      tr: 'insanlar',
+      te: 'ప్రజలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people']
@@ -12949,13 +14125,15 @@ export const nouns: GermanNoun[] = [
       en: 'company',
       de: 'Firma',
       es: 'empresa',
-      tr: 'şirket'
+      tr: 'şirket',
+      te: 'సంస్థ'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['locations', 'work']
@@ -12971,13 +14149,15 @@ export const nouns: GermanNoun[] = [
       en: 'companies',
       de: 'Firmen',
       es: 'empresas',
-      tr: 'şirketler'
+      tr: 'şirketler',
+      te: 'సంస్థలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['locations', 'work']
@@ -12993,13 +14173,15 @@ export const nouns: GermanNoun[] = [
       en: 'city',
       de: 'Stadt',
       es: 'ciudad',
-      tr: 'şehir'
+      tr: 'şehir',
+      te: 'నగరం'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['locations', 'travel']
@@ -13015,13 +14197,15 @@ export const nouns: GermanNoun[] = [
       en: 'cities',
       de: 'Städte',
       es: 'ciudades',
-      tr: 'şehirler'
+      tr: 'şehirler',
+      te: 'నగరాలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['locations', 'travel']
@@ -13037,13 +14221,15 @@ export const nouns: GermanNoun[] = [
       en: 'message / news',
       de: 'Nachricht',
       es: 'mensaje / noticia',
-      tr: 'mesaj / haber'
+      tr: 'mesaj / haber',
+      te: 'సందేశం'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['communication']
@@ -13059,13 +14245,15 @@ export const nouns: GermanNoun[] = [
       en: 'messages / news',
       de: 'Nachrichten',
       es: 'mensajes / noticias',
-      tr: 'mesajlar / haberler'
+      tr: 'mesajlar / haberler',
+      te: 'సందేశాలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['communication']
@@ -13081,13 +14269,15 @@ export const nouns: GermanNoun[] = [
       en: 'party',
       de: 'Party',
       es: 'fiesta',
-      tr: 'parti'
+      tr: 'parti',
+      te: 'పార్టీ'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['leisure']
@@ -13103,13 +14293,15 @@ export const nouns: GermanNoun[] = [
       en: 'parties',
       de: 'Partys',
       es: 'fiestas',
-      tr: 'partiler'
+      tr: 'partiler',
+      te: 'పార్టీలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['leisure']
@@ -13125,13 +14317,15 @@ export const nouns: GermanNoun[] = [
       en: 'university',
       de: 'Universität',
       es: 'universidad',
-      tr: 'üniversite'
+      tr: 'üniversite',
+      te: 'విశ్వవిద్యాలయం'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['education', 'locations', 'work']
@@ -13147,13 +14341,15 @@ export const nouns: GermanNoun[] = [
       en: 'universities',
       de: 'Universitäten',
       es: 'universidades',
-      tr: 'üniversiteler'
+      tr: 'üniversiteler',
+      te: 'విశ్వవిద్యాలయాలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['education', 'locations', 'work']
@@ -13169,13 +14365,15 @@ export const nouns: GermanNoun[] = [
       en: 'female worker',
       de: 'Arbeiterin',
       es: 'trabajadora',
-      tr: 'kadın işçi'
+      tr: 'kadın işçi',
+      te: 'మహిళా కార్మికురాలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'professions', 'work']
@@ -13191,13 +14389,15 @@ export const nouns: GermanNoun[] = [
       en: 'female workers',
       de: 'Arbeiterinnen',
       es: 'trabajadoras',
-      tr: 'kadın işçiler'
+      tr: 'kadın işçiler',
+      te: 'మహిళా కార్మికురాళ్ళు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'professions', 'work']
@@ -13213,13 +14413,15 @@ export const nouns: GermanNoun[] = [
       en: 'exam',
       de: 'Prüfung',
       es: 'examen',
-      tr: 'sınav'
+      tr: 'sınav',
+      te: 'పరీక్ష'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['abstract', 'education']
@@ -13235,13 +14437,15 @@ export const nouns: GermanNoun[] = [
       en: 'exams',
       de: 'Prüfungen',
       es: 'exámenes',
-      tr: 'sınavlar'
+      tr: 'sınavlar',
+      te: 'పరీక్షలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['abstract', 'education']
@@ -13257,13 +14461,15 @@ export const nouns: GermanNoun[] = [
       en: 'school',
       de: 'Schule',
       es: 'escuela',
-      tr: 'okul'
+      tr: 'okul',
+      te: 'బడి'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['education', 'locations', 'work']
@@ -13279,13 +14485,15 @@ export const nouns: GermanNoun[] = [
       en: 'schools',
       de: 'Schulen',
       es: 'escuelas',
-      tr: 'okullar'
+      tr: 'okullar',
+      te: 'బడులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['education', 'locations', 'work']
@@ -13301,13 +14509,15 @@ export const nouns: GermanNoun[] = [
       en: 'position / place',
       de: 'Stelle',
       es: 'puesto / lugar',
-      tr: 'pozisyon / yer'
+      tr: 'pozisyon / yer',
+      te: 'ఉద్యోగం'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['abstract', 'work']
@@ -13323,13 +14533,15 @@ export const nouns: GermanNoun[] = [
       en: 'positions / places',
       de: 'Stellen',
       es: 'puestos / lugares',
-      tr: 'pozisyonlar / yerler'
+      tr: 'pozisyonlar / yerler',
+      te: 'ఉద్యోగాలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['abstract', 'work']
@@ -13345,13 +14557,15 @@ export const nouns: GermanNoun[] = [
       en: 'app',
       de: 'App',
       es: 'aplicación',
-      tr: 'uygulama'
+      tr: 'uygulama',
+      te: 'అనువర్తనం'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['technology']
@@ -13367,13 +14581,15 @@ export const nouns: GermanNoun[] = [
       en: 'apps',
       de: 'Apps',
       es: 'aplicaciones',
-      tr: 'uygulamalar'
+      tr: 'uygulamalar',
+      te: 'అనువర్తనాలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['technology']
@@ -13389,13 +14605,15 @@ export const nouns: GermanNoun[] = [
       en: 'female tourist',
       de: 'Touristin',
       es: 'turista',
-      tr: 'kadın turist'
+      tr: 'kadın turist',
+      te: 'మహిళా పర్యాటకురాలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'travel']
@@ -13411,13 +14629,15 @@ export const nouns: GermanNoun[] = [
       en: 'female tourists',
       de: 'Touristinnen',
       es: 'turistas',
-      tr: 'kadın turistler'
+      tr: 'kadın turistler',
+      te: 'మహిళా పర్యాటకురాళ్ళు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['people', 'travel']
@@ -13433,13 +14653,15 @@ export const nouns: GermanNoun[] = [
       en: 'subway / metro',
       de: 'U-Bahn',
       es: 'metro',
-      tr: 'metro'
+      tr: 'metro',
+      te: 'సబ్‌వే'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['transportation', 'travel']
@@ -13455,13 +14677,15 @@ export const nouns: GermanNoun[] = [
       en: 'subways / metros',
       de: 'U-Bahnen',
       es: 'metros',
-      tr: 'metrolar'
+      tr: 'metrolar',
+      te: 'సబ్‌వేలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['transportation', 'travel']
@@ -13477,13 +14701,15 @@ export const nouns: GermanNoun[] = [
       en: 'urban train',
       de: 'S-Bahn',
       es: 'tren urbano',
-      tr: 'şehir treni'
+      tr: 'şehir treni',
+      te: 'ఎస్-బాన్'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['transportation', 'travel']
@@ -13499,13 +14725,15 @@ export const nouns: GermanNoun[] = [
       en: 'urban trains',
       de: 'S-Bahnen',
       es: 'trenes urbanos',
-      tr: 'şehir trenleri'
+      tr: 'şehir trenleri',
+      te: 'ఎస్-బాన్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['transportation', 'travel']
@@ -13521,13 +14749,15 @@ export const nouns: GermanNoun[] = [
       en: 'tram',
       de: 'Straßenbahn',
       es: 'tranvía',
-      tr: 'tramvay'
+      tr: 'tramvay',
+      te: 'ట్రామ్'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['transportation', 'travel']
@@ -13543,13 +14773,15 @@ export const nouns: GermanNoun[] = [
       en: 'trams',
       de: 'Straßenbahnen',
       es: 'tranvías',
-      tr: 'tramvaylar'
+      tr: 'tramvaylar',
+      te: 'ట్రామ్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['transportation', 'travel']
@@ -13565,13 +14797,15 @@ export const nouns: GermanNoun[] = [
       en: 'station',
       de: 'Station',
       es: 'estación',
-      tr: 'istasyon'
+      tr: 'istasyon',
+      te: 'రైల్వే స్టేషన్'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['locations', 'transportation', 'travel']
@@ -13587,13 +14821,15 @@ export const nouns: GermanNoun[] = [
       en: 'stations',
       de: 'Stationen',
       es: 'estaciones',
-      tr: 'istasyonlar'
+      tr: 'istasyonlar',
+      te: 'రైల్వే స్టేషన్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['locations', 'transportation', 'travel']
@@ -13609,13 +14845,15 @@ export const nouns: GermanNoun[] = [
       en: 'stop',
       de: 'Haltestelle',
       es: 'parada',
-      tr: 'durak'
+      tr: 'durak',
+      te: 'బస్ స్టాప్'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['locations', 'transportation', 'travel']
@@ -13631,13 +14869,15 @@ export const nouns: GermanNoun[] = [
       en: 'stops',
       de: 'Haltestellen',
       es: 'paradas',
-      tr: 'duraklar'
+      tr: 'duraklar',
+      te: 'బస్ స్టాప్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['locations', 'transportation', 'travel']
@@ -13653,13 +14893,15 @@ export const nouns: GermanNoun[] = [
       en: 'table',
       de: 'Tisch',
       es: 'mesa',
-      tr: 'masa'
+      tr: 'masa',
+      te: 'బల్ల'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household']
@@ -13675,13 +14917,15 @@ export const nouns: GermanNoun[] = [
       en: 'tables',
       de: 'Tische',
       es: 'mesas',
-      tr: 'masalar'
+      tr: 'masalar',
+      te: 'బల్లలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household']
@@ -13697,13 +14941,15 @@ export const nouns: GermanNoun[] = [
       en: 'chair',
       de: 'Stuhl',
       es: 'silla',
-      tr: 'sandalye'
+      tr: 'sandalye',
+      te: 'కుర్చీ'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household']
@@ -13719,13 +14965,15 @@ export const nouns: GermanNoun[] = [
       en: 'chairs',
       de: 'Stühle',
       es: 'sillas',
-      tr: 'sandalyeler'
+      tr: 'sandalyeler',
+      te: 'కుర్చీలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household']
@@ -13741,13 +14989,15 @@ export const nouns: GermanNoun[] = [
       en: 'window',
       de: 'Fenster',
       es: 'ventana',
-      tr: 'pencere'
+      tr: 'pencere',
+      te: 'కిటికీ'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household']
@@ -13763,13 +15013,15 @@ export const nouns: GermanNoun[] = [
       en: 'windows',
       de: 'Fenster',
       es: 'ventanas',
-      tr: 'pencereler'
+      tr: 'pencereler',
+      te: 'కిటికీలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household']
@@ -13785,13 +15037,15 @@ export const nouns: GermanNoun[] = [
       en: 'door',
       de: 'Tür',
       es: 'puerta',
-      tr: 'kapı'
+      tr: 'kapı',
+      te: 'తలుపు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household']
@@ -13807,13 +15061,15 @@ export const nouns: GermanNoun[] = [
       en: 'doors',
       de: 'Türen',
       es: 'puertas',
-      tr: 'kapılar'
+      tr: 'kapılar',
+      te: 'తలుపులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household']
@@ -13829,13 +15085,15 @@ export const nouns: GermanNoun[] = [
       en: 'bed',
       de: 'Bett',
       es: 'cama',
-      tr: 'yatak'
+      tr: 'yatak',
+      te: 'మంచం'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household']
@@ -13851,13 +15109,15 @@ export const nouns: GermanNoun[] = [
       en: 'beds',
       de: 'Betten',
       es: 'camas',
-      tr: 'yataklar'
+      tr: 'yataklar',
+      te: 'మంచాలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household']
@@ -13873,13 +15133,15 @@ export const nouns: GermanNoun[] = [
       en: 'sofa',
       de: 'Sofa',
       es: 'sofá',
-      tr: 'kanepe'
+      tr: 'kanepe',
+      te: 'సోఫా'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household']
@@ -13895,13 +15157,15 @@ export const nouns: GermanNoun[] = [
       en: 'sofas',
       de: 'Sofas',
       es: 'sofás',
-      tr: 'kanepeler'
+      tr: 'kanepeler',
+      te: 'సోఫాలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household']
@@ -13917,13 +15181,15 @@ export const nouns: GermanNoun[] = [
       en: 'lamp',
       de: 'Lampe',
       es: 'lámpara',
-      tr: 'lamba'
+      tr: 'lamba',
+      te: 'దీపం'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household']
@@ -13939,13 +15205,15 @@ export const nouns: GermanNoun[] = [
       en: 'lamps',
       de: 'Lampen',
       es: 'lámparas',
-      tr: 'lambalar'
+      tr: 'lambalar',
+      te: 'దీపాలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household']
@@ -13961,13 +15229,15 @@ export const nouns: GermanNoun[] = [
       en: 'shelf',
       de: 'Regal',
       es: 'estantería',
-      tr: 'raf'
+      tr: 'raf',
+      te: 'షెల్ఫ్'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household']
@@ -13983,13 +15253,15 @@ export const nouns: GermanNoun[] = [
       en: 'shelves',
       de: 'Regale',
       es: 'estanterías',
-      tr: 'raflar'
+      tr: 'raflar',
+      te: 'షెల్ఫ్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household']
@@ -14005,13 +15277,15 @@ export const nouns: GermanNoun[] = [
       en: 'wardrobe',
       de: 'Schrank',
       es: 'armario',
-      tr: 'dolap'
+      tr: 'dolap',
+      te: 'అల్మారా'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household']
@@ -14027,13 +15301,15 @@ export const nouns: GermanNoun[] = [
       en: 'wardrobes',
       de: 'Schränke',
       es: 'armarios',
-      tr: 'dolaplar'
+      tr: 'dolaplar',
+      te: 'అల్మారాలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household']
@@ -14049,13 +15325,15 @@ export const nouns: GermanNoun[] = [
       en: 'wall',
       de: 'Wand',
       es: 'pared',
-      tr: 'duvar'
+      tr: 'duvar',
+      te: 'గోడ'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household']
@@ -14071,13 +15349,15 @@ export const nouns: GermanNoun[] = [
       en: 'walls',
       de: 'Wände',
       es: 'paredes',
-      tr: 'duvarlar'
+      tr: 'duvarlar',
+      te: 'గోడలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household']
@@ -14093,13 +15373,15 @@ export const nouns: GermanNoun[] = [
       en: 'floor',
       de: 'Boden',
       es: 'suelo',
-      tr: 'zemin'
+      tr: 'zemin',
+      te: 'నేల'
     },
     translationArticles: {
       en: 'the',
       de: 'der',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household']
@@ -14115,13 +15397,15 @@ export const nouns: GermanNoun[] = [
       en: 'floors',
       de: 'Böden',
       es: 'suelos',
-      tr: 'zeminler'
+      tr: 'zeminler',
+      te: 'నేలలు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household']
@@ -14137,13 +15421,15 @@ export const nouns: GermanNoun[] = [
       en: 'ceiling',
       de: 'Decke',
       es: 'techo',
-      tr: 'tavan'
+      tr: 'tavan',
+      te: 'పైకప్పు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household']
@@ -14159,13 +15445,15 @@ export const nouns: GermanNoun[] = [
       en: 'ceilings',
       de: 'Decken',
       es: 'techos',
-      tr: 'tavanlar'
+      tr: 'tavanlar',
+      te: 'పైకప్పులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household']
@@ -14181,13 +15469,15 @@ export const nouns: GermanNoun[] = [
       en: 'room',
       de: 'Zimmer',
       es: 'habitación',
-      tr: 'oda'
+      tr: 'oda',
+      te: 'గది'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household', 'locations']
@@ -14203,13 +15493,15 @@ export const nouns: GermanNoun[] = [
       en: 'rooms',
       de: 'Zimmer',
       es: 'habitaciones',
-      tr: 'odalar'
+      tr: 'odalar',
+      te: 'గదులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household', 'locations']
@@ -14225,13 +15517,15 @@ export const nouns: GermanNoun[] = [
       en: 'kitchen',
       de: 'Küche',
       es: 'cocina',
-      tr: 'mutfak'
+      tr: 'mutfak',
+      te: 'వంటగది'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household', 'locations']
@@ -14247,13 +15541,15 @@ export const nouns: GermanNoun[] = [
       en: 'kitchens',
       de: 'Küchen',
       es: 'cocinas',
-      tr: 'mutfaklar'
+      tr: 'mutfaklar',
+      te: 'వంటగదులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household', 'locations']
@@ -14269,13 +15565,15 @@ export const nouns: GermanNoun[] = [
       en: 'bathroom',
       de: 'Bad',
       es: 'baño',
-      tr: 'banyo'
+      tr: 'banyo',
+      te: 'స్నానపు గది'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'el',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household', 'locations']
@@ -14291,13 +15589,15 @@ export const nouns: GermanNoun[] = [
       en: 'bathrooms',
       de: 'Bäder',
       es: 'baños',
-      tr: 'banyolar'
+      tr: 'banyolar',
+      te: 'స్నానపు గదులు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'los',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household', 'locations']
@@ -14313,13 +15613,15 @@ export const nouns: GermanNoun[] = [
       en: 'house',
       de: 'Haus',
       es: 'casa',
-      tr: 'ev'
+      tr: 'ev',
+      te: 'ఇల్లు'
     },
     translationArticles: {
       en: 'the',
       de: 'das',
       es: 'la',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household', 'locations']
@@ -14335,13 +15637,15 @@ export const nouns: GermanNoun[] = [
       en: 'houses',
       de: 'Häuser',
       es: 'casas',
-      tr: 'evler'
+      tr: 'evler',
+      te: 'ఇళ్ళు'
     },
     translationArticles: {
       en: 'the',
       de: 'die',
       es: 'las',
-      tr: null
+      tr: null,
+      te: null
     },
     levels: [],
     categories: ['household', 'locations']

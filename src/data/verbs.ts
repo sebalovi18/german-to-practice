@@ -11,7 +11,8 @@ export const verbs: GermanVerb[] = [
       en: 'pick up',
       de: 'abholen',
       es: 'recoger',
-      tr: 'gidip almak'
+      tr: 'gidip almak',
+      te: 'తీసుకోవడం'
     }
   },
   {
@@ -24,7 +25,8 @@ export const verbs: GermanVerb[] = [
       en: 'call',
       de: 'anrufen',
       es: 'llamar por teléfono',
-      tr: 'aramak'
+      tr: 'aramak',
+      te: 'ఫోన్ చేయడం'
     }
   },
   {
@@ -37,7 +39,8 @@ export const verbs: GermanVerb[] = [
       en: 'work',
       de: 'arbeiten',
       es: 'trabajar',
-      tr: 'çalışmak'
+      tr: 'çalışmak',
+      te: 'పనిచేయడం'
     }
   },
   {
@@ -50,7 +53,8 @@ export const verbs: GermanVerb[] = [
       en: 'tidy up',
       de: 'aufräumen',
       es: 'ordenar',
-      tr: 'toparlamak'
+      tr: 'toparlamak',
+      te: 'శుభ్రం చేయడం'
     }
   },
   {
@@ -63,7 +67,8 @@ export const verbs: GermanVerb[] = [
       en: 'get up',
       de: 'aufstehen',
       es: 'levantarse',
-      tr: 'kalkmak'
+      tr: 'kalkmak',
+      te: 'లేవడం'
     }
   },
   {
@@ -76,7 +81,8 @@ export const verbs: GermanVerb[] = [
       en: 'bake',
       de: 'backen',
       es: 'hornear',
-      tr: 'fırında pişirmek'
+      tr: 'fırında pişirmek',
+      te: 'కాల్చడం'
     }
   },
   {
@@ -89,7 +95,8 @@ export const verbs: GermanVerb[] = [
       en: 'stay',
       de: 'bleiben',
       es: 'quedarse',
-      tr: 'kalmak'
+      tr: 'kalmak',
+      te: 'ఉండడం'
     }
   },
   {
@@ -102,7 +109,8 @@ export const verbs: GermanVerb[] = [
       en: 'need',
       de: 'brauchen',
       es: 'necesitar',
-      tr: 'ihtiyaç duymak'
+      tr: 'ihtiyaç duymak',
+      te: 'అవసరం కావడం'
     }
   },
   {
@@ -115,7 +123,8 @@ export const verbs: GermanVerb[] = [
       en: 'spell',
       de: 'buchstabieren',
       es: 'deletrear',
-      tr: 'hecelemek'
+      tr: 'hecelemek',
+      te: 'అక్షరాలు చెప్పడం'
     }
   },
   {
@@ -128,7 +137,8 @@ export const verbs: GermanVerb[] = [
       en: 'think',
       de: 'denken',
       es: 'pensar',
-      tr: 'düşünmek'
+      tr: 'düşünmek',
+      te: 'ఆలోచించడం'
     }
   },
   {
@@ -141,7 +151,8 @@ export const verbs: GermanVerb[] = [
       en: 'shower',
       de: 'duschen',
       es: 'ducharse',
-      tr: 'duş almak'
+      tr: 'duş almak',
+      te: 'స్నానం చేయడం'
     }
   },
   {
@@ -154,7 +165,8 @@ export const verbs: GermanVerb[] = [
       en: 'go shopping',
       de: 'einkaufen',
       es: 'ir de compras',
-      tr: 'alışveriş yapmak'
+      tr: 'alışveriş yapmak',
+      te: 'షాపింగ్ చేయడం'
     }
   },
   {
@@ -167,7 +179,8 @@ export const verbs: GermanVerb[] = [
       en: 'eat',
       de: 'essen',
       es: 'comer',
-      tr: 'yemek yemek'
+      tr: 'yemek yemek',
+      te: 'తినడం'
     }
   },
   {
@@ -180,7 +193,8 @@ export const verbs: GermanVerb[] = [
       en: 'go by vehicle',
       de: 'fahren',
       es: 'ir en vehículo',
-      tr: 'araçla gitmek'
+      tr: 'araçla gitmek',
+      te: 'వాహనంలో వెళ్ళడం'
     }
   },
   {
@@ -193,7 +207,8 @@ export const verbs: GermanVerb[] = [
       en: 'be missing',
       de: 'fehlen',
       es: 'faltar',
-      tr: 'eksik olmak'
+      tr: 'eksik olmak',
+      te: 'లోపించడం'
     }
   },
   {
@@ -206,7 +221,8 @@ export const verbs: GermanVerb[] = [
       en: 'watch TV',
       de: 'fernsehen',
       es: 'ver la TV',
-      tr: 'televizyon izlemek'
+      tr: 'televizyon izlemek',
+      te: 'టీవీ చూడడం'
     }
   },
   {
@@ -219,7 +235,8 @@ export const verbs: GermanVerb[] = [
       en: 'find',
       de: 'finden',
       es: 'encontrar',
-      tr: 'bulmak'
+      tr: 'bulmak',
+      te: 'కనుగొనడం'
     }
   },
   {
@@ -232,7 +249,8 @@ export const verbs: GermanVerb[] = [
       en: 'photograph',
       de: 'fotografieren',
       es: 'fotografiar',
-      tr: 'fotoğraf çekmek'
+      tr: 'fotoğraf çekmek',
+      te: 'ఫోటో తీయడం'
     }
   },
   {
@@ -245,7 +263,8 @@ export const verbs: GermanVerb[] = [
       en: 'have breakfast',
       de: 'frühstücken',
       es: 'desayunar',
-      tr: 'kahvaltı yapmak'
+      tr: 'kahvaltı yapmak',
+      te: 'అల్పాహారం తీసుకోవడం'
     }
   },
   {
@@ -258,7 +277,8 @@ export const verbs: GermanVerb[] = [
       en: 'give',
       de: 'geben',
       es: 'dar',
-      tr: 'vermek'
+      tr: 'vermek',
+      te: 'ఇవ్వడం'
     }
   },
   {
@@ -271,7 +291,8 @@ export const verbs: GermanVerb[] = [
       en: 'go',
       de: 'gehen',
       es: 'ir',
-      tr: 'gitmek'
+      tr: 'gitmek',
+      te: 'వెళ్ళడం'
     }
   },
   {
@@ -284,7 +305,8 @@ export const verbs: GermanVerb[] = [
       en: 'go for a walk',
       de: 'spazieren gehen',
       es: 'ir a pasear',
-      tr: 'yürüyüşe çıkmak'
+      tr: 'yürüyüşe çıkmak',
+      te: 'నడకకు వెళ్ళడం'
     }
   },
   {
@@ -297,7 +319,8 @@ export const verbs: GermanVerb[] = [
       en: 'win',
       de: 'gewinnen',
       es: 'ganar',
-      tr: 'kazanmak'
+      tr: 'kazanmak',
+      te: 'గెలవడం'
     }
   },
   {
@@ -310,7 +333,8 @@ export const verbs: GermanVerb[] = [
       en: 'believe',
       de: 'glauben',
       es: 'creer',
-      tr: 'inanmak'
+      tr: 'inanmak',
+      te: 'నమ్మడం'
     }
   },
   {
@@ -323,7 +347,8 @@ export const verbs: GermanVerb[] = [
       en: 'have',
       de: 'haben',
       es: 'tener',
-      tr: 'sahip olmak'
+      tr: 'sahip olmak',
+      te: 'కలిగి ఉండడం'
     }
   },
   {
@@ -336,7 +361,8 @@ export const verbs: GermanVerb[] = [
       en: 'hate',
       de: 'hassen',
       es: 'odiar',
-      tr: 'nefret etmek'
+      tr: 'nefret etmek',
+      te: 'ద్వేషించడం'
     }
   },
   {
@@ -349,7 +375,8 @@ export const verbs: GermanVerb[] = [
       en: 'marry',
       de: 'heiraten',
       es: 'casarse',
-      tr: 'evlenmek'
+      tr: 'evlenmek',
+      te: 'పెళ్లి చేసుకోవడం'
     }
   },
   {
@@ -362,7 +389,8 @@ export const verbs: GermanVerb[] = [
       en: 'be called',
       de: 'heißen',
       es: 'llamarse',
-      tr: 'adı olmak'
+      tr: 'adı olmak',
+      te: 'పేరు కలిగి ఉండడం'
     }
   },
   {
@@ -375,7 +403,8 @@ export const verbs: GermanVerb[] = [
       en: 'hear',
       de: 'hören',
       es: 'oír',
-      tr: 'duymak'
+      tr: 'duymak',
+      te: 'వినడం'
     }
   },
   {
@@ -388,7 +417,8 @@ export const verbs: GermanVerb[] = [
       en: 'buy',
       de: 'kaufen',
       es: 'comprar',
-      tr: 'satın almak'
+      tr: 'satın almak',
+      te: 'కొనడం'
     }
   },
   {
@@ -401,7 +431,8 @@ export const verbs: GermanVerb[] = [
       en: 'cook',
       de: 'kochen',
       es: 'cocinar',
-      tr: 'yemek pişirmek'
+      tr: 'yemek pişirmek',
+      te: 'వండడం'
     }
   },
   {
@@ -414,7 +445,8 @@ export const verbs: GermanVerb[] = [
       en: 'come',
       de: 'kommen',
       es: 'venir',
-      tr: 'gelmek'
+      tr: 'gelmek',
+      te: 'రావడం'
     }
   },
   {
@@ -427,7 +459,8 @@ export const verbs: GermanVerb[] = [
       en: 'can',
       de: 'können',
       es: 'poder',
-      tr: '-ebilmek'
+      tr: '-ebilmek',
+      te: 'చేయగలగడం'
     }
   },
   {
@@ -440,7 +473,8 @@ export const verbs: GermanVerb[] = [
       en: 'cost',
       de: 'kosten',
       es: 'costar',
-      tr: 'fiyatı olmak'
+      tr: 'fiyatı olmak',
+      te: 'ఖరీదు కావడం'
     }
   },
   {
@@ -453,7 +487,8 @@ export const verbs: GermanVerb[] = [
       en: 'live',
       de: 'leben',
       es: 'vivir',
-      tr: 'yaşamak'
+      tr: 'yaşamak',
+      te: 'జీవించడం'
     }
   },
   {
@@ -466,7 +501,8 @@ export const verbs: GermanVerb[] = [
       en: 'learn',
       de: 'lernen',
       es: 'aprender',
-      tr: 'öğrenmek'
+      tr: 'öğrenmek',
+      te: 'నేర్చుకోవడం'
     }
   },
   {
@@ -479,7 +515,8 @@ export const verbs: GermanVerb[] = [
       en: 'read',
       de: 'lesen',
       es: 'leer',
-      tr: 'okumak'
+      tr: 'okumak',
+      te: 'చదవడం'
     }
   },
   {
@@ -492,7 +529,8 @@ export const verbs: GermanVerb[] = [
       en: 'love',
       de: 'lieben',
       es: 'amar',
-      tr: 'sevmek'
+      tr: 'sevmek',
+      te: 'ప్రేమించడం'
     }
   },
   {
@@ -505,7 +543,8 @@ export const verbs: GermanVerb[] = [
       en: 'do',
       de: 'machen',
       es: 'hacer',
-      tr: 'yapmak'
+      tr: 'yapmak',
+      te: 'చేయడం'
     }
   },
   {
@@ -518,7 +557,8 @@ export const verbs: GermanVerb[] = [
       en: 'paint',
       de: 'malen',
       es: 'pintar',
-      tr: 'boyamak'
+      tr: 'boyamak',
+      te: 'చిత్రించడం'
     }
   },
   {
@@ -531,7 +571,8 @@ export const verbs: GermanVerb[] = [
       en: 'would like',
       de: 'möchten',
       es: 'querer',
-      tr: 'istemek'
+      tr: 'istemek',
+      te: 'కోరుకోవడం'
     }
   },
   {
@@ -544,7 +585,8 @@ export const verbs: GermanVerb[] = [
       en: 'like',
       de: 'mögen',
       es: 'gustar',
-      tr: 'hoşlanmak'
+      tr: 'hoşlanmak',
+      te: 'ఇష్టపడడం'
     }
   },
   {
@@ -557,7 +599,8 @@ export const verbs: GermanVerb[] = [
       en: 'sew',
       de: 'nähen',
       es: 'coser',
-      tr: 'dikmek'
+      tr: 'dikmek',
+      te: 'కుట్టడం'
     }
   },
   {
@@ -570,7 +613,8 @@ export const verbs: GermanVerb[] = [
       en: 'take',
       de: 'nehmen',
       es: 'tomar',
-      tr: 'almak'
+      tr: 'almak',
+      te: 'తీసుకోవడం'
     }
   },
   {
@@ -583,7 +627,8 @@ export const verbs: GermanVerb[] = [
       en: 'clean',
       de: 'putzen',
       es: 'limpiar',
-      tr: 'temizlemek'
+      tr: 'temizlemek',
+      te: 'శుభ్రం చేయడం'
     }
   },
   {
@@ -596,7 +641,8 @@ export const verbs: GermanVerb[] = [
       en: 'go out',
       de: 'rausgehen',
       es: 'salir',
-      tr: 'dışarı çıkmak'
+      tr: 'dışarı çıkmak',
+      te: 'బయటికి వెళ్ళడం'
     }
   },
   {
@@ -609,7 +655,8 @@ export const verbs: GermanVerb[] = [
       en: 'calculate',
       de: 'rechnen',
       es: 'calcular',
-      tr: 'hesaplamak'
+      tr: 'hesaplamak',
+      te: 'లెక్కించడం'
     }
   },
   {
@@ -622,7 +669,8 @@ export const verbs: GermanVerb[] = [
       en: 'rain',
       de: 'regnen',
       es: 'llover',
-      tr: 'yağmur yağmak'
+      tr: 'yağmur yağmak',
+      te: 'వర్షం పడడం'
     }
   },
   {
@@ -635,7 +683,8 @@ export const verbs: GermanVerb[] = [
       en: 'travel',
       de: 'reisen',
       es: 'viajar',
-      tr: 'seyahat etmek'
+      tr: 'seyahat etmek',
+      te: 'ప్రయాణించడం'
     }
   },
   {
@@ -648,7 +697,8 @@ export const verbs: GermanVerb[] = [
       en: 'say',
       de: 'sagen',
       es: 'decir',
-      tr: 'söylemek'
+      tr: 'söylemek',
+      te: 'చెప్పడం'
     }
   },
   {
@@ -661,7 +711,8 @@ export const verbs: GermanVerb[] = [
       en: 'look',
       de: 'schauen',
       es: 'mirar',
-      tr: 'bakmak'
+      tr: 'bakmak',
+      te: 'చూడడం'
     }
   },
   {
@@ -674,7 +725,8 @@ export const verbs: GermanVerb[] = [
       en: 'shine',
       de: 'scheinen',
       es: 'brillar',
-      tr: 'parlamak'
+      tr: 'parlamak',
+      te: 'ప్రకాశించడం'
     }
   },
   {
@@ -687,7 +739,8 @@ export const verbs: GermanVerb[] = [
       en: 'sleep',
       de: 'schlafen',
       es: 'dormir',
-      tr: 'uyumak'
+      tr: 'uyumak',
+      te: 'నిద్రపోవడం'
     }
   },
   {
@@ -700,7 +753,8 @@ export const verbs: GermanVerb[] = [
       en: 'snow',
       de: 'schneien',
       es: 'nevar',
-      tr: 'kar yağmak'
+      tr: 'kar yağmak',
+      te: 'మంచు పడడం'
     }
   },
   {
@@ -713,7 +767,8 @@ export const verbs: GermanVerb[] = [
       en: 'swim',
       de: 'schwimmen',
       es: 'nadar',
-      tr: 'yüzmek'
+      tr: 'yüzmek',
+      te: 'ఈదడం'
     }
   },
   {
@@ -726,7 +781,8 @@ export const verbs: GermanVerb[] = [
       en: 'be',
       de: 'sein',
       es: 'ser/estar',
-      tr: 'olmak'
+      tr: 'olmak',
+      te: 'ఉండడం'
     }
   },
   {
@@ -739,7 +795,8 @@ export const verbs: GermanVerb[] = [
       en: 'sing',
       de: 'singen',
       es: 'cantar',
-      tr: 'şarkı söylemek'
+      tr: 'şarkı söylemek',
+      te: 'పాడడం'
     }
   },
   {
@@ -752,7 +809,8 @@ export const verbs: GermanVerb[] = [
       en: 'play',
       de: 'spielen',
       es: 'jugar',
-      tr: 'oynamak'
+      tr: 'oynamak',
+      te: 'ఆడడం'
     }
   },
   {
@@ -765,7 +823,8 @@ export const verbs: GermanVerb[] = [
       en: 'speak',
       de: 'sprechen',
       es: 'hablar',
-      tr: 'konuşmak'
+      tr: 'konuşmak',
+      te: 'మాట్లాడడం'
     }
   },
   {
@@ -778,7 +837,8 @@ export const verbs: GermanVerb[] = [
       en: 'be correct',
       de: 'stimmen',
       es: 'ser correcto',
-      tr: 'doğru olmak'
+      tr: 'doğru olmak',
+      te: 'సరైనది కావడం'
     }
   },
   {
@@ -791,7 +851,8 @@ export const verbs: GermanVerb[] = [
       en: 'study',
       de: 'studieren',
       es: 'estudiar',
-      tr: 'üniversitede okumak'
+      tr: 'üniversitede okumak',
+      te: 'చదువుకోవడం'
     }
   },
   {
@@ -804,7 +865,8 @@ export const verbs: GermanVerb[] = [
       en: 'look for',
       de: 'suchen',
       es: 'buscar',
-      tr: 'aramak'
+      tr: 'aramak',
+      te: 'వెతకడం'
     }
   },
   {
@@ -817,7 +879,8 @@ export const verbs: GermanVerb[] = [
       en: 'dance',
       de: 'tanzen',
       es: 'bailar',
-      tr: 'dans etmek'
+      tr: 'dans etmek',
+      te: 'నృత్యం చేయడం'
     }
   },
   {
@@ -830,7 +893,8 @@ export const verbs: GermanVerb[] = [
       en: 'talk on the phone',
       de: 'telefonieren',
       es: 'hablar por teléfono',
-      tr: 'telefonla konuşmak'
+      tr: 'telefonla konuşmak',
+      te: 'ఫోన్లో మాట్లాడడం'
     }
   },
   {
@@ -843,7 +907,8 @@ export const verbs: GermanVerb[] = [
       en: 'train',
       de: 'trainieren',
       es: 'entrenar',
-      tr: 'antrenman yapmak'
+      tr: 'antrenman yapmak',
+      te: 'శిక్షణ చేయడం'
     }
   },
   {
@@ -856,7 +921,8 @@ export const verbs: GermanVerb[] = [
       en: 'meet',
       de: 'treffen',
       es: 'quedar con alguien',
-      tr: 'buluşmak'
+      tr: 'buluşmak',
+      te: 'కలవడం'
     }
   },
   {
@@ -869,7 +935,8 @@ export const verbs: GermanVerb[] = [
       en: 'drink',
       de: 'trinken',
       es: 'beber',
-      tr: 'içmek'
+      tr: 'içmek',
+      te: 'త్రాగడం'
     }
   },
   {
@@ -882,7 +949,8 @@ export const verbs: GermanVerb[] = [
       en: 'become',
       de: 'werden',
       es: 'volverse',
-      tr: 'dönüşmek'
+      tr: 'dönüşmek',
+      te: 'అవ్వడం'
     }
   },
   {
@@ -895,7 +963,8 @@ export const verbs: GermanVerb[] = [
       en: 'reside',
       de: 'wohnen',
       es: 'vivir',
-      tr: 'ikamet etmek'
+      tr: 'ikamet etmek',
+      te: 'నివసించడం'
     }
   },
   {
@@ -908,7 +977,8 @@ export const verbs: GermanVerb[] = [
       en: 'want',
       de: 'wollen',
       es: 'querer',
-      tr: 'istemek'
+      tr: 'istemek',
+      te: 'కోరుకోవడం'
     }
   },
   {
@@ -921,7 +991,8 @@ export const verbs: GermanVerb[] = [
       en: 'begin',
       de: 'anfangen',
       es: 'empezar',
-      tr: 'başlamak'
+      tr: 'başlamak',
+      te: 'మొదలుపెట్టడం'
     }
   },
   {
@@ -934,7 +1005,8 @@ export const verbs: GermanVerb[] = [
       en: 'arrive',
       de: 'ankommen',
       es: 'llegar',
-      tr: 'varmak'
+      tr: 'varmak',
+      te: 'చేరుకోవడం'
     }
   },
   {
@@ -947,7 +1019,8 @@ export const verbs: GermanVerb[] = [
       en: 'open',
       de: 'aufmachen',
       es: 'abrir',
-      tr: 'açmak'
+      tr: 'açmak',
+      te: 'తెరవడం'
     }
   },
   {
@@ -960,7 +1033,8 @@ export const verbs: GermanVerb[] = [
       en: 'get off / exit',
       de: 'aussteigen',
       es: 'bajarse / salir',
-      tr: 'inmek / çıkmak'
+      tr: 'inmek / çıkmak',
+      te: 'దిగడం'
     }
   },
   {
@@ -973,7 +1047,8 @@ export const verbs: GermanVerb[] = [
       en: 'get / receive',
       de: 'bekommen',
       es: 'recibir',
-      tr: 'almak'
+      tr: 'almak',
+      te: 'పొందడం'
     }
   },
   {
@@ -986,7 +1061,8 @@ export const verbs: GermanVerb[] = [
       en: 'order',
       de: 'bestellen',
       es: 'pedir',
-      tr: 'sipariş vermek'
+      tr: 'sipariş vermek',
+      te: 'ఆర్డర్ చేయడం'
     }
   },
   {
@@ -999,7 +1075,8 @@ export const verbs: GermanVerb[] = [
       en: 'visit',
       de: 'besuchen',
       es: 'visitar',
-      tr: 'ziyaret etmek'
+      tr: 'ziyaret etmek',
+      te: 'సందర్శించడం'
     }
   },
   {
@@ -1012,7 +1089,8 @@ export const verbs: GermanVerb[] = [
       en: 'pay',
       de: 'bezahlen',
       es: 'pagar',
-      tr: 'ödemek'
+      tr: 'ödemek',
+      te: 'చెల్లించడం'
     }
   },
   {
@@ -1025,7 +1103,8 @@ export const verbs: GermanVerb[] = [
       en: 'bring',
       de: 'bringen',
       es: 'traer',
-      tr: 'getirmek'
+      tr: 'getirmek',
+      te: 'తీసుకురావడం'
     }
   },
   {
@@ -1038,7 +1117,8 @@ export const verbs: GermanVerb[] = [
       en: 'invite',
       de: 'einladen',
       es: 'invitar',
-      tr: 'davet etmek'
+      tr: 'davet etmek',
+      te: 'ఆహ్వానించడం'
     }
   },
   {
@@ -1051,7 +1131,8 @@ export const verbs: GermanVerb[] = [
       en: 'fall asleep',
       de: 'einschlafen',
       es: 'quedarse dormido',
-      tr: 'uykuya dalmak'
+      tr: 'uykuya dalmak',
+      te: 'నిద్రలోకి జారుకోవడం'
     }
   },
   {
@@ -1064,7 +1145,8 @@ export const verbs: GermanVerb[] = [
       en: 'get in / board',
       de: 'einsteigen',
       es: 'subirse / entrar',
-      tr: 'binmek'
+      tr: 'binmek',
+      te: 'ఎక్కడం'
     }
   },
   {
@@ -1077,7 +1159,8 @@ export const verbs: GermanVerb[] = [
       en: 'recommend',
       de: 'empfehlen',
       es: 'recomendar',
-      tr: 'tavsiye etmek'
+      tr: 'tavsiye etmek',
+      te: 'సిఫార్సు చేయడం'
     }
   },
   {
@@ -1090,7 +1173,8 @@ export const verbs: GermanVerb[] = [
       en: 'apologize / excuse',
       de: 'entschuldigen',
       es: 'disculparse / disculpar',
-      tr: 'özür dilemek / affetmek'
+      tr: 'özür dilemek / affetmek',
+      te: 'క్షమించడం'
     }
   },
   {
@@ -1103,7 +1187,8 @@ export const verbs: GermanVerb[] = [
       en: 'tell / narrate',
       de: 'erzählen',
       es: 'contar',
-      tr: 'anlatmak'
+      tr: 'anlatmak',
+      te: 'చెప్పడం'
     }
   },
   {
@@ -1116,7 +1201,8 @@ export const verbs: GermanVerb[] = [
       en: 'fly',
       de: 'fliegen',
       es: 'volar',
-      tr: 'uçmak'
+      tr: 'uçmak',
+      te: 'ఎగరడం'
     }
   },
   {
@@ -1129,7 +1215,8 @@ export const verbs: GermanVerb[] = [
       en: 'please / be liked',
       de: 'gefallen',
       es: 'gustar',
-      tr: 'hoşuna gitmek'
+      tr: 'hoşuna gitmek',
+      te: 'నచ్చడం'
     }
   },
   {
@@ -1142,7 +1229,8 @@ export const verbs: GermanVerb[] = [
       en: 'jog',
       de: 'joggen',
       es: 'hacer jogging',
-      tr: 'koşu yapmak'
+      tr: 'koşu yapmak',
+      te: 'జాగింగ్ చేయడం'
     }
   },
   {
@@ -1155,7 +1243,8 @@ export const verbs: GermanVerb[] = [
       en: 'know',
       de: 'kennen',
       es: 'conocer',
-      tr: 'tanımak / bilmek'
+      tr: 'tanımak / bilmek',
+      te: 'తెలుసుకోవడం'
     }
   },
   {
@@ -1168,7 +1257,8 @@ export const verbs: GermanVerb[] = [
       en: 'run / walk',
       de: 'laufen',
       es: 'correr / andar',
-      tr: 'koşmak / yürümek'
+      tr: 'koşmak / yürümek',
+      te: 'పరుగెత్తడం'
     }
   },
   {
@@ -1181,7 +1271,8 @@ export const verbs: GermanVerb[] = [
       en: 'bring along',
       de: 'mitbringen',
       es: 'traer',
-      tr: 'yanında getirmek'
+      tr: 'yanında getirmek',
+      te: 'వెంట తీసుకురావడం'
     }
   },
   {
@@ -1194,7 +1285,8 @@ export const verbs: GermanVerb[] = [
       en: 'note down',
       de: 'notieren',
       es: 'anotar',
-      tr: 'not almak'
+      tr: 'not almak',
+      te: 'గమనించడం'
     }
   },
   {
@@ -1207,7 +1299,8 @@ export const verbs: GermanVerb[] = [
       en: 'write',
       de: 'schreiben',
       es: 'escribir',
-      tr: 'yazmak'
+      tr: 'yazmak',
+      te: 'రాయడం'
     }
   },
   {
@@ -1220,7 +1313,8 @@ export const verbs: GermanVerb[] = [
       en: 'see',
       de: 'sehen',
       es: 'ver',
-      tr: 'görmek'
+      tr: 'görmek',
+      te: 'చూడడం'
     }
   },
   {
@@ -1233,7 +1327,8 @@ export const verbs: GermanVerb[] = [
       en: 'save',
       de: 'sparen',
       es: 'ahorrar',
-      tr: 'biriktirmek / tasarruf etmek'
+      tr: 'biriktirmek / tasarruf etmek',
+      te: 'ఆదా చేయడం'
     }
   },
   {
@@ -1246,7 +1341,8 @@ export const verbs: GermanVerb[] = [
       en: 'do',
       de: 'tun',
       es: 'hacer',
-      tr: 'yapmak'
+      tr: 'yapmak',
+      te: 'చేయడం'
     }
   },
   {
@@ -1259,7 +1355,8 @@ export const verbs: GermanVerb[] = [
       en: 'move house / change clothes',
       de: 'umziehen',
       es: 'mudarse / cambiarse de ropa',
-      tr: 'taşınmak / kıyafet değiştirmek'
+      tr: 'taşınmak / kıyafet değiştirmek',
+      te: 'తరలించడం'
     }
   },
   {
@@ -1272,7 +1369,8 @@ export const verbs: GermanVerb[] = [
       en: 'forget',
       de: 'vergessen',
       es: 'olvidar',
-      tr: 'unutmak'
+      tr: 'unutmak',
+      te: 'మరచిపోవడం'
     }
   },
   {
@@ -1285,7 +1383,8 @@ export const verbs: GermanVerb[] = [
       en: 'sell',
       de: 'verkaufen',
       es: 'vender',
-      tr: 'satmak'
+      tr: 'satmak',
+      te: 'అమ్మడం'
     }
   },
   {
@@ -1298,7 +1397,8 @@ export const verbs: GermanVerb[] = [
       en: 'leave',
       de: 'verlassen',
       es: 'dejar / abandonar',
-      tr: 'terk etmek / ayrılmak'
+      tr: 'terk etmek / ayrılmak',
+      te: 'వదిలివేయడం'
     }
   },
   {
@@ -1311,7 +1411,8 @@ export const verbs: GermanVerb[] = [
       en: 'lose',
       de: 'verlieren',
       es: 'perder',
-      tr: 'kaybetmek'
+      tr: 'kaybetmek',
+      te: 'కోల్పోవడం'
     }
   },
   {
@@ -1324,7 +1425,8 @@ export const verbs: GermanVerb[] = [
       en: 'try',
       de: 'versuchen',
       es: 'intentar',
-      tr: 'denemek'
+      tr: 'denemek',
+      te: 'ప్రయత్నించడం'
     }
   },
   {
@@ -1337,7 +1439,8 @@ export const verbs: GermanVerb[] = [
       en: 'wash',
       de: 'waschen',
       es: 'lavar',
-      tr: 'yıkamak'
+      tr: 'yıkamak',
+      te: 'కడగడం'
     }
   },
   {
@@ -1350,7 +1453,8 @@ export const verbs: GermanVerb[] = [
       en: 'know',
       de: 'wissen',
       es: 'saber',
-      tr: 'bilmek'
+      tr: 'bilmek',
+      te: 'తెలుసుకోవడం'
     }
   },
   {
@@ -1363,7 +1467,8 @@ export const verbs: GermanVerb[] = [
       en: 'close',
       de: 'zumachen',
       es: 'cerrar',
-      tr: 'kapatmak'
+      tr: 'kapatmak',
+      te: 'మూసివేయడం'
     }
   }
 ]

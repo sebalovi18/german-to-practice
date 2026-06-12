@@ -2,8 +2,8 @@ import { defineStore } from 'pinia'
 
 import { useStorage } from '@vueuse/core'
 
-import type { HistoryAdjective } from '@/interfaces/HistoryAdjetives'
-import type { GermanAdjective } from '@/interfaces/GermanAdjetives'
+import type { HistoryAdjective } from '@/interfaces/HistoryAdjectives'
+import type { GermanAdjective } from '@/interfaces/GermanAdjectives'
 
 export const useAdjectivesStore = defineStore('adjectives', () => {
   const adjectivesHistory = useStorage<Map<string, HistoryAdjective>>(

@@ -14,7 +14,7 @@ import { useNounsStore } from '@/store/useNounsStore'
 import { useVerbsStore } from '@/store/useVerbsStore'
 
 import type { ChartBarItem } from '@/interfaces/ChartBarItem'
-import type { HistoryAdjective } from '@/interfaces/HistoryAdjetives'
+import type { HistoryAdjective } from '@/interfaces/HistoryAdjectives'
 import type { HistoryArticle } from '@/interfaces/HistoryArticles'
 import type { HistoryNoun } from '@/interfaces/HistoryNouns'
 import type { HistoryStats } from '@/interfaces/HistoryStats'
@@ -94,7 +94,7 @@ const sections = computed<DashboardSection[]>(() => [
     id: 'adjectives',
     title: t('dashboard.sections.adjectives.title'),
     description: t('dashboard.sections.adjectives.description'),
-    path: '/practice/adjetives-meanings',
+    path: '/practice/adjectives-meanings',
     items: toSortedChartItems(
       Array.from(adjectivesHistory.value.values()) as HistoryAdjective[],
       item => item.adjective

@@ -71,7 +71,7 @@ const handleNextEvent = () => {
 <template>
   <div
     v-auto-animate
-    class="space-y-4 mx-auto max-w-xl"
+    class="space-y-4"
   >
     <div
       class="flex gap-4 items-center justify-center"

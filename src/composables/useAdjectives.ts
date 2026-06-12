@@ -2,7 +2,7 @@ import { ref } from 'vue'
 
 import { adjectives } from '@/data/adjectives'
 
-import type { GermanAdjective } from '@/interfaces/GermanAdjetives'
+import type { GermanAdjective } from '@/interfaces/GermanAdjectives'
 
 export function useAdjectives () {
   // ----------------------------------------

@@ -37,3 +37,9 @@ __screenshots__/
 
 # Vite
 *.timestamp-*-*.mjs
+
+# Local Cursor plan links
+practice-roadmap.plan.md
+
+AGENTS.md
+CLAUDE.md
