@@ -325,7 +325,7 @@ export const nouns: GermanNoun[] = [
       de: 'Bücher',
       es: 'libros',
       tr: 'kitaplar',
-      te: 'పుస్తకంలు'
+      te: 'పుస్తకాలు'
     },
     translationArticles: {
       en: 'the',
@@ -1501,7 +1501,7 @@ export const nouns: GermanNoun[] = [
       de: 'Kind',
       es: 'niño',
       tr: 'çocuk',
-      te: 'పిల్లవాడు'
+      te: 'బిడ్డ'
     },
     translationArticles: {
       en: 'the',
@@ -1525,7 +1525,7 @@ export const nouns: GermanNoun[] = [
       de: 'Kinder',
       es: 'niños',
       tr: 'çocuklar',
-      te: 'పిల్లవాడులు'
+      te: 'పిల్లలు'
     },
     translationArticles: {
       en: 'the',
@@ -3085,7 +3085,7 @@ export const nouns: GermanNoun[] = [
       de: 'Cousin',
       es: 'primo',
       tr: 'erkek kuzen',
-      te: 'బావమరిది'
+      te: 'కజిన్'
     },
     translationArticles: {
       en: 'the',
@@ -3109,7 +3109,7 @@ export const nouns: GermanNoun[] = [
       de: 'Cousins',
       es: 'primos',
       tr: 'erkek kuzenler',
-      te: 'బావమరిదిలు'
+      te: 'కజిన్లు'
     },
     translationArticles: {
       en: 'the',
@@ -4381,7 +4381,7 @@ export const nouns: GermanNoun[] = [
       de: 'Hausmann',
       es: 'amo de casa',
       tr: 'ev erkeği',
-      te: 'గృహిణి'
+      te: 'గృహస్వామి'
     },
     translationArticles: {
       en: 'the',
@@ -6613,7 +6613,7 @@ export const nouns: GermanNoun[] = [
       de: 'Polizisten',
       es: 'policías',
       tr: 'polisler',
-      te: 'పోలీసు అధికారిలు'
+      te: 'పోలీసు అధికారులు'
     },
     translationArticles: {
       en: 'the',
@@ -6949,7 +6949,7 @@ export const nouns: GermanNoun[] = [
       de: 'Samstage',
       es: 'sábados',
       tr: 'cumartesiler',
-      te: 'శనివారంలు'
+      te: 'శనివారాలు'
     },
     translationArticles: {
       en: 'the',
@@ -6997,7 +6997,7 @@ export const nouns: GermanNoun[] = [
       de: 'Sänger',
       es: 'cantantes',
       tr: 'şarkıcılar',
-      te: 'గాయకుడు'
+      te: 'గాయకులు'
     },
     translationArticles: {
       en: 'the',
@@ -7045,7 +7045,7 @@ export const nouns: GermanNoun[] = [
       de: 'Sätze',
       es: 'frases',
       tr: 'cümleler',
-      te: 'వాక్యంలు'
+      te: 'వాక్యాలు'
     },
     translationArticles: {
       en: 'the',
@@ -7093,7 +7093,7 @@ export const nouns: GermanNoun[] = [
       de: 'Schauspieler',
       es: 'actores',
       tr: 'oyuncular',
-      te: 'నటుడు'
+      te: 'నటులు'
     },
     translationArticles: {
       en: 'the',
@@ -7237,7 +7237,7 @@ export const nouns: GermanNoun[] = [
       de: 'Schlüssel',
       es: 'llaves',
       tr: 'anahtarlar',
-      te: 'తాళం చెవి'
+      te: 'తాళం చెవులు'
     },
     translationArticles: {
       en: 'the',
@@ -7429,7 +7429,7 @@ export const nouns: GermanNoun[] = [
       de: 'Sommer',
       es: 'veranos',
       tr: 'yazlar',
-      te: 'వేసవి కాలం'
+      te: 'వేసవి కాలాలు'
     },
     translationArticles: {
       en: 'the',
@@ -7477,7 +7477,7 @@ export const nouns: GermanNoun[] = [
       de: 'Sonntage',
       es: 'domingos',
       tr: 'pazarlar',
-      te: 'ఆదివారంలు'
+      te: 'ఆదివారాలు'
     },
     translationArticles: {
       en: 'the',
@@ -7573,7 +7573,7 @@ export const nouns: GermanNoun[] = [
       de: 'Spieler',
       es: 'jugadores',
       tr: 'oyuncular',
-      te: 'ఆటగాడు'
+      te: 'ఆటగాళ్ళు'
     },
     translationArticles: {
       en: 'the',
@@ -7597,7 +7597,7 @@ export const nouns: GermanNoun[] = [
       de: 'Sport',
       es: 'deporte',
       tr: 'spor',
-      te: 'క్రీడలు'
+      te: 'క్రీడ'
     },
     translationArticles: {
       en: 'the',
@@ -7669,7 +7669,7 @@ export const nouns: GermanNoun[] = [
       de: 'Studenten',
       es: 'estudiantes',
       tr: 'öğrenciler',
-      te: 'విద్యార్థిలు'
+      te: 'విద్యార్థులు'
     },
     translationArticles: {
       en: 'the',
@@ -7693,7 +7693,7 @@ export const nouns: GermanNoun[] = [
       de: 'Supermarkt',
       es: 'supermercado',
       tr: 'süpermarket',
-      te: 'సూపర్‮ార్కెట్'
+      te: 'సూపర్‌మార్కెట్'
     },
     translationArticles: {
       en: 'the',
@@ -7717,7 +7717,7 @@ export const nouns: GermanNoun[] = [
       de: 'Supermärkte',
       es: 'supermercados',
       tr: 'süpermarketler',
-      te: 'సూపర్‮ార్కెట్లు'
+      te: 'సూపర్‌మార్కెట్లు'
     },
     translationArticles: {
       en: 'the',
@@ -7813,7 +7813,7 @@ export const nouns: GermanNoun[] = [
       de: 'Taxifahrer',
       es: 'taxistas',
       tr: 'taksi şoförleri',
-      te: 'టాక్సీ డ్రైవర్'
+      te: 'టాక్సీ డ్రైవర్లు'
     },
     translationArticles: {
       en: 'the',
@@ -8005,7 +8005,7 @@ export const nouns: GermanNoun[] = [
       de: 'Trainer',
       es: 'entrenadores',
       tr: 'antrenörler',
-      te: 'శిక్షకుడు'
+      te: 'శిక్షకులు'
     },
     translationArticles: {
       en: 'the',
@@ -8101,7 +8101,7 @@ export const nouns: GermanNoun[] = [
       de: 'Väter',
       es: 'padres',
       tr: 'babalar',
-      te: 'తండ్రిలు'
+      te: 'తండ్రులు'
     },
     translationArticles: {
       en: 'the',
@@ -8149,7 +8149,7 @@ export const nouns: GermanNoun[] = [
       de: 'Vereine',
       es: 'asociaciones',
       tr: 'dernekler',
-      te: 'సంఘంలు'
+      te: 'సంఘాలు'
     },
     translationArticles: {
       en: 'the',
@@ -8197,7 +8197,7 @@ export const nouns: GermanNoun[] = [
       de: 'Verkäufer',
       es: 'vendedores',
       tr: 'satıcılar',
-      te: 'విక్రేత'
+      te: 'విక్రేతలు'
     },
     translationArticles: {
       en: 'the',
@@ -8245,7 +8245,7 @@ export const nouns: GermanNoun[] = [
       de: 'Vormittage',
       es: 'mañanas',
       tr: 'öğleden önceler',
-      te: 'పూర్వాహ్నంలు'
+      te: 'పూర్వాహ్నాలు'
     },
     translationArticles: {
       en: 'the',
@@ -8341,7 +8341,7 @@ export const nouns: GermanNoun[] = [
       de: 'Winter',
       es: 'inviernos',
       tr: 'kışlar',
-      te: 'శీతాకాలం'
+      te: 'శీతాకాలాలు'
     },
     translationArticles: {
       en: 'the',
@@ -8389,7 +8389,7 @@ export const nouns: GermanNoun[] = [
       de: 'Wohnorte',
       es: 'lugares de residencia',
       tr: 'ikamet yerleri',
-      te: 'నివాస స్థలంలు'
+      te: 'నివాస స్థలాలు'
     },
     translationArticles: {
       en: 'the',
@@ -8437,7 +8437,7 @@ export const nouns: GermanNoun[] = [
       de: 'Zahnärzte',
       es: 'dentistas',
       tr: 'dişçiler',
-      te: 'దంత వైద్యుడులు'
+      te: 'దంత వైద్యులు'
     },
     translationArticles: {
       en: 'the',
@@ -8533,7 +8533,7 @@ export const nouns: GermanNoun[] = [
       de: 'Antworten',
       es: 'respuestas',
       tr: 'cevaplar',
-      te: 'సమాధానంలు'
+      te: 'సమాధానాలు'
     },
     translationArticles: {
       en: 'the',
@@ -8581,7 +8581,7 @@ export const nouns: GermanNoun[] = [
       de: 'Arbeiten',
       es: 'trabajos',
       tr: 'işler',
-      te: 'పనిలు'
+      te: 'పనులు'
     },
     translationArticles: {
       en: 'the',
@@ -8725,7 +8725,7 @@ export const nouns: GermanNoun[] = [
       de: 'Bananen',
       es: 'plátanos',
       tr: 'muzlar',
-      te: 'అరటిపండులు'
+      te: 'అరటిపళ్ళు'
     },
     translationArticles: {
       en: 'the',
@@ -8989,7 +8989,7 @@ export const nouns: GermanNoun[] = [
       de: 'Cousine',
       es: 'prima',
       tr: 'kız kuzen',
-      te: 'బావమరిది'
+      te: 'కజిన్'
     },
     translationArticles: {
       en: 'the',
@@ -9013,7 +9013,7 @@ export const nouns: GermanNoun[] = [
       de: 'Cousinen',
       es: 'primas',
       tr: 'kız kuzenler',
-      te: 'బావమరిదిలు'
+      te: 'కజిన్లు'
     },
     translationArticles: {
       en: 'the',
@@ -9301,7 +9301,7 @@ export const nouns: GermanNoun[] = [
       de: 'Enkelinnen',
       es: 'nietas',
       tr: 'kız torunlar',
-      te: 'మనవరాలులు'
+      te: 'మనవరాళ్ళు'
     },
     translationArticles: {
       en: 'the',
@@ -9397,7 +9397,7 @@ export const nouns: GermanNoun[] = [
       de: 'Familien',
       es: 'familias',
       tr: 'aileler',
-      te: 'కుటుంబంలు'
+      te: 'కుటుంబాలు'
     },
     translationArticles: {
       en: 'the',
@@ -9685,7 +9685,7 @@ export const nouns: GermanNoun[] = [
       de: 'Freizeiten',
       es: 'tiempo libres',
       tr: 'boş zamanlar',
-      te: 'ఖాళీ సమయంలు'
+      te: 'ఖాళీ సమయాలు'
     },
     translationArticles: {
       en: 'the',
@@ -9733,7 +9733,7 @@ export const nouns: GermanNoun[] = [
       de: 'Freundinnen',
       es: 'amigas',
       tr: 'kız arkadaşlar',
-      te: 'స్నేహితురాలులు'
+      te: 'స్నేహితురాళ్ళు'
     },
     translationArticles: {
       en: 'the',
@@ -10117,7 +10117,7 @@ export const nouns: GermanNoun[] = [
       de: 'Hausfrauen',
       es: 'amas de casa',
       tr: 'ev hanımları',
-      te: 'గృహిణిలు'
+      te: 'గృహిణులు'
     },
     translationArticles: {
       en: 'the',
@@ -10213,7 +10213,7 @@ export const nouns: GermanNoun[] = [
       de: 'Hilfen',
       es: 'ayudas',
       tr: 'yardımlar',
-      te: 'సహాయంలు'
+      te: 'సహాయాలు'
     },
     translationArticles: {
       en: 'the',
@@ -10261,7 +10261,7 @@ export const nouns: GermanNoun[] = [
       de: 'Informationen',
       es: 'informaciones',
       tr: 'bilgiler',
-      te: 'సమాచారంలు'
+      te: 'సమాచారాలు'
     },
     translationArticles: {
       en: 'the',
@@ -10501,7 +10501,7 @@ export const nouns: GermanNoun[] = [
       de: 'Köchinnen',
       es: 'cocineras',
       tr: 'kadın aşçılar',
-      te: 'మహిళా వంటమనిషిలు'
+      te: 'మహిళా వంటమనుషులు'
     },
     translationArticles: {
       en: 'the',
@@ -10549,7 +10549,7 @@ export const nouns: GermanNoun[] = [
       de: 'Kolleginnen',
       es: 'compañeras',
       tr: 'kadın iş arkadaşları',
-      te: 'మహిళా సహోద్యోగిలు'
+      te: 'మహిళా సహోద్యోగులు'
     },
     translationArticles: {
       en: 'the',
@@ -10693,7 +10693,7 @@ export const nouns: GermanNoun[] = [
       de: 'Lehrerinnen',
       es: 'profesoras',
       tr: 'kadın öğretmenler',
-      te: 'ఉపాధ్యాయినిలు'
+      te: 'ఉపాధ్యాయినులు'
     },
     translationArticles: {
       en: 'the',
@@ -10885,7 +10885,7 @@ export const nouns: GermanNoun[] = [
       de: 'Mütter',
       es: 'madres',
       tr: 'anneler',
-      te: 'తల్లిలు'
+      te: 'తల్లులు'
     },
     translationArticles: {
       en: 'the',
@@ -10909,7 +10909,7 @@ export const nouns: GermanNoun[] = [
       de: 'Nachbarin',
       es: 'vecina',
       tr: 'kadın komşu',
-      te: 'మహిళా పొరుగువాడు'
+      te: 'పొరుగింటి స్త్రీ'
     },
     translationArticles: {
       en: 'the',
@@ -10933,7 +10933,7 @@ export const nouns: GermanNoun[] = [
       de: 'Nachbarinnen',
       es: 'vecinas',
       tr: 'kadın komşular',
-      te: 'మహిళా పొరుగువాడులు'
+      te: 'పొరుగింటి స్త్రీలు'
     },
     translationArticles: {
       en: 'the',
@@ -10981,7 +10981,7 @@ export const nouns: GermanNoun[] = [
       de: 'Nächte',
       es: 'noches',
       tr: 'geceler',
-      te: 'రాత్రిలు'
+      te: 'రాత్రులు'
     },
     translationArticles: {
       en: 'the',
@@ -11053,7 +11053,7 @@ export const nouns: GermanNoun[] = [
       de: 'Öffnungszeit',
       es: 'horario de apertura',
       tr: 'açılış saati',
-      te: 'ప్రారంభ సమయాలు'
+      te: 'ప్రారంభ సమయం'
     },
     translationArticles: {
       en: 'the',
@@ -11077,7 +11077,7 @@ export const nouns: GermanNoun[] = [
       de: 'Öffnungszeiten',
       es: 'horarios de apertura',
       tr: 'açılış saatleri',
-      te: 'ప్రారంభ సమయాలులు'
+      te: 'ప్రారంభ సమయాలు'
     },
     translationArticles: {
       en: 'the',
@@ -11173,7 +11173,7 @@ export const nouns: GermanNoun[] = [
       de: 'Partnerinnen',
       es: 'parejas',
       tr: 'kadın partnerler',
-      te: 'మహిళా భాగస్వామిలు'
+      te: 'మహిళా భాగస్వాముల'
     },
     translationArticles: {
       en: 'the',
@@ -11221,7 +11221,7 @@ export const nouns: GermanNoun[] = [
       de: 'Pausen',
       es: 'pausas',
       tr: 'molalar',
-      te: 'విరామంలు'
+      te: 'విరామాలు'
     },
     translationArticles: {
       en: 'the',
@@ -11269,7 +11269,7 @@ export const nouns: GermanNoun[] = [
       de: 'Polizistinnen',
       es: 'policías',
       tr: 'kadın polisler',
-      te: 'మహిళా పోలీసు అధికారిలు'
+      te: 'మహిళా పోలీసు అధికారులు'
     },
     translationArticles: {
       en: 'the',
@@ -11437,7 +11437,7 @@ export const nouns: GermanNoun[] = [
       de: 'Sängerin',
       es: 'cantante',
       tr: 'kadın şarkıcı',
-      te: 'మహిళా గాయకుడు'
+      te: 'గాయని'
     },
     translationArticles: {
       en: 'the',
@@ -11461,7 +11461,7 @@ export const nouns: GermanNoun[] = [
       de: 'Sängerinnen',
       es: 'cantantes',
       tr: 'kadın şarkıcılar',
-      te: 'మహిళా గాయకుడులు'
+      te: 'గాయనులు'
     },
     translationArticles: {
       en: 'the',
@@ -11509,7 +11509,7 @@ export const nouns: GermanNoun[] = [
       de: 'Schauspielerinnen',
       es: 'actrices',
       tr: 'kadın oyuncular',
-      te: 'నటిలు'
+      te: 'నటులు'
     },
     translationArticles: {
       en: 'the',
@@ -11653,7 +11653,7 @@ export const nouns: GermanNoun[] = [
       de: 'Schwestern',
       es: 'hermanas',
       tr: 'kız kardeşler',
-      te: 'సోదరిలు'
+      te: 'సోదరులు'
     },
     translationArticles: {
       en: 'the',
@@ -11773,7 +11773,7 @@ export const nouns: GermanNoun[] = [
       de: 'Spielerin',
       es: 'jugadora',
       tr: 'kadın oyuncu',
-      te: 'మహిళా ఆటగాడు'
+      te: 'మహిళా ఆటగత్తె'
     },
     translationArticles: {
       en: 'the',
@@ -11797,7 +11797,7 @@ export const nouns: GermanNoun[] = [
       de: 'Spielerinnen',
       es: 'jugadoras',
       tr: 'kadın oyuncular',
-      te: 'మహిళా ఆటగాడులు'
+      te: 'మహిళా ఆటగత్తెలు'
     },
     translationArticles: {
       en: 'the',
@@ -11893,7 +11893,7 @@ export const nouns: GermanNoun[] = [
       de: 'Straßen',
       es: 'calles',
       tr: 'sokaklar',
-      te: 'వీధిలు'
+      te: 'వీధులు'
     },
     translationArticles: {
       en: 'the',
@@ -11941,7 +11941,7 @@ export const nouns: GermanNoun[] = [
       de: 'Studentinnen',
       es: 'estudiantes',
       tr: 'kadın öğrenciler',
-      te: 'మహిళా విద్యార్థిలు'
+      te: 'మహిళా విద్యార్థులు'
     },
     translationArticles: {
       en: 'the',
@@ -12373,7 +12373,7 @@ export const nouns: GermanNoun[] = [
       de: 'Töchter',
       es: 'hijas',
       tr: 'kız evlatlar',
-      te: 'కూతురులు'
+      te: 'కూతుళ్ళు'
     },
     translationArticles: {
       en: 'the',
@@ -12445,7 +12445,7 @@ export const nouns: GermanNoun[] = [
       de: 'Trainerin',
       es: 'entrenadora',
       tr: 'kadın antrenör',
-      te: 'మహిళా శిక్షకుడు'
+      te: 'మహిళా శిక్షకురాలు'
     },
     translationArticles: {
       en: 'the',
@@ -12469,7 +12469,7 @@ export const nouns: GermanNoun[] = [
       de: 'Trainerinnen',
       es: 'entrenadoras',
       tr: 'kadın antrenörler',
-      te: 'మహిళా శిక్షకుడులు'
+      te: 'మహిళా శిక్షకురాళ్ళు'
     },
     translationArticles: {
       en: 'the',
@@ -12565,7 +12565,7 @@ export const nouns: GermanNoun[] = [
       de: 'Uhren',
       es: 'relojes',
       tr: 'saatler',
-      te: 'గడియారంలు'
+      te: 'గడియారాలు'
     },
     translationArticles: {
       en: 'the',
@@ -12613,7 +12613,7 @@ export const nouns: GermanNoun[] = [
       de: 'Unterschriften',
       es: 'firmas',
       tr: 'imzalar',
-      te: 'సంతకంలు'
+      te: 'సంతకాలు'
     },
     translationArticles: {
       en: 'the',
@@ -12829,7 +12829,7 @@ export const nouns: GermanNoun[] = [
       de: 'Zahnärztin',
       es: 'dentista',
       tr: 'kadın dişçi',
-      te: 'మహిళా దంత వైద్యుడు'
+      te: 'మహిళా దంత వైద్యురాలు'
     },
     translationArticles: {
       en: 'the',
@@ -12853,7 +12853,7 @@ export const nouns: GermanNoun[] = [
       de: 'Zahnärztinnen',
       es: 'dentistas',
       tr: 'kadın dişçiler',
-      te: 'మహిళా దంత వైద్యుడులు'
+      te: 'మహిళా దంత వైద్యురాళ్ళు'
     },
     translationArticles: {
       en: 'the',
@@ -12901,7 +12901,7 @@ export const nouns: GermanNoun[] = [
       de: 'Zeiten',
       es: 'tiempos',
       tr: 'zamanlar',
-      te: 'సమయంలు'
+      te: 'సమయాలు'
     },
     translationArticles: {
       en: 'the',
@@ -13022,7 +13022,7 @@ export const nouns: GermanNoun[] = [
       de: 'Bilder',
       es: 'imágenes / fotos',
       tr: 'resimler',
-      te: 'చిత్రంలు'
+      te: 'చిత్రాలు'
     },
     translationArticles: {
       en: 'the',
@@ -13070,7 +13070,7 @@ export const nouns: GermanNoun[] = [
       de: 'Zentren',
       es: 'centros',
       tr: 'merkezler',
-      te: 'కేంద్రంలు'
+      te: 'కేంద్రాలు'
     },
     translationArticles: {
       en: 'the',
@@ -13334,7 +13334,7 @@ export const nouns: GermanNoun[] = [
       de: 'Museen',
       es: 'museos',
       tr: 'müzeler',
-      te: 'మ్యూజియంలు'
+      te: 'మ్యూజియాలు'
     },
     translationArticles: {
       en: 'the',
@@ -13382,7 +13382,7 @@ export const nouns: GermanNoun[] = [
       de: 'Gäste',
       es: 'invitados / huéspedes',
       tr: 'misafirler',
-      te: 'అతిథిలు'
+      te: 'అతిథులు'
     },
     translationArticles: {
       en: 'the',
@@ -13430,7 +13430,7 @@ export const nouns: GermanNoun[] = [
       de: 'Flughäfen',
       es: 'aeropuertos',
       tr: 'havaalanları',
-      te: 'విమానాశ్రయంలు'
+      te: 'విమానాశ్రయాలు'
     },
     translationArticles: {
       en: 'the',
@@ -13598,7 +13598,7 @@ export const nouns: GermanNoun[] = [
       de: 'Kilometer',
       es: 'kilómetros',
       tr: 'kilometreler',
-      te: 'కిలోమీటరు'
+      te: 'కిలోమీటర్లు'
     },
     translationArticles: {
       en: 'the',
@@ -13646,7 +13646,7 @@ export const nouns: GermanNoun[] = [
       de: 'Meter',
       es: 'metros',
       tr: 'metreler',
-      te: 'మీటరు'
+      te: 'మీటర్లు'
     },
     translationArticles: {
       en: 'the',
@@ -13886,7 +13886,7 @@ export const nouns: GermanNoun[] = [
       de: 'Arbeiter',
       es: 'trabajadores',
       tr: 'işçiler',
-      te: 'కార్మికుడు'
+      te: 'కార్మికులు'
     },
     translationArticles: {
       en: 'the',
@@ -13934,7 +13934,7 @@ export const nouns: GermanNoun[] = [
       de: 'Touristen',
       es: 'turistas',
       tr: 'turistler',
-      te: 'పర్యాటకుడులు'
+      te: 'పర్యాటకులు'
     },
     translationArticles: {
       en: 'the',
@@ -14198,7 +14198,7 @@ export const nouns: GermanNoun[] = [
       de: 'Städte',
       es: 'ciudades',
       tr: 'şehirler',
-      te: 'నగరంలు'
+      te: 'నగరాలు'
     },
     translationArticles: {
       en: 'the',
@@ -14246,7 +14246,7 @@ export const nouns: GermanNoun[] = [
       de: 'Nachrichten',
       es: 'mensajes / noticias',
       tr: 'mesajlar / haberler',
-      te: 'సందేశంలు'
+      te: 'సందేశాలు'
     },
     translationArticles: {
       en: 'the',
@@ -14342,7 +14342,7 @@ export const nouns: GermanNoun[] = [
       de: 'Universitäten',
       es: 'universidades',
       tr: 'üniversiteler',
-      te: 'విశ్వవిద్యాలయంలు'
+      te: 'విశ్వవిద్యాలయాలు'
     },
     translationArticles: {
       en: 'the',
@@ -14366,7 +14366,7 @@ export const nouns: GermanNoun[] = [
       de: 'Arbeiterin',
       es: 'trabajadora',
       tr: 'kadın işçi',
-      te: 'మహిళా కార్మికుడు'
+      te: 'మహిళా కార్మికురాలు'
     },
     translationArticles: {
       en: 'the',
@@ -14390,7 +14390,7 @@ export const nouns: GermanNoun[] = [
       de: 'Arbeiterinnen',
       es: 'trabajadoras',
       tr: 'kadın işçiler',
-      te: 'మహిళా కార్మికుడులు'
+      te: 'మహిళా కార్మికురాళ్ళు'
     },
     translationArticles: {
       en: 'the',
@@ -14486,7 +14486,7 @@ export const nouns: GermanNoun[] = [
       de: 'Schulen',
       es: 'escuelas',
       tr: 'okullar',
-      te: 'బడిలు'
+      te: 'బడులు'
     },
     translationArticles: {
       en: 'the',
@@ -14534,7 +14534,7 @@ export const nouns: GermanNoun[] = [
       de: 'Stellen',
       es: 'puestos / lugares',
       tr: 'pozisyonlar / yerler',
-      te: 'ఉద్యోగంలు'
+      te: 'ఉద్యోగాలు'
     },
     translationArticles: {
       en: 'the',
@@ -14582,7 +14582,7 @@ export const nouns: GermanNoun[] = [
       de: 'Apps',
       es: 'aplicaciones',
       tr: 'uygulamalar',
-      te: 'అనువర్తనంలు'
+      te: 'అనువర్తనాలు'
     },
     translationArticles: {
       en: 'the',
@@ -14606,7 +14606,7 @@ export const nouns: GermanNoun[] = [
       de: 'Touristin',
       es: 'turista',
       tr: 'kadın turist',
-      te: 'మహిళా పర్యాటకుడు'
+      te: 'మహిళా పర్యాటకురాలు'
     },
     translationArticles: {
       en: 'the',
@@ -14630,7 +14630,7 @@ export const nouns: GermanNoun[] = [
       de: 'Touristinnen',
       es: 'turistas',
       tr: 'kadın turistler',
-      te: 'మహిళా పర్యాటకుడులు'
+      te: 'మహిళా పర్యాటకురాళ్ళు'
     },
     translationArticles: {
       en: 'the',
@@ -15014,7 +15014,7 @@ export const nouns: GermanNoun[] = [
       de: 'Fenster',
       es: 'ventanas',
       tr: 'pencereler',
-      te: 'కిటికీ'
+      te: 'కిటికీలు'
     },
     translationArticles: {
       en: 'the',
@@ -15110,7 +15110,7 @@ export const nouns: GermanNoun[] = [
       de: 'Betten',
       es: 'camas',
       tr: 'yataklar',
-      te: 'మంచంలు'
+      te: 'మంచాలు'
     },
     translationArticles: {
       en: 'the',
@@ -15206,7 +15206,7 @@ export const nouns: GermanNoun[] = [
       de: 'Lampen',
       es: 'lámparas',
       tr: 'lambalar',
-      te: 'దీపంలు'
+      te: 'దీపాలు'
     },
     translationArticles: {
       en: 'the',
@@ -15422,7 +15422,7 @@ export const nouns: GermanNoun[] = [
       de: 'Decke',
       es: 'techo',
       tr: 'tavan',
-      te: 'దుప్పటి'
+      te: 'పైకప్పు'
     },
     translationArticles: {
       en: 'the',
@@ -15446,7 +15446,7 @@ export const nouns: GermanNoun[] = [
       de: 'Decken',
       es: 'techos',
       tr: 'tavanlar',
-      te: 'దుప్పటిలు'
+      te: 'పైకప్పులు'
     },
     translationArticles: {
       en: 'the',
@@ -15494,7 +15494,7 @@ export const nouns: GermanNoun[] = [
       de: 'Zimmer',
       es: 'habitaciones',
       tr: 'odalar',
-      te: 'గది'
+      te: 'గదులు'
     },
     translationArticles: {
       en: 'the',
@@ -15542,7 +15542,7 @@ export const nouns: GermanNoun[] = [
       de: 'Küchen',
       es: 'cocinas',
       tr: 'mutfaklar',
-      te: 'వంటగదిలు'
+      te: 'వంటగదులు'
     },
     translationArticles: {
       en: 'the',
@@ -15566,7 +15566,7 @@ export const nouns: GermanNoun[] = [
       de: 'Bad',
       es: 'baño',
       tr: 'banyo',
-      te: 'స్నానం'
+      te: 'స్నానపు గది'
     },
     translationArticles: {
       en: 'the',
@@ -15590,7 +15590,7 @@ export const nouns: GermanNoun[] = [
       de: 'Bäder',
       es: 'baños',
       tr: 'banyolar',
-      te: 'స్నానంలు'
+      te: 'స్నానపు గదులు'
     },
     translationArticles: {
       en: 'the',
@@ -15638,7 +15638,7 @@ export const nouns: GermanNoun[] = [
       de: 'Häuser',
       es: 'casas',
       tr: 'evler',
-      te: 'ఇల్లులు'
+      te: 'ఇళ్ళు'
     },
     translationArticles: {
       en: 'the',

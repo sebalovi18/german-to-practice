@@ -642,7 +642,7 @@ export const adjectives: GermanAdjective[] = [
       de: 'lustig',
       es: 'divertido',
       tr: 'komik',
-      te: 'ఫన్నీ'
+      te: 'నవ్వించే'
     }
   },
   {
@@ -782,7 +782,7 @@ export const adjectives: GermanAdjective[] = [
       de: 'verheiratet',
       es: 'casado',
       tr: 'evli',
-      te: 'వివాహితుడు'
+      te: 'వివాహిత'
     }
   },
   {
@@ -796,7 +796,7 @@ export const adjectives: GermanAdjective[] = [
       de: 'verwitwet',
       es: 'viudo',
       tr: 'dul',
-      te: 'వితంతువు'
+      te: 'వైధవ్యం పొందిన'
     }
   },
   {
@@ -809,7 +809,7 @@ export const adjectives: GermanAdjective[] = [
       en: 'warm',
       de: 'warm',
       es: 'cálido',
-      tr: 'ılık',
+      tr: 'sıcak',
       te: 'వెచ్చని'
     }
   },
