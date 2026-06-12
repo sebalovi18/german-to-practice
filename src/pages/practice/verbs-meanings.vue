@@ -65,7 +65,7 @@ const handleNext = () => {
 <template>
   <div
     v-auto-animate
-    class="space-y-4 mx-auto max-w-xl"
+    class="space-y-4"
   >
     <BaseVerbExercise
       :key="answerVerb.id"
