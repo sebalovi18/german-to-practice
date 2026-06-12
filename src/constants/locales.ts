@@ -3,7 +3,8 @@ export const SUPPORTED_LOCALES = [
   'en',
   'de',
   'es',
-  'tr'
+  'tr',
+  'te'
 ] as const
 
 export type SupportedLocale = typeof SUPPORTED_LOCALES[number]
