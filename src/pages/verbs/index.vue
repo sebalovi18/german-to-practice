@@ -48,6 +48,10 @@ const ths = computed<Th[]>(() => [
   {
     label: '🇹🇷',
     class: thClass
+  },
+  {
+    label: '🇮🇳',
+    class: thClass
   }
 ])
 
@@ -93,6 +97,11 @@ const tds: Td[] = [
     label: '🇹🇷',
     class: tdClass,
     value: verb => verb.translations.tr
+  },
+  {
+    label: '🇮🇳',
+    class: tdClass,
+    value: verb => verb.translations.te
   }
 ]
 
@@ -114,6 +123,7 @@ const filteredVerbs = computed(() => {
     || verb.translations.de.toLowerCase().includes(sanitizedFilterSearch)
     || verb.translations.es.toLowerCase().includes(sanitizedFilterSearch)
     || verb.translations.tr.toLowerCase().includes(sanitizedFilterSearch)
+    || verb.translations.te.toLowerCase().includes(sanitizedFilterSearch)
   )
 })
 </script>

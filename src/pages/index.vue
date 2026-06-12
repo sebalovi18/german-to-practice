@@ -94,6 +94,10 @@ const verbThs = computed<Th[]>(() => [
   {
     label: '🇹🇷',
     class: thClass
+  },
+  {
+    label: '🇮🇳',
+    class: thClass
   }
 ])
 
@@ -132,6 +136,11 @@ const verbTds: Td<GermanVerb>[] = [
     label: '🇹🇷',
     class: tdClass,
     value: verb => verb.translations.tr
+  },
+  {
+    label: '🇮🇳',
+    class: tdClass,
+    value: verb => verb.translations.te
   }
 ]
 
@@ -158,6 +167,10 @@ const adjectiveThs = computed<Th[]>(() => [
   },
   {
     label: '🇹🇷',
+    class: thClass
+  },
+  {
+    label: '🇮🇳',
     class: thClass
   }
 ])
@@ -192,6 +205,11 @@ const adjectiveTds: Td<GermanAdjective>[] = [
     label: '🇹🇷',
     class: tdClass,
     value: adjective => adjective.translations.tr
+  },
+  {
+    label: '🇮🇳',
+    class: tdClass,
+    value: adjective => adjective.translations.te
   }
 ]
 
@@ -218,6 +236,10 @@ const nounThs = computed<Th[]>(() => [
   },
   {
     label: '🇹🇷',
+    class: thClass
+  },
+  {
+    label: '🇮🇳',
     class: thClass
   }
 ])
@@ -255,6 +277,11 @@ const nounTds = computed((): Td<GermanNoun>[] => [
     label: '🇹🇷',
     class: tdClass,
     value: noun => formatNounTranslation(noun, 'tr')
+  },
+  {
+    label: '🇮🇳',
+    class: tdClass,
+    value: noun => noun.translations.te
   }
 ])
 
