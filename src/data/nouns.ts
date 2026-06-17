@@ -98,6 +98,102 @@ export const nouns: GermanNoun[] = [
     categories: ['abstract', 'personal-info', 'time']
   },
   {
+    id: 'anzeige',
+    type: 'noun',
+    article: 'die',
+    value: 'Anzeige',
+    singular_id: null,
+    plural_id: 'anzeigen',
+    translations: {
+      en: 'advertisement',
+      de: 'Anzeige',
+      es: 'anuncio',
+      tr: 'ilan',
+      te: 'ప్రకటన'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'el',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['communication']
+  },
+  {
+    id: 'anzeigen',
+    type: 'noun',
+    article: 'die',
+    value: 'Anzeigen',
+    singular_id: 'anzeige',
+    plural_id: null,
+    translations: {
+      en: 'advertisements',
+      de: 'Anzeigen',
+      es: 'anuncios',
+      tr: 'ilanlar',
+      te: 'ప్రకటనలు'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['communication']
+  },
+  {
+    id: 'aufzug',
+    type: 'noun',
+    article: 'der',
+    value: 'Aufzug',
+    singular_id: null,
+    plural_id: 'aufzüge',
+    translations: {
+      en: 'elevator',
+      de: 'Aufzug',
+      es: 'ascensor',
+      tr: 'asansör',
+      te: 'లిఫ్ట్'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['household', 'technology']
+  },
+  {
+    id: 'aufzüge',
+    type: 'noun',
+    article: 'die',
+    value: 'Aufzüge',
+    singular_id: 'aufzug',
+    plural_id: null,
+    translations: {
+      en: 'elevators',
+      de: 'Aufzüge',
+      es: 'ascensores',
+      tr: 'asansörler',
+      te: 'లిఫ్ట్‌లు'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['household', 'technology']
+  },
+  {
     id: 'auto',
     type: 'noun',
     article: 'das',
@@ -144,6 +240,198 @@ export const nouns: GermanNoun[] = [
     },
     levels: [],
     categories: ['transportation']
+  },
+  {
+    id: 'badewanne',
+    type: 'noun',
+    article: 'die',
+    value: 'Badewanne',
+    singular_id: null,
+    plural_id: 'badewannen',
+    translations: {
+      en: 'bathtub',
+      de: 'Badewanne',
+      es: 'bañera',
+      tr: 'küvet',
+      te: 'స్నానపు తొట్టి'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['household']
+  },
+  {
+    id: 'badewannen',
+    type: 'noun',
+    article: 'die',
+    value: 'Badewannen',
+    singular_id: 'badewanne',
+    plural_id: null,
+    translations: {
+      en: 'bathtubs',
+      de: 'Badewannen',
+      es: 'bañeras',
+      tr: 'küvetler',
+      te: 'స్నానపు తొట్టెలు'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['household']
+  },
+  {
+    id: 'bahnhof',
+    type: 'noun',
+    article: 'der',
+    value: 'Bahnhof',
+    singular_id: null,
+    plural_id: 'bahnhöfe',
+    translations: {
+      en: 'train station',
+      de: 'Bahnhof',
+      es: 'estación de tren',
+      tr: 'tren istasyonu',
+      te: 'రైల్వే స్టేషన్'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'la',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['transportation', 'locations', 'travel']
+  },
+  {
+    id: 'bahnhöfe',
+    type: 'noun',
+    article: 'die',
+    value: 'Bahnhöfe',
+    singular_id: 'bahnhof',
+    plural_id: null,
+    translations: {
+      en: 'train stations',
+      de: 'Bahnhöfe',
+      es: 'estaciones de tren',
+      tr: 'tren istasyonları',
+      te: 'రైల్వే స్టేషన్లు'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['transportation', 'locations', 'travel']
+  },
+  {
+    id: 'balkon',
+    type: 'noun',
+    article: 'der',
+    value: 'Balkon',
+    singular_id: null,
+    plural_id: 'balkone',
+    translations: {
+      en: 'balcony',
+      de: 'Balkon',
+      es: 'balcón',
+      tr: 'balkon',
+      te: 'బాల్కనీ'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['household']
+  },
+  {
+    id: 'balkone',
+    type: 'noun',
+    article: 'die',
+    value: 'Balkone',
+    singular_id: 'balkon',
+    plural_id: null,
+    translations: {
+      en: 'balconies',
+      de: 'Balkone',
+      es: 'balcones',
+      tr: 'balkonlar',
+      te: 'బాల్కనీలు'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['household']
+  },
+  {
+    id: 'beispiel',
+    type: 'noun',
+    article: 'das',
+    value: 'Beispiel',
+    singular_id: null,
+    plural_id: 'beispiele',
+    translations: {
+      en: 'example',
+      de: 'Beispiel',
+      es: 'ejemplo',
+      tr: 'örnek',
+      te: 'ఉదాహరణ'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['abstract', 'education']
+  },
+  {
+    id: 'beispiele',
+    type: 'noun',
+    article: 'die',
+    value: 'Beispiele',
+    singular_id: 'beispiel',
+    plural_id: null,
+    translations: {
+      en: 'examples',
+      de: 'Beispiele',
+      es: 'ejemplos',
+      tr: 'örnekler',
+      te: 'ఉదాహరణలు'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['abstract', 'education']
   },
   {
     id: 'bier',
@@ -314,6 +602,54 @@ export const nouns: GermanNoun[] = [
     categories: ['documents', 'education']
   },
   {
+    id: 'bäckerei',
+    type: 'noun',
+    article: 'die',
+    value: 'Bäckerei',
+    singular_id: null,
+    plural_id: 'bäckereien',
+    translations: {
+      en: 'bakery',
+      de: 'Bäckerei',
+      es: 'panadería',
+      tr: 'fırın',
+      te: 'బేకరీ'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['locations', 'shopping']
+  },
+  {
+    id: 'bäckereien',
+    type: 'noun',
+    article: 'die',
+    value: 'Bäckereien',
+    singular_id: 'bäckerei',
+    plural_id: null,
+    translations: {
+      en: 'bakeries',
+      de: 'Bäckereien',
+      es: 'panaderías',
+      tr: 'fırınlar',
+      te: 'బేకరీలు'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['locations', 'shopping']
+  },
+  {
     id: 'bücher',
     type: 'noun',
     article: 'die',
@@ -336,6 +672,102 @@ export const nouns: GermanNoun[] = [
     },
     levels: [],
     categories: ['documents', 'education']
+  },
+  {
+    id: 'café',
+    type: 'noun',
+    article: 'das',
+    value: 'Café',
+    singular_id: null,
+    plural_id: 'cafés',
+    translations: {
+      en: 'café',
+      de: 'Café',
+      es: 'cafetería',
+      tr: 'kafe',
+      te: 'కేఫ్'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'la',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['locations', 'food']
+  },
+  {
+    id: 'cafés',
+    type: 'noun',
+    article: 'die',
+    value: 'Cafés',
+    singular_id: 'café',
+    plural_id: null,
+    translations: {
+      en: 'cafés',
+      de: 'Cafés',
+      es: 'cafeterías',
+      tr: 'kafeler',
+      te: 'కేఫ్‌లు'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['locations', 'food']
+  },
+  {
+    id: 'computer',
+    type: 'noun',
+    article: 'der',
+    value: 'Computer',
+    singular_id: null,
+    plural_id: 'computer-plural',
+    translations: {
+      en: 'computer',
+      de: 'Computer',
+      es: 'ordenador',
+      tr: 'bilgisayar',
+      te: 'కంప్యూటర్'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['technology']
+  },
+  {
+    id: 'computer-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Computer',
+    singular_id: 'computer',
+    plural_id: null,
+    translations: {
+      en: 'computers',
+      de: 'Computer',
+      es: 'ordenadores',
+      tr: 'bilgisayarlar',
+      te: 'కంప్యూటర్లు'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['technology']
   },
   {
     id: 'croissant',
@@ -432,6 +864,102 @@ export const nouns: GermanNoun[] = [
     },
     levels: [],
     categories: ['education', 'language']
+  },
+  {
+    id: 'dom',
+    type: 'noun',
+    article: 'der',
+    value: 'Dom',
+    singular_id: null,
+    plural_id: 'dome',
+    translations: {
+      en: 'cathedral',
+      de: 'Dom',
+      es: 'catedral',
+      tr: 'katedral',
+      te: 'కేథడ్రల్'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'la',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['locations', 'travel']
+  },
+  {
+    id: 'dome',
+    type: 'noun',
+    article: 'die',
+    value: 'Dome',
+    singular_id: 'dom',
+    plural_id: null,
+    translations: {
+      en: 'cathedrals',
+      de: 'Dome',
+      es: 'catedrales',
+      tr: 'katedraller',
+      te: 'కేథడ్రల్స్'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['locations', 'travel']
+  },
+  {
+    id: 'dusche',
+    type: 'noun',
+    article: 'die',
+    value: 'Dusche',
+    singular_id: null,
+    plural_id: 'duschen',
+    translations: {
+      en: 'shower',
+      de: 'Dusche',
+      es: 'ducha',
+      tr: 'duş',
+      te: 'షవర్'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['household']
+  },
+  {
+    id: 'duschen',
+    type: 'noun',
+    article: 'die',
+    value: 'Duschen',
+    singular_id: 'dusche',
+    plural_id: null,
+    translations: {
+      en: 'showers',
+      de: 'Duschen',
+      es: 'duchas',
+      tr: 'duşlar',
+      te: 'షవర్లు'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['household']
   },
   {
     id: 'ei',
@@ -674,6 +1202,54 @@ export const nouns: GermanNoun[] = [
     categories: ['transportation']
   },
   {
+    id: 'fernseher',
+    type: 'noun',
+    article: 'der',
+    value: 'Fernseher',
+    singular_id: null,
+    plural_id: 'fernseher-plural',
+    translations: {
+      en: 'television',
+      de: 'Fernseher',
+      es: 'televisor',
+      tr: 'televizyon',
+      te: 'టెలివిజన్'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['household', 'technology']
+  },
+  {
+    id: 'fernseher-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Fernseher',
+    singular_id: 'fernseher',
+    plural_id: null,
+    translations: {
+      en: 'televisions',
+      de: 'Fernseher',
+      es: 'televisores',
+      tr: 'televizyonlar',
+      te: 'టెలివిజన్లు'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['household', 'technology']
+  },
+  {
     id: 'feuerzeug',
     type: 'noun',
     article: 'das',
@@ -914,6 +1490,30 @@ export const nouns: GermanNoun[] = [
     categories: ['food']
   },
   {
+    id: 'garten',
+    type: 'noun',
+    article: 'der',
+    value: 'Garten',
+    singular_id: null,
+    plural_id: 'gärten',
+    translations: {
+      en: 'garden',
+      de: 'Garten',
+      es: 'jardín',
+      tr: 'bahçe',
+      te: 'తోట'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['household', 'nature']
+  },
+  {
     id: 'gemüse',
     type: 'noun',
     article: 'das',
@@ -1106,6 +1706,30 @@ export const nouns: GermanNoun[] = [
     categories: ['measurements']
   },
   {
+    id: 'gärten',
+    type: 'noun',
+    article: 'die',
+    value: 'Gärten',
+    singular_id: 'garten',
+    plural_id: null,
+    translations: {
+      en: 'gardens',
+      de: 'Gärten',
+      es: 'jardines',
+      tr: 'bahçeler',
+      te: 'తోటలు'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['household', 'nature']
+  },
+  {
     id: 'handy',
     type: 'noun',
     article: 'das',
@@ -1154,6 +1778,54 @@ export const nouns: GermanNoun[] = [
     categories: ['communication', 'household', 'technology']
   },
   {
+    id: 'hauptbahnhof',
+    type: 'noun',
+    article: 'der',
+    value: 'Hauptbahnhof',
+    singular_id: null,
+    plural_id: 'hauptbahnhöfe',
+    translations: {
+      en: 'central station',
+      de: 'Hauptbahnhof',
+      es: 'estación central',
+      tr: 'ana tren istasyonu',
+      te: 'ప్రధాన రైల్వే స్టేషన్'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'la',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['transportation', 'locations', 'travel']
+  },
+  {
+    id: 'hauptbahnhöfe',
+    type: 'noun',
+    article: 'die',
+    value: 'Hauptbahnhöfe',
+    singular_id: 'hauptbahnhof',
+    plural_id: null,
+    translations: {
+      en: 'central stations',
+      de: 'Hauptbahnhöfe',
+      es: 'estaciones centrales',
+      tr: 'ana tren istasyonları',
+      te: 'ప్రధాన రైల్వే స్టేషన్లు'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['transportation', 'locations', 'travel']
+  },
+  {
     id: 'heft',
     type: 'noun',
     article: 'das',
@@ -1200,6 +1872,102 @@ export const nouns: GermanNoun[] = [
     },
     levels: [],
     categories: ['documents', 'education']
+  },
+  {
+    id: 'heizung',
+    type: 'noun',
+    article: 'die',
+    value: 'Heizung',
+    singular_id: null,
+    plural_id: 'heizungen',
+    translations: {
+      en: 'heating',
+      de: 'Heizung',
+      es: 'calefacción',
+      tr: 'ısıtma',
+      te: 'హీటింగ్'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['household']
+  },
+  {
+    id: 'heizungen',
+    type: 'noun',
+    article: 'die',
+    value: 'Heizungen',
+    singular_id: 'heizung',
+    plural_id: null,
+    translations: {
+      en: 'heatings',
+      de: 'Heizungen',
+      es: 'calefacciones',
+      tr: 'ısıtmalar',
+      te: 'హీటింగ్‌లు'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['household']
+  },
+  {
+    id: 'herd',
+    type: 'noun',
+    article: 'der',
+    value: 'Herd',
+    singular_id: null,
+    plural_id: 'herde',
+    translations: {
+      en: 'stove',
+      de: 'Herd',
+      es: 'estufa',
+      tr: 'ocak',
+      te: 'పొయ్యి'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['household']
+  },
+  {
+    id: 'herde',
+    type: 'noun',
+    article: 'die',
+    value: 'Herde',
+    singular_id: 'herd',
+    plural_id: null,
+    translations: {
+      en: 'stoves',
+      de: 'Herde',
+      es: 'estufas',
+      tr: 'ocaklar',
+      te: 'పొయ్యిలు'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['household']
   },
   {
     id: 'herkunftsland',
@@ -1298,6 +2066,54 @@ export const nouns: GermanNoun[] = [
     categories: ['leisure']
   },
   {
+    id: 'hotel',
+    type: 'noun',
+    article: 'das',
+    value: 'Hotel',
+    singular_id: null,
+    plural_id: 'hotels',
+    translations: {
+      en: 'hotel',
+      de: 'Hotel',
+      es: 'hotel',
+      tr: 'otel',
+      te: 'హోటల్'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['locations', 'travel']
+  },
+  {
+    id: 'hotels',
+    type: 'noun',
+    article: 'die',
+    value: 'Hotels',
+    singular_id: 'hotel',
+    plural_id: null,
+    translations: {
+      en: 'hotels',
+      de: 'Hotels',
+      es: 'hoteles',
+      tr: 'oteller',
+      te: 'హోటళ్లు'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['locations', 'travel']
+  },
+  {
     id: 'internet',
     type: 'noun',
     article: 'das',
@@ -1392,6 +2208,54 @@ export const nouns: GermanNoun[] = [
     },
     levels: [],
     categories: ['dates', 'time']
+  },
+  {
+    id: 'keller',
+    type: 'noun',
+    article: 'der',
+    value: 'Keller',
+    singular_id: null,
+    plural_id: 'keller-plural',
+    translations: {
+      en: 'cellar',
+      de: 'Keller',
+      es: 'sótano',
+      tr: 'bodrum',
+      te: 'నేలమాళిగ'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['household']
+  },
+  {
+    id: 'keller-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Keller',
+    singular_id: 'keller',
+    plural_id: null,
+    translations: {
+      en: 'cellars',
+      de: 'Keller',
+      es: 'sótanos',
+      tr: 'bodrumlar',
+      te: 'నేలమాళిగలు'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['household']
   },
   {
     id: 'kilo',
@@ -1634,6 +2498,54 @@ export const nouns: GermanNoun[] = [
     categories: ['health', 'locations', 'work']
   },
   {
+    id: 'kühlschrank',
+    type: 'noun',
+    article: 'der',
+    value: 'Kühlschrank',
+    singular_id: null,
+    plural_id: 'kühlschränke',
+    translations: {
+      en: 'fridge',
+      de: 'Kühlschrank',
+      es: 'nevera',
+      tr: 'buzdolabı',
+      te: 'రిఫ్రిజిరేటర్'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'la',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['household']
+  },
+  {
+    id: 'kühlschränke',
+    type: 'noun',
+    article: 'die',
+    value: 'Kühlschränke',
+    singular_id: 'kühlschrank',
+    plural_id: null,
+    translations: {
+      en: 'fridges',
+      de: 'Kühlschränke',
+      es: 'neveras',
+      tr: 'buzdolapları',
+      te: 'రిఫ్రిజిరేటర్లు'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['household']
+  },
+  {
     id: 'lebensmittel',
     type: 'noun',
     article: 'das',
@@ -1778,6 +2690,198 @@ export const nouns: GermanNoun[] = [
     categories: ['education', 'household']
   },
   {
+    id: 'miete',
+    type: 'noun',
+    article: 'die',
+    value: 'Miete',
+    singular_id: null,
+    plural_id: 'mieten',
+    translations: {
+      en: 'rent',
+      de: 'Miete',
+      es: 'alquiler',
+      tr: 'kira',
+      te: 'అద్దె'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'el',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['money', 'household']
+  },
+  {
+    id: 'mieten',
+    type: 'noun',
+    article: 'die',
+    value: 'Mieten',
+    singular_id: 'miete',
+    plural_id: null,
+    translations: {
+      en: 'rents',
+      de: 'Mieten',
+      es: 'alquileres',
+      tr: 'kiralar',
+      te: 'అద్దెలు'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['money', 'household']
+  },
+  {
+    id: 'minute',
+    type: 'noun',
+    article: 'die',
+    value: 'Minute',
+    singular_id: null,
+    plural_id: 'minuten',
+    translations: {
+      en: 'minute',
+      de: 'Minute',
+      es: 'minuto',
+      tr: 'dakika',
+      te: 'నిమిషం'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'el',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['time', 'measurements']
+  },
+  {
+    id: 'minuten',
+    type: 'noun',
+    article: 'die',
+    value: 'Minuten',
+    singular_id: 'minute',
+    plural_id: null,
+    translations: {
+      en: 'minutes',
+      de: 'Minuten',
+      es: 'minutos',
+      tr: 'dakikalar',
+      te: 'నిమిషాలు'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['time', 'measurements']
+  },
+  {
+    id: 'mitbewohner',
+    type: 'noun',
+    article: 'der',
+    value: 'Mitbewohner',
+    singular_id: null,
+    plural_id: 'mitbewohner-plural',
+    translations: {
+      en: 'roommate',
+      de: 'Mitbewohner',
+      es: 'compañero de piso',
+      tr: 'ev arkadaşı',
+      te: 'రూమ్‌మేట్'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['people']
+  },
+  {
+    id: 'mitbewohner-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Mitbewohner',
+    singular_id: 'mitbewohner',
+    plural_id: null,
+    translations: {
+      en: 'roommates',
+      de: 'Mitbewohner',
+      es: 'compañeros de piso',
+      tr: 'ev arkadaşları',
+      te: 'రూమ్‌మేట్లు'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['people']
+  },
+  {
+    id: 'mitbewohnerin',
+    type: 'noun',
+    article: 'die',
+    value: 'Mitbewohnerin',
+    singular_id: null,
+    plural_id: 'mitbewohnerinnen',
+    translations: {
+      en: 'roommate',
+      de: 'Mitbewohnerin',
+      es: 'compañera de piso',
+      tr: 'ev arkadaşı',
+      te: 'రూమ్‌మేట్'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['people']
+  },
+  {
+    id: 'mitbewohnerinnen',
+    type: 'noun',
+    article: 'die',
+    value: 'Mitbewohnerinnen',
+    singular_id: 'mitbewohnerin',
+    plural_id: null,
+    translations: {
+      en: 'roommates',
+      de: 'Mitbewohnerinnen',
+      es: 'compañeras de piso',
+      tr: 'ev arkadaşları',
+      te: 'రూమ్‌మేట్లు'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['people']
+  },
+  {
     id: 'mittagessen',
     type: 'noun',
     article: 'das',
@@ -1826,6 +2930,30 @@ export const nouns: GermanNoun[] = [
     categories: ['food']
   },
   {
+    id: 'möbel',
+    type: 'noun',
+    article: 'die',
+    value: 'Möbel',
+    singular_id: null,
+    plural_id: null,
+    translations: {
+      en: 'furniture',
+      de: 'Möbel',
+      es: 'muebles',
+      tr: 'mobilya',
+      te: 'ఫర్నిచర్'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['household']
+  },
+  {
     id: 'müsli',
     type: 'noun',
     article: 'das',
@@ -1872,6 +3000,54 @@ export const nouns: GermanNoun[] = [
     },
     levels: [],
     categories: ['food']
+  },
+  {
+    id: 'nebenkosten',
+    type: 'noun',
+    article: 'die',
+    value: 'Nebenkosten',
+    singular_id: null,
+    plural_id: null,
+    translations: {
+      en: 'utility costs',
+      de: 'Nebenkosten',
+      es: 'gastos adicionales',
+      tr: 'ek masraflar',
+      te: 'అదనపు ఖర్చులు'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['household', 'money']
+  },
+  {
+    id: 'nähe',
+    type: 'noun',
+    article: 'die',
+    value: 'Nähe',
+    singular_id: null,
+    plural_id: null,
+    translations: {
+      en: 'nearness',
+      de: 'Nähe',
+      es: 'cercanía',
+      tr: 'yakınlık',
+      te: 'సమీపం'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['abstract', 'locations']
   },
   {
     id: 'obst',
@@ -2018,6 +3194,54 @@ export const nouns: GermanNoun[] = [
     categories: ['food', 'leisure']
   },
   {
+    id: 'polizei',
+    type: 'noun',
+    article: 'die',
+    value: 'Polizei',
+    singular_id: null,
+    plural_id: null,
+    translations: {
+      en: 'police',
+      de: 'Polizei',
+      es: 'policía',
+      tr: 'polis',
+      te: 'పోలీసు'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['locations', 'professions']
+  },
+  {
+    id: 'post',
+    type: 'noun',
+    article: 'die',
+    value: 'Post',
+    singular_id: null,
+    plural_id: null,
+    translations: {
+      en: 'mail',
+      de: 'Post',
+      es: 'correo',
+      tr: 'posta',
+      te: 'తపాలా'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'el',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['locations', 'communication']
+  },
+  {
     id: 'rad',
     type: 'noun',
     article: 'das',
@@ -2040,6 +3264,102 @@ export const nouns: GermanNoun[] = [
     },
     levels: [],
     categories: ['transportation']
+  },
+  {
+    id: 'rezept',
+    type: 'noun',
+    article: 'das',
+    value: 'Rezept',
+    singular_id: null,
+    plural_id: 'rezepte',
+    translations: {
+      en: 'recipe',
+      de: 'Rezept',
+      es: 'receta',
+      tr: 'tarif',
+      te: 'వంటకం'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'la',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['food', 'health']
+  },
+  {
+    id: 'rezepte',
+    type: 'noun',
+    article: 'die',
+    value: 'Rezepte',
+    singular_id: 'rezept',
+    plural_id: null,
+    translations: {
+      en: 'recipes',
+      de: 'Rezepte',
+      es: 'recetas',
+      tr: 'tarifler',
+      te: 'వంటకాలు'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['food', 'health']
+  },
+  {
+    id: 'richtung',
+    type: 'noun',
+    article: 'die',
+    value: 'Richtung',
+    singular_id: null,
+    plural_id: 'richtungen',
+    translations: {
+      en: 'direction',
+      de: 'Richtung',
+      es: 'dirección',
+      tr: 'yön',
+      te: 'దిశ'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['abstract', 'travel']
+  },
+  {
+    id: 'richtungen',
+    type: 'noun',
+    article: 'die',
+    value: 'Richtungen',
+    singular_id: 'richtung',
+    plural_id: null,
+    translations: {
+      en: 'directions',
+      de: 'Richtungen',
+      es: 'direcciones',
+      tr: 'yönler',
+      te: 'దిశలు'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['abstract', 'travel']
   },
   {
     id: 'räder',
@@ -2114,6 +3434,150 @@ export const nouns: GermanNoun[] = [
     categories: ['food', 'locations', 'work']
   },
   {
+    id: 'schlafzimmer',
+    type: 'noun',
+    article: 'das',
+    value: 'Schlafzimmer',
+    singular_id: null,
+    plural_id: 'schlafzimmer-plural',
+    translations: {
+      en: 'bedroom',
+      de: 'Schlafzimmer',
+      es: 'dormitorio',
+      tr: 'yatak odası',
+      te: 'పడకగది'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['household']
+  },
+  {
+    id: 'schlafzimmer-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Schlafzimmer',
+    singular_id: 'schlafzimmer',
+    plural_id: null,
+    translations: {
+      en: 'bedrooms',
+      de: 'Schlafzimmer',
+      es: 'dormitorios',
+      tr: 'yatak odaları',
+      te: 'పడక గదులు'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['household']
+  },
+  {
+    id: 'schloss',
+    type: 'noun',
+    article: 'das',
+    value: 'Schloss',
+    singular_id: null,
+    plural_id: 'schlösser',
+    translations: {
+      en: 'castle',
+      de: 'Schloss',
+      es: 'castillo',
+      tr: 'şato',
+      te: 'కోట'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['locations', 'travel']
+  },
+  {
+    id: 'schlösser',
+    type: 'noun',
+    article: 'die',
+    value: 'Schlösser',
+    singular_id: 'schloss',
+    plural_id: null,
+    translations: {
+      en: 'castles',
+      de: 'Schlösser',
+      es: 'castillos',
+      tr: 'şatolar',
+      te: 'కోటలు'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['locations', 'travel']
+  },
+  {
+    id: 'schwimmbad',
+    type: 'noun',
+    article: 'das',
+    value: 'Schwimmbad',
+    singular_id: null,
+    plural_id: 'schwimmbäder',
+    translations: {
+      en: 'swimming pool',
+      de: 'Schwimmbad',
+      es: 'piscina',
+      tr: 'yüzme havuzu',
+      te: 'ఈత కొలను'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'la',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['locations', 'sports', 'leisure']
+  },
+  {
+    id: 'schwimmbäder',
+    type: 'noun',
+    article: 'die',
+    value: 'Schwimmbäder',
+    singular_id: 'schwimmbad',
+    plural_id: null,
+    translations: {
+      en: 'swimming pools',
+      de: 'Schwimmbäder',
+      es: 'piscinas',
+      tr: 'yüzme havuzları',
+      te: 'ఈత కొలనులు'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['locations', 'sports', 'leisure']
+  },
+  {
     id: 'spiel',
     type: 'noun',
     article: 'das',
@@ -2160,6 +3624,222 @@ export const nouns: GermanNoun[] = [
     },
     levels: [],
     categories: ['arts', 'leisure', 'sports']
+  },
+  {
+    id: 'spülmaschine',
+    type: 'noun',
+    article: 'die',
+    value: 'Spülmaschine',
+    singular_id: null,
+    plural_id: 'spülmaschinen',
+    translations: {
+      en: 'dishwasher',
+      de: 'Spülmaschine',
+      es: 'lavavajillas',
+      tr: 'bulaşık makinesi',
+      te: 'పాత్రలు కడిగే యంత్రం'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'el',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['household']
+  },
+  {
+    id: 'spülmaschinen',
+    type: 'noun',
+    article: 'die',
+    value: 'Spülmaschinen',
+    singular_id: 'spülmaschine',
+    plural_id: null,
+    translations: {
+      en: 'dishwashers',
+      de: 'Spülmaschinen',
+      es: 'lavavajillas',
+      tr: 'bulaşık makineleri',
+      te: 'పాత్రలు కడిగే యంత్రాలు'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['household']
+  },
+  {
+    id: 'stadien',
+    type: 'noun',
+    article: 'die',
+    value: 'Stadien',
+    singular_id: 'stadion',
+    plural_id: null,
+    translations: {
+      en: 'stadiums',
+      de: 'Stadien',
+      es: 'estadios',
+      tr: 'stadyumlar',
+      te: 'క్రీడాంగణాలు'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['locations', 'sports']
+  },
+  {
+    id: 'stadion',
+    type: 'noun',
+    article: 'das',
+    value: 'Stadion',
+    singular_id: null,
+    plural_id: 'stadien',
+    translations: {
+      en: 'stadium',
+      de: 'Stadion',
+      es: 'estadio',
+      tr: 'stadyum',
+      te: 'క్రీడాంగణం'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['locations', 'sports']
+  },
+  {
+    id: 'steckdose',
+    type: 'noun',
+    article: 'die',
+    value: 'Steckdose',
+    singular_id: null,
+    plural_id: 'steckdosen',
+    translations: {
+      en: 'socket',
+      de: 'Steckdose',
+      es: 'enchufe',
+      tr: 'priz',
+      te: 'సాకెట్'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'el',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['household', 'technology']
+  },
+  {
+    id: 'steckdosen',
+    type: 'noun',
+    article: 'die',
+    value: 'Steckdosen',
+    singular_id: 'steckdose',
+    plural_id: null,
+    translations: {
+      en: 'sockets',
+      de: 'Steckdosen',
+      es: 'enchufes',
+      tr: 'prizler',
+      te: 'సాకెట్లు'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['household', 'technology']
+  },
+  {
+    id: 'stock',
+    type: 'noun',
+    article: 'der',
+    value: 'Stock',
+    singular_id: null,
+    plural_id: 'stockwerke',
+    translations: {
+      en: 'floor',
+      de: 'Stock',
+      es: 'piso',
+      tr: 'kat',
+      te: 'అంతస్తు'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['household', 'locations']
+  },
+  {
+    id: 'stockwerke',
+    type: 'noun',
+    article: 'die',
+    value: 'Stockwerke',
+    singular_id: 'stock',
+    plural_id: null,
+    translations: {
+      en: 'floors',
+      de: 'Stockwerke',
+      es: 'pisos',
+      tr: 'katlar',
+      te: 'అంతస్తులు'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['household', 'locations']
+  },
+  {
+    id: 'strom',
+    type: 'noun',
+    article: 'der',
+    value: 'Strom',
+    singular_id: null,
+    plural_id: null,
+    translations: {
+      en: 'electricity',
+      de: 'Strom',
+      es: 'electricidad',
+      tr: 'elektrik',
+      te: 'విద్యుత్'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'la',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['household', 'technology']
   },
   {
     id: 'taxi',
@@ -2258,6 +3938,54 @@ export const nouns: GermanNoun[] = [
     categories: ['communication', 'household', 'technology']
   },
   {
+    id: 'toilette',
+    type: 'noun',
+    article: 'die',
+    value: 'Toilette',
+    singular_id: null,
+    plural_id: 'toiletten',
+    translations: {
+      en: 'toilet',
+      de: 'Toilette',
+      es: 'baño',
+      tr: 'tuvalet',
+      te: 'మరుగుదొడ్డి'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'el',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['household']
+  },
+  {
+    id: 'toiletten',
+    type: 'noun',
+    article: 'die',
+    value: 'Toiletten',
+    singular_id: 'toilette',
+    plural_id: null,
+    translations: {
+      en: 'toilets',
+      de: 'Toiletten',
+      es: 'baños',
+      tr: 'tuvaletler',
+      te: 'మరుగుదొడ్లు'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['household']
+  },
+  {
     id: 'training',
     type: 'noun',
     article: 'das',
@@ -2304,6 +4032,78 @@ export const nouns: GermanNoun[] = [
     },
     levels: [],
     categories: ['leisure', 'sports']
+  },
+  {
+    id: 'umwelt',
+    type: 'noun',
+    article: 'die',
+    value: 'Umwelt',
+    singular_id: null,
+    plural_id: null,
+    translations: {
+      en: 'environment',
+      de: 'Umwelt',
+      es: 'medio ambiente',
+      tr: 'çevre',
+      te: 'పర్యావరణం'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'el',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['nature']
+  },
+  {
+    id: 'verkehrsmittel',
+    type: 'noun',
+    article: 'das',
+    value: 'Verkehrsmittel',
+    singular_id: null,
+    plural_id: 'verkehrsmittel-plural',
+    translations: {
+      en: 'means of transport',
+      de: 'Verkehrsmittel',
+      es: 'medio de transporte',
+      tr: 'ulaşım aracı',
+      te: 'రవాణా సాధనం'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['transportation']
+  },
+  {
+    id: 'verkehrsmittel-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Verkehrsmittel',
+    singular_id: 'verkehrsmittel',
+    plural_id: null,
+    translations: {
+      en: 'means of transport',
+      de: 'Verkehrsmittel',
+      es: 'medios de transporte',
+      tr: 'ulaşım araçları',
+      te: 'రవాణా సాధనాలు'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['transportation']
   },
   {
     id: 'video',
@@ -2402,6 +4202,54 @@ export const nouns: GermanNoun[] = [
     categories: ['measurements', 'numbers']
   },
   {
+    id: 'waschmaschine',
+    type: 'noun',
+    article: 'die',
+    value: 'Waschmaschine',
+    singular_id: null,
+    plural_id: 'waschmaschinen',
+    translations: {
+      en: 'washing machine',
+      de: 'Waschmaschine',
+      es: 'lavadora',
+      tr: 'çamaşır makinesi',
+      te: 'వాషింగ్ మెషీన్'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'la',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['household']
+  },
+  {
+    id: 'waschmaschinen',
+    type: 'noun',
+    article: 'die',
+    value: 'Waschmaschinen',
+    singular_id: 'waschmaschine',
+    plural_id: null,
+    translations: {
+      en: 'washing machines',
+      de: 'Waschmaschinen',
+      es: 'lavadoras',
+      tr: 'çamaşır makineleri',
+      te: 'వాషింగ్ మెషీన్లు'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'las',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['household']
+  },
+  {
     id: 'wasser',
     type: 'noun',
     article: 'das',
@@ -2448,6 +4296,54 @@ export const nouns: GermanNoun[] = [
     },
     levels: [],
     categories: ['drink', 'nature', 'weather']
+  },
+  {
+    id: 'weg',
+    type: 'noun',
+    article: 'der',
+    value: 'Weg',
+    singular_id: null,
+    plural_id: 'wege',
+    translations: {
+      en: 'way',
+      de: 'Weg',
+      es: 'camino',
+      tr: 'yol',
+      te: 'దారి'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['locations', 'travel']
+  },
+  {
+    id: 'wege',
+    type: 'noun',
+    article: 'die',
+    value: 'Wege',
+    singular_id: 'weg',
+    plural_id: null,
+    translations: {
+      en: 'ways',
+      de: 'Wege',
+      es: 'caminos',
+      tr: 'yollar',
+      te: 'దారులు'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['locations', 'travel']
   },
   {
     id: 'wetter',
@@ -2616,6 +4512,198 @@ export const nouns: GermanNoun[] = [
     },
     levels: [],
     categories: ['food', 'nature']
+  },
+  {
+    id: 'wohngemeinschaft',
+    type: 'noun',
+    article: 'die',
+    value: 'Wohngemeinschaft',
+    singular_id: null,
+    plural_id: 'wohngemeinschaften',
+    translations: {
+      en: 'shared flat',
+      de: 'Wohngemeinschaft',
+      es: 'piso compartido',
+      tr: 'paylaşımlı ev',
+      te: 'భాగస్వామ్య నివాసం'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'el',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['household']
+  },
+  {
+    id: 'wohngemeinschaften',
+    type: 'noun',
+    article: 'die',
+    value: 'Wohngemeinschaften',
+    singular_id: 'wohngemeinschaft',
+    plural_id: null,
+    translations: {
+      en: 'shared flats',
+      de: 'Wohngemeinschaften',
+      es: 'pisos compartidos',
+      tr: 'paylaşımlı evler',
+      te: 'భాగస్వామ్య నివాసాలు'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['household']
+  },
+  {
+    id: 'wohnzimmer',
+    type: 'noun',
+    article: 'das',
+    value: 'Wohnzimmer',
+    singular_id: null,
+    plural_id: 'wohnzimmer-plural',
+    translations: {
+      en: 'living room',
+      de: 'Wohnzimmer',
+      es: 'salón',
+      tr: 'oturma odası',
+      te: 'నివాస గది'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'das',
+      es: 'el',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['household']
+  },
+  {
+    id: 'wohnzimmer-plural',
+    type: 'noun',
+    article: 'die',
+    value: 'Wohnzimmer',
+    singular_id: 'wohnzimmer',
+    plural_id: null,
+    translations: {
+      en: 'living rooms',
+      de: 'Wohnzimmer',
+      es: 'salones',
+      tr: 'oturma odaları',
+      te: 'నివాస గదులు'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['household']
+  },
+  {
+    id: 'zahnarztpraxen',
+    type: 'noun',
+    article: 'die',
+    value: 'Zahnarztpraxen',
+    singular_id: 'zahnarztpraxis',
+    plural_id: null,
+    translations: {
+      en: 'dental practices',
+      de: 'Zahnarztpraxen',
+      es: 'consultorios dentales',
+      tr: 'diş klinikleri',
+      te: 'దంత వైద్యశాలలు'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['locations', 'health']
+  },
+  {
+    id: 'zahnarztpraxis',
+    type: 'noun',
+    article: 'die',
+    value: 'Zahnarztpraxis',
+    singular_id: null,
+    plural_id: 'zahnarztpraxen',
+    translations: {
+      en: 'dental practice',
+      de: 'Zahnarztpraxis',
+      es: 'consultorio dental',
+      tr: 'diş kliniği',
+      te: 'దంత వైద్యశాల'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'el',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['locations', 'health']
+  },
+  {
+    id: 'zoo',
+    type: 'noun',
+    article: 'der',
+    value: 'Zoo',
+    singular_id: null,
+    plural_id: 'zoos',
+    translations: {
+      en: 'zoo',
+      de: 'Zoo',
+      es: 'zoológico',
+      tr: 'hayvanat bahçesi',
+      te: 'జంతుప్రదర్శనశాల'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'der',
+      es: 'el',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['locations', 'leisure']
+  },
+  {
+    id: 'zoos',
+    type: 'noun',
+    article: 'die',
+    value: 'Zoos',
+    singular_id: 'zoo',
+    plural_id: null,
+    translations: {
+      en: 'zoos',
+      de: 'Zoos',
+      es: 'zoológicos',
+      tr: 'hayvanat bahçeleri',
+      te: 'జంతుప్రదర్శనశాలలు'
+    },
+    translationArticles: {
+      en: 'the',
+      de: 'die',
+      es: 'los',
+      tr: null,
+      te: null
+    },
+    levels: [],
+    categories: ['locations', 'leisure']
   },
   {
     id: 'äpfel',

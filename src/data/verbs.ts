@@ -1470,5 +1470,145 @@ export const verbs: GermanVerb[] = [
       tr: 'kapatmak',
       te: 'మూసివేయడం'
     }
+  },
+  {
+    id: 'abfahren',
+    type: 'verb',
+    infinitive: 'ab|fahren',
+    preteritum: 'fuhr ab',
+    perfekt: 'abgefahren',
+    translations: {
+      en: 'depart',
+      de: 'abfahren',
+      es: 'salir',
+      tr: 'hareket etmek',
+      te: 'బయలుదేరడం'
+    }
+  },
+  {
+    id: 'ansehen',
+    type: 'verb',
+    infinitive: 'an|sehen',
+    preteritum: 'sah an',
+    perfekt: 'angesehen',
+    translations: {
+      en: 'look at',
+      de: 'ansehen',
+      es: 'mirar',
+      tr: 'bakmak',
+      te: 'చూడటం'
+    }
+  },
+  {
+    id: 'beschreiben',
+    type: 'verb',
+    infinitive: 'beschreiben',
+    preteritum: 'beschrieb',
+    perfekt: 'beschrieben',
+    translations: {
+      en: 'describe',
+      de: 'beschreiben',
+      es: 'describir',
+      tr: 'tarif etmek',
+      te: 'వర్ణించడం'
+    }
+  },
+  {
+    id: 'erklären',
+    type: 'verb',
+    infinitive: 'erklären',
+    preteritum: 'erklärte',
+    perfekt: 'erklärt',
+    translations: {
+      en: 'explain',
+      de: 'erklären',
+      es: 'explicar',
+      tr: 'açıklamak',
+      te: 'వివరించడం'
+    }
+  },
+  {
+    id: 'fragen',
+    type: 'verb',
+    infinitive: 'fragen',
+    preteritum: 'fragte',
+    perfekt: 'gefragt',
+    translations: {
+      en: 'ask',
+      de: 'fragen',
+      es: 'preguntar',
+      tr: 'sormak',
+      te: 'అడగడం'
+    }
+  },
+  {
+    id: 'funktionieren',
+    type: 'verb',
+    infinitive: 'funktionieren',
+    preteritum: 'funktionierte',
+    perfekt: 'funktioniert',
+    translations: {
+      en: 'function',
+      de: 'funktionieren',
+      es: 'funcionar',
+      tr: 'çalışmak',
+      te: 'పనిచేయడం'
+    }
+  },
+  {
+    id: 'kommentieren',
+    type: 'verb',
+    infinitive: 'kommentieren',
+    preteritum: 'kommentierte',
+    perfekt: 'kommentiert',
+    translations: {
+      en: 'comment',
+      de: 'kommentieren',
+      es: 'comentar',
+      tr: 'yorum yapmak',
+      te: 'వ్యాఖ్యానించడం'
+    }
+  },
+  {
+    id: 'mitmachen',
+    type: 'verb',
+    infinitive: 'mit|machen',
+    preteritum: 'machte mit',
+    perfekt: 'mitgemacht',
+    translations: {
+      en: 'participate',
+      de: 'mitmachen',
+      es: 'participar',
+      tr: 'katılmak',
+      te: 'పాల్గొనడం'
+    }
+  },
+  {
+    id: 'reparieren',
+    type: 'verb',
+    infinitive: 'reparieren',
+    preteritum: 'reparierte',
+    perfekt: 'repariert',
+    translations: {
+      en: 'repair',
+      de: 'reparieren',
+      es: 'reparar',
+      tr: 'tamir etmek',
+      te: 'మరమ్మతు చేయడం'
+    }
+  },
+  {
+    id: 'umsteigen',
+    type: 'verb',
+    infinitive: 'um|steigen',
+    preteritum: 'stieg um',
+    perfekt: 'umgestiegen',
+    translations: {
+      en: 'change (transport)',
+      de: 'umsteigen',
+      es: 'hacer transbordo',
+      tr: 'aktarma yapmak',
+      te: 'మారడం'
+    }
   }
 ]

@@ -1022,5 +1022,47 @@ export const adjectives: GermanAdjective[] = [
       tr: 'memnun',
       te: 'సంతృప్తి చెందిన'
     }
+  },
+  {
+    id: 'früh',
+    type: 'adjective',
+    adjective: 'früh',
+    comparative: 'früher',
+    superlative: 'am frühesten',
+    translations: {
+      en: 'early',
+      de: 'früh',
+      es: 'temprano',
+      tr: 'erken',
+      te: 'ముందుగా'
+    }
+  },
+  {
+    id: 'möbliert',
+    type: 'adjective',
+    adjective: 'möbliert',
+    comparative: 'möblierter',
+    superlative: 'am möbliertesten',
+    translations: {
+      en: 'furnished',
+      de: 'möbliert',
+      es: 'amueblado',
+      tr: 'mobilyalı',
+      te: 'సామగ్రితో కూడిన'
+    }
+  },
+  {
+    id: 'öffentlich',
+    type: 'adjective',
+    adjective: 'öffentlich',
+    comparative: 'öffentlicher',
+    superlative: 'am öffentlichsten',
+    translations: {
+      en: 'public',
+      de: 'öffentlich',
+      es: 'público',
+      tr: 'kamusal',
+      te: 'ప్రజా'
+    }
   }
 ]
