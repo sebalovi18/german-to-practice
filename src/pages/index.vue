@@ -1,17 +1,13 @@
 <script setup lang="ts">
-import { adjectives } from '@/data/adjectives'
-import { nouns } from '@/data/nouns'
-import { verbs } from '@/data/verbs'
+import { vocabulary } from '@/data/vocabulary'
 
 import { computed, ref } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { useRouter } from 'vue-router'
 
-import { ChartNoAxesColumn, Dumbbell, List } from '@lucide/vue'
-
-import type { GermanAdjective } from '@/interfaces/GermanAdjectives'
-import type { GermanNoun } from '@/interfaces/GermanNoun'
-import type { GermanVerb } from '@/interfaces/GermanVerbs'
+import {
+  BookOpen, ChartNoAxesColumn, Dumbbell, List
+} from '@lucide/vue'
 
 const router = useRouter()
 const {
@@ -19,6 +15,11 @@ const {
 } = useI18n()
 
 const columns = computed(() => [
+  {
+    label: t('home.navigation.vocabulary'),
+    icon: BookOpen,
+    path: '/vocabulary'
+  },
   {
     label: t('home.navigation.dashboard'),
     icon: ChartNoAxesColumn,
@@ -46,317 +47,39 @@ const columns = computed(() => [
   }
 ])
 
-const tableClass = 'w-full border border-gray-300 text-[10px] sm:text-xs'
-const thClass = 'border border-gray-300 p-2 capitalize text-left uppercase py-4 bg-gray-900 font-bold text-[10px] sm:text-xs'
-const tdClass = 'border border-gray-300 p-2 capitalize text-left font-light text-[10px] sm:text-xs'
-
-type Th = {
-  label: string
-  class: string
-}
-
-type Td<T> = {
-  label: string
-  class: string
-  value: (item: T) => string
-}
-
 const globalSearch = ref('')
 
-const normalizedSearch = computed(() => normalizeValue(globalSearch.value).trim())
-const isSearching = computed(() => normalizedSearch.value.length > 0)
+const normalizedSearch = computed(() => normalize(globalSearch.value))
+const filteredVocabulary = computed(() => {
+  if (!normalizedSearch.value) return []
 
-const verbThs = computed<Th[]>(() => [
-  {
-    label: t('verbs.table.verb'),
-    class: thClass
-  },
-  {
-    label: t('verbs.table.infinitive'),
-    class: thClass
-  },
-  {
-    label: t('verbs.table.preteritum'),
-    class: thClass
-  },
-  {
-    label: t('verbs.table.perfekt'),
-    class: thClass
-  },
-  {
-    label: '🇪🇸',
-    class: thClass
-  },
-  {
-    label: '🇬🇧',
-    class: thClass
-  },
-  {
-    label: '🇹🇷',
-    class: thClass
-  },
-  {
-    label: '🇮🇳',
-    class: thClass
-  }
-])
-
-const verbTds: Td<GermanVerb>[] = [
-  {
-    label: 'Verb',
-    class: tdClass,
-    value: verb => verb.id
-  },
-  {
-    label: 'Infinitive',
-    class: tdClass,
-    value: verb => verb.infinitive
-  },
-  {
-    label: 'Preteritum',
-    class: tdClass,
-    value: verb => verb.preteritum
-  },
-  {
-    label: 'Perfekt',
-    class: tdClass,
-    value: verb => verb.perfekt
-  },
-  {
-    label: '🇪🇸',
-    class: tdClass,
-    value: verb => verb.translations.es
-  },
-  {
-    label: '🇬🇧',
-    class: tdClass,
-    value: verb => verb.translations.en
-  },
-  {
-    label: '🇹🇷',
-    class: tdClass,
-    value: verb => verb.translations.tr
-  },
-  {
-    label: '🇮🇳',
-    class: tdClass,
-    value: verb => verb.translations.te
-  }
-]
-
-const adjectiveThs = computed<Th[]>(() => [
-  {
-    label: t('adjectives.table.adjective'),
-    class: thClass
-  },
-  {
-    label: t('adjectives.table.comparative'),
-    class: thClass
-  },
-  {
-    label: t('adjectives.table.superlative'),
-    class: thClass
-  },
-  {
-    label: '🇪🇸',
-    class: thClass
-  },
-  {
-    label: '🇬🇧',
-    class: thClass
-  },
-  {
-    label: '🇹🇷',
-    class: thClass
-  },
-  {
-    label: '🇮🇳',
-    class: thClass
-  }
-])
-
-const adjectiveTds: Td<GermanAdjective>[] = [
-  {
-    label: 'Adjective',
-    class: tdClass,
-    value: adjective => adjective.adjective
-  },
-  {
-    label: 'Comparative',
-    class: tdClass,
-    value: adjective => adjective.comparative
-  },
-  {
-    label: 'Superlative',
-    class: tdClass,
-    value: adjective => adjective.superlative
-  },
-  {
-    label: '🇪🇸',
-    class: tdClass,
-    value: adjective => adjective.translations.es
-  },
-  {
-    label: '🇬🇧',
-    class: tdClass,
-    value: adjective => adjective.translations.en
-  },
-  {
-    label: '🇹🇷',
-    class: tdClass,
-    value: adjective => adjective.translations.tr
-  },
-  {
-    label: '🇮🇳',
-    class: tdClass,
-    value: adjective => adjective.translations.te
-  }
-]
-
-const nounThs = computed<Th[]>(() => [
-  {
-    label: t('nouns.table.article'),
-    class: thClass
-  },
-  {
-    label: t('nouns.table.singular'),
-    class: thClass
-  },
-  {
-    label: t('nouns.table.plural'),
-    class: thClass
-  },
-  {
-    label: '🇪🇸',
-    class: thClass
-  },
-  {
-    label: '🇬🇧',
-    class: thClass
-  },
-  {
-    label: '🇹🇷',
-    class: thClass
-  },
-  {
-    label: '🇮🇳',
-    class: thClass
-  }
-])
-
-const nounTds = computed((): Td<GermanNoun>[] => [
-  {
-    label: 'Article',
-    class: tdClass,
-    value: noun => noun.article
-  },
-  {
-    label: t('nouns.table.singular'),
-    class: tdClass,
-    value: noun => noun.value
-  },
-  {
-    label: t('nouns.table.plural'),
-    class: tdClass,
-    value: noun => {
-      const pluralNoun = getPluralNoun(noun)
-      return pluralNoun ? `${pluralNoun.article} ${pluralNoun.value}` : '-'
-    }
-  },
-  {
-    label: '🇪🇸',
-    class: tdClass,
-    value: noun => formatNounTranslation(noun, 'es')
-  },
-  {
-    label: '🇬🇧',
-    class: tdClass,
-    value: noun => formatNounTranslation(noun, 'en')
-  },
-  {
-    label: '🇹🇷',
-    class: tdClass,
-    value: noun => formatNounTranslation(noun, 'tr')
-  },
-  {
-    label: '🇮🇳',
-    class: tdClass,
-    value: noun => noun.translations.te
-  }
-])
-
-const singularNouns = computed(() => nouns.filter(noun => noun.singular_id === null))
-
-const filteredVerbs = computed(() => {
-  if (!isSearching.value) return []
-
-  return verbs.filter(verb => matchesSearch(verb, normalizedSearch.value))
-})
-
-const filteredAdjectives = computed(() => {
-  if (!isSearching.value) return []
-
-  return adjectives.filter(adjective => matchesSearch(adjective, normalizedSearch.value))
-})
-
-const filteredNouns = computed(() => {
-  if (!isSearching.value) return []
-
-  return singularNouns.value.filter(noun =>
-    matchesSearch([
-      noun,
-      getPluralNoun(noun)
-    ], normalizedSearch.value)
+  return vocabulary.filter((entry) =>
+    normalize(
+      [entry.german, entry.forms, entry.translations.en, entry.translations.es, entry.example].join(
+        ' '
+      )
+    ).includes(normalizedSearch.value)
   )
 })
 
-const totalResults = computed(() =>
-  filteredVerbs.value.length
-  + filteredAdjectives.value.length
-  + filteredNouns.value.length
-)
+const visibleResults = computed(() => filteredVocabulary.value.slice(0, 50))
 
-function getPluralNoun (noun: GermanNoun) {
-  if (!noun.plural_id) return null
-
-  return nouns.find(candidate => candidate.id === noun.plural_id) ?? null
-}
-
-function formatNounTranslation (noun: GermanNoun, language: 'en' | 'es' | 'tr') {
-  const translationArticle = noun.translationArticles[language]
-  return translationArticle ? `${translationArticle} ${noun.translations[language]}` : noun.translations[language]
-}
-
-function matchesSearch (value: unknown, search: string): boolean {
-  return normalizeSearchContent(value).includes(search)
-}
-
-function normalizeSearchContent (value: unknown): string {
-  if (Array.isArray(value)) {
-    return value.map(item => normalizeSearchContent(item)).join(' ')
-  }
-
-  if (value && typeof value === 'object') {
-    return Object.values(value).map(item => normalizeSearchContent(item)).join(' ')
-  }
-
-  return normalizeValue(value)
-}
-
-function normalizeValue (value: unknown): string {
-  return String(value ?? '')
+function normalize (value: string): string {
+  return value
     .normalize('NFD')
     .replace(/[\u0300-\u036f]/g, '')
     .toLowerCase()
+    .trim()
 }
 </script>
+
 <template>
   <div
     class="space-y-4"
   >
     <p>
       🇩🇪 German to Practice
-      <br>
+      <br />
       <span
         class="text-sm text-gray-300"
       >
@@ -369,11 +92,10 @@ function normalizeValue (value: unknown): string {
       type="search"
       :placeholder="t('home.search.placeholder')"
       class="w-full p-2 border border-gray-300 rounded-md"
-    >
+    />
 
-    <!-- COLUMNS -->
     <div
-      v-if="!isSearching"
+      v-if="!normalizedSearch"
       class="grid grid-cols-2 gap-4 items-start justify-start text-sm sm:text-base"
     >
       <button
@@ -384,167 +106,88 @@ function normalizeValue (value: unknown): string {
       >
         <component
           :is="item.icon"
-          :key="item.path"
           class="size-4 flex-none"
           aria-hidden="true"
         />
-        <span>
-          {{ item.label }}
-        </span>
+        <span>{{ item.label }}</span>
       </button>
     </div>
 
     <div
       v-else
-      class="space-y-6"
+      class="space-y-3"
     >
       <p
         class="text-sm text-gray-300"
       >
-        {{ t('home.search.resultsSummary', { count: totalResults }) }}
+        {{ t('home.search.resultsSummary', { count: filteredVocabulary.length }) }}
       </p>
 
       <p
-        v-if="!totalResults"
+        v-if="!filteredVocabulary.length"
         class="rounded-md border border-gray-300 p-4 text-sm text-gray-300"
       >
         {{ t('home.search.noResults') }}
       </p>
 
-      <section
-        v-if="filteredVerbs.length"
-        class="space-y-2"
+      <div
+        v-else
+        class="overflow-x-auto"
       >
-        <h2
-          class="font-bold"
+        <table
+          class="w-full border border-gray-300 text-xs"
         >
-          {{ t('home.navigation.verbs') }} ({{ filteredVerbs.length }})
-        </h2>
-
-        <div
-          class="overflow-x-auto"
-        >
-          <table
-            :class="tableClass"
-          >
-            <thead>
-              <tr>
-                <th
-                  v-for="th in verbThs"
-                  :key="th.label"
-                  :class="th.class"
-                >
-                  {{ th.label }}
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr
-                v-for="verb in filteredVerbs"
-                :key="verb.id"
+          <thead>
+            <tr
+              class="bg-gray-900 uppercase"
+            >
+              <th
+                class="border border-gray-300 p-2 text-left"
               >
-                <td
-                  v-for="td in verbTds"
-                  :key="td.label"
-                  :class="td.class"
-                >
-                  {{ td.value(verb) }}
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
+                {{ t('vocabulary.table.german') }}
+              </th>
+              <th
+                class="border border-gray-300 p-2 text-left"
+              >🇪🇸</th>
+              <th
+                class="border border-gray-300 p-2 text-left"
+              >🇬🇧</th>
+              <th
+                class="border border-gray-300 p-2 text-left"
+              >
+                {{ t('vocabulary.table.level') }}
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr
+              v-for="entry in visibleResults"
+              :key="entry.id"
+            >
+              <td
+                class="border border-gray-300 p-2 font-semibold"
+              >{{ entry.german }}</td>
+              <td
+                class="border border-gray-300 p-2"
+              >{{ entry.translations.es }}</td>
+              <td
+                class="border border-gray-300 p-2"
+              >{{ entry.translations.en }}</td>
+              <td
+                class="border border-gray-300 p-2"
+              >{{ entry.level }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
 
-      <section
-        v-if="filteredAdjectives.length"
-        class="space-y-2"
+      <button
+        v-if="filteredVocabulary.length > visibleResults.length"
+        class="btn w-full"
+        @click="router.push({ path: '/vocabulary', query: { search: globalSearch } })"
       >
-        <h2
-          class="font-bold"
-        >
-          {{ t('home.navigation.adjectives') }} ({{ filteredAdjectives.length }})
-        </h2>
-
-        <div
-          class="overflow-x-auto"
-        >
-          <table
-            :class="tableClass"
-          >
-            <thead>
-              <tr>
-                <th
-                  v-for="th in adjectiveThs"
-                  :key="th.label"
-                  :class="th.class"
-                >
-                  {{ th.label }}
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr
-                v-for="adjective in filteredAdjectives"
-                :key="adjective.id"
-              >
-                <td
-                  v-for="td in adjectiveTds"
-                  :key="td.label"
-                  :class="td.class"
-                >
-                  {{ td.value(adjective) }}
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      <section
-        v-if="filteredNouns.length"
-        class="space-y-2"
-      >
-        <h2
-          class="font-bold"
-        >
-          {{ t('home.navigation.nouns') }} ({{ filteredNouns.length }})
-        </h2>
-
-        <div
-          class="overflow-x-auto"
-        >
-          <table
-            :class="tableClass"
-          >
-            <thead>
-              <tr>
-                <th
-                  v-for="th in nounThs"
-                  :key="th.label"
-                  :class="th.class"
-                >
-                  {{ th.label }}
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr
-                v-for="noun in filteredNouns"
-                :key="noun.id"
-              >
-                <td
-                  v-for="td in nounTds"
-                  :key="td.label"
-                  :class="td.class"
-                >
-                  {{ td.value(noun) }}
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
+        {{ t('home.search.showAll') }}
+      </button>
     </div>
   </div>
 </template>

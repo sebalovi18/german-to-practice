@@ -40,14 +40,6 @@ const ths: Th[] = [
   {
     label: '🇬🇧',
     class: thClass
-  },
-  {
-    label: '🇹🇷',
-    class: thClass
-  },
-  {
-    label: '🇮🇳',
-    class: thClass
   }
 ]
 
@@ -83,16 +75,6 @@ const tds = computed((): Td[] => [
     label: '🇬🇧',
     class: tdClass,
     value: noun => noun.translationArticles.en ? noun.translationArticles.en + ' ' + noun.translations.en : noun.translations.en
-  },
-  {
-    label: '🇹🇷',
-    class: tdClass,
-    value: noun => noun.translationArticles.tr ? noun.translationArticles.tr + ' ' + noun.translations.tr : noun.translations.tr
-  },
-  {
-    label: '🇮🇳',
-    class: tdClass,
-    value: noun => noun.translations.te
   }
 ])
 
@@ -113,10 +95,7 @@ const filteredNouns = computed(() => {
     || noun.plural_id?.toLowerCase().includes(sanitizedFilterSearch)
     || noun.value.toLowerCase().includes(sanitizedFilterSearch)
     || noun.translations.en.toLowerCase().includes(sanitizedFilterSearch)
-    || noun.translations.de.toLowerCase().includes(sanitizedFilterSearch)
     || noun.translations.es.toLowerCase().includes(sanitizedFilterSearch)
-    || noun.translations.tr.toLowerCase().includes(sanitizedFilterSearch)
-    || noun.translations.te.toLowerCase().includes(sanitizedFilterSearch)
   )
 })
 </script>

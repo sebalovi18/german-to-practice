@@ -3,13 +3,15 @@
     "font": "Fuente"
   },
   "home": {
-    "description": "Amplía tu vocabulario alemán con listas de palabras buscables y ejercicios enfocados de sustantivos, verbos, adjetivos y artículos.",
+    "description": "Repasa el vocabulario A1.1 y A1.2 de Miteinander, con traducciones al español y al inglés.",
     "search": {
-      "placeholder": "Buscar en todas las listas de palabras...",
-      "resultsSummary": "Se encontraron {count} resultado(s) en todas las listas de palabras.",
-      "noResults": "Ninguna palabra coincide con tu búsqueda."
+      "placeholder": "Buscar en alemán, español o inglés...",
+      "resultsSummary": "Se encontraron {count} resultado(s).",
+      "noResults": "Ninguna palabra coincide con tu búsqueda.",
+      "showAll": "Mostrar todos los resultados"
     },
     "navigation": {
+      "vocabulary": "Vocabulario A1",
       "nouns": "Sustantivos",
       "verbs": "Verbos",
       "adjectives": "Adjetivos",
@@ -19,6 +21,7 @@
   },
   "pageTitles": {
     "home": "Inicio",
+    "vocabulary": "Vocabulario A1",
     "nouns": "Sustantivos",
     "verbs": "Verbos",
     "adjectives": "Adjetivos",
@@ -120,11 +123,26 @@
       "superlative": "Superlativo"
     }
   },
+  "vocabulary": {
+    "title": "Vocabulario A1",
+    "summary": "{count} entradas",
+    "searchPlaceholder": "Buscar en alemán, español, inglés, formas o ejemplos...",
+    "allLevels": "Todos los niveles",
+    "allTypes": "Todos los tipos",
+    "noResults": "No se encontró vocabulario",
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "page": "Página {current} de {total}",
+    "table": {
+      "level": "Nivel",
+      "type": "Tipo",
+      "german": "Alemán",
+      "forms": "Plural / formas",
+      "example": "Ejemplo"
+    }
+  },
   "language": {
     "en": "Inglés",
-    "de": "Alemán",
-    "es": "Español",
-    "tr": "Turco",
-    "te": "Telugú"
+    "es": "Español"
   }
 }

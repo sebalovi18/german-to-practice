@@ -9,10 +9,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am ältesten',
     translations: {
       en: 'old',
-      de: 'alt',
-      es: 'viejo',
-      tr: 'eski',
-      te: 'పాత'
+      es: 'viejo'
     }
   },
   {
@@ -23,10 +20,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am billigsten',
     translations: {
       en: 'cheap',
-      de: 'billig',
-      es: 'barato',
-      tr: 'ucuz',
-      te: 'చవక'
+      es: 'barato'
     }
   },
   {
@@ -37,10 +31,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am dicksten',
     translations: {
       en: 'thick',
-      de: 'dick',
-      es: 'grueso',
-      tr: 'kalın',
-      te: 'మందం'
+      es: 'grueso'
     }
   },
   {
@@ -51,10 +42,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am dunkelsten',
     translations: {
       en: 'dark',
-      de: 'dunkel',
-      es: 'oscuro',
-      tr: 'karanlık',
-      te: 'చీకటి'
+      es: 'oscuro'
     }
   },
   {
@@ -65,10 +53,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am fertigsten',
     translations: {
       en: 'ready',
-      de: 'fertig',
-      es: 'listo',
-      tr: 'hazır',
-      te: 'సిద్ధం'
+      es: 'listo'
     }
   },
   {
@@ -79,10 +64,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am freiesten',
     translations: {
       en: 'free',
-      de: 'frei',
-      es: 'libre',
-      tr: 'özgür',
-      te: 'స్వేచ్ఛ'
+      es: 'libre'
     }
   },
   {
@@ -93,10 +75,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am größten',
     translations: {
       en: 'big',
-      de: 'groß',
-      es: 'grande',
-      tr: 'büyük',
-      te: 'పెద్ద'
+      es: 'grande'
     }
   },
   {
@@ -107,10 +86,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am besten',
     translations: {
       en: 'good',
-      de: 'gut',
-      es: 'bueno',
-      tr: 'iyi',
-      te: 'మంచి'
+      es: 'bueno'
     }
   },
   {
@@ -121,10 +97,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am härtesten',
     translations: {
       en: 'hard',
-      de: 'hart',
-      es: 'duro',
-      tr: 'sert',
-      te: 'గట్టి'
+      es: 'duro'
     }
   },
   {
@@ -135,10 +108,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am hässlichsten',
     translations: {
       en: 'ugly',
-      de: 'hässlich',
-      es: 'feo',
-      tr: 'çirkin',
-      te: 'అందం లేని'
+      es: 'feo'
     }
   },
   {
@@ -149,10 +119,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am heißesten',
     translations: {
       en: 'hot',
-      de: 'heiß',
-      es: 'caliente',
-      tr: 'sıcak',
-      te: 'వేడి'
+      es: 'caliente'
     }
   },
   {
@@ -163,10 +130,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am hellsten',
     translations: {
       en: 'bright',
-      de: 'hell',
-      es: 'claro',
-      tr: 'aydınlık',
-      te: 'ప్రకాశవంతమైన'
+      es: 'claro'
     }
   },
   {
@@ -177,10 +141,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am jüngsten',
     translations: {
       en: 'young',
-      de: 'jung',
-      es: 'joven',
-      tr: 'genç',
-      te: 'యువ'
+      es: 'joven'
     }
   },
   {
@@ -191,10 +152,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am kältesten',
     translations: {
       en: 'cold',
-      de: 'kalt',
-      es: 'frío',
-      tr: 'soğuk',
-      te: 'చల్లని'
+      es: 'frío'
     }
   },
   {
@@ -205,10 +163,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am kaputtesten',
     translations: {
       en: 'broken',
-      de: 'kaputt',
-      es: 'roto',
-      tr: 'bozuk',
-      te: 'విరిగిన'
+      es: 'roto'
     }
   },
   {
@@ -219,10 +174,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am kleinsten',
     translations: {
       en: 'small',
-      de: 'klein',
-      es: 'pequeño',
-      tr: 'küçük',
-      te: 'చిన్న'
+      es: 'pequeño'
     }
   },
   {
@@ -233,10 +185,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am kürzesten',
     translations: {
       en: 'short',
-      de: 'kurz',
-      es: 'corto',
-      tr: 'kısa',
-      te: 'పొట్టి'
+      es: 'corto'
     }
   },
   {
@@ -247,10 +196,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am längsten',
     translations: {
       en: 'long',
-      de: 'lang',
-      es: 'largo',
-      tr: 'uzun',
-      te: 'పొడవైన'
+      es: 'largo'
     }
   },
   {
@@ -261,10 +207,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am langsamsten',
     translations: {
       en: 'slow',
-      de: 'langsam',
-      es: 'lento',
-      tr: 'yavaş',
-      te: 'నెమ్మదైన'
+      es: 'lento'
     }
   },
   {
@@ -275,10 +218,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am müdesten',
     translations: {
       en: 'tired',
-      de: 'müde',
-      es: 'cansado',
-      tr: 'yorgun',
-      te: 'అలసిన'
+      es: 'cansado'
     }
   },
   {
@@ -289,10 +229,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am neuesten',
     translations: {
       en: 'new',
-      de: 'neu',
-      es: 'nuevo',
-      tr: 'yeni',
-      te: 'కొత్త'
+      es: 'nuevo'
     }
   },
   {
@@ -303,10 +240,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am saubersten',
     translations: {
       en: 'clean',
-      de: 'sauber',
-      es: 'limpio',
-      tr: 'temiz',
-      te: 'శుభ్రమైన'
+      es: 'limpio'
     }
   },
   {
@@ -317,10 +251,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am schlechtesten',
     translations: {
       en: 'bad',
-      de: 'schlecht',
-      es: 'malo',
-      tr: 'kötü',
-      te: 'చెడ్డ'
+      es: 'malo'
     }
   },
   {
@@ -331,10 +262,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am schmutzigsten',
     translations: {
       en: 'dirty',
-      de: 'schmutzig',
-      es: 'sucio',
-      tr: 'kirli',
-      te: 'మురికైన'
+      es: 'sucio'
     }
   },
   {
@@ -345,10 +273,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am schnellsten',
     translations: {
       en: 'fast',
-      de: 'schnell',
-      es: 'rápido',
-      tr: 'hızlı',
-      te: 'వేగవంతమైన'
+      es: 'rápido'
     }
   },
   {
@@ -359,10 +284,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am schönsten',
     translations: {
       en: 'beautiful',
-      de: 'schön',
-      es: 'hermoso',
-      tr: 'güzel',
-      te: 'అందమైన'
+      es: 'hermoso'
     }
   },
   {
@@ -373,10 +295,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am schwächsten',
     translations: {
       en: 'weak',
-      de: 'schwach',
-      es: 'débil',
-      tr: 'zayıf',
-      te: 'బలహీనమైన'
+      es: 'débil'
     }
   },
   {
@@ -387,10 +306,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am stärksten',
     translations: {
       en: 'strong',
-      de: 'stark',
-      es: 'fuerte',
-      tr: 'güçlü',
-      te: 'బలమైన'
+      es: 'fuerte'
     }
   },
   {
@@ -401,10 +317,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am teuersten',
     translations: {
       en: 'expensive',
-      de: 'teuer',
-      es: 'caro',
-      tr: 'pahalı',
-      te: 'ఖరీదైన'
+      es: 'caro'
     }
   },
   {
@@ -415,10 +328,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am tollsten',
     translations: {
       en: 'great',
-      de: 'toll',
-      es: 'genial',
-      tr: 'harika',
-      te: 'గొప్ప'
+      es: 'genial'
     }
   },
   {
@@ -429,10 +339,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am traurigsten',
     translations: {
       en: 'sad',
-      de: 'traurig',
-      es: 'triste',
-      tr: 'üzgün',
-      te: 'విచారకరమైన'
+      es: 'triste'
     }
   },
   {
@@ -443,10 +350,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am weitesten',
     translations: {
       en: 'far',
-      de: 'weit',
-      es: 'lejano',
-      tr: 'uzak',
-      te: 'దూరమైన'
+      es: 'lejano'
     }
   },
   {
@@ -457,10 +361,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am wütendsten',
     translations: {
       en: 'angry',
-      de: 'wütend',
-      es: 'enojado',
-      tr: 'kızgın',
-      te: 'కోపంగా ఉన్న'
+      es: 'enojado'
     }
   },
   {
@@ -471,10 +372,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am arbeitslosesten',
     translations: {
       en: 'unemployed',
-      de: 'arbeitslos',
-      es: 'desempleado',
-      tr: 'işsiz',
-      te: 'నిరుద్యోగ'
+      es: 'desempleado'
     }
   },
   {
@@ -485,10 +383,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am blauesten',
     translations: {
       en: 'blue',
-      de: 'blau',
-      es: 'azul',
-      tr: 'mavi',
-      te: 'నీలం'
+      es: 'azul'
     }
   },
   {
@@ -499,10 +394,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am braunsten',
     translations: {
       en: 'brown',
-      de: 'braun',
-      es: 'marrón',
-      tr: 'kahverengi',
-      te: 'గోధుమ'
+      es: 'marrón'
     }
   },
   {
@@ -513,10 +405,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am doofsten',
     translations: {
       en: 'stupid',
-      de: 'doof',
-      es: 'tonto',
-      tr: 'aptal',
-      te: 'తెలివితక్కువ'
+      es: 'tonto'
     }
   },
   {
@@ -527,10 +416,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am frischesten',
     translations: {
       en: 'fresh',
-      de: 'frisch',
-      es: 'fresco',
-      tr: 'taze',
-      te: 'తాజా'
+      es: 'fresco'
     }
   },
   {
@@ -541,10 +427,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am gelbsten',
     translations: {
       en: 'yellow',
-      de: 'gelb',
-      es: 'amarillo',
-      tr: 'sarı',
-      te: 'పసుపు'
+      es: 'amarillo'
     }
   },
   {
@@ -555,10 +438,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am geschiedensten',
     translations: {
       en: 'divorced',
-      de: 'geschieden',
-      es: 'divorciado',
-      tr: 'boşanmış',
-      te: 'విడాకులు తీసుకున్న'
+      es: 'divorciado'
     }
   },
   {
@@ -569,10 +449,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am grauesten',
     translations: {
       en: 'gray',
-      de: 'grau',
-      es: 'gris',
-      tr: 'gri',
-      te: 'బూడిద'
+      es: 'gris'
     }
   },
   {
@@ -583,10 +460,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am grünsten',
     translations: {
       en: 'green',
-      de: 'grün',
-      es: 'verde',
-      tr: 'yeşil',
-      te: 'ఆకుపచ్చ'
+      es: 'verde'
     }
   },
   {
@@ -597,10 +471,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am interessantesten',
     translations: {
       en: 'interesting',
-      de: 'interessant',
-      es: 'interesante',
-      tr: 'ilginç',
-      te: 'ఆసక్తికరమైన'
+      es: 'interesante'
     }
   },
   {
@@ -611,10 +482,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am leckersten',
     translations: {
       en: 'delicious',
-      de: 'lecker',
-      es: 'delicioso',
-      tr: 'lezzetli',
-      te: 'రుచికరమైన'
+      es: 'delicioso'
     }
   },
   {
@@ -625,10 +493,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am lilafarbensten',
     translations: {
       en: 'purple',
-      de: 'lila',
-      es: 'morado',
-      tr: 'mor',
-      te: 'ఊదా'
+      es: 'morado'
     }
   },
   {
@@ -639,10 +504,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am lustigsten',
     translations: {
       en: 'funny',
-      de: 'lustig',
-      es: 'divertido',
-      tr: 'komik',
-      te: 'నవ్వించే'
+      es: 'divertido'
     }
   },
   {
@@ -653,10 +515,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am nettesten',
     translations: {
       en: 'nice',
-      de: 'nett',
-      es: 'amable',
-      tr: 'nazik',
-      te: 'దయగల'
+      es: 'amable'
     }
   },
   {
@@ -667,10 +526,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am richtigsten',
     translations: {
       en: 'correct',
-      de: 'richtig',
-      es: 'correcto',
-      tr: 'doğru',
-      te: 'సరైన'
+      es: 'correcto'
     }
   },
   {
@@ -681,10 +537,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am rosafarbensten',
     translations: {
       en: 'pink',
-      de: 'rosa',
-      es: 'rosa',
-      tr: 'pembe',
-      te: 'గులాబీ'
+      es: 'rosa'
     }
   },
   {
@@ -695,10 +548,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am rötesten',
     translations: {
       en: 'red',
-      de: 'rot',
-      es: 'rojo',
-      tr: 'kırmızı',
-      te: 'ఎరుపు'
+      es: 'rojo'
     }
   },
   {
@@ -709,10 +559,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am schwärzesten',
     translations: {
       en: 'black',
-      de: 'schwarz',
-      es: 'negro',
-      tr: 'siyah',
-      te: 'నలుపు'
+      es: 'negro'
     }
   },
   {
@@ -723,10 +570,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am spätesten',
     translations: {
       en: 'late',
-      de: 'spät',
-      es: 'tarde',
-      tr: 'geç',
-      te: 'ఆలస్యం'
+      es: 'tarde'
     }
   },
   {
@@ -737,10 +581,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am supersten',
     translations: {
       en: 'super',
-      de: 'super',
-      es: 'súper',
-      tr: 'süper',
-      te: 'సూపర్'
+      es: 'súper'
     }
   },
   {
@@ -751,10 +592,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am vegansten',
     translations: {
       en: 'vegan',
-      de: 'vegan',
-      es: 'vegano',
-      tr: 'vegan',
-      te: 'వేగన్'
+      es: 'vegano'
     }
   },
   {
@@ -765,10 +603,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am vegetarischsten',
     translations: {
       en: 'vegetarian',
-      de: 'vegetarisch',
-      es: 'vegetariano',
-      tr: 'vejetaryen',
-      te: 'శాకాహార'
+      es: 'vegetariano'
     }
   },
   {
@@ -779,10 +614,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am verheiratetsten',
     translations: {
       en: 'married',
-      de: 'verheiratet',
-      es: 'casado',
-      tr: 'evli',
-      te: 'వివాహిత'
+      es: 'casado'
     }
   },
   {
@@ -793,10 +625,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am verwitwetsten',
     translations: {
       en: 'widowed',
-      de: 'verwitwet',
-      es: 'viudo',
-      tr: 'dul',
-      te: 'వైధవ్యం పొందిన'
+      es: 'viudo'
     }
   },
   {
@@ -807,10 +636,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am wärmsten',
     translations: {
       en: 'warm',
-      de: 'warm',
-      es: 'cálido',
-      tr: 'sıcak',
-      te: 'వెచ్చని'
+      es: 'cálido'
     }
   },
   {
@@ -821,10 +647,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am weißesten',
     translations: {
       en: 'white',
-      de: 'weiß',
-      es: 'blanco',
-      tr: 'beyaz',
-      te: 'తెలుపు'
+      es: 'blanco'
     }
   },
   {
@@ -835,10 +658,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am wichtigsten',
     translations: {
       en: 'important',
-      de: 'wichtig',
-      es: 'importante',
-      tr: 'önemli',
-      te: 'ముఖ్యమైన'
+      es: 'importante'
     }
   },
   {
@@ -849,10 +669,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am beruflichsten',
     translations: {
       en: 'professional / work-related',
-      de: 'beruflich',
-      es: 'profesional / laboral',
-      tr: 'mesleki / işle ilgili',
-      te: 'వృత్తిపరమైన'
+      es: 'profesional / laboral'
     }
   },
   {
@@ -863,10 +680,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am einfachsten',
     translations: {
       en: 'easy / simple',
-      de: 'einfach',
-      es: 'fácil / simple',
-      tr: 'kolay / basit',
-      te: 'సులభమైన'
+      es: 'fácil / simple'
     }
   },
   {
@@ -877,10 +691,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am geborensten',
     translations: {
       en: 'born',
-      de: 'geboren',
-      es: 'nacido',
-      tr: 'doğmuş',
-      te: 'జన్మించిన'
+      es: 'nacido'
     }
   },
   {
@@ -891,10 +702,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am herzlichsten',
     translations: {
       en: 'warm / cordial',
-      de: 'herzlich',
-      es: 'cordial / afectuoso',
-      tr: 'samimi / içten',
-      te: 'హృదయపూర్వక'
+      es: 'cordial / afectuoso'
     }
   },
   {
@@ -905,10 +713,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am komischsten',
     translations: {
       en: 'strange / funny',
-      de: 'komisch',
-      es: 'raro / gracioso',
-      tr: 'garip / komik',
-      te: 'వింతైన'
+      es: 'raro / gracioso'
     }
   },
   {
@@ -919,10 +724,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am kostenlosesten',
     translations: {
       en: 'free of charge',
-      de: 'kostenlos',
-      es: 'gratis',
-      tr: 'ücretsiz',
-      te: 'ఉచిత'
+      es: 'gratis'
     }
   },
   {
@@ -933,10 +735,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am langweiligsten',
     translations: {
       en: 'boring',
-      de: 'langweilig',
-      es: 'aburrido',
-      tr: 'sıkıcı',
-      te: 'విసుగు పుట్టించే'
+      es: 'aburrido'
     }
   },
   {
@@ -947,10 +746,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am nötigsten',
     translations: {
       en: 'necessary',
-      de: 'nötig',
-      es: 'necesario',
-      tr: 'gerekli',
-      te: 'అవసరమైన'
+      es: 'necesario'
     }
   },
   {
@@ -961,10 +757,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am praktischsten',
     translations: {
       en: 'practical',
-      de: 'praktisch',
-      es: 'práctico',
-      tr: 'pratik',
-      te: 'ఆచరణాత్మక'
+      es: 'práctico'
     }
   },
   {
@@ -975,10 +768,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am privatesten',
     translations: {
       en: 'private',
-      de: 'privat',
-      es: 'privado',
-      tr: 'özel',
-      te: 'వ్యక్తిగత'
+      es: 'privado'
     }
   },
   {
@@ -989,10 +779,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am willkommensten',
     translations: {
       en: 'welcome',
-      de: 'willkommen',
-      es: 'bienvenido',
-      tr: 'hoş geldin / memnuniyetle karşılanan',
-      te: 'స్వాగతం'
+      es: 'bienvenido'
     }
   },
   {
@@ -1003,10 +790,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am wunderbarsten',
     translations: {
       en: 'wonderful',
-      de: 'wunderbar',
-      es: 'maravilloso',
-      tr: 'harika',
-      te: 'అద్భుతమైన'
+      es: 'maravilloso'
     }
   },
   {
@@ -1017,10 +801,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am zufriedensten',
     translations: {
       en: 'satisfied',
-      de: 'zufrieden',
-      es: 'satisfecho',
-      tr: 'memnun',
-      te: 'సంతృప్తి చెందిన'
+      es: 'satisfecho'
     }
   },
   {
@@ -1031,10 +812,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am frühesten',
     translations: {
       en: 'early',
-      de: 'früh',
-      es: 'temprano',
-      tr: 'erken',
-      te: 'ముందుగా'
+      es: 'temprano'
     }
   },
   {
@@ -1045,10 +823,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am möbliertesten',
     translations: {
       en: 'furnished',
-      de: 'möbliert',
-      es: 'amueblado',
-      tr: 'mobilyalı',
-      te: 'సామగ్రితో కూడిన'
+      es: 'amueblado'
     }
   },
   {
@@ -1059,10 +834,7 @@ export const adjectives: GermanAdjective[] = [
     superlative: 'am öffentlichsten',
     translations: {
       en: 'public',
-      de: 'öffentlich',
-      es: 'público',
-      tr: 'kamusal',
-      te: 'ప్రజా'
+      es: 'público'
     }
   }
 ]

@@ -2,6 +2,9 @@
 import Home from '@/pages/index.vue'
 import Dashboard from '@/pages/dashboard.vue'
 
+// VOCABULARY
+import VocabularyList from '@/pages/vocabulary/index.vue'
+
 // NOUNS
 import NounsList from '@/pages/nouns/index.vue'
 
@@ -27,6 +30,13 @@ export default [
       titleKey: 'pageTitles.home'
     },
     path: '/'
+  },
+  {
+    component: VocabularyList,
+    meta: {
+      titleKey: 'pageTitles.vocabulary'
+    },
+    path: '/vocabulary'
   },
   {
     component: NounsList,
