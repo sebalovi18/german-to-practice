@@ -1,5 +1,7 @@
 import type { VocabularyEntry } from '@/interfaces/VocabularyEntry'
 
+import { a21Vocabulary } from './a21Vocabulary'
+
 export const vocabulary: VocabularyEntry[] = [
   {
     id: 'mein-name-ist',
@@ -16890,5 +16892,6 @@ export const vocabulary: VocabularyEntry[] = [
       es: 'personalmente'
     },
     example: 'Ich persönlich denke: Beim Arzt ist Pünktlichkeit wichtig.'
-  }
+  },
+  ...a21Vocabulary
 ]

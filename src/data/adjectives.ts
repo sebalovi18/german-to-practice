@@ -836,5 +836,390 @@ export const adjectives: GermanAdjective[] = [
       en: 'public',
       es: 'público'
     }
+  },
+  {
+    id: 'glücklich',
+    type: 'adjective',
+    adjective: 'glücklich',
+    comparative: 'glücklicher',
+    superlative: 'am glücklichsten',
+    translations: {
+      en: 'happy',
+      es: 'feliz'
+    }
+  },
+  {
+    id: 'mutig',
+    type: 'adjective',
+    adjective: 'mutig',
+    comparative: 'mutiger',
+    superlative: 'am mutigsten',
+    translations: {
+      en: 'brave / courageous',
+      es: 'valiente'
+    }
+  },
+  {
+    id: 'ängstlich',
+    type: 'adjective',
+    adjective: 'ängstlich',
+    comparative: 'ängstlicher',
+    superlative: 'am ängstlichsten',
+    translations: {
+      en: 'fearful / anxious',
+      es: 'miedoso/a / temeroso/a'
+    }
+  },
+  {
+    id: 'pessimistisch',
+    type: 'adjective',
+    adjective: 'pessimistisch',
+    comparative: 'pessimistischer',
+    superlative: 'am pessimistischsten',
+    translations: {
+      en: 'pessimistic',
+      es: 'pesimista'
+    }
+  },
+  {
+    id: 'optimistisch',
+    type: 'adjective',
+    adjective: 'optimistisch',
+    comparative: 'optimistischer',
+    superlative: 'am optimistischsten',
+    translations: {
+      en: 'optimistic',
+      es: 'optimista'
+    }
+  },
+  {
+    id: 'intelligent',
+    type: 'adjective',
+    adjective: 'intelligent',
+    comparative: 'intelligenter',
+    superlative: 'am intelligentesten',
+    translations: {
+      en: 'intelligent',
+      es: 'inteligente'
+    }
+  },
+  {
+    id: 'schwanger',
+    type: 'adjective',
+    adjective: 'schwanger',
+    comparative: '—',
+    superlative: '—',
+    translations: {
+      en: 'pregnant',
+      es: 'embarazada'
+    }
+  },
+  {
+    id: 'sympathisch',
+    type: 'adjective',
+    adjective: 'sympathisch',
+    comparative: 'sympathischer',
+    superlative: 'am sympathischsten',
+    translations: {
+      en: 'likeable / nice',
+      es: 'simpático/a'
+    }
+  },
+  {
+    id: 'fleißig',
+    type: 'adjective',
+    adjective: 'fleißig',
+    comparative: 'fleißiger',
+    superlative: 'am fleißigsten',
+    translations: {
+      en: 'hard-working / diligent',
+      es: 'trabajador/a / aplicado/a'
+    }
+  },
+  {
+    id: 'voll',
+    type: 'adjective',
+    adjective: 'voll',
+    comparative: 'voller',
+    superlative: 'am vollsten',
+    translations: {
+      en: 'full / complete',
+      es: 'lleno/a / completo/a'
+    }
+  },
+  {
+    id: 'sicher',
+    type: 'adjective',
+    adjective: 'sicher',
+    comparative: 'sicherer',
+    superlative: 'am sichersten',
+    translations: {
+      en: 'sure / certain / safe',
+      es: 'seguro/a'
+    }
+  },
+  {
+    id: 'sinnlos',
+    type: 'adjective',
+    adjective: 'sinnlos',
+    comparative: 'sinnloser',
+    superlative: 'am sinnlosesten',
+    translations: {
+      en: 'pointless / meaningless',
+      es: 'sin sentido'
+    }
+  },
+  {
+    id: 'stressig',
+    type: 'adjective',
+    adjective: 'stressig',
+    comparative: 'stressiger',
+    superlative: 'am stressigsten',
+    translations: {
+      en: 'stressful',
+      es: 'estresante'
+    }
+  },
+  {
+    id: 'ordentlich',
+    type: 'adjective',
+    adjective: 'ordentlich',
+    comparative: 'ordentlicher',
+    superlative: 'am ordentlichsten',
+    translations: {
+      en: 'neat / proper',
+      es: 'arreglado/a / apropiado/a'
+    }
+  },
+  {
+    id: 'offen',
+    type: 'adjective',
+    adjective: 'offen',
+    comparative: 'offener',
+    superlative: 'am offensten',
+    translations: {
+      en: 'open / unanswered',
+      es: 'abierto/a / pendiente'
+    }
+  },
+  {
+    id: 'wach',
+    type: 'adjective',
+    adjective: 'wach',
+    comparative: 'wacher',
+    superlative: 'am wachsten',
+    translations: {
+      en: 'awake',
+      es: 'despierto/a'
+    }
+  },
+  {
+    id: 'verliebt',
+    type: 'adjective',
+    adjective: 'verliebt',
+    comparative: '—',
+    superlative: '—',
+    translations: {
+      en: 'in love',
+      es: 'enamorado/a'
+    }
+  },
+  {
+    id: 'scharf',
+    type: 'adjective',
+    adjective: 'scharf',
+    comparative: 'schärfer',
+    superlative: 'am schärfsten',
+    translations: {
+      en: 'spicy / sharp',
+      es: 'picante / afilado'
+    }
+  },
+  {
+    id: 'süß',
+    type: 'adjective',
+    adjective: 'süß',
+    comparative: 'süßer',
+    superlative: 'am süßesten',
+    translations: {
+      en: 'sweet',
+      es: 'dulce'
+    }
+  },
+  {
+    id: 'salzig',
+    type: 'adjective',
+    adjective: 'salzig',
+    comparative: 'salziger',
+    superlative: 'am salzigsten',
+    translations: {
+      en: 'salty',
+      es: 'salado/a'
+    }
+  },
+  {
+    id: 'bitter',
+    type: 'adjective',
+    adjective: 'bitter',
+    comparative: 'bitterer',
+    superlative: 'am bittersten',
+    translations: {
+      en: 'bitter',
+      es: 'amargo/a'
+    }
+  },
+  {
+    id: 'satt',
+    type: 'adjective',
+    adjective: 'satt',
+    comparative: '—',
+    superlative: '—',
+    translations: {
+      en: 'full / not hungry',
+      es: 'lleno/a / satisfecho/a'
+    }
+  },
+  {
+    id: 'fantastisch',
+    type: 'adjective',
+    adjective: 'fantastisch',
+    comparative: 'fantastischer',
+    superlative: 'am fantastischsten',
+    translations: {
+      en: 'fantastic',
+      es: 'fantástico/a'
+    }
+  },
+  {
+    id: 'getrennt',
+    type: 'adjective',
+    adjective: 'getrennt',
+    comparative: '—',
+    superlative: '—',
+    translations: {
+      en: 'separate / separately',
+      es: 'separado/a / por separado'
+    }
+  },
+  {
+    id: 'einverstanden',
+    type: 'adjective',
+    adjective: 'einverstanden',
+    comparative: '—',
+    superlative: '—',
+    translations: {
+      en: 'agreed / in agreement',
+      es: 'de acuerdo'
+    }
+  },
+  {
+    id: 'gemütlich',
+    type: 'adjective',
+    adjective: 'gemütlich',
+    comparative: 'gemütlicher',
+    superlative: 'am gemütlichsten',
+    translations: {
+      en: 'cosy / comfortable',
+      es: 'acogedor/a'
+    }
+  },
+  {
+    id: 'anstrengend',
+    type: 'adjective',
+    adjective: 'anstrengend',
+    comparative: 'anstrengender',
+    superlative: 'am anstrengendsten',
+    translations: {
+      en: 'strenuous / exhausting',
+      es: 'agotador/a / exigente'
+    }
+  },
+  {
+    id: 'hübsch',
+    type: 'adjective',
+    adjective: 'hübsch',
+    comparative: 'hübscher',
+    superlative: 'am hübschesten',
+    translations: {
+      en: 'pretty',
+      es: 'bonito/a / guapo/a'
+    }
+  },
+  {
+    id: 'geeignet',
+    type: 'adjective',
+    adjective: 'geeignet',
+    comparative: 'geeigneter',
+    superlative: 'am geeignetsten',
+    translations: {
+      en: 'suitable',
+      es: 'adecuado/a'
+    }
+  },
+  {
+    id: 'sportlich',
+    type: 'adjective',
+    adjective: 'sportlich',
+    comparative: 'sportlicher',
+    superlative: 'am sportlichsten',
+    translations: {
+      en: 'sporty / athletic',
+      es: 'deportivo/a'
+    }
+  },
+  {
+    id: 'beliebt',
+    type: 'adjective',
+    adjective: 'beliebt',
+    comparative: 'beliebter',
+    superlative: 'am beliebtesten',
+    translations: {
+      en: 'popular',
+      es: 'popular'
+    }
+  },
+  {
+    id: 'leer',
+    type: 'adjective',
+    adjective: 'leer',
+    comparative: 'leerer',
+    superlative: 'am leersten',
+    translations: {
+      en: 'empty / flat',
+      es: 'vacío/a / descargado/a'
+    }
+  },
+  {
+    id: 'unfreundlich',
+    type: 'adjective',
+    adjective: 'unfreundlich',
+    comparative: 'unfreundlicher',
+    superlative: 'am unfreundlichsten',
+    translations: {
+      en: 'unfriendly',
+      es: 'antipático/a / poco amable'
+    }
+  },
+  {
+    id: 'stolz',
+    type: 'adjective',
+    adjective: 'stolz',
+    comparative: 'stolzer',
+    superlative: 'am stolzesten',
+    translations: {
+      en: 'proud',
+      es: 'orgulloso/a'
+    }
+  },
+  {
+    id: 'prima',
+    type: 'adjective',
+    adjective: 'prima',
+    comparative: '—',
+    superlative: '—',
+    translations: {
+      en: 'great / excellent',
+      es: 'estupendo/a / excelente'
+    }
   }
 ]
