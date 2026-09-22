@@ -161,7 +161,10 @@ function formatPlural (forms: string | null): string {
 }
 
 function normalizeGermanWord (value: string): string {
-  return normalize(value.replaceAll('|', ''))
+  return normalize(value
+    .replaceAll('|', '')
+    .replaceAll('(', '')
+    .replaceAll(')', ''))
 }
 
 function normalize (value: string): string {
