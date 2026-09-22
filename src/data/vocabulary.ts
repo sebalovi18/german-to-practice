@@ -5141,8 +5141,8 @@ export const vocabulary: VocabularyEntry[] = [
     german: 'leidtun',
     forms: 'es tut … leid',
     translations: {
-      en: 'feel / regret',
-      es: 'sentir / lamentar'
+      en: 'be sorry',
+      es: 'sentirlo / lamentar'
     },
     example: 'Nein, tut mir leid.'
   },
@@ -10466,7 +10466,7 @@ export const vocabulary: VocabularyEntry[] = [
     german: 'antworten',
     forms: 'er/sie antwortet; hat geantwortet',
     translations: {
-      en: 'reply',
+      en: 'answer / reply',
       es: 'responder'
     },
     example: 'Die Nutzer von WIN können antworten.'
@@ -11876,8 +11876,8 @@ export const vocabulary: VocabularyEntry[] = [
     german: 'danken',
     forms: 'hat gedankt',
     translations: {
-      en: 'give thanks',
-      es: 'dar las gracias'
+      en: 'thank',
+      es: 'agradecer / dar las gracias'
     },
     example: 'Wir danken Ihnen.'
   },
@@ -11891,8 +11891,8 @@ export const vocabulary: VocabularyEntry[] = [
     german: 'gehören',
     forms: 'hat gehört',
     translations: {
-      en: 'belong',
-      es: 'pertenecer'
+      en: 'belong to',
+      es: 'pertenecer a'
     },
     example: 'Das Haus gehört mir.'
   },
@@ -11966,7 +11966,7 @@ export const vocabulary: VocabularyEntry[] = [
     german: 'vermieten',
     forms: 'hat vermietet',
     translations: {
-      en: 'rent',
+      en: 'rent out',
       es: 'alquilar'
     },
     example: 'Rainer vermietet das Zimmer an Samir.'
@@ -12371,8 +12371,8 @@ export const vocabulary: VocabularyEntry[] = [
     german: 'ausfüllen',
     forms: 'hat ausgefüllt',
     translations: {
-      en: 'fill',
-      es: 'rellenar'
+      en: 'fill out',
+      es: 'rellenar / completar'
     },
     example: 'Sie müssen nur zwei Formulare ausfüllen.'
   },
@@ -12401,7 +12401,7 @@ export const vocabulary: VocabularyEntry[] = [
     german: 'müssen',
     forms: 'er/sie muss',
     translations: {
-      en: 'have to / duty',
+      en: 'must / have to',
       es: 'tener que / deber'
     },
     example: 'Sie müssen nur zwei Formulare ausfüllen.'
@@ -12506,7 +12506,7 @@ export const vocabulary: VocabularyEntry[] = [
     german: 'dürfen',
     forms: 'er/sie darf',
     translations: {
-      en: 'be able / have permission',
+      en: 'may / be allowed to',
       es: 'poder / tener permiso'
     },
     example: 'Darf ich ein Stück Schokolade essen?'
@@ -12536,7 +12536,7 @@ export const vocabulary: VocabularyEntry[] = [
     german: 'erlauben',
     forms: 'hat erlaubt',
     translations: {
-      en: 'allow',
+      en: 'allow / permit',
       es: 'permitir'
     },
     example: 'Ja, Sie dürfen hier rauchen. Das ist erlaubt.'
@@ -12566,7 +12566,7 @@ export const vocabulary: VocabularyEntry[] = [
     german: 'aufpassen',
     forms: 'hat aufgepasst',
     translations: {
-      en: 'pay attention / be careful',
+      en: 'pay attention / watch out',
       es: 'prestar atención / tener cuidado'
     },
     example: 'Hier muss man aufpassen.'
@@ -12581,8 +12581,8 @@ export const vocabulary: VocabularyEntry[] = [
     german: 'grillen',
     forms: 'hat gegrillt',
     translations: {
-      en: 'make a barbecue',
-      es: 'hacer una barbacoa'
+      en: 'grill / have a barbecue',
+      es: 'asar a la parrilla / hacer una barbacoa'
     },
     example: 'Hier darf man nicht grillen.'
   },
@@ -12641,7 +12641,7 @@ export const vocabulary: VocabularyEntry[] = [
     german: 'schließen',
     forms: 'er/sie schließt; hat geschlossen',
     translations: {
-      en: 'close',
+      en: 'close / shut',
       es: 'cerrar'
     },
     example: 'Man muss die Tür schließen.'
@@ -12656,7 +12656,7 @@ export const vocabulary: VocabularyEntry[] = [
     german: 'tragen',
     forms: 'er/sie trägt; hat getragen',
     translations: {
-      en: 'carry',
+      en: 'carry / wear',
       es: 'llevar'
     },
     example: 'Hier muss man einen Helm tragen.'
@@ -13001,7 +13001,7 @@ export const vocabulary: VocabularyEntry[] = [
     german: 'baden',
     forms: 'er/sie badet; hat gebadet',
     translations: {
-      en: 'bathe',
+      en: 'bathe / swim',
       es: 'bañarse'
     },
     example: null
@@ -13061,7 +13061,7 @@ export const vocabulary: VocabularyEntry[] = [
     german: 'wandern',
     forms: 'ist gewandert',
     translations: {
-      en: 'go hiking',
+      en: 'hike / go hiking',
       es: 'hacer senderismo'
     },
     example: 'Du kannst wandern.'
@@ -13121,7 +13121,7 @@ export const vocabulary: VocabularyEntry[] = [
     german: 'beantragen',
     forms: 'hat beantragt',
     translations: {
-      en: 'request',
+      en: 'apply for / request',
       es: 'solicitar'
     },
     example: 'Hiermit beantrage ich Kindergeld.'
@@ -13571,7 +13571,7 @@ export const vocabulary: VocabularyEntry[] = [
     german: 'holen',
     forms: 'hat geholt',
     translations: {
-      en: 'fetch / fetch',
+      en: 'get / fetch',
       es: 'ir a buscar / traer'
     },
     example: 'einen Stift holen'
@@ -14006,8 +14006,8 @@ export const vocabulary: VocabularyEntry[] = [
     german: 'halten',
     forms: 'er/sie hält; hat gehalten',
     translations: {
-      en: 'keep / sustain',
-      es: 'mantener / sostener'
+      en: 'hold / keep',
+      es: 'sostener / mantener'
     },
     example: 'Er muss den Fuß ruhig halten.'
   },
@@ -14021,8 +14021,8 @@ export const vocabulary: VocabularyEntry[] = [
     german: 'sollen',
     forms: 'er/sie soll',
     translations: {
-      en: 'duty',
-      es: 'deber'
+      en: 'should / be supposed to',
+      es: 'deber / se supone que'
     },
     example: 'Sie sollen dreimal täglich die Salbe auftragen.'
   },
@@ -14036,7 +14036,7 @@ export const vocabulary: VocabularyEntry[] = [
     german: 'kühlen',
     forms: 'hat gekühlt',
     translations: {
-      en: 'cool',
+      en: 'cool / cool down',
       es: 'enfriar'
     },
     example: 'Er muss den Fuß kühlen.'
@@ -14081,7 +14081,7 @@ export const vocabulary: VocabularyEntry[] = [
     german: 'sitzen',
     forms: 'hat gesessen',
     translations: {
-      en: 'be sitting',
+      en: 'sit / be seated',
       es: 'estar sentado/a'
     },
     example: 'Ich soll ruhig sitzen.'
@@ -14096,8 +14096,8 @@ export const vocabulary: VocabularyEntry[] = [
     german: 'drücken',
     forms: 'hat gedrückt',
     translations: {
-      en: 'press',
-      es: 'presionar'
+      en: 'press / push',
+      es: 'presionar / empujar'
     },
     example: 'Drückt fest auf den Bauch.'
   },
@@ -14261,7 +14261,7 @@ export const vocabulary: VocabularyEntry[] = [
     german: 'liegen',
     forms: 'hat gelegen',
     translations: {
-      en: 'be lying down',
+      en: 'lie / be lying down',
       es: 'estar tumbado/a'
     },
     example: 'Ich liege im Bett und trinke Tee.'
@@ -14291,7 +14291,7 @@ export const vocabulary: VocabularyEntry[] = [
     german: 'stören',
     forms: 'hat gestört',
     translations: {
-      en: 'bother',
+      en: 'disturb / bother',
       es: 'molestar'
     },
     example: 'Störe ich gerade?'
@@ -14306,7 +14306,7 @@ export const vocabulary: VocabularyEntry[] = [
     german: 'krankschreiben',
     forms: 'hat krankgeschrieben',
     translations: {
-      en: 'give medical leave',
+      en: 'put someone on sick leave',
       es: 'dar la baja médica'
     },
     example: 'Der Arzt hat mich bis Freitag krankgeschrieben.'
@@ -14471,8 +14471,8 @@ export const vocabulary: VocabularyEntry[] = [
     german: 'anziehen',
     forms: 'hat angezogen',
     translations: {
-      en: 'put on/dress',
-      es: 'ponerse / vestir'
+      en: 'put on / get dressed',
+      es: 'ponerse / vestirse'
     },
     example: 'Was soll man anziehen?'
   },
@@ -14501,7 +14501,7 @@ export const vocabulary: VocabularyEntry[] = [
     german: 'beginnen',
     forms: 'hat begonnen',
     translations: {
-      en: 'start',
+      en: 'begin / start',
       es: 'comenzar'
     },
     example: 'Wann beginnt die Feier?'
@@ -14531,8 +14531,8 @@ export const vocabulary: VocabularyEntry[] = [
     german: 'bitten',
     forms: 'hat gebeten',
     translations: {
-      en: 'ask / beg',
-      es: 'pedir / rogar'
+      en: 'ask / request',
+      es: 'pedir / solicitar'
     },
     example: 'Wir bitten um festliche Kleidung.'
   },
@@ -14771,8 +14771,8 @@ export const vocabulary: VocabularyEntry[] = [
     german: 'mitkommen',
     forms: 'ist mitgekommen',
     translations: {
-      en: 'come with someone',
-      es: 'venir con alguien'
+      en: 'come along / come with',
+      es: 'venir / acompañar'
     },
     example: 'Amadou möchte gern zur Abiturfeier mitkommen.'
   },
@@ -14786,7 +14786,7 @@ export const vocabulary: VocabularyEntry[] = [
     german: 'aussehen',
     forms: 'er/sie sieht aus; hat ausgesehen',
     translations: {
-      en: 'seem / have appearance',
+      en: 'look / appear',
       es: 'parecer / tener aspecto'
     },
     example: 'Der Mantel sieht cool aus.'
@@ -15206,8 +15206,8 @@ export const vocabulary: VocabularyEntry[] = [
     german: 'meinen',
     forms: 'hat gemeint',
     translations: {
-      en: 'opine / want to say',
-      es: 'opinar / querer decir'
+      en: 'mean / think',
+      es: 'querer decir / pensar'
     },
     example: 'Meinst du?'
   },
@@ -15311,7 +15311,7 @@ export const vocabulary: VocabularyEntry[] = [
     german: 'ausfallen',
     forms: 'er/sie fällt aus; ist ausgefallen',
     translations: {
-      en: 'cancel',
+      en: 'be cancelled',
       es: 'cancelarse'
     },
     example: 'Das Training am 11.6. fällt aus.'
@@ -15371,7 +15371,7 @@ export const vocabulary: VocabularyEntry[] = [
     german: 'hoffen',
     forms: 'hat gehofft',
     translations: {
-      en: 'wait/hope',
+      en: 'hope',
       es: 'esperar / tener esperanza'
     },
     example: 'Ich hoffe, du kannst kommen.'
@@ -15431,8 +15431,8 @@ export const vocabulary: VocabularyEntry[] = [
     german: 'eingeben',
     forms: 'er/sie gibt ein; hat eingegeben',
     translations: {
-      en: 'introduce',
-      es: 'introducir'
+      en: 'enter / input',
+      es: 'introducir / ingresar'
     },
     example: 'Hoa muss ein Passwort eingeben.'
   },
@@ -15836,7 +15836,7 @@ export const vocabulary: VocabularyEntry[] = [
     german: 'buchen',
     forms: 'hat gebucht',
     translations: {
-      en: 'reserve',
+      en: 'book / reserve',
       es: 'reservar'
     },
     example: 'Frau Dehner hat die Reise online gebucht.'
@@ -16316,7 +16316,7 @@ export const vocabulary: VocabularyEntry[] = [
     german: 'passen',
     forms: 'hat gepasst',
     translations: {
-      en: 'fit/be suitable',
+      en: 'fit / suit',
       es: 'encajar / ser adecuado'
     },
     example: 'Welcher Beruf passt zu mir?'
@@ -16631,7 +16631,7 @@ export const vocabulary: VocabularyEntry[] = [
     german: 'schmecken',
     forms: 'hat geschmeckt',
     translations: {
-      en: 'know/have taste',
+      en: 'taste',
       es: 'saber / tener sabor'
     },
     example: 'Wie schmeckt der Brotsalat?'
@@ -16736,7 +16736,7 @@ export const vocabulary: VocabularyEntry[] = [
     german: 'reden',
     forms: 'hat geredet',
     translations: {
-      en: 'talk',
+      en: 'talk / speak',
       es: 'hablar'
     },
     example: 'Dann reden wir jetzt schon zwei Stunden.'

@@ -1273,8 +1273,8 @@ export const verbs: GermanVerb[] = [
     preteritum: 'tat leid',
     perfekt: 'leidgetan',
     translations: {
-      en: 'feel / regret',
-      es: 'sentir / lamentar'
+      en: 'be sorry',
+      es: 'sentirlo / lamentar'
     }
   },
   {
@@ -1284,7 +1284,7 @@ export const verbs: GermanVerb[] = [
     preteritum: 'antwortete',
     perfekt: 'geantwortet',
     translations: {
-      en: 'reply',
+      en: 'answer / reply',
       es: 'responder'
     }
   },
@@ -1295,8 +1295,8 @@ export const verbs: GermanVerb[] = [
     preteritum: 'dankte',
     perfekt: 'gedankt',
     translations: {
-      en: 'give thanks',
-      es: 'dar las gracias'
+      en: 'thank',
+      es: 'agradecer / dar las gracias'
     }
   },
   {
@@ -1306,8 +1306,8 @@ export const verbs: GermanVerb[] = [
     preteritum: 'gehörte',
     perfekt: 'gehört',
     translations: {
-      en: 'belong',
-      es: 'pertenecer'
+      en: 'belong to',
+      es: 'pertenecer a'
     }
   },
   {
@@ -1328,7 +1328,7 @@ export const verbs: GermanVerb[] = [
     preteritum: 'vermietete',
     perfekt: 'vermietet',
     translations: {
-      en: 'rent',
+      en: 'rent out',
       es: 'alquilar'
     }
   },
@@ -1361,8 +1361,8 @@ export const verbs: GermanVerb[] = [
     preteritum: 'füllte aus',
     perfekt: 'ausgefüllt',
     translations: {
-      en: 'fill',
-      es: 'rellenar'
+      en: 'fill out',
+      es: 'rellenar / completar'
     }
   },
   {
@@ -1372,7 +1372,7 @@ export const verbs: GermanVerb[] = [
     preteritum: 'musste',
     perfekt: 'gemusst',
     translations: {
-      en: 'have to / duty',
+      en: 'must / have to',
       es: 'tener que / deber'
     }
   },
@@ -1416,7 +1416,7 @@ export const verbs: GermanVerb[] = [
     preteritum: 'durfte',
     perfekt: 'gedurft',
     translations: {
-      en: 'be able / have permission',
+      en: 'may / be allowed to',
       es: 'poder / tener permiso'
     }
   },
@@ -1438,7 +1438,7 @@ export const verbs: GermanVerb[] = [
     preteritum: 'erlaubte',
     perfekt: 'erlaubt',
     translations: {
-      en: 'allow',
+      en: 'allow / permit',
       es: 'permitir'
     }
   },
@@ -1449,7 +1449,7 @@ export const verbs: GermanVerb[] = [
     preteritum: 'passte auf',
     perfekt: 'aufgepasst',
     translations: {
-      en: 'pay attention / be careful',
+      en: 'pay attention / watch out',
       es: 'prestar atención / tener cuidado'
     }
   },
@@ -1460,8 +1460,8 @@ export const verbs: GermanVerb[] = [
     preteritum: 'grillte',
     perfekt: 'gegrillt',
     translations: {
-      en: 'make a barbecue',
-      es: 'hacer una barbacoa'
+      en: 'grill / have a barbecue',
+      es: 'asar a la parrilla / hacer una barbacoa'
     }
   },
   {
@@ -1482,7 +1482,7 @@ export const verbs: GermanVerb[] = [
     preteritum: 'schloss',
     perfekt: 'geschlossen',
     translations: {
-      en: 'close',
+      en: 'close / shut',
       es: 'cerrar'
     }
   },
@@ -1493,7 +1493,7 @@ export const verbs: GermanVerb[] = [
     preteritum: 'trug',
     perfekt: 'getragen',
     translations: {
-      en: 'carry',
+      en: 'carry / wear',
       es: 'llevar'
     }
   },
@@ -1504,7 +1504,7 @@ export const verbs: GermanVerb[] = [
     preteritum: 'badete',
     perfekt: 'gebadet',
     translations: {
-      en: 'bathe',
+      en: 'bathe / swim',
       es: 'bañarse'
     }
   },
@@ -1515,7 +1515,7 @@ export const verbs: GermanVerb[] = [
     preteritum: 'wanderte',
     perfekt: 'gewandert',
     translations: {
-      en: 'go hiking',
+      en: 'hike / go hiking',
       es: 'hacer senderismo'
     }
   },
@@ -1526,7 +1526,7 @@ export const verbs: GermanVerb[] = [
     preteritum: 'beantragte',
     perfekt: 'beantragt',
     translations: {
-      en: 'request',
+      en: 'apply for / request',
       es: 'solicitar'
     }
   },
@@ -1581,7 +1581,7 @@ export const verbs: GermanVerb[] = [
     preteritum: 'holte',
     perfekt: 'geholt',
     translations: {
-      en: 'fetch / fetch',
+      en: 'get / fetch',
       es: 'ir a buscar / traer'
     }
   },
@@ -1625,8 +1625,8 @@ export const verbs: GermanVerb[] = [
     preteritum: 'hielt',
     perfekt: 'gehalten',
     translations: {
-      en: 'keep / sustain',
-      es: 'mantener / sostener'
+      en: 'hold / keep',
+      es: 'sostener / mantener'
     }
   },
   {
@@ -1636,8 +1636,8 @@ export const verbs: GermanVerb[] = [
     preteritum: 'sollte',
     perfekt: 'gesollt',
     translations: {
-      en: 'duty',
-      es: 'deber'
+      en: 'should / be supposed to',
+      es: 'deber / se supone que'
     }
   },
   {
@@ -1647,7 +1647,7 @@ export const verbs: GermanVerb[] = [
     preteritum: 'kühlte',
     perfekt: 'gekühlt',
     translations: {
-      en: 'cool',
+      en: 'cool / cool down',
       es: 'enfriar'
     }
   },
@@ -1658,7 +1658,7 @@ export const verbs: GermanVerb[] = [
     preteritum: 'saß',
     perfekt: 'gesessen',
     translations: {
-      en: 'be sitting',
+      en: 'sit / be seated',
       es: 'estar sentado/a'
     }
   },
@@ -1669,8 +1669,8 @@ export const verbs: GermanVerb[] = [
     preteritum: 'drückte',
     perfekt: 'gedrückt',
     translations: {
-      en: 'press',
-      es: 'presionar'
+      en: 'press / push',
+      es: 'presionar / empujar'
     }
   },
   {
@@ -1680,7 +1680,7 @@ export const verbs: GermanVerb[] = [
     preteritum: 'lag',
     perfekt: 'gelegen',
     translations: {
-      en: 'be lying down',
+      en: 'lie / be lying down',
       es: 'estar tumbado/a'
     }
   },
@@ -1691,7 +1691,7 @@ export const verbs: GermanVerb[] = [
     preteritum: 'störte',
     perfekt: 'gestört',
     translations: {
-      en: 'bother',
+      en: 'disturb / bother',
       es: 'molestar'
     }
   },
@@ -1702,7 +1702,7 @@ export const verbs: GermanVerb[] = [
     preteritum: 'schrieb krank',
     perfekt: 'krankgeschrieben',
     translations: {
-      en: 'give medical leave',
+      en: 'put someone on sick leave',
       es: 'dar la baja médica'
     }
   },
@@ -1724,8 +1724,8 @@ export const verbs: GermanVerb[] = [
     preteritum: 'zog an',
     perfekt: 'angezogen',
     translations: {
-      en: 'put on/dress',
-      es: 'ponerse / vestir'
+      en: 'put on / get dressed',
+      es: 'ponerse / vestirse'
     }
   },
   {
@@ -1735,7 +1735,7 @@ export const verbs: GermanVerb[] = [
     preteritum: 'begann',
     perfekt: 'begonnen',
     translations: {
-      en: 'start',
+      en: 'begin / start',
       es: 'comenzar'
     }
   },
@@ -1746,8 +1746,8 @@ export const verbs: GermanVerb[] = [
     preteritum: 'bat',
     perfekt: 'gebeten',
     translations: {
-      en: 'ask / beg',
-      es: 'pedir / rogar'
+      en: 'ask / request',
+      es: 'pedir / solicitar'
     }
   },
   {
@@ -1757,8 +1757,8 @@ export const verbs: GermanVerb[] = [
     preteritum: 'kam mit',
     perfekt: 'mitgekommen',
     translations: {
-      en: 'come with someone',
-      es: 'venir con alguien'
+      en: 'come along / come with',
+      es: 'venir / acompañar'
     }
   },
   {
@@ -1768,7 +1768,7 @@ export const verbs: GermanVerb[] = [
     preteritum: 'sah aus',
     perfekt: 'ausgesehen',
     translations: {
-      en: 'seem / have appearance',
+      en: 'look / appear',
       es: 'parecer / tener aspecto'
     }
   },
@@ -1801,8 +1801,8 @@ export const verbs: GermanVerb[] = [
     preteritum: 'meinte',
     perfekt: 'gemeint',
     translations: {
-      en: 'opine / want to say',
-      es: 'opinar / querer decir'
+      en: 'mean / think',
+      es: 'querer decir / pensar'
     }
   },
   {
@@ -1812,7 +1812,7 @@ export const verbs: GermanVerb[] = [
     preteritum: 'fiel aus',
     perfekt: 'ausgefallen',
     translations: {
-      en: 'cancel',
+      en: 'be cancelled',
       es: 'cancelarse'
     }
   },
@@ -1823,7 +1823,7 @@ export const verbs: GermanVerb[] = [
     preteritum: 'hoffte',
     perfekt: 'gehofft',
     translations: {
-      en: 'wait/hope',
+      en: 'hope',
       es: 'esperar / tener esperanza'
     }
   },
@@ -1834,8 +1834,8 @@ export const verbs: GermanVerb[] = [
     preteritum: 'gab ein',
     perfekt: 'eingegeben',
     translations: {
-      en: 'introduce',
-      es: 'introducir'
+      en: 'enter / input',
+      es: 'introducir / ingresar'
     }
   },
   {
@@ -1856,7 +1856,7 @@ export const verbs: GermanVerb[] = [
     preteritum: 'buchte',
     perfekt: 'gebucht',
     translations: {
-      en: 'reserve',
+      en: 'book / reserve',
       es: 'reservar'
     }
   },
@@ -1933,7 +1933,7 @@ export const verbs: GermanVerb[] = [
     preteritum: 'passte',
     perfekt: 'gepasst',
     translations: {
-      en: 'fit/be suitable',
+      en: 'fit / suit',
       es: 'encajar / ser adecuado'
     }
   },
@@ -1944,7 +1944,7 @@ export const verbs: GermanVerb[] = [
     preteritum: 'schmeckte',
     perfekt: 'geschmeckt',
     translations: {
-      en: 'know/have taste',
+      en: 'taste',
       es: 'saber / tener sabor'
     }
   },
@@ -1955,7 +1955,7 @@ export const verbs: GermanVerb[] = [
     preteritum: 'redete',
     perfekt: 'geredet',
     translations: {
-      en: 'talk',
+      en: 'talk / speak',
       es: 'hablar'
     }
   },
