@@ -9,10 +9,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'abgeholt',
     translations: {
       en: 'pick up',
-      de: 'abholen',
-      es: 'recoger',
-      tr: 'gidip almak',
-      te: 'తీసుకోవడం'
+      es: 'recoger'
     }
   },
   {
@@ -23,10 +20,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'angerufen',
     translations: {
       en: 'call',
-      de: 'anrufen',
-      es: 'llamar por teléfono',
-      tr: 'aramak',
-      te: 'ఫోన్ చేయడం'
+      es: 'llamar por teléfono'
     }
   },
   {
@@ -37,10 +31,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'gearbeitet',
     translations: {
       en: 'work',
-      de: 'arbeiten',
-      es: 'trabajar',
-      tr: 'çalışmak',
-      te: 'పనిచేయడం'
+      es: 'trabajar'
     }
   },
   {
@@ -51,10 +42,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'aufgeräumt',
     translations: {
       en: 'tidy up',
-      de: 'aufräumen',
-      es: 'ordenar',
-      tr: 'toparlamak',
-      te: 'శుభ్రం చేయడం'
+      es: 'ordenar'
     }
   },
   {
@@ -65,10 +53,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'aufgestanden',
     translations: {
       en: 'get up',
-      de: 'aufstehen',
-      es: 'levantarse',
-      tr: 'kalkmak',
-      te: 'లేవడం'
+      es: 'levantarse'
     }
   },
   {
@@ -79,10 +64,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'gebacken',
     translations: {
       en: 'bake',
-      de: 'backen',
-      es: 'hornear',
-      tr: 'fırında pişirmek',
-      te: 'కాల్చడం'
+      es: 'hornear'
     }
   },
   {
@@ -93,10 +75,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'geblieben',
     translations: {
       en: 'stay',
-      de: 'bleiben',
-      es: 'quedarse',
-      tr: 'kalmak',
-      te: 'ఉండడం'
+      es: 'quedarse'
     }
   },
   {
@@ -107,10 +86,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'gebraucht',
     translations: {
       en: 'need',
-      de: 'brauchen',
-      es: 'necesitar',
-      tr: 'ihtiyaç duymak',
-      te: 'అవసరం కావడం'
+      es: 'necesitar'
     }
   },
   {
@@ -121,10 +97,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'buchstabiert',
     translations: {
       en: 'spell',
-      de: 'buchstabieren',
-      es: 'deletrear',
-      tr: 'hecelemek',
-      te: 'అక్షరాలు చెప్పడం'
+      es: 'deletrear'
     }
   },
   {
@@ -135,10 +108,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'gedacht',
     translations: {
       en: 'think',
-      de: 'denken',
-      es: 'pensar',
-      tr: 'düşünmek',
-      te: 'ఆలోచించడం'
+      es: 'pensar'
     }
   },
   {
@@ -149,10 +119,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'geduscht',
     translations: {
       en: 'shower',
-      de: 'duschen',
-      es: 'ducharse',
-      tr: 'duş almak',
-      te: 'స్నానం చేయడం'
+      es: 'ducharse'
     }
   },
   {
@@ -163,10 +130,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'eingekauft',
     translations: {
       en: 'go shopping',
-      de: 'einkaufen',
-      es: 'ir de compras',
-      tr: 'alışveriş yapmak',
-      te: 'షాపింగ్ చేయడం'
+      es: 'ir de compras'
     }
   },
   {
@@ -177,10 +141,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'gegessen',
     translations: {
       en: 'eat',
-      de: 'essen',
-      es: 'comer',
-      tr: 'yemek yemek',
-      te: 'తినడం'
+      es: 'comer'
     }
   },
   {
@@ -191,10 +152,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'gefahren',
     translations: {
       en: 'go by vehicle',
-      de: 'fahren',
-      es: 'ir en vehículo',
-      tr: 'araçla gitmek',
-      te: 'వాహనంలో వెళ్ళడం'
+      es: 'ir en vehículo'
     }
   },
   {
@@ -205,10 +163,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'gefehlt',
     translations: {
       en: 'be missing',
-      de: 'fehlen',
-      es: 'faltar',
-      tr: 'eksik olmak',
-      te: 'లోపించడం'
+      es: 'faltar'
     }
   },
   {
@@ -219,10 +174,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'ferngesehen',
     translations: {
       en: 'watch TV',
-      de: 'fernsehen',
-      es: 'ver la TV',
-      tr: 'televizyon izlemek',
-      te: 'టీవీ చూడడం'
+      es: 'ver la TV'
     }
   },
   {
@@ -233,10 +185,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'gefunden',
     translations: {
       en: 'find',
-      de: 'finden',
-      es: 'encontrar',
-      tr: 'bulmak',
-      te: 'కనుగొనడం'
+      es: 'encontrar'
     }
   },
   {
@@ -247,10 +196,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'fotografiert',
     translations: {
       en: 'photograph',
-      de: 'fotografieren',
-      es: 'fotografiar',
-      tr: 'fotoğraf çekmek',
-      te: 'ఫోటో తీయడం'
+      es: 'fotografiar'
     }
   },
   {
@@ -261,10 +207,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'gefrühstückt',
     translations: {
       en: 'have breakfast',
-      de: 'frühstücken',
-      es: 'desayunar',
-      tr: 'kahvaltı yapmak',
-      te: 'అల్పాహారం తీసుకోవడం'
+      es: 'desayunar'
     }
   },
   {
@@ -275,10 +218,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'gegeben',
     translations: {
       en: 'give',
-      de: 'geben',
-      es: 'dar',
-      tr: 'vermek',
-      te: 'ఇవ్వడం'
+      es: 'dar'
     }
   },
   {
@@ -289,10 +229,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'gegangen',
     translations: {
       en: 'go',
-      de: 'gehen',
-      es: 'ir',
-      tr: 'gitmek',
-      te: 'వెళ్ళడం'
+      es: 'ir'
     }
   },
   {
@@ -303,10 +240,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'spazieren gegangen',
     translations: {
       en: 'go for a walk',
-      de: 'spazieren gehen',
-      es: 'ir a pasear',
-      tr: 'yürüyüşe çıkmak',
-      te: 'నడకకు వెళ్ళడం'
+      es: 'ir a pasear'
     }
   },
   {
@@ -317,10 +251,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'gewonnen',
     translations: {
       en: 'win',
-      de: 'gewinnen',
-      es: 'ganar',
-      tr: 'kazanmak',
-      te: 'గెలవడం'
+      es: 'ganar'
     }
   },
   {
@@ -331,10 +262,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'geglaubt',
     translations: {
       en: 'believe',
-      de: 'glauben',
-      es: 'creer',
-      tr: 'inanmak',
-      te: 'నమ్మడం'
+      es: 'creer'
     }
   },
   {
@@ -345,10 +273,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'gehabt',
     translations: {
       en: 'have',
-      de: 'haben',
-      es: 'tener',
-      tr: 'sahip olmak',
-      te: 'కలిగి ఉండడం'
+      es: 'tener'
     }
   },
   {
@@ -359,10 +284,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'gehasst',
     translations: {
       en: 'hate',
-      de: 'hassen',
-      es: 'odiar',
-      tr: 'nefret etmek',
-      te: 'ద్వేషించడం'
+      es: 'odiar'
     }
   },
   {
@@ -373,10 +295,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'geheiratet',
     translations: {
       en: 'marry',
-      de: 'heiraten',
-      es: 'casarse',
-      tr: 'evlenmek',
-      te: 'పెళ్లి చేసుకోవడం'
+      es: 'casarse'
     }
   },
   {
@@ -387,10 +306,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'geheißen',
     translations: {
       en: 'be called',
-      de: 'heißen',
-      es: 'llamarse',
-      tr: 'adı olmak',
-      te: 'పేరు కలిగి ఉండడం'
+      es: 'llamarse'
     }
   },
   {
@@ -401,10 +317,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'gehört',
     translations: {
       en: 'hear',
-      de: 'hören',
-      es: 'oír',
-      tr: 'duymak',
-      te: 'వినడం'
+      es: 'oír'
     }
   },
   {
@@ -415,10 +328,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'gekauft',
     translations: {
       en: 'buy',
-      de: 'kaufen',
-      es: 'comprar',
-      tr: 'satın almak',
-      te: 'కొనడం'
+      es: 'comprar'
     }
   },
   {
@@ -429,10 +339,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'gekocht',
     translations: {
       en: 'cook',
-      de: 'kochen',
-      es: 'cocinar',
-      tr: 'yemek pişirmek',
-      te: 'వండడం'
+      es: 'cocinar'
     }
   },
   {
@@ -443,10 +350,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'gekommen',
     translations: {
       en: 'come',
-      de: 'kommen',
-      es: 'venir',
-      tr: 'gelmek',
-      te: 'రావడం'
+      es: 'venir'
     }
   },
   {
@@ -457,10 +361,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'gekonnt',
     translations: {
       en: 'can',
-      de: 'können',
-      es: 'poder',
-      tr: '-ebilmek',
-      te: 'చేయగలగడం'
+      es: 'poder'
     }
   },
   {
@@ -471,10 +372,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'gekostet',
     translations: {
       en: 'cost',
-      de: 'kosten',
-      es: 'costar',
-      tr: 'fiyatı olmak',
-      te: 'ఖరీదు కావడం'
+      es: 'costar'
     }
   },
   {
@@ -485,10 +383,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'gelebt',
     translations: {
       en: 'live',
-      de: 'leben',
-      es: 'vivir',
-      tr: 'yaşamak',
-      te: 'జీవించడం'
+      es: 'vivir'
     }
   },
   {
@@ -499,10 +394,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'gelernt',
     translations: {
       en: 'learn',
-      de: 'lernen',
-      es: 'aprender',
-      tr: 'öğrenmek',
-      te: 'నేర్చుకోవడం'
+      es: 'aprender'
     }
   },
   {
@@ -513,10 +405,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'gelesen',
     translations: {
       en: 'read',
-      de: 'lesen',
-      es: 'leer',
-      tr: 'okumak',
-      te: 'చదవడం'
+      es: 'leer'
     }
   },
   {
@@ -527,10 +416,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'geliebt',
     translations: {
       en: 'love',
-      de: 'lieben',
-      es: 'amar',
-      tr: 'sevmek',
-      te: 'ప్రేమించడం'
+      es: 'amar'
     }
   },
   {
@@ -541,10 +427,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'gemacht',
     translations: {
       en: 'do',
-      de: 'machen',
-      es: 'hacer',
-      tr: 'yapmak',
-      te: 'చేయడం'
+      es: 'hacer'
     }
   },
   {
@@ -555,10 +438,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'gemalt',
     translations: {
       en: 'paint',
-      de: 'malen',
-      es: 'pintar',
-      tr: 'boyamak',
-      te: 'చిత్రించడం'
+      es: 'pintar'
     }
   },
   {
@@ -569,10 +449,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'gewollt',
     translations: {
       en: 'would like',
-      de: 'möchten',
-      es: 'querer',
-      tr: 'istemek',
-      te: 'కోరుకోవడం'
+      es: 'querer'
     }
   },
   {
@@ -583,10 +460,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'gemocht',
     translations: {
       en: 'like',
-      de: 'mögen',
-      es: 'gustar',
-      tr: 'hoşlanmak',
-      te: 'ఇష్టపడడం'
+      es: 'gustar'
     }
   },
   {
@@ -597,10 +471,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'genäht',
     translations: {
       en: 'sew',
-      de: 'nähen',
-      es: 'coser',
-      tr: 'dikmek',
-      te: 'కుట్టడం'
+      es: 'coser'
     }
   },
   {
@@ -611,10 +482,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'genommen',
     translations: {
       en: 'take',
-      de: 'nehmen',
-      es: 'tomar',
-      tr: 'almak',
-      te: 'తీసుకోవడం'
+      es: 'tomar'
     }
   },
   {
@@ -625,10 +493,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'geputzt',
     translations: {
       en: 'clean',
-      de: 'putzen',
-      es: 'limpiar',
-      tr: 'temizlemek',
-      te: 'శుభ్రం చేయడం'
+      es: 'limpiar'
     }
   },
   {
@@ -639,10 +504,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'rausgegangen',
     translations: {
       en: 'go out',
-      de: 'rausgehen',
-      es: 'salir',
-      tr: 'dışarı çıkmak',
-      te: 'బయటికి వెళ్ళడం'
+      es: 'salir'
     }
   },
   {
@@ -653,10 +515,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'gerechnet',
     translations: {
       en: 'calculate',
-      de: 'rechnen',
-      es: 'calcular',
-      tr: 'hesaplamak',
-      te: 'లెక్కించడం'
+      es: 'calcular'
     }
   },
   {
@@ -667,10 +526,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'geregnet',
     translations: {
       en: 'rain',
-      de: 'regnen',
-      es: 'llover',
-      tr: 'yağmur yağmak',
-      te: 'వర్షం పడడం'
+      es: 'llover'
     }
   },
   {
@@ -681,10 +537,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'gereist',
     translations: {
       en: 'travel',
-      de: 'reisen',
-      es: 'viajar',
-      tr: 'seyahat etmek',
-      te: 'ప్రయాణించడం'
+      es: 'viajar'
     }
   },
   {
@@ -695,10 +548,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'gesagt',
     translations: {
       en: 'say',
-      de: 'sagen',
-      es: 'decir',
-      tr: 'söylemek',
-      te: 'చెప్పడం'
+      es: 'decir'
     }
   },
   {
@@ -709,10 +559,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'geschaut',
     translations: {
       en: 'look',
-      de: 'schauen',
-      es: 'mirar',
-      tr: 'bakmak',
-      te: 'చూడడం'
+      es: 'mirar'
     }
   },
   {
@@ -723,10 +570,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'geschienen',
     translations: {
       en: 'shine',
-      de: 'scheinen',
-      es: 'brillar',
-      tr: 'parlamak',
-      te: 'ప్రకాశించడం'
+      es: 'brillar'
     }
   },
   {
@@ -737,10 +581,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'geschlafen',
     translations: {
       en: 'sleep',
-      de: 'schlafen',
-      es: 'dormir',
-      tr: 'uyumak',
-      te: 'నిద్రపోవడం'
+      es: 'dormir'
     }
   },
   {
@@ -751,10 +592,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'geschneit',
     translations: {
       en: 'snow',
-      de: 'schneien',
-      es: 'nevar',
-      tr: 'kar yağmak',
-      te: 'మంచు పడడం'
+      es: 'nevar'
     }
   },
   {
@@ -765,10 +603,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'geschwommen',
     translations: {
       en: 'swim',
-      de: 'schwimmen',
-      es: 'nadar',
-      tr: 'yüzmek',
-      te: 'ఈదడం'
+      es: 'nadar'
     }
   },
   {
@@ -779,10 +614,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'gewesen',
     translations: {
       en: 'be',
-      de: 'sein',
-      es: 'ser/estar',
-      tr: 'olmak',
-      te: 'ఉండడం'
+      es: 'ser/estar'
     }
   },
   {
@@ -793,10 +625,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'gesungen',
     translations: {
       en: 'sing',
-      de: 'singen',
-      es: 'cantar',
-      tr: 'şarkı söylemek',
-      te: 'పాడడం'
+      es: 'cantar'
     }
   },
   {
@@ -807,10 +636,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'gespielt',
     translations: {
       en: 'play',
-      de: 'spielen',
-      es: 'jugar',
-      tr: 'oynamak',
-      te: 'ఆడడం'
+      es: 'jugar'
     }
   },
   {
@@ -821,10 +647,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'gesprochen',
     translations: {
       en: 'speak',
-      de: 'sprechen',
-      es: 'hablar',
-      tr: 'konuşmak',
-      te: 'మాట్లాడడం'
+      es: 'hablar'
     }
   },
   {
@@ -835,10 +658,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'gestimmt',
     translations: {
       en: 'be correct',
-      de: 'stimmen',
-      es: 'ser correcto',
-      tr: 'doğru olmak',
-      te: 'సరైనది కావడం'
+      es: 'ser correcto'
     }
   },
   {
@@ -849,10 +669,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'studiert',
     translations: {
       en: 'study',
-      de: 'studieren',
-      es: 'estudiar',
-      tr: 'üniversitede okumak',
-      te: 'చదువుకోవడం'
+      es: 'estudiar'
     }
   },
   {
@@ -863,10 +680,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'gesucht',
     translations: {
       en: 'look for',
-      de: 'suchen',
-      es: 'buscar',
-      tr: 'aramak',
-      te: 'వెతకడం'
+      es: 'buscar'
     }
   },
   {
@@ -877,10 +691,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'getanzt',
     translations: {
       en: 'dance',
-      de: 'tanzen',
-      es: 'bailar',
-      tr: 'dans etmek',
-      te: 'నృత్యం చేయడం'
+      es: 'bailar'
     }
   },
   {
@@ -891,10 +702,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'telefoniert',
     translations: {
       en: 'talk on the phone',
-      de: 'telefonieren',
-      es: 'hablar por teléfono',
-      tr: 'telefonla konuşmak',
-      te: 'ఫోన్లో మాట్లాడడం'
+      es: 'hablar por teléfono'
     }
   },
   {
@@ -905,10 +713,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'trainiert',
     translations: {
       en: 'train',
-      de: 'trainieren',
-      es: 'entrenar',
-      tr: 'antrenman yapmak',
-      te: 'శిక్షణ చేయడం'
+      es: 'entrenar'
     }
   },
   {
@@ -919,10 +724,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'getroffen',
     translations: {
       en: 'meet',
-      de: 'treffen',
-      es: 'quedar con alguien',
-      tr: 'buluşmak',
-      te: 'కలవడం'
+      es: 'quedar con alguien'
     }
   },
   {
@@ -933,10 +735,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'getrunken',
     translations: {
       en: 'drink',
-      de: 'trinken',
-      es: 'beber',
-      tr: 'içmek',
-      te: 'త్రాగడం'
+      es: 'beber'
     }
   },
   {
@@ -947,10 +746,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'geworden',
     translations: {
       en: 'become',
-      de: 'werden',
-      es: 'volverse',
-      tr: 'dönüşmek',
-      te: 'అవ్వడం'
+      es: 'volverse'
     }
   },
   {
@@ -961,10 +757,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'gewohnt',
     translations: {
       en: 'reside',
-      de: 'wohnen',
-      es: 'vivir',
-      tr: 'ikamet etmek',
-      te: 'నివసించడం'
+      es: 'vivir'
     }
   },
   {
@@ -975,10 +768,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'gewollt',
     translations: {
       en: 'want',
-      de: 'wollen',
-      es: 'querer',
-      tr: 'istemek',
-      te: 'కోరుకోవడం'
+      es: 'querer'
     }
   },
   {
@@ -989,10 +779,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'angefangen',
     translations: {
       en: 'begin',
-      de: 'anfangen',
-      es: 'empezar',
-      tr: 'başlamak',
-      te: 'మొదలుపెట్టడం'
+      es: 'empezar'
     }
   },
   {
@@ -1003,10 +790,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'angekommen',
     translations: {
       en: 'arrive',
-      de: 'ankommen',
-      es: 'llegar',
-      tr: 'varmak',
-      te: 'చేరుకోవడం'
+      es: 'llegar'
     }
   },
   {
@@ -1017,10 +801,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'aufgemacht',
     translations: {
       en: 'open',
-      de: 'aufmachen',
-      es: 'abrir',
-      tr: 'açmak',
-      te: 'తెరవడం'
+      es: 'abrir'
     }
   },
   {
@@ -1031,10 +812,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'ausgestiegen',
     translations: {
       en: 'get off / exit',
-      de: 'aussteigen',
-      es: 'bajarse / salir',
-      tr: 'inmek / çıkmak',
-      te: 'దిగడం'
+      es: 'bajarse / salir'
     }
   },
   {
@@ -1045,10 +823,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'bekommen',
     translations: {
       en: 'get / receive',
-      de: 'bekommen',
-      es: 'recibir',
-      tr: 'almak',
-      te: 'పొందడం'
+      es: 'recibir'
     }
   },
   {
@@ -1059,10 +834,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'bestellt',
     translations: {
       en: 'order',
-      de: 'bestellen',
-      es: 'pedir',
-      tr: 'sipariş vermek',
-      te: 'ఆర్డర్ చేయడం'
+      es: 'pedir'
     }
   },
   {
@@ -1073,10 +845,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'besucht',
     translations: {
       en: 'visit',
-      de: 'besuchen',
-      es: 'visitar',
-      tr: 'ziyaret etmek',
-      te: 'సందర్శించడం'
+      es: 'visitar'
     }
   },
   {
@@ -1087,10 +856,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'bezahlt',
     translations: {
       en: 'pay',
-      de: 'bezahlen',
-      es: 'pagar',
-      tr: 'ödemek',
-      te: 'చెల్లించడం'
+      es: 'pagar'
     }
   },
   {
@@ -1101,10 +867,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'gebracht',
     translations: {
       en: 'bring',
-      de: 'bringen',
-      es: 'traer',
-      tr: 'getirmek',
-      te: 'తీసుకురావడం'
+      es: 'traer'
     }
   },
   {
@@ -1115,10 +878,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'eingeladen',
     translations: {
       en: 'invite',
-      de: 'einladen',
-      es: 'invitar',
-      tr: 'davet etmek',
-      te: 'ఆహ్వానించడం'
+      es: 'invitar'
     }
   },
   {
@@ -1129,10 +889,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'eingeschlafen',
     translations: {
       en: 'fall asleep',
-      de: 'einschlafen',
-      es: 'quedarse dormido',
-      tr: 'uykuya dalmak',
-      te: 'నిద్రలోకి జారుకోవడం'
+      es: 'quedarse dormido'
     }
   },
   {
@@ -1143,10 +900,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'eingestiegen',
     translations: {
       en: 'get in / board',
-      de: 'einsteigen',
-      es: 'subirse / entrar',
-      tr: 'binmek',
-      te: 'ఎక్కడం'
+      es: 'subirse / entrar'
     }
   },
   {
@@ -1157,10 +911,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'empfohlen',
     translations: {
       en: 'recommend',
-      de: 'empfehlen',
-      es: 'recomendar',
-      tr: 'tavsiye etmek',
-      te: 'సిఫార్సు చేయడం'
+      es: 'recomendar'
     }
   },
   {
@@ -1171,10 +922,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'entschuldigt',
     translations: {
       en: 'apologize / excuse',
-      de: 'entschuldigen',
-      es: 'disculparse / disculpar',
-      tr: 'özür dilemek / affetmek',
-      te: 'క్షమించడం'
+      es: 'disculparse / disculpar'
     }
   },
   {
@@ -1185,10 +933,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'erzählt',
     translations: {
       en: 'tell / narrate',
-      de: 'erzählen',
-      es: 'contar',
-      tr: 'anlatmak',
-      te: 'చెప్పడం'
+      es: 'contar'
     }
   },
   {
@@ -1199,10 +944,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'geflogen',
     translations: {
       en: 'fly',
-      de: 'fliegen',
-      es: 'volar',
-      tr: 'uçmak',
-      te: 'ఎగరడం'
+      es: 'volar'
     }
   },
   {
@@ -1213,10 +955,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'gefallen',
     translations: {
       en: 'please / be liked',
-      de: 'gefallen',
-      es: 'gustar',
-      tr: 'hoşuna gitmek',
-      te: 'నచ్చడం'
+      es: 'gustar'
     }
   },
   {
@@ -1227,10 +966,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'gejoggt',
     translations: {
       en: 'jog',
-      de: 'joggen',
-      es: 'hacer jogging',
-      tr: 'koşu yapmak',
-      te: 'జాగింగ్ చేయడం'
+      es: 'hacer jogging'
     }
   },
   {
@@ -1241,10 +977,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'gekannt',
     translations: {
       en: 'know',
-      de: 'kennen',
-      es: 'conocer',
-      tr: 'tanımak / bilmek',
-      te: 'తెలుసుకోవడం'
+      es: 'conocer'
     }
   },
   {
@@ -1255,10 +988,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'gelaufen',
     translations: {
       en: 'run / walk',
-      de: 'laufen',
-      es: 'correr / andar',
-      tr: 'koşmak / yürümek',
-      te: 'పరుగెత్తడం'
+      es: 'correr / andar'
     }
   },
   {
@@ -1269,10 +999,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'mitgebracht',
     translations: {
       en: 'bring along',
-      de: 'mitbringen',
-      es: 'traer',
-      tr: 'yanında getirmek',
-      te: 'వెంట తీసుకురావడం'
+      es: 'traer'
     }
   },
   {
@@ -1283,10 +1010,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'notiert',
     translations: {
       en: 'note down',
-      de: 'notieren',
-      es: 'anotar',
-      tr: 'not almak',
-      te: 'గమనించడం'
+      es: 'anotar'
     }
   },
   {
@@ -1297,10 +1021,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'geschrieben',
     translations: {
       en: 'write',
-      de: 'schreiben',
-      es: 'escribir',
-      tr: 'yazmak',
-      te: 'రాయడం'
+      es: 'escribir'
     }
   },
   {
@@ -1311,10 +1032,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'gesehen',
     translations: {
       en: 'see',
-      de: 'sehen',
-      es: 'ver',
-      tr: 'görmek',
-      te: 'చూడడం'
+      es: 'ver'
     }
   },
   {
@@ -1325,10 +1043,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'gespart',
     translations: {
       en: 'save',
-      de: 'sparen',
-      es: 'ahorrar',
-      tr: 'biriktirmek / tasarruf etmek',
-      te: 'ఆదా చేయడం'
+      es: 'ahorrar'
     }
   },
   {
@@ -1339,10 +1054,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'getan',
     translations: {
       en: 'do',
-      de: 'tun',
-      es: 'hacer',
-      tr: 'yapmak',
-      te: 'చేయడం'
+      es: 'hacer'
     }
   },
   {
@@ -1353,10 +1065,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'umgezogen',
     translations: {
       en: 'move house / change clothes',
-      de: 'umziehen',
-      es: 'mudarse / cambiarse de ropa',
-      tr: 'taşınmak / kıyafet değiştirmek',
-      te: 'తరలించడం'
+      es: 'mudarse / cambiarse de ropa'
     }
   },
   {
@@ -1367,10 +1076,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'vergessen',
     translations: {
       en: 'forget',
-      de: 'vergessen',
-      es: 'olvidar',
-      tr: 'unutmak',
-      te: 'మరచిపోవడం'
+      es: 'olvidar'
     }
   },
   {
@@ -1381,10 +1087,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'verkauft',
     translations: {
       en: 'sell',
-      de: 'verkaufen',
-      es: 'vender',
-      tr: 'satmak',
-      te: 'అమ్మడం'
+      es: 'vender'
     }
   },
   {
@@ -1395,10 +1098,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'verlassen',
     translations: {
       en: 'leave',
-      de: 'verlassen',
-      es: 'dejar / abandonar',
-      tr: 'terk etmek / ayrılmak',
-      te: 'వదిలివేయడం'
+      es: 'dejar / abandonar'
     }
   },
   {
@@ -1409,10 +1109,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'verloren',
     translations: {
       en: 'lose',
-      de: 'verlieren',
-      es: 'perder',
-      tr: 'kaybetmek',
-      te: 'కోల్పోవడం'
+      es: 'perder'
     }
   },
   {
@@ -1423,10 +1120,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'versucht',
     translations: {
       en: 'try',
-      de: 'versuchen',
-      es: 'intentar',
-      tr: 'denemek',
-      te: 'ప్రయత్నించడం'
+      es: 'intentar'
     }
   },
   {
@@ -1437,10 +1131,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'gewaschen',
     translations: {
       en: 'wash',
-      de: 'waschen',
-      es: 'lavar',
-      tr: 'yıkamak',
-      te: 'కడగడం'
+      es: 'lavar'
     }
   },
   {
@@ -1451,10 +1142,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'gewusst',
     translations: {
       en: 'know',
-      de: 'wissen',
-      es: 'saber',
-      tr: 'bilmek',
-      te: 'తెలుసుకోవడం'
+      es: 'saber'
     }
   },
   {
@@ -1465,10 +1153,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'zugemacht',
     translations: {
       en: 'close',
-      de: 'zumachen',
-      es: 'cerrar',
-      tr: 'kapatmak',
-      te: 'మూసివేయడం'
+      es: 'cerrar'
     }
   },
   {
@@ -1479,10 +1164,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'abgefahren',
     translations: {
       en: 'depart',
-      de: 'abfahren',
-      es: 'salir',
-      tr: 'hareket etmek',
-      te: 'బయలుదేరడం'
+      es: 'salir'
     }
   },
   {
@@ -1493,10 +1175,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'angesehen',
     translations: {
       en: 'look at',
-      de: 'ansehen',
-      es: 'mirar',
-      tr: 'bakmak',
-      te: 'చూడటం'
+      es: 'mirar'
     }
   },
   {
@@ -1507,10 +1186,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'beschrieben',
     translations: {
       en: 'describe',
-      de: 'beschreiben',
-      es: 'describir',
-      tr: 'tarif etmek',
-      te: 'వర్ణించడం'
+      es: 'describir'
     }
   },
   {
@@ -1521,10 +1197,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'erklärt',
     translations: {
       en: 'explain',
-      de: 'erklären',
-      es: 'explicar',
-      tr: 'açıklamak',
-      te: 'వివరించడం'
+      es: 'explicar'
     }
   },
   {
@@ -1535,10 +1208,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'gefragt',
     translations: {
       en: 'ask',
-      de: 'fragen',
-      es: 'preguntar',
-      tr: 'sormak',
-      te: 'అడగడం'
+      es: 'preguntar'
     }
   },
   {
@@ -1549,10 +1219,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'funktioniert',
     translations: {
       en: 'function',
-      de: 'funktionieren',
-      es: 'funcionar',
-      tr: 'çalışmak',
-      te: 'పనిచేయడం'
+      es: 'funcionar'
     }
   },
   {
@@ -1563,10 +1230,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'kommentiert',
     translations: {
       en: 'comment',
-      de: 'kommentieren',
-      es: 'comentar',
-      tr: 'yorum yapmak',
-      te: 'వ్యాఖ్యానించడం'
+      es: 'comentar'
     }
   },
   {
@@ -1577,10 +1241,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'mitgemacht',
     translations: {
       en: 'participate',
-      de: 'mitmachen',
-      es: 'participar',
-      tr: 'katılmak',
-      te: 'పాల్గొనడం'
+      es: 'participar'
     }
   },
   {
@@ -1591,10 +1252,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'repariert',
     translations: {
       en: 'repair',
-      de: 'reparieren',
-      es: 'reparar',
-      tr: 'tamir etmek',
-      te: 'మరమ్మతు చేయడం'
+      es: 'reparar'
     }
   },
   {
@@ -1605,10 +1263,7 @@ export const verbs: GermanVerb[] = [
     perfekt: 'umgestiegen',
     translations: {
       en: 'change (transport)',
-      de: 'umsteigen',
-      es: 'hacer transbordo',
-      tr: 'aktarma yapmak',
-      te: 'మారడం'
+      es: 'hacer transbordo'
     }
   }
 ]

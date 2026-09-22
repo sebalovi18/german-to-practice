@@ -1,16 +1,18 @@
 # 🇩🇪 German to Practice
 
-A friendly place to build German vocabulary with searchable word lists and short practice exercises. Browse nouns, verbs, and adjectives, then turn them into quick study rounds whenever you want to review.
+A friendly place to build German vocabulary with searchable word lists and short practice exercises. Browse the complete A1.1 and A1.2 vocabulary from *Miteinander!*, or use the focused noun, verb, and adjective exercises.
 
 ## ✨ Features
 
-- 📚 Browse German nouns with articles, singular forms, plural forms, and translations.
-- 🔎 Search nouns, verbs, and adjectives by German word, form, or translation.
+- 📚 Browse 1,126 unique A1.1 and A1.2 vocabulary entries.
+- 🔎 Search German words, forms, examples, and English or Spanish translations.
+- 🏷️ Filter the complete vocabulary by level and word type.
+- 📖 Browse German nouns with articles, singular forms, and plural forms.
 - 🏋️ Practice articles with randomized sessions for `der`, `die`, and `das`.
 - 🧠 Practice meanings for nouns, verbs, and adjectives.
 - 💡 Use hints, show answers, and move through exercises at your own pace.
 - ⌨️ Use keyboard shortcuts during practice, including number keys for answers.
-- 🌍 Switch the interface between English, German, Spanish, and Turkish.
+- 🌍 Switch the interface between English and Spanish.
 - 🔤 Choose a preferred display font and keep it saved for next time.
 - 🏷️ See translated browser titles for each page.
 
@@ -18,15 +20,17 @@ A friendly place to build German vocabulary with searchable word lists and short
 
 The vocabulary lives in `src/data`:
 
+- `src/data/vocabulary.ts`: 1,126 unique A1.1 and A1.2 entries
 - `src/data/nouns.ts`: 270 nouns
 - `src/data/verbs.ts`: 70 verbs
 - `src/data/adjectives.ts`: 33 adjectives
 
-Each entry includes German forms and translations for `en`, `de`, `es`, and `tr`. Some entries also include level and category metadata for more focused practice later.
+Entries include German forms and English and Spanish translations. The complete A1 vocabulary also includes level, lesson, page, word type, and book examples where available.
 
 ## 🧭 Pages
 
 - `/` opens the home page.
+- `/vocabulary` shows the complete A1.1 and A1.2 vocabulary.
 - `/nouns` shows the searchable noun list.
 - `/verbs` shows the searchable verb list.
 - `/adjectives` shows the searchable adjective list.

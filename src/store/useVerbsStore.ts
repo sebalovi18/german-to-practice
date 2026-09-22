@@ -1,7 +1,5 @@
 import { defineStore } from 'pinia'
 
-import { ref } from 'vue'
-
 import { useStorage } from '@vueuse/core'
 
 import type { HistoryVerb } from '@/interfaces/HistoryVerbs'
