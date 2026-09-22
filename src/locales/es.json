@@ -7,11 +7,9 @@
     "search": {
       "placeholder": "Buscar en alemán, español o inglés...",
       "resultsSummary": "Se encontraron {count} resultado(s).",
-      "noResults": "Ninguna palabra coincide con tu búsqueda.",
-      "showAll": "Mostrar todos los resultados"
+      "noResults": "Ninguna palabra coincide con tu búsqueda."
     },
     "navigation": {
-      "vocabulary": "Vocabulario A1",
       "nouns": "Sustantivos",
       "verbs": "Verbos",
       "adjectives": "Adjetivos",

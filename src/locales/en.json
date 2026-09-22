@@ -7,11 +7,9 @@
     "search": {
       "placeholder": "Search German, English, or Spanish...",
       "resultsSummary": "Found {count} result(s).",
-      "noResults": "No words matched your search.",
-      "showAll": "Show all results"
+      "noResults": "No words matched your search."
     },
     "navigation": {
-      "vocabulary": "A1 Vocabulary",
       "nouns": "Nouns",
       "verbs": "Verbs",
       "adjectives": "Adjectives",

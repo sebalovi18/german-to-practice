@@ -1,13 +1,17 @@
 <script setup lang="ts">
+import { adjectives } from '@/data/adjectives'
+import { verbs } from '@/data/verbs'
 import { vocabulary } from '@/data/vocabulary'
 
 import { computed, ref } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { useRouter } from 'vue-router'
 
-import {
-  BookOpen, ChartNoAxesColumn, Dumbbell, List
-} from '@lucide/vue'
+import { ChartNoAxesColumn, Dumbbell, List } from '@lucide/vue'
+
+import type { GermanAdjective } from '@/interfaces/GermanAdjectives'
+import type { GermanVerb } from '@/interfaces/GermanVerbs'
+import type { VocabularyEntry } from '@/interfaces/VocabularyEntry'
 
 const router = useRouter()
 const {
@@ -15,11 +19,6 @@ const {
 } = useI18n()
 
 const columns = computed(() => [
-  {
-    label: t('home.navigation.vocabulary'),
-    icon: BookOpen,
-    path: '/vocabulary'
-  },
   {
     label: t('home.navigation.dashboard'),
     icon: ChartNoAxesColumn,
@@ -47,22 +46,123 @@ const columns = computed(() => [
   }
 ])
 
+const tableClass = 'w-full border border-gray-300 text-[10px] sm:text-xs'
+const thClass = 'border border-gray-300 p-2 capitalize text-left uppercase py-4 bg-gray-900 font-bold text-[10px] sm:text-xs'
+const tdClass = 'border border-gray-300 p-2 capitalize text-left font-light text-[10px] sm:text-xs'
+
 const globalSearch = ref('')
-
 const normalizedSearch = computed(() => normalize(globalSearch.value))
-const filteredVocabulary = computed(() => {
-  if (!normalizedSearch.value) return []
 
-  return vocabulary.filter((entry) =>
-    normalize(
-      [entry.german, entry.forms, entry.translations.en, entry.translations.es, entry.example].join(
-        ' '
-      )
-    ).includes(normalizedSearch.value)
-  )
+const verbsByInfinitive = new Map<string, GermanVerb>()
+
+verbs.forEach((verb) => {
+  verbsByInfinitive.set(normalizeGermanWord(verb.id), verb)
+  verbsByInfinitive.set(normalizeGermanWord(verb.infinitive), verb)
 })
 
-const visibleResults = computed(() => filteredVocabulary.value.slice(0, 50))
+const adjectivesByValue = new Map<string, GermanAdjective>()
+
+adjectives.forEach((adjective) => {
+  adjectivesByValue.set(normalizeGermanWord(adjective.id), adjective)
+  adjectivesByValue.set(normalizeGermanWord(adjective.adjective), adjective)
+})
+
+type VerbResult = {
+  entry: VocabularyEntry
+  details: GermanVerb | null
+}
+
+type AdjectiveResult = {
+  entry: VocabularyEntry
+  details: GermanAdjective | null
+}
+
+type NounResult = {
+  entry: VocabularyEntry
+  article: string
+  singular: string
+  plural: string
+}
+
+const filteredVerbs = computed<VerbResult[]>(() => {
+  if (!normalizedSearch.value) return []
+
+  return vocabulary
+    .filter(entry => ['Verbo', 'Verbo modal'].includes(entry.kind))
+    .map(entry => ({
+      entry,
+      details: verbsByInfinitive.get(normalizeGermanWord(entry.german)) ?? null
+    }))
+    .filter(result => matchesSearch(result.entry, [
+      result.details?.infinitive,
+      result.details?.preteritum,
+      result.details?.perfekt
+    ]))
+})
+
+const filteredAdjectives = computed<AdjectiveResult[]>(() => {
+  if (!normalizedSearch.value) return []
+
+  return vocabulary
+    .filter(entry => entry.kind === 'Adjetivo')
+    .map(entry => ({
+      entry,
+      details: adjectivesByValue.get(normalizeGermanWord(entry.german)) ?? null
+    }))
+    .filter(result => matchesSearch(result.entry, [
+      result.details?.comparative,
+      result.details?.superlative
+    ]))
+})
+
+const filteredNouns = computed<NounResult[]>(() => {
+  if (!normalizedSearch.value) return []
+
+  return vocabulary
+    .filter(entry => entry.kind === 'Sustantivo')
+    .map(entry => {
+      const nounMatch = entry.german.match(/^(der|die|das)\s+(.+)$/i)
+
+      return {
+        entry,
+        article: nounMatch?.[1] ?? '—',
+        singular: nounMatch?.[2] ?? entry.german,
+        plural: formatPlural(entry.forms)
+      }
+    })
+    .filter(result => matchesSearch(result.entry, [
+      result.article,
+      result.singular,
+      result.plural
+    ]))
+})
+
+const totalResults = computed(() => (
+  filteredVerbs.value.length
+  + filteredAdjectives.value.length
+  + filteredNouns.value.length
+))
+
+function matchesSearch (entry: VocabularyEntry, additionalValues: unknown[] = []): boolean {
+  return normalize([
+    entry.german,
+    entry.forms,
+    entry.translations.en,
+    entry.translations.es,
+    entry.example,
+    ...additionalValues
+  ].join(' ')).includes(normalizedSearch.value)
+}
+
+function formatPlural (forms: string | null): string {
+  if (!forms || /^(—|solo singular)/i.test(forms)) return '—'
+
+  return forms
+}
+
+function normalizeGermanWord (value: string): string {
+  return normalize(value.replaceAll('|', ''))
+}
 
 function normalize (value: string): string {
   return value
@@ -79,7 +179,7 @@ function normalize (value: string): string {
   >
     <p>
       🇩🇪 German to Practice
-      <br />
+      <br>
       <span
         class="text-sm text-gray-300"
       >
@@ -92,7 +192,7 @@ function normalize (value: string): string {
       type="search"
       :placeholder="t('home.search.placeholder')"
       class="w-full p-2 border border-gray-300 rounded-md"
-    />
+    >
 
     <div
       v-if="!normalizedSearch"
@@ -109,85 +209,214 @@ function normalize (value: string): string {
           class="size-4 flex-none"
           aria-hidden="true"
         />
-        <span>{{ item.label }}</span>
+        <span>
+          {{ item.label }}
+        </span>
       </button>
     </div>
 
     <div
       v-else
-      class="space-y-3"
+      class="space-y-6"
     >
       <p
         class="text-sm text-gray-300"
       >
-        {{ t('home.search.resultsSummary', { count: filteredVocabulary.length }) }}
+        {{ t('home.search.resultsSummary', { count: totalResults }) }}
       </p>
 
       <p
-        v-if="!filteredVocabulary.length"
+        v-if="!totalResults"
         class="rounded-md border border-gray-300 p-4 text-sm text-gray-300"
       >
         {{ t('home.search.noResults') }}
       </p>
 
-      <div
-        v-else
-        class="overflow-x-auto"
+      <section
+        v-if="filteredVerbs.length"
+        class="space-y-2"
       >
-        <table
-          class="w-full border border-gray-300 text-xs"
+        <h2
+          class="font-bold"
         >
-          <thead>
-            <tr
-              class="bg-gray-900 uppercase"
-            >
-              <th
-                class="border border-gray-300 p-2 text-left"
+          {{ t('home.navigation.verbs') }} ({{ filteredVerbs.length }})
+        </h2>
+        <div
+          class="overflow-x-auto"
+        >
+          <table
+            :class="tableClass"
+          >
+            <thead>
+              <tr>
+                <th
+                  :class="thClass"
+                >{{ t('verbs.table.verb') }}</th>
+                <th
+                  :class="thClass"
+                >{{ t('verbs.table.infinitive') }}</th>
+                <th
+                  :class="thClass"
+                >{{ t('verbs.table.preteritum') }}</th>
+                <th
+                  :class="thClass"
+                >{{ t('verbs.table.perfekt') }}</th>
+                <th
+                  :class="thClass"
+                >🇪🇸</th>
+                <th
+                  :class="thClass"
+                >🇬🇧</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr
+                v-for="result in filteredVerbs"
+                :key="result.entry.id"
               >
-                {{ t('vocabulary.table.german') }}
-              </th>
-              <th
-                class="border border-gray-300 p-2 text-left"
-              >🇪🇸</th>
-              <th
-                class="border border-gray-300 p-2 text-left"
-              >🇬🇧</th>
-              <th
-                class="border border-gray-300 p-2 text-left"
-              >
-                {{ t('vocabulary.table.level') }}
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr
-              v-for="entry in visibleResults"
-              :key="entry.id"
-            >
-              <td
-                class="border border-gray-300 p-2 font-semibold"
-              >{{ entry.german }}</td>
-              <td
-                class="border border-gray-300 p-2"
-              >{{ entry.translations.es }}</td>
-              <td
-                class="border border-gray-300 p-2"
-              >{{ entry.translations.en }}</td>
-              <td
-                class="border border-gray-300 p-2"
-              >{{ entry.level }}</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+                <td
+                  :class="tdClass"
+                >{{ result.entry.german }}</td>
+                <td
+                  :class="tdClass"
+                >{{ result.details?.infinitive.replaceAll('|', '') ?? result.entry.german }}</td>
+                <td
+                  :class="tdClass"
+                >{{ result.details?.preteritum ?? '—' }}</td>
+                <td
+                  :class="tdClass"
+                >{{ result.details?.perfekt ?? '—' }}</td>
+                <td
+                  :class="tdClass"
+                >{{ result.entry.translations.es }}</td>
+                <td
+                  :class="tdClass"
+                >{{ result.entry.translations.en }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
 
-      <button
-        v-if="filteredVocabulary.length > visibleResults.length"
-        class="btn w-full"
-        @click="router.push({ path: '/vocabulary', query: { search: globalSearch } })"
+      <section
+        v-if="filteredAdjectives.length"
+        class="space-y-2"
       >
-        {{ t('home.search.showAll') }}
-      </button>
+        <h2
+          class="font-bold"
+        >
+          {{ t('home.navigation.adjectives') }} ({{ filteredAdjectives.length }})
+        </h2>
+        <div
+          class="overflow-x-auto"
+        >
+          <table
+            :class="tableClass"
+          >
+            <thead>
+              <tr>
+                <th
+                  :class="thClass"
+                >{{ t('adjectives.table.adjective') }}</th>
+                <th
+                  :class="thClass"
+                >{{ t('adjectives.table.comparative') }}</th>
+                <th
+                  :class="thClass"
+                >{{ t('adjectives.table.superlative') }}</th>
+                <th
+                  :class="thClass"
+                >🇪🇸</th>
+                <th
+                  :class="thClass"
+                >🇬🇧</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr
+                v-for="result in filteredAdjectives"
+                :key="result.entry.id"
+              >
+                <td
+                  :class="tdClass"
+                >{{ result.entry.german }}</td>
+                <td
+                  :class="tdClass"
+                >{{ result.details?.comparative ?? '—' }}</td>
+                <td
+                  :class="tdClass"
+                >{{ result.details?.superlative ?? '—' }}</td>
+                <td
+                  :class="tdClass"
+                >{{ result.entry.translations.es }}</td>
+                <td
+                  :class="tdClass"
+                >{{ result.entry.translations.en }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section
+        v-if="filteredNouns.length"
+        class="space-y-2"
+      >
+        <h2
+          class="font-bold"
+        >
+          {{ t('home.navigation.nouns') }} ({{ filteredNouns.length }})
+        </h2>
+        <div
+          class="overflow-x-auto"
+        >
+          <table
+            :class="tableClass"
+          >
+            <thead>
+              <tr>
+                <th
+                  :class="thClass"
+                >{{ t('nouns.table.article') }}</th>
+                <th
+                  :class="thClass"
+                >{{ t('nouns.table.singular') }}</th>
+                <th
+                  :class="thClass"
+                >{{ t('nouns.table.plural') }}</th>
+                <th
+                  :class="thClass"
+                >🇪🇸</th>
+                <th
+                  :class="thClass"
+                >🇬🇧</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr
+                v-for="result in filteredNouns"
+                :key="result.entry.id"
+              >
+                <td
+                  :class="tdClass"
+                >{{ result.article }}</td>
+                <td
+                  :class="tdClass"
+                >{{ result.singular }}</td>
+                <td
+                  :class="tdClass"
+                >{{ result.plural }}</td>
+                <td
+                  :class="tdClass"
+                >{{ result.entry.translations.es }}</td>
+                <td
+                  :class="tdClass"
+                >{{ result.entry.translations.en }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
     </div>
   </div>
 </template>
