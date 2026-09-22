@@ -1265,5 +1265,709 @@ export const verbs: GermanVerb[] = [
       en: 'change (transport)',
       es: 'hacer transbordo'
     }
+  },
+  {
+    id: 'leidtun',
+    type: 'verb',
+    infinitive: 'leid|tun',
+    preteritum: 'tat leid',
+    perfekt: 'leidgetan',
+    translations: {
+      en: 'feel / regret',
+      es: 'sentir / lamentar'
+    }
+  },
+  {
+    id: 'antworten',
+    type: 'verb',
+    infinitive: 'antworten',
+    preteritum: 'antwortete',
+    perfekt: 'geantwortet',
+    translations: {
+      en: 'reply',
+      es: 'responder'
+    }
+  },
+  {
+    id: 'danken',
+    type: 'verb',
+    infinitive: 'danken',
+    preteritum: 'dankte',
+    perfekt: 'gedankt',
+    translations: {
+      en: 'give thanks',
+      es: 'dar las gracias'
+    }
+  },
+  {
+    id: 'gehören',
+    type: 'verb',
+    infinitive: 'gehören',
+    preteritum: 'gehörte',
+    perfekt: 'gehört',
+    translations: {
+      en: 'belong',
+      es: 'pertenecer'
+    }
+  },
+  {
+    id: 'helfen',
+    type: 'verb',
+    infinitive: 'helfen',
+    preteritum: 'half',
+    perfekt: 'geholfen',
+    translations: {
+      en: 'help',
+      es: 'ayudar'
+    }
+  },
+  {
+    id: 'vermieten',
+    type: 'verb',
+    infinitive: 'vermieten',
+    preteritum: 'vermietete',
+    perfekt: 'vermietet',
+    translations: {
+      en: 'rent',
+      es: 'alquilar'
+    }
+  },
+  {
+    id: 'zahlen',
+    type: 'verb',
+    infinitive: 'zahlen',
+    preteritum: 'zahlte',
+    perfekt: 'gezahlt',
+    translations: {
+      en: 'pay',
+      es: 'pagar'
+    }
+  },
+  {
+    id: 'ausdrucken',
+    type: 'verb',
+    infinitive: 'aus|drucken',
+    preteritum: 'druckte aus',
+    perfekt: 'ausgedruckt',
+    translations: {
+      en: 'print',
+      es: 'imprimir'
+    }
+  },
+  {
+    id: 'ausfüllen',
+    type: 'verb',
+    infinitive: 'aus|füllen',
+    preteritum: 'füllte aus',
+    perfekt: 'ausgefüllt',
+    translations: {
+      en: 'fill',
+      es: 'rellenar'
+    }
+  },
+  {
+    id: 'müssen',
+    type: 'verb',
+    infinitive: 'müssen',
+    preteritum: 'musste',
+    perfekt: 'gemusst',
+    translations: {
+      en: 'have to / duty',
+      es: 'tener que / deber'
+    }
+  },
+  {
+    id: 'schicken',
+    type: 'verb',
+    infinitive: 'schicken',
+    preteritum: 'schickte',
+    perfekt: 'geschickt',
+    translations: {
+      en: 'send',
+      es: 'enviar'
+    }
+  },
+  {
+    id: 'unterschreiben',
+    type: 'verb',
+    infinitive: 'unterschreiben',
+    preteritum: 'unterschrieb',
+    perfekt: 'unterschrieben',
+    translations: {
+      en: 'sign',
+      es: 'firmar'
+    }
+  },
+  {
+    id: 'verstehen',
+    type: 'verb',
+    infinitive: 'verstehen',
+    preteritum: 'verstand',
+    perfekt: 'verstanden',
+    translations: {
+      en: 'understand',
+      es: 'entender'
+    }
+  },
+  {
+    id: 'dürfen',
+    type: 'verb',
+    infinitive: 'dürfen',
+    preteritum: 'durfte',
+    perfekt: 'gedurft',
+    translations: {
+      en: 'be able / have permission',
+      es: 'poder / tener permiso'
+    }
+  },
+  {
+    id: 'rauchen',
+    type: 'verb',
+    infinitive: 'rauchen',
+    preteritum: 'rauchte',
+    perfekt: 'geraucht',
+    translations: {
+      en: 'smoke',
+      es: 'fumar'
+    }
+  },
+  {
+    id: 'erlauben',
+    type: 'verb',
+    infinitive: 'erlauben',
+    preteritum: 'erlaubte',
+    perfekt: 'erlaubt',
+    translations: {
+      en: 'allow',
+      es: 'permitir'
+    }
+  },
+  {
+    id: 'aufpassen',
+    type: 'verb',
+    infinitive: 'auf|passen',
+    preteritum: 'passte auf',
+    perfekt: 'aufgepasst',
+    translations: {
+      en: 'pay attention / be careful',
+      es: 'prestar atención / tener cuidado'
+    }
+  },
+  {
+    id: 'grillen',
+    type: 'verb',
+    infinitive: 'grillen',
+    preteritum: 'grillte',
+    perfekt: 'gegrillt',
+    translations: {
+      en: 'make a barbecue',
+      es: 'hacer una barbacoa'
+    }
+  },
+  {
+    id: 'lachen',
+    type: 'verb',
+    infinitive: 'lachen',
+    preteritum: 'lachte',
+    perfekt: 'gelacht',
+    translations: {
+      en: 'laugh',
+      es: 'reír'
+    }
+  },
+  {
+    id: 'schließen',
+    type: 'verb',
+    infinitive: 'schließen',
+    preteritum: 'schloss',
+    perfekt: 'geschlossen',
+    translations: {
+      en: 'close',
+      es: 'cerrar'
+    }
+  },
+  {
+    id: 'tragen',
+    type: 'verb',
+    infinitive: 'tragen',
+    preteritum: 'trug',
+    perfekt: 'getragen',
+    translations: {
+      en: 'carry',
+      es: 'llevar'
+    }
+  },
+  {
+    id: 'baden',
+    type: 'verb',
+    infinitive: 'baden',
+    preteritum: 'badete',
+    perfekt: 'gebadet',
+    translations: {
+      en: 'bathe',
+      es: 'bañarse'
+    }
+  },
+  {
+    id: 'wandern',
+    type: 'verb',
+    infinitive: 'wandern',
+    preteritum: 'wanderte',
+    perfekt: 'gewandert',
+    translations: {
+      en: 'go hiking',
+      es: 'hacer senderismo'
+    }
+  },
+  {
+    id: 'beantragen',
+    type: 'verb',
+    infinitive: 'beantragen',
+    preteritum: 'beantragte',
+    perfekt: 'beantragt',
+    translations: {
+      en: 'request',
+      es: 'solicitar'
+    }
+  },
+  {
+    id: 'bewegen',
+    type: 'verb',
+    infinitive: 'bewegen',
+    preteritum: 'bewegte',
+    perfekt: 'bewegt',
+    translations: {
+      en: 'move',
+      es: 'mover'
+    }
+  },
+  {
+    id: 'zeigen',
+    type: 'verb',
+    infinitive: 'zeigen',
+    preteritum: 'zeigte',
+    perfekt: 'gezeigt',
+    translations: {
+      en: 'show',
+      es: 'mostrar'
+    }
+  },
+  {
+    id: 'anmachen',
+    type: 'verb',
+    infinitive: 'an|machen',
+    preteritum: 'machte an',
+    perfekt: 'angemacht',
+    translations: {
+      en: 'turn on',
+      es: 'encender'
+    }
+  },
+  {
+    id: 'ausmachen',
+    type: 'verb',
+    infinitive: 'aus|machen',
+    preteritum: 'machte aus',
+    perfekt: 'ausgemacht',
+    translations: {
+      en: 'turn off',
+      es: 'apagar'
+    }
+  },
+  {
+    id: 'holen',
+    type: 'verb',
+    infinitive: 'holen',
+    preteritum: 'holte',
+    perfekt: 'geholt',
+    translations: {
+      en: 'fetch / fetch',
+      es: 'ir a buscar / traer'
+    }
+  },
+  {
+    id: 'öffnen',
+    type: 'verb',
+    infinitive: 'öffnen',
+    preteritum: 'öffnete',
+    perfekt: 'geöffnet',
+    translations: {
+      en: 'open',
+      es: 'abrir'
+    }
+  },
+  {
+    id: 'wehtun',
+    type: 'verb',
+    infinitive: 'weh|tun',
+    preteritum: 'tat weh',
+    perfekt: 'wehgetan',
+    translations: {
+      en: 'hurt',
+      es: 'doler'
+    }
+  },
+  {
+    id: 'wünschen',
+    type: 'verb',
+    infinitive: 'wünschen',
+    preteritum: 'wünschte',
+    perfekt: 'gewünscht',
+    translations: {
+      en: 'wish',
+      es: 'desear'
+    }
+  },
+  {
+    id: 'halten',
+    type: 'verb',
+    infinitive: 'halten',
+    preteritum: 'hielt',
+    perfekt: 'gehalten',
+    translations: {
+      en: 'keep / sustain',
+      es: 'mantener / sostener'
+    }
+  },
+  {
+    id: 'sollen',
+    type: 'verb',
+    infinitive: 'sollen',
+    preteritum: 'sollte',
+    perfekt: 'gesollt',
+    translations: {
+      en: 'duty',
+      es: 'deber'
+    }
+  },
+  {
+    id: 'kühlen',
+    type: 'verb',
+    infinitive: 'kühlen',
+    preteritum: 'kühlte',
+    perfekt: 'gekühlt',
+    translations: {
+      en: 'cool',
+      es: 'enfriar'
+    }
+  },
+  {
+    id: 'sitzen',
+    type: 'verb',
+    infinitive: 'sitzen',
+    preteritum: 'saß',
+    perfekt: 'gesessen',
+    translations: {
+      en: 'be sitting',
+      es: 'estar sentado/a'
+    }
+  },
+  {
+    id: 'drücken',
+    type: 'verb',
+    infinitive: 'drücken',
+    preteritum: 'drückte',
+    perfekt: 'gedrückt',
+    translations: {
+      en: 'press',
+      es: 'presionar'
+    }
+  },
+  {
+    id: 'liegen',
+    type: 'verb',
+    infinitive: 'liegen',
+    preteritum: 'lag',
+    perfekt: 'gelegen',
+    translations: {
+      en: 'be lying down',
+      es: 'estar tumbado/a'
+    }
+  },
+  {
+    id: 'stören',
+    type: 'verb',
+    infinitive: 'stören',
+    preteritum: 'störte',
+    perfekt: 'gestört',
+    translations: {
+      en: 'bother',
+      es: 'molestar'
+    }
+  },
+  {
+    id: 'krankschreiben',
+    type: 'verb',
+    infinitive: 'krank|schreiben',
+    preteritum: 'schrieb krank',
+    perfekt: 'krankgeschrieben',
+    translations: {
+      en: 'give medical leave',
+      es: 'dar la baja médica'
+    }
+  },
+  {
+    id: 'informieren',
+    type: 'verb',
+    infinitive: 'informieren',
+    preteritum: 'informierte',
+    perfekt: 'informiert',
+    translations: {
+      en: 'inform',
+      es: 'informar'
+    }
+  },
+  {
+    id: 'anziehen',
+    type: 'verb',
+    infinitive: 'an|ziehen',
+    preteritum: 'zog an',
+    perfekt: 'angezogen',
+    translations: {
+      en: 'put on/dress',
+      es: 'ponerse / vestir'
+    }
+  },
+  {
+    id: 'beginnen',
+    type: 'verb',
+    infinitive: 'beginnen',
+    preteritum: 'begann',
+    perfekt: 'begonnen',
+    translations: {
+      en: 'start',
+      es: 'comenzar'
+    }
+  },
+  {
+    id: 'bitten',
+    type: 'verb',
+    infinitive: 'bitten',
+    preteritum: 'bat',
+    perfekt: 'gebeten',
+    translations: {
+      en: 'ask / beg',
+      es: 'pedir / rogar'
+    }
+  },
+  {
+    id: 'mitkommen',
+    type: 'verb',
+    infinitive: 'mit|kommen',
+    preteritum: 'kam mit',
+    perfekt: 'mitgekommen',
+    translations: {
+      en: 'come with someone',
+      es: 'venir con alguien'
+    }
+  },
+  {
+    id: 'aussehen',
+    type: 'verb',
+    infinitive: 'aus|sehen',
+    preteritum: 'sah aus',
+    perfekt: 'ausgesehen',
+    translations: {
+      en: 'seem / have appearance',
+      es: 'parecer / tener aspecto'
+    }
+  },
+  {
+    id: 'ausgeben',
+    type: 'verb',
+    infinitive: 'aus|geben',
+    preteritum: 'gab aus',
+    perfekt: 'ausgegeben',
+    translations: {
+      en: 'spend',
+      es: 'gastar'
+    }
+  },
+  {
+    id: 'warten',
+    type: 'verb',
+    infinitive: 'warten',
+    preteritum: 'wartete',
+    perfekt: 'gewartet',
+    translations: {
+      en: 'wait',
+      es: 'esperar'
+    }
+  },
+  {
+    id: 'meinen',
+    type: 'verb',
+    infinitive: 'meinen',
+    preteritum: 'meinte',
+    perfekt: 'gemeint',
+    translations: {
+      en: 'opine / want to say',
+      es: 'opinar / querer decir'
+    }
+  },
+  {
+    id: 'ausfallen',
+    type: 'verb',
+    infinitive: 'aus|fallen',
+    preteritum: 'fiel aus',
+    perfekt: 'ausgefallen',
+    translations: {
+      en: 'cancel',
+      es: 'cancelarse'
+    }
+  },
+  {
+    id: 'hoffen',
+    type: 'verb',
+    infinitive: 'hoffen',
+    preteritum: 'hoffte',
+    perfekt: 'gehofft',
+    translations: {
+      en: 'wait/hope',
+      es: 'esperar / tener esperanza'
+    }
+  },
+  {
+    id: 'eingeben',
+    type: 'verb',
+    infinitive: 'ein|geben',
+    preteritum: 'gab ein',
+    perfekt: 'eingegeben',
+    translations: {
+      en: 'introduce',
+      es: 'introducir'
+    }
+  },
+  {
+    id: 'versprechen',
+    type: 'verb',
+    infinitive: 'versprechen',
+    preteritum: 'versprach',
+    perfekt: 'versprochen',
+    translations: {
+      en: 'promise',
+      es: 'prometer'
+    }
+  },
+  {
+    id: 'buchen',
+    type: 'verb',
+    infinitive: 'buchen',
+    preteritum: 'buchte',
+    perfekt: 'gebucht',
+    translations: {
+      en: 'reserve',
+      es: 'reservar'
+    }
+  },
+  {
+    id: 'herunterladen',
+    type: 'verb',
+    infinitive: 'herunter|laden',
+    preteritum: 'lud herunter',
+    perfekt: 'heruntergeladen',
+    translations: {
+      en: 'download',
+      es: 'descargar'
+    }
+  },
+  {
+    id: 'installieren',
+    type: 'verb',
+    infinitive: 'installieren',
+    preteritum: 'installierte',
+    perfekt: 'installiert',
+    translations: {
+      en: 'install',
+      es: 'instalar'
+    }
+  },
+  {
+    id: 'speichern',
+    type: 'verb',
+    infinitive: 'speichern',
+    preteritum: 'speicherte',
+    perfekt: 'gespeichert',
+    translations: {
+      en: 'save',
+      es: 'guardar'
+    }
+  },
+  {
+    id: 'schneiden',
+    type: 'verb',
+    infinitive: 'schneiden',
+    preteritum: 'schnitt',
+    perfekt: 'geschnitten',
+    translations: {
+      en: 'cut',
+      es: 'cortar'
+    }
+  },
+  {
+    id: 'feiern',
+    type: 'verb',
+    infinitive: 'feiern',
+    preteritum: 'feierte',
+    perfekt: 'gefeiert',
+    translations: {
+      en: 'celebrate',
+      es: 'celebrar'
+    }
+  },
+  {
+    id: 'benutzen',
+    type: 'verb',
+    infinitive: 'benutzen',
+    preteritum: 'benutzte',
+    perfekt: 'benutzt',
+    translations: {
+      en: 'use',
+      es: 'usar'
+    }
+  },
+  {
+    id: 'passen',
+    type: 'verb',
+    infinitive: 'passen',
+    preteritum: 'passte',
+    perfekt: 'gepasst',
+    translations: {
+      en: 'fit/be suitable',
+      es: 'encajar / ser adecuado'
+    }
+  },
+  {
+    id: 'schmecken',
+    type: 'verb',
+    infinitive: 'schmecken',
+    preteritum: 'schmeckte',
+    perfekt: 'geschmeckt',
+    translations: {
+      en: 'know/have taste',
+      es: 'saber / tener sabor'
+    }
+  },
+  {
+    id: 'reden',
+    type: 'verb',
+    infinitive: 'reden',
+    preteritum: 'redete',
+    perfekt: 'geredet',
+    translations: {
+      en: 'talk',
+      es: 'hablar'
+    }
+  },
+  {
+    id: 'bedeuten',
+    type: 'verb',
+    infinitive: 'bedeuten',
+    preteritum: 'bedeutete',
+    perfekt: 'bedeutet',
+    translations: {
+      en: 'mean',
+      es: 'significar'
+    }
   }
 ]
