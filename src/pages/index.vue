@@ -121,7 +121,7 @@ const filteredNouns = computed<NounResult[]>(() => {
   return vocabulary
     .filter(entry => entry.kind === 'Sustantivo')
     .map(entry => {
-      const nounMatch = entry.german.match(/^(der|die|das)\s+(.+)$/i)
+      const nounMatch = entry.german.match(/^(der\/die|der|die|das)\s+(.+)$/i)
 
       return {
         entry,

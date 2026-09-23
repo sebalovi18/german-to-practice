@@ -16,7 +16,7 @@ const selectedLevel = ref('')
 const selectedKind = ref('')
 const currentPage = ref(1)
 
-const levels = ['A1.1', 'A1.2']
+const levels = [...new Set(vocabulary.map(entry => entry.level))]
 const kinds = [...new Set(vocabulary.map((entry) => entry.kind))].sort((a, b) =>
   a.localeCompare(b, 'es')
 )

@@ -1969,5 +1969,445 @@ export const verbs: GermanVerb[] = [
       en: 'mean',
       es: 'significar'
     }
+  },
+  {
+    id: 'einpacken',
+    type: 'verb',
+    infinitive: 'ein|packen',
+    preteritum: 'packte ein',
+    perfekt: 'eingepackt',
+    translations: {
+      en: 'pack',
+      es: 'empacar / guardar'
+    }
+  },
+  {
+    id: 'passieren',
+    type: 'verb',
+    infinitive: 'passieren',
+    preteritum: 'passierte',
+    perfekt: 'passiert',
+    translations: {
+      en: 'happen',
+      es: 'pasar / suceder'
+    }
+  },
+  {
+    id: 'kriegen',
+    type: 'verb',
+    infinitive: 'kriegen',
+    preteritum: 'kriegte',
+    perfekt: 'gekriegt',
+    translations: {
+      en: 'get / receive',
+      es: 'recibir / conseguir'
+    }
+  },
+  {
+    id: 'mieten',
+    type: 'verb',
+    infinitive: 'mieten',
+    preteritum: 'mietete',
+    perfekt: 'gemietet',
+    translations: {
+      en: 'rent',
+      es: 'alquilar'
+    }
+  },
+  {
+    id: 'kennenlernen',
+    type: 'verb',
+    infinitive: 'kennen|lernen',
+    preteritum: 'lernte kennen',
+    perfekt: 'kennengelernt',
+    translations: {
+      en: 'meet / get to know',
+      es: 'conocer'
+    }
+  },
+  {
+    id: 'erleben',
+    type: 'verb',
+    infinitive: 'erleben',
+    preteritum: 'erlebte',
+    perfekt: 'erlebt',
+    translations: {
+      en: 'experience',
+      es: 'vivir / experimentar'
+    }
+  },
+  {
+    id: 'weggehen',
+    type: 'verb',
+    infinitive: 'weg|gehen',
+    preteritum: 'ging weg',
+    perfekt: 'weggegangen',
+    translations: {
+      en: 'leave / go away',
+      es: 'irse / marcharse'
+    }
+  },
+  {
+    id: 'verbieten',
+    type: 'verb',
+    infinitive: 'verbieten',
+    preteritum: 'verbot',
+    perfekt: 'verboten',
+    translations: {
+      en: 'forbid / prohibit',
+      es: 'prohibir'
+    }
+  },
+  {
+    id: 'verpassen',
+    type: 'verb',
+    infinitive: 'verpassen',
+    preteritum: 'verpasste',
+    perfekt: 'verpasst',
+    translations: {
+      en: 'miss',
+      es: 'perder'
+    }
+  },
+  {
+    id: 'vermissen',
+    type: 'verb',
+    infinitive: 'vermissen',
+    preteritum: 'vermisste',
+    perfekt: 'vermisst',
+    translations: {
+      en: 'miss',
+      es: 'extrañar / echar de menos'
+    }
+  },
+  {
+    id: 'beenden',
+    type: 'verb',
+    infinitive: 'beenden',
+    preteritum: 'beendete',
+    perfekt: 'beendet',
+    translations: {
+      en: 'finish / end',
+      es: 'terminar / finalizar'
+    }
+  },
+  {
+    id: 'verschieben',
+    type: 'verb',
+    infinitive: 'verschieben',
+    preteritum: 'verschob',
+    perfekt: 'verschoben',
+    translations: {
+      en: 'postpone / move',
+      es: 'posponer / aplazar'
+    }
+  },
+  {
+    id: 'schaffen',
+    type: 'verb',
+    infinitive: 'schaffen',
+    preteritum: 'schaffte',
+    perfekt: 'geschafft',
+    translations: {
+      en: 'manage / accomplish',
+      es: 'lograr / conseguir'
+    }
+  },
+  {
+    id: 'schenken',
+    type: 'verb',
+    infinitive: 'schenken',
+    preteritum: 'schenkte',
+    perfekt: 'geschenkt',
+    translations: {
+      en: 'give as a gift',
+      es: 'regalar'
+    }
+  },
+  {
+    id: 'loben',
+    type: 'verb',
+    infinitive: 'loben',
+    preteritum: 'lobte',
+    perfekt: 'gelobt',
+    translations: {
+      en: 'praise / compliment',
+      es: 'elogiar / felicitar'
+    }
+  },
+  {
+    id: 'ablehnen',
+    type: 'verb',
+    infinitive: 'ab|lehnen',
+    preteritum: 'lehnte ab',
+    perfekt: 'abgelehnt',
+    translations: {
+      en: 'decline / reject',
+      es: 'rechazar'
+    }
+  },
+  {
+    id: 'weinen',
+    type: 'verb',
+    infinitive: 'weinen',
+    preteritum: 'weinte',
+    perfekt: 'geweint',
+    translations: {
+      en: 'cry',
+      es: 'llorar'
+    }
+  },
+  {
+    id: 'überraschen',
+    type: 'verb',
+    infinitive: 'überraschen',
+    preteritum: 'überraschte',
+    perfekt: 'überrascht',
+    translations: {
+      en: 'surprise',
+      es: 'sorprender'
+    }
+  },
+  {
+    id: 'reinkommen',
+    type: 'verb',
+    infinitive: 'rein|kommen',
+    preteritum: 'kam rein',
+    perfekt: 'reingekommen',
+    translations: {
+      en: 'come in',
+      es: 'entrar'
+    }
+  },
+  {
+    id: 'riechen',
+    type: 'verb',
+    infinitive: 'riechen',
+    preteritum: 'roch',
+    perfekt: 'gerochen',
+    translations: {
+      en: 'smell',
+      es: 'oler'
+    }
+  },
+  {
+    id: 'klettern',
+    type: 'verb',
+    infinitive: 'klettern',
+    preteritum: 'kletterte',
+    perfekt: 'geklettert',
+    translations: {
+      en: 'climb',
+      es: 'escalar / trepar'
+    }
+  },
+  {
+    id: 'vorschlagen',
+    type: 'verb',
+    infinitive: 'vor|schlagen',
+    preteritum: 'schlug vor',
+    perfekt: 'vorgeschlagen',
+    translations: {
+      en: 'suggest / propose',
+      es: 'proponer / sugerir'
+    }
+  },
+  {
+    id: 'zustimmen',
+    type: 'verb',
+    infinitive: 'zu|stimmen',
+    preteritum: 'stimmte zu',
+    perfekt: 'zugestimmt',
+    translations: {
+      en: 'agree / consent',
+      es: 'estar de acuerdo / aceptar'
+    }
+  },
+  {
+    id: 'springen',
+    type: 'verb',
+    infinitive: 'springen',
+    preteritum: 'sprang',
+    perfekt: 'gesprungen',
+    translations: {
+      en: 'jump',
+      es: 'saltar'
+    }
+  },
+  {
+    id: 'basteln',
+    type: 'verb',
+    infinitive: 'basteln',
+    preteritum: 'bastelte',
+    perfekt: 'gebastelt',
+    translations: {
+      en: 'do crafts / make things',
+      es: 'hacer manualidades'
+    }
+  },
+  {
+    id: 'abwaschen',
+    type: 'verb',
+    infinitive: 'ab|waschen',
+    preteritum: 'wusch ab',
+    perfekt: 'abgewaschen',
+    translations: {
+      en: 'wash up / do the dishes',
+      es: 'lavar los platos'
+    }
+  },
+  {
+    id: 'herausfinden',
+    type: 'verb',
+    infinitive: 'heraus|finden',
+    preteritum: 'fand heraus',
+    perfekt: 'herausgefunden',
+    translations: {
+      en: 'find out',
+      es: 'averiguar / descubrir'
+    }
+  },
+  {
+    id: 'rausfinden',
+    type: 'verb',
+    infinitive: 'raus|finden',
+    preteritum: 'fand raus',
+    perfekt: 'rausgefunden',
+    translations: {
+      en: 'find out',
+      es: 'averiguar / descubrir'
+    }
+  },
+  {
+    id: 'kämpfen',
+    type: 'verb',
+    infinitive: 'kämpfen',
+    preteritum: 'kämpfte',
+    perfekt: 'gekämpft',
+    translations: {
+      en: 'fight / compete',
+      es: 'luchar / competir'
+    }
+  },
+  {
+    id: 'werfen',
+    type: 'verb',
+    infinitive: 'werfen',
+    preteritum: 'warf',
+    perfekt: 'geworfen',
+    translations: {
+      en: 'throw',
+      es: 'lanzar / tirar'
+    }
+  },
+  {
+    id: 'interessieren',
+    type: 'verb',
+    infinitive: 'sich interessieren',
+    preteritum: 'interessierte sich',
+    perfekt: 'interessiert',
+    translations: {
+      en: 'be interested',
+      es: 'interesarse'
+    }
+  },
+  {
+    id: 'vorstellen',
+    type: 'verb',
+    infinitive: 'sich vor|stellen',
+    preteritum: 'stellte sich vor',
+    perfekt: 'vorgestellt',
+    translations: {
+      en: 'introduce oneself',
+      es: 'presentarse'
+    }
+  },
+  {
+    id: 'dauern',
+    type: 'verb',
+    infinitive: 'dauern',
+    preteritum: 'dauerte',
+    perfekt: 'gedauert',
+    translations: {
+      en: 'last / take',
+      es: 'durar'
+    }
+  },
+  {
+    id: 'gründen',
+    type: 'verb',
+    infinitive: 'gründen',
+    preteritum: 'gründete',
+    perfekt: 'gegründet',
+    translations: {
+      en: 'found / establish',
+      es: 'fundar / crear'
+    }
+  },
+  {
+    id: 'weiterhelfen',
+    type: 'verb',
+    infinitive: 'weiter|helfen',
+    preteritum: 'half weiter',
+    perfekt: 'weitergeholfen',
+    translations: {
+      en: 'help further / assist',
+      es: 'ayudar / orientar'
+    }
+  },
+  {
+    id: 'ändern',
+    type: 'verb',
+    infinitive: 'sich ändern',
+    preteritum: 'änderte sich',
+    perfekt: 'geändert',
+    translations: {
+      en: 'change',
+      es: 'cambiar'
+    }
+  },
+  {
+    id: 'üben',
+    type: 'verb',
+    infinitive: 'üben',
+    preteritum: 'übte',
+    perfekt: 'geübt',
+    translations: {
+      en: 'practise',
+      es: 'practicar'
+    }
+  },
+  {
+    id: 'nachschauen',
+    type: 'verb',
+    infinitive: 'nach|schauen',
+    preteritum: 'schaute nach',
+    perfekt: 'nachgeschaut',
+    translations: {
+      en: 'look up / check',
+      es: 'consultar / buscar'
+    }
+  },
+  {
+    id: 'planen',
+    type: 'verb',
+    infinitive: 'planen',
+    preteritum: 'plante',
+    perfekt: 'geplant',
+    translations: {
+      en: 'plan',
+      es: 'planificar'
+    }
+  },
+  {
+    id: 'bewerten',
+    type: 'verb',
+    infinitive: 'bewerten',
+    preteritum: 'bewertete',
+    perfekt: 'bewertet',
+    translations: {
+      en: 'rate / evaluate',
+      es: 'valorar / evaluar'
+    }
   }
 ]
