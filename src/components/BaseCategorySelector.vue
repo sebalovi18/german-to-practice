@@ -101,67 +101,7 @@ function startPractice () {
     </header>
 
     <div
-      class="grid gap-2 sm:grid-cols-2 lg:grid-cols-3"
-    >
-      <button
-        type="button"
-        class="flex items-center justify-between gap-3 rounded-md border p-3 text-left transition-colors"
-        :class="areAllCategoriesSelected ? 'border-foreground bg-foreground/10' : 'border-gray-500 hover:bg-foreground/5'"
-        @click="toggleAllCategories"
-      >
-        <span
-          class="flex items-center gap-2 font-semibold"
-        >
-          <span
-            class="flex size-5 items-center justify-center rounded border border-current"
-          >
-            <Check
-              v-if="areAllCategoriesSelected"
-              class="size-4"
-              aria-hidden="true"
-            />
-          </span>
-          {{ t('practice.categories.all') }}
-        </span>
-        <span
-          class="text-sm tabular-nums text-gray-300"
-        >
-          {{ items.length }}
-        </span>
-      </button>
-
-      <button
-        v-for="category in categoryOptions"
-        :key="category.id"
-        type="button"
-        class="flex items-center justify-between gap-3 rounded-md border p-3 text-left transition-colors"
-        :class="selectedCategories.includes(category.id) ? 'border-foreground bg-foreground/10' : 'border-gray-500 hover:bg-foreground/5'"
-        @click="toggleCategory(category.id)"
-      >
-        <span
-          class="flex items-center gap-2"
-        >
-          <span
-            class="flex size-5 items-center justify-center rounded border border-current"
-          >
-            <Check
-              v-if="selectedCategories.includes(category.id)"
-              class="size-4"
-              aria-hidden="true"
-            />
-          </span>
-          {{ category.label }}
-        </span>
-        <span
-          class="text-sm tabular-nums text-gray-300"
-        >
-          {{ category.count }}
-        </span>
-      </button>
-    </div>
-
-    <div
-      class="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between"
+      class="sticky top-0 z-10 flex flex-col gap-2 border-y border-gray-500 bg-foreground/95 py-3 backdrop-blur sm:flex-row sm:items-center sm:justify-between"
     >
       <button
         type="button"
@@ -191,5 +131,66 @@ function startPractice () {
         </p>
       </div>
     </div>
+
+    <div
+      class="grid gap-2 pb-4 sm:grid-cols-2 lg:grid-cols-3"
+    >
+      <button
+        type="button"
+        class="flex items-center justify-between gap-3 rounded-md border p-3 text-left transition-colors"
+        :class="areAllCategoriesSelected ? 'border-blue-400 bg-blue-400/10 ring-1 ring-blue-400' : 'border-gray-500 hover:border-gray-300 hover:bg-foreground/5'"
+        @click="toggleAllCategories"
+      >
+        <span
+          class="flex items-center gap-2 font-semibold"
+        >
+          <span
+            class="flex size-5 items-center justify-center rounded border border-current"
+          >
+            <Check
+              v-if="areAllCategoriesSelected"
+              class="size-4"
+              aria-hidden="true"
+            />
+          </span>
+          {{ t('practice.categories.all') }}
+        </span>
+        <span
+          class="text-sm tabular-nums text-gray-300"
+        >
+          {{ items.length }}
+        </span>
+      </button>
+
+      <button
+        v-for="category in categoryOptions"
+        :key="category.id"
+        type="button"
+        class="flex items-center justify-between gap-3 rounded-md border p-3 text-left transition-colors"
+        :class="selectedCategories.includes(category.id) ? 'border-blue-400 bg-blue-400/10 ring-1 ring-blue-400' : 'border-gray-500 hover:border-gray-300 hover:bg-foreground/5'"
+        @click="toggleCategory(category.id)"
+      >
+        <span
+          class="flex items-center gap-2"
+        >
+          <span
+            class="flex size-5 items-center justify-center rounded border border-current"
+          >
+            <Check
+              v-if="selectedCategories.includes(category.id)"
+              class="size-4"
+              aria-hidden="true"
+            />
+          </span>
+          {{ category.label }}
+        </span>
+        <span
+          class="text-sm tabular-nums text-gray-300"
+        >
+          {{ category.count }}
+        </span>
+      </button>
+    </div>
+
   </section>
 </template>
