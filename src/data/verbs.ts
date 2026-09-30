@@ -1,3 +1,5 @@
+import { CATEGORIES } from '@/data/categories'
+
 import type { GermanVerb } from '@/interfaces/GermanVerbs'
 
 export const verbs: GermanVerb[] = [
@@ -10,7 +12,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'pick up',
       es: 'recoger'
-    }
+    },
+    categories: [CATEGORIES.LOCATIONS, CATEGORIES.TRANSPORTATION, CATEGORIES.TRAVEL]
   },
   {
     id: 'anrufen',
@@ -21,7 +24,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'call',
       es: 'llamar por teléfono'
-    }
+    },
+    categories: [CATEGORIES.COMMUNICATION, CATEGORIES.TECHNOLOGY]
   },
   {
     id: 'arbeiten',
@@ -32,7 +36,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'work',
       es: 'trabajar'
-    }
+    },
+    categories: [CATEGORIES.PEOPLE, CATEGORIES.PERSONAL_INFO, CATEGORIES.PROFESSIONS, CATEGORIES.WORK]
   },
   {
     id: 'aufräumen',
@@ -43,7 +48,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'tidy up',
       es: 'ordenar'
-    }
+    },
+    categories: [CATEGORIES.HOUSEHOLD]
   },
   {
     id: 'aufstehen',
@@ -54,7 +60,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'get up',
       es: 'levantarse'
-    }
+    },
+    categories: [CATEGORIES.HOUSEHOLD, CATEGORIES.TIME]
   },
   {
     id: 'backen',
@@ -65,7 +72,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'bake',
       es: 'hornear'
-    }
+    },
+    categories: [CATEGORIES.FOOD, CATEGORIES.KITCHEN]
   },
   {
     id: 'bleiben',
@@ -76,7 +84,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'stay',
       es: 'quedarse'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT, CATEGORIES.HOUSEHOLD, CATEGORIES.LOCATIONS]
   },
   {
     id: 'brauchen',
@@ -87,7 +96,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'need',
       es: 'necesitar'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT]
   },
   {
     id: 'buchstabieren',
@@ -98,7 +108,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'spell',
       es: 'deletrear'
-    }
+    },
+    categories: [CATEGORIES.COMMUNICATION, CATEGORIES.EDUCATION, CATEGORIES.LANGUAGE]
   },
   {
     id: 'denken',
@@ -109,7 +120,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'think',
       es: 'pensar'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT, CATEGORIES.EMOTIONS]
   },
   {
     id: 'duschen',
@@ -120,7 +132,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'shower',
       es: 'ducharse'
-    }
+    },
+    categories: [CATEGORIES.BODY, CATEGORIES.HEALTH, CATEGORIES.HOUSEHOLD]
   },
   {
     id: 'einkaufen',
@@ -131,7 +144,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'go shopping',
       es: 'ir de compras'
-    }
+    },
+    categories: [CATEGORIES.FOOD, CATEGORIES.MONEY, CATEGORIES.SHOPPING]
   },
   {
     id: 'essen',
@@ -142,7 +156,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'eat',
       es: 'comer'
-    }
+    },
+    categories: [CATEGORIES.BODY, CATEGORIES.FOOD, CATEGORIES.HEALTH, CATEGORIES.KITCHEN]
   },
   {
     id: 'fahren',
@@ -153,7 +168,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'go by vehicle',
       es: 'ir en vehículo'
-    }
+    },
+    categories: [CATEGORIES.TRANSPORTATION, CATEGORIES.TRAVEL]
   },
   {
     id: 'fehlen',
@@ -164,7 +180,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'be missing',
       es: 'faltar'
-    }
+    },
+    categories: [CATEGORIES.HEALTH, CATEGORIES.PROFESSIONS, CATEGORIES.WORK]
   },
   {
     id: 'fernsehen',
@@ -175,7 +192,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'watch TV',
       es: 'ver la TV'
-    }
+    },
+    categories: [CATEGORIES.HOUSEHOLD, CATEGORIES.LEISURE, CATEGORIES.TECHNOLOGY]
   },
   {
     id: 'finden',
@@ -186,7 +204,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'find',
       es: 'encontrar'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT]
   },
   {
     id: 'fotografieren',
@@ -197,7 +216,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'photograph',
       es: 'fotografiar'
-    }
+    },
+    categories: [CATEGORIES.ARTS, CATEGORIES.LEISURE]
   },
   {
     id: 'frühstücken',
@@ -208,7 +228,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'have breakfast',
       es: 'desayunar'
-    }
+    },
+    categories: [CATEGORIES.BODY, CATEGORIES.DRINK, CATEGORIES.FOOD, CATEGORIES.KITCHEN]
   },
   {
     id: 'geben',
@@ -219,7 +240,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'give',
       es: 'dar'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT]
   },
   {
     id: 'gehen',
@@ -230,7 +252,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'go',
       es: 'ir'
-    }
+    },
+    categories: [CATEGORIES.LOCATIONS, CATEGORIES.TRANSPORTATION, CATEGORIES.TRAVEL]
   },
   {
     id: 'spazierengehen',
@@ -241,7 +264,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'go for a walk',
       es: 'ir a pasear'
-    }
+    },
+    categories: [CATEGORIES.LEISURE, CATEGORIES.SPORTS, CATEGORIES.TRANSPORTATION]
   },
   {
     id: 'gewinnen',
@@ -252,7 +276,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'win',
       es: 'ganar'
-    }
+    },
+    categories: [CATEGORIES.SPORTS]
   },
   {
     id: 'glauben',
@@ -263,7 +288,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'believe',
       es: 'creer'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT, CATEGORIES.EMOTIONS]
   },
   {
     id: 'haben',
@@ -274,7 +300,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'have',
       es: 'tener'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT]
   },
   {
     id: 'hassen',
@@ -285,7 +312,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'hate',
       es: 'odiar'
-    }
+    },
+    categories: [CATEGORIES.EMOTIONS]
   },
   {
     id: 'heiraten',
@@ -296,7 +324,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'marry',
       es: 'casarse'
-    }
+    },
+    categories: [CATEGORIES.FAMILY, CATEGORIES.PEOPLE, CATEGORIES.PERSONAL_INFO]
   },
   {
     id: 'heißen',
@@ -307,7 +336,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'be called',
       es: 'llamarse'
-    }
+    },
+    categories: [CATEGORIES.PEOPLE, CATEGORIES.PERSONAL_INFO]
   },
   {
     id: 'hören',
@@ -318,7 +348,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'hear',
       es: 'oír'
-    }
+    },
+    categories: [CATEGORIES.COMMUNICATION, CATEGORIES.LANGUAGE, CATEGORIES.MUSIC]
   },
   {
     id: 'kaufen',
@@ -329,7 +360,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'buy',
       es: 'comprar'
-    }
+    },
+    categories: [CATEGORIES.FOOD, CATEGORIES.MONEY, CATEGORIES.SHOPPING]
   },
   {
     id: 'kochen',
@@ -340,7 +372,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'cook',
       es: 'cocinar'
-    }
+    },
+    categories: [CATEGORIES.FOOD, CATEGORIES.HOUSEHOLD, CATEGORIES.KITCHEN]
   },
   {
     id: 'kommen',
@@ -351,7 +384,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'come',
       es: 'venir'
-    }
+    },
+    categories: [CATEGORIES.LOCATIONS, CATEGORIES.PERSONAL_INFO, CATEGORIES.TRANSPORTATION, CATEGORIES.TRAVEL]
   },
   {
     id: 'können',
@@ -362,7 +396,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'can',
       es: 'poder'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT]
   },
   {
     id: 'kosten',
@@ -373,7 +408,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'cost',
       es: 'costar'
-    }
+    },
+    categories: [CATEGORIES.MONEY, CATEGORIES.NUMBERS, CATEGORIES.SHOPPING]
   },
   {
     id: 'leben',
@@ -384,7 +420,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'live',
       es: 'vivir'
-    }
+    },
+    categories: [CATEGORIES.FAMILY, CATEGORIES.HEALTH, CATEGORIES.PEOPLE, CATEGORIES.PERSONAL_INFO]
   },
   {
     id: 'lernen',
@@ -395,7 +432,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'learn',
       es: 'aprender'
-    }
+    },
+    categories: [CATEGORIES.EDUCATION, CATEGORIES.LANGUAGE, CATEGORIES.PROFESSIONS, CATEGORIES.WORK]
   },
   {
     id: 'lesen',
@@ -406,7 +444,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'read',
       es: 'leer'
-    }
+    },
+    categories: [CATEGORIES.EDUCATION, CATEGORIES.LANGUAGE]
   },
   {
     id: 'lieben',
@@ -417,7 +456,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'love',
       es: 'amar'
-    }
+    },
+    categories: [CATEGORIES.EMOTIONS, CATEGORIES.PEOPLE]
   },
   {
     id: 'machen',
@@ -428,7 +468,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'do',
       es: 'hacer'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT]
   },
   {
     id: 'malen',
@@ -439,7 +480,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'paint',
       es: 'pintar'
-    }
+    },
+    categories: [CATEGORIES.ARTS, CATEGORIES.LEISURE]
   },
   {
     id: 'möchten',
@@ -450,7 +492,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'would like',
       es: 'querer'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT, CATEGORIES.EMOTIONS]
   },
   {
     id: 'mögen',
@@ -461,7 +504,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'like',
       es: 'gustar'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT, CATEGORIES.EMOTIONS]
   },
   {
     id: 'nähen',
@@ -472,7 +516,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'sew',
       es: 'coser'
-    }
+    },
+    categories: [CATEGORIES.ARTS, CATEGORIES.CLOTHING, CATEGORIES.LEISURE]
   },
   {
     id: 'nehmen',
@@ -483,7 +528,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'take',
       es: 'tomar'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT]
   },
   {
     id: 'putzen',
@@ -494,7 +540,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'clean',
       es: 'limpiar'
-    }
+    },
+    categories: [CATEGORIES.HOUSEHOLD, CATEGORIES.HEALTH]
   },
   {
     id: 'rausgehen',
@@ -505,7 +552,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'go out',
       es: 'salir'
-    }
+    },
+    categories: [CATEGORIES.LOCATIONS, CATEGORIES.TRANSPORTATION]
   },
   {
     id: 'rechnen',
@@ -516,7 +564,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'calculate',
       es: 'calcular'
-    }
+    },
+    categories: [CATEGORIES.EDUCATION, CATEGORIES.NUMBERS]
   },
   {
     id: 'regnen',
@@ -527,7 +576,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'rain',
       es: 'llover'
-    }
+    },
+    categories: [CATEGORIES.NATURE, CATEGORIES.WEATHER]
   },
   {
     id: 'reisen',
@@ -538,7 +588,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'travel',
       es: 'viajar'
-    }
+    },
+    categories: [CATEGORIES.LEISURE, CATEGORIES.TRAVEL]
   },
   {
     id: 'sagen',
@@ -549,7 +600,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'say',
       es: 'decir'
-    }
+    },
+    categories: [CATEGORIES.COMMUNICATION, CATEGORIES.LANGUAGE]
   },
   {
     id: 'schauen',
@@ -560,7 +612,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'look',
       es: 'mirar'
-    }
+    },
+    categories: [CATEGORIES.ARTS, CATEGORIES.LEISURE]
   },
   {
     id: 'scheinen',
@@ -571,7 +624,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'shine',
       es: 'brillar'
-    }
+    },
+    categories: [CATEGORIES.NATURE, CATEGORIES.WEATHER]
   },
   {
     id: 'schlafen',
@@ -582,7 +636,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'sleep',
       es: 'dormir'
-    }
+    },
+    categories: [CATEGORIES.BODY, CATEGORIES.HEALTH, CATEGORIES.HOUSEHOLD, CATEGORIES.TIME]
   },
   {
     id: 'schneien',
@@ -593,7 +648,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'snow',
       es: 'nevar'
-    }
+    },
+    categories: [CATEGORIES.NATURE, CATEGORIES.WEATHER]
   },
   {
     id: 'schwimmen',
@@ -604,7 +660,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'swim',
       es: 'nadar'
-    }
+    },
+    categories: [CATEGORIES.BODY, CATEGORIES.HEALTH, CATEGORIES.LEISURE, CATEGORIES.SPORTS]
   },
   {
     id: 'sein',
@@ -615,7 +672,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'be',
       es: 'ser/estar'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT]
   },
   {
     id: 'singen',
@@ -626,7 +684,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'sing',
       es: 'cantar'
-    }
+    },
+    categories: [CATEGORIES.ARTS, CATEGORIES.LEISURE, CATEGORIES.MUSIC]
   },
   {
     id: 'spielen',
@@ -637,7 +696,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'play',
       es: 'jugar'
-    }
+    },
+    categories: [CATEGORIES.LEISURE, CATEGORIES.MUSIC, CATEGORIES.SPORTS]
   },
   {
     id: 'sprechen',
@@ -648,7 +708,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'speak',
       es: 'hablar'
-    }
+    },
+    categories: [CATEGORIES.COMMUNICATION, CATEGORIES.EDUCATION, CATEGORIES.LANGUAGE]
   },
   {
     id: 'stimmen',
@@ -659,7 +720,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'be correct',
       es: 'ser correcto'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT]
   },
   {
     id: 'studieren',
@@ -670,7 +732,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'study',
       es: 'estudiar'
-    }
+    },
+    categories: [CATEGORIES.EDUCATION, CATEGORIES.PERSONAL_INFO, CATEGORIES.PROFESSIONS, CATEGORIES.WORK]
   },
   {
     id: 'suchen',
@@ -681,7 +744,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'look for',
       es: 'buscar'
-    }
+    },
+    categories: [CATEGORIES.SHOPPING]
   },
   {
     id: 'tanzen',
@@ -692,7 +756,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'dance',
       es: 'bailar'
-    }
+    },
+    categories: [CATEGORIES.ARTS, CATEGORIES.LEISURE, CATEGORIES.MUSIC]
   },
   {
     id: 'telefonieren',
@@ -703,7 +768,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'talk on the phone',
       es: 'hablar por teléfono'
-    }
+    },
+    categories: [CATEGORIES.COMMUNICATION, CATEGORIES.LANGUAGE, CATEGORIES.TECHNOLOGY]
   },
   {
     id: 'trainieren',
@@ -714,7 +780,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'train',
       es: 'entrenar'
-    }
+    },
+    categories: [CATEGORIES.HEALTH, CATEGORIES.SPORTS]
   },
   {
     id: 'treffen',
@@ -725,7 +792,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'meet',
       es: 'quedar con alguien'
-    }
+    },
+    categories: [CATEGORIES.FAMILY, CATEGORIES.LEISURE, CATEGORIES.PEOPLE]
   },
   {
     id: 'trinken',
@@ -736,7 +804,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'drink',
       es: 'beber'
-    }
+    },
+    categories: [CATEGORIES.BODY, CATEGORIES.DRINK]
   },
   {
     id: 'werden',
@@ -747,7 +816,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'become',
       es: 'volverse'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT]
   },
   {
     id: 'wohnen',
@@ -758,7 +828,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'reside',
       es: 'vivir'
-    }
+    },
+    categories: [CATEGORIES.HOUSEHOLD, CATEGORIES.LOCATIONS, CATEGORIES.PERSONAL_INFO]
   },
   {
     id: 'wollen',
@@ -769,7 +840,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'want',
       es: 'querer'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT]
   },
   {
     id: 'anfangen',
@@ -780,7 +852,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'begin',
       es: 'empezar'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT, CATEGORIES.DATES, CATEGORIES.TIME]
   },
   {
     id: 'ankommen',
@@ -791,7 +864,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'arrive',
       es: 'llegar'
-    }
+    },
+    categories: [CATEGORIES.LOCATIONS, CATEGORIES.TIME, CATEGORIES.TRANSPORTATION, CATEGORIES.TRAVEL]
   },
   {
     id: 'aufmachen',
@@ -802,7 +876,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'open',
       es: 'abrir'
-    }
+    },
+    categories: [CATEGORIES.HOUSEHOLD]
   },
   {
     id: 'aussteigen',
@@ -813,7 +888,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'get off / exit',
       es: 'bajarse / salir'
-    }
+    },
+    categories: [CATEGORIES.TRANSPORTATION, CATEGORIES.TRAVEL]
   },
   {
     id: 'bekommen',
@@ -824,7 +900,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'get / receive',
       es: 'recibir'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT, CATEGORIES.SHOPPING]
   },
   {
     id: 'bestellen',
@@ -835,7 +912,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'order',
       es: 'pedir'
-    }
+    },
+    categories: [CATEGORIES.DRINK, CATEGORIES.FOOD, CATEGORIES.KITCHEN, CATEGORIES.MONEY, CATEGORIES.SHOPPING]
   },
   {
     id: 'besuchen',
@@ -846,7 +924,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'visit',
       es: 'visitar'
-    }
+    },
+    categories: [CATEGORIES.FAMILY, CATEGORIES.LOCATIONS, CATEGORIES.PEOPLE]
   },
   {
     id: 'bezahlen',
@@ -857,7 +936,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'pay',
       es: 'pagar'
-    }
+    },
+    categories: [CATEGORIES.FOOD, CATEGORIES.MONEY, CATEGORIES.NUMBERS, CATEGORIES.SHOPPING]
   },
   {
     id: 'bringen',
@@ -868,7 +948,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'bring',
       es: 'traer'
-    }
+    },
+    categories: [CATEGORIES.DRINK, CATEGORIES.FOOD, CATEGORIES.KITCHEN]
   },
   {
     id: 'einladen',
@@ -879,7 +960,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'invite',
       es: 'invitar'
-    }
+    },
+    categories: [CATEGORIES.FAMILY]
   },
   {
     id: 'einschlafen',
@@ -890,7 +972,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'fall asleep',
       es: 'quedarse dormido'
-    }
+    },
+    categories: [CATEGORIES.TIME]
   },
   {
     id: 'einsteigen',
@@ -901,7 +984,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'get in / board',
       es: 'subirse / entrar'
-    }
+    },
+    categories: [CATEGORIES.TRANSPORTATION, CATEGORIES.TRAVEL]
   },
   {
     id: 'empfehlen',
@@ -912,7 +996,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'recommend',
       es: 'recomendar'
-    }
+    },
+    categories: [CATEGORIES.SHOPPING]
   },
   {
     id: 'entschuldigen',
@@ -923,7 +1008,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'apologize / excuse',
       es: 'disculparse / disculpar'
-    }
+    },
+    categories: [CATEGORIES.COMMUNICATION, CATEGORIES.EMOTIONS]
   },
   {
     id: 'erzählen',
@@ -934,7 +1020,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'tell / narrate',
       es: 'contar'
-    }
+    },
+    categories: [CATEGORIES.COMMUNICATION, CATEGORIES.LANGUAGE]
   },
   {
     id: 'fliegen',
@@ -945,7 +1032,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'fly',
       es: 'volar'
-    }
+    },
+    categories: [CATEGORIES.TRANSPORTATION, CATEGORIES.TRAVEL]
   },
   {
     id: 'gefallen',
@@ -956,7 +1044,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'please / be liked',
       es: 'gustar'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT, CATEGORIES.EMOTIONS]
   },
   {
     id: 'joggen',
@@ -967,7 +1056,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'jog',
       es: 'hacer jogging'
-    }
+    },
+    categories: [CATEGORIES.BODY, CATEGORIES.HEALTH, CATEGORIES.LEISURE, CATEGORIES.SPORTS]
   },
   {
     id: 'kennen',
@@ -978,7 +1068,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'know',
       es: 'conocer'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT, CATEGORIES.PEOPLE]
   },
   {
     id: 'laufen',
@@ -989,7 +1080,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'run / walk',
       es: 'correr / andar'
-    }
+    },
+    categories: [CATEGORIES.BODY, CATEGORIES.SPORTS, CATEGORIES.TRANSPORTATION]
   },
   {
     id: 'mitbringen',
@@ -1000,7 +1092,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'bring along',
       es: 'traer'
-    }
+    },
+    categories: [CATEGORIES.DRINK, CATEGORIES.FOOD, CATEGORIES.KITCHEN]
   },
   {
     id: 'notieren',
@@ -1011,7 +1104,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'note down',
       es: 'anotar'
-    }
+    },
+    categories: [CATEGORIES.COMMUNICATION, CATEGORIES.DOCUMENTS, CATEGORIES.EDUCATION, CATEGORIES.LANGUAGE]
   },
   {
     id: 'schreiben',
@@ -1022,7 +1116,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'write',
       es: 'escribir'
-    }
+    },
+    categories: [CATEGORIES.COMMUNICATION, CATEGORIES.DOCUMENTS, CATEGORIES.EDUCATION, CATEGORIES.LANGUAGE]
   },
   {
     id: 'sehen',
@@ -1033,7 +1128,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'see',
       es: 'ver'
-    }
+    },
+    categories: [CATEGORIES.BODY, CATEGORIES.COMMUNICATION]
   },
   {
     id: 'sparen',
@@ -1044,7 +1140,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'save',
       es: 'ahorrar'
-    }
+    },
+    categories: [CATEGORIES.MONEY, CATEGORIES.NUMBERS, CATEGORIES.SHOPPING]
   },
   {
     id: 'tun',
@@ -1055,7 +1152,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'do',
       es: 'hacer'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT]
   },
   {
     id: 'umziehen',
@@ -1066,7 +1164,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'move house / change clothes',
       es: 'mudarse / cambiarse de ropa'
-    }
+    },
+    categories: [CATEGORIES.LOCATIONS, CATEGORIES.TRAVEL]
   },
   {
     id: 'vergessen',
@@ -1077,7 +1176,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'forget',
       es: 'olvidar'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT, CATEGORIES.EMOTIONS]
   },
   {
     id: 'verkaufen',
@@ -1088,7 +1188,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'sell',
       es: 'vender'
-    }
+    },
+    categories: [CATEGORIES.MONEY, CATEGORIES.SHOPPING]
   },
   {
     id: 'verlassen',
@@ -1099,7 +1200,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'leave',
       es: 'dejar / abandonar'
-    }
+    },
+    categories: [CATEGORIES.LOCATIONS, CATEGORIES.TRAVEL]
   },
   {
     id: 'verlieren',
@@ -1110,7 +1212,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'lose',
       es: 'perder'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT, CATEGORIES.SHOPPING]
   },
   {
     id: 'versuchen',
@@ -1121,7 +1224,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'try',
       es: 'intentar'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT]
   },
   {
     id: 'waschen',
@@ -1132,7 +1236,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'wash',
       es: 'lavar'
-    }
+    },
+    categories: [CATEGORIES.HOUSEHOLD]
   },
   {
     id: 'wissen',
@@ -1143,7 +1248,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'know',
       es: 'saber'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT]
   },
   {
     id: 'zumachen',
@@ -1154,7 +1260,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'close',
       es: 'cerrar'
-    }
+    },
+    categories: [CATEGORIES.HOUSEHOLD]
   },
   {
     id: 'abfahren',
@@ -1165,7 +1272,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'depart',
       es: 'salir'
-    }
+    },
+    categories: [CATEGORIES.TRANSPORTATION, CATEGORIES.TRAVEL]
   },
   {
     id: 'ansehen',
@@ -1176,7 +1284,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'look at',
       es: 'mirar'
-    }
+    },
+    categories: [CATEGORIES.BODY, CATEGORIES.LEISURE]
   },
   {
     id: 'beschreiben',
@@ -1187,7 +1296,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'describe',
       es: 'describir'
-    }
+    },
+    categories: [CATEGORIES.COMMUNICATION, CATEGORIES.EDUCATION, CATEGORIES.LANGUAGE]
   },
   {
     id: 'erklären',
@@ -1198,7 +1308,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'explain',
       es: 'explicar'
-    }
+    },
+    categories: [CATEGORIES.COMMUNICATION, CATEGORIES.EDUCATION, CATEGORIES.LANGUAGE]
   },
   {
     id: 'fragen',
@@ -1209,7 +1320,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'ask',
       es: 'preguntar'
-    }
+    },
+    categories: [CATEGORIES.COMMUNICATION, CATEGORIES.EDUCATION, CATEGORIES.LANGUAGE]
   },
   {
     id: 'funktionieren',
@@ -1220,7 +1332,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'function',
       es: 'funcionar'
-    }
+    },
+    categories: [CATEGORIES.PROFESSIONS, CATEGORIES.TECHNOLOGY, CATEGORIES.WORK]
   },
   {
     id: 'kommentieren',
@@ -1231,7 +1344,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'comment',
       es: 'comentar'
-    }
+    },
+    categories: [CATEGORIES.COMMUNICATION, CATEGORIES.LANGUAGE]
   },
   {
     id: 'mitmachen',
@@ -1242,7 +1356,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'participate',
       es: 'participar'
-    }
+    },
+    categories: [CATEGORIES.PROFESSIONS, CATEGORIES.WORK]
   },
   {
     id: 'reparieren',
@@ -1253,7 +1368,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'repair',
       es: 'reparar'
-    }
+    },
+    categories: [CATEGORIES.HOUSEHOLD, CATEGORIES.PROFESSIONS, CATEGORIES.WORK]
   },
   {
     id: 'umsteigen',
@@ -1264,7 +1380,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'change (transport)',
       es: 'hacer transbordo'
-    }
+    },
+    categories: [CATEGORIES.TRANSPORTATION, CATEGORIES.TRAVEL]
   },
   {
     id: 'leidtun',
@@ -1275,7 +1392,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'feel / regret',
       es: 'sentir / lamentar'
-    }
+    },
+    categories: [CATEGORIES.EMOTIONS]
   },
   {
     id: 'antworten',
@@ -1286,7 +1404,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'reply',
       es: 'responder'
-    }
+    },
+    categories: [CATEGORIES.COMMUNICATION, CATEGORIES.LANGUAGE]
   },
   {
     id: 'danken',
@@ -1297,7 +1416,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'give thanks',
       es: 'dar las gracias'
-    }
+    },
+    categories: [CATEGORIES.COMMUNICATION, CATEGORIES.PEOPLE]
   },
   {
     id: 'gehören',
@@ -1308,7 +1428,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'belong',
       es: 'pertenecer'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT, CATEGORIES.PEOPLE]
   },
   {
     id: 'helfen',
@@ -1319,7 +1440,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'help',
       es: 'ayudar'
-    }
+    },
+    categories: [CATEGORIES.PEOPLE, CATEGORIES.PROFESSIONS, CATEGORIES.WORK]
   },
   {
     id: 'vermieten',
@@ -1330,7 +1452,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'rent',
       es: 'alquilar'
-    }
+    },
+    categories: [CATEGORIES.HOUSEHOLD, CATEGORIES.LOCATIONS, CATEGORIES.MONEY, CATEGORIES.PROFESSIONS, CATEGORIES.WORK]
   },
   {
     id: 'zahlen',
@@ -1341,7 +1464,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'pay',
       es: 'pagar'
-    }
+    },
+    categories: [CATEGORIES.MONEY, CATEGORIES.NUMBERS, CATEGORIES.SHOPPING]
   },
   {
     id: 'ausdrucken',
@@ -1352,7 +1476,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'print',
       es: 'imprimir'
-    }
+    },
+    categories: [CATEGORIES.DOCUMENTS, CATEGORIES.EDUCATION, CATEGORIES.TECHNOLOGY, CATEGORIES.WORK]
   },
   {
     id: 'ausfüllen',
@@ -1363,7 +1488,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'fill',
       es: 'rellenar'
-    }
+    },
+    categories: [CATEGORIES.DOCUMENTS, CATEGORIES.EDUCATION, CATEGORIES.PROFESSIONS, CATEGORIES.WORK]
   },
   {
     id: 'müssen',
@@ -1374,7 +1500,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'have to / duty',
       es: 'tener que / deber'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT, CATEGORIES.COMMUNICATION]
   },
   {
     id: 'schicken',
@@ -1385,7 +1512,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'send',
       es: 'enviar'
-    }
+    },
+    categories: [CATEGORIES.COMMUNICATION, CATEGORIES.DOCUMENTS, CATEGORIES.TECHNOLOGY]
   },
   {
     id: 'unterschreiben',
@@ -1396,7 +1524,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'sign',
       es: 'firmar'
-    }
+    },
+    categories: [CATEGORIES.DOCUMENTS, CATEGORIES.PROFESSIONS, CATEGORIES.WORK]
   },
   {
     id: 'verstehen',
@@ -1407,7 +1536,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'understand',
       es: 'entender'
-    }
+    },
+    categories: [CATEGORIES.COMMUNICATION, CATEGORIES.EDUCATION, CATEGORIES.LANGUAGE]
   },
   {
     id: 'dürfen',
@@ -1418,7 +1548,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'be able / have permission',
       es: 'poder / tener permiso'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT, CATEGORIES.COMMUNICATION]
   },
   {
     id: 'rauchen',
@@ -1429,7 +1560,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'smoke',
       es: 'fumar'
-    }
+    },
+    categories: [CATEGORIES.BODY, CATEGORIES.HEALTH]
   },
   {
     id: 'erlauben',
@@ -1440,7 +1572,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'allow',
       es: 'permitir'
-    }
+    },
+    categories: [CATEGORIES.COMMUNICATION, CATEGORIES.WORK]
   },
   {
     id: 'aufpassen',
@@ -1451,7 +1584,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'pay attention / be careful',
       es: 'prestar atención / tener cuidado'
-    }
+    },
+    categories: [CATEGORIES.HEALTH, CATEGORIES.PEOPLE]
   },
   {
     id: 'grillen',
@@ -1462,7 +1596,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'make a barbecue',
       es: 'hacer una barbacoa'
-    }
+    },
+    categories: [CATEGORIES.FOOD, CATEGORIES.KITCHEN, CATEGORIES.LEISURE]
   },
   {
     id: 'lachen',
@@ -1473,7 +1608,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'laugh',
       es: 'reír'
-    }
+    },
+    categories: [CATEGORIES.COMMUNICATION, CATEGORIES.EMOTIONS, CATEGORIES.LEISURE, CATEGORIES.PEOPLE]
   },
   {
     id: 'schließen',
@@ -1484,7 +1620,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'close',
       es: 'cerrar'
-    }
+    },
+    categories: [CATEGORIES.HOUSEHOLD]
   },
   {
     id: 'tragen',
@@ -1495,7 +1632,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'carry',
       es: 'llevar'
-    }
+    },
+    categories: [CATEGORIES.CLOTHING]
   },
   {
     id: 'baden',
@@ -1506,7 +1644,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'bathe',
       es: 'bañarse'
-    }
+    },
+    categories: [CATEGORIES.BODY, CATEGORIES.HEALTH]
   },
   {
     id: 'wandern',
@@ -1517,7 +1656,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'go hiking',
       es: 'hacer senderismo'
-    }
+    },
+    categories: [CATEGORIES.LEISURE, CATEGORIES.NATURE, CATEGORIES.SPORTS]
   },
   {
     id: 'beantragen',
@@ -1528,7 +1668,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'request',
       es: 'solicitar'
-    }
+    },
+    categories: [CATEGORIES.DOCUMENTS, CATEGORIES.PROFESSIONS, CATEGORIES.TRAVEL, CATEGORIES.WORK]
   },
   {
     id: 'bewegen',
@@ -1539,7 +1680,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'move',
       es: 'mover'
-    }
+    },
+    categories: [CATEGORIES.BODY, CATEGORIES.HEALTH, CATEGORIES.SPORTS]
   },
   {
     id: 'zeigen',
@@ -1550,7 +1692,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'show',
       es: 'mostrar'
-    }
+    },
+    categories: [CATEGORIES.COMMUNICATION]
   },
   {
     id: 'anmachen',
@@ -1561,7 +1704,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'turn on',
       es: 'encender'
-    }
+    },
+    categories: [CATEGORIES.HOUSEHOLD, CATEGORIES.TECHNOLOGY]
   },
   {
     id: 'ausmachen',
@@ -1572,7 +1716,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'turn off',
       es: 'apagar'
-    }
+    },
+    categories: [CATEGORIES.HOUSEHOLD, CATEGORIES.TECHNOLOGY]
   },
   {
     id: 'holen',
@@ -1583,7 +1728,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'fetch / fetch',
       es: 'ir a buscar / traer'
-    }
+    },
+    categories: [CATEGORIES.HOUSEHOLD, CATEGORIES.LOCATIONS]
   },
   {
     id: 'öffnen',
@@ -1594,7 +1740,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'open',
       es: 'abrir'
-    }
+    },
+    categories: [CATEGORIES.HOUSEHOLD, CATEGORIES.LOCATIONS]
   },
   {
     id: 'wehtun',
@@ -1605,7 +1752,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'hurt',
       es: 'doler'
-    }
+    },
+    categories: [CATEGORIES.BODY, CATEGORIES.HEALTH]
   },
   {
     id: 'wünschen',
@@ -1616,7 +1764,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'wish',
       es: 'desear'
-    }
+    },
+    categories: [CATEGORIES.COMMUNICATION, CATEGORIES.EMOTIONS, CATEGORIES.PEOPLE]
   },
   {
     id: 'halten',
@@ -1627,7 +1776,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'keep / sustain',
       es: 'mantener / sostener'
-    }
+    },
+    categories: [CATEGORIES.SPORTS]
   },
   {
     id: 'sollen',
@@ -1638,7 +1788,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'duty',
       es: 'deber'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT, CATEGORIES.COMMUNICATION]
   },
   {
     id: 'kühlen',
@@ -1649,7 +1800,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'cool',
       es: 'enfriar'
-    }
+    },
+    categories: [CATEGORIES.BODY, CATEGORIES.DRINK, CATEGORIES.FOOD, CATEGORIES.HEALTH, CATEGORIES.HOUSEHOLD, CATEGORIES.KITCHEN, CATEGORIES.WEATHER]
   },
   {
     id: 'sitzen',
@@ -1660,7 +1812,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'be sitting',
       es: 'estar sentado/a'
-    }
+    },
+    categories: [CATEGORIES.BODY, CATEGORIES.HEALTH, CATEGORIES.HOUSEHOLD]
   },
   {
     id: 'drücken',
@@ -1671,7 +1824,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'press',
       es: 'presionar'
-    }
+    },
+    categories: [CATEGORIES.BODY, CATEGORIES.HEALTH, CATEGORIES.TECHNOLOGY]
   },
   {
     id: 'liegen',
@@ -1682,7 +1836,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'be lying down',
       es: 'estar tumbado/a'
-    }
+    },
+    categories: [CATEGORIES.BODY, CATEGORIES.HEALTH, CATEGORIES.HOUSEHOLD]
   },
   {
     id: 'stören',
@@ -1693,7 +1848,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'bother',
       es: 'molestar'
-    }
+    },
+    categories: [CATEGORIES.HEALTH, CATEGORIES.HOUSEHOLD]
   },
   {
     id: 'krankschreiben',
@@ -1704,7 +1860,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'give medical leave',
       es: 'dar la baja médica'
-    }
+    },
+    categories: [CATEGORIES.HEALTH, CATEGORIES.PROFESSIONS, CATEGORIES.WORK]
   },
   {
     id: 'informieren',
@@ -1715,7 +1872,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'inform',
       es: 'informar'
-    }
+    },
+    categories: [CATEGORIES.COMMUNICATION, CATEGORIES.HEALTH, CATEGORIES.PEOPLE, CATEGORIES.PROFESSIONS, CATEGORIES.WORK]
   },
   {
     id: 'anziehen',
@@ -1726,7 +1884,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'put on/dress',
       es: 'ponerse / vestir'
-    }
+    },
+    categories: [CATEGORIES.BODY, CATEGORIES.CLOTHING, CATEGORIES.HEALTH, CATEGORIES.HOUSEHOLD, CATEGORIES.PEOPLE]
   },
   {
     id: 'beginnen',
@@ -1737,7 +1896,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'start',
       es: 'comenzar'
-    }
+    },
+    categories: [CATEGORIES.DATES, CATEGORIES.PROFESSIONS, CATEGORIES.TIME, CATEGORIES.WORK]
   },
   {
     id: 'bitten',
@@ -1748,7 +1908,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'ask / beg',
       es: 'pedir / rogar'
-    }
+    },
+    categories: [CATEGORIES.COMMUNICATION]
   },
   {
     id: 'mitkommen',
@@ -1759,7 +1920,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'come with someone',
       es: 'venir con alguien'
-    }
+    },
+    categories: [CATEGORIES.LOCATIONS, CATEGORIES.TRANSPORTATION, CATEGORIES.TRAVEL]
   },
   {
     id: 'aussehen',
@@ -1770,7 +1932,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'seem / have appearance',
       es: 'parecer / tener aspecto'
-    }
+    },
+    categories: [CATEGORIES.BODY, CATEGORIES.CLOTHING, CATEGORIES.PEOPLE]
   },
   {
     id: 'ausgeben',
@@ -1781,7 +1944,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'spend',
       es: 'gastar'
-    }
+    },
+    categories: [CATEGORIES.MONEY, CATEGORIES.SHOPPING]
   },
   {
     id: 'warten',
@@ -1792,7 +1956,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'wait',
       es: 'esperar'
-    }
+    },
+    categories: [CATEGORIES.TIME]
   },
   {
     id: 'meinen',
@@ -1803,7 +1968,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'opine / want to say',
       es: 'opinar / querer decir'
-    }
+    },
+    categories: [CATEGORIES.COMMUNICATION]
   },
   {
     id: 'ausfallen',
@@ -1814,7 +1980,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'cancel',
       es: 'cancelarse'
-    }
+    },
+    categories: [CATEGORIES.HOUSEHOLD, CATEGORIES.PROFESSIONS, CATEGORIES.TIME, CATEGORIES.WORK]
   },
   {
     id: 'hoffen',
@@ -1825,7 +1992,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'wait/hope',
       es: 'esperar / tener esperanza'
-    }
+    },
+    categories: [CATEGORIES.EMOTIONS, CATEGORIES.HEALTH]
   },
   {
     id: 'eingeben',
@@ -1836,7 +2004,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'introduce',
       es: 'introducir'
-    }
+    },
+    categories: [CATEGORIES.TECHNOLOGY, CATEGORIES.WORK]
   },
   {
     id: 'versprechen',
@@ -1847,7 +2016,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'promise',
       es: 'prometer'
-    }
+    },
+    categories: [CATEGORIES.COMMUNICATION, CATEGORIES.EMOTIONS]
   },
   {
     id: 'buchen',
@@ -1858,7 +2028,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'reserve',
       es: 'reservar'
-    }
+    },
+    categories: [CATEGORIES.MONEY, CATEGORIES.TRAVEL]
   },
   {
     id: 'herunterladen',
@@ -1869,7 +2040,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'download',
       es: 'descargar'
-    }
+    },
+    categories: [CATEGORIES.PROFESSIONS, CATEGORIES.TECHNOLOGY, CATEGORIES.WORK]
   },
   {
     id: 'installieren',
@@ -1880,7 +2052,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'install',
       es: 'instalar'
-    }
+    },
+    categories: [CATEGORIES.HOUSEHOLD, CATEGORIES.PROFESSIONS, CATEGORIES.TECHNOLOGY, CATEGORIES.WORK]
   },
   {
     id: 'speichern',
@@ -1891,7 +2064,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'save',
       es: 'guardar'
-    }
+    },
+    categories: [CATEGORIES.DOCUMENTS, CATEGORIES.PROFESSIONS, CATEGORIES.TECHNOLOGY, CATEGORIES.WORK]
   },
   {
     id: 'schneiden',
@@ -1902,7 +2076,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'cut',
       es: 'cortar'
-    }
+    },
+    categories: [CATEGORIES.FOOD, CATEGORIES.HEALTH, CATEGORIES.KITCHEN]
   },
   {
     id: 'feiern',
@@ -1913,7 +2088,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'celebrate',
       es: 'celebrar'
-    }
+    },
+    categories: [CATEGORIES.LEISURE]
   },
   {
     id: 'benutzen',
@@ -1924,7 +2100,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'use',
       es: 'usar'
-    }
+    },
+    categories: [CATEGORIES.HOUSEHOLD, CATEGORIES.PROFESSIONS, CATEGORIES.TECHNOLOGY, CATEGORIES.WORK]
   },
   {
     id: 'passen',
@@ -1935,7 +2112,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'fit/be suitable',
       es: 'encajar / ser adecuado'
-    }
+    },
+    categories: [CATEGORIES.CLOTHING, CATEGORIES.SHOPPING]
   },
   {
     id: 'schmecken',
@@ -1946,7 +2124,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'know/have taste',
       es: 'saber / tener sabor'
-    }
+    },
+    categories: [CATEGORIES.DRINK, CATEGORIES.FOOD, CATEGORIES.KITCHEN]
   },
   {
     id: 'reden',
@@ -1957,7 +2136,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'talk',
       es: 'hablar'
-    }
+    },
+    categories: [CATEGORIES.COMMUNICATION, CATEGORIES.LANGUAGE]
   },
   {
     id: 'bedeuten',
@@ -1968,7 +2148,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'mean',
       es: 'significar'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT, CATEGORIES.COMMUNICATION, CATEGORIES.LANGUAGE]
   },
   {
     id: 'einpacken',
@@ -1979,7 +2160,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'pack',
       es: 'empacar / guardar'
-    }
+    },
+    categories: [CATEGORIES.TRAVEL]
   },
   {
     id: 'passieren',
@@ -1990,7 +2172,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'happen',
       es: 'pasar / suceder'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT]
   },
   {
     id: 'kriegen',
@@ -2001,7 +2184,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'get / receive',
       es: 'recibir / conseguir'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT]
   },
   {
     id: 'mieten',
@@ -2012,7 +2196,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'rent',
       es: 'alquilar'
-    }
+    },
+    categories: [CATEGORIES.LOCATIONS, CATEGORIES.MONEY]
   },
   {
     id: 'kennenlernen',
@@ -2023,7 +2208,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'meet / get to know',
       es: 'conocer'
-    }
+    },
+    categories: [CATEGORIES.FAMILY, CATEGORIES.PEOPLE]
   },
   {
     id: 'erleben',
@@ -2034,7 +2220,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'experience',
       es: 'vivir / experimentar'
-    }
+    },
+    categories: [CATEGORIES.LEISURE, CATEGORIES.TRAVEL]
   },
   {
     id: 'weggehen',
@@ -2045,7 +2232,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'leave / go away',
       es: 'irse / marcharse'
-    }
+    },
+    categories: [CATEGORIES.TRANSPORTATION, CATEGORIES.TRAVEL]
   },
   {
     id: 'verbieten',
@@ -2056,7 +2244,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'forbid / prohibit',
       es: 'prohibir'
-    }
+    },
+    categories: [CATEGORIES.COMMUNICATION, CATEGORIES.WORK]
   },
   {
     id: 'verpassen',
@@ -2067,7 +2256,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'miss',
       es: 'perder'
-    }
+    },
+    categories: [CATEGORIES.TRAVEL]
   },
   {
     id: 'vermissen',
@@ -2078,7 +2268,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'miss',
       es: 'extrañar / echar de menos'
-    }
+    },
+    categories: [CATEGORIES.EMOTIONS, CATEGORIES.PEOPLE]
   },
   {
     id: 'beenden',
@@ -2089,7 +2280,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'finish / end',
       es: 'terminar / finalizar'
-    }
+    },
+    categories: [CATEGORIES.PROFESSIONS, CATEGORIES.WORK]
   },
   {
     id: 'verschieben',
@@ -2100,7 +2292,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'postpone / move',
       es: 'posponer / aplazar'
-    }
+    },
+    categories: [CATEGORIES.DATES, CATEGORIES.TIME]
   },
   {
     id: 'schaffen',
@@ -2111,7 +2304,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'manage / accomplish',
       es: 'lograr / conseguir'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT, CATEGORIES.PROFESSIONS, CATEGORIES.WORK]
   },
   {
     id: 'schenken',
@@ -2122,7 +2316,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'give as a gift',
       es: 'regalar'
-    }
+    },
+    categories: [CATEGORIES.FOOD]
   },
   {
     id: 'loben',
@@ -2133,7 +2328,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'praise / compliment',
       es: 'elogiar / felicitar'
-    }
+    },
+    categories: [CATEGORIES.COMMUNICATION, CATEGORIES.PEOPLE]
   },
   {
     id: 'ablehnen',
@@ -2144,7 +2340,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'decline / reject',
       es: 'rechazar'
-    }
+    },
+    categories: [CATEGORIES.COMMUNICATION]
   },
   {
     id: 'weinen',
@@ -2155,7 +2352,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'cry',
       es: 'llorar'
-    }
+    },
+    categories: [CATEGORIES.BODY, CATEGORIES.EMOTIONS, CATEGORIES.PEOPLE]
   },
   {
     id: 'überraschen',
@@ -2166,7 +2364,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'surprise',
       es: 'sorprender'
-    }
+    },
+    categories: [CATEGORIES.EMOTIONS, CATEGORIES.PEOPLE]
   },
   {
     id: 'reinkommen',
@@ -2177,7 +2376,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'come in',
       es: 'entrar'
-    }
+    },
+    categories: [CATEGORIES.HOUSEHOLD, CATEGORIES.LOCATIONS, CATEGORIES.TRANSPORTATION]
   },
   {
     id: 'riechen',
@@ -2188,7 +2388,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'smell',
       es: 'oler'
-    }
+    },
+    categories: [CATEGORIES.BODY, CATEGORIES.DRINK, CATEGORIES.FOOD, CATEGORIES.HEALTH, CATEGORIES.KITCHEN]
   },
   {
     id: 'klettern',
@@ -2199,7 +2400,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'climb',
       es: 'escalar / trepar'
-    }
+    },
+    categories: [CATEGORIES.LEISURE, CATEGORIES.NATURE, CATEGORIES.SPORTS]
   },
   {
     id: 'vorschlagen',
@@ -2210,7 +2412,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'suggest / propose',
       es: 'proponer / sugerir'
-    }
+    },
+    categories: [CATEGORIES.COMMUNICATION]
   },
   {
     id: 'zustimmen',
@@ -2221,7 +2424,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'agree / consent',
       es: 'estar de acuerdo / aceptar'
-    }
+    },
+    categories: [CATEGORIES.COMMUNICATION]
   },
   {
     id: 'springen',
@@ -2232,7 +2436,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'jump',
       es: 'saltar'
-    }
+    },
+    categories: [CATEGORIES.BODY, CATEGORIES.LEISURE, CATEGORIES.SPORTS]
   },
   {
     id: 'basteln',
@@ -2243,7 +2448,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'do crafts / make things',
       es: 'hacer manualidades'
-    }
+    },
+    categories: [CATEGORIES.ARTS, CATEGORIES.LEISURE]
   },
   {
     id: 'abwaschen',
@@ -2254,7 +2460,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'wash up / do the dishes',
       es: 'lavar los platos'
-    }
+    },
+    categories: [CATEGORIES.FOOD, CATEGORIES.HOUSEHOLD, CATEGORIES.KITCHEN]
   },
   {
     id: 'herausfinden',
@@ -2265,7 +2472,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'find out',
       es: 'averiguar / descubrir'
-    }
+    },
+    categories: [CATEGORIES.COMMUNICATION, CATEGORIES.EDUCATION]
   },
   {
     id: 'rausfinden',
@@ -2276,7 +2484,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'find out',
       es: 'averiguar / descubrir'
-    }
+    },
+    categories: [CATEGORIES.COMMUNICATION, CATEGORIES.EDUCATION]
   },
   {
     id: 'kämpfen',
@@ -2287,7 +2496,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'fight / compete',
       es: 'luchar / competir'
-    }
+    },
+    categories: [CATEGORIES.SPORTS]
   },
   {
     id: 'werfen',
@@ -2298,7 +2508,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'throw',
       es: 'lanzar / tirar'
-    }
+    },
+    categories: [CATEGORIES.SPORTS]
   },
   {
     id: 'interessieren',
@@ -2309,7 +2520,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'be interested',
       es: 'interesarse'
-    }
+    },
+    categories: [CATEGORIES.EMOTIONS]
   },
   {
     id: 'vorstellen',
@@ -2320,7 +2532,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'introduce oneself',
       es: 'presentarse'
-    }
+    },
+    categories: [CATEGORIES.COMMUNICATION, CATEGORIES.LANGUAGE, CATEGORIES.PEOPLE, CATEGORIES.PERSONAL_INFO]
   },
   {
     id: 'dauern',
@@ -2331,7 +2544,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'last / take',
       es: 'durar'
-    }
+    },
+    categories: [CATEGORIES.DATES, CATEGORIES.NUMBERS, CATEGORIES.TIME]
   },
   {
     id: 'gründen',
@@ -2342,7 +2556,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'found / establish',
       es: 'fundar / crear'
-    }
+    },
+    categories: [CATEGORIES.PROFESSIONS, CATEGORIES.WORK]
   },
   {
     id: 'weiterhelfen',
@@ -2353,7 +2568,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'help further / assist',
       es: 'ayudar / orientar'
-    }
+    },
+    categories: [CATEGORIES.COMMUNICATION, CATEGORIES.PEOPLE, CATEGORIES.WORK]
   },
   {
     id: 'ändern',
@@ -2364,7 +2580,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'change',
       es: 'cambiar'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT]
   },
   {
     id: 'üben',
@@ -2375,7 +2592,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'practise',
       es: 'practicar'
-    }
+    },
+    categories: [CATEGORIES.EDUCATION, CATEGORIES.LANGUAGE]
   },
   {
     id: 'nachschauen',
@@ -2386,7 +2604,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'look up / check',
       es: 'consultar / buscar'
-    }
+    },
+    categories: [CATEGORIES.EDUCATION, CATEGORIES.LANGUAGE, CATEGORIES.TECHNOLOGY]
   },
   {
     id: 'planen',
@@ -2397,7 +2616,8 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'plan',
       es: 'planificar'
-    }
+    },
+    categories: [CATEGORIES.DATES, CATEGORIES.TIME, CATEGORIES.WORK]
   },
   {
     id: 'bewerten',
@@ -2408,6 +2628,7 @@ export const verbs: GermanVerb[] = [
     translations: {
       en: 'rate / evaluate',
       es: 'valorar / evaluar'
-    }
+    },
+    categories: [CATEGORIES.PROFESSIONS, CATEGORIES.WORK]
   }
 ]

@@ -1,5 +1,7 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { computed, ref } from 'vue'
+
+import { nouns } from '@/data/nouns'
 
 import { useAudios } from '@/composables/useAudios'
 import { useNouns } from '@/composables/useNouns'
@@ -7,8 +9,10 @@ import { useNouns } from '@/composables/useNouns'
 import { useNounsStore } from '@/store/useNounsStore'
 
 import BaseNounMeaningExercise from '@/components/BaseNounMeaningExercise.vue'
+import BaseCategorySelector from '@/components/BaseCategorySelector.vue'
 
 import type { GermanNoun } from '@/interfaces/GermanNoun'
+import type { Category } from '@/data/categories'
 
 const nounsStore = useNounsStore()
 
@@ -26,13 +30,18 @@ const {
   playIncorrectSound
 } = useAudios()
 
-// ----------------------------------------
-// RANDOM NOUNS
-// ----------------------------------------
-const answerNoun = ref<GermanNoun>(getRandomNounBasedOnHistory())
-const randomNouns = ref<GermanNoun[]>(getRandomNouns({
-  excludeNouns: [answerNoun.value]
-}))
+const selectedCategories = ref<Category[]>([])
+const isPracticeStarted = ref(false)
+const answerNoun = ref<GermanNoun | null>(null)
+const randomNouns = ref<GermanNoun[]>([])
+
+const practiceNouns = computed(() => {
+  const selected = new Set(selectedCategories.value)
+
+  return nouns.filter(noun =>
+    noun.categories.some(category => selected.has(category))
+  )
+})
 
 // ERROR COUNT
 const errorCount = ref<number>(0)
@@ -55,10 +64,24 @@ const onCorrect = (noun: GermanNoun) => {
 }
 
 const handleNext = () => {
-  answerNoun.value = getRandomNounBasedOnHistory()
+  answerNoun.value = getRandomNounBasedOnHistory(practiceNouns.value)
   randomNouns.value = getRandomNouns({
-    excludeNouns: [answerNoun.value]
+    n: Math.min(5, practiceNouns.value.length - 1),
+    excludeNouns: [answerNoun.value],
+    sourceNouns: practiceNouns.value
   })
+}
+
+const startPractice = (categories: Category[]) => {
+  selectedCategories.value = categories
+  isPracticeStarted.value = true
+  handleNext()
+}
+
+const changeCategories = () => {
+  isPracticeStarted.value = false
+  answerNoun.value = null
+  randomNouns.value = []
 }
 </script>
 <template>
@@ -66,13 +89,32 @@ const handleNext = () => {
     v-auto-animate
     class="space-y-4"
   >
-    <BaseNounMeaningExercise
-      :key="answerNoun.id"
-      :answer="answerNoun"
-      :options="randomNouns"
-      @correct="onCorrect"
-      @incorrect="onIncorrect"
-      @next="handleNext"
+    <BaseCategorySelector
+      v-if="!isPracticeStarted"
+      :items="nouns"
+      @start="startPractice"
     />
+
+    <template
+      v-else
+    >
+      <button
+        type="button"
+        class="btn"
+        @click="changeCategories"
+      >
+        {{ $t('practice.categories.change') }}
+      </button>
+
+      <BaseNounMeaningExercise
+        v-if="answerNoun"
+        :key="answerNoun.id"
+        :answer="answerNoun"
+        :options="randomNouns"
+        @correct="onCorrect"
+        @incorrect="onIncorrect"
+        @next="handleNext"
+      />
+    </template>
   </div>
 </template>

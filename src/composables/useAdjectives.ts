@@ -8,10 +8,14 @@ export function useAdjectives () {
   // ----------------------------------------
   // GET RANDOM ADJECTIVE
   // ----------------------------------------
-  const getRandomAdjective = (): GermanAdjective => {
-    const adjectivesQuantity = adjectives.length
+  const getRandomAdjective = (sourceAdjectives: GermanAdjective[] = adjectives): GermanAdjective => {
+    if (!sourceAdjectives.length) {
+      throw new Error('No adjectives available to generate a random adjective')
+    }
 
-    const randomAdjective = adjectives[Math.floor(Math.random() * adjectivesQuantity)]!
+    const adjectivesQuantity = sourceAdjectives.length
+
+    const randomAdjective = sourceAdjectives[Math.floor(Math.random() * adjectivesQuantity)]!
 
     return randomAdjective
   }
@@ -22,24 +26,26 @@ export function useAdjectives () {
   type GetRandomAdjectivesParams = {
     n?: number
     excludeAdjectives?: GermanAdjective[]
+    sourceAdjectives?: GermanAdjective[]
   }
 
   const getRandomAdjectives = (params: GetRandomAdjectivesParams = {}): GermanAdjective[] => {
     const {
       n = 5,
-      excludeAdjectives = []
+      excludeAdjectives = [],
+      sourceAdjectives = adjectives
     } = params
 
     const excludedAdjectiveIds = new Set(excludeAdjectives.map(adjective => adjective.id))
 
-    if (n > adjectives.length - excludedAdjectiveIds.size) {
+    if (n > sourceAdjectives.length - excludedAdjectiveIds.size) {
       throw new Error('Not enough adjectives to generate random adjectives')
     }
 
     const randomAdjectives = new Map<string, GermanAdjective>()
 
     while (randomAdjectives.size < n) {
-      const adjective = getRandomAdjective()
+      const adjective = getRandomAdjective(sourceAdjectives)
 
       if (excludedAdjectiveIds.has(adjective.id)) continue
       if (randomAdjectives.has(adjective.id)) continue
@@ -54,13 +60,13 @@ export function useAdjectives () {
   // GET RANDOM ADJECTIVE BASED ON HISTORY
   // ----------------------------------------
   const localRandomAdjectivesIds = ref<Set<string>>(new Set())
-  const getRandomAdjectiveBasedOnHistory = (): GermanAdjective => {
-    const availableAdjectives = adjectives.filter(adjective => !localRandomAdjectivesIds.value.has(adjective.id))
+  const getRandomAdjectiveBasedOnHistory = (sourceAdjectives: GermanAdjective[] = adjectives): GermanAdjective => {
+    const availableAdjectives = sourceAdjectives.filter(adjective => !localRandomAdjectivesIds.value.has(adjective.id))
 
     if (!availableAdjectives.length) {
       localRandomAdjectivesIds.value.clear()
 
-      return getRandomAdjective()
+      return getRandomAdjective(sourceAdjectives)
     }
 
     const randomAdjective = availableAdjectives[Math.floor(Math.random() * availableAdjectives.length)]!
