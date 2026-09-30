@@ -1,3 +1,5 @@
+import { CATEGORIES } from '@/data/categories'
+
 import type { GermanAdjective } from '@/interfaces/GermanAdjectives'
 
 export const adjectives: GermanAdjective[] = [
@@ -10,7 +12,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'old',
       es: 'viejo'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT, CATEGORIES.BODY, CATEGORIES.FAMILY, CATEGORIES.HEALTH, CATEGORIES.PEOPLE, CATEGORIES.PERSONAL_INFO, CATEGORIES.TIME]
   },
   {
     id: 'billig',
@@ -21,7 +24,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'cheap',
       es: 'barato'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT, CATEGORIES.CLOTHING, CATEGORIES.HOUSEHOLD, CATEGORIES.MONEY, CATEGORIES.SHOPPING]
   },
   {
     id: 'dick',
@@ -32,7 +36,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'thick',
       es: 'grueso'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT, CATEGORIES.BODY, CATEGORIES.HEALTH, CATEGORIES.PEOPLE]
   },
   {
     id: 'dunkel',
@@ -43,7 +48,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'dark',
       es: 'oscuro'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT, CATEGORIES.ARTS, CATEGORIES.CLOTHING, CATEGORIES.HOUSEHOLD, CATEGORIES.LOCATIONS, CATEGORIES.NATURE, CATEGORIES.WEATHER]
   },
   {
     id: 'fertig',
@@ -54,7 +60,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'ready',
       es: 'listo'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT, CATEGORIES.HOUSEHOLD, CATEGORIES.WORK]
   },
   {
     id: 'frei',
@@ -65,7 +72,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'free',
       es: 'libre'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT, CATEGORIES.HOUSEHOLD, CATEGORIES.LEISURE, CATEGORIES.LOCATIONS, CATEGORIES.TRAVEL, CATEGORIES.WORK]
   },
   {
     id: 'groß',
@@ -76,7 +84,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'big',
       es: 'grande'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT, CATEGORIES.BODY, CATEGORIES.CLOTHING, CATEGORIES.HOUSEHOLD, CATEGORIES.LOCATIONS, CATEGORIES.PEOPLE]
   },
   {
     id: 'gut',
@@ -87,7 +96,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'good',
       es: 'bueno'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT, CATEGORIES.COMMUNICATION, CATEGORIES.EDUCATION, CATEGORIES.EMOTIONS, CATEGORIES.WORK]
   },
   {
     id: 'hart',
@@ -98,7 +108,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'hard',
       es: 'duro'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT]
   },
   {
     id: 'hässlich',
@@ -109,7 +120,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'ugly',
       es: 'feo'
-    }
+    },
+    categories: [CATEGORIES.ARTS, CATEGORIES.PEOPLE]
   },
   {
     id: 'heiß',
@@ -120,7 +132,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'hot',
       es: 'caliente'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT, CATEGORIES.DRINK, CATEGORIES.FOOD, CATEGORIES.HOUSEHOLD, CATEGORIES.KITCHEN, CATEGORIES.NATURE, CATEGORIES.WEATHER]
   },
   {
     id: 'hell',
@@ -131,7 +144,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'bright',
       es: 'claro'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT, CATEGORIES.ARTS, CATEGORIES.CLOTHING, CATEGORIES.HOUSEHOLD, CATEGORIES.LOCATIONS, CATEGORIES.NATURE, CATEGORIES.WEATHER]
   },
   {
     id: 'jung',
@@ -142,7 +156,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'young',
       es: 'joven'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT, CATEGORIES.BODY, CATEGORIES.FAMILY, CATEGORIES.PEOPLE, CATEGORIES.PERSONAL_INFO, CATEGORIES.TIME]
   },
   {
     id: 'kalt',
@@ -153,7 +168,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'cold',
       es: 'frío'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT, CATEGORIES.DRINK, CATEGORIES.FOOD, CATEGORIES.HOUSEHOLD, CATEGORIES.KITCHEN, CATEGORIES.NATURE, CATEGORIES.WEATHER]
   },
   {
     id: 'kaputt',
@@ -164,7 +180,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'broken',
       es: 'roto'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT, CATEGORIES.HOUSEHOLD, CATEGORIES.TECHNOLOGY]
   },
   {
     id: 'klein',
@@ -175,7 +192,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'small',
       es: 'pequeño'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT, CATEGORIES.BODY, CATEGORIES.CLOTHING, CATEGORIES.HOUSEHOLD, CATEGORIES.LOCATIONS, CATEGORIES.PEOPLE]
   },
   {
     id: 'kurz',
@@ -186,7 +204,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'short',
       es: 'corto'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT, CATEGORIES.BODY, CATEGORIES.CLOTHING, CATEGORIES.TIME]
   },
   {
     id: 'lang',
@@ -197,7 +216,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'long',
       es: 'largo'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT, CATEGORIES.BODY, CATEGORIES.CLOTHING, CATEGORIES.HOUSEHOLD, CATEGORIES.LOCATIONS, CATEGORIES.TIME]
   },
   {
     id: 'langsam',
@@ -208,7 +228,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'slow',
       es: 'lento'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT, CATEGORIES.BODY, CATEGORIES.SPORTS, CATEGORIES.TIME, CATEGORIES.TRANSPORTATION]
   },
   {
     id: 'müde',
@@ -219,7 +240,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'tired',
       es: 'cansado'
-    }
+    },
+    categories: [CATEGORIES.BODY, CATEGORIES.HEALTH]
   },
   {
     id: 'neu',
@@ -230,7 +252,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'new',
       es: 'nuevo'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT, CATEGORIES.CLOTHING, CATEGORIES.HOUSEHOLD, CATEGORIES.TECHNOLOGY]
   },
   {
     id: 'sauber',
@@ -241,7 +264,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'clean',
       es: 'limpio'
-    }
+    },
+    categories: [CATEGORIES.BODY, CATEGORIES.CLOTHING, CATEGORIES.HEALTH, CATEGORIES.HOUSEHOLD, CATEGORIES.KITCHEN, CATEGORIES.LOCATIONS]
   },
   {
     id: 'schlecht',
@@ -252,7 +276,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'bad',
       es: 'malo'
-    }
+    },
+    categories: [CATEGORIES.COMMUNICATION, CATEGORIES.EDUCATION, CATEGORIES.EMOTIONS, CATEGORIES.WORK]
   },
   {
     id: 'schmutzig',
@@ -263,7 +288,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'dirty',
       es: 'sucio'
-    }
+    },
+    categories: [CATEGORIES.BODY, CATEGORIES.CLOTHING, CATEGORIES.HEALTH, CATEGORIES.HOUSEHOLD, CATEGORIES.KITCHEN, CATEGORIES.LOCATIONS]
   },
   {
     id: 'schnell',
@@ -274,7 +300,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'fast',
       es: 'rápido'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT, CATEGORIES.BODY, CATEGORIES.SPORTS, CATEGORIES.TIME, CATEGORIES.TRANSPORTATION]
   },
   {
     id: 'schön',
@@ -285,7 +312,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'beautiful',
       es: 'hermoso'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT, CATEGORIES.ARTS, CATEGORIES.BODY, CATEGORIES.CLOTHING, CATEGORIES.LEISURE, CATEGORIES.LOCATIONS, CATEGORIES.NATURE, CATEGORIES.PEOPLE, CATEGORIES.WEATHER]
   },
   {
     id: 'schwach',
@@ -296,7 +324,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'weak',
       es: 'débil'
-    }
+    },
+    categories: [CATEGORIES.BODY, CATEGORIES.HEALTH, CATEGORIES.PEOPLE, CATEGORIES.SPORTS]
   },
   {
     id: 'stark',
@@ -307,7 +336,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'strong',
       es: 'fuerte'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT, CATEGORIES.BODY, CATEGORIES.HEALTH, CATEGORIES.PEOPLE, CATEGORIES.SPORTS]
   },
   {
     id: 'teuer',
@@ -318,7 +348,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'expensive',
       es: 'caro'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT, CATEGORIES.CLOTHING, CATEGORIES.HOUSEHOLD, CATEGORIES.MONEY, CATEGORIES.SHOPPING]
   },
   {
     id: 'toll',
@@ -329,7 +360,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'great',
       es: 'genial'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT, CATEGORIES.LEISURE]
   },
   {
     id: 'traurig',
@@ -340,7 +372,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'sad',
       es: 'triste'
-    }
+    },
+    categories: [CATEGORIES.BODY, CATEGORIES.EMOTIONS, CATEGORIES.HEALTH, CATEGORIES.PEOPLE]
   },
   {
     id: 'weit',
@@ -351,7 +384,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'far',
       es: 'lejano'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT, CATEGORIES.LOCATIONS, CATEGORIES.TRANSPORTATION, CATEGORIES.TRAVEL]
   },
   {
     id: 'wütend',
@@ -362,7 +396,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'angry',
       es: 'enojado'
-    }
+    },
+    categories: [CATEGORIES.BODY, CATEGORIES.EMOTIONS, CATEGORIES.HEALTH, CATEGORIES.PEOPLE]
   },
   {
     id: 'arbeitslos',
@@ -373,7 +408,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'unemployed',
       es: 'desempleado'
-    }
+    },
+    categories: [CATEGORIES.PEOPLE, CATEGORIES.PERSONAL_INFO, CATEGORIES.PROFESSIONS, CATEGORIES.WORK]
   },
   {
     id: 'blau',
@@ -384,7 +420,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'blue',
       es: 'azul'
-    }
+    },
+    categories: [CATEGORIES.CLOTHING]
   },
   {
     id: 'braun',
@@ -395,7 +432,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'brown',
       es: 'marrón'
-    }
+    },
+    categories: [CATEGORIES.CLOTHING]
   },
   {
     id: 'doof',
@@ -406,7 +444,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'stupid',
       es: 'tonto'
-    }
+    },
+    categories: [CATEGORIES.EMOTIONS, CATEGORIES.PEOPLE]
   },
   {
     id: 'frisch',
@@ -417,7 +456,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'fresh',
       es: 'fresco'
-    }
+    },
+    categories: [CATEGORIES.BODY, CATEGORIES.DRINK, CATEGORIES.FOOD, CATEGORIES.HEALTH, CATEGORIES.KITCHEN, CATEGORIES.NATURE]
   },
   {
     id: 'gelb',
@@ -428,7 +468,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'yellow',
       es: 'amarillo'
-    }
+    },
+    categories: [CATEGORIES.CLOTHING]
   },
   {
     id: 'geschieden',
@@ -439,7 +480,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'divorced',
       es: 'divorciado'
-    }
+    },
+    categories: [CATEGORIES.FAMILY, CATEGORIES.PEOPLE, CATEGORIES.PERSONAL_INFO]
   },
   {
     id: 'grau',
@@ -450,7 +492,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'gray',
       es: 'gris'
-    }
+    },
+    categories: [CATEGORIES.CLOTHING, CATEGORIES.WEATHER]
   },
   {
     id: 'grün',
@@ -461,7 +504,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'green',
       es: 'verde'
-    }
+    },
+    categories: [CATEGORIES.CLOTHING, CATEGORIES.NATURE]
   },
   {
     id: 'interessant',
@@ -472,7 +516,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'interesting',
       es: 'interesante'
-    }
+    },
+    categories: [CATEGORIES.COMMUNICATION, CATEGORIES.EDUCATION, CATEGORIES.LANGUAGE, CATEGORIES.LEISURE]
   },
   {
     id: 'lecker',
@@ -483,7 +528,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'delicious',
       es: 'delicioso'
-    }
+    },
+    categories: [CATEGORIES.DRINK, CATEGORIES.FOOD, CATEGORIES.KITCHEN]
   },
   {
     id: 'lila',
@@ -494,7 +540,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'purple',
       es: 'morado'
-    }
+    },
+    categories: [CATEGORIES.CLOTHING]
   },
   {
     id: 'lustig',
@@ -505,7 +552,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'funny',
       es: 'divertido'
-    }
+    },
+    categories: [CATEGORIES.EMOTIONS, CATEGORIES.LEISURE, CATEGORIES.PEOPLE]
   },
   {
     id: 'nett',
@@ -516,7 +564,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'nice',
       es: 'amable'
-    }
+    },
+    categories: [CATEGORIES.COMMUNICATION, CATEGORIES.EMOTIONS, CATEGORIES.FAMILY, CATEGORIES.PEOPLE]
   },
   {
     id: 'richtig',
@@ -527,7 +576,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'correct',
       es: 'correcto'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT, CATEGORIES.COMMUNICATION, CATEGORIES.EDUCATION, CATEGORIES.LANGUAGE]
   },
   {
     id: 'rosa',
@@ -538,7 +588,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'pink',
       es: 'rosa'
-    }
+    },
+    categories: [CATEGORIES.CLOTHING]
   },
   {
     id: 'rot',
@@ -549,7 +600,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'red',
       es: 'rojo'
-    }
+    },
+    categories: [CATEGORIES.CLOTHING]
   },
   {
     id: 'schwarz',
@@ -560,7 +612,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'black',
       es: 'negro'
-    }
+    },
+    categories: [CATEGORIES.CLOTHING]
   },
   {
     id: 'spät',
@@ -571,7 +624,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'late',
       es: 'tarde'
-    }
+    },
+    categories: [CATEGORIES.TIME]
   },
   {
     id: 'super',
@@ -582,7 +636,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'super',
       es: 'súper'
-    }
+    },
+    categories: [CATEGORIES.COMMUNICATION, CATEGORIES.EMOTIONS]
   },
   {
     id: 'vegan',
@@ -593,7 +648,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'vegan',
       es: 'vegano'
-    }
+    },
+    categories: [CATEGORIES.FOOD]
   },
   {
     id: 'vegetarisch',
@@ -604,7 +660,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'vegetarian',
       es: 'vegetariano'
-    }
+    },
+    categories: [CATEGORIES.FOOD]
   },
   {
     id: 'verheiratet',
@@ -615,7 +672,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'married',
       es: 'casado'
-    }
+    },
+    categories: [CATEGORIES.FAMILY, CATEGORIES.PEOPLE, CATEGORIES.PERSONAL_INFO]
   },
   {
     id: 'verwitwet',
@@ -626,7 +684,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'widowed',
       es: 'viudo'
-    }
+    },
+    categories: [CATEGORIES.FAMILY, CATEGORIES.PEOPLE, CATEGORIES.PERSONAL_INFO]
   },
   {
     id: 'warm',
@@ -637,7 +696,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'warm',
       es: 'cálido'
-    }
+    },
+    categories: [CATEGORIES.BODY, CATEGORIES.DRINK, CATEGORIES.FOOD, CATEGORIES.HEALTH, CATEGORIES.HOUSEHOLD, CATEGORIES.KITCHEN, CATEGORIES.NATURE, CATEGORIES.WEATHER]
   },
   {
     id: 'weiß',
@@ -648,7 +708,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'white',
       es: 'blanco'
-    }
+    },
+    categories: [CATEGORIES.CLOTHING]
   },
   {
     id: 'wichtig',
@@ -659,7 +720,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'important',
       es: 'importante'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT, CATEGORIES.COMMUNICATION, CATEGORIES.EDUCATION, CATEGORIES.LANGUAGE, CATEGORIES.PROFESSIONS, CATEGORIES.WORK]
   },
   {
     id: 'beruflich',
@@ -670,7 +732,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'professional / work-related',
       es: 'profesional / laboral'
-    }
+    },
+    categories: [CATEGORIES.PEOPLE, CATEGORIES.PERSONAL_INFO, CATEGORIES.PROFESSIONS, CATEGORIES.WORK]
   },
   {
     id: 'einfach',
@@ -681,7 +744,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'easy / simple',
       es: 'fácil / simple'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT, CATEGORIES.COMMUNICATION, CATEGORIES.EDUCATION, CATEGORIES.LANGUAGE, CATEGORIES.WORK]
   },
   {
     id: 'geboren',
@@ -692,7 +756,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'born',
       es: 'nacido'
-    }
+    },
+    categories: [CATEGORIES.PEOPLE, CATEGORIES.PERSONAL_INFO]
   },
   {
     id: 'herzlich',
@@ -703,7 +768,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'warm / cordial',
       es: 'cordial / afectuoso'
-    }
+    },
+    categories: [CATEGORIES.COMMUNICATION, CATEGORIES.PEOPLE]
   },
   {
     id: 'komisch',
@@ -714,7 +780,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'strange / funny',
       es: 'raro / gracioso'
-    }
+    },
+    categories: [CATEGORIES.COMMUNICATION, CATEGORIES.LANGUAGE]
   },
   {
     id: 'kostenlos',
@@ -725,7 +792,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'free of charge',
       es: 'gratis'
-    }
+    },
+    categories: [CATEGORIES.MONEY, CATEGORIES.SHOPPING]
   },
   {
     id: 'langweilig',
@@ -736,7 +804,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'boring',
       es: 'aburrido'
-    }
+    },
+    categories: [CATEGORIES.LEISURE]
   },
   {
     id: 'nötig',
@@ -747,7 +816,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'necessary',
       es: 'necesario'
-    }
+    },
+    categories: [CATEGORIES.EDUCATION, CATEGORIES.HEALTH, CATEGORIES.WORK]
   },
   {
     id: 'praktisch',
@@ -758,7 +828,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'practical',
       es: 'práctico'
-    }
+    },
+    categories: [CATEGORIES.EDUCATION, CATEGORIES.HOUSEHOLD, CATEGORIES.SHOPPING, CATEGORIES.TECHNOLOGY, CATEGORIES.WORK]
   },
   {
     id: 'privat',
@@ -769,7 +840,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'private',
       es: 'privado'
-    }
+    },
+    categories: [CATEGORIES.LOCATIONS, CATEGORIES.PERSONAL_INFO, CATEGORIES.TRAVEL]
   },
   {
     id: 'willkommen',
@@ -780,7 +852,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'welcome',
       es: 'bienvenido'
-    }
+    },
+    categories: [CATEGORIES.COMMUNICATION]
   },
   {
     id: 'wunderbar',
@@ -791,7 +864,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'wonderful',
       es: 'maravilloso'
-    }
+    },
+    categories: [CATEGORIES.LEISURE]
   },
   {
     id: 'zufrieden',
@@ -802,7 +876,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'satisfied',
       es: 'satisfecho'
-    }
+    },
+    categories: [CATEGORIES.EMOTIONS, CATEGORIES.WORK]
   },
   {
     id: 'früh',
@@ -813,7 +888,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'early',
       es: 'temprano'
-    }
+    },
+    categories: [CATEGORIES.TIME]
   },
   {
     id: 'möbliert',
@@ -824,7 +900,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'furnished',
       es: 'amueblado'
-    }
+    },
+    categories: [CATEGORIES.HOUSEHOLD, CATEGORIES.LOCATIONS]
   },
   {
     id: 'öffentlich',
@@ -835,7 +912,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'public',
       es: 'público'
-    }
+    },
+    categories: [CATEGORIES.LOCATIONS, CATEGORIES.TRANSPORTATION, CATEGORIES.TRAVEL]
   },
   {
     id: 'glücklich',
@@ -846,7 +924,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'happy',
       es: 'feliz'
-    }
+    },
+    categories: [CATEGORIES.EMOTIONS]
   },
   {
     id: 'mutig',
@@ -857,7 +936,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'brave / courageous',
       es: 'valiente'
-    }
+    },
+    categories: [CATEGORIES.EMOTIONS]
   },
   {
     id: 'ängstlich',
@@ -868,7 +948,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'fearful / anxious',
       es: 'miedoso/a / temeroso/a'
-    }
+    },
+    categories: [CATEGORIES.EMOTIONS]
   },
   {
     id: 'pessimistisch',
@@ -879,7 +960,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'pessimistic',
       es: 'pesimista'
-    }
+    },
+    categories: [CATEGORIES.EMOTIONS]
   },
   {
     id: 'optimistisch',
@@ -890,7 +972,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'optimistic',
       es: 'optimista'
-    }
+    },
+    categories: [CATEGORIES.EMOTIONS]
   },
   {
     id: 'intelligent',
@@ -901,7 +984,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'intelligent',
       es: 'inteligente'
-    }
+    },
+    categories: [CATEGORIES.EDUCATION, CATEGORIES.PEOPLE, CATEGORIES.PROFESSIONS, CATEGORIES.WORK]
   },
   {
     id: 'schwanger',
@@ -912,7 +996,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'pregnant',
       es: 'embarazada'
-    }
+    },
+    categories: [CATEGORIES.BODY, CATEGORIES.FAMILY, CATEGORIES.HEALTH, CATEGORIES.PEOPLE, CATEGORIES.PERSONAL_INFO]
   },
   {
     id: 'sympathisch',
@@ -923,7 +1008,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'likeable / nice',
       es: 'simpático/a'
-    }
+    },
+    categories: [CATEGORIES.COMMUNICATION, CATEGORIES.EMOTIONS, CATEGORIES.FAMILY, CATEGORIES.PEOPLE]
   },
   {
     id: 'fleißig',
@@ -934,7 +1020,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'hard-working / diligent',
       es: 'trabajador/a / aplicado/a'
-    }
+    },
+    categories: [CATEGORIES.EDUCATION, CATEGORIES.PEOPLE, CATEGORIES.PROFESSIONS, CATEGORIES.WORK]
   },
   {
     id: 'voll',
@@ -945,7 +1032,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'full / complete',
       es: 'lleno/a / completo/a'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT]
   },
   {
     id: 'sicher',
@@ -956,7 +1044,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'sure / certain / safe',
       es: 'seguro/a'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT, CATEGORIES.EMOTIONS, CATEGORIES.WORK]
   },
   {
     id: 'sinnlos',
@@ -967,7 +1056,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'pointless / meaningless',
       es: 'sin sentido'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT, CATEGORIES.WORK]
   },
   {
     id: 'stressig',
@@ -978,7 +1068,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'stressful',
       es: 'estresante'
-    }
+    },
+    categories: [CATEGORIES.EMOTIONS, CATEGORIES.HEALTH, CATEGORIES.PROFESSIONS, CATEGORIES.WORK]
   },
   {
     id: 'ordentlich',
@@ -989,7 +1080,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'neat / proper',
       es: 'arreglado/a / apropiado/a'
-    }
+    },
+    categories: [CATEGORIES.CLOTHING, CATEGORIES.PEOPLE, CATEGORIES.PROFESSIONS, CATEGORIES.WORK]
   },
   {
     id: 'offen',
@@ -1000,7 +1092,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'open / unanswered',
       es: 'abierto/a / pendiente'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT, CATEGORIES.COMMUNICATION]
   },
   {
     id: 'wach',
@@ -1011,7 +1104,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'awake',
       es: 'despierto/a'
-    }
+    },
+    categories: [CATEGORIES.BODY, CATEGORIES.HEALTH, CATEGORIES.PEOPLE]
   },
   {
     id: 'verliebt',
@@ -1022,7 +1116,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'in love',
       es: 'enamorado/a'
-    }
+    },
+    categories: [CATEGORIES.EMOTIONS, CATEGORIES.PEOPLE]
   },
   {
     id: 'scharf',
@@ -1033,7 +1128,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'spicy / sharp',
       es: 'picante / afilado'
-    }
+    },
+    categories: [CATEGORIES.DRINK, CATEGORIES.FOOD, CATEGORIES.KITCHEN]
   },
   {
     id: 'süß',
@@ -1044,7 +1140,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'sweet',
       es: 'dulce'
-    }
+    },
+    categories: [CATEGORIES.DRINK, CATEGORIES.FOOD, CATEGORIES.KITCHEN]
   },
   {
     id: 'salzig',
@@ -1055,7 +1152,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'salty',
       es: 'salado/a'
-    }
+    },
+    categories: [CATEGORIES.FOOD, CATEGORIES.KITCHEN]
   },
   {
     id: 'bitter',
@@ -1066,7 +1164,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'bitter',
       es: 'amargo/a'
-    }
+    },
+    categories: [CATEGORIES.DRINK, CATEGORIES.FOOD, CATEGORIES.KITCHEN]
   },
   {
     id: 'satt',
@@ -1077,7 +1176,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'full / not hungry',
       es: 'lleno/a / satisfecho/a'
-    }
+    },
+    categories: [CATEGORIES.BODY, CATEGORIES.FOOD, CATEGORIES.HEALTH, CATEGORIES.KITCHEN]
   },
   {
     id: 'fantastisch',
@@ -1088,7 +1188,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'fantastic',
       es: 'fantástico/a'
-    }
+    },
+    categories: [CATEGORIES.ARTS, CATEGORIES.FOOD, CATEGORIES.KITCHEN]
   },
   {
     id: 'getrennt',
@@ -1099,7 +1200,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'separate / separately',
       es: 'separado/a / por separado'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT]
   },
   {
     id: 'einverstanden',
@@ -1110,7 +1212,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'agreed / in agreement',
       es: 'de acuerdo'
-    }
+    },
+    categories: [CATEGORIES.COMMUNICATION, CATEGORIES.EMOTIONS]
   },
   {
     id: 'gemütlich',
@@ -1121,7 +1224,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'cosy / comfortable',
       es: 'acogedor/a'
-    }
+    },
+    categories: [CATEGORIES.EMOTIONS, CATEGORIES.HOUSEHOLD, CATEGORIES.LEISURE, CATEGORIES.LOCATIONS]
   },
   {
     id: 'anstrengend',
@@ -1132,7 +1236,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'strenuous / exhausting',
       es: 'agotador/a / exigente'
-    }
+    },
+    categories: [CATEGORIES.EMOTIONS, CATEGORIES.HEALTH, CATEGORIES.LEISURE, CATEGORIES.PROFESSIONS, CATEGORIES.SPORTS, CATEGORIES.TRANSPORTATION, CATEGORIES.TRAVEL, CATEGORIES.WORK]
   },
   {
     id: 'hübsch',
@@ -1143,7 +1248,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'pretty',
       es: 'bonito/a / guapo/a'
-    }
+    },
+    categories: [CATEGORIES.ARTS, CATEGORIES.CLOTHING]
   },
   {
     id: 'geeignet',
@@ -1154,7 +1260,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'suitable',
       es: 'adecuado/a'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT, CATEGORIES.CLOTHING, CATEGORIES.EDUCATION, CATEGORIES.PROFESSIONS, CATEGORIES.SHOPPING, CATEGORIES.SPORTS, CATEGORIES.TRAVEL, CATEGORIES.WORK]
   },
   {
     id: 'sportlich',
@@ -1165,7 +1272,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'sporty / athletic',
       es: 'deportivo/a'
-    }
+    },
+    categories: [CATEGORIES.BODY, CATEGORIES.HEALTH, CATEGORIES.LEISURE, CATEGORIES.PERSONAL_INFO, CATEGORIES.SPORTS]
   },
   {
     id: 'beliebt',
@@ -1176,7 +1284,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'popular',
       es: 'popular'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT, CATEGORIES.LEISURE, CATEGORIES.SHOPPING, CATEGORIES.WORK]
   },
   {
     id: 'leer',
@@ -1187,7 +1296,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'empty / flat',
       es: 'vacío/a / descargado/a'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT, CATEGORIES.HOUSEHOLD, CATEGORIES.KITCHEN, CATEGORIES.LOCATIONS, CATEGORIES.TECHNOLOGY]
   },
   {
     id: 'unfreundlich',
@@ -1198,7 +1308,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'unfriendly',
       es: 'antipático/a / poco amable'
-    }
+    },
+    categories: [CATEGORIES.COMMUNICATION, CATEGORIES.PEOPLE, CATEGORIES.WORK]
   },
   {
     id: 'stolz',
@@ -1209,7 +1320,8 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'proud',
       es: 'orgulloso/a'
-    }
+    },
+    categories: [CATEGORIES.EMOTIONS, CATEGORIES.PEOPLE, CATEGORIES.WORK]
   },
   {
     id: 'prima',
@@ -1220,6 +1332,7 @@ export const adjectives: GermanAdjective[] = [
     translations: {
       en: 'great / excellent',
       es: 'estupendo/a / excelente'
-    }
+    },
+    categories: [CATEGORIES.ABSTRACT]
   }
 ]

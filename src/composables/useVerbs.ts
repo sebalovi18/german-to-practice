@@ -8,10 +8,14 @@ export function useVerbs () {
   // ----------------------------------------
   // GET RANDOM VERB
   // ----------------------------------------
-  const getRandomVerb = (): GermanVerb => {
-    const verbsQuantity = verbs.length
+  const getRandomVerb = (sourceVerbs: GermanVerb[] = verbs): GermanVerb => {
+    if (!sourceVerbs.length) {
+      throw new Error('No verbs available to generate a random verb')
+    }
 
-    const randomVerb = verbs[Math.floor(Math.random() * verbsQuantity)]!
+    const verbsQuantity = sourceVerbs.length
+
+    const randomVerb = sourceVerbs[Math.floor(Math.random() * verbsQuantity)]!
 
     return randomVerb
   }
@@ -22,12 +26,14 @@ export function useVerbs () {
   type GetRandomVerbsParams = {
     n?: number
     excludeVerbs?: GermanVerb[]
+    sourceVerbs?: GermanVerb[]
   }
 
   const getRandomVerbs = (params: GetRandomVerbsParams = {}): GermanVerb[] => {
     const {
       n = 5,
-      excludeVerbs = []
+      excludeVerbs = [],
+      sourceVerbs = verbs
     } = params
 
     // ----------------------------------------
@@ -35,7 +41,7 @@ export function useVerbs () {
     // ----------------------------------------
     const excludedVerbIds = new Set(excludeVerbs.map(verb => verb.id))
 
-    if (n > verbs.length - excludedVerbIds.size) {
+    if (n > sourceVerbs.length - excludedVerbIds.size) {
       throw new Error('Not enough verbs to generate random verbs')
     }
 
@@ -45,7 +51,7 @@ export function useVerbs () {
     const randomVerbs = new Map<string, GermanVerb>()
 
     while (randomVerbs.size < n) {
-      const verb = getRandomVerb()
+      const verb = getRandomVerb(sourceVerbs)
 
       if (excludedVerbIds.has(verb.id)) continue
       if (randomVerbs.has(verb.id)) continue
@@ -60,13 +66,13 @@ export function useVerbs () {
   // GET RANDOM VERB BASED ON HISTORY
   // ----------------------------------------
   const localRandomVerbsIds = ref<Set<string>>(new Set())
-  const getRandomVerbBasedOnHistory = (): GermanVerb => {
-    const availableVerbs = verbs.filter(verb => !localRandomVerbsIds.value.has(verb.id))
+  const getRandomVerbBasedOnHistory = (sourceVerbs: GermanVerb[] = verbs): GermanVerb => {
+    const availableVerbs = sourceVerbs.filter(verb => !localRandomVerbsIds.value.has(verb.id))
 
     if (!availableVerbs.length) {
       localRandomVerbsIds.value.clear()
 
-      return getRandomVerb()
+      return getRandomVerb(sourceVerbs)
     }
 
     const randomVerb = availableVerbs[Math.floor(Math.random() * availableVerbs.length)]!

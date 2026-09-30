@@ -10,5 +10,5 @@ export interface GermanVerb {
   translations: Record<Language, string>
   auxiliary?: 'haben' | 'sein'
   levels?: string[]
-  categories?: Category[]
+  categories: Category[]
 }

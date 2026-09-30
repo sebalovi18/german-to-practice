@@ -1,15 +1,17 @@
 # 🇩🇪 German to Practice
 
-A friendly place to build German vocabulary with searchable word lists and short practice exercises. Browse the complete A1.1 and A1.2 vocabulary from *Miteinander!*, or use the focused noun, verb, and adjective exercises.
+A friendly place to build German vocabulary with searchable word lists and short practice exercises. Browse the complete A1.1 and A1.2 vocabulary plus A2.1 lessons 1–4 from *Miteinander!*, or use the focused noun, verb, and adjective exercises.
 
 ## ✨ Features
 
-- 📚 Browse 1,126 unique A1.1 and A1.2 vocabulary entries.
+- 📚 Browse 1,398 vocabulary entries across A1.1, A1.2, and A2.1 lessons 1–4.
 - 🔎 Search German words, forms, examples, and English or Spanish translations.
 - 🏷️ Filter the complete vocabulary by level and word type.
 - 📖 Browse German nouns with articles, singular forms, and plural forms.
 - 🏋️ Practice articles with randomized sessions for `der`, `die`, and `das`.
 - 🧠 Practice meanings for nouns, verbs, and adjectives.
+- 🗂️ Combine one or more vocabulary categories before starting any practice exercise.
+- 🔢 See how many words each category contains for the selected exercise.
 - 💡 Use hints, show answers, and move through exercises at your own pace.
 - ⌨️ Use keyboard shortcuts during practice, including number keys for answers.
 - 🌍 Switch the interface between English and Spanish.
@@ -20,17 +22,18 @@ A friendly place to build German vocabulary with searchable word lists and short
 
 The vocabulary lives in `src/data`:
 
-- `src/data/vocabulary.ts`: 1,126 unique A1.1 and A1.2 entries
-- `src/data/nouns.ts`: 270 nouns
-- `src/data/verbs.ts`: 70 verbs
-- `src/data/adjectives.ts`: 33 adjectives
+- `src/data/vocabulary.ts`: the combined A1.1, A1.2, and A2.1 vocabulary
+- `src/data/nouns.ts`: 739 singular and plural noun forms
+- `src/data/verbs.ts`: 219 verbs
+- `src/data/adjectives.ts`: 111 adjectives
+- `src/data/categories.ts`: shared category identifiers used by all practice words
 
-Entries include German forms and English and Spanish translations. The complete A1 vocabulary also includes level, lesson, page, word type, and book examples where available.
+Entries include German forms and English and Spanish translations. The complete vocabulary also includes level, lesson, page, word type, and book examples where available.
 
 ## 🧭 Pages
 
 - `/` opens the home page.
-- `/vocabulary` shows the complete A1.1 and A1.2 vocabulary.
+- `/vocabulary` shows the complete imported vocabulary.
 - `/nouns` shows the searchable noun list.
 - `/verbs` shows the searchable verb list.
 - `/adjectives` shows the searchable adjective list.

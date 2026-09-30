@@ -9,5 +9,5 @@ export interface GermanAdjective {
   superlative: string
   translations: Record<Language, string>
   levels?: string[]
-  categories?: Category[]
+  categories: Category[]
 }
