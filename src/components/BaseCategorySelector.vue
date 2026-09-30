@@ -83,7 +83,7 @@ function startPractice () {
 
 <template>
   <section
-    class="space-y-5"
+    class="space-y-5 pb-36 sm:pb-24"
   >
     <header
       class="space-y-1"
@@ -101,39 +101,43 @@ function startPractice () {
     </header>
 
     <div
-      class="sticky top-0 z-10 flex flex-col gap-2 border-y border-gray-500 bg-foreground/95 py-3 backdrop-blur sm:flex-row sm:items-center sm:justify-between"
+      class="fixed inset-x-0 bottom-0 z-20 border-t border-gray-500 bg-foreground/95 px-4 pb-4 pt-3 backdrop-blur"
     >
-      <button
-        type="button"
-        class="btn"
-        :disabled="!selectedCategories.length"
-        @click="selectedCategories = []"
-      >
-        {{ t('practice.categories.clear') }}
-      </button>
-
       <div
-        class="space-y-1 text-right"
+        class="mx-auto flex w-full max-w-5xl flex-col gap-2 sm:flex-row sm:items-center sm:justify-between"
       >
         <button
           type="button"
-          class="btn w-full sm:w-auto"
-          :disabled="selectedItemsCount < 2"
-          @click="startPractice"
+          class="btn disabled:cursor-not-allowed disabled:opacity-50"
+          :disabled="!selectedCategories.length"
+          @click="selectedCategories = []"
         >
-          {{ t('practice.categories.start', { count: selectedItemsCount }) }}
+          {{ t('practice.categories.clear') }}
         </button>
-        <p
-          v-if="selectedCategories.length && selectedItemsCount < 2"
-          class="text-xs text-gray-300"
+
+        <div
+          class="space-y-1 text-right"
         >
-          {{ t('practice.categories.minimum') }}
-        </p>
+          <button
+            type="button"
+            class="btn w-full disabled:cursor-not-allowed disabled:opacity-50 sm:w-auto"
+            :disabled="selectedItemsCount < 2"
+            @click="startPractice"
+          >
+            {{ t('practice.categories.start', { count: selectedItemsCount }) }}
+          </button>
+          <p
+            v-if="selectedCategories.length && selectedItemsCount < 2"
+            class="text-xs text-gray-300"
+          >
+            {{ t('practice.categories.minimum') }}
+          </p>
+        </div>
       </div>
     </div>
 
     <div
-      class="grid gap-2 pb-4 sm:grid-cols-2 lg:grid-cols-3"
+      class="grid gap-2 sm:grid-cols-2 lg:grid-cols-3"
     >
       <button
         type="button"
