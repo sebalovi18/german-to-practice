@@ -3,7 +3,7 @@
     "font": "Fuente"
   },
   "home": {
-    "description": "Repasa el vocabulario A1.1 y A1.2 de Miteinander, con traducciones al español y al inglés.",
+    "description": "Repasa el vocabulario A1–A2, con traducciones al español y al inglés.",
     "search": {
       "placeholder": "Buscar en alemán, español o inglés...",
       "resultsSummary": "Se encontraron {count} resultado(s).",
@@ -19,7 +19,7 @@
   },
   "pageTitles": {
     "home": "Inicio",
-    "vocabulary": "Vocabulario A1",
+    "vocabulary": "Vocabulario A1–A2",
     "nouns": "Sustantivos",
     "verbs": "Verbos",
     "adjectives": "Adjetivos",

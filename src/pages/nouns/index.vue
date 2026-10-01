@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { nouns } from '@/data/nouns'
+import { nouns } from '@/data/learningCatalogs'
 
 import { computed, ref } from 'vue'
 import { useI18n } from 'vue-i18n'
@@ -64,7 +64,7 @@ const tds = computed((): Td[] => [
   {
     label: t('nouns.table.plural'),
     class: tdClass,
-    value: noun => 'Die ' + (nouns.find(n => n.singular_id === noun.id)?.value || '-')
+    value: noun => noun.plural ? `Die ${noun.plural}` : 'Die ' + (nouns.find(n => n.singular_id === noun.id)?.value || '-')
   },
   {
     label: '🇪🇸',
@@ -93,6 +93,7 @@ const filteredNouns = computed(() => {
     noun.id.toLowerCase().includes(sanitizedFilterSearch)
     || noun.singular_id?.toLowerCase().includes(sanitizedFilterSearch)
     || noun.plural_id?.toLowerCase().includes(sanitizedFilterSearch)
+    || noun.plural?.toLowerCase().includes(sanitizedFilterSearch)
     || noun.value.toLowerCase().includes(sanitizedFilterSearch)
     || noun.translations.en.toLowerCase().includes(sanitizedFilterSearch)
     || noun.translations.es.toLowerCase().includes(sanitizedFilterSearch)

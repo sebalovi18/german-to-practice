@@ -1,10 +1,10 @@
 # 🇩🇪 German to Practice
 
-A friendly place to build German vocabulary with searchable word lists and short practice exercises. Browse the complete A1.1 and A1.2 vocabulary plus A2.1 lessons 1–4 from *Miteinander!*, or use the focused noun, verb, and adjective exercises.
+A friendly place to build German vocabulary with searchable word lists and short practice exercises. Browse the complete A1.1 and A1.2 vocabulary plus A2.1 lessons 1–4 from *Miteinander!* and an A1–A2 essential vocabulary collection, or use the focused noun, verb, and adjective exercises.
 
 ## ✨ Features
 
-- 📚 Browse 1,398 vocabulary entries across A1.1, A1.2, and A2.1 lessons 1–4.
+- 📚 Browse 1,712 vocabulary entries across A1.1, A1.2, A2.1 lessons 1–4, and the essential A1–A2 collection.
 - 🔎 Search German words, forms, examples, and English or Spanish translations.
 - 🏷️ Filter the complete vocabulary by level and word type.
 - 📖 Browse German nouns with articles, singular forms, and plural forms.
@@ -22,10 +22,12 @@ A friendly place to build German vocabulary with searchable word lists and short
 
 The vocabulary lives in `src/data`:
 
-- `src/data/vocabulary.ts`: the combined A1.1, A1.2, and A2.1 vocabulary
-- `src/data/nouns.ts`: 739 singular and plural noun forms
-- `src/data/verbs.ts`: 219 verbs
-- `src/data/adjectives.ts`: 111 adjectives
+- `src/data/vocabulary.ts`: the imported A1.1, A1.2, and A2.1 vocabulary
+- `src/data/learningCatalogs.ts`: the combined imported and essential vocabulary used by the app
+- `src/data/essentialVocabulary.ts`: the shared essential vocabulary catalog and category assignments
+- `src/data/nouns.ts`: 935 noun entries and forms
+- `src/data/verbs.ts`: 305 verbs
+- `src/data/adjectives.ts`: 209 adjectives
 - `src/data/categories.ts`: shared category identifiers used by all practice words
 
 Entries include German forms and English and Spanish translations. The complete vocabulary also includes level, lesson, page, word type, and book examples where available.
