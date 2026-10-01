@@ -1,7 +1,5 @@
 <script setup lang="ts">
-import { adjectives } from '@/data/adjectives'
-import { verbs } from '@/data/verbs'
-import { vocabulary } from '@/data/vocabulary'
+import { adjectives, verbs, vocabulary } from '@/data/learningCatalogs'
 
 import { computed, ref } from 'vue'
 import { useI18n } from 'vue-i18n'

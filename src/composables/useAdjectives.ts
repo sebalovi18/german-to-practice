@@ -1,6 +1,6 @@
 import { ref } from 'vue'
 
-import { adjectives } from '@/data/adjectives'
+import { adjectives } from '@/data/learningCatalogs'
 
 import type { GermanAdjective } from '@/interfaces/GermanAdjectives'
 

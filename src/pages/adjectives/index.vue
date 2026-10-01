@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { adjectives } from '@/data/adjectives'
+import { adjectives } from '@/data/learningCatalogs'
 
 import { computed, ref } from 'vue'
 import { useI18n } from 'vue-i18n'

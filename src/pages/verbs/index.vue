@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { verbs } from '@/data/verbs'
+import { verbs } from '@/data/learningCatalogs'
 
 import { computed, ref } from 'vue'
 import { useI18n } from 'vue-i18n'

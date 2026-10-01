@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { vocabulary } from '@/data/vocabulary'
+import { vocabulary } from '@/data/learningCatalogs'
 
 import { computed, ref, watch } from 'vue'
 import { useI18n } from 'vue-i18n'

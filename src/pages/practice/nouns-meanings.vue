@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue'
 
-import { nouns } from '@/data/nouns'
+import { nouns } from '@/data/learningCatalogs'
 
 import { useAudios } from '@/composables/useAudios'
 import { useNouns } from '@/composables/useNouns'

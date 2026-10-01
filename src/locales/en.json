@@ -3,7 +3,7 @@
     "font": "Font"
   },
   "home": {
-    "description": "Review the A1.1 and A1.2 vocabulary from Miteinander, with English and Spanish translations.",
+    "description": "Review A1–A2 vocabulary with English and Spanish translations.",
     "search": {
       "placeholder": "Search German, English, or Spanish...",
       "resultsSummary": "Found {count} result(s).",
@@ -19,7 +19,7 @@
   },
   "pageTitles": {
     "home": "Home",
-    "vocabulary": "A1 Vocabulary",
+    "vocabulary": "A1–A2 Vocabulary",
     "nouns": "Nouns",
     "verbs": "Verbs",
     "adjectives": "Adjectives",

@@ -1,6 +1,6 @@
 import { ref } from 'vue'
 
-import { nouns } from '@/data/nouns'
+import { nouns } from '@/data/learningCatalogs'
 
 import type { GermanNoun } from '@/interfaces/GermanNoun'
 
