@@ -1,10 +1,10 @@
 # 🇩🇪 German to Practice
 
-A friendly place to build German vocabulary with searchable word lists and short practice exercises. Browse the complete A1.1 and A1.2 vocabulary plus A2.1 lessons 1–4 from *Miteinander!* and an A1–A2 essential vocabulary collection, or use the focused noun, verb, and adjective exercises.
+A friendly place to build German vocabulary with searchable word lists and short practice exercises. Browse the A1.1, A1.2, and A2.1 lessons 1–8 vocabulary from the supplied *Miteinander!* scans and an A1–A2 essential vocabulary collection, or use the focused noun, verb, and adjective exercises.
 
 ## ✨ Features
 
-- 📚 Browse 1,712 vocabulary entries across A1.1, A1.2, A2.1 lessons 1–4, and the essential A1–A2 collection.
+- 📚 Browse 1,964 vocabulary entries across A1.1, A1.2, A2.1 lessons 1–8, and the essential A1–A2 collection.
 - 🔎 Search German words, forms, examples, and English or Spanish translations.
 - 🏷️ Filter the complete vocabulary by level and word type.
 - 📖 Browse German nouns with articles, singular forms, and plural forms.
@@ -25,12 +25,13 @@ The vocabulary lives in `src/data`:
 - `src/data/vocabulary.ts`: the imported A1.1, A1.2, and A2.1 vocabulary
 - `src/data/learningCatalogs.ts`: the combined imported and essential vocabulary used by the app
 - `src/data/essentialVocabulary.ts`: the shared essential vocabulary catalog and category assignments
-- `src/data/nouns.ts`: 935 noun entries and forms
-- `src/data/verbs.ts`: 305 verbs
-- `src/data/adjectives.ts`: 209 adjectives
+- `src/data/a21RemainingVocabulary.ts`: 278 book entries from lessons 5–8 (printed pages 220–229), plus their noun, verb, and adjective practice forms
+- The combined learning catalogs contain 1,067 noun entries/forms, 346 verbs, and 221 adjectives.
 - `src/data/categories.ts`: shared category identifiers used by all practice words
 
 Entries include German forms and English and Spanish translations. The complete vocabulary also includes level, lesson, page, word type, and book examples where available.
+
+The supplied scans end on printed page 229. The lesson 5 import starts at the bottom of page 220, which was intentionally excluded from the earlier lessons 1–4 import. New entries retain book page/lesson references; examples are currently omitted (`null`). Plural-only words are marked as plural for exercises. Run `node scripts/check-a21-remaining.mjs` to check page coverage, translations, IDs, and integration.
 
 ## 🧭 Pages
 
