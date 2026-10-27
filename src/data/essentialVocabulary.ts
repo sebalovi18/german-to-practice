@@ -700,7 +700,19 @@ const definitions: Definition[] = [
     verb('bremsen', 'bremste', 'gebremst', 'haben', 'brake', 'frenar'),
     adjective('voll', 'voller', 'am vollsten', 'full / crowded', 'lleno/a'),
     adjective('leer', 'leerer', 'am leersten', 'empty', 'vacío/a')
-  ])
+  ]),
+
+  ...[
+    noun('das', 'Einfamilienhaus', 'Einfamilienhäuser', 'detached single-family house', 'casa unifamiliar'),
+    noun('das', 'Mehrfamilienhaus', 'Mehrfamilienhäuser', 'multi-family residential building', 'edificio de viviendas para varias familias'),
+    noun('das', 'Hochhaus', 'Hochhäuser', 'high-rise building', 'edificio de gran altura'),
+    noun('das', 'Doppelhaus', 'Doppelhäuser', 'pair of semi-detached houses', 'casa pareada (dos viviendas adosadas entre sí)'),
+    noun('das', 'Reihenhaus', 'Reihenhäuser', 'terraced house / row house', 'casa adosada en hilera'),
+    noun('der', 'Wolkenkratzer', 'Wolkenkratzer', 'skyscraper', 'rascacielos')
+  ].map(word => ({
+    ...word,
+    categories: [CATEGORIES.HOUSEHOLD, CATEGORIES.LOCATIONS]
+  }))
 ]
 
 const definitionKey = (definition: EssentialDefinition) => {
