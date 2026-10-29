@@ -712,7 +712,15 @@ const definitions: Definition[] = [
   ].map(word => ({
     ...word,
     categories: [CATEGORIES.HOUSEHOLD, CATEGORIES.LOCATIONS]
-  }))
+  })),
+  {
+    ...noun('der', 'Wetterbericht', 'Wetterberichte', 'weather report / weather forecast', 'informe / pronóstico del tiempo'),
+    categories: [CATEGORIES.WEATHER, CATEGORIES.COMMUNICATION]
+  },
+  {
+    ...noun('der', 'Geburtstagsgruß', 'Geburtstagsgrüße', 'birthday greeting', 'saludo / felicitación de cumpleaños'),
+    categories: [CATEGORIES.COMMUNICATION, CATEGORIES.DATES]
+  }
 ]
 
 const definitionKey = (definition: EssentialDefinition) => {
