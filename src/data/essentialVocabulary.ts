@@ -720,7 +720,97 @@ const definitions: Definition[] = [
   {
     ...noun('der', 'Geburtstagsgruß', 'Geburtstagsgrüße', 'birthday greeting', 'saludo / felicitación de cumpleaños'),
     categories: [CATEGORIES.COMMUNICATION, CATEGORIES.DATES]
-  }
+  },
+
+  // Missing words from the user's workplace/hotel exercise image.
+  ...[
+    noun('die', 'Arztpraxis', 'Arztpraxen', 'doctor’s surgery / medical practice', 'consultorio médico'),
+    noun('das', 'Wartezimmer', 'Wartezimmer', 'waiting room', 'sala de espera'),
+    noun('das', 'Untersuchungszimmer', 'Untersuchungszimmer', 'examination room', 'sala de exploración médica')
+  ].map(word => ({
+    ...word,
+    categories: [CATEGORIES.HEALTH, CATEGORIES.LOCATIONS, CATEGORIES.WORK]
+  })),
+  ...[
+    noun('die', 'Anmeldung', 'Anmeldungen', 'registration / reception desk', 'registro / recepción'),
+    noun('die', 'Fabrik', 'Fabriken', 'factory', 'fábrica'),
+    noun('das', 'Lager', 'Lager', 'warehouse / storage room', 'almacén / depósito'),
+    noun('die', 'Telefonzentrale', 'Telefonzentralen', 'telephone switchboard', 'central telefónica'),
+    noun('die', 'Fabrikhalle', 'Fabrikhallen', 'factory hall', 'nave industrial'),
+    noun('das', 'Büro', 'Büros', 'office', 'oficina'),
+    noun('der', 'Kopierraum', 'Kopierräume', 'photocopying room', 'sala de fotocopias'),
+    noun('die', 'Teeküche', 'Teeküchen', 'office kitchenette', 'pequeña cocina de oficina'),
+    noun('das', 'Chefzimmer', 'Chefzimmer', 'manager’s office', 'despacho del jefe'),
+    noun('das', 'Schreibbüro', 'Schreibbüros', 'typing / secretarial services office', 'oficina de servicios de escritura'),
+    noun('die', 'Kantine', 'Kantinen', 'staff canteen', 'comedor de empresa'),
+    noun('der', 'Empfang', 'Empfänge', 'reception / reception desk', 'recepción'),
+    noun('die', 'Wäscherei', 'Wäschereien', 'laundry', 'lavandería'),
+    noun('die', 'Beratung', 'Beratungen', 'advice / consultation', 'asesoramiento / consulta')
+  ].map(word => ({
+    ...word,
+    categories: [CATEGORIES.WORK, CATEGORIES.LOCATIONS]
+  })),
+  ...[
+    noun('der', 'Fernsehraum', 'Fernsehräume', 'TV room', 'sala de televisión'),
+    noun('die', 'Bar', 'Bars', 'bar', 'bar'),
+    noun('der', 'Speisesaal', 'Speisesäle', 'dining hall', 'comedor'),
+    noun('die', 'Garderobe', 'Garderoben', 'cloakroom / wardrobe', 'guardarropa'),
+    noun('das', 'Dachcafé', 'Dachcafés', 'rooftop café', 'cafetería en la azotea')
+  ].map(word => ({
+    ...word,
+    categories: [CATEGORIES.TRAVEL, CATEGORIES.LOCATIONS, CATEGORIES.LEISURE]
+  })),
+  ...[
+    noun('das', 'Kaufhaus', 'Kaufhäuser', 'department store', 'grandes almacenes'),
+    noun('die', 'Herrenabteilung', 'Herrenabteilungen', 'menswear department', 'sección de ropa de hombres'),
+    noun('der', 'Kiosk', 'Kioske', 'kiosk / newsstand', 'quiosco'),
+    noun('das', 'Geschäft', 'Geschäfte', 'shop / business', 'tienda / negocio')
+  ].map(word => ({
+    ...word,
+    categories: [CATEGORIES.SHOPPING, CATEGORIES.LOCATIONS]
+  })),
+  ...[
+    noun('der', 'Informationsschalter', 'Informationsschalter', 'information desk', 'mostrador de información'),
+    noun('der', 'Kassenautomat', 'Kassenautomaten', 'payment machine', 'máquina de pago automático'),
+    noun('das', 'Wärterhäuschen', 'Wärterhäuschen', 'attendant’s booth / guardhouse', 'caseta del vigilante'),
+    noun('die', 'Tankstelle', 'Tankstellen', 'petrol / gas station', 'gasolinera')
+  ].map(word => ({
+    ...word,
+    categories: [CATEGORIES.TRANSPORTATION, CATEGORIES.LOCATIONS]
+  })),
+  ...[
+    noun('das', 'Treppenhaus', 'Treppenhäuser', 'stairwell', 'caja de escaleras / escalera del edificio'),
+    noun('das', 'Tiefgeschoss', 'Tiefgeschosse', 'basement level', 'planta subterránea'),
+    noun('das', 'Dachgeschoss', 'Dachgeschosse', 'attic floor / top floor under the roof', 'planta bajo el tejado / ático')
+  ].map(word => ({
+    ...word,
+    categories: [CATEGORIES.HOUSEHOLD, CATEGORIES.LOCATIONS]
+  })),
+  ...[
+    noun('die', 'Sekretärin', 'Sekretärinnen', 'secretary', 'secretaria'),
+    noun('der', 'Handwerker', 'Handwerker', 'tradesperson / craftsman', 'trabajador de un oficio / artesano'),
+    noun('die', 'Chefin', 'Chefinnen', 'female boss / manager', 'jefa'),
+    noun('die', 'Aushilfe', 'Aushilfen', 'temporary worker / assistant', 'empleado/a de apoyo o temporal')
+  ].map(word => ({
+    ...word,
+    categories: [CATEGORIES.PROFESSIONS, CATEGORIES.PEOPLE, CATEGORIES.WORK]
+  })),
+  ...[
+    // Dictionary singulars; the image uses the plural forms stored here.
+    noun('die', 'Fleischware', 'Fleischwaren', 'meat product', 'producto cárnico'),
+    noun('das', 'Milchprodukt', 'Milchprodukte', 'dairy product', 'producto lácteo')
+  ].map(word => ({
+    ...word,
+    categories: [CATEGORIES.FOOD, CATEGORIES.SHOPPING]
+  })),
+  ...[
+    verb('markieren', 'markierte', 'markiert', 'haben', 'mark / highlight', 'marcar / resaltar'),
+    verb('an|kreuzen', 'kreuzte an', 'angekreuzt', 'haben', 'tick / mark with a cross', 'marcar con una cruz'),
+    verb('zu|ordnen', 'ordnete zu', 'zugeordnet', 'haben', 'match / assign', 'relacionar / asignar')
+  ].map(word => ({
+    ...word,
+    categories: [CATEGORIES.EDUCATION, CATEGORIES.WORK]
+  }))
 ]
 
 const definitionKey = (definition: EssentialDefinition) => {
