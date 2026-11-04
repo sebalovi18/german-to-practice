@@ -810,7 +810,11 @@ const definitions: Definition[] = [
   ].map(word => ({
     ...word,
     categories: [CATEGORIES.EDUCATION, CATEGORIES.WORK]
-  }))
+  })),
+  {
+    ...verb('betreuen', 'betreute', 'betreut', 'haben', 'look after / care for / supervise', 'cuidar / atender / supervisar'),
+    categories: [CATEGORIES.HEALTH, CATEGORIES.PEOPLE, CATEGORIES.WORK]
+  }
 ]
 
 const definitionKey = (definition: EssentialDefinition) => {
