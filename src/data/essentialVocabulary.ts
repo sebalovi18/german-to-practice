@@ -810,7 +810,31 @@ const definitions: Definition[] = [
   ].map(word => ({
     ...word,
     categories: [CATEGORIES.EDUCATION, CATEGORIES.WORK]
-  }))
+  })),
+  {
+    ...verb('betreuen', 'betreute', 'betreut', 'haben', 'look after / care for / supervise', 'cuidar / atender / supervisar'),
+    categories: [CATEGORIES.HEALTH, CATEGORIES.PEOPLE, CATEGORIES.WORK]
+  },
+  {
+    ...verb('sich hin|legen', 'legte sich hin', 'hingelegt', 'haben', 'lie down', 'acostarse / recostarse'),
+    categories: [CATEGORIES.BODY, CATEGORIES.HEALTH, CATEGORIES.HOUSEHOLD]
+  },
+  {
+    ...verb('sich rasieren', 'rasierte sich', 'rasiert', 'haben', 'shave oneself', 'afeitarse'),
+    categories: [CATEGORIES.BODY, CATEGORIES.HOUSEHOLD]
+  },
+  {
+    ...verb('sich setzen', 'setzte sich', 'gesetzt', 'haben', 'sit down', 'sentarse'),
+    categories: [CATEGORIES.BODY, CATEGORIES.HOUSEHOLD]
+  },
+  {
+    ...verb('sich waschen', 'wusch sich', 'gewaschen', 'haben', 'wash oneself', 'lavarse'),
+    categories: [CATEGORIES.BODY, CATEGORIES.HEALTH, CATEGORIES.HOUSEHOLD]
+  },
+  {
+    ...verb('sich an|ziehen', 'zog sich an', 'angezogen', 'haben', 'get dressed', 'vestirse'),
+    categories: [CATEGORIES.CLOTHING, CATEGORIES.BODY, CATEGORIES.HOUSEHOLD]
+  }
 ]
 
 const definitionKey = (definition: EssentialDefinition) => {
