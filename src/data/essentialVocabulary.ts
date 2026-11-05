@@ -830,6 +830,10 @@ const definitions: Definition[] = [
   {
     ...verb('sich waschen', 'wusch sich', 'gewaschen', 'haben', 'wash oneself', 'lavarse'),
     categories: [CATEGORIES.BODY, CATEGORIES.HEALTH, CATEGORIES.HOUSEHOLD]
+  },
+  {
+    ...verb('sich an|ziehen', 'zog sich an', 'angezogen', 'haben', 'get dressed', 'vestirse'),
+    categories: [CATEGORIES.CLOTHING, CATEGORIES.BODY, CATEGORIES.HOUSEHOLD]
   }
 ]
 

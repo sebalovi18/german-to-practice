@@ -3,6 +3,7 @@ import { createServer } from 'vite'
 
 const normalize = value => value.replaceAll('|', '').toLocaleLowerCase('de-DE').trim()
 const expected = [
+  ['sich anziehen', 'zog sich an', 'angezogen'],
   ['sich bewerben', 'bewarb sich', 'beworben'],
   ['sich ausruhen', 'ruhte sich aus', 'ausgeruht'],
   ['sich ärgern', 'ärgerte sich', 'geärgert'],
@@ -42,7 +43,7 @@ try {
   for (const key of ['verbs', 'vocabulary']) {
     assert.equal(new Set(catalogs[key].map(word => word.id)).size, catalogs[key].length)
   }
-  console.log('Verified all 10 reflexive verbs, their forms, translations, categories and dictionary inclusion.')
+  console.log(`Verified all ${expected.length} reflexive verbs, their forms, translations, categories and dictionary inclusion.`)
 } finally {
   await server.close()
 }
