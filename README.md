@@ -4,7 +4,7 @@ A friendly place to build German vocabulary with searchable word lists and short
 
 ## ✨ Features
 
-- 📚 Browse 2,009 vocabulary entries across A1.1, A1.2, A2.1 lessons 1–8, and the essential A1–A2 collection.
+- 📚 Browse 2,013 vocabulary entries across A1.1, A1.2, A2.1 lessons 1–8, and the essential A1–A2 collection.
 - 🔎 Search German words, forms, examples, and English or Spanish translations.
 - 🏷️ Filter the complete vocabulary by level and word type.
 - 📖 Browse German nouns with articles, singular forms, and plural forms.
@@ -26,7 +26,7 @@ The vocabulary lives in `src/data`:
 - `src/data/learningCatalogs.ts`: the combined imported and essential vocabulary used by the app
 - `src/data/essentialVocabulary.ts`: the shared essential vocabulary catalog and category assignments
 - `src/data/a21RemainingVocabulary.ts`: 278 book entries from lessons 5–8 (printed pages 220–229), plus their noun, verb, and adjective practice forms
-- The combined learning catalogs contain 1,114 noun entries/forms, 350 verbs, and 221 adjectives.
+- The combined learning catalogs contain 1,114 noun entries/forms, 354 verbs, and 221 adjectives.
 - `src/data/categories.ts`: shared category identifiers used by all practice words
 
 Entries include German forms and English and Spanish translations. The complete vocabulary also includes level, lesson, page, word type, and book examples where available.
